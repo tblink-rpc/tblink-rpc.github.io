@@ -18,7 +18,7 @@ allow a Verilog description to call out to a PLI/VPI task, but
 do not permit a foreign language to call back into the environment.
 
 There is also interest in exploring different languages for use in
-functional verification. The (cocotb)[https://github.com/cocotb/cocotb]
+functional verification. The [cocotb](https://github.com/cocotb/cocotb)
 project provides an integration between Python and Verilog 
 simulators at the signal level. However, there is also interest in 
 using C++, Rust, Java, and other languages for creating tests.
@@ -30,7 +30,7 @@ of programming languages and integrated development environments (IDEs)
 some time ago. A variety of IDEs existed, each with a non-overlapping
 set of supported languages. Adding support for a new language to an
 IDE involved significant custom work. The introduction of the
-(language-server protocol)[https://microsoft.github.io/language-server-protocol/]
+[language-server protocol](https://microsoft.github.io/language-server-protocol/)
 changed this situation significantly by allowing language developers
 to implement an interface to knowledge of the language details,
 and allowing IDE developers to implement against that interface.
@@ -43,6 +43,9 @@ against the TBLink-RPC interface without regard to the execution
 platform. 
 
 
+## TBLink-RPC Phased Development
+
+### Phase1 -- 
 
 
 
