@@ -43,9 +43,17 @@ against the TBLink-RPC interface without regard to the execution
 platform. 
 
 
-## TBLink-RPC Phased Development
+## TbLink-RPC Project
 
-### Phase1 -- 
+TbLink-RPC is not yet in a usable state, but is in active development.
+If you're interested, please see projects in the 
+[tblink-rpc](https://github.com/tblink-rpc) organization. Here is a
+short overview of key projects.
+
+- [tblink-rpc-core](https://github.com/tblink-rpc/tblink-rpc-core) -- Core API implementations in C++ and Python
+- [tblink-rpc-hdl](https://github.com/tblink-rpc/tblink-rpc-hdl) -- HDL-Simulator integrations for Verilog and SystemVerilog simulators
+- [pytblink-rpc](https://github.com/tblink-rpc/pytblink-rpc) -- Python-based user facade 
+
 
 
 
