@@ -1,0 +1,13 @@
+
+package:
+  name: tblink-rpc-web
+  version: 0.0.1
+  
+  dev-deps:
+    - name: tblink-rpc-docs
+      url: https://github.com/tblink-rpc/tblink-rpc-docs.git
+
+  deps:
+    - name: tblink-rpc-docs
+      url: https://github.com/tblink-rpc/tblink-rpc-docs.git
+
