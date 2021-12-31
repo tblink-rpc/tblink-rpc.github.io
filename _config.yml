@@ -1,1 +1,29 @@
-theme: jekyll-theme-tactile
+# Setup
+title:               'TbLink RPC'
+tagline:             'A flexible co-simulation framework'
+description:         ''
+url:                 '.'
+baseurl:             '.'
+paginate:            5
+#permalink:           pretty
+
+exclude:
+    - packages
+
+# About/contact
+author:
+  name:              Matthew Ballance
+  url:               http://mballance.github.io
+  email:             matt.ballance@gmail.com
+  
+github:
+  repo: http://github.com/tblink-rpc
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Custom vars
+version:             1.0.0
+google_analytics_id: #UA-XXXX-Y
+
