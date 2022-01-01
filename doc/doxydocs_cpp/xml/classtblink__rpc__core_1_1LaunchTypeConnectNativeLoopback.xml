@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc__core_1_1LaunchTypeConnectNativeLoopback" kind="class" language="C++" prot="public">
+    <compoundname>tblink_rpc_core::LaunchTypeConnectNativeLoopback</compoundname>
+    <basecompoundref refid="classtblink__rpc__core_1_1ILaunchType" prot="public" virt="non-virtual">tblink_rpc_core::ILaunchType</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc__core_1_1LaunchTypeConnectNativeLoopback_1a8a5df3000d1af379d6a5f7c97fa73d29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>tblink_rpc_core::LaunchTypeConnectNativeLoopback::LaunchTypeConnectNativeLoopback</definition>
+        <argsstring>()</argsstring>
+        <name>LaunchTypeConnectNativeLoopback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeConnectNativeLoopback.h" line="15" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeConnectNativeLoopback.cpp" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1LaunchTypeConnectNativeLoopback_1a0dcaf19d98535f32af60379adc225248" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>tblink_rpc_core::LaunchTypeConnectNativeLoopback::~LaunchTypeConnectNativeLoopback</definition>
+        <argsstring>()</argsstring>
+        <name>~LaunchTypeConnectNativeLoopback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeConnectNativeLoopback.h" line="17" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeConnectNativeLoopback.cpp" bodystart="22" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1LaunchTypeConnectNativeLoopback_1aaed402357c2c8667f9f0905757c21c87" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>std::string</type>
+        <definition>virtual std::string tblink_rpc_core::LaunchTypeConnectNativeLoopback::name</definition>
+        <argsstring>() override</argsstring>
+        <name>name</name>
+        <reimplements refid="classtblink__rpc__core_1_1ILaunchType_1a9cad1552f86d769a574e6574f443e64b">name</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeConnectNativeLoopback.h" line="19" column="21" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeConnectNativeLoopback.h" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1LaunchTypeConnectNativeLoopback_1acb2b1d9f9bdd7a419fb6e46b6c74091e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>result_t</type>
+        <definition>ILaunchType::result_t tblink_rpc_core::LaunchTypeConnectNativeLoopback::launch</definition>
+        <argsstring>(ILaunchParams *params, IEndpointServices *services) override</argsstring>
+        <name>launch</name>
+        <reimplements refid="classtblink__rpc__core_1_1ILaunchType_1ab2a3cafba14515b616f462fce6b6f4c8">launch</reimplements>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1ILaunchParams" kindref="compound">ILaunchParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1IEndpointServices" kindref="compound">IEndpointServices</ref> *</type>
+          <declname>services</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Launches a peer endpoint and returns the appropriate endpoint. In the case of an error, the string will contain an error message</para>
+<para>If the launcher wishes to specify the endpoint services, then that must be done now. Otherwise, the environment implementing the launcher will specify the default services for that environment </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeConnectNativeLoopback.h" line="21" column="18" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeConnectNativeLoopback.cpp" bodystart="26" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1LaunchTypeConnectNativeLoopback_1a1088fc912120aa81085e68ce080041a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classtblink__rpc__core_1_1ILaunchParams" kindref="compound">ILaunchParams</ref> *</type>
+        <definition>ILaunchParams * tblink_rpc_core::LaunchTypeConnectNativeLoopback::newLaunchParams</definition>
+        <argsstring>() override</argsstring>
+        <name>newLaunchParams</name>
+        <reimplements refid="classtblink__rpc__core_1_1ILaunchType_1ad79cc73db758b0a1e1936924d96773ec">newLaunchParams</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeConnectNativeLoopback.h" line="25" column="23" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeConnectNativeLoopback.cpp" bodystart="49" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>tblink_rpc_core::LaunchTypeConnectNativeLoopback</label>
+        <link refid="classtblink__rpc__core_1_1LaunchTypeConnectNativeLoopback"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tblink_rpc_core::ILaunchType</label>
+        <link refid="classtblink__rpc__core_1_1ILaunchType"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>tblink_rpc_core::LaunchTypeConnectNativeLoopback</label>
+        <link refid="classtblink__rpc__core_1_1LaunchTypeConnectNativeLoopback"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tblink_rpc_core::ILaunchType</label>
+        <link refid="classtblink__rpc__core_1_1ILaunchType"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeConnectNativeLoopback.h" line="13" column="57" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeConnectNativeLoopback.h" bodystart="13" bodyend="26"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc__core_1_1LaunchTypeConnectNativeLoopback_1acb2b1d9f9bdd7a419fb6e46b6c74091e" prot="public" virt="virtual"><scope>tblink_rpc_core::LaunchTypeConnectNativeLoopback</scope><name>launch</name></member>
+      <member refid="classtblink__rpc__core_1_1LaunchTypeConnectNativeLoopback_1a8a5df3000d1af379d6a5f7c97fa73d29" prot="public" virt="non-virtual"><scope>tblink_rpc_core::LaunchTypeConnectNativeLoopback</scope><name>LaunchTypeConnectNativeLoopback</name></member>
+      <member refid="classtblink__rpc__core_1_1LaunchTypeConnectNativeLoopback_1aaed402357c2c8667f9f0905757c21c87" prot="public" virt="virtual"><scope>tblink_rpc_core::LaunchTypeConnectNativeLoopback</scope><name>name</name></member>
+      <member refid="classtblink__rpc__core_1_1LaunchTypeConnectNativeLoopback_1a1088fc912120aa81085e68ce080041a6" prot="public" virt="virtual"><scope>tblink_rpc_core::LaunchTypeConnectNativeLoopback</scope><name>newLaunchParams</name></member>
+      <member refid="classtblink__rpc__core_1_1ILaunchType_1ab0d4e18d32685759a028783112401475" prot="public" virt="non-virtual"><scope>tblink_rpc_core::LaunchTypeConnectNativeLoopback</scope><name>result_t</name></member>
+      <member refid="classtblink__rpc__core_1_1ILaunchType_1afeeab7831db7fc8d1c4f46788876888f" prot="public" virt="virtual"><scope>tblink_rpc_core::LaunchTypeConnectNativeLoopback</scope><name>~ILaunchType</name></member>
+      <member refid="classtblink__rpc__core_1_1LaunchTypeConnectNativeLoopback_1a0dcaf19d98535f32af60379adc225248" prot="public" virt="virtual"><scope>tblink_rpc_core::LaunchTypeConnectNativeLoopback</scope><name>~LaunchTypeConnectNativeLoopback</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

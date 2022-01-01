@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc_1_1DpiParamValMap" kind="class" language="C++" prot="public">
+    <compoundname>tblink_rpc::DpiParamValMap</compoundname>
+    <basecompoundref refid="classtblink__rpc_1_1IParamValMap" prot="public" virt="non-virtual">tblink_rpc::IParamValMap</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classtblink__rpc_1_1DpiParamValMap_1aa016b5ef4b6cfc2494e40be9efa70379" prot="public" static="no" mutable="no">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::DpiParamValMap::m_hndl</definition>
+        <argsstring></argsstring>
+        <name>m_hndl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2944" column="8" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2944" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiParamValMap_1a2ce6bec48ac23765aff6b7582679519a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>tblink_rpc::DpiParamValMap::new</definition>
+        <argsstring>(chandle hndl)</argsstring>
+        <name>new</name>
+        <param>
+          <type>chandle</type>
+          <declname>hndl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2947" column="2" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2947" bodyend="2949"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiParamValMap_1a6c87368d63a7c7464b815e68ce6f4473" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>kind_e</type>
+        <definition>virtual kind_e tblink_rpc::DpiParamValMap::kind</definition>
+        <argsstring>()</argsstring>
+        <name>kind</name>
+        <reimplements refid="classtblink__rpc_1_1IParamVal_1affbf6191b5e9f31bb6271889a46fec78">kind</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2951" column="17" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2951" bodyend="2953"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiParamValMap_1ad6f3ebfbab90777a04d14dd0757e20bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bit</type>
+        <definition>virtual bit tblink_rpc::DpiParamValMap::hasKey</definition>
+        <argsstring>(string key)</argsstring>
+        <name>hasKey</name>
+        <reimplements refid="classtblink__rpc_1_1IParamValMap_1a52dcf518973ab8fd613da61099822bca">hasKey</reimplements>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2955" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2955" bodyend="2957"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiParamValMap_1a3d5137ffd88b79b5b9bed46f310bdb06" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classtblink__rpc_1_1IParamVal" kindref="compound">IParamVal</ref></type>
+        <definition>virtual IParamVal tblink_rpc::DpiParamValMap::getVal</definition>
+        <argsstring>(string key)</argsstring>
+        <name>getVal</name>
+        <reimplements refid="classtblink__rpc_1_1IParamValMap_1a115d5fe986414ccbbc75153afc8a70e4">getVal</reimplements>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2959" column="20" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2959" bodyend="2962"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiParamValMap_1ad7704041c845c7f55a4580b40bb1761e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void tblink_rpc::DpiParamValMap::setVal</definition>
+        <argsstring>(string key, IParamVal val)</argsstring>
+        <name>setVal</name>
+        <reimplements refid="classtblink__rpc_1_1IParamValMap_1a0025327ab7613efc365c4ace413ea6ac">setVal</reimplements>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type><ref refid="classtblink__rpc_1_1IParamVal" kindref="compound">IParamVal</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2964" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2964" bodyend="2970"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiParamValMap_1a2e8b11a14df118355616bee3a0deb1d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void tblink_rpc::DpiParamValMap::dispose</definition>
+        <argsstring>()</argsstring>
+        <name>dispose</name>
+        <reimplements refid="classtblink__rpc_1_1IParamVal_1aaa1cbdce83bbaa29e94322568f5cba71">dispose</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2972" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2972" bodyend="2974"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiParamValMap_1a98f666644cb96612a609d179fef2d6eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classtblink__rpc_1_1IParamVal" kindref="compound">IParamVal</ref></type>
+        <definition>virtual IParamVal tblink_rpc::DpiParamValMap::clone</definition>
+        <argsstring>()</argsstring>
+        <name>clone</name>
+        <reimplements refid="classtblink__rpc_1_1IParamVal_1abd242317efff0ba895bb264fea3b38ab">clone</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2976" column="20" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2976" bodyend="2978"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="classtblink__rpc_1_1DpiParamValMap" kindref="compound">DpiParamValMap</ref></para>
+<para>TODO: Add class documentation </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>tblink_rpc::IParamValMap</label>
+        <link refid="classtblink__rpc_1_1IParamValMap"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tblink_rpc::IParamVal</label>
+        <link refid="classtblink__rpc_1_1IParamVal"/>
+      </node>
+      <node id="1">
+        <label>tblink_rpc::DpiParamValMap</label>
+        <link refid="classtblink__rpc_1_1DpiParamValMap"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>tblink_rpc::IParamValMap</label>
+        <link refid="classtblink__rpc_1_1IParamValMap"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tblink_rpc::IParamVal</label>
+        <link refid="classtblink__rpc_1_1IParamVal"/>
+      </node>
+      <node id="1">
+        <label>tblink_rpc::DpiParamValMap</label>
+        <link refid="classtblink__rpc_1_1DpiParamValMap"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2941" column="41" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2941" bodyend="2979"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc_1_1IParamVal_1a4e4692922c2291ce5952d0800b5a9279a81cec13a615937f06382243992bf5983" prot="public" virt="non-virtual"><scope>tblink_rpc::DpiParamValMap</scope><name>Bool</name></member>
+      <member refid="classtblink__rpc_1_1DpiParamValMap_1a98f666644cb96612a609d179fef2d6eb" prot="public" virt="virtual"><scope>tblink_rpc::DpiParamValMap</scope><name>clone</name></member>
+      <member refid="classtblink__rpc_1_1DpiParamValMap_1a2e8b11a14df118355616bee3a0deb1d4" prot="public" virt="virtual"><scope>tblink_rpc::DpiParamValMap</scope><name>dispose</name></member>
+      <member refid="classtblink__rpc_1_1DpiParamValMap_1a3d5137ffd88b79b5b9bed46f310bdb06" prot="public" virt="virtual"><scope>tblink_rpc::DpiParamValMap</scope><name>getVal</name></member>
+      <member refid="classtblink__rpc_1_1DpiParamValMap_1ad6f3ebfbab90777a04d14dd0757e20bb" prot="public" virt="virtual"><scope>tblink_rpc::DpiParamValMap</scope><name>hasKey</name></member>
+      <member refid="classtblink__rpc_1_1IParamVal_1a4e4692922c2291ce5952d0800b5a9279a0dda70d85041e78bbfe1d5a5dc91536b" prot="public" virt="non-virtual"><scope>tblink_rpc::DpiParamValMap</scope><name>Int</name></member>
+      <member refid="classtblink__rpc_1_1DpiParamValMap_1a6c87368d63a7c7464b815e68ce6f4473" prot="public" virt="virtual"><scope>tblink_rpc::DpiParamValMap</scope><name>kind</name></member>
+      <member refid="classtblink__rpc_1_1IParamVal_1a4e4692922c2291ce5952d0800b5a9279" prot="public" virt="non-virtual"><scope>tblink_rpc::DpiParamValMap</scope><name>kind_e</name></member>
+      <member refid="classtblink__rpc_1_1DpiParamValMap_1aa016b5ef4b6cfc2494e40be9efa70379" prot="public" virt="non-virtual"><scope>tblink_rpc::DpiParamValMap</scope><name>m_hndl</name></member>
+      <member refid="classtblink__rpc_1_1IParamVal_1a4e4692922c2291ce5952d0800b5a9279af79236bf425d2c48137c935843e34f11" prot="public" virt="non-virtual"><scope>tblink_rpc::DpiParamValMap</scope><name>Map</name></member>
+      <member refid="classtblink__rpc_1_1DpiParamValMap_1a2ce6bec48ac23765aff6b7582679519a" prot="public" virt="non-virtual"><scope>tblink_rpc::DpiParamValMap</scope><name>new</name></member>
+      <member refid="classtblink__rpc_1_1DpiParamValMap_1ad7704041c845c7f55a4580b40bb1761e" prot="public" virt="virtual"><scope>tblink_rpc::DpiParamValMap</scope><name>setVal</name></member>
+      <member refid="classtblink__rpc_1_1IParamVal_1a4e4692922c2291ce5952d0800b5a9279a3ab7af46bf3bca16f897b38970d5c5b1" prot="public" virt="non-virtual"><scope>tblink_rpc::DpiParamValMap</scope><name>Str</name></member>
+      <member refid="classtblink__rpc_1_1IParamVal_1a4e4692922c2291ce5952d0800b5a9279a11b03ded6ea11943e22eab95744e3dc3" prot="public" virt="non-virtual"><scope>tblink_rpc::DpiParamValMap</scope><name>Vec</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

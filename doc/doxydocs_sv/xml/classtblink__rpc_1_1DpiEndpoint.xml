@@ -1,0 +1,599 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc_1_1DpiEndpoint" kind="class" language="C++" prot="public">
+    <compoundname>tblink_rpc::DpiEndpoint</compoundname>
+    <basecompoundref refid="classtblink__rpc_1_1IEndpoint" prot="public" virt="non-virtual">tblink_rpc::IEndpoint</basecompoundref>
+    <derivedcompoundref refid="classtblink__rpc_1_1DpiEndpointLoopbackDpi" prot="public" virt="non-virtual">tblink_rpc::DpiEndpointLoopbackDpi</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classtblink__rpc_1_1DpiEndpoint_1a6d38438f7e41a19aae61cc5b8f64a689" prot="public" static="no" mutable="no">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::DpiEndpoint::m_hndl</definition>
+        <argsstring></argsstring>
+        <name>m_hndl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3388" column="8" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3388" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtblink__rpc_1_1DpiEndpoint_1aa9ce0f3a58848430b3c52eb783e7914d" prot="public" static="no" mutable="no">
+        <type><ref refid="classtblink__rpc_1_1DpiEndpoint" kindref="compound">DpiEndpoint</ref></type>
+        <definition>DpiEndpoint tblink_rpc::DpiEndpoint::m_this</definition>
+        <argsstring></argsstring>
+        <name>m_this</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3389" column="12" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3389" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtblink__rpc_1_1DpiEndpoint_1a040e24272a0143da9e2ea93c84643e10" prot="public" static="no" mutable="no">
+        <type>int unsigned</type>
+        <definition>int unsigned tblink_rpc::DpiEndpoint::m_ifinst_id</definition>
+        <argsstring></argsstring>
+        <name>m_ifinst_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3392" column="13" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3392" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtblink__rpc_1_1DpiEndpoint_1a38fc76b83b7f5752c8ca02e13612b03c" prot="public" static="no" mutable="no">
+        <type><ref refid="classtblink__rpc_1_1IInterfaceImpl" kindref="compound">IInterfaceImpl</ref></type>
+        <definition>IInterfaceImpl tblink_rpc::DpiEndpoint::m_ifimpl_m[chandle]</definition>
+        <argsstring>[chandle]</argsstring>
+        <name>m_ifimpl_m</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3393" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3393" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtblink__rpc_1_1DpiEndpoint_1aa5d218d1453d70207ec9b712203fe853" prot="public" static="no" mutable="no">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::DpiEndpoint::m_ifinst_m[IInterfaceImpl]</definition>
+        <argsstring>[IInterfaceImpl]</argsstring>
+        <name>m_ifinst_m</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3394" column="8" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3394" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtblink__rpc_1_1DpiEndpoint_1a4fe98dde796d10eb5b43000dfc87498e" prot="public" static="no" mutable="no">
+        <type>bit</type>
+        <definition>bit tblink_rpc::DpiEndpoint::m_started</definition>
+        <argsstring></argsstring>
+        <name>m_started</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3395" column="4" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3395" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtblink__rpc_1_1DpiEndpoint_1a6c20819a5595c4f5b9156137bfec677e" prot="public" static="no" mutable="no">
+        <type>bit</type>
+        <definition>bit tblink_rpc::DpiEndpoint::m_running</definition>
+        <argsstring></argsstring>
+        <name>m_running</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3396" column="4" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3396" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtblink__rpc_1_1DpiEndpoint_1a021ccd2acfef9ea9b2d76e2cb2fcc1ff" prot="public" static="no" mutable="no">
+        <type><ref refid="classtblink__rpc_1_1IEndpointServices" kindref="compound">IEndpointServices</ref></type>
+        <definition>IEndpointServices tblink_rpc::DpiEndpoint::m_services</definition>
+        <argsstring></argsstring>
+        <name>m_services</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3397" column="18" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3397" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtblink__rpc_1_1DpiEndpoint_1a1dfef88d823b9990adfb800206237cf2" prot="public" static="no" mutable="no">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::DpiEndpoint::m_services_proxy</definition>
+        <argsstring></argsstring>
+        <name>m_services_proxy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3398" column="8" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3398" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiEndpoint_1a54bac19fe40cc0054298e6cc63bddcc2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>tblink_rpc::DpiEndpoint::new</definition>
+        <argsstring>()</argsstring>
+        <name>new</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3406" column="2" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3406" bodyend="3407"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiEndpoint_1a7e63a196f2d4b27359dbd32cdc5d2f75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void tblink_rpc::DpiEndpoint::set_hndl</definition>
+        <argsstring>(chandle h)</argsstring>
+        <name>set_hndl</name>
+        <param>
+          <type>chandle</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3410" column="7" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3410" bodyend="3412"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiEndpoint_1a0ebf2f49075732d1e33f89f19ee2c1ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void tblink_rpc::DpiEndpoint::set_this</definition>
+        <argsstring>(DpiEndpoint t)</argsstring>
+        <name>set_this</name>
+        <param>
+          <type><ref refid="classtblink__rpc_1_1DpiEndpoint" kindref="compound">DpiEndpoint</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3415" column="7" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3415" bodyend="3417"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiEndpoint_1af22e7adfba89f586a12b7e3d79209508" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int tblink_rpc::DpiEndpoint::init</definition>
+        <argsstring>(IEndpointServices ep_services)</argsstring>
+        <name>init</name>
+        <reimplements refid="classtblink__rpc_1_1IEndpoint_1a556b566c429a768e642c3a76ddbb515d">init</reimplements>
+        <param>
+          <type><ref refid="classtblink__rpc_1_1IEndpointServices" kindref="compound">IEndpointServices</ref></type>
+          <declname>ep_services</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3433" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3433" bodyend="3442"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiEndpoint_1ac2bc74c9c11c14afb8ac83e8effbbbfd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int tblink_rpc::DpiEndpoint::is_init</definition>
+        <argsstring>()</argsstring>
+        <name>is_init</name>
+        <reimplements refid="classtblink__rpc_1_1IEndpoint_1a452e692f0d6acd881b98edc8ebce652f">is_init</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3444" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3444" bodyend="3446"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiEndpoint_1a217de539f9c9a9373bc4bfb77a47e9b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int tblink_rpc::DpiEndpoint::build_complete</definition>
+        <argsstring>()</argsstring>
+        <name>build_complete</name>
+        <reimplements refid="classtblink__rpc_1_1IEndpoint_1a8ac4e37bc389c1a9e1e22e192aa70d86">build_complete</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3449" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3449" bodyend="3451"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiEndpoint_1ad43412996a887481294a7c14b86e50bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int tblink_rpc::DpiEndpoint::is_build_complete</definition>
+        <argsstring>()</argsstring>
+        <name>is_build_complete</name>
+        <reimplements refid="classtblink__rpc_1_1IEndpoint_1af41881c5aeed15369fcb756a20ddc90f">is_build_complete</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3453" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3453" bodyend="3455"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiEndpoint_1af1eea43609bdf7877db962f105ed9222" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int tblink_rpc::DpiEndpoint::connect_complete</definition>
+        <argsstring>()</argsstring>
+        <name>connect_complete</name>
+        <reimplements refid="classtblink__rpc_1_1IEndpoint_1a61a99731e547ad568ea1aed2a379d1b9">connect_complete</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3457" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3457" bodyend="3459"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiEndpoint_1aa7e3d9698304770142e6fec298f9fc28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int tblink_rpc::DpiEndpoint::is_connect_complete</definition>
+        <argsstring>()</argsstring>
+        <name>is_connect_complete</name>
+        <reimplements refid="classtblink__rpc_1_1IEndpoint_1a17987cdcb9dd0be67c1a846394d00d43">is_connect_complete</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3461" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3461" bodyend="3463"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiEndpoint_1a8f8f7d9f7dc73a1a0481d28c35424f5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>comm_state_e</type>
+        <definition>virtual comm_state_e tblink_rpc::DpiEndpoint::comm_state</definition>
+        <argsstring>()</argsstring>
+        <name>comm_state</name>
+        <reimplements refid="classtblink__rpc_1_1IEndpoint_1a00f95603e44766c792021dd6fd8096c3">comm_state</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3465" column="23" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3465" bodyend="3467"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiEndpoint_1a21bfbeedec4aea9dd8d6b87606460295" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void tblink_rpc::DpiEndpoint::addListener</definition>
+        <argsstring>(IEndpointListener l)</argsstring>
+        <name>addListener</name>
+        <reimplements refid="classtblink__rpc_1_1IEndpoint_1a9b0baf75d79d5cae472b6b82263a1b0b">addListener</reimplements>
+        <param>
+          <type><ref refid="classtblink__rpc_1_1IEndpointListener" kindref="compound">IEndpointListener</ref></type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3469" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3469" bodyend="3471"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiEndpoint_1ae14ef1ad90d6d8c29118240e9b6f5a15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void tblink_rpc::DpiEndpoint::removeListener</definition>
+        <argsstring>(IEndpointListener l)</argsstring>
+        <name>removeListener</name>
+        <reimplements refid="classtblink__rpc_1_1IEndpoint_1a27dc60268d6c65844561bcdc1d487c08">removeListener</reimplements>
+        <param>
+          <type><ref refid="classtblink__rpc_1_1IEndpointListener" kindref="compound">IEndpointListener</ref></type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3473" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3473" bodyend="3475"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiEndpoint_1a5f33a5ed058a90858fe443d9a81a5289" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int tblink_rpc::DpiEndpoint::await_run_until_event</definition>
+        <argsstring>()</argsstring>
+        <name>await_run_until_event</name>
+        <reimplements refid="classtblink__rpc_1_1IEndpoint_1abe27e855aa88e0407d59ef7cfbdeed69">await_run_until_event</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3477" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3477" bodyend="3479"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiEndpoint_1a10d1814e28e49f945327525ae8cdd364" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>int tblink_rpc::DpiEndpoint::shutdown</definition>
+        <argsstring>()</argsstring>
+        <name>shutdown</name>
+        <reimplements refid="classtblink__rpc_1_1IEndpoint_1a84978f42bbbfa85979d5e5f0adf2eb85">shutdown</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3481" column="6" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3481" bodyend="3483"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiEndpoint_1a45bd4b9af648bf35c5a16f4578dc00ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>string</type>
+        <definition>virtual string tblink_rpc::DpiEndpoint::last_error</definition>
+        <argsstring>()</argsstring>
+        <name>last_error</name>
+        <reimplements refid="classtblink__rpc_1_1IEndpoint_1ae1799aafcc35c22ffe6d4054241e416b">last_error</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3485" column="17" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3485" bodyend="3487"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiEndpoint_1ab4d9576effa616ad97fb6f5e40579033" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classtblink__rpc_1_1IInterfaceType" kindref="compound">IInterfaceType</ref></type>
+        <definition>IInterfaceType tblink_rpc::DpiEndpoint::findInterfaceType</definition>
+        <argsstring>(string name)</argsstring>
+        <name>findInterfaceType</name>
+        <reimplements refid="classtblink__rpc_1_1IEndpoint_1a27c441a07983c7bee30a99b17605e45e">findInterfaceType</reimplements>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3489" column="17" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3489" bodyend="3501"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiEndpoint_1a301ec28cfa4e8afefc2ad3410c5faee6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classtblink__rpc_1_1IInterfaceTypeBuilder" kindref="compound">IInterfaceTypeBuilder</ref></type>
+        <definition>IInterfaceTypeBuilder tblink_rpc::DpiEndpoint::newInterfaceTypeBuilder</definition>
+        <argsstring>(string name)</argsstring>
+        <name>newInterfaceTypeBuilder</name>
+        <reimplements refid="classtblink__rpc_1_1IEndpoint_1a7dc1af5d7c59b63cce8037359370a37e">newInterfaceTypeBuilder</reimplements>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3503" column="24" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3503" bodyend="3510"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiEndpoint_1a7c1b84a856c3ac101c797f6630fc0374" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classtblink__rpc_1_1IInterfaceType" kindref="compound">IInterfaceType</ref></type>
+        <definition>virtual IInterfaceType tblink_rpc::DpiEndpoint::defineInterfaceType</definition>
+        <argsstring>(IInterfaceTypeBuilder iftype_b)</argsstring>
+        <name>defineInterfaceType</name>
+        <reimplements refid="classtblink__rpc_1_1IEndpoint_1a2148f789dc3b09fb46d4ffbd9a0bb08a">defineInterfaceType</reimplements>
+        <param>
+          <type><ref refid="classtblink__rpc_1_1IInterfaceTypeBuilder" kindref="compound">IInterfaceTypeBuilder</ref></type>
+          <declname>iftype_b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3512" column="25" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3512" bodyend="3524"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiEndpoint_1a5de0a9338fab79367c785633616c0bd7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classtblink__rpc_1_1IInterfaceInst" kindref="compound">IInterfaceInst</ref></type>
+        <definition>IInterfaceInst tblink_rpc::DpiEndpoint::defineInterfaceInst</definition>
+        <argsstring>(IInterfaceType iftype, string inst_name, int unsigned is_mirror, IInterfaceImpl ifinst_impl)</argsstring>
+        <name>defineInterfaceInst</name>
+        <reimplements refid="classtblink__rpc_1_1IEndpoint_1a1ca99a41d473f56183e3aea2ada4d738">defineInterfaceInst</reimplements>
+        <param>
+          <type><ref refid="classtblink__rpc_1_1IInterfaceType" kindref="compound">IInterfaceType</ref></type>
+          <declname>iftype</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>inst_name</declname>
+        </param>
+        <param>
+          <type>int unsigned</type>
+          <declname>is_mirror</declname>
+        </param>
+        <param>
+          <type><ref refid="classtblink__rpc_1_1IInterfaceImpl" kindref="compound">IInterfaceImpl</ref></type>
+          <declname>ifinst_impl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3527" column="17" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3527" bodyend="3548"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiEndpoint_1a2b15ed28e57af02c223f736effc0f93a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int tblink_rpc::DpiEndpoint::process_one_message</definition>
+        <argsstring>()</argsstring>
+        <name>process_one_message</name>
+        <reimplements refid="classtblink__rpc_1_1IEndpoint_1a9484f278aba51b0ef8de9f0ab8f56624">process_one_message</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Process a message, returning -1 on error </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3550" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3550" bodyend="3552"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiEndpoint_1a38be9dd7e2ed8ef5630d4498998d5eac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>task</type>
+        <definition>virtual task tblink_rpc::DpiEndpoint::process_one_message_b</definition>
+        <argsstring>(output int ret)</argsstring>
+        <name>process_one_message_b</name>
+        <reimplements refid="classtblink__rpc_1_1IEndpoint_1ac0b830e5127ec6766e66029c409d5a0b">process_one_message_b</reimplements>
+        <reimplementedby refid="classtblink__rpc_1_1DpiEndpointLoopbackDpi_1a7e94cbc0bdf204c83f3ec5a1127aa0ce">process_one_message_b</reimplementedby>
+        <param>
+          <type>output int</type>
+          <declname>ret</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3554" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3554" bodyend="3557"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiEndpoint_1a93bf3a656fead3ecf32e2d04cbaca3ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void tblink_rpc::DpiEndpoint::getInterfaceInsts</definition>
+        <argsstring>(ref IInterfaceInst ifinsts[$])</argsstring>
+        <name>getInterfaceInsts</name>
+        <reimplements refid="classtblink__rpc_1_1IEndpoint_1abaa49915842362999ee652ddab474e44">getInterfaceInsts</reimplements>
+        <param>
+          <type>ref <ref refid="classtblink__rpc_1_1IInterfaceInst" kindref="compound">IInterfaceInst</ref></type>
+          <declname>ifinsts</declname>
+          <array>[$]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3559" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3559" bodyend="3567"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiEndpoint_1ab49a91507cc24d0bd845dc0435bed6b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>task</type>
+        <definition>task tblink_rpc::DpiEndpoint::run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3593" column="6" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3593" bodyend="3616"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="classtblink__rpc_1_1DpiEndpoint" kindref="compound">DpiEndpoint</ref></para>
+<para>TODO: Add class documentation </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>tblink_rpc::DpiEndpoint</label>
+        <link refid="classtblink__rpc_1_1DpiEndpoint"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tblink_rpc::DpiEndpointLoopbackDpi</label>
+        <link refid="classtblink__rpc_1_1DpiEndpointLoopbackDpi"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tblink_rpc::IEndpoint</label>
+        <link refid="classtblink__rpc_1_1IEndpoint"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>tblink_rpc::DpiEndpoint</label>
+        <link refid="classtblink__rpc_1_1DpiEndpoint"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>m_services</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>m_ifimpl_m</edgelabel>
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>m_this</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>tblink_rpc::IInterfaceImpl</label>
+        <link refid="classtblink__rpc_1_1IInterfaceImpl"/>
+      </node>
+      <node id="3">
+        <label>tblink_rpc::IEndpointServices</label>
+        <link refid="classtblink__rpc_1_1IEndpointServices"/>
+      </node>
+      <node id="2">
+        <label>tblink_rpc::IEndpoint</label>
+        <link refid="classtblink__rpc_1_1IEndpoint"/>
+      </node>
+    </collaborationgraph>
+    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3385" column="35" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3385" bodyend="3615"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc_1_1DpiEndpoint_1a21bfbeedec4aea9dd8d6b87606460295" prot="public" virt="virtual"><scope>tblink_rpc::DpiEndpoint</scope><name>addListener</name></member>
+      <member refid="classtblink__rpc_1_1DpiEndpoint_1a5f33a5ed058a90858fe443d9a81a5289" prot="public" virt="virtual"><scope>tblink_rpc::DpiEndpoint</scope><name>await_run_until_event</name></member>
+      <member refid="classtblink__rpc_1_1DpiEndpoint_1a217de539f9c9a9373bc4bfb77a47e9b9" prot="public" virt="virtual"><scope>tblink_rpc::DpiEndpoint</scope><name>build_complete</name></member>
+      <member refid="classtblink__rpc_1_1DpiEndpoint_1a8f8f7d9f7dc73a1a0481d28c35424f5e" prot="public" virt="virtual"><scope>tblink_rpc::DpiEndpoint</scope><name>comm_state</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1a27a23baecfc154e89cb7e2cd2d7597cc" prot="public" virt="non-virtual"><scope>tblink_rpc::DpiEndpoint</scope><name>comm_state_e</name></member>
+      <member refid="classtblink__rpc_1_1DpiEndpoint_1af1eea43609bdf7877db962f105ed9222" prot="public" virt="virtual"><scope>tblink_rpc::DpiEndpoint</scope><name>connect_complete</name></member>
+      <member refid="classtblink__rpc_1_1DpiEndpoint_1a5de0a9338fab79367c785633616c0bd7" prot="public" virt="virtual"><scope>tblink_rpc::DpiEndpoint</scope><name>defineInterfaceInst</name></member>
+      <member refid="classtblink__rpc_1_1DpiEndpoint_1a7c1b84a856c3ac101c797f6630fc0374" prot="public" virt="virtual"><scope>tblink_rpc::DpiEndpoint</scope><name>defineInterfaceType</name></member>
+      <member refid="classtblink__rpc_1_1DpiEndpoint_1ab4d9576effa616ad97fb6f5e40579033" prot="public" virt="virtual"><scope>tblink_rpc::DpiEndpoint</scope><name>findInterfaceType</name></member>
+      <member refid="classtblink__rpc_1_1DpiEndpoint_1a93bf3a656fead3ecf32e2d04cbaca3ad" prot="public" virt="virtual"><scope>tblink_rpc::DpiEndpoint</scope><name>getInterfaceInsts</name></member>
+      <member refid="classtblink__rpc_1_1DpiEndpoint_1af22e7adfba89f586a12b7e3d79209508" prot="public" virt="virtual"><scope>tblink_rpc::DpiEndpoint</scope><name>init</name></member>
+      <member refid="classtblink__rpc_1_1DpiEndpoint_1ad43412996a887481294a7c14b86e50bb" prot="public" virt="virtual"><scope>tblink_rpc::DpiEndpoint</scope><name>is_build_complete</name></member>
+      <member refid="classtblink__rpc_1_1DpiEndpoint_1aa7e3d9698304770142e6fec298f9fc28" prot="public" virt="virtual"><scope>tblink_rpc::DpiEndpoint</scope><name>is_connect_complete</name></member>
+      <member refid="classtblink__rpc_1_1DpiEndpoint_1ac2bc74c9c11c14afb8ac83e8effbbbfd" prot="public" virt="virtual"><scope>tblink_rpc::DpiEndpoint</scope><name>is_init</name></member>
+      <member refid="classtblink__rpc_1_1DpiEndpoint_1a45bd4b9af648bf35c5a16f4578dc00ab" prot="public" virt="virtual"><scope>tblink_rpc::DpiEndpoint</scope><name>last_error</name></member>
+      <member refid="classtblink__rpc_1_1DpiEndpoint_1a6d38438f7e41a19aae61cc5b8f64a689" prot="public" virt="non-virtual"><scope>tblink_rpc::DpiEndpoint</scope><name>m_hndl</name></member>
+      <member refid="classtblink__rpc_1_1DpiEndpoint_1a38fc76b83b7f5752c8ca02e13612b03c" prot="public" virt="non-virtual"><scope>tblink_rpc::DpiEndpoint</scope><name>m_ifimpl_m</name></member>
+      <member refid="classtblink__rpc_1_1DpiEndpoint_1a040e24272a0143da9e2ea93c84643e10" prot="public" virt="non-virtual"><scope>tblink_rpc::DpiEndpoint</scope><name>m_ifinst_id</name></member>
+      <member refid="classtblink__rpc_1_1DpiEndpoint_1aa5d218d1453d70207ec9b712203fe853" prot="public" virt="non-virtual"><scope>tblink_rpc::DpiEndpoint</scope><name>m_ifinst_m</name></member>
+      <member refid="classtblink__rpc_1_1DpiEndpoint_1a6c20819a5595c4f5b9156137bfec677e" prot="public" virt="non-virtual"><scope>tblink_rpc::DpiEndpoint</scope><name>m_running</name></member>
+      <member refid="classtblink__rpc_1_1DpiEndpoint_1a021ccd2acfef9ea9b2d76e2cb2fcc1ff" prot="public" virt="non-virtual"><scope>tblink_rpc::DpiEndpoint</scope><name>m_services</name></member>
+      <member refid="classtblink__rpc_1_1DpiEndpoint_1a1dfef88d823b9990adfb800206237cf2" prot="public" virt="non-virtual"><scope>tblink_rpc::DpiEndpoint</scope><name>m_services_proxy</name></member>
+      <member refid="classtblink__rpc_1_1DpiEndpoint_1a4fe98dde796d10eb5b43000dfc87498e" prot="public" virt="non-virtual"><scope>tblink_rpc::DpiEndpoint</scope><name>m_started</name></member>
+      <member refid="classtblink__rpc_1_1DpiEndpoint_1aa9ce0f3a58848430b3c52eb783e7914d" prot="public" virt="non-virtual"><scope>tblink_rpc::DpiEndpoint</scope><name>m_this</name></member>
+      <member refid="classtblink__rpc_1_1DpiEndpoint_1a54bac19fe40cc0054298e6cc63bddcc2" prot="public" virt="non-virtual"><scope>tblink_rpc::DpiEndpoint</scope><name>new</name></member>
+      <member refid="classtblink__rpc_1_1DpiEndpoint_1a301ec28cfa4e8afefc2ad3410c5faee6" prot="public" virt="virtual"><scope>tblink_rpc::DpiEndpoint</scope><name>newInterfaceTypeBuilder</name></member>
+      <member refid="classtblink__rpc_1_1DpiEndpoint_1a2b15ed28e57af02c223f736effc0f93a" prot="public" virt="virtual"><scope>tblink_rpc::DpiEndpoint</scope><name>process_one_message</name></member>
+      <member refid="classtblink__rpc_1_1DpiEndpoint_1a38be9dd7e2ed8ef5630d4498998d5eac" prot="public" virt="virtual"><scope>tblink_rpc::DpiEndpoint</scope><name>process_one_message_b</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1a27a23baecfc154e89cb7e2cd2d7597ccab6abe30a3acd8ab3a883b673d42f8edc" prot="public" virt="non-virtual"><scope>tblink_rpc::DpiEndpoint</scope><name>Released</name></member>
+      <member refid="classtblink__rpc_1_1DpiEndpoint_1ae14ef1ad90d6d8c29118240e9b6f5a15" prot="public" virt="virtual"><scope>tblink_rpc::DpiEndpoint</scope><name>removeListener</name></member>
+      <member refid="classtblink__rpc_1_1DpiEndpoint_1ab49a91507cc24d0bd845dc0435bed6b7" prot="public" virt="non-virtual"><scope>tblink_rpc::DpiEndpoint</scope><name>run</name></member>
+      <member refid="classtblink__rpc_1_1DpiEndpoint_1a7e63a196f2d4b27359dbd32cdc5d2f75" prot="public" virt="non-virtual"><scope>tblink_rpc::DpiEndpoint</scope><name>set_hndl</name></member>
+      <member refid="classtblink__rpc_1_1DpiEndpoint_1a0ebf2f49075732d1e33f89f19ee2c1ed" prot="public" virt="non-virtual"><scope>tblink_rpc::DpiEndpoint</scope><name>set_this</name></member>
+      <member refid="classtblink__rpc_1_1DpiEndpoint_1a10d1814e28e49f945327525ae8cdd364" prot="public" virt="virtual"><scope>tblink_rpc::DpiEndpoint</scope><name>shutdown</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1a27a23baecfc154e89cb7e2cd2d7597ccad1d323a83babe11cb9154628d4ad8b90" prot="public" virt="non-virtual"><scope>tblink_rpc::DpiEndpoint</scope><name>Waiting</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

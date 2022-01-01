@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc__core_1_1TransportMessageFifoThreadedEP" kind="class" language="C++" prot="public">
+    <compoundname>tblink_rpc_core::TransportMessageFifoThreadedEP</compoundname>
+    <basecompoundref refid="classtblink__rpc__core_1_1TransportMessageFifoEP" prot="public" virt="non-virtual">tblink_rpc_core::TransportMessageFifoEP</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtblink__rpc__core_1_1TransportMessageFifoThreadedEP_1a1c8c1b598dfecde1feb40b0c0e3b6450" prot="private" static="no" mutable="no">
+        <type>pthread_mutex_t</type>
+        <definition>pthread_mutex_t tblink_rpc_core::TransportMessageFifoThreadedEP::m_recv_mut</definition>
+        <argsstring></argsstring>
+        <name>m_recv_mut</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifoThreadedEP.h" line="38" column="16" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifoThreadedEP.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtblink__rpc__core_1_1TransportMessageFifoThreadedEP_1ac2ed17bfc7d42cee1897c1aa2f98f4e4" prot="private" static="no" mutable="no">
+        <type>pthread_cond_t</type>
+        <definition>pthread_cond_t tblink_rpc_core::TransportMessageFifoThreadedEP::m_recv_cond</definition>
+        <argsstring></argsstring>
+        <name>m_recv_cond</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifoThreadedEP.h" line="39" column="15" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifoThreadedEP.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtblink__rpc__core_1_1TransportMessageFifoThreadedEP_1a6dc52af46201251d9a3396b8e3137e10" prot="private" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t tblink_rpc_core::TransportMessageFifoThreadedEP::m_recv_cnt</definition>
+        <argsstring></argsstring>
+        <name>m_recv_cnt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifoThreadedEP.h" line="40" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifoThreadedEP.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc__core_1_1TransportMessageFifoThreadedEP_1a39cbd7f05a0bc57d409e8603f025e2db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>tblink_rpc_core::TransportMessageFifoThreadedEP::TransportMessageFifoThreadedEP</definition>
+        <argsstring>()</argsstring>
+        <name>TransportMessageFifoThreadedEP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifoThreadedEP.h" line="16" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifoThreadedEP.cpp" bodystart="12" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1TransportMessageFifoThreadedEP_1a7820f1d18ad1c4b57905dccc0b949d94" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>tblink_rpc_core::TransportMessageFifoThreadedEP::~TransportMessageFifoThreadedEP</definition>
+        <argsstring>()</argsstring>
+        <name>~TransportMessageFifoThreadedEP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifoThreadedEP.h" line="18" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifoThreadedEP.cpp" bodystart="19" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1TransportMessageFifoThreadedEP_1ab7bbb0470d440e1958a3eaaba7056e3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int32_t</type>
+        <definition>int32_t tblink_rpc_core::TransportMessageFifoThreadedEP::process_one_message</definition>
+        <argsstring>() override</argsstring>
+        <name>process_one_message</name>
+        <reimplements refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1aa955aef706a44d36fa6b160073086e4e">process_one_message</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Polls, waiting for a message. Returns -1 in case of failure. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifoThreadedEP.h" line="23" column="17" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifoThreadedEP.cpp" bodystart="24" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classtblink__rpc__core_1_1TransportMessageFifoThreadedEP_1a9f18ae9e3547d52b4fb6636e640d4752" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int32_t</type>
+        <definition>int32_t tblink_rpc_core::TransportMessageFifoThreadedEP::recv_req</definition>
+        <argsstring>(const std::string &amp;method, intptr_t id, IParamValMap *params)</argsstring>
+        <name>recv_req</name>
+        <reimplements refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1ac6e02c324dd6bee392d5f5a87be7a616">recv_req</reimplements>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>method</declname>
+        </param>
+        <param>
+          <type>intptr_t</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1IParamValMap" kindref="compound">IParamValMap</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifoThreadedEP.h" line="27" column="17" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifoThreadedEP.cpp" bodystart="35" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1TransportMessageFifoThreadedEP_1ab26fb7812e8f78456d646bee10275a71" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int32_t</type>
+        <definition>int32_t tblink_rpc_core::TransportMessageFifoThreadedEP::recv_rsp</definition>
+        <argsstring>(intptr_t id, IParamValMap *result, IParamValMap *error)</argsstring>
+        <name>recv_rsp</name>
+        <reimplements refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1a7f4c40b4cad188f824ec0ac2fdec45ad">recv_rsp</reimplements>
+        <param>
+          <type>intptr_t</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1IParamValMap" kindref="compound">IParamValMap</ref> *</type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1IParamValMap" kindref="compound">IParamValMap</ref> *</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifoThreadedEP.h" line="32" column="17" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifoThreadedEP.cpp" bodystart="47" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>tblink_rpc_core::TransportMessageFifoThreadedEP</label>
+        <link refid="classtblink__rpc__core_1_1TransportMessageFifoThreadedEP"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>tblink_rpc_core::IParamValFactory</label>
+        <link refid="classtblink__rpc__core_1_1IParamValFactory"/>
+      </node>
+      <node id="3">
+        <label>tblink_rpc_core::ITransport</label>
+        <link refid="classtblink__rpc__core_1_1ITransport"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tblink_rpc_core::TransportMessageFifoEP</label>
+        <link refid="classtblink__rpc__core_1_1TransportMessageFifoEP"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>tblink_rpc_core::TransportMessageFifoThreadedEP</label>
+        <link refid="classtblink__rpc__core_1_1TransportMessageFifoThreadedEP"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>tblink_rpc_core::IParamValFactory</label>
+        <link refid="classtblink__rpc__core_1_1IParamValFactory"/>
+      </node>
+      <node id="3">
+        <label>tblink_rpc_core::ITransport</label>
+        <link refid="classtblink__rpc__core_1_1ITransport"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tblink_rpc_core::TransportMessageFifoEP</label>
+        <link refid="classtblink__rpc__core_1_1TransportMessageFifoEP"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>m_parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>tblink_rpc_core::TransportMessageFifo</label>
+        <link refid="classtblink__rpc__core_1_1TransportMessageFifo"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifoThreadedEP.h" line="14" column="67" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifoThreadedEP.h" bodystart="14" bodyend="42"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1a27fb237cb602d535b92f267b1304261d" prot="public" virt="virtual"><scope>tblink_rpc_core::TransportMessageFifoThreadedEP</scope><name>await_msg</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1a902c19899610cc75c39a4fa175013c42" prot="public" virt="virtual"><scope>tblink_rpc_core::TransportMessageFifoThreadedEP</scope><name>id</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1a95ea4dcde1f3476e0f50f4ad66f59b62" prot="public" virt="virtual"><scope>tblink_rpc_core::TransportMessageFifoThreadedEP</scope><name>id</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1af1916414e905fe1f9060c0f9a6202273" prot="public" virt="virtual"><scope>tblink_rpc_core::TransportMessageFifoThreadedEP</scope><name>init</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1a780cbaccb21b727154c7134866314e69" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::TransportMessageFifoThreadedEP</scope><name>m_id</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1ad5bbc7c56b7b45d37a33b47265f7a682" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::TransportMessageFifoThreadedEP</scope><name>m_parent</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifoThreadedEP_1a6dc52af46201251d9a3396b8e3137e10" prot="private" virt="non-virtual"><scope>tblink_rpc_core::TransportMessageFifoThreadedEP</scope><name>m_recv_cnt</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifoThreadedEP_1ac2ed17bfc7d42cee1897c1aa2f98f4e4" prot="private" virt="non-virtual"><scope>tblink_rpc_core::TransportMessageFifoThreadedEP</scope><name>m_recv_cond</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifoThreadedEP_1a1c8c1b598dfecde1feb40b0c0e3b6450" prot="private" virt="non-virtual"><scope>tblink_rpc_core::TransportMessageFifoThreadedEP</scope><name>m_recv_mut</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1a1a4d1912db2863e8d7b1e8fafa4c76b0" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::TransportMessageFifoThreadedEP</scope><name>m_req_f</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1a97dbdb0d73d447236d078989c4a4192e" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::TransportMessageFifoThreadedEP</scope><name>m_req_id</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1a5d25a71cad14274cbd2c8ba9fbecfa3f" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::TransportMessageFifoThreadedEP</scope><name>m_req_q</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1a48cc9766fcf5fd177f3da7d3d4a244c3" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::TransportMessageFifoThreadedEP</scope><name>m_rsp_f</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1a4844ad18061c27fa2298f047801c5e8d" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::TransportMessageFifoThreadedEP</scope><name>m_rsp_q</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1ae681cbeef7037ceda7db8b6ad8fc78e3" prot="public" virt="virtual"><scope>tblink_rpc_core::TransportMessageFifoThreadedEP</scope><name>mkValBool</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1a3f46efbec71b100d266610ea0f72865c" prot="public" virt="virtual"><scope>tblink_rpc_core::TransportMessageFifoThreadedEP</scope><name>mkValIntS</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1a303812a9f1e809fe480f81a0e8de33f2" prot="public" virt="virtual"><scope>tblink_rpc_core::TransportMessageFifoThreadedEP</scope><name>mkValIntU</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1a215e88e18c92ac55b6aa5199f1d076bf" prot="public" virt="virtual"><scope>tblink_rpc_core::TransportMessageFifoThreadedEP</scope><name>mkValMap</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1affa53b96ad477625982961755c0ab37a" prot="public" virt="virtual"><scope>tblink_rpc_core::TransportMessageFifoThreadedEP</scope><name>mkValStr</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1a10eb285d286461fec58d3d0fa162d8b7" prot="public" virt="virtual"><scope>tblink_rpc_core::TransportMessageFifoThreadedEP</scope><name>mkValVec</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1a57fe8b56a9e4e3fd5e048807d893f85e" prot="public" virt="virtual"><scope>tblink_rpc_core::TransportMessageFifoThreadedEP</scope><name>outstanding</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1a41d4d44e842e987b2f1af63aacb0416a" prot="public" virt="virtual"><scope>tblink_rpc_core::TransportMessageFifoThreadedEP</scope><name>parent</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1a6670eab36d8ea9e33c6cf447606c6b7f" prot="public" virt="virtual"><scope>tblink_rpc_core::TransportMessageFifoThreadedEP</scope><name>parent</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifoThreadedEP_1ab7bbb0470d440e1958a3eaaba7056e3a" prot="public" virt="virtual"><scope>tblink_rpc_core::TransportMessageFifoThreadedEP</scope><name>process_one_message</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifoThreadedEP_1a9f18ae9e3547d52b4fb6636e640d4752" prot="protected" virt="virtual"><scope>tblink_rpc_core::TransportMessageFifoThreadedEP</scope><name>recv_req</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifoThreadedEP_1ab26fb7812e8f78456d646bee10275a71" prot="protected" virt="virtual"><scope>tblink_rpc_core::TransportMessageFifoThreadedEP</scope><name>recv_rsp</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1a9a30118eb6ec14acf9a0b17cea4eecd5" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::TransportMessageFifoThreadedEP</scope><name>req_elem_t</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1a8a381649f8f1de43c4f29d48f605143a" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::TransportMessageFifoThreadedEP</scope><name>rsp_elem_t</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1af150e87be9820c681ca7baa9dde41cfc" prot="public" virt="virtual"><scope>tblink_rpc_core::TransportMessageFifoThreadedEP</scope><name>send_notify</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1a2a99d8d28a91830d525ab7ada8f9fcc3" prot="public" virt="virtual"><scope>tblink_rpc_core::TransportMessageFifoThreadedEP</scope><name>send_req</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1a60daf40ff870c7d8632d55726b6eca8f" prot="public" virt="virtual"><scope>tblink_rpc_core::TransportMessageFifoThreadedEP</scope><name>send_rsp</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1a99cd01836ba1bcdf469853738dde63b2" prot="public" virt="virtual"><scope>tblink_rpc_core::TransportMessageFifoThreadedEP</scope><name>shutdown</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1ad77e8adec1bce2712eaed11357f406ba" prot="public" virt="non-virtual"><scope>tblink_rpc_core::TransportMessageFifoThreadedEP</scope><name>TransportMessageFifoEP</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifoThreadedEP_1a39cbd7f05a0bc57d409e8603f025e2db" prot="public" virt="non-virtual"><scope>tblink_rpc_core::TransportMessageFifoThreadedEP</scope><name>TransportMessageFifoThreadedEP</name></member>
+      <member refid="classtblink__rpc__core_1_1IParamValFactory_1ad069ebe9d09dfee21677ff7242997612" prot="public" virt="virtual"><scope>tblink_rpc_core::TransportMessageFifoThreadedEP</scope><name>~IParamValFactory</name></member>
+      <member refid="classtblink__rpc__core_1_1ITransport_1adc6ad0ff11e949f9cf34b088979eb9c3" prot="public" virt="virtual"><scope>tblink_rpc_core::TransportMessageFifoThreadedEP</scope><name>~ITransport</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1aa321298f9a4ea7c057afc20b5556ad5a" prot="public" virt="virtual"><scope>tblink_rpc_core::TransportMessageFifoThreadedEP</scope><name>~TransportMessageFifoEP</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifoThreadedEP_1a7820f1d18ad1c4b57905dccc0b949d94" prot="public" virt="virtual"><scope>tblink_rpc_core::TransportMessageFifoThreadedEP</scope><name>~TransportMessageFifoThreadedEP</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

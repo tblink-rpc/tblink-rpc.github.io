@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc__core_1_1JsonParamValNull" kind="class" language="C++" prot="public">
+    <compoundname>tblink_rpc_core::JsonParamValNull</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc__core_1_1JsonParamValNull_1a2e458039dd2587c4ac965b538fe96bb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>tblink_rpc_core::JsonParamValNull::JsonParamValNull</definition>
+        <argsstring>()</argsstring>
+        <name>JsonParamValNull</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ParamValNull.h" line="15" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/JsonParamValNull.cpp" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1JsonParamValNull_1a2bd37bfe768d7b71a0b5da425e113247" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>tblink_rpc_core::JsonParamValNull::~JsonParamValNull</definition>
+        <argsstring>()</argsstring>
+        <name>~JsonParamValNull</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ParamValNull.h" line="17" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/JsonParamValNull.cpp" bodystart="17" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ParamValNull.h" line="13" column="23" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ParamValNull.h" bodystart="13" bodyend="19"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc__core_1_1JsonParamValNull_1a2e458039dd2587c4ac965b538fe96bb4" prot="public" virt="non-virtual"><scope>tblink_rpc_core::JsonParamValNull</scope><name>JsonParamValNull</name></member>
+      <member refid="classtblink__rpc__core_1_1JsonParamValNull_1a2bd37bfe768d7b71a0b5da425e113247" prot="public" virt="virtual"><scope>tblink_rpc_core::JsonParamValNull</scope><name>~JsonParamValNull</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

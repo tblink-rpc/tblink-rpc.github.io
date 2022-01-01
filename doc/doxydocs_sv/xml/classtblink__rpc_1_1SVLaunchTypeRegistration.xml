@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc_1_1SVLaunchTypeRegistration" kind="class" language="C++" prot="public">
+    <compoundname>tblink_rpc::SVLaunchTypeRegistration</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+        <defval><ref refid="classtblink__rpc_1_1ILaunchType" kindref="compound">ILaunchType</ref></defval>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classtblink__rpc_1_1SVLaunchTypeRegistration_1a78fadc37d670e3ea7ff26515bf405676" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bit</type>
+        <definition>static bit tblink_rpc::SVLaunchTypeRegistration&lt; T &gt;::register</definition>
+        <argsstring>()</argsstring>
+        <name>register</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5954" column="13" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5954" bodyend="5961"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="classtblink__rpc_1_1SVLaunchTypeRegistration" kindref="compound">SVLaunchTypeRegistration</ref></para>
+<para>TODO: Add class documentation </para>
+    </detaileddescription>
+    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5951" column="44" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5951" bodyend="5964"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc_1_1SVLaunchTypeRegistration_1a78fadc37d670e3ea7ff26515bf405676" prot="public" virt="non-virtual"><scope>tblink_rpc::SVLaunchTypeRegistration</scope><name>register</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

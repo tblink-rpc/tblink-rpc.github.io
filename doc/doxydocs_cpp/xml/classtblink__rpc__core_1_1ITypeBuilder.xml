@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc__core_1_1ITypeBuilder" kind="class" language="C++" prot="public">
+    <compoundname>tblink_rpc_core::ITypeBuilder</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc__core_1_1ITypeBuilder_1ac64f0c7d931fba49153a767b4a7c4f0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual tblink_rpc_core::ITypeBuilder::~ITypeBuilder</definition>
+        <argsstring>()</argsstring>
+        <name>~ITypeBuilder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ITypeBuilder.h" line="16" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ITypeBuilder.h" bodystart="16" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ITypeBuilder.h" line="13" column="19" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ITypeBuilder.h" bodystart="13" bodyend="19"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc__core_1_1ITypeBuilder_1ac64f0c7d931fba49153a767b4a7c4f0f" prot="public" virt="virtual"><scope>tblink_rpc_core::ITypeBuilder</scope><name>~ITypeBuilder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

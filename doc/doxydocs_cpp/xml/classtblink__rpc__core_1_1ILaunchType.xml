@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc__core_1_1ILaunchType" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>tblink_rpc_core::ILaunchType</compoundname>
+    <derivedcompoundref refid="classtblink__rpc__core_1_1LaunchTypeConnectNativeLoopback" prot="public" virt="non-virtual">tblink_rpc_core::LaunchTypeConnectNativeLoopback</derivedcompoundref>
+    <derivedcompoundref refid="classtblink__rpc__core_1_1LaunchTypeConnectSocket" prot="public" virt="non-virtual">tblink_rpc_core::LaunchTypeConnectSocket</derivedcompoundref>
+    <derivedcompoundref refid="classtblink__rpc__core_1_1LaunchTypeNativeLoopback" prot="public" virt="non-virtual">tblink_rpc_core::LaunchTypeNativeLoopback</derivedcompoundref>
+    <derivedcompoundref refid="classtblink__rpc__core_1_1LaunchTypeProcessSocket" prot="public" virt="non-virtual">tblink_rpc_core::LaunchTypeProcessSocket</derivedcompoundref>
+    <derivedcompoundref refid="classtblink__rpc__core_1_1LaunchTypePythonLoopback" prot="public" virt="non-virtual">tblink_rpc_core::LaunchTypePythonLoopback</derivedcompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classtblink__rpc__core_1_1ILaunchType_1ab0d4e18d32685759a028783112401475" prot="public" static="no">
+        <type>std::pair&lt; <ref refid="classtblink__rpc__core_1_1IEndpoint" kindref="compound">IEndpoint</ref> *, std::string &gt;</type>
+        <definition>using tblink_rpc_core::ILaunchType::result_t =  std::pair&lt;IEndpoint*,std::string&gt;</definition>
+        <argsstring></argsstring>
+        <name>result_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ILaunchType.h" line="20" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ILaunchType.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc__core_1_1ILaunchType_1afeeab7831db7fc8d1c4f46788876888f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual tblink_rpc_core::ILaunchType::~ILaunchType</definition>
+        <argsstring>()</argsstring>
+        <name>~ILaunchType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ILaunchType.h" line="23" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ILaunchType.h" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1ILaunchType_1a9cad1552f86d769a574e6574f443e64b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>std::string</type>
+        <definition>virtual std::string tblink_rpc_core::ILaunchType::name</definition>
+        <argsstring>()=0</argsstring>
+        <name>name</name>
+        <reimplementedby refid="classtblink__rpc__core_1_1LaunchTypeConnectSocket_1a366290c9e545942ec1e394b3b98d07e2">name</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1LaunchTypeProcessSocket_1a20f55cb6bbb3d3ae66957a18aac12c43">name</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1LaunchTypePythonSocket_1a4582b7e88fc2a362ea7d2d9916893dcb">name</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1LaunchTypePythonLoopback_1a96706ef9f41d54069b4bacb7ade2a444">name</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1LaunchTypeNativeLoopback_1a67732ecaab37e8f17676483cc41a1a18">name</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1LaunchTypeConnectNativeLoopback_1aaed402357c2c8667f9f0905757c21c87">name</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ILaunchType.h" line="25" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1ILaunchType_1ab2a3cafba14515b616f462fce6b6f4c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>result_t</type>
+        <definition>virtual result_t tblink_rpc_core::ILaunchType::launch</definition>
+        <argsstring>(ILaunchParams *params, IEndpointServices *services)=0</argsstring>
+        <name>launch</name>
+        <reimplementedby refid="classtblink__rpc__core_1_1LaunchTypeNativeLoopback_1a0e6d983a3324afb56bdd806981235c65">launch</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1LaunchTypeConnectSocket_1a08bf0a8b5897a3cefadb8ad771a4ac44">launch</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1LaunchTypeConnectNativeLoopback_1acb2b1d9f9bdd7a419fb6e46b6c74091e">launch</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1LaunchTypePythonSocket_1ac6340331fc781a136f83aae028d93683">launch</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1LaunchTypePythonLoopback_1a4d48b1382b5e967bc7a85137129b615a">launch</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1LaunchTypeProcessSocket_1a1a952a2e15685534fa2883a96cbf6c78">launch</reimplementedby>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1ILaunchParams" kindref="compound">ILaunchParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1IEndpointServices" kindref="compound">IEndpointServices</ref> *</type>
+          <declname>services</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Launches a peer endpoint and returns the appropriate endpoint. In the case of an error, the string will contain an error message</para>
+<para>If the launcher wishes to specify the endpoint services, then that must be done now. Otherwise, the environment implementing the launcher will specify the default services for that environment </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ILaunchType.h" line="37" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1ILaunchType_1ad79cc73db758b0a1e1936924d96773ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classtblink__rpc__core_1_1ILaunchParams" kindref="compound">ILaunchParams</ref> *</type>
+        <definition>virtual ILaunchParams* tblink_rpc_core::ILaunchType::newLaunchParams</definition>
+        <argsstring>()=0</argsstring>
+        <name>newLaunchParams</name>
+        <reimplementedby refid="classtblink__rpc__core_1_1LaunchTypeNativeLoopback_1a4f23c1597daa8903ff5f836bdb9f91bb">newLaunchParams</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1LaunchTypeConnectSocket_1a3656024b7491e7831727bdd209b131d9">newLaunchParams</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1LaunchTypeConnectNativeLoopback_1a1088fc912120aa81085e68ce080041a6">newLaunchParams</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1LaunchTypeProcessSocket_1a6b488ca784e4651057ac8cbfd28bb89d">newLaunchParams</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1LaunchTypePythonLoopback_1ab1b7517c50cac48f32d3510cc99e656f">newLaunchParams</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ILaunchType.h" line="44" column="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>tblink_rpc_core::LaunchTypeNativeLoopback</label>
+        <link refid="classtblink__rpc__core_1_1LaunchTypeNativeLoopback"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>tblink_rpc_core::LaunchTypeProcessSocket</label>
+        <link refid="classtblink__rpc__core_1_1LaunchTypeProcessSocket"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tblink_rpc_core::LaunchTypeConnectNativeLoopback</label>
+        <link refid="classtblink__rpc__core_1_1LaunchTypeConnectNativeLoopback"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>tblink_rpc_core::LaunchTypePythonLoopback</label>
+        <link refid="classtblink__rpc__core_1_1LaunchTypePythonLoopback"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>tblink_rpc_core::LaunchTypePythonSocket</label>
+        <link refid="classtblink__rpc__core_1_1LaunchTypePythonSocket"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tblink_rpc_core::LaunchTypeConnectSocket</label>
+        <link refid="classtblink__rpc__core_1_1LaunchTypeConnectSocket"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>tblink_rpc_core::ILaunchType</label>
+        <link refid="classtblink__rpc__core_1_1ILaunchType"/>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ILaunchType.h" line="18" column="18" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ILaunchType.h" bodystart="18" bodyend="46"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc__core_1_1ILaunchType_1ab2a3cafba14515b616f462fce6b6f4c8" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::ILaunchType</scope><name>launch</name></member>
+      <member refid="classtblink__rpc__core_1_1ILaunchType_1a9cad1552f86d769a574e6574f443e64b" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::ILaunchType</scope><name>name</name></member>
+      <member refid="classtblink__rpc__core_1_1ILaunchType_1ad79cc73db758b0a1e1936924d96773ec" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::ILaunchType</scope><name>newLaunchParams</name></member>
+      <member refid="classtblink__rpc__core_1_1ILaunchType_1ab0d4e18d32685759a028783112401475" prot="public" virt="non-virtual"><scope>tblink_rpc_core::ILaunchType</scope><name>result_t</name></member>
+      <member refid="classtblink__rpc__core_1_1ILaunchType_1afeeab7831db7fc8d1c4f46788876888f" prot="public" virt="virtual"><scope>tblink_rpc_core::ILaunchType</scope><name>~ILaunchType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

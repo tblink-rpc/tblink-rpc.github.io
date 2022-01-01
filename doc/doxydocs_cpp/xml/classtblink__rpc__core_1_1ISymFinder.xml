@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc__core_1_1ISymFinder" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>tblink_rpc_core::ISymFinder</compoundname>
+    <derivedcompoundref refid="classtblink__rpc__core_1_1DynLibSymFinder" prot="public" virt="non-virtual">tblink_rpc_core::DynLibSymFinder</derivedcompoundref>
+    <derivedcompoundref refid="classtblink__rpc__core_1_1DynSymFinder" prot="public" virt="virtual">tblink_rpc_core::DynSymFinder</derivedcompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classtblink__rpc__core_1_1ISymFinder_1ae7ffd2247a9f291ddd4eb9856fdd19ae" prot="public" static="no">
+        <type>std::pair&lt; ISymFinderUP, std::string &gt;</type>
+        <definition>using tblink_rpc_core::ISymFinder::result_t =  std::pair&lt;ISymFinderUP,std::string&gt;</definition>
+        <argsstring></argsstring>
+        <name>result_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ISymFinder.h" line="19" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ISymFinder.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc__core_1_1ISymFinder_1a6f9286b3fec1be32b0dfbe8f587ae00f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual tblink_rpc_core::ISymFinder::~ISymFinder</definition>
+        <argsstring>()</argsstring>
+        <name>~ISymFinder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ISymFinder.h" line="21" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ISymFinder.h" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1ISymFinder_1a3df2cb62b655d96d73e1c52c9d7ec192" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void *</type>
+        <definition>virtual void* tblink_rpc_core::ISymFinder::findSym</definition>
+        <argsstring>(const std::string &amp;sym)=0</argsstring>
+        <name>findSym</name>
+        <reimplementedby refid="classtblink__rpc__core_1_1DynLibSymFinder_1a95a8b472a0d51becb98cb2ee4ac8b4fd">findSym</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1DynSymFinder_1a8c4242749418dcf14ef5a6f6b5d888e7">findSym</reimplementedby>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>sym</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ISymFinder.h" line="23" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1ISymFinder_1a292fdfcb0a71f14b1c25d67d10f4d00b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T tblink_rpc_core::ISymFinder::findSymT</definition>
+        <argsstring>(const std::string &amp;sym)</argsstring>
+        <name>findSymT</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>sym</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ISymFinder.h" line="25" column="15" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ISymFinder.h" bodystart="25" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1ISymFinder_1aa5a771ff4810ab6e257d69d3a56320b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>std::pair&lt; void *, std::string &gt;</type>
+        <definition>virtual std::pair&lt;void *,std::string&gt; tblink_rpc_core::ISymFinder::findSymLib</definition>
+        <argsstring>(const std::string &amp;sym)=0</argsstring>
+        <name>findSymLib</name>
+        <reimplementedby refid="classtblink__rpc__core_1_1DynLibSymFinder_1a1d7c971c999aaa2e30722500be3c4d13">findSymLib</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1DynSymFinder_1a17dd7be36564e121b8883dcf97fd0b37">findSymLib</reimplementedby>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>sym</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ISymFinder.h" line="29" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1ISymFinder_1a6c1b733a88deff68a9a233a45b64f77a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>std::string</type>
+        <definition>virtual std::string tblink_rpc_core::ISymFinder::error</definition>
+        <argsstring>()=0</argsstring>
+        <name>error</name>
+        <reimplementedby refid="classtblink__rpc__core_1_1DynLibSymFinder_1ad74c49a6e7263d1c2743088b9e91ec7b">error</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1DynSymFinder_1ac8b3abaaac09c36a1ad495d6023e5fc2">error</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ISymFinder.h" line="32" column="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>tblink_rpc_core::DynLibSymFinder</label>
+        <link refid="classtblink__rpc__core_1_1DynLibSymFinder"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tblink_rpc_core::DynSymFinder</label>
+        <link refid="classtblink__rpc__core_1_1DynSymFinder"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>tblink_rpc_core::ISymFinder</label>
+        <link refid="classtblink__rpc__core_1_1ISymFinder"/>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ISymFinder.h" line="16" column="17" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ISymFinder.h" bodystart="16" bodyend="34"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc__core_1_1ISymFinder_1a6c1b733a88deff68a9a233a45b64f77a" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::ISymFinder</scope><name>error</name></member>
+      <member refid="classtblink__rpc__core_1_1ISymFinder_1a3df2cb62b655d96d73e1c52c9d7ec192" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::ISymFinder</scope><name>findSym</name></member>
+      <member refid="classtblink__rpc__core_1_1ISymFinder_1aa5a771ff4810ab6e257d69d3a56320b3" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::ISymFinder</scope><name>findSymLib</name></member>
+      <member refid="classtblink__rpc__core_1_1ISymFinder_1a292fdfcb0a71f14b1c25d67d10f4d00b" prot="public" virt="non-virtual"><scope>tblink_rpc_core::ISymFinder</scope><name>findSymT</name></member>
+      <member refid="classtblink__rpc__core_1_1ISymFinder_1ae7ffd2247a9f291ddd4eb9856fdd19ae" prot="public" virt="non-virtual"><scope>tblink_rpc_core::ISymFinder</scope><name>result_t</name></member>
+      <member refid="classtblink__rpc__core_1_1ISymFinder_1a6f9286b3fec1be32b0dfbe8f587ae00f" prot="public" virt="virtual"><scope>tblink_rpc_core::ISymFinder</scope><name>~ISymFinder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

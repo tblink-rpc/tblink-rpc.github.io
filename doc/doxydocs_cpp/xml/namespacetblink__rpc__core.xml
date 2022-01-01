@@ -1,0 +1,783 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespacetblink__rpc__core" kind="namespace" language="C++">
+    <compoundname>tblink_rpc_core</compoundname>
+    <innerclass refid="classtblink__rpc__core_1_1Debug" prot="public">tblink_rpc_core::Debug</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1DynLibSymFinder" prot="public">tblink_rpc_core::DynLibSymFinder</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1DynSymFinder" prot="public">tblink_rpc_core::DynSymFinder</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1EndpointBase" prot="public">tblink_rpc_core::EndpointBase</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1EndpointEventBase" prot="public">tblink_rpc_core::EndpointEventBase</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1EndpointListenerBase" prot="public">tblink_rpc_core::EndpointListenerBase</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1EndpointLoopback" prot="public">tblink_rpc_core::EndpointLoopback</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1EndpointMsgBase" prot="public">tblink_rpc_core::EndpointMsgBase</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1EndpointMsgTransport" prot="public">tblink_rpc_core::EndpointMsgTransport</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1Env" prot="public">tblink_rpc_core::Env</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1IEndpoint" prot="public">tblink_rpc_core::IEndpoint</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1IEndpointEvent" prot="public">tblink_rpc_core::IEndpointEvent</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1IEndpointListener" prot="public">tblink_rpc_core::IEndpointListener</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1IEndpointLoopback" prot="public">tblink_rpc_core::IEndpointLoopback</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1IEndpointMsg" prot="public">tblink_rpc_core::IEndpointMsg</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1IEndpointServices" prot="public">tblink_rpc_core::IEndpointServices</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1IEndpointServicesFactory" prot="public">tblink_rpc_core::IEndpointServicesFactory</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1IInterfaceInst" prot="public">tblink_rpc_core::IInterfaceInst</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1IInterfaceType" prot="public">tblink_rpc_core::IInterfaceType</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1IInterfaceTypeBuilder" prot="public">tblink_rpc_core::IInterfaceTypeBuilder</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1ILaunchParams" prot="public">tblink_rpc_core::ILaunchParams</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1ILaunchType" prot="public">tblink_rpc_core::ILaunchType</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1IMethodType" prot="public">tblink_rpc_core::IMethodType</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1IMethodTypeBuilder" prot="public">tblink_rpc_core::IMethodTypeBuilder</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1InterfaceInstBase" prot="public">tblink_rpc_core::InterfaceInstBase</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1InterfaceInstLoopback" prot="public">tblink_rpc_core::InterfaceInstLoopback</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1InterfaceInstMsgTransport" prot="public">tblink_rpc_core::InterfaceInstMsgTransport</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1InterfaceType" prot="public">tblink_rpc_core::InterfaceType</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1InterfaceTypeBuilder" prot="public">tblink_rpc_core::InterfaceTypeBuilder</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1IParamDecl" prot="public">tblink_rpc_core::IParamDecl</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1IParamVal" prot="public">tblink_rpc_core::IParamVal</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1IParamValBool" prot="public">tblink_rpc_core::IParamValBool</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1IParamValFactory" prot="public">tblink_rpc_core::IParamValFactory</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1IParamValInt" prot="public">tblink_rpc_core::IParamValInt</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1IParamValMap" prot="public">tblink_rpc_core::IParamValMap</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1IParamValStr" prot="public">tblink_rpc_core::IParamValStr</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1IParamValVec" prot="public">tblink_rpc_core::IParamValVec</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1ISymFinder" prot="public">tblink_rpc_core::ISymFinder</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1ITbLink" prot="public">tblink_rpc_core::ITbLink</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1ITransport" prot="public">tblink_rpc_core::ITransport</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1IType" prot="public">tblink_rpc_core::IType</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1ITypeBuilder" prot="public">tblink_rpc_core::ITypeBuilder</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1ITypeFactory" prot="public">tblink_rpc_core::ITypeFactory</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1ITypeInt" prot="public">tblink_rpc_core::ITypeInt</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1ITypeMap" prot="public">tblink_rpc_core::ITypeMap</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1ITypeVec" prot="public">tblink_rpc_core::ITypeVec</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1JsonParamValFactory" prot="public">tblink_rpc_core::JsonParamValFactory</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1JsonParamValNull" prot="public">tblink_rpc_core::JsonParamValNull</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1LaunchParams" prot="public">tblink_rpc_core::LaunchParams</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1LaunchTypeConnectNativeLoopback" prot="public">tblink_rpc_core::LaunchTypeConnectNativeLoopback</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1LaunchTypeConnectSocket" prot="public">tblink_rpc_core::LaunchTypeConnectSocket</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1LaunchTypeNativeLoopback" prot="public">tblink_rpc_core::LaunchTypeNativeLoopback</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1LaunchTypeProcessSocket" prot="public">tblink_rpc_core::LaunchTypeProcessSocket</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1LaunchTypePythonLoopback" prot="public">tblink_rpc_core::LaunchTypePythonLoopback</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1LaunchTypePythonSocket" prot="public">tblink_rpc_core::LaunchTypePythonSocket</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1LaunchTypeRegistration" prot="public">tblink_rpc_core::LaunchTypeRegistration</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1MethodType" prot="public">tblink_rpc_core::MethodType</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1MethodTypeBuilder" prot="public">tblink_rpc_core::MethodTypeBuilder</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1ParamDecl" prot="public">tblink_rpc_core::ParamDecl</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1ParamVal" prot="public">tblink_rpc_core::ParamVal</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1ParamValBool" prot="public">tblink_rpc_core::ParamValBool</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1ParamValInt" prot="public">tblink_rpc_core::ParamValInt</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1ParamValMap" prot="public">tblink_rpc_core::ParamValMap</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1ParamValStr" prot="public">tblink_rpc_core::ParamValStr</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1ParamValVec" prot="public">tblink_rpc_core::ParamValVec</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1PythonApi" prot="public">tblink_rpc_core::PythonApi</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1StringUtil" prot="public">tblink_rpc_core::StringUtil</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1TbLink" prot="public">tblink_rpc_core::TbLink</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1TransportJsonSocket" prot="public">tblink_rpc_core::TransportJsonSocket</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1TransportMessageFifo" prot="public">tblink_rpc_core::TransportMessageFifo</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1TransportMessageFifoEP" prot="public">tblink_rpc_core::TransportMessageFifoEP</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1TransportMessageFifoThreadedEP" prot="public">tblink_rpc_core::TransportMessageFifoThreadedEP</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1Type" prot="public">tblink_rpc_core::Type</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1TypeInt" prot="public">tblink_rpc_core::TypeInt</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1TypeMap" prot="public">tblink_rpc_core::TypeMap</innerclass>
+    <innerclass refid="classtblink__rpc__core_1_1TypeVec" prot="public">tblink_rpc_core::TypeVec</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="IType_8h_1a64f4416835c3fe884e74973d6d3e0cc0" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>TypeE</name>
+        <enumvalue id="IType_8h_1a64f4416835c3fe884e74973d6d3e0cc0ac26f15e86e3de4c398a8273272aba034" prot="public">
+          <name>Bool</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IType_8h_1a64f4416835c3fe884e74973d6d3e0cc0a1686a6c336b71b36d77354cea19a8b52" prot="public">
+          <name>Int</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IType_8h_1a64f4416835c3fe884e74973d6d3e0cc0a46f3ea056caa3126b91f3f70beea068c" prot="public">
+          <name>Map</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IType_8h_1a64f4416835c3fe884e74973d6d3e0cc0aebccbbd337efb2ddb5979c57125bad1b" prot="public">
+          <name>Str</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="IType_8h_1a64f4416835c3fe884e74973d6d3e0cc0a085dd9889d1b6474cc38b54a58c7df05" prot="public">
+          <name>Vec</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IType.h" line="14" column="17" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IType.h" bodystart="14" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="EndpointListenerBase_8h_1a8510e290cf9d698412e9307e9aff968a" prot="public" static="no">
+        <type>std::function&lt; void(const <ref refid="classtblink__rpc__core_1_1IEndpointEvent" kindref="compound">IEndpointEvent</ref> *)&gt;</type>
+        <definition>typedef std::function&lt; void(const IEndpointEvent *)&gt; tblink_rpc_core::endpoint_ev_f</definition>
+        <argsstring></argsstring>
+        <name>endpoint_ev_f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointListenerBase.h" line="14" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointListenerBase.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="EndpointLoopback_8h_1acceb64f0d265f7a05aa163e32e2bf2d6" prot="public" static="no">
+        <type>std::unique_ptr&lt; <ref refid="classtblink__rpc__core_1_1EndpointLoopback" kindref="compound">EndpointLoopback</ref> &gt;</type>
+        <definition>using tblink_rpc_core::EndpointLoopbackUP = typedef std::unique_ptr&lt;EndpointLoopback&gt;</definition>
+        <argsstring></argsstring>
+        <name>EndpointLoopbackUP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointLoopback.h" line="15" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointLoopback.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="EndpointLoopback_8h_1ac78502f348fa86ebcd764fc7231742c8" prot="public" static="no">
+        <type>std::function&lt; void()&gt;</type>
+        <definition>typedef std::function&lt; void()&gt; tblink_rpc_core::time_cb_f</definition>
+        <argsstring></argsstring>
+        <name>time_cb_f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointLoopback.h" line="17" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointLoopback.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="InterfaceInstBase_8h_1af149638b2b149501c82ffeb9ada078f9" prot="public" static="no">
+        <type>std::unique_ptr&lt; <ref refid="classtblink__rpc__core_1_1InterfaceInstBase" kindref="compound">InterfaceInstBase</ref> &gt;</type>
+        <definition>typedef std::unique_ptr&lt;InterfaceInstBase&gt; tblink_rpc_core::InterfaceInstUP</definition>
+        <argsstring></argsstring>
+        <name>InterfaceInstUP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceInstBase.h" line="17" column="25" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceInstBase.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="InterfaceInstMsgTransport_8h_1a8ea96914e5be91497289f60e5dc3387d" prot="public" static="no">
+        <type>std::unique_ptr&lt; <ref refid="classtblink__rpc__core_1_1InterfaceInstMsgTransport" kindref="compound">InterfaceInstMsgTransport</ref> &gt;</type>
+        <definition>using tblink_rpc_core::InterfaceInstMsgTransportUP = typedef std::unique_ptr&lt;InterfaceInstMsgTransport&gt;</definition>
+        <argsstring></argsstring>
+        <name>InterfaceInstMsgTransportUP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceInstMsgTransport.h" line="15" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceInstMsgTransport.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="InterfaceType_8h_1af81369457878a4337bff05be2176f83a" prot="public" static="no">
+        <type>std::unique_ptr&lt; <ref refid="classtblink__rpc__core_1_1InterfaceType" kindref="compound">InterfaceType</ref> &gt;</type>
+        <definition>typedef std::unique_ptr&lt;InterfaceType&gt; tblink_rpc_core::InterfaceTypeUP</definition>
+        <argsstring></argsstring>
+        <name>InterfaceTypeUP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" line="17" column="25" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="ITypeBuilder_8h_1a98a9566099e35f89f7dc2f82be33b102" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classtblink__rpc__core_1_1ITypeBuilder" kindref="compound">ITypeBuilder</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;ITypeBuilder&gt; tblink_rpc_core::ITypeBuilderSP</definition>
+        <argsstring></argsstring>
+        <name>ITypeBuilderSP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ITypeBuilder.h" line="12" column="25" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ITypeBuilder.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MethodType_8h_1ac04fa20747d44793ce11138d04fd5b75" prot="public" static="no">
+        <type>std::unique_ptr&lt; <ref refid="classtblink__rpc__core_1_1MethodType" kindref="compound">MethodType</ref> &gt;</type>
+        <definition>typedef std::unique_ptr&lt;MethodType&gt; tblink_rpc_core::MethodTypeUP</definition>
+        <argsstring></argsstring>
+        <name>MethodTypeUP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/MethodType.h" line="16" column="25" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/MethodType.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="ParamVal_8h_1acc3c06ceb7a6cc41f92170392db7d960" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classtblink__rpc__core_1_1ParamVal" kindref="compound">ParamVal</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;ParamVal&gt; tblink_rpc_core::JsonParamValSP</definition>
+        <argsstring></argsstring>
+        <name>JsonParamValSP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ParamVal.h" line="15" column="25" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ParamVal.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="ParamVal_8h_1a726eb7530996b183f0cb089920e08ce0" prot="public" static="no">
+        <type>std::unique_ptr&lt; <ref refid="classtblink__rpc__core_1_1ParamVal" kindref="compound">ParamVal</ref> &gt;</type>
+        <definition>typedef std::unique_ptr&lt;ParamVal&gt; tblink_rpc_core::ParamValUP</definition>
+        <argsstring></argsstring>
+        <name>ParamValUP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ParamVal.h" line="16" column="25" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ParamVal.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="ParamValBool_8h_1a20fd2bccb23b23e3e4419ccd1377b49d" prot="public" static="no">
+        <type>std::unique_ptr&lt; <ref refid="classtblink__rpc__core_1_1ParamValBool" kindref="compound">ParamValBool</ref> &gt;</type>
+        <definition>typedef std::unique_ptr&lt;ParamValBool&gt; tblink_rpc_core::ParamValBoolUP</definition>
+        <argsstring></argsstring>
+        <name>ParamValBoolUP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ParamValBool.h" line="15" column="25" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ParamValBool.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="ParamValInt_8h_1a29c82bfb8907ed620de41280ce79166b" prot="public" static="no">
+        <type>std::unique_ptr&lt; <ref refid="classtblink__rpc__core_1_1ParamValInt" kindref="compound">ParamValInt</ref> &gt;</type>
+        <definition>typedef std::unique_ptr&lt;ParamValInt&gt; tblink_rpc_core::ParamValIntUP</definition>
+        <argsstring></argsstring>
+        <name>ParamValIntUP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ParamValInt.h" line="15" column="25" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ParamValInt.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="ParamValMap_8h_1a7970db15f567f8dc6759db69076d59d5" prot="public" static="no">
+        <type>std::unique_ptr&lt; <ref refid="classtblink__rpc__core_1_1ParamValMap" kindref="compound">ParamValMap</ref> &gt;</type>
+        <definition>typedef std::unique_ptr&lt;ParamValMap&gt; tblink_rpc_core::ParamValMapUP</definition>
+        <argsstring></argsstring>
+        <name>ParamValMapUP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ParamValMap.h" line="17" column="25" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ParamValMap.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="ParamValStr_8h_1a174bf8ba17432de92a84330d6fecc6a1" prot="public" static="no">
+        <type>std::unique_ptr&lt; <ref refid="classtblink__rpc__core_1_1ParamValStr" kindref="compound">ParamValStr</ref> &gt;</type>
+        <definition>typedef std::unique_ptr&lt;ParamValStr&gt; tblink_rpc_core::ParamValStrUP</definition>
+        <argsstring></argsstring>
+        <name>ParamValStrUP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ParamValStr.h" line="17" column="25" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ParamValStr.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="ParamValVec_8h_1ab7b2320150c39d8030ff952384a96ee5" prot="public" static="no">
+        <type>std::unique_ptr&lt; <ref refid="classtblink__rpc__core_1_1ParamValVec" kindref="compound">ParamValVec</ref> &gt;</type>
+        <definition>typedef std::unique_ptr&lt;ParamValVec&gt; tblink_rpc_core::ParamValVecUP</definition>
+        <argsstring></argsstring>
+        <name>ParamValVecUP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ParamValVec.h" line="18" column="25" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ParamValVec.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="TransportMessageFifo_8h_1ac7c5b7f6cfd4b6567092df3f1ac49682" prot="public" static="no">
+        <type>std::unique_ptr&lt; <ref refid="classtblink__rpc__core_1_1TransportMessageFifo" kindref="compound">TransportMessageFifo</ref> &gt;</type>
+        <definition>typedef std::unique_ptr&lt;TransportMessageFifo&gt; tblink_rpc_core::FifoMessageTransportUP</definition>
+        <argsstring></argsstring>
+        <name>FifoMessageTransportUP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifo.h" line="16" column="25" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifo.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="TransportMessageFifoEP_8h_1a5e1fae47639e42ff5b082d78ca451b00" prot="public" static="no">
+        <type>std::unique_ptr&lt; <ref refid="classtblink__rpc__core_1_1TransportMessageFifoEP" kindref="compound">TransportMessageFifoEP</ref> &gt;</type>
+        <definition>typedef std::unique_ptr&lt;TransportMessageFifoEP&gt; tblink_rpc_core::TransportMessageFifoEPUP</definition>
+        <argsstring></argsstring>
+        <name>TransportMessageFifoEPUP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifoEP.h" line="18" column="25" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifoEP.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="IEndpoint_8h_1aa828412ab79354e2828f95eabbd19bae" prot="public" static="no">
+        <type>std::unique_ptr&lt; <ref refid="classtblink__rpc__core_1_1IEndpoint" kindref="compound">IEndpoint</ref> &gt;</type>
+        <definition>typedef std::unique_ptr&lt;IEndpoint&gt; tblink_rpc_core::IEndpointUP</definition>
+        <argsstring></argsstring>
+        <name>IEndpointUP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IEndpoint.h" line="24" column="25" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IEndpoint.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="IEndpointListener_8h_1a0dd98634a30327986ac0e3a504e75c15" prot="public" static="no">
+        <type>std::unique_ptr&lt; <ref refid="classtblink__rpc__core_1_1IEndpointListener" kindref="compound">IEndpointListener</ref> &gt;</type>
+        <definition>using tblink_rpc_core::IEndpointListenerUP = typedef std::unique_ptr&lt;IEndpointListener&gt;</definition>
+        <argsstring></argsstring>
+        <name>IEndpointListenerUP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IEndpointListener.h" line="18" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IEndpointListener.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="IEndpointServices_8h_1a564365753c3357fd533bb6504369826e" prot="public" static="no">
+        <type>std::unique_ptr&lt; <ref refid="classtblink__rpc__core_1_1IEndpointServices" kindref="compound">IEndpointServices</ref> &gt;</type>
+        <definition>typedef std::unique_ptr&lt;IEndpointServices&gt; tblink_rpc_core::IEndpointServicesUP</definition>
+        <argsstring></argsstring>
+        <name>IEndpointServicesUP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IEndpointServices.h" line="17" column="25" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IEndpointServices.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="IEndpointServicesFactory_8h_1a6f9067984285948afbbc214799c40b0c" prot="public" static="no">
+        <type>std::unique_ptr&lt; <ref refid="classtblink__rpc__core_1_1IEndpointServicesFactory" kindref="compound">IEndpointServicesFactory</ref> &gt;</type>
+        <definition>using tblink_rpc_core::IEndpointServicesFactoryUP = typedef std::unique_ptr&lt;IEndpointServicesFactory&gt;</definition>
+        <argsstring></argsstring>
+        <name>IEndpointServicesFactoryUP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IEndpointServicesFactory.h" line="16" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IEndpointServicesFactory.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="IInterfaceInst_8h_1a1d593e697f54d0165e6c22daf5c4469b" prot="public" static="no">
+        <type>std::unique_ptr&lt; <ref refid="classtblink__rpc__core_1_1IInterfaceInst" kindref="compound">IInterfaceInst</ref> &gt;</type>
+        <definition>using tblink_rpc_core::IInterfaceInstUP = typedef std::unique_ptr&lt;IInterfaceInst&gt;</definition>
+        <argsstring></argsstring>
+        <name>IInterfaceInstUP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IInterfaceInst.h" line="22" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IInterfaceInst.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="IInterfaceInst_8h_1ad064814104624b88e155e45c15169c55" prot="public" static="no">
+        <type>std::function&lt; void(<ref refid="classtblink__rpc__core_1_1IInterfaceInst" kindref="compound">IInterfaceInst</ref> *inst, <ref refid="classtblink__rpc__core_1_1IMethodType" kindref="compound">IMethodType</ref> *method, intptr_t call_id, <ref refid="classtblink__rpc__core_1_1IParamValVec" kindref="compound">IParamValVec</ref> *params)&gt;</type>
+        <definition>typedef std::function&lt;void( IInterfaceInst *inst, IMethodType *method, intptr_t call_id, IParamValVec *params)&gt; tblink_rpc_core::invoke_req_f</definition>
+        <argsstring></argsstring>
+        <name>invoke_req_f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IInterfaceInst.h" line="27" column="2" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IInterfaceInst.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="IInterfaceInst_8h_1a1a4e173c4bf147a9405245cf3d6188a8" prot="public" static="no">
+        <type>std::function&lt; void(<ref refid="classtblink__rpc__core_1_1IParamVal" kindref="compound">IParamVal</ref> *retval)&gt;</type>
+        <definition>typedef std::function&lt;void(IParamVal *retval)&gt; tblink_rpc_core::invoke_rsp_f</definition>
+        <argsstring></argsstring>
+        <name>invoke_rsp_f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IInterfaceInst.h" line="29" column="23" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IInterfaceInst.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="IInterfaceType_8h_1a79810d114911a4ca99765dc0e1ff8db4" prot="public" static="no">
+        <type>std::unique_ptr&lt; <ref refid="classtblink__rpc__core_1_1IInterfaceType" kindref="compound">IInterfaceType</ref> &gt;</type>
+        <definition>typedef std::unique_ptr&lt;IInterfaceType&gt; tblink_rpc_core::IInterfaceTypeUP</definition>
+        <argsstring></argsstring>
+        <name>IInterfaceTypeUP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IInterfaceType.h" line="14" column="25" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IInterfaceType.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="IMethodType_8h_1a29eb2d787a35ff1c74d316f1dbc6cabd" prot="public" static="no">
+        <type>std::unique_ptr&lt; <ref refid="classtblink__rpc__core_1_1IMethodType" kindref="compound">IMethodType</ref> &gt;</type>
+        <definition>typedef std::unique_ptr&lt;IMethodType&gt; tblink_rpc_core::IMethodTypeUP</definition>
+        <argsstring></argsstring>
+        <name>IMethodTypeUP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IMethodType.h" line="17" column="25" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IMethodType.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="IParamDecl_8h_1ade5a96538c46d4115723ac5925e189e1" prot="public" static="no">
+        <type>std::unique_ptr&lt; <ref refid="classtblink__rpc__core_1_1IParamDecl" kindref="compound">IParamDecl</ref> &gt;</type>
+        <definition>typedef std::unique_ptr&lt;IParamDecl&gt; tblink_rpc_core::IParamDeclUP</definition>
+        <argsstring></argsstring>
+        <name>IParamDeclUP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IParamDecl.h" line="14" column="25" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IParamDecl.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="IParamVal_8h_1ad17ac58d7dbf0adbc2e3b132b045136e" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classtblink__rpc__core_1_1IParamVal" kindref="compound">IParamVal</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;IParamVal&gt; tblink_rpc_core::IParamValSP</definition>
+        <argsstring></argsstring>
+        <name>IParamValSP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IParamVal.h" line="14" column="25" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IParamVal.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="IParamVal_8h_1a0e86f3c6ab518f1009307992a22851d6" prot="public" static="no">
+        <type>std::unique_ptr&lt; <ref refid="classtblink__rpc__core_1_1IParamVal" kindref="compound">IParamVal</ref> &gt;</type>
+        <definition>typedef std::unique_ptr&lt;IParamVal&gt; tblink_rpc_core::IParamValUP</definition>
+        <argsstring></argsstring>
+        <name>IParamValUP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IParamVal.h" line="15" column="25" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IParamVal.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="IParamValBool_8h_1a4823cd9bf2c053c166887d714e543371" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classtblink__rpc__core_1_1IParamValBool" kindref="compound">IParamValBool</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;IParamValBool&gt; tblink_rpc_core::IParamValBoolSP</definition>
+        <argsstring></argsstring>
+        <name>IParamValBoolSP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IParamValBool.h" line="14" column="25" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IParamValBool.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="IParamValBool_8h_1a74c4d86faf51947a1e4382617496f7fb" prot="public" static="no">
+        <type>std::unique_ptr&lt; <ref refid="classtblink__rpc__core_1_1IParamValBool" kindref="compound">IParamValBool</ref> &gt;</type>
+        <definition>typedef std::unique_ptr&lt;IParamValBool&gt; tblink_rpc_core::IParamValBoolUP</definition>
+        <argsstring></argsstring>
+        <name>IParamValBoolUP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IParamValBool.h" line="15" column="25" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IParamValBool.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="IParamValInt_8h_1a0763d36d90d908f0a9bba509b164869e" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classtblink__rpc__core_1_1IParamValInt" kindref="compound">IParamValInt</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;IParamValInt&gt; tblink_rpc_core::IParamValIntSP</definition>
+        <argsstring></argsstring>
+        <name>IParamValIntSP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IParamValInt.h" line="14" column="25" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IParamValInt.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="IParamValInt_8h_1a2b6abe4de22d8fca9ef840647410b7ed" prot="public" static="no">
+        <type>std::unique_ptr&lt; <ref refid="classtblink__rpc__core_1_1IParamValInt" kindref="compound">IParamValInt</ref> &gt;</type>
+        <definition>typedef std::unique_ptr&lt;IParamValInt&gt; tblink_rpc_core::IParamValIntUP</definition>
+        <argsstring></argsstring>
+        <name>IParamValIntUP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IParamValInt.h" line="15" column="25" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IParamValInt.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="IParamValMap_8h_1af2fe395c75dd33fd374453dd3557c324" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classtblink__rpc__core_1_1IParamValMap" kindref="compound">IParamValMap</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;IParamValMap&gt; tblink_rpc_core::IParamValMapSP</definition>
+        <argsstring></argsstring>
+        <name>IParamValMapSP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IParamValMap.h" line="15" column="25" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IParamValMap.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="IParamValMap_8h_1a040fbc95000682b7792fe94620e96d06" prot="public" static="no">
+        <type>std::unique_ptr&lt; <ref refid="classtblink__rpc__core_1_1IParamValMap" kindref="compound">IParamValMap</ref> &gt;</type>
+        <definition>typedef std::unique_ptr&lt;IParamValMap&gt; tblink_rpc_core::IParamValMapUP</definition>
+        <argsstring></argsstring>
+        <name>IParamValMapUP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IParamValMap.h" line="16" column="25" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IParamValMap.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="IParamValStr_8h_1adc8cf659b5d5f5425b4f754463eaa62f" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classtblink__rpc__core_1_1IParamValStr" kindref="compound">IParamValStr</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;IParamValStr&gt; tblink_rpc_core::IParamValStrSP</definition>
+        <argsstring></argsstring>
+        <name>IParamValStrSP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IParamValStr.h" line="14" column="25" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IParamValStr.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="IParamValStr_8h_1aac4d9b573182a2086ebb9566aff081cd" prot="public" static="no">
+        <type>std::unique_ptr&lt; <ref refid="classtblink__rpc__core_1_1IParamValStr" kindref="compound">IParamValStr</ref> &gt;</type>
+        <definition>typedef std::unique_ptr&lt;IParamValStr&gt; tblink_rpc_core::IParamValStrUP</definition>
+        <argsstring></argsstring>
+        <name>IParamValStrUP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IParamValStr.h" line="15" column="25" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IParamValStr.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="IParamValVec_8h_1acd2199253f11a88d0707ce4c207e9fc2" prot="public" static="no">
+        <type>std::unique_ptr&lt; <ref refid="classtblink__rpc__core_1_1IParamValVec" kindref="compound">IParamValVec</ref> &gt;</type>
+        <definition>typedef std::unique_ptr&lt;IParamValVec&gt; tblink_rpc_core::IParamValVecUP</definition>
+        <argsstring></argsstring>
+        <name>IParamValVecUP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IParamValVec.h" line="14" column="25" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IParamValVec.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="ISymFinder_8h_1a6f8f68e33b24eedaab57306bfa83b23d" prot="public" static="no">
+        <type>std::unique_ptr&lt; <ref refid="classtblink__rpc__core_1_1ISymFinder" kindref="compound">ISymFinder</ref> &gt;</type>
+        <definition>using tblink_rpc_core::ISymFinderUP = typedef std::unique_ptr&lt;ISymFinder&gt;</definition>
+        <argsstring></argsstring>
+        <name>ISymFinderUP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ISymFinder.h" line="15" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ISymFinder.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="ITransport_8h_1a72741e070866f024d7264ac776ef90c3" prot="public" static="no">
+        <type>std::function&lt; int32_t(const std::string &amp;method, intptr_t id, <ref refid="classtblink__rpc__core_1_1IParamValMap" kindref="compound">IParamValMap</ref> *params)&gt;</type>
+        <definition>typedef std::function&lt;int32_t( const std::string &amp;method, intptr_t id, IParamValMap *params)&gt; tblink_rpc_core::recv_req_f</definition>
+        <argsstring></argsstring>
+        <name>recv_req_f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ITransport.h" line="20" column="2" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ITransport.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="ITransport_8h_1a6ce24c8dc47bbaddb8f433646c8cecc5" prot="public" static="no">
+        <type>std::function&lt; int32_t(intptr_t id, <ref refid="classtblink__rpc__core_1_1IParamValMap" kindref="compound">IParamValMap</ref> *result, <ref refid="classtblink__rpc__core_1_1IParamValMap" kindref="compound">IParamValMap</ref> *error)&gt;</type>
+        <definition>typedef std::function&lt;int32_t( intptr_t id, IParamValMap *result, IParamValMap *error)&gt; tblink_rpc_core::recv_rsp_f</definition>
+        <argsstring></argsstring>
+        <name>recv_rsp_f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ITransport.h" line="25" column="2" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ITransport.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="IType_8h_1a4b42546328010b7952c6f549e9df972d" prot="public" static="no">
+        <type>std::unique_ptr&lt; <ref refid="classtblink__rpc__core_1_1IType" kindref="compound">IType</ref> &gt;</type>
+        <definition>typedef std::unique_ptr&lt;IType&gt; tblink_rpc_core::ITypeUP</definition>
+        <argsstring></argsstring>
+        <name>ITypeUP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IType.h" line="23" column="25" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IType.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="EndpointMsgBase_8cpp_1ae96f2e43623c206073006c78e620e6b2" prot="public" static="yes" mutable="no">
+        <type>std::unordered_map&lt; TypeE, std::string &gt;</type>
+        <definition>std::unordered_map&lt;TypeE, std::string&gt; tblink_rpc_core::kind2str_m</definition>
+        <argsstring></argsstring>
+        <name>kind2str_m</name>
+        <initializer>= {
+		{TypeE::Bool, &quot;bool&quot;},
+		{TypeE::Int, &quot;int&quot;},
+		{TypeE::Map, &quot;map&quot;},
+		{TypeE::Str, &quot;str&quot;},
+		{TypeE::Vec, &quot;vec&quot;}
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" line="1256" column="27" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="1256" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="LaunchTypeConnectNativeLoopback_8cpp_1a631f4cd2211fffab12d400bfe309cd43" prot="public" static="yes" mutable="no">
+        <type><ref refid="classtblink__rpc__core_1_1LaunchTypeRegistration" kindref="compound">LaunchTypeRegistration</ref>&lt; <ref refid="classtblink__rpc__core_1_1LaunchTypeConnectNativeLoopback" kindref="compound">LaunchTypeConnectNativeLoopback</ref> &gt;</type>
+        <definition>LaunchTypeRegistration&lt;LaunchTypeConnectNativeLoopback&gt; tblink_rpc_core::registration</definition>
+        <argsstring></argsstring>
+        <name>registration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeConnectNativeLoopback.cpp" line="53" column="31" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeConnectNativeLoopback.cpp" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="LaunchTypeConnectSocket_8cpp_1ad96233546e0dbaa43d85ef549206ccca" prot="public" static="yes" mutable="no">
+        <type><ref refid="classtblink__rpc__core_1_1LaunchTypeRegistration" kindref="compound">LaunchTypeRegistration</ref>&lt; <ref refid="classtblink__rpc__core_1_1LaunchTypeConnectSocket" kindref="compound">LaunchTypeConnectSocket</ref> &gt;</type>
+        <definition>LaunchTypeRegistration&lt;LaunchTypeConnectSocket&gt; tblink_rpc_core::m_registration</definition>
+        <argsstring></argsstring>
+        <name>m_registration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeConnectSocket.cpp" line="98" column="30" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeConnectSocket.cpp" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="LaunchTypeNativeLoopback_8cpp_1a6fdf01bfe85a9a5c5b10af84ff1802a1" prot="public" static="yes" mutable="no">
+        <type><ref refid="classtblink__rpc__core_1_1LaunchTypeRegistration" kindref="compound">LaunchTypeRegistration</ref>&lt; <ref refid="classtblink__rpc__core_1_1LaunchTypeNativeLoopback" kindref="compound">LaunchTypeNativeLoopback</ref> &gt;</type>
+        <definition>LaunchTypeRegistration&lt;LaunchTypeNativeLoopback&gt; tblink_rpc_core::m_registration</definition>
+        <argsstring></argsstring>
+        <name>m_registration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeNativeLoopback.cpp" line="57" column="30" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeNativeLoopback.cpp" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="LaunchTypeProcessSocket_8cpp_1ab4594246da598af6eba0f4ee5bf33cc0" prot="public" static="yes" mutable="no">
+        <type><ref refid="classtblink__rpc__core_1_1LaunchTypeRegistration" kindref="compound">LaunchTypeRegistration</ref>&lt; <ref refid="classtblink__rpc__core_1_1LaunchTypeProcessSocket" kindref="compound">LaunchTypeProcessSocket</ref> &gt;</type>
+        <definition>LaunchTypeRegistration&lt;LaunchTypeProcessSocket&gt; tblink_rpc_core::m_registration</definition>
+        <argsstring></argsstring>
+        <name>m_registration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeProcessSocket.cpp" line="190" column="30" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeProcessSocket.cpp" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="LaunchTypePythonLoopback_8cpp_1adaa9706e475f0f6804031fd2c62d4f95" prot="public" static="yes" mutable="no">
+        <type><ref refid="classtblink__rpc__core_1_1LaunchTypeRegistration" kindref="compound">LaunchTypeRegistration</ref>&lt; <ref refid="classtblink__rpc__core_1_1LaunchTypePythonLoopback" kindref="compound">LaunchTypePythonLoopback</ref> &gt;</type>
+        <definition>LaunchTypeRegistration&lt;LaunchTypePythonLoopback&gt; tblink_rpc_core::m_registration</definition>
+        <argsstring></argsstring>
+        <name>m_registration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypePythonLoopback.cpp" line="180" column="31" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypePythonLoopback.cpp" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="LaunchTypePythonSocket_8cpp_1a657466f7597f24675c8ac6e5a3c8688e" prot="public" static="yes" mutable="no">
+        <type><ref refid="classtblink__rpc__core_1_1LaunchTypeRegistration" kindref="compound">LaunchTypeRegistration</ref>&lt; <ref refid="classtblink__rpc__core_1_1LaunchTypePythonSocket" kindref="compound">LaunchTypePythonSocket</ref> &gt;</type>
+        <definition>LaunchTypeRegistration&lt;LaunchTypePythonSocket&gt; tblink_rpc_core::m_registration</definition>
+        <argsstring></argsstring>
+        <name>m_registration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypePythonSocket.cpp" line="56" column="30" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypePythonSocket.cpp" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/Debug.cpp" line="10" column="25"/>
+  </compounddef>
+</doxygen>

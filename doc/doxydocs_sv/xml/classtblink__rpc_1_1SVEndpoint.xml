@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc_1_1SVEndpoint" kind="class" language="C++" prot="public">
+    <compoundname>tblink_rpc::SVEndpoint</compoundname>
+    <basecompoundref refid="classtblink__rpc_1_1IEndpoint" prot="public" virt="non-virtual">tblink_rpc::IEndpoint</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classtblink__rpc_1_1SVEndpoint_1acd04ed22e0987097017f74ef89c01425" prot="public" static="no" mutable="no">
+        <type><ref refid="classtblink__rpc_1_1IEndpointServices" kindref="compound">IEndpointServices</ref></type>
+        <definition>IEndpointServices tblink_rpc::SVEndpoint::m_services</definition>
+        <argsstring></argsstring>
+        <name>m_services</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5144" column="18" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5144" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc_1_1SVEndpoint_1a3b15a018e9f64c0ca947ad8e89fdd246" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>tblink_rpc::SVEndpoint::new</definition>
+        <argsstring>()</argsstring>
+        <name>new</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5146" column="2" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5146" bodyend="5147"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1SVEndpoint_1aef81b11092ce03da40db4396824a01b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int tblink_rpc::SVEndpoint::init</definition>
+        <argsstring>(IEndpointServices ep_services)</argsstring>
+        <name>init</name>
+        <reimplements refid="classtblink__rpc_1_1IEndpoint_1a556b566c429a768e642c3a76ddbb515d">init</reimplements>
+        <param>
+          <type><ref refid="classtblink__rpc_1_1IEndpointServices" kindref="compound">IEndpointServices</ref></type>
+          <declname>ep_services</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5149" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5149" bodyend="5153"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1SVEndpoint_1a6d4d7fe323720ffc4e6a0de9771fd840" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int tblink_rpc::SVEndpoint::is_init</definition>
+        <argsstring>()</argsstring>
+        <name>is_init</name>
+        <reimplements refid="classtblink__rpc_1_1IEndpoint_1a452e692f0d6acd881b98edc8ebce652f">is_init</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5155" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5155" bodyend="5157"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="classtblink__rpc_1_1SVEndpoint" kindref="compound">SVEndpoint</ref></para>
+<para>TODO: Add class documentation </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>tblink_rpc::SVEndpoint</label>
+        <link refid="classtblink__rpc_1_1SVEndpoint"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tblink_rpc::IEndpoint</label>
+        <link refid="classtblink__rpc_1_1IEndpoint"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>tblink_rpc::SVEndpoint</label>
+        <link refid="classtblink__rpc_1_1SVEndpoint"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>m_services</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tblink_rpc::IEndpointServices</label>
+        <link refid="classtblink__rpc_1_1IEndpointServices"/>
+      </node>
+      <node id="2">
+        <label>tblink_rpc::IEndpoint</label>
+        <link refid="classtblink__rpc_1_1IEndpoint"/>
+      </node>
+    </collaborationgraph>
+    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5141" column="34" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5141" bodyend="5159"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc_1_1IEndpoint_1a9b0baf75d79d5cae472b6b82263a1b0b" prot="public" virt="virtual"><scope>tblink_rpc::SVEndpoint</scope><name>addListener</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1abe27e855aa88e0407d59ef7cfbdeed69" prot="public" virt="virtual"><scope>tblink_rpc::SVEndpoint</scope><name>await_run_until_event</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1a8ac4e37bc389c1a9e1e22e192aa70d86" prot="public" virt="virtual"><scope>tblink_rpc::SVEndpoint</scope><name>build_complete</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1a00f95603e44766c792021dd6fd8096c3" prot="public" virt="virtual"><scope>tblink_rpc::SVEndpoint</scope><name>comm_state</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1a27a23baecfc154e89cb7e2cd2d7597cc" prot="public" virt="non-virtual"><scope>tblink_rpc::SVEndpoint</scope><name>comm_state_e</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1a61a99731e547ad568ea1aed2a379d1b9" prot="public" virt="virtual"><scope>tblink_rpc::SVEndpoint</scope><name>connect_complete</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1a1ca99a41d473f56183e3aea2ada4d738" prot="public" virt="virtual"><scope>tblink_rpc::SVEndpoint</scope><name>defineInterfaceInst</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1a2148f789dc3b09fb46d4ffbd9a0bb08a" prot="public" virt="virtual"><scope>tblink_rpc::SVEndpoint</scope><name>defineInterfaceType</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1a27c441a07983c7bee30a99b17605e45e" prot="public" virt="virtual"><scope>tblink_rpc::SVEndpoint</scope><name>findInterfaceType</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1abaa49915842362999ee652ddab474e44" prot="public" virt="virtual"><scope>tblink_rpc::SVEndpoint</scope><name>getInterfaceInsts</name></member>
+      <member refid="classtblink__rpc_1_1SVEndpoint_1aef81b11092ce03da40db4396824a01b3" prot="public" virt="virtual"><scope>tblink_rpc::SVEndpoint</scope><name>init</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1af41881c5aeed15369fcb756a20ddc90f" prot="public" virt="virtual"><scope>tblink_rpc::SVEndpoint</scope><name>is_build_complete</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1a17987cdcb9dd0be67c1a846394d00d43" prot="public" virt="virtual"><scope>tblink_rpc::SVEndpoint</scope><name>is_connect_complete</name></member>
+      <member refid="classtblink__rpc_1_1SVEndpoint_1a6d4d7fe323720ffc4e6a0de9771fd840" prot="public" virt="virtual"><scope>tblink_rpc::SVEndpoint</scope><name>is_init</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1ae1799aafcc35c22ffe6d4054241e416b" prot="public" virt="virtual"><scope>tblink_rpc::SVEndpoint</scope><name>last_error</name></member>
+      <member refid="classtblink__rpc_1_1SVEndpoint_1acd04ed22e0987097017f74ef89c01425" prot="public" virt="non-virtual"><scope>tblink_rpc::SVEndpoint</scope><name>m_services</name></member>
+      <member refid="classtblink__rpc_1_1SVEndpoint_1a3b15a018e9f64c0ca947ad8e89fdd246" prot="public" virt="non-virtual"><scope>tblink_rpc::SVEndpoint</scope><name>new</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1a7dc1af5d7c59b63cce8037359370a37e" prot="public" virt="virtual"><scope>tblink_rpc::SVEndpoint</scope><name>newInterfaceTypeBuilder</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1a9484f278aba51b0ef8de9f0ab8f56624" prot="public" virt="virtual"><scope>tblink_rpc::SVEndpoint</scope><name>process_one_message</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1ac0b830e5127ec6766e66029c409d5a0b" prot="public" virt="virtual"><scope>tblink_rpc::SVEndpoint</scope><name>process_one_message_b</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1a27a23baecfc154e89cb7e2cd2d7597ccab6abe30a3acd8ab3a883b673d42f8edc" prot="public" virt="non-virtual"><scope>tblink_rpc::SVEndpoint</scope><name>Released</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1a27dc60268d6c65844561bcdc1d487c08" prot="public" virt="virtual"><scope>tblink_rpc::SVEndpoint</scope><name>removeListener</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1a84978f42bbbfa85979d5e5f0adf2eb85" prot="public" virt="virtual"><scope>tblink_rpc::SVEndpoint</scope><name>shutdown</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1a27a23baecfc154e89cb7e2cd2d7597ccad1d323a83babe11cb9154628d4ad8b90" prot="public" virt="non-virtual"><scope>tblink_rpc::SVEndpoint</scope><name>Waiting</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

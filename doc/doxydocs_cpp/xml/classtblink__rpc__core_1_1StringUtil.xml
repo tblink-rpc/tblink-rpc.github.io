@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc__core_1_1StringUtil" kind="class" language="C++" prot="public">
+    <compoundname>tblink_rpc_core::StringUtil</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc__core_1_1StringUtil_1a658b72df36baef1385fc74a0d4d83254" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>tblink_rpc_core::StringUtil::StringUtil</definition>
+        <argsstring>()</argsstring>
+        <name>StringUtil</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/StringUtil.h" line="16" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/StringUtil.cpp" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1StringUtil_1af9327c70111d5bca9144c136c2db229e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>tblink_rpc_core::StringUtil::~StringUtil</definition>
+        <argsstring>()</argsstring>
+        <name>~StringUtil</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/StringUtil.h" line="18" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/StringUtil.cpp" bodystart="18" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classtblink__rpc__core_1_1StringUtil_1abb3d067aaabcf08d03e77795c0f70299" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt; std::string &gt; tblink_rpc_core::StringUtil::split_lines</definition>
+        <argsstring>(const std::string &amp;str)</argsstring>
+        <name>split_lines</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/StringUtil.h" line="20" column="20" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/StringUtil.cpp" bodystart="22" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1StringUtil_1ad2e015d8b68eede0236a0d877c8e3e61" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt; std::string &gt; tblink_rpc_core::StringUtil::split_pylist</definition>
+        <argsstring>(const std::string &amp;str)</argsstring>
+        <name>split_pylist</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/StringUtil.h" line="23" column="20" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/StringUtil.cpp" bodystart="44" bodyend="88"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/StringUtil.h" line="14" column="17" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/StringUtil.h" bodystart="14" bodyend="25"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc__core_1_1StringUtil_1abb3d067aaabcf08d03e77795c0f70299" prot="public" virt="non-virtual"><scope>tblink_rpc_core::StringUtil</scope><name>split_lines</name></member>
+      <member refid="classtblink__rpc__core_1_1StringUtil_1ad2e015d8b68eede0236a0d877c8e3e61" prot="public" virt="non-virtual"><scope>tblink_rpc_core::StringUtil</scope><name>split_pylist</name></member>
+      <member refid="classtblink__rpc__core_1_1StringUtil_1a658b72df36baef1385fc74a0d4d83254" prot="public" virt="non-virtual"><scope>tblink_rpc_core::StringUtil</scope><name>StringUtil</name></member>
+      <member refid="classtblink__rpc__core_1_1StringUtil_1af9327c70111d5bca9144c136c2db229e" prot="public" virt="virtual"><scope>tblink_rpc_core::StringUtil</scope><name>~StringUtil</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

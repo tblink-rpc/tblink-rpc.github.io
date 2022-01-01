@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_dd7fd049efe5e6860bf1f7673bc5f08c" kind="dir">
+    <compoundname>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl/src</compoundname>
+    <innerfile refid="ILaunch_8h">ILaunch.h</innerfile>
+    <innerfile refid="InvokeInfoDpi_8cpp">InvokeInfoDpi.cpp</innerfile>
+    <innerfile refid="InvokeInfoDpi_8h">InvokeInfoDpi.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl/src/"/>
+  </compounddef>
+</doxygen>

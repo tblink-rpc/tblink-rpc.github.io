@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc__core_1_1ITypeInt" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>tblink_rpc_core::ITypeInt</compoundname>
+    <basecompoundref refid="classtblink__rpc__core_1_1IType" prot="public" virt="virtual">tblink_rpc_core::IType</basecompoundref>
+    <derivedcompoundref refid="classtblink__rpc__core_1_1TypeInt" prot="public" virt="virtual">tblink_rpc_core::TypeInt</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc__core_1_1ITypeInt_1aa7ae1e7ecbadfcc10766354dc43cf708" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual tblink_rpc_core::ITypeInt::~ITypeInt</definition>
+        <argsstring>()</argsstring>
+        <name>~ITypeInt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ITypeInt.h" line="16" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ITypeInt.h" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1ITypeInt_1aeafe5fd356160f47dcc0db58bfe2043e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool tblink_rpc_core::ITypeInt::is_signed</definition>
+        <argsstring>() const =0</argsstring>
+        <name>is_signed</name>
+        <reimplementedby refid="classtblink__rpc__core_1_1TypeInt_1a857a4cf62768713fc5b82f446643030a">is_signed</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ITypeInt.h" line="18" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1ITypeInt_1acf9e4d6f6738d02742d8736b6673a7f2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>int32_t</type>
+        <definition>virtual int32_t tblink_rpc_core::ITypeInt::width</definition>
+        <argsstring>() const =0</argsstring>
+        <name>width</name>
+        <reimplementedby refid="classtblink__rpc__core_1_1TypeInt_1a30c69d0ceb5c417b1e00f5a7a789f0e6">width</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ITypeInt.h" line="20" column="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>tblink_rpc_core::IType</label>
+        <link refid="classtblink__rpc__core_1_1IType"/>
+      </node>
+      <node id="3">
+        <label>tblink_rpc_core::TypeInt</label>
+        <link refid="classtblink__rpc__core_1_1TypeInt"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>tblink_rpc_core::ITypeInt</label>
+        <link refid="classtblink__rpc__core_1_1ITypeInt"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>tblink_rpc_core::IType</label>
+        <link refid="classtblink__rpc__core_1_1IType"/>
+      </node>
+      <node id="1">
+        <label>tblink_rpc_core::ITypeInt</label>
+        <link refid="classtblink__rpc__core_1_1ITypeInt"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ITypeInt.h" line="13" column="36" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ITypeInt.h" bodystart="13" bodyend="22"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc__core_1_1ITypeInt_1aeafe5fd356160f47dcc0db58bfe2043e" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::ITypeInt</scope><name>is_signed</name></member>
+      <member refid="classtblink__rpc__core_1_1IType_1a62157b4dcaf0777e10c6ff4dd0d93af1" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::ITypeInt</scope><name>kind</name></member>
+      <member refid="classtblink__rpc__core_1_1ITypeInt_1acf9e4d6f6738d02742d8736b6673a7f2" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::ITypeInt</scope><name>width</name></member>
+      <member refid="classtblink__rpc__core_1_1IType_1ad9c9e5ad705bf07a042484dd996851a4" prot="public" virt="virtual"><scope>tblink_rpc_core::ITypeInt</scope><name>~IType</name></member>
+      <member refid="classtblink__rpc__core_1_1ITypeInt_1aa7ae1e7ecbadfcc10766354dc43cf708" prot="public" virt="virtual"><scope>tblink_rpc_core::ITypeInt</scope><name>~ITypeInt</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

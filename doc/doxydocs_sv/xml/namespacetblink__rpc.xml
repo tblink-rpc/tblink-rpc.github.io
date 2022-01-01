@@ -1,0 +1,2328 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespacetblink__rpc" kind="namespace" language="C++">
+    <compoundname>tblink_rpc</compoundname>
+    <innerclass refid="classtblink__rpc_1_1DpiEndpoint" prot="public">tblink_rpc::DpiEndpoint</innerclass>
+    <innerclass refid="classtblink__rpc_1_1DpiEndpointEvent" prot="public">tblink_rpc::DpiEndpointEvent</innerclass>
+    <innerclass refid="classtblink__rpc_1_1DpiEndpointLoopbackDpi" prot="public">tblink_rpc::DpiEndpointLoopbackDpi</innerclass>
+    <innerclass refid="classtblink__rpc_1_1DpiInterfaceImpl" prot="public">tblink_rpc::DpiInterfaceImpl</innerclass>
+    <innerclass refid="classtblink__rpc_1_1DpiInterfaceInst" prot="public">tblink_rpc::DpiInterfaceInst</innerclass>
+    <innerclass refid="classtblink__rpc_1_1DpiInterfaceInstInvokeClosure" prot="public">tblink_rpc::DpiInterfaceInstInvokeClosure</innerclass>
+    <innerclass refid="classtblink__rpc_1_1DpiInterfaceType" prot="public">tblink_rpc::DpiInterfaceType</innerclass>
+    <innerclass refid="classtblink__rpc_1_1DpiInterfaceTypeBuilder" prot="public">tblink_rpc::DpiInterfaceTypeBuilder</innerclass>
+    <innerclass refid="classtblink__rpc_1_1DpiLaunchParams" prot="public">tblink_rpc::DpiLaunchParams</innerclass>
+    <innerclass refid="classtblink__rpc_1_1DpiLaunchType" prot="public">tblink_rpc::DpiLaunchType</innerclass>
+    <innerclass refid="classtblink__rpc_1_1DpiMethodType" prot="public">tblink_rpc::DpiMethodType</innerclass>
+    <innerclass refid="classtblink__rpc_1_1DpiMethodTypeBuilder" prot="public">tblink_rpc::DpiMethodTypeBuilder</innerclass>
+    <innerclass refid="classtblink__rpc_1_1DpiParamVal" prot="public">tblink_rpc::DpiParamVal</innerclass>
+    <innerclass refid="classtblink__rpc_1_1DpiParamValBool" prot="public">tblink_rpc::DpiParamValBool</innerclass>
+    <innerclass refid="classtblink__rpc_1_1DpiParamValInt" prot="public">tblink_rpc::DpiParamValInt</innerclass>
+    <innerclass refid="classtblink__rpc_1_1DpiParamValMap" prot="public">tblink_rpc::DpiParamValMap</innerclass>
+    <innerclass refid="classtblink__rpc_1_1DpiParamValStr" prot="public">tblink_rpc::DpiParamValStr</innerclass>
+    <innerclass refid="classtblink__rpc_1_1DpiParamValVec" prot="public">tblink_rpc::DpiParamValVec</innerclass>
+    <innerclass refid="classtblink__rpc_1_1DpiType" prot="public">tblink_rpc::DpiType</innerclass>
+    <innerclass refid="classtblink__rpc_1_1DpiTypeInt" prot="public">tblink_rpc::DpiTypeInt</innerclass>
+    <innerclass refid="classtblink__rpc_1_1DpiTypeMap" prot="public">tblink_rpc::DpiTypeMap</innerclass>
+    <innerclass refid="classtblink__rpc_1_1DpiTypeVec" prot="public">tblink_rpc::DpiTypeVec</innerclass>
+    <innerclass refid="classtblink__rpc_1_1IEndpoint" prot="public">tblink_rpc::IEndpoint</innerclass>
+    <innerclass refid="classtblink__rpc_1_1IEndpointEvent" prot="public">tblink_rpc::IEndpointEvent</innerclass>
+    <innerclass refid="classtblink__rpc_1_1IEndpointListener" prot="public">tblink_rpc::IEndpointListener</innerclass>
+    <innerclass refid="classtblink__rpc_1_1IEndpointServices" prot="public">tblink_rpc::IEndpointServices</innerclass>
+    <innerclass refid="classtblink__rpc_1_1IEndpointServicesFactory" prot="public">tblink_rpc::IEndpointServicesFactory</innerclass>
+    <innerclass refid="classtblink__rpc_1_1IInterfaceImpl" prot="public">tblink_rpc::IInterfaceImpl</innerclass>
+    <innerclass refid="classtblink__rpc_1_1IInterfaceInst" prot="public">tblink_rpc::IInterfaceInst</innerclass>
+    <innerclass refid="classtblink__rpc_1_1IInterfaceType" prot="public">tblink_rpc::IInterfaceType</innerclass>
+    <innerclass refid="classtblink__rpc_1_1IInterfaceTypeBuilder" prot="public">tblink_rpc::IInterfaceTypeBuilder</innerclass>
+    <innerclass refid="classtblink__rpc_1_1ILaunchParams" prot="public">tblink_rpc::ILaunchParams</innerclass>
+    <innerclass refid="classtblink__rpc_1_1ILaunchType" prot="public">tblink_rpc::ILaunchType</innerclass>
+    <innerclass refid="classtblink__rpc_1_1IMethodType" prot="public">tblink_rpc::IMethodType</innerclass>
+    <innerclass refid="classtblink__rpc_1_1IMethodTypeBuilder" prot="public">tblink_rpc::IMethodTypeBuilder</innerclass>
+    <innerclass refid="classtblink__rpc_1_1IParamVal" prot="public">tblink_rpc::IParamVal</innerclass>
+    <innerclass refid="classtblink__rpc_1_1IParamValBool" prot="public">tblink_rpc::IParamValBool</innerclass>
+    <innerclass refid="classtblink__rpc_1_1IParamValInt" prot="public">tblink_rpc::IParamValInt</innerclass>
+    <innerclass refid="classtblink__rpc_1_1IParamValMap" prot="public">tblink_rpc::IParamValMap</innerclass>
+    <innerclass refid="classtblink__rpc_1_1IParamValStr" prot="public">tblink_rpc::IParamValStr</innerclass>
+    <innerclass refid="classtblink__rpc_1_1IParamValVec" prot="public">tblink_rpc::IParamValVec</innerclass>
+    <innerclass refid="classtblink__rpc_1_1IType" prot="public">tblink_rpc::IType</innerclass>
+    <innerclass refid="classtblink__rpc_1_1ITypeInt" prot="public">tblink_rpc::ITypeInt</innerclass>
+    <innerclass refid="classtblink__rpc_1_1ITypeMap" prot="public">tblink_rpc::ITypeMap</innerclass>
+    <innerclass refid="classtblink__rpc_1_1ITypeVec" prot="public">tblink_rpc::ITypeVec</innerclass>
+    <innerclass refid="classtblink__rpc_1_1SVEndpoint" prot="public">tblink_rpc::SVEndpoint</innerclass>
+    <innerclass refid="classtblink__rpc_1_1SVEndpointLoopback" prot="public">tblink_rpc::SVEndpointLoopback</innerclass>
+    <innerclass refid="classtblink__rpc_1_1SVEndpointSequencer" prot="public">tblink_rpc::SVEndpointSequencer</innerclass>
+    <innerclass refid="classtblink__rpc_1_1SVEndpointSequencerThread" prot="public">tblink_rpc::SVEndpointSequencerThread</innerclass>
+    <innerclass refid="classtblink__rpc_1_1SVEndpointServices" prot="public">tblink_rpc::SVEndpointServices</innerclass>
+    <innerclass refid="classtblink__rpc_1_1SVEndpointServicesFactory" prot="public">tblink_rpc::SVEndpointServicesFactory</innerclass>
+    <innerclass refid="classtblink__rpc_1_1SVInterfaceImplVif" prot="public">tblink_rpc::SVInterfaceImplVif</innerclass>
+    <innerclass refid="classtblink__rpc_1_1SVInterfaceInst" prot="public">tblink_rpc::SVInterfaceInst</innerclass>
+    <innerclass refid="classtblink__rpc_1_1SVInterfaceType" prot="public">tblink_rpc::SVInterfaceType</innerclass>
+    <innerclass refid="classtblink__rpc_1_1SVInterfaceTypeBuilder" prot="public">tblink_rpc::SVInterfaceTypeBuilder</innerclass>
+    <innerclass refid="classtblink__rpc_1_1SVLaunchParams" prot="public">tblink_rpc::SVLaunchParams</innerclass>
+    <innerclass refid="classtblink__rpc_1_1SVLaunchTypeLoopback" prot="public">tblink_rpc::SVLaunchTypeLoopback</innerclass>
+    <innerclass refid="classtblink__rpc_1_1SVLaunchTypeNativeLoopbackDpi" prot="public">tblink_rpc::SVLaunchTypeNativeLoopbackDpi</innerclass>
+    <innerclass refid="classtblink__rpc_1_1SVLaunchTypeRegistration" prot="public">tblink_rpc::SVLaunchTypeRegistration</innerclass>
+    <innerclass refid="classtblink__rpc_1_1SVMethodType" prot="public">tblink_rpc::SVMethodType</innerclass>
+    <innerclass refid="classtblink__rpc_1_1SVMethodTypeBuilder" prot="public">tblink_rpc::SVMethodTypeBuilder</innerclass>
+    <innerclass refid="classtblink__rpc_1_1SVParamVal" prot="public">tblink_rpc::SVParamVal</innerclass>
+    <innerclass refid="classtblink__rpc_1_1SVParamValBool" prot="public">tblink_rpc::SVParamValBool</innerclass>
+    <innerclass refid="classtblink__rpc_1_1SVParamValInt" prot="public">tblink_rpc::SVParamValInt</innerclass>
+    <innerclass refid="classtblink__rpc_1_1SVParamValMap" prot="public">tblink_rpc::SVParamValMap</innerclass>
+    <innerclass refid="classtblink__rpc_1_1SVParamValStr" prot="public">tblink_rpc::SVParamValStr</innerclass>
+    <innerclass refid="classtblink__rpc_1_1SVParamValVec" prot="public">tblink_rpc::SVParamValVec</innerclass>
+    <innerclass refid="classtblink__rpc_1_1SVType" prot="public">tblink_rpc::SVType</innerclass>
+    <innerclass refid="classtblink__rpc_1_1SVTypeInt" prot="public">tblink_rpc::SVTypeInt</innerclass>
+    <innerclass refid="classtblink__rpc_1_1SVTypeMap" prot="public">tblink_rpc::SVTypeMap</innerclass>
+    <innerclass refid="classtblink__rpc_1_1SVTypeVec" prot="public">tblink_rpc::SVTypeVec</innerclass>
+    <innerclass refid="classtblink__rpc_1_1TbLink" prot="public">tblink_rpc::TbLink</innerclass>
+    <innerclass refid="classtblink__rpc_1_1TbLinkInvokeB" prot="public">tblink_rpc::TbLinkInvokeB</innerclass>
+    <innerclass refid="classtblink__rpc_1_1TbLinkThread" prot="public">tblink_rpc::TbLinkThread</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacetblink__rpc_1a398c8dafefa32d749690b92410413705" prot="public" static="no" mutable="no">
+        <type><ref refid="classtblink__rpc_1_1IInterfaceImpl" kindref="compound">IInterfaceImpl</ref></type>
+        <definition>IInterfaceImpl tblink_rpc::prv_hndl2impl[chandle]</definition>
+        <argsstring>[chandle]</argsstring>
+        <name>prv_hndl2impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1968" column="16" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1965" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacetblink__rpc_1a3f6495a54ebcd7baf3ad3caa2e953e77" prot="public" static="no" mutable="no">
+        <type><ref refid="classtblink__rpc_1_1DpiInterfaceInstInvokeClosure" kindref="compound">DpiInterfaceInstInvokeClosure</ref></type>
+        <definition>DpiInterfaceInstInvokeClosure tblink_rpc::prv_closure_m[chandle]</definition>
+        <argsstring>[chandle]</argsstring>
+        <name>prv_closure_m</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2005" column="31" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2005" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacetblink__rpc_1a6cb67578153a47654cab7f88c36de7b8" prot="public" static="no" mutable="no">
+        <type><ref refid="classtblink__rpc_1_1ILaunchParams" kindref="compound">ILaunchParams</ref></type>
+        <definition>ILaunchParams tblink_rpc::prv_proxy_params_m[chandle]</definition>
+        <argsstring>[chandle]</argsstring>
+        <name>prv_proxy_params_m</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2661" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2661" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacetblink__rpc_1abb6e38e5d38dead80ac103567058238e" prot="public" static="no" mutable="no">
+        <type><ref refid="classtblink__rpc_1_1IEndpointServices" kindref="compound">IEndpointServices</ref></type>
+        <definition>IEndpointServices tblink_rpc::prv_dpi_services_m[chandle]</definition>
+        <argsstring>[chandle]</argsstring>
+        <name>prv_dpi_services_m</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3309" column="19" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3309" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacetblink__rpc_1ade7fbc780941fafdcd3c57892e1d32a5" prot="public" static="no" mutable="no">
+        <type><ref refid="classtblink__rpc_1_1IEndpointListener" kindref="compound">IEndpointListener</ref></type>
+        <definition>IEndpointListener tblink_rpc::prv_dpi_listener_m[chandle]</definition>
+        <argsstring>[chandle]</argsstring>
+        <name>prv_dpi_listener_m</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3764" column="19" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3764" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacetblink__rpc_1aa29a43c9be5d2d7be63035f34b920320" prot="public" static="no" mutable="no">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::prv_listener_dpi_m[IEndpointListener]</definition>
+        <argsstring>[IEndpointListener]</argsstring>
+        <name>prv_listener_dpi_m</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3765" column="9" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3765" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacetblink__rpc_1a4cf6d0478723e5afb3e8da83a955f414" prot="public" static="no" mutable="no">
+        <type><ref refid="classtblink__rpc_1_1TbLink" kindref="compound">TbLink</ref></type>
+        <definition>TbLink tblink_rpc::_tblink_inst</definition>
+        <argsstring></argsstring>
+        <name>_tblink_inst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6247" column="7" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6246" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacetblink__rpc_1a3e83bc63da9304f055bc87c05cb1c622" prot="public" static="no" mutable="no">
+        <type>bit</type>
+        <definition>bit tblink_rpc::prv_tblink_init</definition>
+        <argsstring></argsstring>
+        <name>prv_tblink_init</name>
+        <initializer>= tblink_rpc_init()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6250" column="5" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6250" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacetblink__rpc_1a0ef01a1480a50ddbe66580a77de278c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int tblink_rpc::tblink_rpc_IType_kind</definition>
+        <argsstring>(chandle hndl)</argsstring>
+        <name>tblink_rpc_IType_kind</name>
+        <param>
+          <type>chandle</type>
+          <declname>hndl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1797" column="6" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1797" bodyend="1797"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a6ef4a0aff911701995c63573a27a55ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tblink_rpc::tblink_rpc_IParamVal_dispose</definition>
+        <argsstring>(chandle hndl)</argsstring>
+        <name>tblink_rpc_IParamVal_dispose</name>
+        <param>
+          <type>chandle</type>
+          <declname>hndl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1943" column="7" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1943" bodyend="1943"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a71418145aa1ee6f1e0514fb15a7e4687" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>automatic void</type>
+        <definition>automatic void tblink_rpc::tblink_rpc_closure_invoke_rsp</definition>
+        <argsstring>(chandle closure_h, chandle retval_h)</argsstring>
+        <name>tblink_rpc_closure_invoke_rsp</name>
+        <param>
+          <type>chandle</type>
+          <declname>closure_h</declname>
+        </param>
+        <param>
+          <type>chandle</type>
+          <declname>retval_h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: tblink_rpc_invoke_rsp</para>
+<para>Called by the InterfaceInst implementation (C++) to complete a non-blocking invocation</para>
+<para>Parameters:<itemizedlist>
+<listitem><para>chandle closure</para>
+</listitem><listitem><para>chandle retval</para>
+</listitem></itemizedlist>
+</para>
+<para>Returns: void </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2206" column="17" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2206" bodyend="2213"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a6119007cf0f4dc56883d909a1dac7a6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::tblink_rpc_IInterfaceInstInvokeClosure_new</definition>
+        <argsstring>()</argsstring>
+        <name>tblink_rpc_IInterfaceInstInvokeClosure_new</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2217" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2217" bodyend="2217"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1ad8ace8f0689349d7fb769897b21ce4e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tblink_rpc::tblink_rpc_IInterfaceInstInvokeClosure_dispose</definition>
+        <argsstring>(chandle closure)</argsstring>
+        <name>tblink_rpc_IInterfaceInstInvokeClosure_dispose</name>
+        <param>
+          <type>chandle</type>
+          <declname>closure</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2218" column="7" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2218" bodyend="2219"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a01568b43c2b34f2d58772ec938799bc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::tblink_rpc_IInterfaceInst_endpoint</definition>
+        <argsstring>(chandle ifinst)</argsstring>
+        <name>tblink_rpc_IInterfaceInst_endpoint</name>
+        <param>
+          <type>chandle</type>
+          <declname>ifinst</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2221" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2221" bodyend="2222"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1aec35905458dc98c63463bbe7e738c293" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int tblink_rpc::tblink_rpc_IInterfaceInst_invoke_nb</definition>
+        <argsstring>(chandle ifinst, chandle method, chandle params, chandle closure)</argsstring>
+        <name>tblink_rpc_IInterfaceInst_invoke_nb</name>
+        <param>
+          <type>chandle</type>
+          <declname>ifinst</declname>
+        </param>
+        <param>
+          <type>chandle</type>
+          <declname>method</declname>
+        </param>
+        <param>
+          <type>chandle</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>chandle</type>
+          <declname>closure</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2225" column="6" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2225" bodyend="2229"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a0adc76701709f288e0b2db28009cf1c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tblink_rpc::tblink_rpc_IInterfaceInst_invoke_rsp</definition>
+        <argsstring>(chandle ifinst, longint call_id, chandle retval)</argsstring>
+        <name>tblink_rpc_IInterfaceInst_invoke_rsp</name>
+        <param>
+          <type>chandle</type>
+          <declname>ifinst</declname>
+        </param>
+        <param>
+          <type>longint</type>
+          <declname>call_id</declname>
+        </param>
+        <param>
+          <type>chandle</type>
+          <declname>retval</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2230" column="7" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2230" bodyend="2233"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1ae865baf968f40e870e7422c830b5b1c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::tblink_rpc_IInterfaceInst_mkValBool</definition>
+        <argsstring>(chandle ifinst, int unsigned val)</argsstring>
+        <name>tblink_rpc_IInterfaceInst_mkValBool</name>
+        <param>
+          <type>chandle</type>
+          <declname>ifinst</declname>
+        </param>
+        <param>
+          <type>int unsigned</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2234" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2234" bodyend="2236"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a693f2833f306779a13d427688ee996bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::tblink_rpc_IInterfaceInst_mkValIntU</definition>
+        <argsstring>(chandle ifinst, longint unsigned val, int unsigned width)</argsstring>
+        <name>tblink_rpc_IInterfaceInst_mkValIntU</name>
+        <param>
+          <type>chandle</type>
+          <declname>ifinst</declname>
+        </param>
+        <param>
+          <type>longint unsigned</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>int unsigned</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2237" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2237" bodyend="2240"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a5ab1544cff17f23cdc872b1669002391" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::tblink_rpc_IInterfaceInst_mkValIntS</definition>
+        <argsstring>(chandle ifinst, longint val, int unsigned width)</argsstring>
+        <name>tblink_rpc_IInterfaceInst_mkValIntS</name>
+        <param>
+          <type>chandle</type>
+          <declname>ifinst</declname>
+        </param>
+        <param>
+          <type>longint</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>int unsigned</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2241" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2241" bodyend="2244"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1affdb1e8a27ce9d30db558a310aaaff14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::tblink_rpc_IInterfaceInst_mkValMap</definition>
+        <argsstring>(chandle ifinst)</argsstring>
+        <name>tblink_rpc_IInterfaceInst_mkValMap</name>
+        <param>
+          <type>chandle</type>
+          <declname>ifinst</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2245" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2245" bodyend="2246"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1abddd88b252bad61919615ea28d4fdc16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::tblink_rpc_IInterfaceInst_mkValStr</definition>
+        <argsstring>(chandle ifinst, string val)</argsstring>
+        <name>tblink_rpc_IInterfaceInst_mkValStr</name>
+        <param>
+          <type>chandle</type>
+          <declname>ifinst</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2247" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2247" bodyend="2249"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a3da069033592bc042d861daf1279629d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::tblink_rpc_IInterfaceInst_mkValVec</definition>
+        <argsstring>(chandle ifinst)</argsstring>
+        <name>tblink_rpc_IInterfaceInst_mkValVec</name>
+        <param>
+          <type>chandle</type>
+          <declname>ifinst</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2250" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2250" bodyend="2251"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a38cc241e370b369d6d6dbfc29843f97c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tblink_rpc::tblink_rpc_IMethodTypeBuilder_add_param</definition>
+        <argsstring>(chandle hndl, string name, chandle ptype_h)</argsstring>
+        <name>tblink_rpc_IMethodTypeBuilder_add_param</name>
+        <param>
+          <type>chandle</type>
+          <declname>hndl</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>chandle</type>
+          <declname>ptype_h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2307" column="7" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2307" bodyend="2310"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a3d444a1f83fd82d85bc5e3687be0ff9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::tblink_rpc_IInterfaceTypeBuilder_mkTypeBool</definition>
+        <argsstring>(chandle iftype_b)</argsstring>
+        <name>tblink_rpc_IInterfaceTypeBuilder_mkTypeBool</name>
+        <param>
+          <type>chandle</type>
+          <declname>iftype_b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2466" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2466" bodyend="2467"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1aace3f1db8da737fd037a3ec4a9615eae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::tblink_rpc_IInterfaceTypeBuilder_mkTypeInt</definition>
+        <argsstring>(chandle iftype_b, int unsigned is_signed, int unsigned width)</argsstring>
+        <name>tblink_rpc_IInterfaceTypeBuilder_mkTypeInt</name>
+        <param>
+          <type>chandle</type>
+          <declname>iftype_b</declname>
+        </param>
+        <param>
+          <type>int unsigned</type>
+          <declname>is_signed</declname>
+        </param>
+        <param>
+          <type>int unsigned</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2468" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2468" bodyend="2471"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a6a9df7bc13620ed4f30aa2bd3f2e4e62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::tblink_rpc_IInterfaceTypeBuilder_mkTypeMap</definition>
+        <argsstring>(chandle iftype_b, chandle key_t, chandle elem_t)</argsstring>
+        <name>tblink_rpc_IInterfaceTypeBuilder_mkTypeMap</name>
+        <param>
+          <type>chandle</type>
+          <declname>iftype_b</declname>
+        </param>
+        <param>
+          <type>chandle</type>
+          <declname>key_t</declname>
+        </param>
+        <param>
+          <type>chandle</type>
+          <declname>elem_t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2472" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2472" bodyend="2475"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a0f6df0c3ad2962246e9dad3a7de94ad2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::tblink_rpc_IInterfaceTypeBuilder_mkTypeStr</definition>
+        <argsstring>(chandle iftype_b)</argsstring>
+        <name>tblink_rpc_IInterfaceTypeBuilder_mkTypeStr</name>
+        <param>
+          <type>chandle</type>
+          <declname>iftype_b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2476" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2476" bodyend="2477"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a84aca7c41614f9ead8ccd08f07967c29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::tblink_rpc_IInterfaceTypeBuilder_mkTypeVec</definition>
+        <argsstring>(chandle iftype_b, chandle elem_t)</argsstring>
+        <name>tblink_rpc_IInterfaceTypeBuilder_mkTypeVec</name>
+        <param>
+          <type>chandle</type>
+          <declname>iftype_b</declname>
+        </param>
+        <param>
+          <type>chandle</type>
+          <declname>elem_t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2478" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2478" bodyend="2480"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a59eaf269bc7e59edd642a3e21b7b8135" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::tblink_rpc_IInterfaceTypeBuilder_newMethodTypeBuilder</definition>
+        <argsstring>(chandle iftype_b, string name, longint id, chandle rtype, int unsigned is_export, int unsigned is_blocking)</argsstring>
+        <name>tblink_rpc_IInterfaceTypeBuilder_newMethodTypeBuilder</name>
+        <param>
+          <type>chandle</type>
+          <declname>iftype_b</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>longint</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>chandle</type>
+          <declname>rtype</declname>
+        </param>
+        <param>
+          <type>int unsigned</type>
+          <declname>is_export</declname>
+        </param>
+        <param>
+          <type>int unsigned</type>
+          <declname>is_blocking</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2481" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2481" bodyend="2487"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a4656b1a2e14f4f4eb7c7f9b164f5f06d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::tblink_rpc_IInterfaceTypeBuilder_add_method</definition>
+        <argsstring>(chandle iftype_b, chandle mtb)</argsstring>
+        <name>tblink_rpc_IInterfaceTypeBuilder_add_method</name>
+        <param>
+          <type>chandle</type>
+          <declname>iftype_b</declname>
+        </param>
+        <param>
+          <type>chandle</type>
+          <declname>mtb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2488" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2488" bodyend="2490"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1ae51bbb7d97cbf782326cd60eb31da719" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::tblink_rpc_IInterfaceType_findMethod</definition>
+        <argsstring>(chandle iftype_h, string name)</argsstring>
+        <name>tblink_rpc_IInterfaceType_findMethod</name>
+        <param>
+          <type>chandle</type>
+          <declname>iftype_h</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2558" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2558" bodyend="2560"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a88cd52331105035fa2b06b7e45dfd808" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tblink_rpc::tblink_rpc_ILaunchParams_add_arg</definition>
+        <argsstring>(chandle hndl, string arg)</argsstring>
+        <name>tblink_rpc_ILaunchParams_add_arg</name>
+        <param>
+          <type>chandle</type>
+          <declname>hndl</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2625" column="7" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2625" bodyend="2627"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1aa26fa33fdf76963bffc02091a64228d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tblink_rpc::tblink_rpc_ILaunchParams_add_param</definition>
+        <argsstring>(chandle hndl, string key, string val)</argsstring>
+        <name>tblink_rpc_ILaunchParams_add_param</name>
+        <param>
+          <type>chandle</type>
+          <declname>hndl</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2629" column="7" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2629" bodyend="2632"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a43a4153a71af074c5c97907dd4beb6ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int tblink_rpc::tblink_rpc_ILaunchParams_has_param</definition>
+        <argsstring>(chandle hndl, string key)</argsstring>
+        <name>tblink_rpc_ILaunchParams_has_param</name>
+        <param>
+          <type>chandle</type>
+          <declname>hndl</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2634" column="6" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2634" bodyend="2636"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a9619416c6eb6b30cddadb71375abb3e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string tblink_rpc::tblink_rpc_ILaunchParams_get_param</definition>
+        <argsstring>(chandle hndl, string key)</argsstring>
+        <name>tblink_rpc_ILaunchParams_get_param</name>
+        <param>
+          <type>chandle</type>
+          <declname>hndl</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2638" column="9" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2638" bodyend="2640"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a1e22e733e0ebe961214673bdc2be5a5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>automatic chandle</type>
+        <definition>automatic chandle tblink_rpc::newLaunchParamsProxy</definition>
+        <argsstring>(ILaunchParams params)</argsstring>
+        <name>newLaunchParamsProxy</name>
+        <param>
+          <type><ref refid="classtblink__rpc_1_1ILaunchParams" kindref="compound">ILaunchParams</ref></type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2663" column="20" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2663" bodyend="2667"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a43efbaada6f0618cf117adb2977d10f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>automatic void</type>
+        <definition>automatic void tblink_rpc::delLaunchParamsProxy</definition>
+        <argsstring>(chandle proxy)</argsstring>
+        <name>delLaunchParamsProxy</name>
+        <param>
+          <type>chandle</type>
+          <declname>proxy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2670" column="17" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2670" bodyend="2673"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1afb8565e35a2e9591562160aade0668e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>automatic void</type>
+        <definition>automatic void tblink_rpc::tblink_rpc_DpiLaunchParamsProxy_add_arg</definition>
+        <argsstring>(chandle proxy, string arg)</argsstring>
+        <name>tblink_rpc_DpiLaunchParamsProxy_add_arg</name>
+        <param>
+          <type>chandle</type>
+          <declname>proxy</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2676" column="17" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2676" bodyend="2681"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a386cdb2db4697d31286c43dfd0d2a727" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>automatic void</type>
+        <definition>automatic void tblink_rpc::tblink_rpc_DpiLaunchParamsProxy_add_param</definition>
+        <argsstring>(chandle proxy, string key, string val)</argsstring>
+        <name>tblink_rpc_DpiLaunchParamsProxy_add_param</name>
+        <param>
+          <type>chandle</type>
+          <declname>proxy</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2685" column="17" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2685" bodyend="2691"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a3a0cf4f4d9fee6861e60bf5ef1cee745" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::tblink_rpc_DpiLaunchParamsProxy_new</definition>
+        <argsstring>()</argsstring>
+        <name>tblink_rpc_DpiLaunchParamsProxy_new</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2695" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2695" bodyend="2695"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a58f8b1a439ea1da86932b33a34d0526d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tblink_rpc::tblink_rpc_DpiLaunchParamsProxy_del</definition>
+        <argsstring>(chandle hndl)</argsstring>
+        <name>tblink_rpc_DpiLaunchParamsProxy_del</name>
+        <param>
+          <type>chandle</type>
+          <declname>hndl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2696" column="7" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2696" bodyend="2697"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a02f669befabbc5f7624df25be16d5e01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string tblink_rpc::tblink_rpc_IMethodType_name</definition>
+        <argsstring>(chandle hndl)</argsstring>
+        <name>tblink_rpc_IMethodType_name</name>
+        <param>
+          <type>chandle</type>
+          <declname>hndl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2763" column="9" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2763" bodyend="2763"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a55507b8040326cae283b7a5bae8df459" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>longint</type>
+        <definition>longint tblink_rpc::tblink_rpc_IMethodType_id</definition>
+        <argsstring>(chandle hndl)</argsstring>
+        <name>tblink_rpc_IMethodType_id</name>
+        <param>
+          <type>chandle</type>
+          <declname>hndl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2764" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2764" bodyend="2764"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a2d012fcd5849d328cbea3df8de104abb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int unsigned</type>
+        <definition>int unsigned tblink_rpc::tblink_rpc_IMethodType_is_export</definition>
+        <argsstring>(chandle hndl)</argsstring>
+        <name>tblink_rpc_IMethodType_is_export</name>
+        <param>
+          <type>chandle</type>
+          <declname>hndl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2765" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2765" bodyend="2765"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1ae5194d3650f7d9a463cc8ab2a1b1c4ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int unsigned</type>
+        <definition>int unsigned tblink_rpc::tblink_rpc_IMethodType_is_blocking</definition>
+        <argsstring>(chandle hndl)</argsstring>
+        <name>tblink_rpc_IMethodType_is_blocking</name>
+        <param>
+          <type>chandle</type>
+          <declname>hndl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2766" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2766" bodyend="2766"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a52521a6d1a7b38195dc16e99d91ad98d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>longint unsigned</type>
+        <definition>longint unsigned tblink_rpc::tblink_rpc_IParamValInt_val_u</definition>
+        <argsstring>(chandle hndl)</argsstring>
+        <name>tblink_rpc_IParamValInt_val_u</name>
+        <param>
+          <type>chandle</type>
+          <declname>hndl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2901" column="19" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2901" bodyend="2902"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a704ca2ba31e8619a83bd0a7335a04375" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>longint</type>
+        <definition>longint tblink_rpc::tblink_rpc_IParamValInt_val_s</definition>
+        <argsstring>(chandle hndl)</argsstring>
+        <name>tblink_rpc_IParamValInt_val_s</name>
+        <param>
+          <type>chandle</type>
+          <declname>hndl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2904" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2904" bodyend="2905"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a2568ddcceb6a6deb81c75116ce61b864" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int unsigned</type>
+        <definition>int unsigned tblink_rpc::tblink_rpc_IParamValMap_hasKey</definition>
+        <argsstring>(chandle map_h, string key)</argsstring>
+        <name>tblink_rpc_IParamValMap_hasKey</name>
+        <param>
+          <type>chandle</type>
+          <declname>map_h</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2982" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2982" bodyend="2984"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a45ecc3a08ae07ca7985ad6efc1743f45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::tblink_rpc_IParamValMap_getVal</definition>
+        <argsstring>(chandle map_h, string key)</argsstring>
+        <name>tblink_rpc_IParamValMap_getVal</name>
+        <param>
+          <type>chandle</type>
+          <declname>map_h</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2985" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2985" bodyend="2987"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1abb28088b9c48a63831ca2af231b928bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tblink_rpc::tblink_rpc_IParamValMap_setVal</definition>
+        <argsstring>(chandle map_h, string key, chandle val_h)</argsstring>
+        <name>tblink_rpc_IParamValMap_setVal</name>
+        <param>
+          <type>chandle</type>
+          <declname>map_h</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>chandle</type>
+          <declname>val_h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2988" column="7" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2988" bodyend="2991"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1aab2c09f02d2bc7f46c3b2cd2c127c2fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string tblink_rpc::tblink_rpc_IParamValStr_val</definition>
+        <argsstring>(chandle hndl)</argsstring>
+        <name>tblink_rpc_IParamValStr_val</name>
+        <param>
+          <type>chandle</type>
+          <declname>hndl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3055" column="9" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3055" bodyend="3056"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a19892d09bc1112e60e2ca8f3e6b7fcec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int unsigned</type>
+        <definition>int unsigned tblink_rpc::tblink_rpc_IParamValVec_size</definition>
+        <argsstring>(chandle hndl)</argsstring>
+        <name>tblink_rpc_IParamValVec_size</name>
+        <param>
+          <type>chandle</type>
+          <declname>hndl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3130" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3130" bodyend="3131"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a1c4503b2572a05c4bfbd33234dc58479" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::tblink_rpc_IParamValVec_at</definition>
+        <argsstring>(chandle hndl, int unsigned idx)</argsstring>
+        <name>tblink_rpc_IParamValVec_at</name>
+        <param>
+          <type>chandle</type>
+          <declname>hndl</declname>
+        </param>
+        <param>
+          <type>int unsigned</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3132" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3132" bodyend="3134"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a0bbff9eedf751bd254f26bd0e7d7b43e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tblink_rpc::tblink_rpc_IParamValVec_push_back</definition>
+        <argsstring>(chandle hndl, chandle val_h)</argsstring>
+        <name>tblink_rpc_IParamValVec_push_back</name>
+        <param>
+          <type>chandle</type>
+          <declname>hndl</declname>
+        </param>
+        <param>
+          <type>chandle</type>
+          <declname>val_h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3135" column="7" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3135" bodyend="3137"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a3a7ca93a78474c2425a9bc88411c7abb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::tblink_rpc_invoke_nb_dpi_bfm</definition>
+        <argsstring>(input string inst_path, input chandle ifinst, input chandle method, input chandle params)</argsstring>
+        <name>tblink_rpc_invoke_nb_dpi_bfm</name>
+        <param>
+          <type>input string</type>
+          <declname>inst_path</declname>
+        </param>
+        <param>
+          <type>input chandle</type>
+          <declname>ifinst</declname>
+        </param>
+        <param>
+          <type>input chandle</type>
+          <declname>method</declname>
+        </param>
+        <param>
+          <type>input chandle</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3277" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3277" bodyend="3281"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1afaf236532da40bf8af6b5b04267e65ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>task</type>
+        <definition>task tblink_rpc::tblink_rpc_invoke_b_dpi_bfm</definition>
+        <argsstring>(input string inst_path, output chandle retval, input chandle ifinst, input chandle method, input chandle params)</argsstring>
+        <name>tblink_rpc_invoke_b_dpi_bfm</name>
+        <param>
+          <type>input string</type>
+          <declname>inst_path</declname>
+        </param>
+        <param>
+          <type>output chandle</type>
+          <declname>retval</declname>
+        </param>
+        <param>
+          <type>input chandle</type>
+          <declname>ifinst</declname>
+        </param>
+        <param>
+          <type>input chandle</type>
+          <declname>method</declname>
+        </param>
+        <param>
+          <type>input chandle</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3283" column="6" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3283" bodyend="3288"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1aa2990d78f69c4b7b4e1df28147bf0511" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>automatic chandle</type>
+        <definition>automatic chandle tblink_rpc::newDpiEndpointServicesProxy</definition>
+        <argsstring>(IEndpointServices services)</argsstring>
+        <name>newDpiEndpointServicesProxy</name>
+        <param>
+          <type><ref refid="classtblink__rpc_1_1IEndpointServices" kindref="compound">IEndpointServices</ref></type>
+          <declname>services</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3312" column="20" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3312" bodyend="3317"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a0f458557ca4d2452b41065e3e07e4083" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::tblink_rpc_DpiEndpointServicesProxy_new</definition>
+        <argsstring>()</argsstring>
+        <name>tblink_rpc_DpiEndpointServicesProxy_new</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3319" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3319" bodyend="3319"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a7bad887fb8c014ceee242db6182c1cc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>automatic void</type>
+        <definition>automatic void tblink_rpc::tblink_rpc_DpiEndpointServicesProxy_shutdown</definition>
+        <argsstring>(chandle hndl)</argsstring>
+        <name>tblink_rpc_DpiEndpointServicesProxy_shutdown</name>
+        <param>
+          <type>chandle</type>
+          <declname>hndl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3322" column="17" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3322" bodyend="3325"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a3846ae8a1d6755d1673fba2e70adccc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>automatic void</type>
+        <definition>automatic void tblink_rpc::tblink_rpc_DpiEndpointServicesProxy_run_until_event</definition>
+        <argsstring>(chandle hndl)</argsstring>
+        <name>tblink_rpc_DpiEndpointServicesProxy_run_until_event</name>
+        <param>
+          <type>chandle</type>
+          <declname>hndl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3329" column="17" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3329" bodyend="3332"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a6032beb464413c3c557517ab7931256d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>automatic void</type>
+        <definition>automatic void tblink_rpc::tblink_rpc_DpiEndpointServicesProxy_hit_event</definition>
+        <argsstring>(chandle hndl)</argsstring>
+        <name>tblink_rpc_DpiEndpointServicesProxy_hit_event</name>
+        <param>
+          <type>chandle</type>
+          <declname>hndl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3336" column="17" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3336" bodyend="3339"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a2af8f2e4fa1fa8f3e347cd654dc44620" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>automatic void</type>
+        <definition>automatic void tblink_rpc::tblink_rpc_DpiEndpointServicesProxy_idle</definition>
+        <argsstring>(chandle hndl)</argsstring>
+        <name>tblink_rpc_DpiEndpointServicesProxy_idle</name>
+        <param>
+          <type>chandle</type>
+          <declname>hndl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3343" column="17" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3343" bodyend="3346"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a0f9363c924919c141091da6ed1060e93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classtblink__rpc_1_1DpiEndpoint" kindref="compound">DpiEndpoint</ref></type>
+        <definition>DpiEndpoint tblink_rpc::mkDpiEndpoint</definition>
+        <argsstring>(chandle hndl)</argsstring>
+        <name>mkDpiEndpoint</name>
+        <param>
+          <type>chandle</type>
+          <declname>hndl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3618" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3618" bodyend="3625"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1af5905fb3b56d6530d54dec1bc95319d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int tblink_rpc::tblink_rpc_IEndpoint_init</definition>
+        <argsstring>(chandle endpoint_h, chandle services_h)</argsstring>
+        <name>tblink_rpc_IEndpoint_init</name>
+        <param>
+          <type>chandle</type>
+          <declname>endpoint_h</declname>
+        </param>
+        <param>
+          <type>chandle</type>
+          <declname>services_h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3629" column="6" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3629" bodyend="3631"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a2f21cca5fe819dde650855515964daa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int tblink_rpc::tblink_rpc_IEndpoint_is_init</definition>
+        <argsstring>(chandle endpoint_h)</argsstring>
+        <name>tblink_rpc_IEndpoint_is_init</name>
+        <param>
+          <type>chandle</type>
+          <declname>endpoint_h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3632" column="6" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3632" bodyend="3633"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a1ccad71797ac97931620f9213a6a1d9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int tblink_rpc::tblink_rpc_IEndpoint_build_complete</definition>
+        <argsstring>(chandle endpoint_h)</argsstring>
+        <name>tblink_rpc_IEndpoint_build_complete</name>
+        <param>
+          <type>chandle</type>
+          <declname>endpoint_h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3634" column="6" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3634" bodyend="3634"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a79f47c41319ee7058a3004f7c3baec9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int tblink_rpc::tblink_rpc_IEndpoint_is_build_complete</definition>
+        <argsstring>(chandle endpoint_h)</argsstring>
+        <name>tblink_rpc_IEndpoint_is_build_complete</name>
+        <param>
+          <type>chandle</type>
+          <declname>endpoint_h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3635" column="6" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3635" bodyend="3635"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a3e580c93064aeddfbbf4f5033a566dd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int tblink_rpc::tblink_rpc_IEndpoint_connect_complete</definition>
+        <argsstring>(chandle endpoint_h)</argsstring>
+        <name>tblink_rpc_IEndpoint_connect_complete</name>
+        <param>
+          <type>chandle</type>
+          <declname>endpoint_h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3636" column="6" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3636" bodyend="3636"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1aa9818e4a4c4aa3245c8fb16cba1c88ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int tblink_rpc::tblink_rpc_IEndpoint_is_connect_complete</definition>
+        <argsstring>(chandle endpoint_h)</argsstring>
+        <name>tblink_rpc_IEndpoint_is_connect_complete</name>
+        <param>
+          <type>chandle</type>
+          <declname>endpoint_h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3637" column="6" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3637" bodyend="3637"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a2b2540b789dfab6584ccfe03a3a42502" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int tblink_rpc::tblink_rpc_IEndpoint_comm_state</definition>
+        <argsstring>(chandle endpoint_h)</argsstring>
+        <name>tblink_rpc_IEndpoint_comm_state</name>
+        <param>
+          <type>chandle</type>
+          <declname>endpoint_h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3638" column="6" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3638" bodyend="3638"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a18b5cecb5fdf62a58759f2a79d27b4a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int tblink_rpc::_tblink_rpc_IEndpoint_await_run_until_event</definition>
+        <argsstring>(chandle endpoint_h)</argsstring>
+        <name>_tblink_rpc_IEndpoint_await_run_until_event</name>
+        <param>
+          <type>chandle</type>
+          <declname>endpoint_h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3639" column="6" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3639" bodyend="3640"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a51833576a582ca1dd23a83752b39da76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int tblink_rpc::_tblink_rpc_endpoint_shutdown</definition>
+        <argsstring>(chandle endpoint_h)</argsstring>
+        <name>_tblink_rpc_endpoint_shutdown</name>
+        <param>
+          <type>chandle</type>
+          <declname>endpoint_h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3641" column="6" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3641" bodyend="3641"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1af688b501491da6bdc9e2492be5ae2df2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string tblink_rpc::tblink_rpc_IEndpoint_last_error</definition>
+        <argsstring>(chandle endpoint_h)</argsstring>
+        <name>tblink_rpc_IEndpoint_last_error</name>
+        <param>
+          <type>chandle</type>
+          <declname>endpoint_h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3642" column="9" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3642" bodyend="3642"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1ab58e23d3e4fcbcbda18337e0186574e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::tblink_rpc_IEndpoint_findInterfaceType</definition>
+        <argsstring>(chandle endpoint_h, string name)</argsstring>
+        <name>tblink_rpc_IEndpoint_findInterfaceType</name>
+        <param>
+          <type>chandle</type>
+          <declname>endpoint_h</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3643" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3643" bodyend="3645"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a1f0812db48c67e050bfdfa254778ebbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::tblink_rpc_IEndpoint_newInterfaceTypeBuilder</definition>
+        <argsstring>(chandle endpoint_h, string name)</argsstring>
+        <name>tblink_rpc_IEndpoint_newInterfaceTypeBuilder</name>
+        <param>
+          <type>chandle</type>
+          <declname>endpoint_h</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3646" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3646" bodyend="3648"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1ace101c7451844b1131d444d595297333" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::tblink_rpc_IEndpoint_defineInterfaceType</definition>
+        <argsstring>(chandle endpoint_h, chandle iftype_builder_h)</argsstring>
+        <name>tblink_rpc_IEndpoint_defineInterfaceType</name>
+        <param>
+          <type>chandle</type>
+          <declname>endpoint_h</declname>
+        </param>
+        <param>
+          <type>chandle</type>
+          <declname>iftype_builder_h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3650" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3650" bodyend="3652"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a5f496dd9c7b25fd2bbceb34c654245a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int unsigned</type>
+        <definition>int unsigned tblink_rpc::tblink_rpc_IEndpoint_getInterfaceInstCount</definition>
+        <argsstring>(chandle endpoint_h)</argsstring>
+        <name>tblink_rpc_IEndpoint_getInterfaceInstCount</name>
+        <param>
+          <type>chandle</type>
+          <declname>endpoint_h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3654" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3654" bodyend="3655"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1af652ff74f21df4176a38fc74a5726061" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::tblink_rpc_IEndpoint_getInterfaceInstAt</definition>
+        <argsstring>(chandle endpoint_h, int unsigned idx)</argsstring>
+        <name>tblink_rpc_IEndpoint_getInterfaceInstAt</name>
+        <param>
+          <type>chandle</type>
+          <declname>endpoint_h</declname>
+        </param>
+        <param>
+          <type>int unsigned</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3656" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3656" bodyend="3658"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a2ae204ded05b7ff9fdcd3aa47bfe47b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::_tblink_rpc_IEndpoint_defineInterfaceInst</definition>
+        <argsstring>(chandle endpoint_h, chandle iftype_h, string inst_name, int unsigned is_mirror)</argsstring>
+        <name>_tblink_rpc_IEndpoint_defineInterfaceInst</name>
+        <param>
+          <type>chandle</type>
+          <declname>endpoint_h</declname>
+        </param>
+        <param>
+          <type>chandle</type>
+          <declname>iftype_h</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>inst_name</declname>
+        </param>
+        <param>
+          <type>int unsigned</type>
+          <declname>is_mirror</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3683" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3683" bodyend="3687"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a162918246b7dbe051d2719ceaf83bd24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int tblink_rpc::tblink_rpc_IEndpoint_process_one_message</definition>
+        <argsstring>(chandle endpoint_h)</argsstring>
+        <name>tblink_rpc_IEndpoint_process_one_message</name>
+        <param>
+          <type>chandle</type>
+          <declname>endpoint_h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3689" column="6" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3689" bodyend="3690"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a2fc700ee8bc7d945b978bd369e118900" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int tblink_rpc::tblink_rpc_IEndpointEvent_kind</definition>
+        <argsstring>(chandle hndl)</argsstring>
+        <name>tblink_rpc_IEndpointEvent_kind</name>
+        <param>
+          <type>chandle</type>
+          <declname>hndl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3742" column="6" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3742" bodyend="3743"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a72004ecae9fec80cc776cd4ce2a90d8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>automatic void</type>
+        <definition>automatic void tblink_rpc::connectDpiEndpointListenerProxy</definition>
+        <argsstring>(chandle ep_h, IEndpointListener l)</argsstring>
+        <name>connectDpiEndpointListenerProxy</name>
+        <param>
+          <type>chandle</type>
+          <declname>ep_h</declname>
+        </param>
+        <param>
+          <type><ref refid="classtblink__rpc_1_1IEndpointListener" kindref="compound">IEndpointListener</ref></type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3768" column="17" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3768" bodyend="3774"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a4dc4f17cbd2242f4d43147e9244076d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>automatic void</type>
+        <definition>automatic void tblink_rpc::disconnectDpiEndpointListenerProxy</definition>
+        <argsstring>(chandle ep_h, IEndpointListener l)</argsstring>
+        <name>disconnectDpiEndpointListenerProxy</name>
+        <param>
+          <type>chandle</type>
+          <declname>ep_h</declname>
+        </param>
+        <param>
+          <type><ref refid="classtblink__rpc_1_1IEndpointListener" kindref="compound">IEndpointListener</ref></type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3777" column="17" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3777" bodyend="3784"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a31d396f2ba1ce4269e1e34b0d75f052c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::tblink_rpc_DpiEndpointListenerProxy_connect</definition>
+        <argsstring>(chandle ep_h)</argsstring>
+        <name>tblink_rpc_DpiEndpointListenerProxy_connect</name>
+        <param>
+          <type>chandle</type>
+          <declname>ep_h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3786" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3786" bodyend="3787"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a60a4a204178cc140b027e3f02b58f94f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tblink_rpc::tblink_rpc_DpiEndpointListenerProxy_disconnect</definition>
+        <argsstring>(chandle ep_h, chandle proxy_h)</argsstring>
+        <name>tblink_rpc_DpiEndpointListenerProxy_disconnect</name>
+        <param>
+          <type>chandle</type>
+          <declname>ep_h</declname>
+        </param>
+        <param>
+          <type>chandle</type>
+          <declname>proxy_h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3790" column="7" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3790" bodyend="3792"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1aaf391a623a959f56b18bb2dedf826012" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>automatic void</type>
+        <definition>automatic void tblink_rpc::tblink_rpc_DpiEndpointListenerProxy_event</definition>
+        <argsstring>(chandle hndl, chandle ev_h)</argsstring>
+        <name>tblink_rpc_DpiEndpointListenerProxy_event</name>
+        <param>
+          <type>chandle</type>
+          <declname>hndl</declname>
+        </param>
+        <param>
+          <type>chandle</type>
+          <declname>ev_h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3795" column="17" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3795" bodyend="3801"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a7de3eccce0c48c11f8232f87b36237d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::tblink_rpc_DpiEndpointLoopback_new</definition>
+        <argsstring>()</argsstring>
+        <name>tblink_rpc_DpiEndpointLoopback_new</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3873" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3873" bodyend="3873"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1aee49c7869a2097e6a27d22fa9b07cc3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::tblink_rpc_ILaunchType_launch</definition>
+        <argsstring>(input chandle launch, input chandle params, input chandle services, output string error)</argsstring>
+        <name>tblink_rpc_ILaunchType_launch</name>
+        <param>
+          <type>input chandle</type>
+          <declname>launch</declname>
+        </param>
+        <param>
+          <type>input chandle</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>input chandle</type>
+          <declname>services</declname>
+        </param>
+        <param>
+          <type>output string</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3963" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3963" bodyend="3967"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1acc59f665ff0c357be7bc6e49db6ce305" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::tblink_rpc_ILaunchType_newLaunchParams</definition>
+        <argsstring>(input chandle launch)</argsstring>
+        <name>tblink_rpc_ILaunchType_newLaunchParams</name>
+        <param>
+          <type>input chandle</type>
+          <declname>launch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3969" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3969" bodyend="3970"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a938e997a283da0cd59ac92207d8a7391" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>automatic <ref refid="classtblink__rpc_1_1SVEndpointSequencer" kindref="compound">SVEndpointSequencer</ref></type>
+        <definition>automatic SVEndpointSequencer tblink_rpc::mkSVEndpointSequencer</definition>
+        <argsstring>(IEndpoint ep)</argsstring>
+        <name>mkSVEndpointSequencer</name>
+        <param>
+          <type><ref refid="classtblink__rpc_1_1IEndpoint" kindref="compound">IEndpoint</ref></type>
+          <declname>ep</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5533" column="32" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5533" bodyend="5539"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a16dc64f36cbaf324325f5b8c6651ab10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tblink_rpc::tblink_rpc_add_time_cb</definition>
+        <argsstring>(chandle cb_data, longint unsigned delta)</argsstring>
+        <name>tblink_rpc_add_time_cb</name>
+        <param>
+          <type>chandle</type>
+          <declname>cb_data</declname>
+        </param>
+        <param>
+          <type>longint unsigned</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6661" column="7" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6661" bodyend="6666"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a04a718e857216e832b6220bc67459f57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tblink_rpc::tblink_rpc_notify_time_cb</definition>
+        <argsstring>(chandle cb_data)</argsstring>
+        <name>tblink_rpc_notify_time_cb</name>
+        <param>
+          <type>chandle</type>
+          <declname>cb_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6669" column="7" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6669" bodyend="6672"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a32eb807f0739a592118de3cf0ca1e1d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>automatic bit</type>
+        <definition>automatic bit tblink_rpc::tblink_rpc_init</definition>
+        <argsstring>()</argsstring>
+        <name>tblink_rpc_init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6687" column="16" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6687" bodyend="6706"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a153fe63999f9fcabde98f552f6f6affd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int tblink_rpc::_tblink_rpc_pkg_init</definition>
+        <argsstring>(input int unsigned have_blocking_tasks, output int time_precision)</argsstring>
+        <name>_tblink_rpc_pkg_init</name>
+        <param>
+          <type>input int unsigned</type>
+          <declname>have_blocking_tasks</declname>
+        </param>
+        <param>
+          <type>output int</type>
+          <declname>time_precision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6710" column="6" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6710" bodyend="6712"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1ae97d7f6abebbc6b649c10f873131ffe3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::tblink_rpc_findLaunchType</definition>
+        <argsstring>(string id)</argsstring>
+        <name>tblink_rpc_findLaunchType</name>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6713" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6713" bodyend="6713"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1add720ac713b3195d621d3aa96f4ad57c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string tblink_rpc::tblink_rpc_libpath</definition>
+        <argsstring>()</argsstring>
+        <name>tblink_rpc_libpath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6714" column="9" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6714" bodyend="6714"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a62e2cf8ab93796fbacf914dac2bba512" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::tblink_rpc_TbLink_inst</definition>
+        <argsstring>()</argsstring>
+        <name>tblink_rpc_TbLink_inst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6717" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6717" bodyend="6717"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1ab916c4375e1fc399e86af8bf38f0767d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tblink_rpc::tblink_rpc_TbLink_setDefaultEP</definition>
+        <argsstring>(chandle tblink, chandle ep)</argsstring>
+        <name>tblink_rpc_TbLink_setDefaultEP</name>
+        <param>
+          <type>chandle</type>
+          <declname>tblink</declname>
+        </param>
+        <param>
+          <type>chandle</type>
+          <declname>ep</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6718" column="7" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6718" bodyend="6720"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a61660ad4e9e74a9145cce680f07e499a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::tblink_rpc_TbLink_getDefaultEP</definition>
+        <argsstring>(chandle tblink)</argsstring>
+        <name>tblink_rpc_TbLink_getDefaultEP</name>
+        <param>
+          <type>chandle</type>
+          <declname>tblink</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6721" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6721" bodyend="6722"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a6c31b8af971900f533a8f35a7c94965d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tblink_rpc::tblink_rpc_ParseLaunchPlusargs</definition>
+        <argsstring>(chandle params_proxy, output string errmsg)</argsstring>
+        <name>tblink_rpc_ParseLaunchPlusargs</name>
+        <param>
+          <type>chandle</type>
+          <declname>params_proxy</declname>
+        </param>
+        <param>
+          <type>output string</type>
+          <declname>errmsg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6724" column="7" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6724" bodyend="6726"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a9ef99ca68716beb15e151669aa08fd14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>automatic void</type>
+        <definition>automatic void tblink_rpc::tblink_rpc_delta_cb</definition>
+        <argsstring>()</argsstring>
+        <name>tblink_rpc_delta_cb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Time-based callbacks and running of tasks are implemented via VPI in Verilator. The functions implement the interface. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6741" column="17" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6741" bodyend="6744"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a05425e3999c20cd3c37f267ad7f4248d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tblink_rpc::tblink_rpc_register_delta_cb</definition>
+        <argsstring>()</argsstring>
+        <name>tblink_rpc_register_delta_cb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6746" column="7" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6746" bodyend="6746"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1aada49aa92eb67cb947506bfbc4814c71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tblink_rpc::tblink_rpc_register_dispatch_cb</definition>
+        <argsstring>()</argsstring>
+        <name>tblink_rpc_register_dispatch_cb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6749" column="7" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6749" bodyend="6749"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a4c0dcb4397e8291f418acc361ab76218" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>task automatic</type>
+        <definition>task automatic tblink_rpc::tblink_rpc_dispatch_cb</definition>
+        <argsstring>()</argsstring>
+        <name>tblink_rpc_dispatch_cb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6752" column="16" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6752" bodyend="6755"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a8af0d1393fdafa6823f39b015017d4bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>automatic <ref refid="classtblink__rpc_1_1TbLink" kindref="compound">TbLink</ref></type>
+        <definition>automatic TbLink tblink_rpc::tblink</definition>
+        <argsstring>()</argsstring>
+        <name>tblink</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>Under normal circumstances, the package should be registered as part of package initialization. Verilator doesn&apos;t reliably trigger package initialization so we manually call/check here</para>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6766" column="19" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6766" bodyend="6807"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1aadffd41d9f02807cbc222a3543492eb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::tblink_rpc_iftype_find_method</definition>
+        <argsstring>(chandle iftype_h, string name)</argsstring>
+        <name>tblink_rpc_iftype_find_method</name>
+        <param>
+          <type>chandle</type>
+          <declname>iftype_h</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6814" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6814" bodyend="6816"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1aea4cae6b22b25153ecc5159f079104b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::_tblink_rpc_iparam_val_clone</definition>
+        <argsstring>(chandle hndl)</argsstring>
+        <name>_tblink_rpc_iparam_val_clone</name>
+        <param>
+          <type>chandle</type>
+          <declname>hndl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6819" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6819" bodyend="6820"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1ac2e3b46703f9b4441b81f082842574e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int unsigned</type>
+        <definition>int unsigned tblink_rpc::_tblink_rpc_iparam_val_type</definition>
+        <argsstring>(chandle hndl)</argsstring>
+        <name>_tblink_rpc_iparam_val_type</name>
+        <param>
+          <type>chandle</type>
+          <declname>hndl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6821" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6821" bodyend="6822"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1aae33751b3b5d765bd07bbec2acc7c6a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int unsigned</type>
+        <definition>int unsigned tblink_rpc::_tblink_rpc_iparam_val_bool_val</definition>
+        <argsstring>(chandle hndl)</argsstring>
+        <name>_tblink_rpc_iparam_val_bool_val</name>
+        <param>
+          <type>chandle</type>
+          <declname>hndl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6824" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6824" bodyend="6825"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1ab2b687e3a85d202b25c438537b59f622" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string tblink_rpc::tblink_rpc_IInterfaceInst_name</definition>
+        <argsstring>(chandle ifinst)</argsstring>
+        <name>tblink_rpc_IInterfaceInst_name</name>
+        <param>
+          <type>chandle</type>
+          <declname>ifinst</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6827" column="9" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6827" bodyend="6828"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a635b0ab6f898a2885cbebffbb2e8b009" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::tblink_rpc_IInterfaceInst_type</definition>
+        <argsstring>(chandle ifinst)</argsstring>
+        <name>tblink_rpc_IInterfaceInst_type</name>
+        <param>
+          <type>chandle</type>
+          <declname>ifinst</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6829" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6829" bodyend="6830"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1aa71e2ed26511c0cc7961dc29b12606af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int unsigned</type>
+        <definition>int unsigned tblink_rpc::tblink_rpc_IInterfaceInst_is_mirror</definition>
+        <argsstring>(chandle ifinst)</argsstring>
+        <name>tblink_rpc_IInterfaceInst_is_mirror</name>
+        <param>
+          <type>chandle</type>
+          <declname>ifinst</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6831" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6831" bodyend="6832"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a28ece156a8afe9ce225e4cd3b177e2ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::_tblink_rpc_ifinst_invoke_nb</definition>
+        <argsstring>(chandle ifinst_h, chandle method_h, chandle params_h)</argsstring>
+        <name>_tblink_rpc_ifinst_invoke_nb</name>
+        <param>
+          <type>chandle</type>
+          <declname>ifinst_h</declname>
+        </param>
+        <param>
+          <type>chandle</type>
+          <declname>method_h</declname>
+        </param>
+        <param>
+          <type>chandle</type>
+          <declname>params_h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6834" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6834" bodyend="6837"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a007c0955325b52f9ed7da3ef5edb817b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>task automatic</type>
+        <definition>task automatic tblink_rpc::tblink_rpc_start</definition>
+        <argsstring>()</argsstring>
+        <name>tblink_rpc_start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Called to start <ref refid="classtblink__rpc_1_1TbLink" kindref="compound">TbLink</ref>&apos;s main thread. This must be called at least once from the testbench </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6920" column="16" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6920" bodyend="6926"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a4e6d383b412e6c6559ca509e6da86015" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>automatic void</type>
+        <definition>automatic void tblink_rpc::tblink_rpc_invoke</definition>
+        <argsstring>(chandle ifinst_h, chandle method_h, longint call_id, chandle params_h)</argsstring>
+        <name>tblink_rpc_invoke</name>
+        <param>
+          <type>chandle</type>
+          <declname>ifinst_h</declname>
+        </param>
+        <param>
+          <type>chandle</type>
+          <declname>method_h</declname>
+        </param>
+        <param>
+          <type>longint</type>
+          <declname>call_id</declname>
+        </param>
+        <param>
+          <type>chandle</type>
+          <declname>params_h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6930" column="17" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6930" bodyend="6978"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a4ecdab02188120dc50eadf2c892b1d1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>automatic void</type>
+        <definition>automatic void tblink_rpc::tblink_rpc_get_plusargs</definition>
+        <argsstring>(string prefix, ref string plusargs[$])</argsstring>
+        <name>tblink_rpc_get_plusargs</name>
+        <param>
+          <type>string</type>
+          <declname>prefix</declname>
+        </param>
+        <param>
+          <type>ref string</type>
+          <declname>plusargs</declname>
+          <array>[$]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Obtain command-line arguments </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6989" column="17" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6989" bodyend="7010"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1aa2bcf5f8766fdcfbb354035c255bb042" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::_tblink_rpc_get_plusargs</definition>
+        <argsstring>(string prefix)</argsstring>
+        <name>_tblink_rpc_get_plusargs</name>
+        <param>
+          <type>string</type>
+          <declname>prefix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="7011" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="7011" bodyend="7013"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetblink__rpc_1a248bc755162d158edac3bab2ab50aa41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int tblink_rpc::tblink_rpc_register_dpi_bfm</definition>
+        <argsstring>(string inst_path, string invoke_nb_f, string invoke_b_f)</argsstring>
+        <name>tblink_rpc_register_dpi_bfm</name>
+        <param>
+          <type>string</type>
+          <declname>inst_path</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>invoke_nb_f</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>invoke_b_f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Register DPI-accessible functions that can be used to invoke methods from the endpoint. BFM registration done in this way is used to register BFMs that will be accessed via DPI function automatic int tblink_rpc_register_dpi_bfm( string inst_path, string invoke_nb_f, string invoke_b_f); <ref refid="classtblink__rpc_1_1TbLink" kindref="compound">TbLink</ref> tblink = TbLink::inst(); return _tblink_rpc_register_dpi_bfm(inst_path, invoke_nb_f, invoke_b_f); endfunction </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="7054" column="6" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="7054" bodyend="7057"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Package: <ref refid="namespacetblink__rpc" kindref="compound">tblink_rpc</ref></para>
+<para>Provides API methods that user code is intended to call. Also provides a Verilator-specific implementation </para>
+    </detaileddescription>
+    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="34" column="21"/>
+  </compounddef>
+</doxygen>

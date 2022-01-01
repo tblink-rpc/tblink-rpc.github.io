@@ -1,0 +1,429 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc_1_1IEndpoint" kind="class" language="C++" prot="public">
+    <compoundname>tblink_rpc::IEndpoint</compoundname>
+    <derivedcompoundref refid="classtblink__rpc_1_1DpiEndpoint" prot="public" virt="non-virtual">tblink_rpc::DpiEndpoint</derivedcompoundref>
+    <derivedcompoundref refid="classtblink__rpc_1_1SVEndpoint" prot="public" virt="non-virtual">tblink_rpc::SVEndpoint</derivedcompoundref>
+    <derivedcompoundref refid="classtblink__rpc_1_1SVEndpointLoopback" prot="public" virt="non-virtual">tblink_rpc::SVEndpointLoopback</derivedcompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classtblink__rpc_1_1IEndpoint_1a27a23baecfc154e89cb7e2cd2d7597cc" prot="public" static="no" strong="no">
+        <type></type>
+        <name>comm_state_e</name>
+        <enumvalue id="classtblink__rpc_1_1IEndpoint_1a27a23baecfc154e89cb7e2cd2d7597ccad1d323a83babe11cb9154628d4ad8b90" prot="public">
+          <name>Waiting</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classtblink__rpc_1_1IEndpoint_1a27a23baecfc154e89cb7e2cd2d7597ccab6abe30a3acd8ab3a883b673d42f8edc" prot="public">
+          <name>Released</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1010" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1010" bodyend="1013"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc_1_1IEndpoint_1a556b566c429a768e642c3a76ddbb515d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int tblink_rpc::IEndpoint::init</definition>
+        <argsstring>(IEndpointServices ep_services)</argsstring>
+        <name>init</name>
+        <reimplementedby refid="classtblink__rpc_1_1DpiEndpoint_1af22e7adfba89f586a12b7e3d79209508">init</reimplementedby>
+        <reimplementedby refid="classtblink__rpc_1_1SVEndpoint_1aef81b11092ce03da40db4396824a01b3">init</reimplementedby>
+        <param>
+          <type><ref refid="classtblink__rpc_1_1IEndpointServices" kindref="compound">IEndpointServices</ref></type>
+          <declname>ep_services</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1015" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1015" bodyend="1020"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1IEndpoint_1a452e692f0d6acd881b98edc8ebce652f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int tblink_rpc::IEndpoint::is_init</definition>
+        <argsstring>()</argsstring>
+        <name>is_init</name>
+        <reimplementedby refid="classtblink__rpc_1_1DpiEndpoint_1ac2bc74c9c11c14afb8ac83e8effbbbfd">is_init</reimplementedby>
+        <reimplementedby refid="classtblink__rpc_1_1SVEndpoint_1a6d4d7fe323720ffc4e6a0de9771fd840">is_init</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1022" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1022" bodyend="1026"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1IEndpoint_1a8ac4e37bc389c1a9e1e22e192aa70d86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int tblink_rpc::IEndpoint::build_complete</definition>
+        <argsstring>()</argsstring>
+        <name>build_complete</name>
+        <reimplementedby refid="classtblink__rpc_1_1DpiEndpoint_1a217de539f9c9a9373bc4bfb77a47e9b9">build_complete</reimplementedby>
+        <reimplementedby refid="classtblink__rpc_1_1SVEndpointLoopback_1a0f8ca87721b1c331553495b18ad87f19">build_complete</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1028" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1028" bodyend="1030"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1IEndpoint_1af41881c5aeed15369fcb756a20ddc90f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int tblink_rpc::IEndpoint::is_build_complete</definition>
+        <argsstring>()</argsstring>
+        <name>is_build_complete</name>
+        <reimplementedby refid="classtblink__rpc_1_1DpiEndpoint_1ad43412996a887481294a7c14b86e50bb">is_build_complete</reimplementedby>
+        <reimplementedby refid="classtblink__rpc_1_1SVEndpointLoopback_1ac9f370c919f74ce4e1aaf44219612de1">is_build_complete</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1032" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1032" bodyend="1034"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1IEndpoint_1a61a99731e547ad568ea1aed2a379d1b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int tblink_rpc::IEndpoint::connect_complete</definition>
+        <argsstring>()</argsstring>
+        <name>connect_complete</name>
+        <reimplementedby refid="classtblink__rpc_1_1DpiEndpoint_1af1eea43609bdf7877db962f105ed9222">connect_complete</reimplementedby>
+        <reimplementedby refid="classtblink__rpc_1_1SVEndpointLoopback_1a8172d014495da75ef5996c52b1277d2b">connect_complete</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1036" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1036" bodyend="1038"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1IEndpoint_1a17987cdcb9dd0be67c1a846394d00d43" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int tblink_rpc::IEndpoint::is_connect_complete</definition>
+        <argsstring>()</argsstring>
+        <name>is_connect_complete</name>
+        <reimplementedby refid="classtblink__rpc_1_1DpiEndpoint_1aa7e3d9698304770142e6fec298f9fc28">is_connect_complete</reimplementedby>
+        <reimplementedby refid="classtblink__rpc_1_1SVEndpointLoopback_1ac89076c7642a04caf3748f9e0b7fb37e">is_connect_complete</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1040" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1040" bodyend="1042"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1IEndpoint_1a9b0baf75d79d5cae472b6b82263a1b0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void tblink_rpc::IEndpoint::addListener</definition>
+        <argsstring>(IEndpointListener l)</argsstring>
+        <name>addListener</name>
+        <reimplementedby refid="classtblink__rpc_1_1DpiEndpoint_1a21bfbeedec4aea9dd8d6b87606460295">addListener</reimplementedby>
+        <param>
+          <type><ref refid="classtblink__rpc_1_1IEndpointListener" kindref="compound">IEndpointListener</ref></type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1044" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1044" bodyend="1047"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1IEndpoint_1a27dc60268d6c65844561bcdc1d487c08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void tblink_rpc::IEndpoint::removeListener</definition>
+        <argsstring>(IEndpointListener l)</argsstring>
+        <name>removeListener</name>
+        <reimplementedby refid="classtblink__rpc_1_1DpiEndpoint_1ae14ef1ad90d6d8c29118240e9b6f5a15">removeListener</reimplementedby>
+        <param>
+          <type><ref refid="classtblink__rpc_1_1IEndpointListener" kindref="compound">IEndpointListener</ref></type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1049" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1049" bodyend="1052"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1IEndpoint_1abe27e855aa88e0407d59ef7cfbdeed69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int tblink_rpc::IEndpoint::await_run_until_event</definition>
+        <argsstring>()</argsstring>
+        <name>await_run_until_event</name>
+        <reimplementedby refid="classtblink__rpc_1_1DpiEndpoint_1a5f33a5ed058a90858fe443d9a81a5289">await_run_until_event</reimplementedby>
+        <reimplementedby refid="classtblink__rpc_1_1SVEndpointLoopback_1afa138ca9b06bb4314acf1c3cc429c2e3">await_run_until_event</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1054" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1054" bodyend="1056"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1IEndpoint_1a84978f42bbbfa85979d5e5f0adf2eb85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int tblink_rpc::IEndpoint::shutdown</definition>
+        <argsstring>()</argsstring>
+        <name>shutdown</name>
+        <reimplementedby refid="classtblink__rpc_1_1DpiEndpoint_1a10d1814e28e49f945327525ae8cdd364">shutdown</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1058" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1058" bodyend="1060"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1IEndpoint_1a00f95603e44766c792021dd6fd8096c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>comm_state_e</type>
+        <definition>virtual comm_state_e tblink_rpc::IEndpoint::comm_state</definition>
+        <argsstring>()</argsstring>
+        <name>comm_state</name>
+        <reimplementedby refid="classtblink__rpc_1_1DpiEndpoint_1a8f8f7d9f7dc73a1a0481d28c35424f5e">comm_state</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1062" column="23" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1062" bodyend="1066"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1IEndpoint_1ae1799aafcc35c22ffe6d4054241e416b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>string</type>
+        <definition>virtual string tblink_rpc::IEndpoint::last_error</definition>
+        <argsstring>()</argsstring>
+        <name>last_error</name>
+        <reimplementedby refid="classtblink__rpc_1_1DpiEndpoint_1a45bd4b9af648bf35c5a16f4578dc00ab">last_error</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1068" column="17" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1068" bodyend="1070"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1IEndpoint_1a27c441a07983c7bee30a99b17605e45e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classtblink__rpc_1_1IInterfaceType" kindref="compound">IInterfaceType</ref></type>
+        <definition>virtual IInterfaceType tblink_rpc::IEndpoint::findInterfaceType</definition>
+        <argsstring>(string name)</argsstring>
+        <name>findInterfaceType</name>
+        <reimplementedby refid="classtblink__rpc_1_1DpiEndpoint_1ab4d9576effa616ad97fb6f5e40579033">findInterfaceType</reimplementedby>
+        <reimplementedby refid="classtblink__rpc_1_1SVEndpointLoopback_1aa020c6fb21f6242746c5190be6523299">findInterfaceType</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1072" column="25" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1072" bodyend="1074"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1IEndpoint_1a7dc1af5d7c59b63cce8037359370a37e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classtblink__rpc_1_1IInterfaceTypeBuilder" kindref="compound">IInterfaceTypeBuilder</ref></type>
+        <definition>virtual IInterfaceTypeBuilder tblink_rpc::IEndpoint::newInterfaceTypeBuilder</definition>
+        <argsstring>(string name)</argsstring>
+        <name>newInterfaceTypeBuilder</name>
+        <reimplementedby refid="classtblink__rpc_1_1DpiEndpoint_1a301ec28cfa4e8afefc2ad3410c5faee6">newInterfaceTypeBuilder</reimplementedby>
+        <reimplementedby refid="classtblink__rpc_1_1SVEndpointLoopback_1a31e70cb1b929abb8ce80f55655cf16ee">newInterfaceTypeBuilder</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1076" column="32" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1076" bodyend="1078"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1IEndpoint_1a2148f789dc3b09fb46d4ffbd9a0bb08a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classtblink__rpc_1_1IInterfaceType" kindref="compound">IInterfaceType</ref></type>
+        <definition>virtual IInterfaceType tblink_rpc::IEndpoint::defineInterfaceType</definition>
+        <argsstring>(IInterfaceTypeBuilder iftype_b)</argsstring>
+        <name>defineInterfaceType</name>
+        <reimplementedby refid="classtblink__rpc_1_1DpiEndpoint_1a7c1b84a856c3ac101c797f6630fc0374">defineInterfaceType</reimplementedby>
+        <reimplementedby refid="classtblink__rpc_1_1SVEndpointLoopback_1a8d9b3d0336adf5444df6c4525d3f09cc">defineInterfaceType</reimplementedby>
+        <param>
+          <type><ref refid="classtblink__rpc_1_1IInterfaceTypeBuilder" kindref="compound">IInterfaceTypeBuilder</ref></type>
+          <declname>iftype_b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1080" column="25" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1080" bodyend="1082"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1IEndpoint_1a1ca99a41d473f56183e3aea2ada4d738" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classtblink__rpc_1_1IInterfaceInst" kindref="compound">IInterfaceInst</ref></type>
+        <definition>virtual IInterfaceInst tblink_rpc::IEndpoint::defineInterfaceInst</definition>
+        <argsstring>(IInterfaceType iftype, string inst_name, int unsigned is_mirror, IInterfaceImpl ifinst_impl)</argsstring>
+        <name>defineInterfaceInst</name>
+        <reimplementedby refid="classtblink__rpc_1_1DpiEndpoint_1a5de0a9338fab79367c785633616c0bd7">defineInterfaceInst</reimplementedby>
+        <reimplementedby refid="classtblink__rpc_1_1SVEndpointLoopback_1a54e274c6aa8c61b8d0cc15c0053350e1">defineInterfaceInst</reimplementedby>
+        <param>
+          <type><ref refid="classtblink__rpc_1_1IInterfaceType" kindref="compound">IInterfaceType</ref></type>
+          <declname>iftype</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>inst_name</declname>
+        </param>
+        <param>
+          <type>int unsigned</type>
+          <declname>is_mirror</declname>
+        </param>
+        <param>
+          <type><ref refid="classtblink__rpc_1_1IInterfaceImpl" kindref="compound">IInterfaceImpl</ref></type>
+          <declname>ifinst_impl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1084" column="25" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1084" bodyend="1090"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1IEndpoint_1a9484f278aba51b0ef8de9f0ab8f56624" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int tblink_rpc::IEndpoint::process_one_message</definition>
+        <argsstring>()</argsstring>
+        <name>process_one_message</name>
+        <reimplementedby refid="classtblink__rpc_1_1DpiEndpoint_1a2b15ed28e57af02c223f736effc0f93a">process_one_message</reimplementedby>
+        <reimplementedby refid="classtblink__rpc_1_1SVEndpointLoopback_1a8188f8a4f724b54a7fb918dafff091af">process_one_message</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Process a message, returning -1 on error </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1100" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1100" bodyend="1102"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1IEndpoint_1ac0b830e5127ec6766e66029c409d5a0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>task</type>
+        <definition>virtual task tblink_rpc::IEndpoint::process_one_message_b</definition>
+        <argsstring>(output int ret)</argsstring>
+        <name>process_one_message_b</name>
+        <reimplementedby refid="classtblink__rpc_1_1DpiEndpoint_1a38be9dd7e2ed8ef5630d4498998d5eac">process_one_message_b</reimplementedby>
+        <reimplementedby refid="classtblink__rpc_1_1DpiEndpointLoopbackDpi_1a7e94cbc0bdf204c83f3ec5a1127aa0ce">process_one_message_b</reimplementedby>
+        <param>
+          <type>output int</type>
+          <declname>ret</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1104" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1104" bodyend="1106"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1IEndpoint_1abaa49915842362999ee652ddab474e44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void tblink_rpc::IEndpoint::getInterfaceInsts</definition>
+        <argsstring>(ref IInterfaceInst ifinsts[$])</argsstring>
+        <name>getInterfaceInsts</name>
+        <reimplementedby refid="classtblink__rpc_1_1DpiEndpoint_1a93bf3a656fead3ecf32e2d04cbaca3ad">getInterfaceInsts</reimplementedby>
+        <reimplementedby refid="classtblink__rpc_1_1SVEndpointLoopback_1adc8b1225ec028dc820d56a30d77c9e41">getInterfaceInsts</reimplementedby>
+        <param>
+          <type>ref <ref refid="classtblink__rpc_1_1IInterfaceInst" kindref="compound">IInterfaceInst</ref></type>
+          <declname>ifinsts</declname>
+          <array>[$]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1108" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1108" bodyend="1109"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="classtblink__rpc_1_1IEndpoint" kindref="compound">IEndpoint</ref></para>
+<para>TODO: Add class documentation </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>tblink_rpc::DpiEndpoint</label>
+        <link refid="classtblink__rpc_1_1DpiEndpoint"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>tblink_rpc::SVEndpoint</label>
+        <link refid="classtblink__rpc_1_1SVEndpoint"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>tblink_rpc::SVEndpointLoopback</label>
+        <link refid="classtblink__rpc_1_1SVEndpointLoopback"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tblink_rpc::DpiEndpointLoopbackDpi</label>
+        <link refid="classtblink__rpc_1_1DpiEndpointLoopbackDpi"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>tblink_rpc::IEndpoint</label>
+        <link refid="classtblink__rpc_1_1IEndpoint"/>
+      </node>
+    </inheritancegraph>
+    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1008" column="16" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1008" bodyend="1112"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc_1_1IEndpoint_1a9b0baf75d79d5cae472b6b82263a1b0b" prot="public" virt="virtual"><scope>tblink_rpc::IEndpoint</scope><name>addListener</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1abe27e855aa88e0407d59ef7cfbdeed69" prot="public" virt="virtual"><scope>tblink_rpc::IEndpoint</scope><name>await_run_until_event</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1a8ac4e37bc389c1a9e1e22e192aa70d86" prot="public" virt="virtual"><scope>tblink_rpc::IEndpoint</scope><name>build_complete</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1a00f95603e44766c792021dd6fd8096c3" prot="public" virt="virtual"><scope>tblink_rpc::IEndpoint</scope><name>comm_state</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1a27a23baecfc154e89cb7e2cd2d7597cc" prot="public" virt="non-virtual"><scope>tblink_rpc::IEndpoint</scope><name>comm_state_e</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1a61a99731e547ad568ea1aed2a379d1b9" prot="public" virt="virtual"><scope>tblink_rpc::IEndpoint</scope><name>connect_complete</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1a1ca99a41d473f56183e3aea2ada4d738" prot="public" virt="virtual"><scope>tblink_rpc::IEndpoint</scope><name>defineInterfaceInst</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1a2148f789dc3b09fb46d4ffbd9a0bb08a" prot="public" virt="virtual"><scope>tblink_rpc::IEndpoint</scope><name>defineInterfaceType</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1a27c441a07983c7bee30a99b17605e45e" prot="public" virt="virtual"><scope>tblink_rpc::IEndpoint</scope><name>findInterfaceType</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1abaa49915842362999ee652ddab474e44" prot="public" virt="virtual"><scope>tblink_rpc::IEndpoint</scope><name>getInterfaceInsts</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1a556b566c429a768e642c3a76ddbb515d" prot="public" virt="virtual"><scope>tblink_rpc::IEndpoint</scope><name>init</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1af41881c5aeed15369fcb756a20ddc90f" prot="public" virt="virtual"><scope>tblink_rpc::IEndpoint</scope><name>is_build_complete</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1a17987cdcb9dd0be67c1a846394d00d43" prot="public" virt="virtual"><scope>tblink_rpc::IEndpoint</scope><name>is_connect_complete</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1a452e692f0d6acd881b98edc8ebce652f" prot="public" virt="virtual"><scope>tblink_rpc::IEndpoint</scope><name>is_init</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1ae1799aafcc35c22ffe6d4054241e416b" prot="public" virt="virtual"><scope>tblink_rpc::IEndpoint</scope><name>last_error</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1a7dc1af5d7c59b63cce8037359370a37e" prot="public" virt="virtual"><scope>tblink_rpc::IEndpoint</scope><name>newInterfaceTypeBuilder</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1a9484f278aba51b0ef8de9f0ab8f56624" prot="public" virt="virtual"><scope>tblink_rpc::IEndpoint</scope><name>process_one_message</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1ac0b830e5127ec6766e66029c409d5a0b" prot="public" virt="virtual"><scope>tblink_rpc::IEndpoint</scope><name>process_one_message_b</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1a27a23baecfc154e89cb7e2cd2d7597ccab6abe30a3acd8ab3a883b673d42f8edc" prot="public" virt="non-virtual"><scope>tblink_rpc::IEndpoint</scope><name>Released</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1a27dc60268d6c65844561bcdc1d487c08" prot="public" virt="virtual"><scope>tblink_rpc::IEndpoint</scope><name>removeListener</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1a84978f42bbbfa85979d5e5f0adf2eb85" prot="public" virt="virtual"><scope>tblink_rpc::IEndpoint</scope><name>shutdown</name></member>
+      <member refid="classtblink__rpc_1_1IEndpoint_1a27a23baecfc154e89cb7e2cd2d7597ccad1d323a83babe11cb9154628d4ad8b90" prot="public" virt="non-virtual"><scope>tblink_rpc::IEndpoint</scope><name>Waiting</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

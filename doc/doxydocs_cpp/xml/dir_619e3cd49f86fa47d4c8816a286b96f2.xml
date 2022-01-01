@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_619e3cd49f86fa47d4c8816a286b96f2" kind="dir">
+    <compoundname>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl</compoundname>
+    <innerdir refid="dir_dd7fd049efe5e6860bf1f7673bc5f08c">/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl/src</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc__core_1_1JsonParamValFactory" kind="class" language="C++" prot="public">
+    <compoundname>tblink_rpc_core::JsonParamValFactory</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc__core_1_1JsonParamValFactory_1af3cc916959f42897abedfc882e86146a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>tblink_rpc_core::JsonParamValFactory::JsonParamValFactory</definition>
+        <argsstring>()</argsstring>
+        <name>JsonParamValFactory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/JsonParamValFactory.h" line="20" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/JsonParamValFactory.cpp" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1JsonParamValFactory_1a892d028714ecff812bf141393ebc01e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>tblink_rpc_core::JsonParamValFactory::~JsonParamValFactory</definition>
+        <argsstring>()</argsstring>
+        <name>~JsonParamValFactory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/JsonParamValFactory.h" line="22" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/JsonParamValFactory.cpp" bodystart="47" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1JsonParamValFactory_1aeb661b42d87e5eea9f2af77108f61e19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classtblink__rpc__core_1_1IParamVal" kindref="compound">IParamVal</ref> *</type>
+        <definition>IParamVal * tblink_rpc_core::JsonParamValFactory::mk</definition>
+        <argsstring>(const nlohmann::json &amp;msg)</argsstring>
+        <name>mk</name>
+        <param>
+          <type>const nlohmann::json &amp;</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/JsonParamValFactory.h" line="24" column="11" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/JsonParamValFactory.cpp" bodystart="51" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1JsonParamValFactory_1a183cbabfe4257369cd4725736ba7ff63" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>T *</type>
+        <definition>T* tblink_rpc_core::JsonParamValFactory::mkT</definition>
+        <argsstring>(const nlohmann::json &amp;msg)</argsstring>
+        <name>mkT</name>
+        <param>
+          <type>const nlohmann::json &amp;</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/JsonParamValFactory.h" line="26" column="15" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/JsonParamValFactory.h" bodystart="26" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1JsonParamValFactory_1a3d0704c654ad0e1d23ce5cafcc23cbf1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>nlohmann::json</type>
+        <definition>nlohmann::json tblink_rpc_core::JsonParamValFactory::mk</definition>
+        <argsstring>(IParamVal *val)</argsstring>
+        <name>mk</name>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1IParamVal" kindref="compound">IParamVal</ref> *</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/JsonParamValFactory.h" line="30" column="16" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/JsonParamValFactory.cpp" bodystart="90" bodyend="124"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/JsonParamValFactory.h" line="18" column="26" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/JsonParamValFactory.h" bodystart="18" bodyend="32"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc__core_1_1JsonParamValFactory_1af3cc916959f42897abedfc882e86146a" prot="public" virt="non-virtual"><scope>tblink_rpc_core::JsonParamValFactory</scope><name>JsonParamValFactory</name></member>
+      <member refid="classtblink__rpc__core_1_1JsonParamValFactory_1aeb661b42d87e5eea9f2af77108f61e19" prot="public" virt="non-virtual"><scope>tblink_rpc_core::JsonParamValFactory</scope><name>mk</name></member>
+      <member refid="classtblink__rpc__core_1_1JsonParamValFactory_1a3d0704c654ad0e1d23ce5cafcc23cbf1" prot="public" virt="non-virtual"><scope>tblink_rpc_core::JsonParamValFactory</scope><name>mk</name></member>
+      <member refid="classtblink__rpc__core_1_1JsonParamValFactory_1a183cbabfe4257369cd4725736ba7ff63" prot="public" virt="non-virtual"><scope>tblink_rpc_core::JsonParamValFactory</scope><name>mkT</name></member>
+      <member refid="classtblink__rpc__core_1_1JsonParamValFactory_1a892d028714ecff812bf141393ebc01e5" prot="public" virt="virtual"><scope>tblink_rpc_core::JsonParamValFactory</scope><name>~JsonParamValFactory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

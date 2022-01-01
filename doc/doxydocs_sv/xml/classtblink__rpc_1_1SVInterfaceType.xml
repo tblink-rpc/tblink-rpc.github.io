@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc_1_1SVInterfaceType" kind="class" language="C++" prot="public">
+    <compoundname>tblink_rpc::SVInterfaceType</compoundname>
+    <basecompoundref refid="classtblink__rpc_1_1IInterfaceType" prot="public" virt="non-virtual">tblink_rpc::IInterfaceType</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classtblink__rpc_1_1SVInterfaceType_1a92e64cf6b06efa41b5008b77a44f9d08" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string tblink_rpc::SVInterfaceType::m_name</definition>
+        <argsstring></argsstring>
+        <name>m_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="4966" column="7" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="4966" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtblink__rpc_1_1SVInterfaceType_1ab8553b4f6e38396928af6960d8722bff" prot="public" static="no" mutable="no">
+        <type>method_l</type>
+        <definition>method_l tblink_rpc::SVInterfaceType::m_methods</definition>
+        <argsstring></argsstring>
+        <name>m_methods</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="4967" column="9" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="4967" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtblink__rpc_1_1SVInterfaceType_1a6307477f06b5132caacb4b72c3002420" prot="public" static="no" mutable="no">
+        <type><ref refid="classtblink__rpc_1_1IMethodType" kindref="compound">IMethodType</ref></type>
+        <definition>IMethodType tblink_rpc::SVInterfaceType::m_method_m[string]</definition>
+        <argsstring>[string]</argsstring>
+        <name>m_method_m</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="4968" column="12" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="4968" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc_1_1SVInterfaceType_1a5ac1782ee1558b1a74b0ae678db66d61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>tblink_rpc::SVInterfaceType::new</definition>
+        <argsstring>(string name)</argsstring>
+        <name>new</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="4971" column="2" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="4971" bodyend="4973"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1SVInterfaceType_1abe01379a224ca883ee995b4828d2aad0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>string</type>
+        <definition>virtual string tblink_rpc::SVInterfaceType::name</definition>
+        <argsstring>()</argsstring>
+        <name>name</name>
+        <reimplements refid="classtblink__rpc_1_1IInterfaceType_1ad34114f343c164a7c4fbfa2b599efffe">name</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="4976" column="17" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="4976" bodyend="4978"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1SVInterfaceType_1ac1bda776341e670c761246a542e5ce16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>method_l</type>
+        <definition>virtual method_l tblink_rpc::SVInterfaceType::methods</definition>
+        <argsstring>()</argsstring>
+        <name>methods</name>
+        <reimplements refid="classtblink__rpc_1_1IInterfaceType_1a2e24697126acfbab6f339d117332c4ff">methods</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="4981" column="19" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="4981" bodyend="4983"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1SVInterfaceType_1a27f3f5cd876d9d82582dd757741be858" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void tblink_rpc::SVInterfaceType::add_method</definition>
+        <argsstring>(SVMethodType method_t)</argsstring>
+        <name>add_method</name>
+        <param>
+          <type><ref refid="classtblink__rpc_1_1SVMethodType" kindref="compound">SVMethodType</ref></type>
+          <declname>method_t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="4985" column="7" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="4985" bodyend="4988"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1SVInterfaceType_1acc208d07ac246f53d3bac080d0c1b432" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classtblink__rpc_1_1IMethodType" kindref="compound">IMethodType</ref></type>
+        <definition>virtual IMethodType tblink_rpc::SVInterfaceType::findMethod</definition>
+        <argsstring>(string name)</argsstring>
+        <name>findMethod</name>
+        <reimplements refid="classtblink__rpc_1_1IInterfaceType_1a71339edecaa3d91702a470fa67183c54">findMethod</reimplements>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="4990" column="22" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="4990" bodyend="4996"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="classtblink__rpc_1_1SVInterfaceType" kindref="compound">SVInterfaceType</ref></para>
+<para>TODO: Add class documentation </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>tblink_rpc::IInterfaceType</label>
+        <link refid="classtblink__rpc_1_1IInterfaceType"/>
+      </node>
+      <node id="1">
+        <label>tblink_rpc::SVInterfaceType</label>
+        <link refid="classtblink__rpc_1_1SVInterfaceType"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>tblink_rpc::IMethodType</label>
+        <link refid="classtblink__rpc_1_1IMethodType"/>
+      </node>
+      <node id="2">
+        <label>tblink_rpc::IInterfaceType</label>
+        <link refid="classtblink__rpc_1_1IInterfaceType"/>
+      </node>
+      <node id="1">
+        <label>tblink_rpc::SVInterfaceType</label>
+        <link refid="classtblink__rpc_1_1SVInterfaceType"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>m_method_m</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="4963" column="44" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="4963" bodyend="4997"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc_1_1SVInterfaceType_1a27f3f5cd876d9d82582dd757741be858" prot="public" virt="non-virtual"><scope>tblink_rpc::SVInterfaceType</scope><name>add_method</name></member>
+      <member refid="classtblink__rpc_1_1SVInterfaceType_1acc208d07ac246f53d3bac080d0c1b432" prot="public" virt="virtual"><scope>tblink_rpc::SVInterfaceType</scope><name>findMethod</name></member>
+      <member refid="classtblink__rpc_1_1SVInterfaceType_1a6307477f06b5132caacb4b72c3002420" prot="public" virt="non-virtual"><scope>tblink_rpc::SVInterfaceType</scope><name>m_method_m</name></member>
+      <member refid="classtblink__rpc_1_1SVInterfaceType_1ab8553b4f6e38396928af6960d8722bff" prot="public" virt="non-virtual"><scope>tblink_rpc::SVInterfaceType</scope><name>m_methods</name></member>
+      <member refid="classtblink__rpc_1_1SVInterfaceType_1a92e64cf6b06efa41b5008b77a44f9d08" prot="public" virt="non-virtual"><scope>tblink_rpc::SVInterfaceType</scope><name>m_name</name></member>
+      <member refid="classtblink__rpc_1_1IInterfaceType_1a5ee83990bd26e33a3eeb7a9b8ce3e07d" prot="public" virt="non-virtual"><scope>tblink_rpc::SVInterfaceType</scope><name>method_l</name></member>
+      <member refid="classtblink__rpc_1_1SVInterfaceType_1ac1bda776341e670c761246a542e5ce16" prot="public" virt="virtual"><scope>tblink_rpc::SVInterfaceType</scope><name>methods</name></member>
+      <member refid="classtblink__rpc_1_1SVInterfaceType_1abe01379a224ca883ee995b4828d2aad0" prot="public" virt="virtual"><scope>tblink_rpc::SVInterfaceType</scope><name>name</name></member>
+      <member refid="classtblink__rpc_1_1SVInterfaceType_1a5ac1782ee1558b1a74b0ae678db66d61" prot="public" virt="non-virtual"><scope>tblink_rpc::SVInterfaceType</scope><name>new</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

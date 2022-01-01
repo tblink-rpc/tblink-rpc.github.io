@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc__core_1_1PythonApi" kind="class" language="C++" prot="public">
+    <compoundname>tblink_rpc_core::PythonApi</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtblink__rpc__core_1_1PythonApi_1a1f5408bfa625ad97172e062b446558ac" prot="private" static="no" mutable="no">
+        <type>void(*</type>
+        <definition>void(* tblink_rpc_core::PythonApi::Py_Initialize_f) ()</definition>
+        <argsstring>)()</argsstring>
+        <name>Py_Initialize_f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" line="29" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtblink__rpc__core_1_1PythonApi_1ab0d25db434fdb5ca10fe053ce116ddaa" prot="private" static="no" mutable="no">
+        <type>void *(*</type>
+        <definition>void*(* tblink_rpc_core::PythonApi::PyImport_ImportModule_f) (const char *name)</definition>
+        <argsstring>)(const char *name)</argsstring>
+        <name>PyImport_ImportModule_f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" line="30" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc__core_1_1PythonApi_1aee99b35c81f07534e4c20e06543bd614" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>tblink_rpc_core::PythonApi::PythonApi</definition>
+        <argsstring>()</argsstring>
+        <name>PythonApi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" line="16" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.cpp" bodystart="14" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1PythonApi_1a4408001b0e36e219adb356c13eaf1e2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>tblink_rpc_core::PythonApi::~PythonApi</definition>
+        <argsstring>()</argsstring>
+        <name>~PythonApi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" line="18" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.cpp" bodystart="20" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1PythonApi_1a4beb9e0c2e19bbceeee97366453beac8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int32_t</type>
+        <definition>int32_t tblink_rpc_core::PythonApi::init</definition>
+        <argsstring>(const std::string &amp;pylib)</argsstring>
+        <name>init</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>pylib</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" line="20" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.cpp" bodystart="24" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1PythonApi_1aa914c6b4d592949f485a79f044afc701" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void tblink_rpc_core::PythonApi::Py_Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Py_Initialize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" line="22" column="6" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1PythonApi_1a560c285802bcccdc23773a601238e7ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void *</type>
+        <definition>void* tblink_rpc_core::PythonApi::PyImport_ImportModule</definition>
+        <argsstring>(const std::string &amp;name)</argsstring>
+        <name>PyImport_ImportModule</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" line="24" column="6" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" bodystart="24" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" line="14" column="16" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" bodystart="14" bodyend="31"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc__core_1_1PythonApi_1a4beb9e0c2e19bbceeee97366453beac8" prot="public" virt="non-virtual"><scope>tblink_rpc_core::PythonApi</scope><name>init</name></member>
+      <member refid="classtblink__rpc__core_1_1PythonApi_1aa914c6b4d592949f485a79f044afc701" prot="public" virt="non-virtual"><scope>tblink_rpc_core::PythonApi</scope><name>Py_Initialize</name></member>
+      <member refid="classtblink__rpc__core_1_1PythonApi_1a1f5408bfa625ad97172e062b446558ac" prot="private" virt="non-virtual"><scope>tblink_rpc_core::PythonApi</scope><name>Py_Initialize_f</name></member>
+      <member refid="classtblink__rpc__core_1_1PythonApi_1a560c285802bcccdc23773a601238e7ec" prot="public" virt="non-virtual"><scope>tblink_rpc_core::PythonApi</scope><name>PyImport_ImportModule</name></member>
+      <member refid="classtblink__rpc__core_1_1PythonApi_1ab0d25db434fdb5ca10fe053ce116ddaa" prot="private" virt="non-virtual"><scope>tblink_rpc_core::PythonApi</scope><name>PyImport_ImportModule_f</name></member>
+      <member refid="classtblink__rpc__core_1_1PythonApi_1aee99b35c81f07534e4c20e06543bd614" prot="public" virt="non-virtual"><scope>tblink_rpc_core::PythonApi</scope><name>PythonApi</name></member>
+      <member refid="classtblink__rpc__core_1_1PythonApi_1a4408001b0e36e219adb356c13eaf1e2b" prot="public" virt="virtual"><scope>tblink_rpc_core::PythonApi</scope><name>~PythonApi</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

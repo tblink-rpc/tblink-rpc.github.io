@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespacetblink__rpc__hdl" kind="namespace" language="C++">
+    <compoundname>tblink_rpc_hdl</compoundname>
+    <innerclass refid="classtblink__rpc__hdl_1_1InvokeInfoDpi" prot="public">tblink_rpc_hdl::InvokeInfoDpi</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl/src/InvokeInfoDpi.cpp" line="10" column="24"/>
+  </compounddef>
+</doxygen>

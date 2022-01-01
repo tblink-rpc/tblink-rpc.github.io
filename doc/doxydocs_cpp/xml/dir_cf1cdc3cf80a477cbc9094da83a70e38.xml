@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_cf1cdc3cf80a477cbc9094da83a70e38" kind="dir">
+    <compoundname>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp</compoundname>
+    <innerdir refid="dir_05e025b3ab45d5bfd062f6c8e824899d">/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include</innerdir>
+    <innerfile refid="Debug_8cpp">Debug.cpp</innerfile>
+    <innerfile refid="Debug_8h">Debug.h</innerfile>
+    <innerfile refid="DynLibSymFinder_8cpp">DynLibSymFinder.cpp</innerfile>
+    <innerfile refid="DynLibSymFinder_8h">DynLibSymFinder.h</innerfile>
+    <innerfile refid="DynSymFinder_8cpp">DynSymFinder.cpp</innerfile>
+    <innerfile refid="DynSymFinder_8h">DynSymFinder.h</innerfile>
+    <innerfile refid="EndpointBase_8cpp">EndpointBase.cpp</innerfile>
+    <innerfile refid="EndpointBase_8h">EndpointBase.h</innerfile>
+    <innerfile refid="EndpointEventBase_8cpp">EndpointEventBase.cpp</innerfile>
+    <innerfile refid="EndpointEventBase_8h">EndpointEventBase.h</innerfile>
+    <innerfile refid="EndpointListenerBase_8cpp">EndpointListenerBase.cpp</innerfile>
+    <innerfile refid="EndpointListenerBase_8h">EndpointListenerBase.h</innerfile>
+    <innerfile refid="EndpointLoopback_8cpp">EndpointLoopback.cpp</innerfile>
+    <innerfile refid="EndpointLoopback_8h">EndpointLoopback.h</innerfile>
+    <innerfile refid="EndpointMsgBase_8cpp">EndpointMsgBase.cpp</innerfile>
+    <innerfile refid="EndpointMsgBase_8h">EndpointMsgBase.h</innerfile>
+    <innerfile refid="EndpointMsgTransport_8cpp">EndpointMsgTransport.cpp</innerfile>
+    <innerfile refid="EndpointMsgTransport_8h">EndpointMsgTransport.h</innerfile>
+    <innerfile refid="Env_8cpp">Env.cpp</innerfile>
+    <innerfile refid="Env_8h">Env.h</innerfile>
+    <innerfile refid="InterfaceInstBase_8cpp">InterfaceInstBase.cpp</innerfile>
+    <innerfile refid="InterfaceInstBase_8h">InterfaceInstBase.h</innerfile>
+    <innerfile refid="InterfaceInstLoopback_8cpp">InterfaceInstLoopback.cpp</innerfile>
+    <innerfile refid="InterfaceInstLoopback_8h">InterfaceInstLoopback.h</innerfile>
+    <innerfile refid="InterfaceInstMsgTransport_8cpp">InterfaceInstMsgTransport.cpp</innerfile>
+    <innerfile refid="InterfaceInstMsgTransport_8h">InterfaceInstMsgTransport.h</innerfile>
+    <innerfile refid="InterfaceType_8cpp">InterfaceType.cpp</innerfile>
+    <innerfile refid="InterfaceType_8h">InterfaceType.h</innerfile>
+    <innerfile refid="InterfaceTypeBuilder_8cpp">InterfaceTypeBuilder.cpp</innerfile>
+    <innerfile refid="InterfaceTypeBuilder_8h">InterfaceTypeBuilder.h</innerfile>
+    <innerfile refid="ITypeBuilder_8h">ITypeBuilder.h</innerfile>
+    <innerfile refid="JsonParamValFactory_8cpp">JsonParamValFactory.cpp</innerfile>
+    <innerfile refid="JsonParamValFactory_8h">JsonParamValFactory.h</innerfile>
+    <innerfile refid="JsonParamValNull_8cpp">JsonParamValNull.cpp</innerfile>
+    <innerfile refid="LaunchParams_8cpp">LaunchParams.cpp</innerfile>
+    <innerfile refid="LaunchParams_8h">LaunchParams.h</innerfile>
+    <innerfile refid="LaunchTypeConnectNativeLoopback_8cpp">LaunchTypeConnectNativeLoopback.cpp</innerfile>
+    <innerfile refid="LaunchTypeConnectNativeLoopback_8h">LaunchTypeConnectNativeLoopback.h</innerfile>
+    <innerfile refid="LaunchTypeConnectSocket_8cpp">LaunchTypeConnectSocket.cpp</innerfile>
+    <innerfile refid="LaunchTypeConnectSocket_8h">LaunchTypeConnectSocket.h</innerfile>
+    <innerfile refid="LaunchTypeNativeLoopback_8cpp">LaunchTypeNativeLoopback.cpp</innerfile>
+    <innerfile refid="LaunchTypeNativeLoopback_8h">LaunchTypeNativeLoopback.h</innerfile>
+    <innerfile refid="LaunchTypeProcessSocket_8cpp">LaunchTypeProcessSocket.cpp</innerfile>
+    <innerfile refid="LaunchTypeProcessSocket_8h">LaunchTypeProcessSocket.h</innerfile>
+    <innerfile refid="LaunchTypePythonLoopback_8cpp">LaunchTypePythonLoopback.cpp</innerfile>
+    <innerfile refid="LaunchTypePythonLoopback_8h">LaunchTypePythonLoopback.h</innerfile>
+    <innerfile refid="LaunchTypePythonSocket_8cpp">LaunchTypePythonSocket.cpp</innerfile>
+    <innerfile refid="LaunchTypePythonSocket_8h">LaunchTypePythonSocket.h</innerfile>
+    <innerfile refid="LaunchTypeRegistration_8h">LaunchTypeRegistration.h</innerfile>
+    <innerfile refid="MethodType_8cpp">MethodType.cpp</innerfile>
+    <innerfile refid="MethodType_8h">MethodType.h</innerfile>
+    <innerfile refid="MethodTypeBuilder_8cpp">MethodTypeBuilder.cpp</innerfile>
+    <innerfile refid="MethodTypeBuilder_8h">MethodTypeBuilder.h</innerfile>
+    <innerfile refid="ParamDecl_8cpp">ParamDecl.cpp</innerfile>
+    <innerfile refid="ParamDecl_8h">ParamDecl.h</innerfile>
+    <innerfile refid="ParamVal_8cpp">ParamVal.cpp</innerfile>
+    <innerfile refid="ParamVal_8h">ParamVal.h</innerfile>
+    <innerfile refid="ParamValBool_8cpp">ParamValBool.cpp</innerfile>
+    <innerfile refid="ParamValBool_8h">ParamValBool.h</innerfile>
+    <innerfile refid="ParamValInt_8cpp">ParamValInt.cpp</innerfile>
+    <innerfile refid="ParamValInt_8h">ParamValInt.h</innerfile>
+    <innerfile refid="ParamValMap_8cpp">ParamValMap.cpp</innerfile>
+    <innerfile refid="ParamValMap_8h">ParamValMap.h</innerfile>
+    <innerfile refid="ParamValNull_8h">ParamValNull.h</innerfile>
+    <innerfile refid="ParamValStr_8cpp">ParamValStr.cpp</innerfile>
+    <innerfile refid="ParamValStr_8h">ParamValStr.h</innerfile>
+    <innerfile refid="ParamValVec_8cpp">ParamValVec.cpp</innerfile>
+    <innerfile refid="ParamValVec_8h">ParamValVec.h</innerfile>
+    <innerfile refid="PythonApi_8cpp">PythonApi.cpp</innerfile>
+    <innerfile refid="PythonApi_8h">PythonApi.h</innerfile>
+    <innerfile refid="StringUtil_8cpp">StringUtil.cpp</innerfile>
+    <innerfile refid="StringUtil_8h">StringUtil.h</innerfile>
+    <innerfile refid="TbLink_8cpp">TbLink.cpp</innerfile>
+    <innerfile refid="TbLink_8h">TbLink.h</innerfile>
+    <innerfile refid="TransportJsonSocket_8cpp">TransportJsonSocket.cpp</innerfile>
+    <innerfile refid="TransportJsonSocket_8h">TransportJsonSocket.h</innerfile>
+    <innerfile refid="TransportMessageFifo_8cpp">TransportMessageFifo.cpp</innerfile>
+    <innerfile refid="TransportMessageFifo_8h">TransportMessageFifo.h</innerfile>
+    <innerfile refid="TransportMessageFifoEP_8cpp">TransportMessageFifoEP.cpp</innerfile>
+    <innerfile refid="TransportMessageFifoEP_8h">TransportMessageFifoEP.h</innerfile>
+    <innerfile refid="TransportMessageFifoThreadedEP_8cpp">TransportMessageFifoThreadedEP.cpp</innerfile>
+    <innerfile refid="TransportMessageFifoThreadedEP_8h">TransportMessageFifoThreadedEP.h</innerfile>
+    <innerfile refid="Type_8cpp">Type.cpp</innerfile>
+    <innerfile refid="Type_8h">Type.h</innerfile>
+    <innerfile refid="TypeInt_8cpp">TypeInt.cpp</innerfile>
+    <innerfile refid="TypeInt_8h">TypeInt.h</innerfile>
+    <innerfile refid="TypeMap_8cpp">TypeMap.cpp</innerfile>
+    <innerfile refid="TypeMap_8h">TypeMap.h</innerfile>
+    <innerfile refid="TypeVec_8cpp">TypeVec.cpp</innerfile>
+    <innerfile refid="TypeVec_8h">TypeVec.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/"/>
+  </compounddef>
+</doxygen>

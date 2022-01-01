@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc__hdl_1_1InvokeInfoDpi" kind="class" language="C++" prot="public">
+    <compoundname>tblink_rpc_hdl::InvokeInfoDpi</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtblink__rpc__hdl_1_1InvokeInfoDpi_1ad64df5e4291b18e10cd4804520c545a4" prot="private" static="no" mutable="no">
+        <type><ref refid="classtblink__rpc__core_1_1IInterfaceInst" kindref="compound">tblink_rpc_core::IInterfaceInst</ref> *</type>
+        <definition>tblink_rpc_core::IInterfaceInst* tblink_rpc_hdl::InvokeInfoDpi::m_inst</definition>
+        <argsstring></argsstring>
+        <name>m_inst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl/src/InvokeInfoDpi.h" line="39" column="32" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl/src/InvokeInfoDpi.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtblink__rpc__hdl_1_1InvokeInfoDpi_1a4a504101a258b1f34d33920cad1ad91e" prot="private" static="no" mutable="no">
+        <type><ref refid="classtblink__rpc__core_1_1IMethodType" kindref="compound">tblink_rpc_core::IMethodType</ref> *</type>
+        <definition>tblink_rpc_core::IMethodType* tblink_rpc_hdl::InvokeInfoDpi::m_method</definition>
+        <argsstring></argsstring>
+        <name>m_method</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl/src/InvokeInfoDpi.h" line="40" column="29" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl/src/InvokeInfoDpi.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtblink__rpc__hdl_1_1InvokeInfoDpi_1ad31e95468263ee08e1df57674d77788c" prot="private" static="no" mutable="no">
+        <type>intptr_t</type>
+        <definition>intptr_t tblink_rpc_hdl::InvokeInfoDpi::m_call_id</definition>
+        <argsstring></argsstring>
+        <name>m_call_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl/src/InvokeInfoDpi.h" line="41" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl/src/InvokeInfoDpi.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtblink__rpc__hdl_1_1InvokeInfoDpi_1a100aa7c19e9e0be31a530fc57aeb8446" prot="private" static="no" mutable="no">
+        <type>tblink_rpc_core::IParamValVecUP</type>
+        <definition>tblink_rpc_core::IParamValVecUP tblink_rpc_hdl::InvokeInfoDpi::m_params</definition>
+        <argsstring></argsstring>
+        <name>m_params</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl/src/InvokeInfoDpi.h" line="42" column="32" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl/src/InvokeInfoDpi.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtblink__rpc__hdl_1_1InvokeInfoDpi_1aee01e809c6769e60d2d1b7930b87e1d7" prot="private" static="no" mutable="no">
+        <type><ref refid="classtblink__rpc__core_1_1IParamVal" kindref="compound">tblink_rpc_core::IParamVal</ref> *</type>
+        <definition>tblink_rpc_core::IParamVal* tblink_rpc_hdl::InvokeInfoDpi::m_ret</definition>
+        <argsstring></argsstring>
+        <name>m_ret</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl/src/InvokeInfoDpi.h" line="43" column="27" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl/src/InvokeInfoDpi.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc__hdl_1_1InvokeInfoDpi_1a3073e8f25c913eeec88dcfbc5946c66a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>tblink_rpc_hdl::InvokeInfoDpi::InvokeInfoDpi</definition>
+        <argsstring>(tblink_rpc_core::IInterfaceInst *inst, tblink_rpc_core::IMethodType *method, intptr_t call_id, tblink_rpc_core::IParamValVec *params)</argsstring>
+        <name>InvokeInfoDpi</name>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1IInterfaceInst" kindref="compound">tblink_rpc_core::IInterfaceInst</ref> *</type>
+          <declname>inst</declname>
+        </param>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1IMethodType" kindref="compound">tblink_rpc_core::IMethodType</ref> *</type>
+          <declname>method</declname>
+        </param>
+        <param>
+          <type>intptr_t</type>
+          <declname>call_id</declname>
+        </param>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1IParamValVec" kindref="compound">tblink_rpc_core::IParamValVec</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl/src/InvokeInfoDpi.h" line="17" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl/src/InvokeInfoDpi.cpp" bodystart="12" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__hdl_1_1InvokeInfoDpi_1ac53541c5096c5b3a7748dc82b5aef5ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>tblink_rpc_hdl::InvokeInfoDpi::~InvokeInfoDpi</definition>
+        <argsstring>()</argsstring>
+        <name>~InvokeInfoDpi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl/src/InvokeInfoDpi.h" line="24" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl/src/InvokeInfoDpi.cpp" bodystart="23" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__hdl_1_1InvokeInfoDpi_1a536bb10735aa270a6660b3d006fca83c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtblink__rpc__core_1_1IInterfaceInst" kindref="compound">tblink_rpc_core::IInterfaceInst</ref> *</type>
+        <definition>tblink_rpc_core::IInterfaceInst* tblink_rpc_hdl::InvokeInfoDpi::inst</definition>
+        <argsstring>() const</argsstring>
+        <name>inst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl/src/InvokeInfoDpi.h" line="26" column="33" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl/src/InvokeInfoDpi.h" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__hdl_1_1InvokeInfoDpi_1afa7c3c3c40d75fc87652ba5cda537a91" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtblink__rpc__core_1_1IMethodType" kindref="compound">tblink_rpc_core::IMethodType</ref> *</type>
+        <definition>tblink_rpc_core::IMethodType* tblink_rpc_hdl::InvokeInfoDpi::method</definition>
+        <argsstring>() const</argsstring>
+        <name>method</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl/src/InvokeInfoDpi.h" line="28" column="30" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl/src/InvokeInfoDpi.h" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__hdl_1_1InvokeInfoDpi_1a1f7921bbb8a13a347cf2b25327bc5548" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>intptr_t</type>
+        <definition>intptr_t tblink_rpc_hdl::InvokeInfoDpi::call_id</definition>
+        <argsstring>() const</argsstring>
+        <name>call_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl/src/InvokeInfoDpi.h" line="30" column="10" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl/src/InvokeInfoDpi.h" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__hdl_1_1InvokeInfoDpi_1a7db59c655fff4945e2e35ed64e9645fe" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtblink__rpc__core_1_1IParamValVec" kindref="compound">tblink_rpc_core::IParamValVec</ref> *</type>
+        <definition>tblink_rpc_core::IParamValVec* tblink_rpc_hdl::InvokeInfoDpi::params</definition>
+        <argsstring>() const</argsstring>
+        <name>params</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl/src/InvokeInfoDpi.h" line="32" column="31" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl/src/InvokeInfoDpi.h" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__hdl_1_1InvokeInfoDpi_1aa7dd5b098dc48fcbf4e53fb380cc9c55" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtblink__rpc__core_1_1IParamVal" kindref="compound">tblink_rpc_core::IParamVal</ref> *</type>
+        <definition>tblink_rpc_core::IParamVal* tblink_rpc_hdl::InvokeInfoDpi::ret</definition>
+        <argsstring>() const</argsstring>
+        <name>ret</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl/src/InvokeInfoDpi.h" line="34" column="28" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl/src/InvokeInfoDpi.h" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__hdl_1_1InvokeInfoDpi_1a0b9e677311d96ebfa759742a8f6023c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void tblink_rpc_hdl::InvokeInfoDpi::ret</definition>
+        <argsstring>(tblink_rpc_core::IParamVal *r)</argsstring>
+        <name>ret</name>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1IParamVal" kindref="compound">tblink_rpc_core::IParamVal</ref> *</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl/src/InvokeInfoDpi.h" line="36" column="6" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl/src/InvokeInfoDpi.h" bodystart="36" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl/src/InvokeInfoDpi.h" line="15" column="20" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl/src/InvokeInfoDpi.h" bodystart="15" bodyend="45"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc__hdl_1_1InvokeInfoDpi_1a1f7921bbb8a13a347cf2b25327bc5548" prot="public" virt="non-virtual"><scope>tblink_rpc_hdl::InvokeInfoDpi</scope><name>call_id</name></member>
+      <member refid="classtblink__rpc__hdl_1_1InvokeInfoDpi_1a536bb10735aa270a6660b3d006fca83c" prot="public" virt="non-virtual"><scope>tblink_rpc_hdl::InvokeInfoDpi</scope><name>inst</name></member>
+      <member refid="classtblink__rpc__hdl_1_1InvokeInfoDpi_1a3073e8f25c913eeec88dcfbc5946c66a" prot="public" virt="non-virtual"><scope>tblink_rpc_hdl::InvokeInfoDpi</scope><name>InvokeInfoDpi</name></member>
+      <member refid="classtblink__rpc__hdl_1_1InvokeInfoDpi_1ad31e95468263ee08e1df57674d77788c" prot="private" virt="non-virtual"><scope>tblink_rpc_hdl::InvokeInfoDpi</scope><name>m_call_id</name></member>
+      <member refid="classtblink__rpc__hdl_1_1InvokeInfoDpi_1ad64df5e4291b18e10cd4804520c545a4" prot="private" virt="non-virtual"><scope>tblink_rpc_hdl::InvokeInfoDpi</scope><name>m_inst</name></member>
+      <member refid="classtblink__rpc__hdl_1_1InvokeInfoDpi_1a4a504101a258b1f34d33920cad1ad91e" prot="private" virt="non-virtual"><scope>tblink_rpc_hdl::InvokeInfoDpi</scope><name>m_method</name></member>
+      <member refid="classtblink__rpc__hdl_1_1InvokeInfoDpi_1a100aa7c19e9e0be31a530fc57aeb8446" prot="private" virt="non-virtual"><scope>tblink_rpc_hdl::InvokeInfoDpi</scope><name>m_params</name></member>
+      <member refid="classtblink__rpc__hdl_1_1InvokeInfoDpi_1aee01e809c6769e60d2d1b7930b87e1d7" prot="private" virt="non-virtual"><scope>tblink_rpc_hdl::InvokeInfoDpi</scope><name>m_ret</name></member>
+      <member refid="classtblink__rpc__hdl_1_1InvokeInfoDpi_1afa7c3c3c40d75fc87652ba5cda537a91" prot="public" virt="non-virtual"><scope>tblink_rpc_hdl::InvokeInfoDpi</scope><name>method</name></member>
+      <member refid="classtblink__rpc__hdl_1_1InvokeInfoDpi_1a7db59c655fff4945e2e35ed64e9645fe" prot="public" virt="non-virtual"><scope>tblink_rpc_hdl::InvokeInfoDpi</scope><name>params</name></member>
+      <member refid="classtblink__rpc__hdl_1_1InvokeInfoDpi_1aa7dd5b098dc48fcbf4e53fb380cc9c55" prot="public" virt="non-virtual"><scope>tblink_rpc_hdl::InvokeInfoDpi</scope><name>ret</name></member>
+      <member refid="classtblink__rpc__hdl_1_1InvokeInfoDpi_1a0b9e677311d96ebfa759742a8f6023c1" prot="public" virt="non-virtual"><scope>tblink_rpc_hdl::InvokeInfoDpi</scope><name>ret</name></member>
+      <member refid="classtblink__rpc__hdl_1_1InvokeInfoDpi_1ac53541c5096c5b3a7748dc82b5aef5ed" prot="public" virt="virtual"><scope>tblink_rpc_hdl::InvokeInfoDpi</scope><name>~InvokeInfoDpi</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

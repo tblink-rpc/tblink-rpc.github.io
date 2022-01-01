@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc__core_1_1TransportMessageFifo" kind="class" language="C++" prot="public">
+    <compoundname>tblink_rpc_core::TransportMessageFifo</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtblink__rpc__core_1_1TransportMessageFifo_1a38d4419e55bae630b39296c2f9a47fc5" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool tblink_rpc_core::TransportMessageFifo::m_is_blocking</definition>
+        <argsstring></argsstring>
+        <name>m_is_blocking</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifo.h" line="48" column="5" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifo.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtblink__rpc__core_1_1TransportMessageFifo_1a53cafb5d123477753a004cc59a508a2f" prot="private" static="no" mutable="no">
+        <type>TransportMessageFifoEPUP</type>
+        <definition>TransportMessageFifoEPUP tblink_rpc_core::TransportMessageFifo::m_ep0</definition>
+        <argsstring></argsstring>
+        <name>m_ep0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifo.h" line="49" column="25" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifo.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtblink__rpc__core_1_1TransportMessageFifo_1a56bfdfd174e669b1512e2f36d5e1f5d7" prot="private" static="no" mutable="no">
+        <type>TransportMessageFifoEPUP</type>
+        <definition>TransportMessageFifoEPUP tblink_rpc_core::TransportMessageFifo::m_ep1</definition>
+        <argsstring></argsstring>
+        <name>m_ep1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifo.h" line="50" column="25" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifo.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc__core_1_1TransportMessageFifo_1a12a63c07ae6dc1163ba3ad132cfd312b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>tblink_rpc_core::TransportMessageFifo::TransportMessageFifo</definition>
+        <argsstring>(bool is_blocking=false)</argsstring>
+        <name>TransportMessageFifo</name>
+        <param>
+          <type>bool</type>
+          <declname>is_blocking</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifo.h" line="19" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifo.cpp" bodystart="14" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1TransportMessageFifo_1aafacb1565f2e76606c7af14c2e0c2689" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>tblink_rpc_core::TransportMessageFifo::TransportMessageFifo</definition>
+        <argsstring>(TransportMessageFifoEP *ep0, TransportMessageFifoEP *ep1, bool is_blocking=false)</argsstring>
+        <name>TransportMessageFifo</name>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1TransportMessageFifoEP" kindref="compound">TransportMessageFifoEP</ref> *</type>
+          <declname>ep0</declname>
+        </param>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1TransportMessageFifoEP" kindref="compound">TransportMessageFifoEP</ref> *</type>
+          <declname>ep1</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_blocking</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifo.h" line="21" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifo.cpp" bodystart="26" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1TransportMessageFifo_1ae0e38ed0597172d419dcbe5ac3d76791" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>tblink_rpc_core::TransportMessageFifo::~TransportMessageFifo</definition>
+        <argsstring>()</argsstring>
+        <name>~TransportMessageFifo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifo.h" line="26" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifo.cpp" bodystart="37" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1TransportMessageFifo_1a782d606423f03ebc3fea6404a26be7b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classtblink__rpc__core_1_1TransportMessageFifoEP" kindref="compound">TransportMessageFifoEP</ref> *</type>
+        <definition>TransportMessageFifoEP * tblink_rpc_core::TransportMessageFifo::ep</definition>
+        <argsstring>(uint32_t id)</argsstring>
+        <name>ep</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifo.h" line="28" column="32" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifo.cpp" bodystart="41" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1TransportMessageFifo_1a33da696352d189207b451c33226ff907" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int32_t</type>
+        <definition>int32_t tblink_rpc_core::TransportMessageFifo::send_req</definition>
+        <argsstring>(uint32_t ep_id, const std::string &amp;method, intptr_t req_id, IParamValMap *params)</argsstring>
+        <name>send_req</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>ep_id</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>method</declname>
+        </param>
+        <param>
+          <type>intptr_t</type>
+          <declname>req_id</declname>
+        </param>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1IParamValMap" kindref="compound">IParamValMap</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifo.h" line="30" column="17" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifo.cpp" bodystart="45" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1TransportMessageFifo_1a7f918612fe7fb066dbd234fd765e52f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int32_t</type>
+        <definition>int32_t tblink_rpc_core::TransportMessageFifo::send_notify</definition>
+        <argsstring>(uint32_t ep_id, const std::string &amp;method, IParamValMap *params)</argsstring>
+        <name>send_notify</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>ep_id</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>method</declname>
+        </param>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1IParamValMap" kindref="compound">IParamValMap</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifo.h" line="36" column="17" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifo.cpp" bodystart="54" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1TransportMessageFifo_1a1bb54b12c93614391b1c9b55c3280302" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int32_t</type>
+        <definition>int32_t tblink_rpc_core::TransportMessageFifo::send_rsp</definition>
+        <argsstring>(uint32_t ep_id, intptr_t id, IParamValMap *result, IParamValMap *error)</argsstring>
+        <name>send_rsp</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>ep_id</declname>
+        </param>
+        <param>
+          <type>intptr_t</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1IParamValMap" kindref="compound">IParamValMap</ref> *</type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1IParamValMap" kindref="compound">IParamValMap</ref> *</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifo.h" line="41" column="17" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifo.cpp" bodystart="62" bodyend="69"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifo.h" line="17" column="27" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifo.h" bodystart="17" bodyend="52"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifo_1a782d606423f03ebc3fea6404a26be7b4" prot="public" virt="virtual"><scope>tblink_rpc_core::TransportMessageFifo</scope><name>ep</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifo_1a53cafb5d123477753a004cc59a508a2f" prot="private" virt="non-virtual"><scope>tblink_rpc_core::TransportMessageFifo</scope><name>m_ep0</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifo_1a56bfdfd174e669b1512e2f36d5e1f5d7" prot="private" virt="non-virtual"><scope>tblink_rpc_core::TransportMessageFifo</scope><name>m_ep1</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifo_1a38d4419e55bae630b39296c2f9a47fc5" prot="private" virt="non-virtual"><scope>tblink_rpc_core::TransportMessageFifo</scope><name>m_is_blocking</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifo_1a7f918612fe7fb066dbd234fd765e52f8" prot="public" virt="virtual"><scope>tblink_rpc_core::TransportMessageFifo</scope><name>send_notify</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifo_1a33da696352d189207b451c33226ff907" prot="public" virt="virtual"><scope>tblink_rpc_core::TransportMessageFifo</scope><name>send_req</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifo_1a1bb54b12c93614391b1c9b55c3280302" prot="public" virt="virtual"><scope>tblink_rpc_core::TransportMessageFifo</scope><name>send_rsp</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifo_1a12a63c07ae6dc1163ba3ad132cfd312b" prot="public" virt="non-virtual"><scope>tblink_rpc_core::TransportMessageFifo</scope><name>TransportMessageFifo</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifo_1aafacb1565f2e76606c7af14c2e0c2689" prot="public" virt="non-virtual"><scope>tblink_rpc_core::TransportMessageFifo</scope><name>TransportMessageFifo</name></member>
+      <member refid="classtblink__rpc__core_1_1TransportMessageFifo_1ae0e38ed0597172d419dcbe5ac3d76791" prot="public" virt="virtual"><scope>tblink_rpc_core::TransportMessageFifo</scope><name>~TransportMessageFifo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

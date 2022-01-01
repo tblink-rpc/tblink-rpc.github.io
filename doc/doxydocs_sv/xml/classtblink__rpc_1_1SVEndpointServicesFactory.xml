@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc_1_1SVEndpointServicesFactory" kind="class" language="C++" prot="public">
+    <compoundname>tblink_rpc::SVEndpointServicesFactory</compoundname>
+    <basecompoundref refid="classtblink__rpc_1_1IEndpointServicesFactory" prot="public" virt="non-virtual">tblink_rpc::IEndpointServicesFactory</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc_1_1SVEndpointServicesFactory_1a8b2f4241ea891ae273ee7ed6b2a42c1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classtblink__rpc_1_1IEndpointServices" kindref="compound">IEndpointServices</ref></type>
+        <definition>virtual IEndpointServices tblink_rpc::SVEndpointServicesFactory::create</definition>
+        <argsstring>()</argsstring>
+        <name>create</name>
+        <reimplements refid="classtblink__rpc_1_1IEndpointServicesFactory_1af39e405ab70855ef770b2989a905d1c7">create</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5670" column="28" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5670" bodyend="5673"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="classtblink__rpc_1_1SVEndpointServicesFactory" kindref="compound">SVEndpointServicesFactory</ref></para>
+<para>TODO: Add class documentation </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>tblink_rpc::IEndpointServicesFactory</label>
+        <link refid="classtblink__rpc_1_1IEndpointServicesFactory"/>
+      </node>
+      <node id="1">
+        <label>tblink_rpc::SVEndpointServicesFactory</label>
+        <link refid="classtblink__rpc_1_1SVEndpointServicesFactory"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>tblink_rpc::IEndpointServicesFactory</label>
+        <link refid="classtblink__rpc_1_1IEndpointServicesFactory"/>
+      </node>
+      <node id="1">
+        <label>tblink_rpc::SVEndpointServicesFactory</label>
+        <link refid="classtblink__rpc_1_1SVEndpointServicesFactory"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5665" column="64" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5665" bodyend="5674"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc_1_1SVEndpointServicesFactory_1a8b2f4241ea891ae273ee7ed6b2a42c1a" prot="public" virt="virtual"><scope>tblink_rpc::SVEndpointServicesFactory</scope><name>create</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

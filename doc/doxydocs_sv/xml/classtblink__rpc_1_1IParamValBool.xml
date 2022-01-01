@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc_1_1IParamValBool" kind="class" language="C++" prot="public">
+    <compoundname>tblink_rpc::IParamValBool</compoundname>
+    <basecompoundref refid="classtblink__rpc_1_1IParamVal" prot="public" virt="non-virtual">tblink_rpc::IParamVal</basecompoundref>
+    <derivedcompoundref refid="classtblink__rpc_1_1DpiParamValBool" prot="public" virt="non-virtual">tblink_rpc::DpiParamValBool</derivedcompoundref>
+    <derivedcompoundref refid="classtblink__rpc_1_1SVParamValBool" prot="public" virt="non-virtual">tblink_rpc::SVParamValBool</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc_1_1IParamValBool_1a06d136efcc30732978929b6d32d973c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bit</type>
+        <definition>virtual bit tblink_rpc::IParamValBool::val</definition>
+        <argsstring>()</argsstring>
+        <name>val</name>
+        <reimplementedby refid="classtblink__rpc_1_1DpiParamValBool_1a692cbe6bd441e3de07605f7031cc771f">val</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="351" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="351" bodyend="353"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="classtblink__rpc_1_1IParamValBool" kindref="compound">IParamValBool</ref></para>
+<para>TODO: Add class documentation </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>tblink_rpc::SVParamValBool</label>
+        <link refid="classtblink__rpc_1_1SVParamValBool"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tblink_rpc::DpiParamValBool</label>
+        <link refid="classtblink__rpc_1_1DpiParamValBool"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tblink_rpc::IParamVal</label>
+        <link refid="classtblink__rpc_1_1IParamVal"/>
+      </node>
+      <node id="1">
+        <label>tblink_rpc::IParamValBool</label>
+        <link refid="classtblink__rpc_1_1IParamValBool"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>tblink_rpc::IParamVal</label>
+        <link refid="classtblink__rpc_1_1IParamVal"/>
+      </node>
+      <node id="1">
+        <label>tblink_rpc::IParamValBool</label>
+        <link refid="classtblink__rpc_1_1IParamValBool"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="347" column="37" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="347" bodyend="353"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc_1_1IParamVal_1a4e4692922c2291ce5952d0800b5a9279a81cec13a615937f06382243992bf5983" prot="public" virt="non-virtual"><scope>tblink_rpc::IParamValBool</scope><name>Bool</name></member>
+      <member refid="classtblink__rpc_1_1IParamVal_1abd242317efff0ba895bb264fea3b38ab" prot="public" virt="virtual"><scope>tblink_rpc::IParamValBool</scope><name>clone</name></member>
+      <member refid="classtblink__rpc_1_1IParamVal_1aaa1cbdce83bbaa29e94322568f5cba71" prot="public" virt="virtual"><scope>tblink_rpc::IParamValBool</scope><name>dispose</name></member>
+      <member refid="classtblink__rpc_1_1IParamVal_1a4e4692922c2291ce5952d0800b5a9279a0dda70d85041e78bbfe1d5a5dc91536b" prot="public" virt="non-virtual"><scope>tblink_rpc::IParamValBool</scope><name>Int</name></member>
+      <member refid="classtblink__rpc_1_1IParamVal_1affbf6191b5e9f31bb6271889a46fec78" prot="public" virt="virtual"><scope>tblink_rpc::IParamValBool</scope><name>kind</name></member>
+      <member refid="classtblink__rpc_1_1IParamVal_1a4e4692922c2291ce5952d0800b5a9279" prot="public" virt="non-virtual"><scope>tblink_rpc::IParamValBool</scope><name>kind_e</name></member>
+      <member refid="classtblink__rpc_1_1IParamVal_1a4e4692922c2291ce5952d0800b5a9279af79236bf425d2c48137c935843e34f11" prot="public" virt="non-virtual"><scope>tblink_rpc::IParamValBool</scope><name>Map</name></member>
+      <member refid="classtblink__rpc_1_1IParamVal_1a4e4692922c2291ce5952d0800b5a9279a3ab7af46bf3bca16f897b38970d5c5b1" prot="public" virt="non-virtual"><scope>tblink_rpc::IParamValBool</scope><name>Str</name></member>
+      <member refid="classtblink__rpc_1_1IParamValBool_1a06d136efcc30732978929b6d32d973c5" prot="public" virt="virtual"><scope>tblink_rpc::IParamValBool</scope><name>val</name></member>
+      <member refid="classtblink__rpc_1_1IParamVal_1a4e4692922c2291ce5952d0800b5a9279a11b03ded6ea11943e22eab95744e3dc3" prot="public" virt="non-virtual"><scope>tblink_rpc::IParamValBool</scope><name>Vec</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

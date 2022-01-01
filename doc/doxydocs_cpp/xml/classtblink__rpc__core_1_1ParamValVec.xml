@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc__core_1_1ParamValVec" kind="class" language="C++" prot="public">
+    <compoundname>tblink_rpc_core::ParamValVec</compoundname>
+    <basecompoundref refid="classtblink__rpc__core_1_1ParamVal" prot="public" virt="non-virtual">tblink_rpc_core::ParamVal</basecompoundref>
+    <basecompoundref refid="classtblink__rpc__core_1_1IParamValVec" prot="public" virt="virtual">tblink_rpc_core::IParamValVec</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtblink__rpc__core_1_1ParamValVec_1a4db5d47f3192be0e87fd4c26363c25d5" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; ParamValUP &gt;</type>
+        <definition>std::vector&lt;ParamValUP&gt; tblink_rpc_core::ParamValVec::m_children</definition>
+        <argsstring></argsstring>
+        <name>m_children</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ParamValVec.h" line="44" column="12" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ParamValVec.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc__core_1_1ParamValVec_1a6f21d87d28295e73811772337cfede9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>tblink_rpc_core::ParamValVec::ParamValVec</definition>
+        <argsstring>()</argsstring>
+        <name>ParamValVec</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ParamValVec.h" line="21" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ParamValVec.cpp" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1ParamValVec_1adb2b1ff8404c6d00d7dad2ff8140ba44" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>tblink_rpc_core::ParamValVec::~ParamValVec</definition>
+        <argsstring>()</argsstring>
+        <name>~ParamValVec</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ParamValVec.h" line="23" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ParamValVec.cpp" bodystart="18" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1ParamValVec_1abbc8254138c7b92169fdec9455109cd2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>uint32_t</type>
+        <definition>virtual uint32_t tblink_rpc_core::ParamValVec::size</definition>
+        <argsstring>() override</argsstring>
+        <name>size</name>
+        <reimplements refid="classtblink__rpc__core_1_1IParamValVec_1a6b38dbb2656010191e0d4abedda5feb3">size</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ParamValVec.h" line="25" column="18" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ParamValVec.h" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1ParamValVec_1a804c18062859e655e47c59f3c26df6ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classtblink__rpc__core_1_1IParamVal" kindref="compound">IParamVal</ref> *</type>
+        <definition>virtual IParamVal* tblink_rpc_core::ParamValVec::at</definition>
+        <argsstring>(uint32_t idx) override</argsstring>
+        <name>at</name>
+        <reimplements refid="classtblink__rpc__core_1_1IParamValVec_1ad6b1f172403cb5f4172ac38927456441">at</reimplements>
+        <param>
+          <type>uint32_t</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ParamValVec.h" line="27" column="19" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ParamValVec.h" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1ParamValVec_1ab4473d66c3e66e435c417fde1f9721e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void tblink_rpc_core::ParamValVec::push_back</definition>
+        <argsstring>(IParamVal *v) override</argsstring>
+        <name>push_back</name>
+        <reimplements refid="classtblink__rpc__core_1_1IParamValVec_1abfb17949066becd636c40077c9ab3300">push_back</reimplements>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1IParamVal" kindref="compound">IParamVal</ref> *</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ParamValVec.h" line="29" column="14" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ParamValVec.cpp" bodystart="22" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1ParamValVec_1a843ac6548c0782096148682156da7e18" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classtblink__rpc__core_1_1IParamValVec" kindref="compound">IParamValVec</ref> *</type>
+        <definition>IParamValVec * tblink_rpc_core::ParamValVec::clone</definition>
+        <argsstring>() override</argsstring>
+        <name>clone</name>
+        <reimplements refid="classtblink__rpc__core_1_1IParamValVec_1abf58adfbcd4f65941ba88782c39e20af">clone</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ParamValVec.h" line="31" column="22" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ParamValVec.cpp" bodystart="26" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1ParamValVec_1a0e6100844056658b894565ed7d4b12ff" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::vector&lt; ParamValUP &gt; &amp;</type>
+        <definition>const std::vector&lt;ParamValUP&gt;&amp; tblink_rpc_core::ParamValVec::children</definition>
+        <argsstring>() const</argsstring>
+        <name>children</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ParamValVec.h" line="33" column="19" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ParamValVec.h" bodystart="33" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1ParamValVec_1a2ceb46f9a4658eaf80a9d0fca54b33f1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtblink__rpc__core_1_1ParamVal" kindref="compound">ParamVal</ref> *</type>
+        <definition>ParamVal* tblink_rpc_core::ParamValVec::children</definition>
+        <argsstring>(uint32_t idx) const</argsstring>
+        <name>children</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ParamValVec.h" line="37" column="10" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ParamValVec.h" bodystart="37" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classtblink__rpc__core_1_1ParamValVec_1a9bef69daa9c0dfb1ddbab4a800e68a30" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ParamValVecUP</type>
+        <definition>ParamValVecUP tblink_rpc_core::ParamValVec::mk</definition>
+        <argsstring>()</argsstring>
+        <name>mk</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ParamValVec.h" line="41" column="22" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ParamValVec.cpp" bodystart="37" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>tblink_rpc_core::ParamValVec</label>
+        <link refid="classtblink__rpc__core_1_1ParamValVec"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tblink_rpc_core::ParamVal</label>
+        <link refid="classtblink__rpc__core_1_1ParamVal"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>tblink_rpc_core::IParamValVec</label>
+        <link refid="classtblink__rpc__core_1_1IParamValVec"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tblink_rpc_core::IParamVal</label>
+        <link refid="classtblink__rpc__core_1_1IParamVal"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>tblink_rpc_core::ParamValVec</label>
+        <link refid="classtblink__rpc__core_1_1ParamValVec"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tblink_rpc_core::ParamVal</label>
+        <link refid="classtblink__rpc__core_1_1ParamVal"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>tblink_rpc_core::IParamValVec</label>
+        <link refid="classtblink__rpc__core_1_1IParamValVec"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tblink_rpc_core::IParamVal</label>
+        <link refid="classtblink__rpc__core_1_1IParamVal"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ParamValVec.h" line="19" column="63" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ParamValVec.h" bodystart="19" bodyend="46"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc__core_1_1ParamValVec_1a804c18062859e655e47c59f3c26df6ea" prot="public" virt="virtual"><scope>tblink_rpc_core::ParamValVec</scope><name>at</name></member>
+      <member refid="classtblink__rpc__core_1_1IParamValVec_1a193dae9d6466d26b602da7e4cab02bc8" prot="public" virt="non-virtual"><scope>tblink_rpc_core::ParamValVec</scope><name>atT</name></member>
+      <member refid="classtblink__rpc__core_1_1IParamVal_1a6f926fd823130cb12f55bdedb29fe7efa5dadd19c964ee44cf6a972b9d2bdac6c" prot="public" virt="non-virtual"><scope>tblink_rpc_core::ParamValVec</scope><name>Bool</name></member>
+      <member refid="classtblink__rpc__core_1_1ParamValVec_1a0e6100844056658b894565ed7d4b12ff" prot="public" virt="non-virtual"><scope>tblink_rpc_core::ParamValVec</scope><name>children</name></member>
+      <member refid="classtblink__rpc__core_1_1ParamValVec_1a2ceb46f9a4658eaf80a9d0fca54b33f1" prot="public" virt="non-virtual"><scope>tblink_rpc_core::ParamValVec</scope><name>children</name></member>
+      <member refid="classtblink__rpc__core_1_1ParamValVec_1a843ac6548c0782096148682156da7e18" prot="public" virt="virtual"><scope>tblink_rpc_core::ParamValVec</scope><name>clone</name></member>
+      <member refid="classtblink__rpc__core_1_1IParamVal_1a1cb182bc06b3d305d4832e354bdb4743" prot="public" virt="non-virtual"><scope>tblink_rpc_core::ParamValVec</scope><name>cloneT</name></member>
+      <member refid="classtblink__rpc__core_1_1IParamVal_1a6f926fd823130cb12f55bdedb29fe7efafe3b7c1015b8cfae47e3dfbd32f63d8f" prot="public" virt="non-virtual"><scope>tblink_rpc_core::ParamValVec</scope><name>Int</name></member>
+      <member refid="classtblink__rpc__core_1_1ParamValVec_1a4db5d47f3192be0e87fd4c26363c25d5" prot="private" virt="non-virtual"><scope>tblink_rpc_core::ParamValVec</scope><name>m_children</name></member>
+      <member refid="classtblink__rpc__core_1_1IParamVal_1a6f926fd823130cb12f55bdedb29fe7efaa6421d898f869cd37e12bd4999cfcc3a" prot="public" virt="non-virtual"><scope>tblink_rpc_core::ParamValVec</scope><name>Map</name></member>
+      <member refid="classtblink__rpc__core_1_1ParamValVec_1a9bef69daa9c0dfb1ddbab4a800e68a30" prot="public" virt="non-virtual"><scope>tblink_rpc_core::ParamValVec</scope><name>mk</name></member>
+      <member refid="classtblink__rpc__core_1_1ParamVal_1a10a482129fc2f0ba3eed096211ff78a8" prot="public" virt="non-virtual"><scope>tblink_rpc_core::ParamValVec</scope><name>ParamVal</name></member>
+      <member refid="classtblink__rpc__core_1_1ParamValVec_1a6f21d87d28295e73811772337cfede9b" prot="public" virt="non-virtual"><scope>tblink_rpc_core::ParamValVec</scope><name>ParamValVec</name></member>
+      <member refid="classtblink__rpc__core_1_1ParamValVec_1ab4473d66c3e66e435c417fde1f9721e7" prot="public" virt="virtual"><scope>tblink_rpc_core::ParamValVec</scope><name>push_back</name></member>
+      <member refid="classtblink__rpc__core_1_1ParamValVec_1abbc8254138c7b92169fdec9455109cd2" prot="public" virt="virtual"><scope>tblink_rpc_core::ParamValVec</scope><name>size</name></member>
+      <member refid="classtblink__rpc__core_1_1IParamVal_1a6f926fd823130cb12f55bdedb29fe7efa8a1faff5b76a32563673480d8c66fa2d" prot="public" virt="non-virtual"><scope>tblink_rpc_core::ParamValVec</scope><name>Str</name></member>
+      <member refid="classtblink__rpc__core_1_1ParamVal_1aeecd3454ed7276b6ba9a1ac96ee4c51a" prot="public" virt="virtual"><scope>tblink_rpc_core::ParamValVec</scope><name>type</name></member>
+      <member refid="classtblink__rpc__core_1_1IParamVal_1a6f926fd823130cb12f55bdedb29fe7ef" prot="public" virt="non-virtual"><scope>tblink_rpc_core::ParamValVec</scope><name>TypeE</name></member>
+      <member refid="classtblink__rpc__core_1_1IParamVal_1a6f926fd823130cb12f55bdedb29fe7efac3c01558c92ac468467e698f5a9712be" prot="public" virt="non-virtual"><scope>tblink_rpc_core::ParamValVec</scope><name>Vec</name></member>
+      <member refid="classtblink__rpc__core_1_1IParamVal_1a78bb1946222a371ade6a0cd9e9d04aab" prot="public" virt="virtual"><scope>tblink_rpc_core::ParamValVec</scope><name>~IParamVal</name></member>
+      <member refid="classtblink__rpc__core_1_1IParamValVec_1a0106dc75ec0b102abf502216f1d855bc" prot="public" virt="virtual"><scope>tblink_rpc_core::ParamValVec</scope><name>~IParamValVec</name></member>
+      <member refid="classtblink__rpc__core_1_1ParamVal_1a4ab478a0b4272dca91ab051b3070f3b7" prot="public" virt="virtual"><scope>tblink_rpc_core::ParamValVec</scope><name>~ParamVal</name></member>
+      <member refid="classtblink__rpc__core_1_1ParamValVec_1adb2b1ff8404c6d00d7dad2ff8140ba44" prot="public" virt="virtual"><scope>tblink_rpc_core::ParamValVec</scope><name>~ParamValVec</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

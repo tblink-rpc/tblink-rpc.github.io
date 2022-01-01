@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="Debug_8h" kind="file" language="C++">
+    <compoundname>Debug.h</compoundname>
+    <includedby refid="Debug_8cpp" local="yes">/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/Debug.cpp</includedby>
+    <includedby refid="EndpointBase_8cpp" local="yes">/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointBase.cpp</includedby>
+    <includedby refid="EndpointLoopback_8cpp" local="yes">/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointLoopback.cpp</includedby>
+    <includedby refid="EndpointMsgBase_8cpp" local="yes">/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp</includedby>
+    <includedby refid="InterfaceInstBase_8cpp" local="yes">/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceInstBase.cpp</includedby>
+    <includedby refid="InterfaceInstMsgTransport_8cpp" local="yes">/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceInstMsgTransport.cpp</includedby>
+    <includedby refid="JsonParamValFactory_8cpp" local="yes">/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/JsonParamValFactory.cpp</includedby>
+    <includedby refid="LaunchTypePythonLoopback_8cpp" local="yes">/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypePythonLoopback.cpp</includedby>
+    <includedby refid="TransportJsonSocket_8cpp" local="yes">/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportJsonSocket.cpp</includedby>
+    <innerclass refid="classtblink__rpc__core_1_1Debug" prot="public">tblink_rpc_core::Debug</innerclass>
+    <innernamespace refid="namespacetblink__rpc__core">tblink_rpc_core</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="Debug_8h_1a21a2fa6f9d403d950bf7b6836d7ce4a4" prot="public" static="no">
+        <name>DEBUG_FLUSH</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/Debug.h" line="10" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/Debug.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="Debug_8h_1a554b12a02b319fe4aadd33f0d51bf85a" prot="public" static="no">
+        <name>DEBUG_SCOPE</name>
+        <param><defname>scope</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/Debug.h" line="12" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/Debug.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="Debug_8h_1a6cc7c4f4023669a4f39a747fc4676e2e" prot="public" static="no">
+        <name>DEBUG_ENTER_BASE</name>
+        <param><defname>scope</defname></param>
+        <param><defname>fmt</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>fprintf(stdout, &quot;--&gt; &quot; #scope &quot;::&quot; fmt &quot;\n&quot;, ##__VA_ARGS__); fflush(stdout)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/Debug.h" line="14" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/Debug.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="Debug_8h_1a4276b71017f958f16fdbf84c772ce3c2" prot="public" static="no">
+        <name>DEBUG_LEAVE_BASE</name>
+        <param><defname>scope</defname></param>
+        <param><defname>fmt</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>fprintf(stdout, &quot;&lt;-- &quot; #scope &quot;::&quot; fmt &quot;\n&quot;, ##__VA_ARGS__); fflush(stdout)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/Debug.h" line="16" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/Debug.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="Debug_8h_1a51f0607124e8050b79b929761cf4ca8a" prot="public" static="no">
+        <name>DEBUG_BASE</name>
+        <param><defname>scope</defname></param>
+        <param><defname>fmt</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>fprintf(stdout, #scope &quot;: &quot; fmt &quot;\n&quot;, ##__VA_ARGS__); fflush(stdout)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/Debug.h" line="18" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/Debug.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Debug.h</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/>Created<sp/>on:<sp/>Oct<sp/>26,<sp/>2021</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>Author:<sp/>mballance</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEBUG_FLUSH</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEBUG_SCOPE(scope)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>DEBUG_FLUSH</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEBUG_ENTER_BASE(scope,<sp/>fmt,<sp/>...)<sp/>\</highlight></codeline>
+<codeline lineno="15"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>fprintf(stdout,<sp/>&quot;--&gt;<sp/>&quot;<sp/>#scope<sp/>&quot;::&quot;<sp/>fmt<sp/>&quot;\n&quot;,<sp/>##__VA_ARGS__);<sp/>fflush(stdout)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEBUG_LEAVE_BASE(scope,<sp/>fmt,<sp/>...)<sp/>\</highlight></codeline>
+<codeline lineno="17"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>fprintf(stdout,<sp/>&quot;&lt;--<sp/>&quot;<sp/>#scope<sp/>&quot;::&quot;<sp/>fmt<sp/>&quot;\n&quot;,<sp/>##__VA_ARGS__);<sp/>fflush(stdout)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEBUG_BASE(scope,<sp/>fmt,<sp/>...)<sp/>\</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>fprintf(stdout,<sp/>#scope<sp/>&quot;:<sp/>&quot;<sp/>fmt<sp/>&quot;\n&quot;,<sp/>##__VA_ARGS__);<sp/>fflush(stdout)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEBUG_ENTER_BASE(scope,<sp/>fmt,<sp/>...)<sp/>\</highlight></codeline>
+<codeline lineno="22"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>fprintf(stdout,<sp/>&quot;--&gt;<sp/>&quot;<sp/>#scope<sp/>&quot;::&quot;<sp/>fmt<sp/>&quot;\n&quot;,<sp/>##__VA_ARGS__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEBUG_LEAVE_BASE(scope,<sp/>fmt,<sp/>...)<sp/>\</highlight></codeline>
+<codeline lineno="24"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>fprintf(stdout,<sp/>&quot;&lt;--<sp/>&quot;<sp/>#scope<sp/>&quot;::&quot;<sp/>fmt<sp/>&quot;\n&quot;,<sp/>##__VA_ARGS__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEBUG_BASE(scope,<sp/>fmt,<sp/>...)<sp/>\</highlight></codeline>
+<codeline lineno="26"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>fprintf(stdout,<sp/>#scope<sp/>&quot;:<sp/>&quot;<sp/>fmt<sp/>&quot;\n&quot;,<sp/>##__VA_ARGS__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">tblink_rpc_core<sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="classtblink__rpc__core_1_1Debug" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classtblink__rpc__core_1_1Debug" kindref="compound">Debug</ref><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtblink__rpc__core_1_1Debug" kindref="compound">Debug</ref>();</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~<ref refid="classtblink__rpc__core_1_1Debug" kindref="compound">Debug</ref>();</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}<sp/></highlight><highlight class="comment">/*<sp/>namespace<sp/>tblink_rpc_core<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/Debug.h"/>
+  </compounddef>
+</doxygen>

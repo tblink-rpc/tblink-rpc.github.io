@@ -1,0 +1,260 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc__core_1_1IParamValFactory" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>tblink_rpc_core::IParamValFactory</compoundname>
+    <derivedcompoundref refid="classtblink__rpc__core_1_1IEndpoint" prot="public" virt="virtual">tblink_rpc_core::IEndpoint</derivedcompoundref>
+    <derivedcompoundref refid="classtblink__rpc__core_1_1IInterfaceInst" prot="public" virt="virtual">tblink_rpc_core::IInterfaceInst</derivedcompoundref>
+    <derivedcompoundref refid="classtblink__rpc__core_1_1ITransport" prot="public" virt="virtual">tblink_rpc_core::ITransport</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc__core_1_1IParamValFactory_1ad069ebe9d09dfee21677ff7242997612" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual tblink_rpc_core::IParamValFactory::~IParamValFactory</definition>
+        <argsstring>()</argsstring>
+        <name>~IParamValFactory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IParamValFactory.h" line="21" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IParamValFactory.h" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1IParamValFactory_1a0683cf467250954020102d0080b8ceea" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classtblink__rpc__core_1_1IParamValBool" kindref="compound">IParamValBool</ref> *</type>
+        <definition>virtual IParamValBool* tblink_rpc_core::IParamValFactory::mkValBool</definition>
+        <argsstring>(bool val)=0</argsstring>
+        <name>mkValBool</name>
+        <reimplementedby refid="classtblink__rpc__core_1_1EndpointMsgTransport_1a69b663d4fc7e70962d5ac863fcaba21a">mkValBool</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1TransportJsonSocket_1ae69400480504dd7b8ee5a058b2f58d7a">mkValBool</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1ae681cbeef7037ceda7db8b6ad8fc78e3">mkValBool</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1EndpointBase_1a5509d2c4c6fcbdfb2dec202f3013d090">mkValBool</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1InterfaceInstBase_1a711b96fc59f9ea3a9fbef0a991e75c42">mkValBool</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1EndpointMsgBase_1ad4abcac75c446362272609820100f951">mkValBool</reimplementedby>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IParamValFactory.h" line="23" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1IParamValFactory_1ac0f6311c69ccfcbb7bf1abf2bb9515cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classtblink__rpc__core_1_1IParamValInt" kindref="compound">IParamValInt</ref> *</type>
+        <definition>virtual IParamValInt* tblink_rpc_core::IParamValFactory::mkValIntU</definition>
+        <argsstring>(uint64_t val, int32_t width)=0</argsstring>
+        <name>mkValIntU</name>
+        <reimplementedby refid="classtblink__rpc__core_1_1EndpointMsgTransport_1a8d4217aa28d47bdac9a41d57ad9fd8dd">mkValIntU</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1TransportJsonSocket_1ab95b460581b7869d3f673741db74810c">mkValIntU</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1a303812a9f1e809fe480f81a0e8de33f2">mkValIntU</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1EndpointBase_1a4690f7d749dde72417af55605936e9d5">mkValIntU</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1InterfaceInstBase_1ae0b89b3d63c6badfa0c313986807d8db">mkValIntU</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1EndpointMsgBase_1a68e3dad1519e7ce5577b1af75989d42c">mkValIntU</reimplementedby>
+        <param>
+          <type>uint64_t</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>int32_t</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IParamValFactory.h" line="25" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1IParamValFactory_1acf3e541ca4c8320e406ab98641f5595f" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classtblink__rpc__core_1_1IParamValInt" kindref="compound">IParamValInt</ref> *</type>
+        <definition>virtual IParamValInt* tblink_rpc_core::IParamValFactory::mkValIntS</definition>
+        <argsstring>(int64_t val, int32_t width)=0</argsstring>
+        <name>mkValIntS</name>
+        <reimplementedby refid="classtblink__rpc__core_1_1EndpointMsgTransport_1a4fdbea6bf179e274bab96b2563f9c292">mkValIntS</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1TransportJsonSocket_1a891c70537ab046e70c5db621cf8d4189">mkValIntS</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1a3f46efbec71b100d266610ea0f72865c">mkValIntS</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1EndpointBase_1a67e7e0f725778797414a536621701e79">mkValIntS</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1InterfaceInstBase_1a43d19c32a2c6c956e82516a8e0ab356e">mkValIntS</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1EndpointMsgBase_1a4125301118fecebd83f37f60763b3868">mkValIntS</reimplementedby>
+        <param>
+          <type>int64_t</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>int32_t</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IParamValFactory.h" line="27" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1IParamValFactory_1aa8c68c3c556ce96af4c832a69cc8ed11" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classtblink__rpc__core_1_1IParamValMap" kindref="compound">IParamValMap</ref> *</type>
+        <definition>virtual IParamValMap* tblink_rpc_core::IParamValFactory::mkValMap</definition>
+        <argsstring>()=0</argsstring>
+        <name>mkValMap</name>
+        <reimplementedby refid="classtblink__rpc__core_1_1EndpointMsgTransport_1ab94f94d54fb2a5e0b71432bcd33304e0">mkValMap</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1TransportJsonSocket_1aacd4eb51a7321e255d36ad8060e84430">mkValMap</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1a215e88e18c92ac55b6aa5199f1d076bf">mkValMap</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1EndpointBase_1a304f411577df08042eb16e2106c08d8d">mkValMap</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1InterfaceInstBase_1a602ad375222cdf0865c1a5e2e3a24c8b">mkValMap</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1EndpointMsgBase_1a6f1833785c7a19594f3aaf220faa4434">mkValMap</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IParamValFactory.h" line="29" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1IParamValFactory_1a8238f9e60f26d03a5c35bb3d42564c58" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classtblink__rpc__core_1_1IParamValStr" kindref="compound">IParamValStr</ref> *</type>
+        <definition>virtual IParamValStr* tblink_rpc_core::IParamValFactory::mkValStr</definition>
+        <argsstring>(const std::string &amp;val)=0</argsstring>
+        <name>mkValStr</name>
+        <reimplementedby refid="classtblink__rpc__core_1_1EndpointMsgTransport_1a8488aff8e1b54b02a5142d74bc1bfe77">mkValStr</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1TransportJsonSocket_1ac09e3bdb9604760429b396783c5cfe7f">mkValStr</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1affa53b96ad477625982961755c0ab37a">mkValStr</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1EndpointBase_1ae1be8b5e674f1ea89948ace49af4e9ba">mkValStr</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1InterfaceInstBase_1a739444c39f2d78866281fe55e2dac354">mkValStr</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1EndpointMsgBase_1a38189594eda93ffc428282916cdf5e6f">mkValStr</reimplementedby>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IParamValFactory.h" line="31" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1IParamValFactory_1a60a72444c06e56a5967ac5a4e6ec6ed1" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classtblink__rpc__core_1_1IParamValVec" kindref="compound">IParamValVec</ref> *</type>
+        <definition>virtual IParamValVec* tblink_rpc_core::IParamValFactory::mkValVec</definition>
+        <argsstring>()=0</argsstring>
+        <name>mkValVec</name>
+        <reimplementedby refid="classtblink__rpc__core_1_1EndpointMsgTransport_1a11173bff86c1f38b0c61d71b7b637faa">mkValVec</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1TransportJsonSocket_1ad297933f5ceff7f2dac38a4a3972d8ed">mkValVec</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1a10eb285d286461fec58d3d0fa162d8b7">mkValVec</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1EndpointBase_1a361c213e1cb0ccc47a5239551189ad1b">mkValVec</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1InterfaceInstBase_1aa490e1b61adc3619f3dd9d12d06ce2e0">mkValVec</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1EndpointMsgBase_1a85d08894d6164fe927d0303de9602de6">mkValVec</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IParamValFactory.h" line="33" column="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>tblink_rpc_core::IEndpoint</label>
+        <link refid="classtblink__rpc__core_1_1IEndpoint"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>tblink_rpc_core::EndpointMsgTransport</label>
+        <link refid="classtblink__rpc__core_1_1EndpointMsgTransport"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>tblink_rpc_core::InterfaceInstMsgTransport</label>
+        <link refid="classtblink__rpc__core_1_1InterfaceInstMsgTransport"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>tblink_rpc_core::IInterfaceInst</label>
+        <link refid="classtblink__rpc__core_1_1IInterfaceInst"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>tblink_rpc_core::EndpointMsgBase</label>
+        <link refid="classtblink__rpc__core_1_1EndpointMsgBase"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>tblink_rpc_core::InterfaceInstLoopback</label>
+        <link refid="classtblink__rpc__core_1_1InterfaceInstLoopback"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>tblink_rpc_core::TransportJsonSocket</label>
+        <link refid="classtblink__rpc__core_1_1TransportJsonSocket"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>tblink_rpc_core::InterfaceInstBase</label>
+        <link refid="classtblink__rpc__core_1_1InterfaceInstBase"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>tblink_rpc_core::TransportMessageFifoThreadedEP</label>
+        <link refid="classtblink__rpc__core_1_1TransportMessageFifoThreadedEP"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>tblink_rpc_core::EndpointLoopback</label>
+        <link refid="classtblink__rpc__core_1_1EndpointLoopback"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>tblink_rpc_core::IParamValFactory</label>
+        <link refid="classtblink__rpc__core_1_1IParamValFactory"/>
+      </node>
+      <node id="11">
+        <label>tblink_rpc_core::ITransport</label>
+        <link refid="classtblink__rpc__core_1_1ITransport"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>tblink_rpc_core::TransportMessageFifoEP</label>
+        <link refid="classtblink__rpc__core_1_1TransportMessageFifoEP"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tblink_rpc_core::EndpointBase</label>
+        <link refid="classtblink__rpc__core_1_1EndpointBase"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IParamValFactory.h" line="18" column="23" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IParamValFactory.h" bodystart="18" bodyend="36"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc__core_1_1IParamValFactory_1a0683cf467250954020102d0080b8ceea" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::IParamValFactory</scope><name>mkValBool</name></member>
+      <member refid="classtblink__rpc__core_1_1IParamValFactory_1acf3e541ca4c8320e406ab98641f5595f" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::IParamValFactory</scope><name>mkValIntS</name></member>
+      <member refid="classtblink__rpc__core_1_1IParamValFactory_1ac0f6311c69ccfcbb7bf1abf2bb9515cf" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::IParamValFactory</scope><name>mkValIntU</name></member>
+      <member refid="classtblink__rpc__core_1_1IParamValFactory_1aa8c68c3c556ce96af4c832a69cc8ed11" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::IParamValFactory</scope><name>mkValMap</name></member>
+      <member refid="classtblink__rpc__core_1_1IParamValFactory_1a8238f9e60f26d03a5c35bb3d42564c58" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::IParamValFactory</scope><name>mkValStr</name></member>
+      <member refid="classtblink__rpc__core_1_1IParamValFactory_1a60a72444c06e56a5967ac5a4e6ec6ed1" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::IParamValFactory</scope><name>mkValVec</name></member>
+      <member refid="classtblink__rpc__core_1_1IParamValFactory_1ad069ebe9d09dfee21677ff7242997612" prot="public" virt="virtual"><scope>tblink_rpc_core::IParamValFactory</scope><name>~IParamValFactory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

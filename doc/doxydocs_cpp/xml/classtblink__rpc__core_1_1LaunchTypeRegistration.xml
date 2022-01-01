@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc__core_1_1LaunchTypeRegistration" kind="class" language="C++" prot="public">
+    <compoundname>tblink_rpc_core::LaunchTypeRegistration</compoundname>
+    <templateparamlist>
+      <param>
+        <type>class T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classtblink__rpc__core_1_1LaunchTypeRegistration_1ab6e81cb933be5390dad4e8800b984485" prot="private" static="yes" mutable="no">
+        <type>std::unique_ptr&lt; T &gt;</type>
+        <definition>std::unique_ptr&lt; T &gt; tblink_rpc_core::LaunchTypeRegistration&lt; T &gt;::m_launch_type</definition>
+        <argsstring></argsstring>
+        <name>m_launch_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeRegistration.h" line="23" column="23" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeRegistration.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc__core_1_1LaunchTypeRegistration_1af6c6180908f2c3bd73e71750b7e675b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>tblink_rpc_core::LaunchTypeRegistration&lt; T &gt;::LaunchTypeRegistration</definition>
+        <argsstring>()</argsstring>
+        <name>LaunchTypeRegistration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeRegistration.h" line="15" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeRegistration.h" bodystart="15" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeRegistration.h" line="13" column="41" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeRegistration.h" bodystart="13" bodyend="24"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc__core_1_1LaunchTypeRegistration_1af6c6180908f2c3bd73e71750b7e675b4" prot="public" virt="non-virtual"><scope>tblink_rpc_core::LaunchTypeRegistration</scope><name>LaunchTypeRegistration</name></member>
+      <member refid="classtblink__rpc__core_1_1LaunchTypeRegistration_1ab6e81cb933be5390dad4e8800b984485" prot="private" virt="non-virtual"><scope>tblink_rpc_core::LaunchTypeRegistration</scope><name>m_launch_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

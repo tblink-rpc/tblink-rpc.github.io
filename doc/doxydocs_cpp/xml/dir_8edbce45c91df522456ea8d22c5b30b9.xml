@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_8edbce45c91df522456ea8d22c5b30b9" kind="dir">
+    <compoundname>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc</compoundname>
+    <innerfile refid="IEndpoint_8h">IEndpoint.h</innerfile>
+    <innerfile refid="IEndpointEvent_8h">IEndpointEvent.h</innerfile>
+    <innerfile refid="IEndpointListener_8h">IEndpointListener.h</innerfile>
+    <innerfile refid="IEndpointLoopback_8h">IEndpointLoopback.h</innerfile>
+    <innerfile refid="IEndpointMsg_8h">IEndpointMsg.h</innerfile>
+    <innerfile refid="IEndpointServices_8h">IEndpointServices.h</innerfile>
+    <innerfile refid="IEndpointServicesFactory_8h">IEndpointServicesFactory.h</innerfile>
+    <innerfile refid="IInterfaceInst_8h">IInterfaceInst.h</innerfile>
+    <innerfile refid="IInterfaceType_8h">IInterfaceType.h</innerfile>
+    <innerfile refid="IInterfaceTypeBuilder_8h">IInterfaceTypeBuilder.h</innerfile>
+    <innerfile refid="ILaunchParams_8h">ILaunchParams.h</innerfile>
+    <innerfile refid="ILaunchType_8h">ILaunchType.h</innerfile>
+    <innerfile refid="IMethodType_8h">IMethodType.h</innerfile>
+    <innerfile refid="IMethodTypeBuilder_8h">IMethodTypeBuilder.h</innerfile>
+    <innerfile refid="IParamDecl_8h">IParamDecl.h</innerfile>
+    <innerfile refid="IParamVal_8h">IParamVal.h</innerfile>
+    <innerfile refid="IParamValBool_8h">IParamValBool.h</innerfile>
+    <innerfile refid="IParamValFactory_8h">IParamValFactory.h</innerfile>
+    <innerfile refid="IParamValInt_8h">IParamValInt.h</innerfile>
+    <innerfile refid="IParamValMap_8h">IParamValMap.h</innerfile>
+    <innerfile refid="IParamValStr_8h">IParamValStr.h</innerfile>
+    <innerfile refid="IParamValVec_8h">IParamValVec.h</innerfile>
+    <innerfile refid="ISymFinder_8h">ISymFinder.h</innerfile>
+    <innerfile refid="ITbLink_8h">ITbLink.h</innerfile>
+    <innerfile refid="ITransport_8h">ITransport.h</innerfile>
+    <innerfile refid="IType_8h">IType.h</innerfile>
+    <innerfile refid="ITypeFactory_8h">ITypeFactory.h</innerfile>
+    <innerfile refid="ITypeInt_8h">ITypeInt.h</innerfile>
+    <innerfile refid="ITypeMap_8h">ITypeMap.h</innerfile>
+    <innerfile refid="ITypeVec_8h">ITypeVec.h</innerfile>
+    <innerfile refid="loader_8h">loader.h</innerfile>
+    <innerfile refid="tblink__rpc_8h">tblink_rpc.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc_1_1IEndpointListener" kind="class" language="C++" prot="public">
+    <compoundname>tblink_rpc::IEndpointListener</compoundname>
+    <derivedcompoundref refid="classtblink__rpc_1_1SVEndpointSequencer" prot="public" virt="non-virtual">tblink_rpc::SVEndpointSequencer</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc_1_1IEndpointListener_1afc007aa8b5c7ae5389a299199c8cc05d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void tblink_rpc::IEndpointListener::event_f</definition>
+        <argsstring>(IEndpointEvent ev)</argsstring>
+        <name>event_f</name>
+        <reimplementedby refid="classtblink__rpc_1_1SVEndpointSequencer_1a169dac40ff4b38a83abb36f0c78d608c">event_f</reimplementedby>
+        <param>
+          <type><ref refid="classtblink__rpc_1_1IEndpointEvent" kindref="compound">IEndpointEvent</ref></type>
+          <declname>ev</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1204" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1204" bodyend="1207"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="classtblink__rpc_1_1IEndpointListener" kindref="compound">IEndpointListener</ref></para>
+<para>TODO: Add class documentation </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>tblink_rpc::IEndpointListener</label>
+        <link refid="classtblink__rpc_1_1IEndpointListener"/>
+      </node>
+      <node id="2">
+        <label>tblink_rpc::SVEndpointSequencer</label>
+        <link refid="classtblink__rpc_1_1SVEndpointSequencer"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1199" column="24" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1199" bodyend="1208"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc_1_1IEndpointListener_1afc007aa8b5c7ae5389a299199c8cc05d" prot="public" virt="virtual"><scope>tblink_rpc::IEndpointListener</scope><name>event_f</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

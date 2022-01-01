@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc__core_1_1EndpointEventBase" kind="class" language="C++" prot="public">
+    <compoundname>tblink_rpc_core::EndpointEventBase</compoundname>
+    <basecompoundref refid="classtblink__rpc__core_1_1IEndpointEvent" prot="public" virt="non-virtual">tblink_rpc_core::IEndpointEvent</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classtblink__rpc__core_1_1EndpointEventBase_1a7960a21ebdffd1ee03b88f4beb3de316" prot="protected" static="no" mutable="no">
+        <type>IEndpointEvent::kind_t</type>
+        <definition>IEndpointEvent::kind_t tblink_rpc_core::EndpointEventBase::m_kind</definition>
+        <argsstring></argsstring>
+        <name>m_kind</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointEventBase.h" line="22" column="23" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointEventBase.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointEventBase_1a4cc9ef5dc6121de5ab44e1bb429e22c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>tblink_rpc_core::EndpointEventBase::EndpointEventBase</definition>
+        <argsstring>(IEndpointEvent::kind_t kind)</argsstring>
+        <name>EndpointEventBase</name>
+        <param>
+          <type>IEndpointEvent::kind_t</type>
+          <declname>kind</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointEventBase.h" line="15" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointEventBase.cpp" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointEventBase_1acb7f27af5c9b20b0aa0b51f2c871b191" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>tblink_rpc_core::EndpointEventBase::~EndpointEventBase</definition>
+        <argsstring>()</argsstring>
+        <name>~EndpointEventBase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointEventBase.h" line="17" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointEventBase.cpp" bodystart="17" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointEventBase_1a2ea4db8f33d6ac790dc983839dcfc368" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>IEndpointEvent::kind_t</type>
+        <definition>virtual IEndpointEvent::kind_t tblink_rpc_core::EndpointEventBase::kind</definition>
+        <argsstring>() const</argsstring>
+        <name>kind</name>
+        <reimplements refid="classtblink__rpc__core_1_1IEndpointEvent_1a5b9e0fbd69b0a5c7ba3a34b5069623bc">kind</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointEventBase.h" line="19" column="32" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointEventBase.h" bodystart="19" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>tblink_rpc_core::EndpointEventBase</label>
+        <link refid="classtblink__rpc__core_1_1EndpointEventBase"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tblink_rpc_core::IEndpointEvent</label>
+        <link refid="classtblink__rpc__core_1_1IEndpointEvent"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>tblink_rpc_core::EndpointEventBase</label>
+        <link refid="classtblink__rpc__core_1_1EndpointEventBase"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tblink_rpc_core::IEndpointEvent</label>
+        <link refid="classtblink__rpc__core_1_1IEndpointEvent"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointEventBase.h" line="13" column="46" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointEventBase.h" bodystart="13" bodyend="23"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc__core_1_1EndpointEventBase_1a4cc9ef5dc6121de5ab44e1bb429e22c8" prot="public" virt="non-virtual"><scope>tblink_rpc_core::EndpointEventBase</scope><name>EndpointEventBase</name></member>
+      <member refid="classtblink__rpc__core_1_1IEndpointEvent_1ad2825952d6e562b86948224b88a14d43afe834f85d8ad584ae6fe013a9ea95929" prot="public" virt="non-virtual"><scope>tblink_rpc_core::EndpointEventBase</scope><name>InInvokeReqB</name></member>
+      <member refid="classtblink__rpc__core_1_1IEndpointEvent_1ad2825952d6e562b86948224b88a14d43af38a123462d40d301184a4d6ec002a69" prot="public" virt="non-virtual"><scope>tblink_rpc_core::EndpointEventBase</scope><name>InInvokeReqNB</name></member>
+      <member refid="classtblink__rpc__core_1_1IEndpointEvent_1ad2825952d6e562b86948224b88a14d43a8c82974f7a780d7f9c61313bb6ccc5aa" prot="public" virt="non-virtual"><scope>tblink_rpc_core::EndpointEventBase</scope><name>InInvokeRspB</name></member>
+      <member refid="classtblink__rpc__core_1_1IEndpointEvent_1ad2825952d6e562b86948224b88a14d43a1716ce521abb6d82d986007724c9ca39" prot="public" virt="non-virtual"><scope>tblink_rpc_core::EndpointEventBase</scope><name>InInvokeRspNB</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointEventBase_1a2ea4db8f33d6ac790dc983839dcfc368" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointEventBase</scope><name>kind</name></member>
+      <member refid="classtblink__rpc__core_1_1IEndpointEvent_1ad2825952d6e562b86948224b88a14d43" prot="public" virt="non-virtual"><scope>tblink_rpc_core::EndpointEventBase</scope><name>kind_t</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointEventBase_1a7960a21ebdffd1ee03b88f4beb3de316" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointEventBase</scope><name>m_kind</name></member>
+      <member refid="classtblink__rpc__core_1_1IEndpointEvent_1ad2825952d6e562b86948224b88a14d43a69d42d2482da13de5ffc7821038b32fa" prot="public" virt="non-virtual"><scope>tblink_rpc_core::EndpointEventBase</scope><name>OutInvokeReqB</name></member>
+      <member refid="classtblink__rpc__core_1_1IEndpointEvent_1ad2825952d6e562b86948224b88a14d43aa8cf12969b8c45457a47c2208ca10006" prot="public" virt="non-virtual"><scope>tblink_rpc_core::EndpointEventBase</scope><name>OutInvokeReqNB</name></member>
+      <member refid="classtblink__rpc__core_1_1IEndpointEvent_1ad2825952d6e562b86948224b88a14d43abab0fc7550b97abfa303794ab0f41570" prot="public" virt="non-virtual"><scope>tblink_rpc_core::EndpointEventBase</scope><name>OutInvokeRspB</name></member>
+      <member refid="classtblink__rpc__core_1_1IEndpointEvent_1ad2825952d6e562b86948224b88a14d43aa0633beaef43e3988fce973981b5a4fd" prot="public" virt="non-virtual"><scope>tblink_rpc_core::EndpointEventBase</scope><name>OutInvokeRspNB</name></member>
+      <member refid="classtblink__rpc__core_1_1IEndpointEvent_1ad2825952d6e562b86948224b88a14d43ac776cfcec389bdedc743ab60fdfb75a6" prot="public" virt="non-virtual"><scope>tblink_rpc_core::EndpointEventBase</scope><name>Terminate</name></member>
+      <member refid="classtblink__rpc__core_1_1IEndpointEvent_1ad2825952d6e562b86948224b88a14d43a15f5c01174b000f810afcdd875f85032" prot="public" virt="non-virtual"><scope>tblink_rpc_core::EndpointEventBase</scope><name>Unknown</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointEventBase_1acb7f27af5c9b20b0aa0b51f2c871b191" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointEventBase</scope><name>~EndpointEventBase</name></member>
+      <member refid="classtblink__rpc__core_1_1IEndpointEvent_1a23d43c31c6b4693cf5cdf33f942c10b8" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointEventBase</scope><name>~IEndpointEvent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

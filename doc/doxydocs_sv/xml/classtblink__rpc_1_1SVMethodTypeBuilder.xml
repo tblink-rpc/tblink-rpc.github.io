@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc_1_1SVMethodTypeBuilder" kind="class" language="C++" prot="public">
+    <compoundname>tblink_rpc::SVMethodTypeBuilder</compoundname>
+    <basecompoundref refid="classtblink__rpc_1_1IMethodTypeBuilder" prot="public" virt="non-virtual">tblink_rpc::IMethodTypeBuilder</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classtblink__rpc_1_1SVMethodTypeBuilder_1a693c2995d6e1f6e684d45ffb50d9b1de" prot="public" static="no" mutable="no">
+        <type><ref refid="classtblink__rpc_1_1SVMethodType" kindref="compound">SVMethodType</ref></type>
+        <definition>SVMethodType tblink_rpc::SVMethodTypeBuilder::method_t</definition>
+        <argsstring></argsstring>
+        <name>method_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="4708" column="13" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="4708" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc_1_1SVMethodTypeBuilder_1adf5df4febfd8b17b032e1ea5f90e676f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>tblink_rpc::SVMethodTypeBuilder::new</definition>
+        <argsstring>(string name, longint id, IType rtype, bit is_export, bit is_blocking)</argsstring>
+        <name>new</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>longint</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="classtblink__rpc_1_1IType" kindref="compound">IType</ref></type>
+          <declname>rtype</declname>
+        </param>
+        <param>
+          <type>bit</type>
+          <declname>is_export</declname>
+        </param>
+        <param>
+          <type>bit</type>
+          <declname>is_blocking</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="4711" column="2" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="4711" bodyend="4718"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1SVMethodTypeBuilder_1a3c97429b2b9deff4cf9450b275a4e864" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void tblink_rpc::SVMethodTypeBuilder::add_param</definition>
+        <argsstring>(string name, IType ptype)</argsstring>
+        <name>add_param</name>
+        <reimplements refid="classtblink__rpc_1_1IMethodTypeBuilder_1af5bae599087002582a38b6fe45e5a782">add_param</reimplements>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classtblink__rpc_1_1IType" kindref="compound">IType</ref></type>
+          <declname>ptype</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="4720" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="4720" bodyend="4724"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="classtblink__rpc_1_1SVMethodTypeBuilder" kindref="compound">SVMethodTypeBuilder</ref></para>
+<para>TODO: Add class documentation </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>tblink_rpc::IMethodTypeBuilder</label>
+        <link refid="classtblink__rpc_1_1IMethodTypeBuilder"/>
+      </node>
+      <node id="1">
+        <label>tblink_rpc::SVMethodTypeBuilder</label>
+        <link refid="classtblink__rpc_1_1SVMethodTypeBuilder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>tblink_rpc::IMethodTypeBuilder</label>
+        <link refid="classtblink__rpc_1_1IMethodTypeBuilder"/>
+      </node>
+      <node id="4">
+        <label>tblink_rpc::IMethodType</label>
+        <link refid="classtblink__rpc_1_1IMethodType"/>
+      </node>
+      <node id="3">
+        <label>tblink_rpc::SVMethodType</label>
+        <link refid="classtblink__rpc_1_1SVMethodType"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>m_param_types</edgelabel>
+          <edgelabel>m_rtype</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>tblink_rpc::SVMethodTypeBuilder</label>
+        <link refid="classtblink__rpc_1_1SVMethodTypeBuilder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>method_t</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>tblink_rpc::IType</label>
+        <link refid="classtblink__rpc_1_1IType"/>
+      </node>
+    </collaborationgraph>
+    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="4705" column="52" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="4705" bodyend="4725"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc_1_1SVMethodTypeBuilder_1a3c97429b2b9deff4cf9450b275a4e864" prot="public" virt="virtual"><scope>tblink_rpc::SVMethodTypeBuilder</scope><name>add_param</name></member>
+      <member refid="classtblink__rpc_1_1SVMethodTypeBuilder_1a693c2995d6e1f6e684d45ffb50d9b1de" prot="public" virt="non-virtual"><scope>tblink_rpc::SVMethodTypeBuilder</scope><name>method_t</name></member>
+      <member refid="classtblink__rpc_1_1SVMethodTypeBuilder_1adf5df4febfd8b17b032e1ea5f90e676f" prot="public" virt="non-virtual"><scope>tblink_rpc::SVMethodTypeBuilder</scope><name>new</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

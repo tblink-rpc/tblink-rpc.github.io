@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc_1_1DpiInterfaceImpl" kind="class" language="C++" prot="public">
+    <compoundname>tblink_rpc::DpiInterfaceImpl</compoundname>
+    <basecompoundref refid="classtblink__rpc_1_1IInterfaceImpl" prot="public" virt="non-virtual">tblink_rpc::IInterfaceImpl</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classtblink__rpc_1_1DpiInterfaceImpl_1ae60b8d3ef30b470487a48e5650107df2" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string tblink_rpc::DpiInterfaceImpl::m_inst_path</definition>
+        <argsstring></argsstring>
+        <name>m_inst_path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3192" column="7" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3192" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiInterfaceImpl_1a4360597dac35b5148a87e0fa7f11ea88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>tblink_rpc::DpiInterfaceImpl::new</definition>
+        <argsstring>(string inst_path)</argsstring>
+        <name>new</name>
+        <param>
+          <type>string</type>
+          <declname>inst_path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3195" column="2" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3195" bodyend="3197"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiInterfaceImpl_1aa8c5dae89bf1ebc93bddb37c4bc9955d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classtblink__rpc_1_1IParamVal" kindref="compound">IParamVal</ref></type>
+        <definition>virtual IParamVal tblink_rpc::DpiInterfaceImpl::invoke_nb</definition>
+        <argsstring>(input IInterfaceInst ifinst, input IMethodType method, input IParamValVec params)</argsstring>
+        <name>invoke_nb</name>
+        <reimplements refid="classtblink__rpc_1_1IInterfaceImpl_1afe026479015b350fe5bde6ac16c19244">invoke_nb</reimplements>
+        <param>
+          <type>input <ref refid="classtblink__rpc_1_1IInterfaceInst" kindref="compound">IInterfaceInst</ref></type>
+          <declname>ifinst</declname>
+        </param>
+        <param>
+          <type>input <ref refid="classtblink__rpc_1_1IMethodType" kindref="compound">IMethodType</ref></type>
+          <declname>method</declname>
+        </param>
+        <param>
+          <type>input <ref refid="classtblink__rpc_1_1IParamValVec" kindref="compound">IParamValVec</ref></type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3200" column="20" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3200" bodyend="3237"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiInterfaceImpl_1a5f8e1f63451b5b75c300c70369d65fa1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>task</type>
+        <definition>virtual task tblink_rpc::DpiInterfaceImpl::invoke_b</definition>
+        <argsstring>(output IParamVal retval, input IInterfaceInst ifinst, input IMethodType method, IParamValVec params)</argsstring>
+        <name>invoke_b</name>
+        <reimplements refid="classtblink__rpc_1_1IInterfaceImpl_1a0d01513d8d12dba4db89845983e62a4e">invoke_b</reimplements>
+        <param>
+          <type>output <ref refid="classtblink__rpc_1_1IParamVal" kindref="compound">IParamVal</ref></type>
+          <declname>retval</declname>
+        </param>
+        <param>
+          <type>input <ref refid="classtblink__rpc_1_1IInterfaceInst" kindref="compound">IInterfaceInst</ref></type>
+          <declname>ifinst</declname>
+        </param>
+        <param>
+          <type>input <ref refid="classtblink__rpc_1_1IMethodType" kindref="compound">IMethodType</ref></type>
+          <declname>method</declname>
+        </param>
+        <param>
+          <type><ref refid="classtblink__rpc_1_1IParamValVec" kindref="compound">IParamValVec</ref></type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3240" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3240" bodyend="3273"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="classtblink__rpc_1_1DpiInterfaceImpl" kindref="compound">DpiInterfaceImpl</ref></para>
+<para>This interface-implementation proxy deals with environments that don&apos;t have support for virtual interfaces. Instead, invocations are routed back through DPI.</para>
+<para>Note: This is only supported with a DPI endpoint </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>tblink_rpc::IInterfaceImpl</label>
+        <link refid="classtblink__rpc_1_1IInterfaceImpl"/>
+      </node>
+      <node id="1">
+        <label>tblink_rpc::DpiInterfaceImpl</label>
+        <link refid="classtblink__rpc_1_1DpiInterfaceImpl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>tblink_rpc::IInterfaceImpl</label>
+        <link refid="classtblink__rpc_1_1IInterfaceImpl"/>
+      </node>
+      <node id="1">
+        <label>tblink_rpc::DpiInterfaceImpl</label>
+        <link refid="classtblink__rpc_1_1DpiInterfaceImpl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3189" column="45" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3189" bodyend="3274"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc_1_1IInterfaceImpl_1ac620f3a6be7c94c8e335b31f01c1730c" prot="public" virt="virtual"><scope>tblink_rpc::DpiInterfaceImpl</scope><name>init</name></member>
+      <member refid="classtblink__rpc_1_1DpiInterfaceImpl_1a5f8e1f63451b5b75c300c70369d65fa1" prot="public" virt="virtual"><scope>tblink_rpc::DpiInterfaceImpl</scope><name>invoke_b</name></member>
+      <member refid="classtblink__rpc_1_1DpiInterfaceImpl_1aa8c5dae89bf1ebc93bddb37c4bc9955d" prot="public" virt="virtual"><scope>tblink_rpc::DpiInterfaceImpl</scope><name>invoke_nb</name></member>
+      <member refid="classtblink__rpc_1_1DpiInterfaceImpl_1ae60b8d3ef30b470487a48e5650107df2" prot="public" virt="non-virtual"><scope>tblink_rpc::DpiInterfaceImpl</scope><name>m_inst_path</name></member>
+      <member refid="classtblink__rpc_1_1DpiInterfaceImpl_1a4360597dac35b5148a87e0fa7f11ea88" prot="public" virt="non-virtual"><scope>tblink_rpc::DpiInterfaceImpl</scope><name>new</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

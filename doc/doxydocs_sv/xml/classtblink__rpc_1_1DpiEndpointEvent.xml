@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc_1_1DpiEndpointEvent" kind="class" language="C++" prot="public">
+    <compoundname>tblink_rpc::DpiEndpointEvent</compoundname>
+    <basecompoundref refid="classtblink__rpc_1_1IEndpointEvent" prot="public" virt="non-virtual">tblink_rpc::IEndpointEvent</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classtblink__rpc_1_1DpiEndpointEvent_1a5af7607b2508b4b158ea78e6da9768f3" prot="public" static="no" mutable="no">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::DpiEndpointEvent::m_hndl</definition>
+        <argsstring></argsstring>
+        <name>m_hndl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3728" column="8" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3728" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiEndpointEvent_1af474ebbebfa67e7035c091209a69f92b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>tblink_rpc::DpiEndpointEvent::new</definition>
+        <argsstring>(chandle hndl)</argsstring>
+        <name>new</name>
+        <param>
+          <type>chandle</type>
+          <declname>hndl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3731" column="2" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3731" bodyend="3733"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiEndpointEvent_1aeadc32f056a9c74ae0f924b6b90ea8fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>kind_t</type>
+        <definition>virtual kind_t tblink_rpc::DpiEndpointEvent::kind</definition>
+        <argsstring>()</argsstring>
+        <name>kind</name>
+        <reimplements refid="classtblink__rpc_1_1IEndpointEvent_1af30ddad9890c82371624400f57761cd1">kind</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3736" column="17" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3736" bodyend="3738"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="classtblink__rpc_1_1DpiEndpointEvent" kindref="compound">DpiEndpointEvent</ref></para>
+<para>TODO: Add class documentation </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>tblink_rpc::DpiEndpointEvent</label>
+        <link refid="classtblink__rpc_1_1DpiEndpointEvent"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tblink_rpc::IEndpointEvent</label>
+        <link refid="classtblink__rpc_1_1IEndpointEvent"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>tblink_rpc::DpiEndpointEvent</label>
+        <link refid="classtblink__rpc_1_1DpiEndpointEvent"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tblink_rpc::IEndpointEvent</label>
+        <link refid="classtblink__rpc_1_1IEndpointEvent"/>
+      </node>
+    </collaborationgraph>
+    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="3725" column="45" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="3725" bodyend="3739"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc_1_1DpiEndpointEvent_1aeadc32f056a9c74ae0f924b6b90ea8fb" prot="public" virt="virtual"><scope>tblink_rpc::DpiEndpointEvent</scope><name>kind</name></member>
+      <member refid="classtblink__rpc_1_1IEndpointEvent_1a328eb59ee9b4801d5d14583b1f9f0fdf" prot="public" virt="non-virtual"><scope>tblink_rpc::DpiEndpointEvent</scope><name>kind_t</name></member>
+      <member refid="classtblink__rpc_1_1DpiEndpointEvent_1a5af7607b2508b4b158ea78e6da9768f3" prot="public" virt="non-virtual"><scope>tblink_rpc::DpiEndpointEvent</scope><name>m_hndl</name></member>
+      <member refid="classtblink__rpc_1_1DpiEndpointEvent_1af474ebbebfa67e7035c091209a69f92b" prot="public" virt="non-virtual"><scope>tblink_rpc::DpiEndpointEvent</scope><name>new</name></member>
+      <member refid="classtblink__rpc_1_1IEndpointEvent_1a328eb59ee9b4801d5d14583b1f9f0fdfae986b457a1287f879f0ba67ba99ac201" prot="public" virt="non-virtual"><scope>tblink_rpc::DpiEndpointEvent</scope><name>Unknown</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc_1_1DpiMethodType" kind="class" language="C++" prot="public">
+    <compoundname>tblink_rpc::DpiMethodType</compoundname>
+    <basecompoundref refid="classtblink__rpc_1_1IMethodType" prot="public" virt="non-virtual">tblink_rpc::IMethodType</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classtblink__rpc_1_1DpiMethodType_1a4638b7a6fbf6dfc721a320cba3029a6b" prot="public" static="no" mutable="no">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::DpiMethodType::m_hndl</definition>
+        <argsstring></argsstring>
+        <name>m_hndl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2738" column="8" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2738" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiMethodType_1a00603dc89ea25c9ba3aba6b235477899" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>tblink_rpc::DpiMethodType::new</definition>
+        <argsstring>(chandle hndl)</argsstring>
+        <name>new</name>
+        <param>
+          <type>chandle</type>
+          <declname>hndl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2741" column="2" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2741" bodyend="2743"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiMethodType_1a95cbb91ed959125b2f04a9f29f7fc639" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>string</type>
+        <definition>virtual string tblink_rpc::DpiMethodType::name</definition>
+        <argsstring>()</argsstring>
+        <name>name</name>
+        <reimplements refid="classtblink__rpc_1_1IMethodType_1a55078db621d061e2e2ff22ccb82ae1c5">name</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2745" column="17" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2745" bodyend="2747"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiMethodType_1a848e2e2ee676f4c21736f66e27ff1b2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>longint</type>
+        <definition>virtual longint tblink_rpc::DpiMethodType::id</definition>
+        <argsstring>()</argsstring>
+        <name>id</name>
+        <reimplements refid="classtblink__rpc_1_1IMethodType_1afc720de620a1a8b37f2c385fff8591c6">id</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2749" column="18" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2749" bodyend="2751"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiMethodType_1aa414413480debfa8f52cba01749b9d96" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bit</type>
+        <definition>virtual bit tblink_rpc::DpiMethodType::is_export</definition>
+        <argsstring>()</argsstring>
+        <name>is_export</name>
+        <reimplements refid="classtblink__rpc_1_1IMethodType_1a2872c0a2317e10720172f81bec79107b">is_export</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2753" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2753" bodyend="2755"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiMethodType_1a5c4bf26c7d758f241d5b6b90abea1df9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bit</type>
+        <definition>virtual bit tblink_rpc::DpiMethodType::is_blocking</definition>
+        <argsstring>()</argsstring>
+        <name>is_blocking</name>
+        <reimplements refid="classtblink__rpc_1_1IMethodType_1abeced832b243376aea372e954a7f8733">is_blocking</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2757" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2757" bodyend="2759"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="classtblink__rpc_1_1DpiMethodType" kindref="compound">DpiMethodType</ref></para>
+<para>TODO: Add class documentation </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>tblink_rpc::IMethodType</label>
+        <link refid="classtblink__rpc_1_1IMethodType"/>
+      </node>
+      <node id="1">
+        <label>tblink_rpc::DpiMethodType</label>
+        <link refid="classtblink__rpc_1_1DpiMethodType"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>tblink_rpc::IMethodType</label>
+        <link refid="classtblink__rpc_1_1IMethodType"/>
+      </node>
+      <node id="1">
+        <label>tblink_rpc::DpiMethodType</label>
+        <link refid="classtblink__rpc_1_1DpiMethodType"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2735" column="39" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2735" bodyend="2760"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc_1_1DpiMethodType_1a848e2e2ee676f4c21736f66e27ff1b2c" prot="public" virt="virtual"><scope>tblink_rpc::DpiMethodType</scope><name>id</name></member>
+      <member refid="classtblink__rpc_1_1DpiMethodType_1a5c4bf26c7d758f241d5b6b90abea1df9" prot="public" virt="virtual"><scope>tblink_rpc::DpiMethodType</scope><name>is_blocking</name></member>
+      <member refid="classtblink__rpc_1_1DpiMethodType_1aa414413480debfa8f52cba01749b9d96" prot="public" virt="virtual"><scope>tblink_rpc::DpiMethodType</scope><name>is_export</name></member>
+      <member refid="classtblink__rpc_1_1DpiMethodType_1a4638b7a6fbf6dfc721a320cba3029a6b" prot="public" virt="non-virtual"><scope>tblink_rpc::DpiMethodType</scope><name>m_hndl</name></member>
+      <member refid="classtblink__rpc_1_1DpiMethodType_1a95cbb91ed959125b2f04a9f29f7fc639" prot="public" virt="virtual"><scope>tblink_rpc::DpiMethodType</scope><name>name</name></member>
+      <member refid="classtblink__rpc_1_1DpiMethodType_1a00603dc89ea25c9ba3aba6b235477899" prot="public" virt="non-virtual"><scope>tblink_rpc::DpiMethodType</scope><name>new</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

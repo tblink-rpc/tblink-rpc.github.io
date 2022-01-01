@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc__core_1_1IEndpointMsg" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>tblink_rpc_core::IEndpointMsg</compoundname>
+    <derivedcompoundref refid="classtblink__rpc__core_1_1EndpointMsgBase" prot="public" virt="virtual">tblink_rpc_core::EndpointMsgBase</derivedcompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classtblink__rpc__core_1_1IEndpointMsg_1acefea61a2315cc5a7d378d31f5e8ab79" prot="public" static="no">
+        <type>std::function&lt; void(intptr_t, <ref refid="classtblink__rpc__core_1_1IParamValMap" kindref="compound">IParamValMap</ref> *, <ref refid="classtblink__rpc__core_1_1IParamValMap" kindref="compound">IParamValMap</ref> *)&gt;</type>
+        <definition>using tblink_rpc_core::IEndpointMsg::response_f =  std::function&lt;void (intptr_t, IParamValMap *, IParamValMap *)&gt;</definition>
+        <argsstring></argsstring>
+        <name>response_f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IEndpointMsg.h" line="18" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IEndpointMsg.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc__core_1_1IEndpointMsg_1a6b58b4b3b623c15fa3bcd8df86e14acc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual tblink_rpc_core::IEndpointMsg::~IEndpointMsg</definition>
+        <argsstring>()</argsstring>
+        <name>~IEndpointMsg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IEndpointMsg.h" line="20" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IEndpointMsg.h" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1IEndpointMsg_1a39bf339c1fe6ec39c203f30784617c33" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>intptr_t</type>
+        <definition>virtual intptr_t tblink_rpc_core::IEndpointMsg::send_req</definition>
+        <argsstring>(const std::string &amp;method, IParamValMap *params)=0</argsstring>
+        <name>send_req</name>
+        <reimplementedby refid="classtblink__rpc__core_1_1EndpointMsgBase_1ae31c8938bc4855c4899dfa3e62101f4c">send_req</reimplementedby>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>method</declname>
+        </param>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1IParamValMap" kindref="compound">IParamValMap</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IEndpointMsg.h" line="22" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1IEndpointMsg_1a7c414490fab6528f2435df7ffa169cfd" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>intptr_t</type>
+        <definition>virtual intptr_t tblink_rpc_core::IEndpointMsg::send_req</definition>
+        <argsstring>(const std::string &amp;method, IParamValMap *params, const response_f &amp;rsp_f)=0</argsstring>
+        <name>send_req</name>
+        <reimplementedby refid="classtblink__rpc__core_1_1EndpointMsgBase_1ac4dae09016cc3e4d5dfdb83c81d56393">send_req</reimplementedby>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>method</declname>
+        </param>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1IParamValMap" kindref="compound">IParamValMap</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>const response_f &amp;</type>
+          <declname>rsp_f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IEndpointMsg.h" line="26" column="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>tblink_rpc_core::EndpointMsgTransport</label>
+        <link refid="classtblink__rpc__core_1_1EndpointMsgTransport"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>tblink_rpc_core::IEndpointMsg</label>
+        <link refid="classtblink__rpc__core_1_1IEndpointMsg"/>
+      </node>
+      <node id="2">
+        <label>tblink_rpc_core::EndpointMsgBase</label>
+        <link refid="classtblink__rpc__core_1_1EndpointMsgBase"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tblink_rpc_core::EndpointLoopback</label>
+        <link refid="classtblink__rpc__core_1_1EndpointLoopback"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IEndpointMsg.h" line="16" column="19" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IEndpointMsg.h" bodystart="16" bodyend="31"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc__core_1_1IEndpointMsg_1acefea61a2315cc5a7d378d31f5e8ab79" prot="public" virt="non-virtual"><scope>tblink_rpc_core::IEndpointMsg</scope><name>response_f</name></member>
+      <member refid="classtblink__rpc__core_1_1IEndpointMsg_1a39bf339c1fe6ec39c203f30784617c33" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::IEndpointMsg</scope><name>send_req</name></member>
+      <member refid="classtblink__rpc__core_1_1IEndpointMsg_1a7c414490fab6528f2435df7ffa169cfd" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::IEndpointMsg</scope><name>send_req</name></member>
+      <member refid="classtblink__rpc__core_1_1IEndpointMsg_1a6b58b4b3b623c15fa3bcd8df86e14acc" prot="public" virt="virtual"><scope>tblink_rpc_core::IEndpointMsg</scope><name>~IEndpointMsg</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

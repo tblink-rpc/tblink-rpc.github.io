@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc_1_1IInterfaceTypeBuilder" kind="class" language="C++" prot="public">
+    <compoundname>tblink_rpc::IInterfaceTypeBuilder</compoundname>
+    <derivedcompoundref refid="classtblink__rpc_1_1DpiInterfaceTypeBuilder" prot="public" virt="non-virtual">tblink_rpc::DpiInterfaceTypeBuilder</derivedcompoundref>
+    <derivedcompoundref refid="classtblink__rpc_1_1SVInterfaceTypeBuilder" prot="public" virt="non-virtual">tblink_rpc::SVInterfaceTypeBuilder</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc_1_1IInterfaceTypeBuilder_1a1fe582977f6bf46b358331e5ed0229be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classtblink__rpc_1_1IMethodTypeBuilder" kindref="compound">IMethodTypeBuilder</ref></type>
+        <definition>virtual IMethodTypeBuilder tblink_rpc::IInterfaceTypeBuilder::newMethodTypeBuilder</definition>
+        <argsstring>(string name, longint id, IType rtype, int unsigned is_export, int unsigned is_blocking)</argsstring>
+        <name>newMethodTypeBuilder</name>
+        <reimplementedby refid="classtblink__rpc_1_1DpiInterfaceTypeBuilder_1aab9a24d0a4488dfb1f8b8609fcb1ecba">newMethodTypeBuilder</reimplementedby>
+        <reimplementedby refid="classtblink__rpc_1_1SVInterfaceTypeBuilder_1ad8384d56154e7ee319adbc3c179af4c8">newMethodTypeBuilder</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>longint</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="classtblink__rpc_1_1IType" kindref="compound">IType</ref></type>
+          <declname>rtype</declname>
+        </param>
+        <param>
+          <type>int unsigned</type>
+          <declname>is_export</declname>
+        </param>
+        <param>
+          <type>int unsigned</type>
+          <declname>is_blocking</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="696" column="29" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="696" bodyend="703"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1IInterfaceTypeBuilder_1a214c8e571627ee14b8b95573058c25eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classtblink__rpc_1_1IMethodType" kindref="compound">IMethodType</ref></type>
+        <definition>virtual IMethodType tblink_rpc::IInterfaceTypeBuilder::add_method</definition>
+        <argsstring>(IMethodTypeBuilder mtb)</argsstring>
+        <name>add_method</name>
+        <reimplementedby refid="classtblink__rpc_1_1DpiInterfaceTypeBuilder_1a6d7feb0447ae48919bcaf595d64b7c0c">add_method</reimplementedby>
+        <reimplementedby refid="classtblink__rpc_1_1SVInterfaceTypeBuilder_1a366981b0731b20c007df217a8c939066">add_method</reimplementedby>
+        <param>
+          <type><ref refid="classtblink__rpc_1_1IMethodTypeBuilder" kindref="compound">IMethodTypeBuilder</ref></type>
+          <declname>mtb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="705" column="22" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="705" bodyend="708"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1IInterfaceTypeBuilder_1aea0a683e7134323aabce2a6cc46b1e62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classtblink__rpc_1_1IType" kindref="compound">IType</ref></type>
+        <definition>virtual IType tblink_rpc::IInterfaceTypeBuilder::mkTypeBool</definition>
+        <argsstring>()</argsstring>
+        <name>mkTypeBool</name>
+        <reimplementedby refid="classtblink__rpc_1_1DpiInterfaceTypeBuilder_1aabf3645d10a9a6fd0586189a0aa48df6">mkTypeBool</reimplementedby>
+        <reimplementedby refid="classtblink__rpc_1_1SVInterfaceTypeBuilder_1aadf4b4eda1f7d6a276a52fffff32f57f">mkTypeBool</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="710" column="16" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="710" bodyend="712"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1IInterfaceTypeBuilder_1ad4d190c7511768f7b9504b0f723e16e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classtblink__rpc_1_1ITypeInt" kindref="compound">ITypeInt</ref></type>
+        <definition>virtual ITypeInt tblink_rpc::IInterfaceTypeBuilder::mkTypeInt</definition>
+        <argsstring>(int unsigned is_signed, int width)</argsstring>
+        <name>mkTypeInt</name>
+        <reimplementedby refid="classtblink__rpc_1_1DpiInterfaceTypeBuilder_1abce80c52c30af7097cab2bb88d5fb505">mkTypeInt</reimplementedby>
+        <reimplementedby refid="classtblink__rpc_1_1SVInterfaceTypeBuilder_1af0690912cefa759d731bbc94106f9620">mkTypeInt</reimplementedby>
+        <param>
+          <type>int unsigned</type>
+          <declname>is_signed</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="714" column="19" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="714" bodyend="718"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1IInterfaceTypeBuilder_1a9933f3710d157083d38b9f9f6c80a11d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classtblink__rpc_1_1ITypeMap" kindref="compound">ITypeMap</ref></type>
+        <definition>virtual ITypeMap tblink_rpc::IInterfaceTypeBuilder::mkTypeMap</definition>
+        <argsstring>(IType key_t, IType elem_t)</argsstring>
+        <name>mkTypeMap</name>
+        <reimplementedby refid="classtblink__rpc_1_1DpiInterfaceTypeBuilder_1a1df8e4bf8306125557d2cb626e9dd87a">mkTypeMap</reimplementedby>
+        <reimplementedby refid="classtblink__rpc_1_1SVInterfaceTypeBuilder_1aa9202a2e111f1eda6c3818f0d24982e6">mkTypeMap</reimplementedby>
+        <param>
+          <type><ref refid="classtblink__rpc_1_1IType" kindref="compound">IType</ref></type>
+          <declname>key_t</declname>
+        </param>
+        <param>
+          <type><ref refid="classtblink__rpc_1_1IType" kindref="compound">IType</ref></type>
+          <declname>elem_t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="720" column="19" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="720" bodyend="724"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1IInterfaceTypeBuilder_1a9997b8c56f2d106a3f3b583bf5ba650b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classtblink__rpc_1_1IType" kindref="compound">IType</ref></type>
+        <definition>virtual IType tblink_rpc::IInterfaceTypeBuilder::mkTypeStr</definition>
+        <argsstring>()</argsstring>
+        <name>mkTypeStr</name>
+        <reimplementedby refid="classtblink__rpc_1_1DpiInterfaceTypeBuilder_1a70428eaf4e576b2c1420951e489da2e7">mkTypeStr</reimplementedby>
+        <reimplementedby refid="classtblink__rpc_1_1SVInterfaceTypeBuilder_1ac29f1422b2e037cced22eee47d82bb5f">mkTypeStr</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="726" column="16" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="726" bodyend="728"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1IInterfaceTypeBuilder_1a4313b7429dbd7f7dd18331874a2503f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classtblink__rpc_1_1ITypeVec" kindref="compound">ITypeVec</ref></type>
+        <definition>virtual ITypeVec tblink_rpc::IInterfaceTypeBuilder::mkTypeVec</definition>
+        <argsstring>(IType elem_t)</argsstring>
+        <name>mkTypeVec</name>
+        <reimplementedby refid="classtblink__rpc_1_1DpiInterfaceTypeBuilder_1ac1df44b7059a549cf016f0b65d34375b">mkTypeVec</reimplementedby>
+        <reimplementedby refid="classtblink__rpc_1_1SVInterfaceTypeBuilder_1a7cef4fdc62ce05174a39adcea840c528">mkTypeVec</reimplementedby>
+        <param>
+          <type><ref refid="classtblink__rpc_1_1IType" kindref="compound">IType</ref></type>
+          <declname>elem_t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="730" column="19" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="730" bodyend="733"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="classtblink__rpc_1_1IInterfaceTypeBuilder" kindref="compound">IInterfaceTypeBuilder</ref></para>
+<para>TODO: Add class documentation </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>tblink_rpc::IInterfaceTypeBuilder</label>
+        <link refid="classtblink__rpc_1_1IInterfaceTypeBuilder"/>
+      </node>
+      <node id="3">
+        <label>tblink_rpc::SVInterfaceTypeBuilder</label>
+        <link refid="classtblink__rpc_1_1SVInterfaceTypeBuilder"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tblink_rpc::DpiInterfaceTypeBuilder</label>
+        <link refid="classtblink__rpc_1_1DpiInterfaceTypeBuilder"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="692" column="28" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="692" bodyend="733"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc_1_1IInterfaceTypeBuilder_1a214c8e571627ee14b8b95573058c25eb" prot="public" virt="virtual"><scope>tblink_rpc::IInterfaceTypeBuilder</scope><name>add_method</name></member>
+      <member refid="classtblink__rpc_1_1IInterfaceTypeBuilder_1aea0a683e7134323aabce2a6cc46b1e62" prot="public" virt="virtual"><scope>tblink_rpc::IInterfaceTypeBuilder</scope><name>mkTypeBool</name></member>
+      <member refid="classtblink__rpc_1_1IInterfaceTypeBuilder_1ad4d190c7511768f7b9504b0f723e16e3" prot="public" virt="virtual"><scope>tblink_rpc::IInterfaceTypeBuilder</scope><name>mkTypeInt</name></member>
+      <member refid="classtblink__rpc_1_1IInterfaceTypeBuilder_1a9933f3710d157083d38b9f9f6c80a11d" prot="public" virt="virtual"><scope>tblink_rpc::IInterfaceTypeBuilder</scope><name>mkTypeMap</name></member>
+      <member refid="classtblink__rpc_1_1IInterfaceTypeBuilder_1a9997b8c56f2d106a3f3b583bf5ba650b" prot="public" virt="virtual"><scope>tblink_rpc::IInterfaceTypeBuilder</scope><name>mkTypeStr</name></member>
+      <member refid="classtblink__rpc_1_1IInterfaceTypeBuilder_1a4313b7429dbd7f7dd18331874a2503f7" prot="public" virt="virtual"><scope>tblink_rpc::IInterfaceTypeBuilder</scope><name>mkTypeVec</name></member>
+      <member refid="classtblink__rpc_1_1IInterfaceTypeBuilder_1a1fe582977f6bf46b358331e5ed0229be" prot="public" virt="virtual"><scope>tblink_rpc::IInterfaceTypeBuilder</scope><name>newMethodTypeBuilder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

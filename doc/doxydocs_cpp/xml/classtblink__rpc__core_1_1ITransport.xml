@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc__core_1_1ITransport" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>tblink_rpc_core::ITransport</compoundname>
+    <basecompoundref refid="classtblink__rpc__core_1_1IParamValFactory" prot="public" virt="virtual">tblink_rpc_core::IParamValFactory</basecompoundref>
+    <derivedcompoundref refid="classtblink__rpc__core_1_1TransportJsonSocket" prot="public" virt="virtual">tblink_rpc_core::TransportJsonSocket</derivedcompoundref>
+    <derivedcompoundref refid="classtblink__rpc__core_1_1TransportMessageFifoEP" prot="public" virt="virtual">tblink_rpc_core::TransportMessageFifoEP</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc__core_1_1ITransport_1adc6ad0ff11e949f9cf34b088979eb9c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual tblink_rpc_core::ITransport::~ITransport</definition>
+        <argsstring>()</argsstring>
+        <name>~ITransport</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ITransport.h" line="30" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ITransport.h" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1ITransport_1a62c518a65f7de24caf87256b5faaf195" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void tblink_rpc_core::ITransport::init</definition>
+        <argsstring>(const recv_req_f &amp;req_f, const recv_rsp_f &amp;rsp_f)=0</argsstring>
+        <name>init</name>
+        <reimplementedby refid="classtblink__rpc__core_1_1TransportJsonSocket_1a7258ef25fab0d41542ced938691d9c7d">init</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1af1916414e905fe1f9060c0f9a6202273">init</reimplementedby>
+        <param>
+          <type>const recv_req_f &amp;</type>
+          <declname>req_f</declname>
+        </param>
+        <param>
+          <type>const recv_rsp_f &amp;</type>
+          <declname>rsp_f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ITransport.h" line="32" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1ITransport_1a4c63524a8375a9e96095e49954a05d56" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void tblink_rpc_core::ITransport::shutdown</definition>
+        <argsstring>()=0</argsstring>
+        <name>shutdown</name>
+        <reimplementedby refid="classtblink__rpc__core_1_1TransportJsonSocket_1a9a828499f464de33c34404508c5e24b2">shutdown</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1a99cd01836ba1bcdf469853738dde63b2">shutdown</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ITransport.h" line="36" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1ITransport_1af1e05dd6082d80f793d8552cfc8ef2e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>intptr_t</type>
+        <definition>virtual intptr_t tblink_rpc_core::ITransport::send_req</definition>
+        <argsstring>(const std::string &amp;method, intptr_t id, IParamValMap *params)=0</argsstring>
+        <name>send_req</name>
+        <reimplementedby refid="classtblink__rpc__core_1_1TransportJsonSocket_1ac10ecb581e9b3829541eccd218d47061">send_req</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1a2a99d8d28a91830d525ab7ada8f9fcc3">send_req</reimplementedby>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>method</declname>
+        </param>
+        <param>
+          <type>intptr_t</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1IParamValMap" kindref="compound">IParamValMap</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ITransport.h" line="38" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1ITransport_1abb73449cfe8794ac9b13697a3359a1e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>int32_t</type>
+        <definition>virtual int32_t tblink_rpc_core::ITransport::send_notify</definition>
+        <argsstring>(const std::string &amp;method, IParamValMap *params)=0</argsstring>
+        <name>send_notify</name>
+        <reimplementedby refid="classtblink__rpc__core_1_1TransportJsonSocket_1a011693d1fcdd1bf4b03c39df422a4f39">send_notify</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1af150e87be9820c681ca7baa9dde41cfc">send_notify</reimplementedby>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>method</declname>
+        </param>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1IParamValMap" kindref="compound">IParamValMap</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ITransport.h" line="43" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1ITransport_1a47b89131db034a59a322f6f09e23348c" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>int32_t</type>
+        <definition>virtual int32_t tblink_rpc_core::ITransport::send_rsp</definition>
+        <argsstring>(intptr_t id, IParamValMap *result, IParamValMap *error)=0</argsstring>
+        <name>send_rsp</name>
+        <reimplementedby refid="classtblink__rpc__core_1_1TransportJsonSocket_1a0b5e47d7ff8e6e478f50c2ab9f526f4d">send_rsp</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1a60daf40ff870c7d8632d55726b6eca8f">send_rsp</reimplementedby>
+        <param>
+          <type>intptr_t</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1IParamValMap" kindref="compound">IParamValMap</ref> *</type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1IParamValMap" kindref="compound">IParamValMap</ref> *</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ITransport.h" line="47" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1ITransport_1a788c085ac7ec47e26675e62491139c3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>int32_t</type>
+        <definition>virtual int32_t tblink_rpc_core::ITransport::process_one_message</definition>
+        <argsstring>()=0</argsstring>
+        <name>process_one_message</name>
+        <reimplementedby refid="classtblink__rpc__core_1_1TransportMessageFifoThreadedEP_1ab7bbb0470d440e1958a3eaaba7056e3a">process_one_message</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1TransportJsonSocket_1af234c34998ac2397c9f900623ceba43f">process_one_message</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1aa955aef706a44d36fa6b160073086e4e">process_one_message</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Polls, waiting for a message. Returns -1 in case of failure. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ITransport.h" line="55" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1ITransport_1ab488dfbaddb3290449eeddd31ed2ef55" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>int32_t</type>
+        <definition>virtual int32_t tblink_rpc_core::ITransport::await_msg</definition>
+        <argsstring>()=0</argsstring>
+        <name>await_msg</name>
+        <reimplementedby refid="classtblink__rpc__core_1_1TransportJsonSocket_1aef81b4d1c0c53203ec200e7c5d4aef04">await_msg</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1a27fb237cb602d535b92f267b1304261d">await_msg</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Waits for at least one message to be received </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ITransport.h" line="60" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1ITransport_1a9a9dc8f4eb0ffe19e170e35486861ce7" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>int32_t</type>
+        <definition>virtual int32_t tblink_rpc_core::ITransport::outstanding</definition>
+        <argsstring>()=0</argsstring>
+        <name>outstanding</name>
+        <reimplementedby refid="classtblink__rpc__core_1_1TransportJsonSocket_1a883e9b746b9de3c8c5d9d4b8bd298335">outstanding</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1a57fe8b56a9e4e3fd5e048807d893f85e">outstanding</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns number of mismatched req/rsp pairs </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ITransport.h" line="65" column="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>tblink_rpc_core::TransportJsonSocket</label>
+        <link refid="classtblink__rpc__core_1_1TransportJsonSocket"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>tblink_rpc_core::TransportMessageFifoThreadedEP</label>
+        <link refid="classtblink__rpc__core_1_1TransportMessageFifoThreadedEP"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tblink_rpc_core::IParamValFactory</label>
+        <link refid="classtblink__rpc__core_1_1IParamValFactory"/>
+      </node>
+      <node id="1">
+        <label>tblink_rpc_core::ITransport</label>
+        <link refid="classtblink__rpc__core_1_1ITransport"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>tblink_rpc_core::TransportMessageFifoEP</label>
+        <link refid="classtblink__rpc__core_1_1TransportMessageFifoEP"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>tblink_rpc_core::IParamValFactory</label>
+        <link refid="classtblink__rpc__core_1_1IParamValFactory"/>
+      </node>
+      <node id="1">
+        <label>tblink_rpc_core::ITransport</label>
+        <link refid="classtblink__rpc__core_1_1ITransport"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ITransport.h" line="27" column="49" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ITransport.h" bodystart="27" bodyend="67"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc__core_1_1ITransport_1ab488dfbaddb3290449eeddd31ed2ef55" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::ITransport</scope><name>await_msg</name></member>
+      <member refid="classtblink__rpc__core_1_1ITransport_1a62c518a65f7de24caf87256b5faaf195" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::ITransport</scope><name>init</name></member>
+      <member refid="classtblink__rpc__core_1_1IParamValFactory_1a0683cf467250954020102d0080b8ceea" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::ITransport</scope><name>mkValBool</name></member>
+      <member refid="classtblink__rpc__core_1_1IParamValFactory_1acf3e541ca4c8320e406ab98641f5595f" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::ITransport</scope><name>mkValIntS</name></member>
+      <member refid="classtblink__rpc__core_1_1IParamValFactory_1ac0f6311c69ccfcbb7bf1abf2bb9515cf" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::ITransport</scope><name>mkValIntU</name></member>
+      <member refid="classtblink__rpc__core_1_1IParamValFactory_1aa8c68c3c556ce96af4c832a69cc8ed11" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::ITransport</scope><name>mkValMap</name></member>
+      <member refid="classtblink__rpc__core_1_1IParamValFactory_1a8238f9e60f26d03a5c35bb3d42564c58" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::ITransport</scope><name>mkValStr</name></member>
+      <member refid="classtblink__rpc__core_1_1IParamValFactory_1a60a72444c06e56a5967ac5a4e6ec6ed1" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::ITransport</scope><name>mkValVec</name></member>
+      <member refid="classtblink__rpc__core_1_1ITransport_1a9a9dc8f4eb0ffe19e170e35486861ce7" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::ITransport</scope><name>outstanding</name></member>
+      <member refid="classtblink__rpc__core_1_1ITransport_1a788c085ac7ec47e26675e62491139c3a" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::ITransport</scope><name>process_one_message</name></member>
+      <member refid="classtblink__rpc__core_1_1ITransport_1abb73449cfe8794ac9b13697a3359a1e8" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::ITransport</scope><name>send_notify</name></member>
+      <member refid="classtblink__rpc__core_1_1ITransport_1af1e05dd6082d80f793d8552cfc8ef2e0" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::ITransport</scope><name>send_req</name></member>
+      <member refid="classtblink__rpc__core_1_1ITransport_1a47b89131db034a59a322f6f09e23348c" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::ITransport</scope><name>send_rsp</name></member>
+      <member refid="classtblink__rpc__core_1_1ITransport_1a4c63524a8375a9e96095e49954a05d56" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::ITransport</scope><name>shutdown</name></member>
+      <member refid="classtblink__rpc__core_1_1IParamValFactory_1ad069ebe9d09dfee21677ff7242997612" prot="public" virt="virtual"><scope>tblink_rpc_core::ITransport</scope><name>~IParamValFactory</name></member>
+      <member refid="classtblink__rpc__core_1_1ITransport_1adc6ad0ff11e949f9cf34b088979eb9c3" prot="public" virt="virtual"><scope>tblink_rpc_core::ITransport</scope><name>~ITransport</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc__core_1_1IMethodType" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>tblink_rpc_core::IMethodType</compoundname>
+    <derivedcompoundref refid="classtblink__rpc__core_1_1MethodType" prot="public" virt="non-virtual">tblink_rpc_core::MethodType</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc__core_1_1IMethodType_1a644bbf32c1cd48679902315836c4bbe9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual tblink_rpc_core::IMethodType::~IMethodType</definition>
+        <argsstring>()</argsstring>
+        <name>~IMethodType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IMethodType.h" line="21" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IMethodType.h" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1IMethodType_1a42880f0db2fbe94c1707e6b30defcd7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>const std::string &amp;</type>
+        <definition>virtual const std::string&amp; tblink_rpc_core::IMethodType::name</definition>
+        <argsstring>()=0</argsstring>
+        <name>name</name>
+        <reimplementedby refid="classtblink__rpc__core_1_1MethodType_1af38c77a4e7f8f0a28a1ca8f713dd01b6">name</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IMethodType.h" line="23" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1IMethodType_1a636ab19fe3bd734f7fca64ef7b041ca9" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>intptr_t</type>
+        <definition>virtual intptr_t tblink_rpc_core::IMethodType::id</definition>
+        <argsstring>()=0</argsstring>
+        <name>id</name>
+        <reimplementedby refid="classtblink__rpc__core_1_1MethodType_1a09161e14a54bac22dcc2a1db5fcc70e4">id</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IMethodType.h" line="25" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1IMethodType_1a0f93dc8810f3a4cb3926e57837b06c95" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classtblink__rpc__core_1_1IType" kindref="compound">IType</ref> *</type>
+        <definition>virtual IType* tblink_rpc_core::IMethodType::rtype</definition>
+        <argsstring>() const =0</argsstring>
+        <name>rtype</name>
+        <reimplementedby refid="classtblink__rpc__core_1_1MethodType_1a4a44cc7b5a7df07ae88a518882a13a0d">rtype</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IMethodType.h" line="27" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1IMethodType_1a587cb6ee88126a91bad35dda0248436d" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool tblink_rpc_core::IMethodType::is_export</definition>
+        <argsstring>()=0</argsstring>
+        <name>is_export</name>
+        <reimplementedby refid="classtblink__rpc__core_1_1MethodType_1a7c6fcbfcb525b07c9fd8db793b21e0ef">is_export</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IMethodType.h" line="29" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1IMethodType_1afb879ff420bfdc6c11d6dccc3905693e" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool tblink_rpc_core::IMethodType::is_blocking</definition>
+        <argsstring>()=0</argsstring>
+        <name>is_blocking</name>
+        <reimplementedby refid="classtblink__rpc__core_1_1MethodType_1a17c8c3d1a481c71c02ae0b10d8f354b1">is_blocking</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IMethodType.h" line="31" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1IMethodType_1ab97a387a26710065ffda4cf459580532" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>const std::vector&lt; <ref refid="classtblink__rpc__core_1_1IParamDecl" kindref="compound">IParamDecl</ref> * &gt; &amp;</type>
+        <definition>virtual const std::vector&lt;IParamDecl *&gt;&amp; tblink_rpc_core::IMethodType::params</definition>
+        <argsstring>() const =0</argsstring>
+        <name>params</name>
+        <reimplementedby refid="classtblink__rpc__core_1_1MethodType_1a0111963a600c7a8fd288c02a9cc0966e">params</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IMethodType.h" line="33" column="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>tblink_rpc_core::IMethodType</label>
+        <link refid="classtblink__rpc__core_1_1IMethodType"/>
+      </node>
+      <node id="2">
+        <label>tblink_rpc_core::MethodType</label>
+        <link refid="classtblink__rpc__core_1_1MethodType"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IMethodType.h" line="18" column="18" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IMethodType.h" bodystart="18" bodyend="35"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc__core_1_1IMethodType_1a636ab19fe3bd734f7fca64ef7b041ca9" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::IMethodType</scope><name>id</name></member>
+      <member refid="classtblink__rpc__core_1_1IMethodType_1afb879ff420bfdc6c11d6dccc3905693e" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::IMethodType</scope><name>is_blocking</name></member>
+      <member refid="classtblink__rpc__core_1_1IMethodType_1a587cb6ee88126a91bad35dda0248436d" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::IMethodType</scope><name>is_export</name></member>
+      <member refid="classtblink__rpc__core_1_1IMethodType_1a42880f0db2fbe94c1707e6b30defcd7c" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::IMethodType</scope><name>name</name></member>
+      <member refid="classtblink__rpc__core_1_1IMethodType_1ab97a387a26710065ffda4cf459580532" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::IMethodType</scope><name>params</name></member>
+      <member refid="classtblink__rpc__core_1_1IMethodType_1a0f93dc8810f3a4cb3926e57837b06c95" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::IMethodType</scope><name>rtype</name></member>
+      <member refid="classtblink__rpc__core_1_1IMethodType_1a644bbf32c1cd48679902315836c4bbe9" prot="public" virt="virtual"><scope>tblink_rpc_core::IMethodType</scope><name>~IMethodType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

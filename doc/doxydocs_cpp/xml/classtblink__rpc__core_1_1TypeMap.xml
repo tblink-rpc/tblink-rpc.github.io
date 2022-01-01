@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc__core_1_1TypeMap" kind="class" language="C++" prot="public">
+    <compoundname>tblink_rpc_core::TypeMap</compoundname>
+    <basecompoundref refid="classtblink__rpc__core_1_1ITypeMap" prot="public" virt="virtual">tblink_rpc_core::ITypeMap</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtblink__rpc__core_1_1TypeMap_1aa7f7c39029cc23b5b6e2499d12d24ad1" prot="private" static="no" mutable="no">
+        <type>ITypeUP</type>
+        <definition>ITypeUP tblink_rpc_core::TypeMap::m_key_t</definition>
+        <argsstring></argsstring>
+        <name>m_key_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TypeMap.h" line="32" column="8" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TypeMap.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtblink__rpc__core_1_1TypeMap_1a540a9fe41fb0ab454187b5d96606aac1" prot="private" static="no" mutable="no">
+        <type>ITypeUP</type>
+        <definition>ITypeUP tblink_rpc_core::TypeMap::m_elem_t</definition>
+        <argsstring></argsstring>
+        <name>m_elem_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TypeMap.h" line="33" column="8" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TypeMap.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc__core_1_1TypeMap_1a206de756e7847da0d4ff2f49e745ced8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>tblink_rpc_core::TypeMap::TypeMap</definition>
+        <argsstring>(IType *key_t, IType *val_t)</argsstring>
+        <name>TypeMap</name>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1IType" kindref="compound">IType</ref> *</type>
+          <declname>key_t</declname>
+        </param>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1IType" kindref="compound">IType</ref> *</type>
+          <declname>val_t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TypeMap.h" line="15" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TypeMap.cpp" bodystart="12" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1TypeMap_1a4953ac2e0535915b6806ba14ff9489d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>tblink_rpc_core::TypeMap::~TypeMap</definition>
+        <argsstring>()</argsstring>
+        <name>~TypeMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TypeMap.h" line="19" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TypeMap.cpp" bodystart="20" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1TypeMap_1ab31a8f9156cda1906120adc92d5de54b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>TypeE</type>
+        <definition>virtual TypeE tblink_rpc_core::TypeMap::kind</definition>
+        <argsstring>() const override</argsstring>
+        <name>kind</name>
+        <reimplements refid="classtblink__rpc__core_1_1IType_1a62157b4dcaf0777e10c6ff4dd0d93af1">kind</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TypeMap.h" line="21" column="15" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TypeMap.h" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1TypeMap_1a4fbe6280783f9682d83edea736432f73" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classtblink__rpc__core_1_1IType" kindref="compound">IType</ref> *</type>
+        <definition>virtual IType* tblink_rpc_core::TypeMap::key_t</definition>
+        <argsstring>() const override</argsstring>
+        <name>key_t</name>
+        <reimplements refid="classtblink__rpc__core_1_1ITypeMap_1a093b605b458aca3b516603085636b45a">key_t</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TypeMap.h" line="23" column="15" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TypeMap.h" bodystart="23" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1TypeMap_1a262a079fd34386c50626d40a9a6e830a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classtblink__rpc__core_1_1IType" kindref="compound">IType</ref> *</type>
+        <definition>virtual IType* tblink_rpc_core::TypeMap::elem_t</definition>
+        <argsstring>() const override</argsstring>
+        <name>elem_t</name>
+        <reimplements refid="classtblink__rpc__core_1_1ITypeMap_1ad3cbb02fd44825eb1d1c02c2df586874">elem_t</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TypeMap.h" line="27" column="15" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TypeMap.h" bodystart="27" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>tblink_rpc_core::IType</label>
+        <link refid="classtblink__rpc__core_1_1IType"/>
+      </node>
+      <node id="1">
+        <label>tblink_rpc_core::TypeMap</label>
+        <link refid="classtblink__rpc__core_1_1TypeMap"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tblink_rpc_core::ITypeMap</label>
+        <link refid="classtblink__rpc__core_1_1ITypeMap"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>tblink_rpc_core::IType</label>
+        <link refid="classtblink__rpc__core_1_1IType"/>
+      </node>
+      <node id="1">
+        <label>tblink_rpc_core::TypeMap</label>
+        <link refid="classtblink__rpc__core_1_1TypeMap"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tblink_rpc_core::ITypeMap</label>
+        <link refid="classtblink__rpc__core_1_1ITypeMap"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TypeMap.h" line="13" column="38" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TypeMap.h" bodystart="13" bodyend="35"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc__core_1_1TypeMap_1a262a079fd34386c50626d40a9a6e830a" prot="public" virt="virtual"><scope>tblink_rpc_core::TypeMap</scope><name>elem_t</name></member>
+      <member refid="classtblink__rpc__core_1_1TypeMap_1a4fbe6280783f9682d83edea736432f73" prot="public" virt="virtual"><scope>tblink_rpc_core::TypeMap</scope><name>key_t</name></member>
+      <member refid="classtblink__rpc__core_1_1TypeMap_1ab31a8f9156cda1906120adc92d5de54b" prot="public" virt="virtual"><scope>tblink_rpc_core::TypeMap</scope><name>kind</name></member>
+      <member refid="classtblink__rpc__core_1_1TypeMap_1a540a9fe41fb0ab454187b5d96606aac1" prot="private" virt="non-virtual"><scope>tblink_rpc_core::TypeMap</scope><name>m_elem_t</name></member>
+      <member refid="classtblink__rpc__core_1_1TypeMap_1aa7f7c39029cc23b5b6e2499d12d24ad1" prot="private" virt="non-virtual"><scope>tblink_rpc_core::TypeMap</scope><name>m_key_t</name></member>
+      <member refid="classtblink__rpc__core_1_1TypeMap_1a206de756e7847da0d4ff2f49e745ced8" prot="public" virt="non-virtual"><scope>tblink_rpc_core::TypeMap</scope><name>TypeMap</name></member>
+      <member refid="classtblink__rpc__core_1_1IType_1ad9c9e5ad705bf07a042484dd996851a4" prot="public" virt="virtual"><scope>tblink_rpc_core::TypeMap</scope><name>~IType</name></member>
+      <member refid="classtblink__rpc__core_1_1ITypeMap_1ad1cda5b8fc8904d2fcb47d93d80fb024" prot="public" virt="virtual"><scope>tblink_rpc_core::TypeMap</scope><name>~ITypeMap</name></member>
+      <member refid="classtblink__rpc__core_1_1TypeMap_1a4953ac2e0535915b6806ba14ff9489d0" prot="public" virt="virtual"><scope>tblink_rpc_core::TypeMap</scope><name>~TypeMap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

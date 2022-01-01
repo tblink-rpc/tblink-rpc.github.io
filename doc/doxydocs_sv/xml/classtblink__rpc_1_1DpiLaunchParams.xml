@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc_1_1DpiLaunchParams" kind="class" language="C++" prot="public">
+    <compoundname>tblink_rpc::DpiLaunchParams</compoundname>
+    <basecompoundref refid="classtblink__rpc_1_1ILaunchParams" prot="public" virt="non-virtual">tblink_rpc::ILaunchParams</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classtblink__rpc_1_1DpiLaunchParams_1a654d652d02fef3054a64071ae0259a6f" prot="public" static="no" mutable="no">
+        <type>chandle</type>
+        <definition>chandle tblink_rpc::DpiLaunchParams::m_hndl</definition>
+        <argsstring></argsstring>
+        <name>m_hndl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2599" column="8" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2599" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiLaunchParams_1a21c9a3580747a6e0e70272eab3ca3b70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>tblink_rpc::DpiLaunchParams::new</definition>
+        <argsstring>(chandle hndl)</argsstring>
+        <name>new</name>
+        <param>
+          <type>chandle</type>
+          <declname>hndl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2602" column="2" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2602" bodyend="2604"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiLaunchParams_1a68794096c1778bb99353d51808a280b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void tblink_rpc::DpiLaunchParams::add_arg</definition>
+        <argsstring>(string arg)</argsstring>
+        <name>add_arg</name>
+        <reimplements refid="classtblink__rpc_1_1ILaunchParams_1adb4e5920e469f6eef3f0e9d7de3b112d">add_arg</reimplements>
+        <param>
+          <type>string</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2607" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2607" bodyend="2609"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiLaunchParams_1a99265aba9e7d44fd758fbddcefa82a1f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>string_l</type>
+        <definition>virtual string_l tblink_rpc::DpiLaunchParams::args</definition>
+        <argsstring>()</argsstring>
+        <name>args</name>
+        <reimplements refid="classtblink__rpc_1_1ILaunchParams_1a31d25afdc357c68ca2ce03d741c9d40c">args</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2611" column="19" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2611" bodyend="2612"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiLaunchParams_1a2376f5d0641c6374136ca1940baaf28e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void tblink_rpc::DpiLaunchParams::add_param</definition>
+        <argsstring>(string key, string val)</argsstring>
+        <name>add_param</name>
+        <reimplements refid="classtblink__rpc_1_1ILaunchParams_1a04fb65abf6bfb13e4d3021eaa2c5a2ad">add_param</reimplements>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2614" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2614" bodyend="2618"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiLaunchParams_1a72f754415b46e33bfc46d545727194d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>string_m</type>
+        <definition>virtual string_m tblink_rpc::DpiLaunchParams::params</definition>
+        <argsstring>()</argsstring>
+        <name>params</name>
+        <reimplements refid="classtblink__rpc_1_1ILaunchParams_1a418fb7cb9970669fb6f83c27e8b7d608">params</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2620" column="19" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2620" bodyend="2621"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="classtblink__rpc_1_1DpiLaunchParams" kindref="compound">DpiLaunchParams</ref></para>
+<para>TODO: Add class documentation </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>tblink_rpc::DpiLaunchParams</label>
+        <link refid="classtblink__rpc_1_1DpiLaunchParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tblink_rpc::ILaunchParams</label>
+        <link refid="classtblink__rpc_1_1ILaunchParams"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>tblink_rpc::DpiLaunchParams</label>
+        <link refid="classtblink__rpc_1_1DpiLaunchParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tblink_rpc::ILaunchParams</label>
+        <link refid="classtblink__rpc_1_1ILaunchParams"/>
+      </node>
+    </collaborationgraph>
+    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2596" column="43" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2596" bodyend="2622"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc_1_1DpiLaunchParams_1a68794096c1778bb99353d51808a280b3" prot="public" virt="virtual"><scope>tblink_rpc::DpiLaunchParams</scope><name>add_arg</name></member>
+      <member refid="classtblink__rpc_1_1DpiLaunchParams_1a2376f5d0641c6374136ca1940baaf28e" prot="public" virt="virtual"><scope>tblink_rpc::DpiLaunchParams</scope><name>add_param</name></member>
+      <member refid="classtblink__rpc_1_1DpiLaunchParams_1a99265aba9e7d44fd758fbddcefa82a1f" prot="public" virt="virtual"><scope>tblink_rpc::DpiLaunchParams</scope><name>args</name></member>
+      <member refid="classtblink__rpc_1_1ILaunchParams_1a5233282b7139027cae557b67e9bd3abb" prot="public" virt="virtual"><scope>tblink_rpc::DpiLaunchParams</scope><name>get_param</name></member>
+      <member refid="classtblink__rpc_1_1ILaunchParams_1ab35e1b4c3e2fc6c8f3f3df5c078d0afd" prot="public" virt="virtual"><scope>tblink_rpc::DpiLaunchParams</scope><name>has_param</name></member>
+      <member refid="classtblink__rpc_1_1DpiLaunchParams_1a654d652d02fef3054a64071ae0259a6f" prot="public" virt="non-virtual"><scope>tblink_rpc::DpiLaunchParams</scope><name>m_hndl</name></member>
+      <member refid="classtblink__rpc_1_1DpiLaunchParams_1a21c9a3580747a6e0e70272eab3ca3b70" prot="public" virt="non-virtual"><scope>tblink_rpc::DpiLaunchParams</scope><name>new</name></member>
+      <member refid="classtblink__rpc_1_1DpiLaunchParams_1a72f754415b46e33bfc46d545727194d9" prot="public" virt="virtual"><scope>tblink_rpc::DpiLaunchParams</scope><name>params</name></member>
+      <member refid="classtblink__rpc_1_1ILaunchParams_1a79952bb59d0c1f4a8806a3b749377f9a" prot="public" virt="non-virtual"><scope>tblink_rpc::DpiLaunchParams</scope><name>string_l</name></member>
+      <member refid="classtblink__rpc_1_1ILaunchParams_1af5423c2f601060deb01288293ea4b265" prot="public" virt="non-virtual"><scope>tblink_rpc::DpiLaunchParams</scope><name>string_m</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

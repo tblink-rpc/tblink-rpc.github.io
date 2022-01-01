@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc__core_1_1IEndpointServices" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>tblink_rpc_core::IEndpointServices</compoundname>
+    <includes refid="IEndpointServices_8h" local="no">IEndpointServices.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc__core_1_1IEndpointServices_1a3dd0f2bbed319b40f9296b00d92763c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual tblink_rpc_core::IEndpointServices::~IEndpointServices</definition>
+        <argsstring>()</argsstring>
+        <name>~IEndpointServices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IEndpointServices.h" line="26" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IEndpointServices.h" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1IEndpointServices_1a944aa01b1a3fb16113ed8f6caabfc5a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void tblink_rpc_core::IEndpointServices::init</definition>
+        <argsstring>(IEndpoint *endpoint)=0</argsstring>
+        <name>init</name>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1IEndpoint" kindref="compound">IEndpoint</ref> *</type>
+          <declname>endpoint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IEndpointServices.h" line="28" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1IEndpointServices_1a79f88c013b2cb2eab76cd977ce18c3e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>virtual std::vector&lt;std::string&gt; tblink_rpc_core::IEndpointServices::args</definition>
+        <argsstring>()=0</argsstring>
+        <name>args</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return command-line arguments. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IEndpointServices.h" line="33" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1IEndpointServices_1ac29f6678ecc70927471e512ec4ee1025" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>int32_t</type>
+        <definition>virtual int32_t tblink_rpc_core::IEndpointServices::add_time_cb</definition>
+        <argsstring>(uint64_t time, intptr_t callback_id)=0</argsstring>
+        <name>add_time_cb</name>
+        <param>
+          <type>uint64_t</type>
+          <declname>time</declname>
+        </param>
+        <param>
+          <type>intptr_t</type>
+          <declname>callback_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IEndpointServices.h" line="35" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1IEndpointServices_1a4329d989af62e49d0f18c9a796011775" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void tblink_rpc_core::IEndpointServices::cancel_callback</definition>
+        <argsstring>(intptr_t id)=0</argsstring>
+        <name>cancel_callback</name>
+        <param>
+          <type>intptr_t</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IEndpointServices.h" line="39" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1IEndpointServices_1ad132fafd3c59d7030dd47e6a6f1d724b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>uint64_t</type>
+        <definition>virtual uint64_t tblink_rpc_core::IEndpointServices::time</definition>
+        <argsstring>()=0</argsstring>
+        <name>time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IEndpointServices.h" line="41" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1IEndpointServices_1acad1cd74eec33f736faf8dbb4c272e56" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>int32_t</type>
+        <definition>virtual int32_t tblink_rpc_core::IEndpointServices::time_precision</definition>
+        <argsstring>()=0</argsstring>
+        <name>time_precision</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the time precision as an exponent: 0: 1s -3: 1ms -6: 1us -9: 1ns -12: 1ps </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IEndpointServices.h" line="51" column="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Implements support methods used by an endpoint </para>
+    </detaileddescription>
+    <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IEndpointServices.h" line="23" column="24" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IEndpointServices.h" bodystart="23" bodyend="53"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc__core_1_1IEndpointServices_1ac29f6678ecc70927471e512ec4ee1025" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::IEndpointServices</scope><name>add_time_cb</name></member>
+      <member refid="classtblink__rpc__core_1_1IEndpointServices_1a79f88c013b2cb2eab76cd977ce18c3e4" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::IEndpointServices</scope><name>args</name></member>
+      <member refid="classtblink__rpc__core_1_1IEndpointServices_1a4329d989af62e49d0f18c9a796011775" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::IEndpointServices</scope><name>cancel_callback</name></member>
+      <member refid="classtblink__rpc__core_1_1IEndpointServices_1a944aa01b1a3fb16113ed8f6caabfc5a8" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::IEndpointServices</scope><name>init</name></member>
+      <member refid="classtblink__rpc__core_1_1IEndpointServices_1ad132fafd3c59d7030dd47e6a6f1d724b" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::IEndpointServices</scope><name>time</name></member>
+      <member refid="classtblink__rpc__core_1_1IEndpointServices_1acad1cd74eec33f736faf8dbb4c272e56" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::IEndpointServices</scope><name>time_precision</name></member>
+      <member refid="classtblink__rpc__core_1_1IEndpointServices_1a3dd0f2bbed319b40f9296b00d92763c4" prot="public" virt="virtual"><scope>tblink_rpc_core::IEndpointServices</scope><name>~IEndpointServices</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

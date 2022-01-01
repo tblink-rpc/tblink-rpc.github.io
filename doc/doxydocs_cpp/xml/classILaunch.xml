@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classILaunch" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>ILaunch</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classILaunch_1a0978dda0a77b0ed0b5ef8a75a6b6a2b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual ILaunch::~ILaunch</definition>
+        <argsstring>()</argsstring>
+        <name>~ILaunch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl/src/ILaunch.h" line="24" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl/src/ILaunch.h" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classILaunch_1adf33c9ac8988d016464a073ffbeff1c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classtblink__rpc__core_1_1IEndpoint" kindref="compound">IEndpoint</ref> *</type>
+        <definition>virtual IEndpoint* ILaunch::create_ep</definition>
+        <argsstring>(IEndpointServices *services)=0</argsstring>
+        <name>create_ep</name>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1IEndpointServices" kindref="compound">IEndpointServices</ref> *</type>
+          <declname>services</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl/src/ILaunch.h" line="26" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classILaunch_1a1d830952eb0073f545b437939bdbdc1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool ILaunch::launch</definition>
+        <argsstring>(IEndpoint *ep)=0</argsstring>
+        <name>launch</name>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1IEndpoint" kindref="compound">IEndpoint</ref> *</type>
+          <declname>ep</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl/src/ILaunch.h" line="29" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classILaunch_1aa6dc5f785a99d89fdc7ec466c1bfdc6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>std::string</type>
+        <definition>virtual std::string ILaunch::last_error</definition>
+        <argsstring>()=0</argsstring>
+        <name>last_error</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl/src/ILaunch.h" line="32" column="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl/src/ILaunch.h" line="21" column="14" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl/src/ILaunch.h" bodystart="21" bodyend="34"/>
+    <listofallmembers>
+      <member refid="classILaunch_1adf33c9ac8988d016464a073ffbeff1c2" prot="public" virt="pure-virtual"><scope>ILaunch</scope><name>create_ep</name></member>
+      <member refid="classILaunch_1aa6dc5f785a99d89fdc7ec466c1bfdc6a" prot="public" virt="pure-virtual"><scope>ILaunch</scope><name>last_error</name></member>
+      <member refid="classILaunch_1a1d830952eb0073f545b437939bdbdc1a" prot="public" virt="pure-virtual"><scope>ILaunch</scope><name>launch</name></member>
+      <member refid="classILaunch_1a0978dda0a77b0ed0b5ef8a75a6b6a2b4" prot="public" virt="virtual"><scope>ILaunch</scope><name>~ILaunch</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

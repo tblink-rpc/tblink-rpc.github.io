@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc_1_1SVTypeInt" kind="class" language="C++" prot="public">
+    <compoundname>tblink_rpc::SVTypeInt</compoundname>
+    <basecompoundref refid="classtblink__rpc_1_1ITypeInt" prot="public" virt="non-virtual">tblink_rpc::ITypeInt</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classtblink__rpc_1_1SVTypeInt_1a74086f2f737b68d9509325c7d2208bf3" prot="public" static="no" mutable="no">
+        <type>int unsigned</type>
+        <definition>int unsigned tblink_rpc::SVTypeInt::m_is_signed</definition>
+        <argsstring></argsstring>
+        <name>m_is_signed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="4011" column="13" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="4011" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtblink__rpc_1_1SVTypeInt_1a2262b53e16db4b5c59c55fdf05a8edc6" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int tblink_rpc::SVTypeInt::m_width</definition>
+        <argsstring></argsstring>
+        <name>m_width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="4012" column="4" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="4012" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc_1_1SVTypeInt_1a9a629fe907d9bac282c83a52e3cd0a56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>tblink_rpc::SVTypeInt::new</definition>
+        <argsstring>(int unsigned is_signed, int width)</argsstring>
+        <name>new</name>
+        <param>
+          <type>int unsigned</type>
+          <declname>is_signed</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="4014" column="2" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="4014" bodyend="4017"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1SVTypeInt_1aa420e3b809c52d3650575b9a14ed08c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>type_kind_e</type>
+        <definition>virtual type_kind_e tblink_rpc::SVTypeInt::kind</definition>
+        <argsstring>()</argsstring>
+        <name>kind</name>
+        <reimplements refid="classtblink__rpc_1_1IType_1a1d237b8dc20eabecc7bd6c9050019f8c">kind</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="4019" column="22" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="4019" bodyend="4021"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1SVTypeInt_1aa15c59661992eb7ba519e6865cffb2a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int unsigned</type>
+        <definition>virtual int unsigned tblink_rpc::SVTypeInt::is_signed</definition>
+        <argsstring>()</argsstring>
+        <name>is_signed</name>
+        <reimplements refid="classtblink__rpc_1_1ITypeInt_1aad3c8f5418d957b2d9fa76c262a95cd6">is_signed</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="4024" column="23" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="4024" bodyend="4026"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1SVTypeInt_1acb8808a22c9798b076e411b880b78427" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int tblink_rpc::SVTypeInt::width</definition>
+        <argsstring>()</argsstring>
+        <name>width</name>
+        <reimplements refid="classtblink__rpc_1_1ITypeInt_1a6f49948ebed4e0a8c80dc18000e5ef69">width</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="4028" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="4028" bodyend="4030"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="classtblink__rpc_1_1SVTypeInt" kindref="compound">SVTypeInt</ref></para>
+<para>TODO: Add class documentation </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>tblink_rpc::SVTypeInt</label>
+        <link refid="classtblink__rpc_1_1SVTypeInt"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tblink_rpc::ITypeInt</label>
+        <link refid="classtblink__rpc_1_1ITypeInt"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tblink_rpc::IType</label>
+        <link refid="classtblink__rpc_1_1IType"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>tblink_rpc::SVTypeInt</label>
+        <link refid="classtblink__rpc_1_1SVTypeInt"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tblink_rpc::ITypeInt</label>
+        <link refid="classtblink__rpc_1_1ITypeInt"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tblink_rpc::IType</label>
+        <link refid="classtblink__rpc_1_1IType"/>
+      </node>
+    </collaborationgraph>
+    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="4008" column="32" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="4008" bodyend="4031"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc_1_1IType_1a4fe3f25502806ac297a4328a37e05266a2461dd5013f330d6e11296c6fe177a4b" prot="public" virt="non-virtual"><scope>tblink_rpc::SVTypeInt</scope><name>Bool</name></member>
+      <member refid="classtblink__rpc_1_1IType_1a4fe3f25502806ac297a4328a37e05266a8b7d94c448d76ebc247824c620c47871" prot="public" virt="non-virtual"><scope>tblink_rpc::SVTypeInt</scope><name>Int</name></member>
+      <member refid="classtblink__rpc_1_1SVTypeInt_1aa15c59661992eb7ba519e6865cffb2a1" prot="public" virt="virtual"><scope>tblink_rpc::SVTypeInt</scope><name>is_signed</name></member>
+      <member refid="classtblink__rpc_1_1SVTypeInt_1aa420e3b809c52d3650575b9a14ed08c3" prot="public" virt="virtual"><scope>tblink_rpc::SVTypeInt</scope><name>kind</name></member>
+      <member refid="classtblink__rpc_1_1SVTypeInt_1a74086f2f737b68d9509325c7d2208bf3" prot="public" virt="non-virtual"><scope>tblink_rpc::SVTypeInt</scope><name>m_is_signed</name></member>
+      <member refid="classtblink__rpc_1_1SVTypeInt_1a2262b53e16db4b5c59c55fdf05a8edc6" prot="public" virt="non-virtual"><scope>tblink_rpc::SVTypeInt</scope><name>m_width</name></member>
+      <member refid="classtblink__rpc_1_1IType_1a4fe3f25502806ac297a4328a37e05266a69715141945568ff2a0ef123141992b3" prot="public" virt="non-virtual"><scope>tblink_rpc::SVTypeInt</scope><name>Map</name></member>
+      <member refid="classtblink__rpc_1_1SVTypeInt_1a9a629fe907d9bac282c83a52e3cd0a56" prot="public" virt="non-virtual"><scope>tblink_rpc::SVTypeInt</scope><name>new</name></member>
+      <member refid="classtblink__rpc_1_1IType_1a4fe3f25502806ac297a4328a37e05266a2d34c7026a53a4ab75fc299c6922bb72" prot="public" virt="non-virtual"><scope>tblink_rpc::SVTypeInt</scope><name>Str</name></member>
+      <member refid="classtblink__rpc_1_1IType_1a4fe3f25502806ac297a4328a37e05266" prot="public" virt="non-virtual"><scope>tblink_rpc::SVTypeInt</scope><name>type_kind_e</name></member>
+      <member refid="classtblink__rpc_1_1IType_1a4fe3f25502806ac297a4328a37e05266a0a4b2699c2c4e95638d1943637caabfc" prot="public" virt="non-virtual"><scope>tblink_rpc::SVTypeInt</scope><name>Vec</name></member>
+      <member refid="classtblink__rpc_1_1SVTypeInt_1acb8808a22c9798b076e411b880b78427" prot="public" virt="virtual"><scope>tblink_rpc::SVTypeInt</scope><name>width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

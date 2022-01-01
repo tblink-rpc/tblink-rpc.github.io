@@ -1,0 +1,351 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc__core_1_1InterfaceInstLoopback" kind="class" language="C++" prot="public">
+    <compoundname>tblink_rpc_core::InterfaceInstLoopback</compoundname>
+    <basecompoundref refid="classtblink__rpc__core_1_1InterfaceInstBase" prot="public" virt="non-virtual">tblink_rpc_core::InterfaceInstBase</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtblink__rpc__core_1_1InterfaceInstLoopback_1a775fbcb48eaf4d0b53901bd9170b9a06" prot="private" static="no" mutable="no">
+        <type><ref refid="classtblink__rpc__core_1_1InterfaceInstLoopback" kindref="compound">InterfaceInstLoopback</ref> *</type>
+        <definition>InterfaceInstLoopback* tblink_rpc_core::InterfaceInstLoopback::m_peer</definition>
+        <argsstring></argsstring>
+        <name>m_peer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceInstLoopback.h" line="52" column="22" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceInstLoopback.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtblink__rpc__core_1_1InterfaceInstLoopback_1a0cfd590fe1e263018f464e672027c72d" prot="private" static="no" mutable="no">
+        <type>std::unordered_map&lt; <ref refid="classtblink__rpc__core_1_1IMethodType" kindref="compound">IMethodType</ref> *, <ref refid="classtblink__rpc__core_1_1IMethodType" kindref="compound">IMethodType</ref> * &gt;</type>
+        <definition>std::unordered_map&lt;IMethodType*,IMethodType*&gt; tblink_rpc_core::InterfaceInstLoopback::m_method_m</definition>
+        <argsstring></argsstring>
+        <name>m_method_m</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceInstLoopback.h" line="53" column="19" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceInstLoopback.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtblink__rpc__core_1_1InterfaceInstLoopback_1ac66b2110db254cd8218487b1e2eda52e" prot="private" static="no" mutable="no">
+        <type>std::unordered_map&lt; intptr_t, invoke_rsp_f &gt;</type>
+        <definition>std::unordered_map&lt;intptr_t,invoke_rsp_f&gt; tblink_rpc_core::InterfaceInstLoopback::m_rsp_m</definition>
+        <argsstring></argsstring>
+        <name>m_rsp_m</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceInstLoopback.h" line="54" column="19" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceInstLoopback.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtblink__rpc__core_1_1InterfaceInstLoopback_1a0347ba76095c004716d6ec6910a4a24f" prot="private" static="no" mutable="no">
+        <type>intptr_t</type>
+        <definition>intptr_t tblink_rpc_core::InterfaceInstLoopback::m_call_id</definition>
+        <argsstring></argsstring>
+        <name>m_call_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceInstLoopback.h" line="55" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceInstLoopback.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc__core_1_1InterfaceInstLoopback_1ae5d658d57d75e59b984ef59956521503" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>tblink_rpc_core::InterfaceInstLoopback::InterfaceInstLoopback</definition>
+        <argsstring>(EndpointLoopback *endpoint, IInterfaceType *type, const std::string &amp;inst_name, bool is_mirror)</argsstring>
+        <name>InterfaceInstLoopback</name>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1EndpointLoopback" kindref="compound">EndpointLoopback</ref> *</type>
+          <declname>endpoint</declname>
+        </param>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1IInterfaceType" kindref="compound">IInterfaceType</ref> *</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>inst_name</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_mirror</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceInstLoopback.h" line="18" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceInstLoopback.cpp" bodystart="13" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1InterfaceInstLoopback_1a8e2b08f3260cca0eaf9f5f7f13b85016" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>tblink_rpc_core::InterfaceInstLoopback::InterfaceInstLoopback</definition>
+        <argsstring>(EndpointLoopback *endpoint, IInterfaceType *type, const std::string &amp;inst_name, bool is_mirror, const invoke_req_f &amp;req_f)</argsstring>
+        <name>InterfaceInstLoopback</name>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1EndpointLoopback" kindref="compound">EndpointLoopback</ref> *</type>
+          <declname>endpoint</declname>
+        </param>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1IInterfaceType" kindref="compound">IInterfaceType</ref> *</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>inst_name</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_mirror</declname>
+        </param>
+        <param>
+          <type>const invoke_req_f &amp;</type>
+          <declname>req_f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceInstLoopback.h" line="24" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceInstLoopback.cpp" bodystart="23" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1InterfaceInstLoopback_1a84b6e76fe0f207f810310862949c09ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>tblink_rpc_core::InterfaceInstLoopback::~InterfaceInstLoopback</definition>
+        <argsstring>()</argsstring>
+        <name>~InterfaceInstLoopback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceInstLoopback.h" line="31" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceInstLoopback.cpp" bodystart="34" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1InterfaceInstLoopback_1a147ffd4dc727906b7efc767b810bd941" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtblink__rpc__core_1_1InterfaceInstLoopback" kindref="compound">InterfaceInstLoopback</ref> *</type>
+        <definition>InterfaceInstLoopback* tblink_rpc_core::InterfaceInstLoopback::peer</definition>
+        <argsstring>() const</argsstring>
+        <name>peer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceInstLoopback.h" line="33" column="23" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceInstLoopback.h" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1InterfaceInstLoopback_1a68263af2df9fb58b65c8de32efd48bc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tblink_rpc_core::InterfaceInstLoopback::peer</definition>
+        <argsstring>(InterfaceInstLoopback *p)</argsstring>
+        <name>peer</name>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1InterfaceInstLoopback" kindref="compound">InterfaceInstLoopback</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceInstLoopback.h" line="35" column="6" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceInstLoopback.cpp" bodystart="38" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1InterfaceInstLoopback_1a7c2099d5aa63d94618fb71b246948070" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int32_t</type>
+        <definition>int32_t tblink_rpc_core::InterfaceInstLoopback::invoke_nb</definition>
+        <argsstring>(IMethodType *method, IParamValVec *params, const invoke_rsp_f &amp;completion_f) override</argsstring>
+        <name>invoke_nb</name>
+        <reimplements refid="classtblink__rpc__core_1_1IInterfaceInst_1a1a8a5e9ff7c9a0a384bd4159ee7c63c2">invoke_nb</reimplements>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1IMethodType" kindref="compound">IMethodType</ref> *</type>
+          <declname>method</declname>
+        </param>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1IParamValVec" kindref="compound">IParamValVec</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>const invoke_rsp_f &amp;</type>
+          <declname>completion_f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Invokes a method and delivers the response via a callback. Note that the response may be delivered while within the <computeroutput>invoke_nb</computeroutput> call or after it returns. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceInstLoopback.h" line="37" column="17" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceInstLoopback.cpp" bodystart="52" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1InterfaceInstLoopback_1abed4fda7dd4a600893d3ccbc1d58566f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int32_t</type>
+        <definition>int32_t tblink_rpc_core::InterfaceInstLoopback::req_invoke_nb</definition>
+        <argsstring>(IMethodType *method, intptr_t call_id, IParamValVec *params)</argsstring>
+        <name>req_invoke_nb</name>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1IMethodType" kindref="compound">IMethodType</ref> *</type>
+          <declname>method</declname>
+        </param>
+        <param>
+          <type>intptr_t</type>
+          <declname>call_id</declname>
+        </param>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1IParamValVec" kindref="compound">IParamValVec</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceInstLoopback.h" line="42" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceInstLoopback.cpp" bodystart="67" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1InterfaceInstLoopback_1a4d2dd6e5ceef8e90b41d4bde0a06be53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tblink_rpc_core::InterfaceInstLoopback::rsp_invoke</definition>
+        <argsstring>(intptr_t call_id, IParamVal *retval)</argsstring>
+        <name>rsp_invoke</name>
+        <param>
+          <type>intptr_t</type>
+          <declname>call_id</declname>
+        </param>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1IParamVal" kindref="compound">IParamVal</ref> *</type>
+          <declname>retval</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceInstLoopback.h" line="47" column="6" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceInstLoopback.cpp" bodystart="85" bodyend="94"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>tblink_rpc_core::IInterfaceInst</label>
+        <link refid="classtblink__rpc__core_1_1IInterfaceInst"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>tblink_rpc_core::InterfaceInstLoopback</label>
+        <link refid="classtblink__rpc__core_1_1InterfaceInstLoopback"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tblink_rpc_core::InterfaceInstBase</label>
+        <link refid="classtblink__rpc__core_1_1InterfaceInstBase"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>tblink_rpc_core::IParamValFactory</label>
+        <link refid="classtblink__rpc__core_1_1IParamValFactory"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>tblink_rpc_core::IEndpoint</label>
+        <link refid="classtblink__rpc__core_1_1IEndpoint"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tblink_rpc_core::IInterfaceInst</label>
+        <link refid="classtblink__rpc__core_1_1IInterfaceInst"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>tblink_rpc_core::InterfaceInstLoopback</label>
+        <link refid="classtblink__rpc__core_1_1InterfaceInstLoopback"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tblink_rpc_core::InterfaceInstBase</label>
+        <link refid="classtblink__rpc__core_1_1InterfaceInstBase"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>m_type</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>m_endpoint</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>tblink_rpc_core::IInterfaceType</label>
+        <link refid="classtblink__rpc__core_1_1IInterfaceType"/>
+      </node>
+      <node id="4">
+        <label>tblink_rpc_core::IParamValFactory</label>
+        <link refid="classtblink__rpc__core_1_1IParamValFactory"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceInstLoopback.h" line="16" column="53" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceInstLoopback.h" bodystart="16" bodyend="57"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1a2fa4018c08ab7667af5da75003df9fd4" prot="public" virt="virtual"><scope>tblink_rpc_core::InterfaceInstLoopback</scope><name>endpoint</name></member>
+      <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1a3654993f3927627504504f90574d1eb6" prot="public" virt="non-virtual"><scope>tblink_rpc_core::InterfaceInstLoopback</scope><name>InterfaceInstBase</name></member>
+      <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1a275a329798bb78f4237dc51e5f140115" prot="public" virt="non-virtual"><scope>tblink_rpc_core::InterfaceInstLoopback</scope><name>InterfaceInstBase</name></member>
+      <member refid="classtblink__rpc__core_1_1InterfaceInstLoopback_1ae5d658d57d75e59b984ef59956521503" prot="public" virt="non-virtual"><scope>tblink_rpc_core::InterfaceInstLoopback</scope><name>InterfaceInstLoopback</name></member>
+      <member refid="classtblink__rpc__core_1_1InterfaceInstLoopback_1a8e2b08f3260cca0eaf9f5f7f13b85016" prot="public" virt="non-virtual"><scope>tblink_rpc_core::InterfaceInstLoopback</scope><name>InterfaceInstLoopback</name></member>
+      <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1a40a66358cd4636553eba3bec65f7137b" prot="public" virt="non-virtual"><scope>tblink_rpc_core::InterfaceInstLoopback</scope><name>invoke_b_rsp</name></member>
+      <member refid="classtblink__rpc__core_1_1InterfaceInstLoopback_1a7c2099d5aa63d94618fb71b246948070" prot="public" virt="virtual"><scope>tblink_rpc_core::InterfaceInstLoopback</scope><name>invoke_nb</name></member>
+      <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1a153a5cdced414aa681696da2e7ac28de" prot="public" virt="virtual"><scope>tblink_rpc_core::InterfaceInstLoopback</scope><name>invoke_nb_rsp</name></member>
+      <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1abf43474a99c7dae3bc2bfb373f8c0f5b" prot="public" virt="non-virtual"><scope>tblink_rpc_core::InterfaceInstLoopback</scope><name>invoke_req</name></member>
+      <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1acc9359a38783bcd993a37bae1fd266c1" prot="public" virt="virtual"><scope>tblink_rpc_core::InterfaceInstLoopback</scope><name>invoke_rsp</name></member>
+      <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1a69e350e51baa931d1b6f1527049497b4" prot="public" virt="virtual"><scope>tblink_rpc_core::InterfaceInstLoopback</scope><name>is_mirror</name></member>
+      <member refid="classtblink__rpc__core_1_1InterfaceInstLoopback_1a0347ba76095c004716d6ec6910a4a24f" prot="private" virt="non-virtual"><scope>tblink_rpc_core::InterfaceInstLoopback</scope><name>m_call_id</name></member>
+      <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1a5f1e0f79fee51637ed3eace662d99a9b" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::InterfaceInstLoopback</scope><name>m_endpoint</name></member>
+      <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1a859bd924acabd540464475de0cd7306e" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::InterfaceInstLoopback</scope><name>m_inst_name</name></member>
+      <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1aca08ae58a700a8200ecce5aa3aef14ef" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::InterfaceInstLoopback</scope><name>m_invoke_m</name></member>
+      <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1a13e96a50eb4b111f5d5e62a67a3a7dd2" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::InterfaceInstLoopback</scope><name>m_is_mirror</name></member>
+      <member refid="classtblink__rpc__core_1_1InterfaceInstLoopback_1a0cfd590fe1e263018f464e672027c72d" prot="private" virt="non-virtual"><scope>tblink_rpc_core::InterfaceInstLoopback</scope><name>m_method_m</name></member>
+      <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1ab01370f8a1d2195aeff1d7225ec25f5a" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::InterfaceInstLoopback</scope><name>m_outbound_invoke_m</name></member>
+      <member refid="classtblink__rpc__core_1_1InterfaceInstLoopback_1a775fbcb48eaf4d0b53901bd9170b9a06" prot="private" virt="non-virtual"><scope>tblink_rpc_core::InterfaceInstLoopback</scope><name>m_peer</name></member>
+      <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1a76e9774db63797b457ff48045fc81d21" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::InterfaceInstLoopback</scope><name>m_req_f</name></member>
+      <member refid="classtblink__rpc__core_1_1InterfaceInstLoopback_1ac66b2110db254cd8218487b1e2eda52e" prot="private" virt="non-virtual"><scope>tblink_rpc_core::InterfaceInstLoopback</scope><name>m_rsp_m</name></member>
+      <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1abc267381784ca5816c9384f9541a4429" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::InterfaceInstLoopback</scope><name>m_type</name></member>
+      <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1a711b96fc59f9ea3a9fbef0a991e75c42" prot="public" virt="virtual"><scope>tblink_rpc_core::InterfaceInstLoopback</scope><name>mkValBool</name></member>
+      <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1a43d19c32a2c6c956e82516a8e0ab356e" prot="public" virt="virtual"><scope>tblink_rpc_core::InterfaceInstLoopback</scope><name>mkValIntS</name></member>
+      <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1ae0b89b3d63c6badfa0c313986807d8db" prot="public" virt="virtual"><scope>tblink_rpc_core::InterfaceInstLoopback</scope><name>mkValIntU</name></member>
+      <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1a602ad375222cdf0865c1a5e2e3a24c8b" prot="public" virt="virtual"><scope>tblink_rpc_core::InterfaceInstLoopback</scope><name>mkValMap</name></member>
+      <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1a739444c39f2d78866281fe55e2dac354" prot="public" virt="virtual"><scope>tblink_rpc_core::InterfaceInstLoopback</scope><name>mkValStr</name></member>
+      <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1aa490e1b61adc3619f3dd9d12d06ce2e0" prot="public" virt="virtual"><scope>tblink_rpc_core::InterfaceInstLoopback</scope><name>mkValVec</name></member>
+      <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1a2826a2a5cd71d5fef1ee122e4f298e65" prot="public" virt="virtual"><scope>tblink_rpc_core::InterfaceInstLoopback</scope><name>name</name></member>
+      <member refid="classtblink__rpc__core_1_1InterfaceInstLoopback_1a147ffd4dc727906b7efc767b810bd941" prot="public" virt="non-virtual"><scope>tblink_rpc_core::InterfaceInstLoopback</scope><name>peer</name></member>
+      <member refid="classtblink__rpc__core_1_1InterfaceInstLoopback_1a68263af2df9fb58b65c8de32efd48bc5" prot="public" virt="non-virtual"><scope>tblink_rpc_core::InterfaceInstLoopback</scope><name>peer</name></member>
+      <member refid="classtblink__rpc__core_1_1InterfaceInstLoopback_1abed4fda7dd4a600893d3ccbc1d58566f" prot="public" virt="non-virtual"><scope>tblink_rpc_core::InterfaceInstLoopback</scope><name>req_invoke_nb</name></member>
+      <member refid="classtblink__rpc__core_1_1InterfaceInstLoopback_1a4d2dd6e5ceef8e90b41d4bde0a06be53" prot="public" virt="non-virtual"><scope>tblink_rpc_core::InterfaceInstLoopback</scope><name>rsp_invoke</name></member>
+      <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1ad25344386822289590cc7d62abed93b4" prot="public" virt="virtual"><scope>tblink_rpc_core::InterfaceInstLoopback</scope><name>set_invoke_req_f</name></member>
+      <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1a393bf053f94303a9ae4c7d78a49801f4" prot="public" virt="virtual"><scope>tblink_rpc_core::InterfaceInstLoopback</scope><name>type</name></member>
+      <member refid="classtblink__rpc__core_1_1IInterfaceInst_1a960254ebe9cab0edd36ba8c44e22f08d" prot="public" virt="virtual"><scope>tblink_rpc_core::InterfaceInstLoopback</scope><name>~IInterfaceInst</name></member>
+      <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1a28420a54820bf2eca169107ee2f37263" prot="public" virt="virtual"><scope>tblink_rpc_core::InterfaceInstLoopback</scope><name>~InterfaceInstBase</name></member>
+      <member refid="classtblink__rpc__core_1_1InterfaceInstLoopback_1a84b6e76fe0f207f810310862949c09ff" prot="public" virt="virtual"><scope>tblink_rpc_core::InterfaceInstLoopback</scope><name>~InterfaceInstLoopback</name></member>
+      <member refid="classtblink__rpc__core_1_1IParamValFactory_1ad069ebe9d09dfee21677ff7242997612" prot="public" virt="virtual"><scope>tblink_rpc_core::InterfaceInstLoopback</scope><name>~IParamValFactory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

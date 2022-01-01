@@ -1,0 +1,765 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.17">
+  <compound refid="classtblink__rpc_1_1DpiEndpoint" kind="class"><name>tblink_rpc::DpiEndpoint</name>
+    <member refid="classtblink__rpc_1_1DpiEndpoint_1a6d38438f7e41a19aae61cc5b8f64a689" kind="variable"><name>m_hndl</name></member>
+    <member refid="classtblink__rpc_1_1DpiEndpoint_1aa9ce0f3a58848430b3c52eb783e7914d" kind="variable"><name>m_this</name></member>
+    <member refid="classtblink__rpc_1_1DpiEndpoint_1a040e24272a0143da9e2ea93c84643e10" kind="variable"><name>m_ifinst_id</name></member>
+    <member refid="classtblink__rpc_1_1DpiEndpoint_1a38fc76b83b7f5752c8ca02e13612b03c" kind="variable"><name>m_ifimpl_m</name></member>
+    <member refid="classtblink__rpc_1_1DpiEndpoint_1aa5d218d1453d70207ec9b712203fe853" kind="variable"><name>m_ifinst_m</name></member>
+    <member refid="classtblink__rpc_1_1DpiEndpoint_1a4fe98dde796d10eb5b43000dfc87498e" kind="variable"><name>m_started</name></member>
+    <member refid="classtblink__rpc_1_1DpiEndpoint_1a6c20819a5595c4f5b9156137bfec677e" kind="variable"><name>m_running</name></member>
+    <member refid="classtblink__rpc_1_1DpiEndpoint_1a021ccd2acfef9ea9b2d76e2cb2fcc1ff" kind="variable"><name>m_services</name></member>
+    <member refid="classtblink__rpc_1_1DpiEndpoint_1a1dfef88d823b9990adfb800206237cf2" kind="variable"><name>m_services_proxy</name></member>
+    <member refid="classtblink__rpc_1_1DpiEndpoint_1a54bac19fe40cc0054298e6cc63bddcc2" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1DpiEndpoint_1a7e63a196f2d4b27359dbd32cdc5d2f75" kind="function"><name>set_hndl</name></member>
+    <member refid="classtblink__rpc_1_1DpiEndpoint_1a0ebf2f49075732d1e33f89f19ee2c1ed" kind="function"><name>set_this</name></member>
+    <member refid="classtblink__rpc_1_1DpiEndpoint_1af22e7adfba89f586a12b7e3d79209508" kind="function"><name>init</name></member>
+    <member refid="classtblink__rpc_1_1DpiEndpoint_1ac2bc74c9c11c14afb8ac83e8effbbbfd" kind="function"><name>is_init</name></member>
+    <member refid="classtblink__rpc_1_1DpiEndpoint_1a217de539f9c9a9373bc4bfb77a47e9b9" kind="function"><name>build_complete</name></member>
+    <member refid="classtblink__rpc_1_1DpiEndpoint_1ad43412996a887481294a7c14b86e50bb" kind="function"><name>is_build_complete</name></member>
+    <member refid="classtblink__rpc_1_1DpiEndpoint_1af1eea43609bdf7877db962f105ed9222" kind="function"><name>connect_complete</name></member>
+    <member refid="classtblink__rpc_1_1DpiEndpoint_1aa7e3d9698304770142e6fec298f9fc28" kind="function"><name>is_connect_complete</name></member>
+    <member refid="classtblink__rpc_1_1DpiEndpoint_1a8f8f7d9f7dc73a1a0481d28c35424f5e" kind="function"><name>comm_state</name></member>
+    <member refid="classtblink__rpc_1_1DpiEndpoint_1a21bfbeedec4aea9dd8d6b87606460295" kind="function"><name>addListener</name></member>
+    <member refid="classtblink__rpc_1_1DpiEndpoint_1ae14ef1ad90d6d8c29118240e9b6f5a15" kind="function"><name>removeListener</name></member>
+    <member refid="classtblink__rpc_1_1DpiEndpoint_1a5f33a5ed058a90858fe443d9a81a5289" kind="function"><name>await_run_until_event</name></member>
+    <member refid="classtblink__rpc_1_1DpiEndpoint_1a10d1814e28e49f945327525ae8cdd364" kind="function"><name>shutdown</name></member>
+    <member refid="classtblink__rpc_1_1DpiEndpoint_1a45bd4b9af648bf35c5a16f4578dc00ab" kind="function"><name>last_error</name></member>
+    <member refid="classtblink__rpc_1_1DpiEndpoint_1ab4d9576effa616ad97fb6f5e40579033" kind="function"><name>findInterfaceType</name></member>
+    <member refid="classtblink__rpc_1_1DpiEndpoint_1a301ec28cfa4e8afefc2ad3410c5faee6" kind="function"><name>newInterfaceTypeBuilder</name></member>
+    <member refid="classtblink__rpc_1_1DpiEndpoint_1a7c1b84a856c3ac101c797f6630fc0374" kind="function"><name>defineInterfaceType</name></member>
+    <member refid="classtblink__rpc_1_1DpiEndpoint_1a5de0a9338fab79367c785633616c0bd7" kind="function"><name>defineInterfaceInst</name></member>
+    <member refid="classtblink__rpc_1_1DpiEndpoint_1a2b15ed28e57af02c223f736effc0f93a" kind="function"><name>process_one_message</name></member>
+    <member refid="classtblink__rpc_1_1DpiEndpoint_1a38be9dd7e2ed8ef5630d4498998d5eac" kind="function"><name>process_one_message_b</name></member>
+    <member refid="classtblink__rpc_1_1DpiEndpoint_1a93bf3a656fead3ecf32e2d04cbaca3ad" kind="function"><name>getInterfaceInsts</name></member>
+    <member refid="classtblink__rpc_1_1DpiEndpoint_1ab49a91507cc24d0bd845dc0435bed6b7" kind="function"><name>run</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1DpiEndpointEvent" kind="class"><name>tblink_rpc::DpiEndpointEvent</name>
+    <member refid="classtblink__rpc_1_1DpiEndpointEvent_1a5af7607b2508b4b158ea78e6da9768f3" kind="variable"><name>m_hndl</name></member>
+    <member refid="classtblink__rpc_1_1DpiEndpointEvent_1af474ebbebfa67e7035c091209a69f92b" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1DpiEndpointEvent_1aeadc32f056a9c74ae0f924b6b90ea8fb" kind="function"><name>kind</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1DpiEndpointLoopbackDpi" kind="class"><name>tblink_rpc::DpiEndpointLoopbackDpi</name>
+    <member refid="classtblink__rpc_1_1DpiEndpointLoopbackDpi_1a6520f5a077262a5803c4e8dd8c9ce146" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1DpiEndpointLoopbackDpi_1a7e94cbc0bdf204c83f3ec5a1127aa0ce" kind="function"><name>process_one_message_b</name></member>
+    <member refid="classtblink__rpc_1_1DpiEndpointLoopbackDpi_1a2d469c12251caeee58e1b88c70665b83" kind="function"><name>mk</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1DpiInterfaceImpl" kind="class"><name>tblink_rpc::DpiInterfaceImpl</name>
+    <member refid="classtblink__rpc_1_1DpiInterfaceImpl_1ae60b8d3ef30b470487a48e5650107df2" kind="variable"><name>m_inst_path</name></member>
+    <member refid="classtblink__rpc_1_1DpiInterfaceImpl_1a4360597dac35b5148a87e0fa7f11ea88" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1DpiInterfaceImpl_1aa8c5dae89bf1ebc93bddb37c4bc9955d" kind="function"><name>invoke_nb</name></member>
+    <member refid="classtblink__rpc_1_1DpiInterfaceImpl_1a5f8e1f63451b5b75c300c70369d65fa1" kind="function"><name>invoke_b</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1DpiInterfaceInst" kind="class"><name>tblink_rpc::DpiInterfaceInst</name>
+    <member refid="classtblink__rpc_1_1DpiInterfaceInst_1a4ee4bdbe48be5136989963d34ac8edb5" kind="variable"><name>m_hndl</name></member>
+    <member refid="classtblink__rpc_1_1DpiInterfaceInst_1af20968b0ce6c7c0653ea4a6257d2573b" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1DpiInterfaceInst_1aae9ef408f26f85ee470d7f9520f17d12" kind="function"><name>set_impl</name></member>
+    <member refid="classtblink__rpc_1_1DpiInterfaceInst_1a979dfa507358cb05e9d24d3197272aa8" kind="function"><name>get_impl</name></member>
+    <member refid="classtblink__rpc_1_1DpiInterfaceInst_1a4e7c6860059a6ebf6194aa9376427161" kind="function"><name>endpoint</name></member>
+    <member refid="classtblink__rpc_1_1DpiInterfaceInst_1ac0e7183199782be52a716ef13aba1fb3" kind="function"><name>invoke_nb</name></member>
+    <member refid="classtblink__rpc_1_1DpiInterfaceInst_1a4393b33bfd835e72184f84ff96f5c15a" kind="function"><name>invoke_b</name></member>
+    <member refid="classtblink__rpc_1_1DpiInterfaceInst_1a2765c515602fe66d25c03b7c0d5d6a26" kind="function"><name>invoke_rsp</name></member>
+    <member refid="classtblink__rpc_1_1DpiInterfaceInst_1abf8201ce3cb6bfeebd739b7e32146e5a" kind="function"><name>mkValBool</name></member>
+    <member refid="classtblink__rpc_1_1DpiInterfaceInst_1a982591aaf9d7706d686ac8f8b03fac54" kind="function"><name>mkValIntS</name></member>
+    <member refid="classtblink__rpc_1_1DpiInterfaceInst_1aa17be207a3cd38bdad48a11a8b08c125" kind="function"><name>mkValIntU</name></member>
+    <member refid="classtblink__rpc_1_1DpiInterfaceInst_1a6f86b4efa6351838c890fbc377c92bac" kind="function"><name>mkValMap</name></member>
+    <member refid="classtblink__rpc_1_1DpiInterfaceInst_1a66208b9fb404b41a7cc8eaf69d2a8ffe" kind="function"><name>mkValStr</name></member>
+    <member refid="classtblink__rpc_1_1DpiInterfaceInst_1a294c89e7ae9b90f308a2bd44efca519c" kind="function"><name>mkValVec</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1DpiInterfaceInstInvokeClosure" kind="class"><name>tblink_rpc::DpiInterfaceInstInvokeClosure</name>
+    <member refid="classtblink__rpc_1_1DpiInterfaceInstInvokeClosure_1a50650ba8c074448fd4921ace041de747" kind="variable"><name>m_hndl</name></member>
+    <member refid="classtblink__rpc_1_1DpiInterfaceInstInvokeClosure_1a133e351e2f5d4628642251f72d258b0c" kind="variable"><name>m_retval</name></member>
+    <member refid="classtblink__rpc_1_1DpiInterfaceInstInvokeClosure_1ac38425959518c793903e295db00d753d" kind="variable"><name>m_valid</name></member>
+    <member refid="classtblink__rpc_1_1DpiInterfaceInstInvokeClosure_1afbeea4e5ca6446301ebd78ce1b69b97f" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1DpiInterfaceInstInvokeClosure_1aff0ab4739df52909eed405bbc062db40" kind="function"><name>dispose</name></member>
+    <member refid="classtblink__rpc_1_1DpiInterfaceInstInvokeClosure_1a37c150674883ad7e628869c0b40eda5f" kind="function"><name>response</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1DpiInterfaceType" kind="class"><name>tblink_rpc::DpiInterfaceType</name>
+    <member refid="classtblink__rpc_1_1DpiInterfaceType_1ad926756f0153daa6931316a6d55c244e" kind="variable"><name>m_hndl</name></member>
+    <member refid="classtblink__rpc_1_1DpiInterfaceType_1a768cd73d1821f8746d2da8a628b15de7" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1DpiInterfaceType_1a759135f730c09234cf4b45ae24b8491b" kind="function"><name>findMethod</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1DpiInterfaceTypeBuilder" kind="class"><name>tblink_rpc::DpiInterfaceTypeBuilder</name>
+    <member refid="classtblink__rpc_1_1DpiInterfaceTypeBuilder_1a02393475c153823243036774c004792a" kind="variable"><name>m_hndl</name></member>
+    <member refid="classtblink__rpc_1_1DpiInterfaceTypeBuilder_1a30431f0a4dc8c2fa24eb9ffbe6300605" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1DpiInterfaceTypeBuilder_1aab9a24d0a4488dfb1f8b8609fcb1ecba" kind="function"><name>newMethodTypeBuilder</name></member>
+    <member refid="classtblink__rpc_1_1DpiInterfaceTypeBuilder_1a6d7feb0447ae48919bcaf595d64b7c0c" kind="function"><name>add_method</name></member>
+    <member refid="classtblink__rpc_1_1DpiInterfaceTypeBuilder_1aabf3645d10a9a6fd0586189a0aa48df6" kind="function"><name>mkTypeBool</name></member>
+    <member refid="classtblink__rpc_1_1DpiInterfaceTypeBuilder_1abce80c52c30af7097cab2bb88d5fb505" kind="function"><name>mkTypeInt</name></member>
+    <member refid="classtblink__rpc_1_1DpiInterfaceTypeBuilder_1a1df8e4bf8306125557d2cb626e9dd87a" kind="function"><name>mkTypeMap</name></member>
+    <member refid="classtblink__rpc_1_1DpiInterfaceTypeBuilder_1a70428eaf4e576b2c1420951e489da2e7" kind="function"><name>mkTypeStr</name></member>
+    <member refid="classtblink__rpc_1_1DpiInterfaceTypeBuilder_1ac1df44b7059a549cf016f0b65d34375b" kind="function"><name>mkTypeVec</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1DpiLaunchParams" kind="class"><name>tblink_rpc::DpiLaunchParams</name>
+    <member refid="classtblink__rpc_1_1DpiLaunchParams_1a654d652d02fef3054a64071ae0259a6f" kind="variable"><name>m_hndl</name></member>
+    <member refid="classtblink__rpc_1_1DpiLaunchParams_1a21c9a3580747a6e0e70272eab3ca3b70" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1DpiLaunchParams_1a68794096c1778bb99353d51808a280b3" kind="function"><name>add_arg</name></member>
+    <member refid="classtblink__rpc_1_1DpiLaunchParams_1a99265aba9e7d44fd758fbddcefa82a1f" kind="function"><name>args</name></member>
+    <member refid="classtblink__rpc_1_1DpiLaunchParams_1a2376f5d0641c6374136ca1940baaf28e" kind="function"><name>add_param</name></member>
+    <member refid="classtblink__rpc_1_1DpiLaunchParams_1a72f754415b46e33bfc46d545727194d9" kind="function"><name>params</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1DpiLaunchType" kind="class"><name>tblink_rpc::DpiLaunchType</name>
+    <member refid="classtblink__rpc_1_1DpiLaunchType_1a5202ee5b01b0d3a06667e0a0ded5276b" kind="variable"><name>m_hndl</name></member>
+    <member refid="classtblink__rpc_1_1DpiLaunchType_1ac63420b161e545793d3e39f9a3c8812d" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1DpiLaunchType_1ae5650428f9b6bc43ca6ab45ced98f979" kind="function"><name>launch</name></member>
+    <member refid="classtblink__rpc_1_1DpiLaunchType_1a733451c02bf3045664b0cefa0cbc5eb1" kind="function"><name>newLaunchParams</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1DpiMethodType" kind="class"><name>tblink_rpc::DpiMethodType</name>
+    <member refid="classtblink__rpc_1_1DpiMethodType_1a4638b7a6fbf6dfc721a320cba3029a6b" kind="variable"><name>m_hndl</name></member>
+    <member refid="classtblink__rpc_1_1DpiMethodType_1a00603dc89ea25c9ba3aba6b235477899" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1DpiMethodType_1a95cbb91ed959125b2f04a9f29f7fc639" kind="function"><name>name</name></member>
+    <member refid="classtblink__rpc_1_1DpiMethodType_1a848e2e2ee676f4c21736f66e27ff1b2c" kind="function"><name>id</name></member>
+    <member refid="classtblink__rpc_1_1DpiMethodType_1aa414413480debfa8f52cba01749b9d96" kind="function"><name>is_export</name></member>
+    <member refid="classtblink__rpc_1_1DpiMethodType_1a5c4bf26c7d758f241d5b6b90abea1df9" kind="function"><name>is_blocking</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1DpiMethodTypeBuilder" kind="class"><name>tblink_rpc::DpiMethodTypeBuilder</name>
+    <member refid="classtblink__rpc_1_1DpiMethodTypeBuilder_1aedd053c5854fac2c04482b3b45154e1a" kind="variable"><name>m_hndl</name></member>
+    <member refid="classtblink__rpc_1_1DpiMethodTypeBuilder_1a7e4e2a36bf14090411151970d7c21973" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1DpiMethodTypeBuilder_1a1ced4c937ab83662d7554aea90a32aed" kind="function"><name>add_param</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1DpiParamVal" kind="class"><name>tblink_rpc::DpiParamVal</name>
+    <member refid="classtblink__rpc_1_1DpiParamVal_1afde3911053e3369a748e8913d8841d66" kind="variable"><name>m_hndl</name></member>
+    <member refid="classtblink__rpc_1_1DpiParamVal_1a76567483b5b81b939b42265a583878e0" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1DpiParamVal_1afc347e96208572757e50946381533dd0" kind="function"><name>clone</name></member>
+    <member refid="classtblink__rpc_1_1DpiParamVal_1ad543a26208f2d4497a5c26530b7ac6ff" kind="function"><name>dispose</name></member>
+    <member refid="classtblink__rpc_1_1DpiParamVal_1a2ce51a2859583958099d00cb00641985" kind="function"><name>_kind</name></member>
+    <member refid="classtblink__rpc_1_1DpiParamVal_1a9459089567e305890bacc7e29ce00cc3" kind="function"><name>_clone</name></member>
+    <member refid="classtblink__rpc_1_1DpiParamVal_1a9484f0c074dec6a7ca5e420ec0312771" kind="function"><name>getHndl</name></member>
+    <member refid="classtblink__rpc_1_1DpiParamVal_1a15e85a03276498a9233d1285159b1963" kind="function"><name>mk</name></member>
+    <member refid="classtblink__rpc_1_1DpiParamVal_1ac4b1ff8b5df601cfa06b5c6570884fff" kind="function"><name>do_dispose</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1DpiParamValBool" kind="class"><name>tblink_rpc::DpiParamValBool</name>
+    <member refid="classtblink__rpc_1_1DpiParamValBool_1af118a18b1811a857993fcf08e08683fa" kind="variable"><name>m_hndl</name></member>
+    <member refid="classtblink__rpc_1_1DpiParamValBool_1ab7ee61b5de7f0ea20d6d5c31e8843394" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1DpiParamValBool_1a692cbe6bd441e3de07605f7031cc771f" kind="function"><name>val</name></member>
+    <member refid="classtblink__rpc_1_1DpiParamValBool_1abc71248e9d48c1d0f3787296f31345e0" kind="function"><name>kind</name></member>
+    <member refid="classtblink__rpc_1_1DpiParamValBool_1a3e77f8d618bbca31a5fce8d078a6167e" kind="function"><name>dispose</name></member>
+    <member refid="classtblink__rpc_1_1DpiParamValBool_1a5f11973c0f8d9c2b83be4b2d8fb7284c" kind="function"><name>clone</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1DpiParamValInt" kind="class"><name>tblink_rpc::DpiParamValInt</name>
+    <member refid="classtblink__rpc_1_1DpiParamValInt_1a110bbe2f9ae347fb8d521f5ec3dbfa10" kind="variable"><name>m_hndl</name></member>
+    <member refid="classtblink__rpc_1_1DpiParamValInt_1a188bd8ee634b15147a32a4400f182e43" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1DpiParamValInt_1ab31601383612ec0fb6d4d958944c256a" kind="function"><name>kind</name></member>
+    <member refid="classtblink__rpc_1_1DpiParamValInt_1a966035a3aa5c87e071f52e511d3bd3f5" kind="function"><name>val_s</name></member>
+    <member refid="classtblink__rpc_1_1DpiParamValInt_1a0f6ce3dfd4a6d25d757b153f18a143ef" kind="function"><name>val_u</name></member>
+    <member refid="classtblink__rpc_1_1DpiParamValInt_1aff6805b951799a3171ba513092bd85d7" kind="function"><name>dispose</name></member>
+    <member refid="classtblink__rpc_1_1DpiParamValInt_1a1eb76847b161124b03d186046d6e0fba" kind="function"><name>clone</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1DpiParamValMap" kind="class"><name>tblink_rpc::DpiParamValMap</name>
+    <member refid="classtblink__rpc_1_1DpiParamValMap_1aa016b5ef4b6cfc2494e40be9efa70379" kind="variable"><name>m_hndl</name></member>
+    <member refid="classtblink__rpc_1_1DpiParamValMap_1a2ce6bec48ac23765aff6b7582679519a" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1DpiParamValMap_1a6c87368d63a7c7464b815e68ce6f4473" kind="function"><name>kind</name></member>
+    <member refid="classtblink__rpc_1_1DpiParamValMap_1ad6f3ebfbab90777a04d14dd0757e20bb" kind="function"><name>hasKey</name></member>
+    <member refid="classtblink__rpc_1_1DpiParamValMap_1a3d5137ffd88b79b5b9bed46f310bdb06" kind="function"><name>getVal</name></member>
+    <member refid="classtblink__rpc_1_1DpiParamValMap_1ad7704041c845c7f55a4580b40bb1761e" kind="function"><name>setVal</name></member>
+    <member refid="classtblink__rpc_1_1DpiParamValMap_1a2e8b11a14df118355616bee3a0deb1d4" kind="function"><name>dispose</name></member>
+    <member refid="classtblink__rpc_1_1DpiParamValMap_1a98f666644cb96612a609d179fef2d6eb" kind="function"><name>clone</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1DpiParamValStr" kind="class"><name>tblink_rpc::DpiParamValStr</name>
+    <member refid="classtblink__rpc_1_1DpiParamValStr_1a230df9158e4678736b346c9cd6a25b69" kind="variable"><name>m_hndl</name></member>
+    <member refid="classtblink__rpc_1_1DpiParamValStr_1a70cf471b022cd0756879003685d5bc84" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1DpiParamValStr_1a6bd6f3da9910890d62719703f3e8f62b" kind="function"><name>kind</name></member>
+    <member refid="classtblink__rpc_1_1DpiParamValStr_1a4fa0a1f899a3cd3a6afba0c33e628993" kind="function"><name>val</name></member>
+    <member refid="classtblink__rpc_1_1DpiParamValStr_1a134dc168a10c74b7819e583dd4311df0" kind="function"><name>dispose</name></member>
+    <member refid="classtblink__rpc_1_1DpiParamValStr_1a8e891c638b5c708f11eacfacf01a2653" kind="function"><name>clone</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1DpiParamValVec" kind="class"><name>tblink_rpc::DpiParamValVec</name>
+    <member refid="classtblink__rpc_1_1DpiParamValVec_1a8f776b44aeade205beebd238d5e56ead" kind="variable"><name>m_hndl</name></member>
+    <member refid="classtblink__rpc_1_1DpiParamValVec_1a0abd6917d7e042d0ee0f729480062fdf" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1DpiParamValVec_1a5fa20712dbdff033b37ba62de291166f" kind="function"><name>kind</name></member>
+    <member refid="classtblink__rpc_1_1DpiParamValVec_1ad293e0678bb27d2ffb141357989bde80" kind="function"><name>size</name></member>
+    <member refid="classtblink__rpc_1_1DpiParamValVec_1a1840019172423f872e96cdd1b1f271a6" kind="function"><name>at</name></member>
+    <member refid="classtblink__rpc_1_1DpiParamValVec_1a009ef09f9c4cc06722fd2a612fab1082" kind="function"><name>push_back</name></member>
+    <member refid="classtblink__rpc_1_1DpiParamValVec_1a2d34a3c29f4ee55ca4886308dec0427c" kind="function"><name>dispose</name></member>
+    <member refid="classtblink__rpc_1_1DpiParamValVec_1a7d32dfead2056af3573f39beb9c25567" kind="function"><name>clone</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1DpiType" kind="class"><name>tblink_rpc::DpiType</name>
+    <member refid="classtblink__rpc_1_1DpiType_1af9e84ea8081e3403e626bd89878ae43f" kind="variable"><name>m_hndl</name></member>
+    <member refid="classtblink__rpc_1_1DpiType_1ae615a14adce5dd5eef1d3f461ff84c47" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1DpiType_1a7c71ae65872a0b2baf1b2355c77d3b1d" kind="function"><name>kind</name></member>
+    <member refid="classtblink__rpc_1_1DpiType_1a3482295baa4bbb2a4c66e2aeeb9fd3d2" kind="function"><name>_kind</name></member>
+    <member refid="classtblink__rpc_1_1DpiType_1afbab6b8299cbc74ea7a3ecaa0479b86b" kind="function"><name>getHndl</name></member>
+    <member refid="classtblink__rpc_1_1DpiType_1a0cc0cec49bc39616d5cc89ce729f5d06" kind="function"><name>mk</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1DpiTypeInt" kind="class"><name>tblink_rpc::DpiTypeInt</name>
+    <member refid="classtblink__rpc_1_1DpiTypeInt_1ac5be2f0fb2e0ee5cc0584a81e59e9cb3" kind="variable"><name>m_hndl</name></member>
+    <member refid="classtblink__rpc_1_1DpiTypeInt_1a3c8e857cc6ef4a6720317a5a960c306e" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1DpiTypeInt_1a8bf83e69de45ab37ca15f68c6549b13c" kind="function"><name>kind</name></member>
+    <member refid="classtblink__rpc_1_1DpiTypeInt_1a83cdee43fc70a47549776331be1876bd" kind="function"><name>is_signed</name></member>
+    <member refid="classtblink__rpc_1_1DpiTypeInt_1ae915c1a40295748ba9378b4cdf369a2e" kind="function"><name>width</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1DpiTypeMap" kind="class"><name>tblink_rpc::DpiTypeMap</name>
+    <member refid="classtblink__rpc_1_1DpiTypeMap_1a0487a29b05e0cfff7c8efa0ef18775e7" kind="variable"><name>m_hndl</name></member>
+    <member refid="classtblink__rpc_1_1DpiTypeMap_1a7a83a858ddbd348db90d1e51c5e0f338" kind="function"><name>new</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1DpiTypeVec" kind="class"><name>tblink_rpc::DpiTypeVec</name>
+    <member refid="classtblink__rpc_1_1DpiTypeVec_1aa632659cef4a11a624c999d6e3275ee8" kind="variable"><name>m_hndl</name></member>
+    <member refid="classtblink__rpc_1_1DpiTypeVec_1a63cb2554ac52c3221de0fcc12d5688b3" kind="function"><name>new</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1IEndpoint" kind="class"><name>tblink_rpc::IEndpoint</name>
+    <member refid="classtblink__rpc_1_1IEndpoint_1a27a23baecfc154e89cb7e2cd2d7597cc" kind="enum"><name>comm_state_e</name></member>
+    <member refid="classtblink__rpc_1_1IEndpoint_1a27a23baecfc154e89cb7e2cd2d7597ccad1d323a83babe11cb9154628d4ad8b90" kind="enumvalue"><name>Waiting</name></member>
+    <member refid="classtblink__rpc_1_1IEndpoint_1a27a23baecfc154e89cb7e2cd2d7597ccab6abe30a3acd8ab3a883b673d42f8edc" kind="enumvalue"><name>Released</name></member>
+    <member refid="classtblink__rpc_1_1IEndpoint_1a556b566c429a768e642c3a76ddbb515d" kind="function"><name>init</name></member>
+    <member refid="classtblink__rpc_1_1IEndpoint_1a452e692f0d6acd881b98edc8ebce652f" kind="function"><name>is_init</name></member>
+    <member refid="classtblink__rpc_1_1IEndpoint_1a8ac4e37bc389c1a9e1e22e192aa70d86" kind="function"><name>build_complete</name></member>
+    <member refid="classtblink__rpc_1_1IEndpoint_1af41881c5aeed15369fcb756a20ddc90f" kind="function"><name>is_build_complete</name></member>
+    <member refid="classtblink__rpc_1_1IEndpoint_1a61a99731e547ad568ea1aed2a379d1b9" kind="function"><name>connect_complete</name></member>
+    <member refid="classtblink__rpc_1_1IEndpoint_1a17987cdcb9dd0be67c1a846394d00d43" kind="function"><name>is_connect_complete</name></member>
+    <member refid="classtblink__rpc_1_1IEndpoint_1a9b0baf75d79d5cae472b6b82263a1b0b" kind="function"><name>addListener</name></member>
+    <member refid="classtblink__rpc_1_1IEndpoint_1a27dc60268d6c65844561bcdc1d487c08" kind="function"><name>removeListener</name></member>
+    <member refid="classtblink__rpc_1_1IEndpoint_1abe27e855aa88e0407d59ef7cfbdeed69" kind="function"><name>await_run_until_event</name></member>
+    <member refid="classtblink__rpc_1_1IEndpoint_1a84978f42bbbfa85979d5e5f0adf2eb85" kind="function"><name>shutdown</name></member>
+    <member refid="classtblink__rpc_1_1IEndpoint_1a00f95603e44766c792021dd6fd8096c3" kind="function"><name>comm_state</name></member>
+    <member refid="classtblink__rpc_1_1IEndpoint_1ae1799aafcc35c22ffe6d4054241e416b" kind="function"><name>last_error</name></member>
+    <member refid="classtblink__rpc_1_1IEndpoint_1a27c441a07983c7bee30a99b17605e45e" kind="function"><name>findInterfaceType</name></member>
+    <member refid="classtblink__rpc_1_1IEndpoint_1a7dc1af5d7c59b63cce8037359370a37e" kind="function"><name>newInterfaceTypeBuilder</name></member>
+    <member refid="classtblink__rpc_1_1IEndpoint_1a2148f789dc3b09fb46d4ffbd9a0bb08a" kind="function"><name>defineInterfaceType</name></member>
+    <member refid="classtblink__rpc_1_1IEndpoint_1a1ca99a41d473f56183e3aea2ada4d738" kind="function"><name>defineInterfaceInst</name></member>
+    <member refid="classtblink__rpc_1_1IEndpoint_1a9484f278aba51b0ef8de9f0ab8f56624" kind="function"><name>process_one_message</name></member>
+    <member refid="classtblink__rpc_1_1IEndpoint_1ac0b830e5127ec6766e66029c409d5a0b" kind="function"><name>process_one_message_b</name></member>
+    <member refid="classtblink__rpc_1_1IEndpoint_1abaa49915842362999ee652ddab474e44" kind="function"><name>getInterfaceInsts</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1IEndpointEvent" kind="class"><name>tblink_rpc::IEndpointEvent</name>
+    <member refid="classtblink__rpc_1_1IEndpointEvent_1a328eb59ee9b4801d5d14583b1f9f0fdf" kind="enum"><name>kind_t</name></member>
+    <member refid="classtblink__rpc_1_1IEndpointEvent_1a328eb59ee9b4801d5d14583b1f9f0fdfae986b457a1287f879f0ba67ba99ac201" kind="enumvalue"><name>Unknown</name></member>
+    <member refid="classtblink__rpc_1_1IEndpointEvent_1af30ddad9890c82371624400f57761cd1" kind="function"><name>kind</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1IEndpointListener" kind="class"><name>tblink_rpc::IEndpointListener</name>
+    <member refid="classtblink__rpc_1_1IEndpointListener_1afc007aa8b5c7ae5389a299199c8cc05d" kind="function"><name>event_f</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1IEndpointServices" kind="class"><name>tblink_rpc::IEndpointServices</name>
+    <member refid="classtblink__rpc_1_1IEndpointServices_1a5063d230257c644498b7f6c64c4393ef" kind="function"><name>init</name></member>
+    <member refid="classtblink__rpc_1_1IEndpointServices_1a973c877c8c7fcee21d8953906a48c3f1" kind="function"><name>args</name></member>
+    <member refid="classtblink__rpc_1_1IEndpointServices_1a195e2bafe4999006f8e3eadbddddd08c" kind="function"><name>shutdown</name></member>
+    <member refid="classtblink__rpc_1_1IEndpointServices_1a7bc366d7aa2dfd4dc35c9958d2665b77" kind="function"><name>add_time_cb</name></member>
+    <member refid="classtblink__rpc_1_1IEndpointServices_1a7208b328989514401acab7f8b164389c" kind="function"><name>cancel_callback</name></member>
+    <member refid="classtblink__rpc_1_1IEndpointServices_1ab107a339fccecf079fae57bb60b3f0ae" kind="function"><name>get_time</name></member>
+    <member refid="classtblink__rpc_1_1IEndpointServices_1aaf6e063e365421b6b769d05478099324" kind="function"><name>time_precision</name></member>
+    <member refid="classtblink__rpc_1_1IEndpointServices_1a01177108dda49437831009257507ebfc" kind="function"><name>run_until_event</name></member>
+    <member refid="classtblink__rpc_1_1IEndpointServices_1ada1d6a734b44d82c51c497432a04d9fd" kind="function"><name>hit_event</name></member>
+    <member refid="classtblink__rpc_1_1IEndpointServices_1ab9c4404955c00e61dc0434eb2e3b895f" kind="function"><name>idle</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1IEndpointServicesFactory" kind="class"><name>tblink_rpc::IEndpointServicesFactory</name>
+    <member refid="classtblink__rpc_1_1IEndpointServicesFactory_1af39e405ab70855ef770b2989a905d1c7" kind="function"><name>create</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1IInterfaceImpl" kind="class"><name>tblink_rpc::IInterfaceImpl</name>
+    <member refid="classtblink__rpc_1_1IInterfaceImpl_1ac620f3a6be7c94c8e335b31f01c1730c" kind="function"><name>init</name></member>
+    <member refid="classtblink__rpc_1_1IInterfaceImpl_1afe026479015b350fe5bde6ac16c19244" kind="function"><name>invoke_nb</name></member>
+    <member refid="classtblink__rpc_1_1IInterfaceImpl_1a0d01513d8d12dba4db89845983e62a4e" kind="function"><name>invoke_b</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1IInterfaceInst" kind="class"><name>tblink_rpc::IInterfaceInst</name>
+    <member refid="classtblink__rpc_1_1IInterfaceInst_1a9719944cd633e099199c53af139fdbbf" kind="function"><name>set_impl</name></member>
+    <member refid="classtblink__rpc_1_1IInterfaceInst_1a919fd3024f9bf40c312ff41e2fb3a91f" kind="function"><name>get_impl</name></member>
+    <member refid="classtblink__rpc_1_1IInterfaceInst_1a0b08fae010a82d668e9eec4d8151b8bb" kind="function"><name>endpoint</name></member>
+    <member refid="classtblink__rpc_1_1IInterfaceInst_1adae4aceff13b686470ef6825aae7cfb3" kind="function"><name>name</name></member>
+    <member refid="classtblink__rpc_1_1IInterfaceInst_1a5b2e40ba8a37e32c8390a5649e673dd6" kind="function"><name>iftype</name></member>
+    <member refid="classtblink__rpc_1_1IInterfaceInst_1ab2ff64c3610cac8d23f048b3d9226950" kind="function"><name>is_mirror</name></member>
+    <member refid="classtblink__rpc_1_1IInterfaceInst_1a233850c6d2f111417060511e43a2fbaf" kind="function"><name>invoke_nb</name></member>
+    <member refid="classtblink__rpc_1_1IInterfaceInst_1a45b4397ee74bb9a9e985a62db0cda933" kind="function"><name>invoke_b</name></member>
+    <member refid="classtblink__rpc_1_1IInterfaceInst_1a34a790b05d059adc59ee48abe28547b3" kind="function"><name>invoke_rsp</name></member>
+    <member refid="classtblink__rpc_1_1IInterfaceInst_1aac73b25d0b3fe0a1a3ab5f6857b83c73" kind="function"><name>mkValBool</name></member>
+    <member refid="classtblink__rpc_1_1IInterfaceInst_1adbcc9a14e4cbceaab46c6349287de90e" kind="function"><name>mkValIntS</name></member>
+    <member refid="classtblink__rpc_1_1IInterfaceInst_1a94be244378c232c7b7e7b966be66ecf0" kind="function"><name>mkValIntU</name></member>
+    <member refid="classtblink__rpc_1_1IInterfaceInst_1a2d164aeafb5358e329680163334e9a0f" kind="function"><name>mkValMap</name></member>
+    <member refid="classtblink__rpc_1_1IInterfaceInst_1abca87cdba737c2e861597123a37ca51e" kind="function"><name>mkValStr</name></member>
+    <member refid="classtblink__rpc_1_1IInterfaceInst_1a38052cfeaa31a622f0c37079b9f307a5" kind="function"><name>mkValVec</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1IInterfaceType" kind="class"><name>tblink_rpc::IInterfaceType</name>
+    <member refid="classtblink__rpc_1_1IInterfaceType_1a5ee83990bd26e33a3eeb7a9b8ce3e07d" kind="typedef"><name>method_l</name></member>
+    <member refid="classtblink__rpc_1_1IInterfaceType_1ad34114f343c164a7c4fbfa2b599efffe" kind="function"><name>name</name></member>
+    <member refid="classtblink__rpc_1_1IInterfaceType_1a2e24697126acfbab6f339d117332c4ff" kind="function"><name>methods</name></member>
+    <member refid="classtblink__rpc_1_1IInterfaceType_1a71339edecaa3d91702a470fa67183c54" kind="function"><name>findMethod</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1IInterfaceTypeBuilder" kind="class"><name>tblink_rpc::IInterfaceTypeBuilder</name>
+    <member refid="classtblink__rpc_1_1IInterfaceTypeBuilder_1a1fe582977f6bf46b358331e5ed0229be" kind="function"><name>newMethodTypeBuilder</name></member>
+    <member refid="classtblink__rpc_1_1IInterfaceTypeBuilder_1a214c8e571627ee14b8b95573058c25eb" kind="function"><name>add_method</name></member>
+    <member refid="classtblink__rpc_1_1IInterfaceTypeBuilder_1aea0a683e7134323aabce2a6cc46b1e62" kind="function"><name>mkTypeBool</name></member>
+    <member refid="classtblink__rpc_1_1IInterfaceTypeBuilder_1ad4d190c7511768f7b9504b0f723e16e3" kind="function"><name>mkTypeInt</name></member>
+    <member refid="classtblink__rpc_1_1IInterfaceTypeBuilder_1a9933f3710d157083d38b9f9f6c80a11d" kind="function"><name>mkTypeMap</name></member>
+    <member refid="classtblink__rpc_1_1IInterfaceTypeBuilder_1a9997b8c56f2d106a3f3b583bf5ba650b" kind="function"><name>mkTypeStr</name></member>
+    <member refid="classtblink__rpc_1_1IInterfaceTypeBuilder_1a4313b7429dbd7f7dd18331874a2503f7" kind="function"><name>mkTypeVec</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1ILaunchParams" kind="class"><name>tblink_rpc::ILaunchParams</name>
+    <member refid="classtblink__rpc_1_1ILaunchParams_1a79952bb59d0c1f4a8806a3b749377f9a" kind="typedef"><name>string_l</name></member>
+    <member refid="classtblink__rpc_1_1ILaunchParams_1af5423c2f601060deb01288293ea4b265" kind="typedef"><name>string_m</name></member>
+    <member refid="classtblink__rpc_1_1ILaunchParams_1adb4e5920e469f6eef3f0e9d7de3b112d" kind="function"><name>add_arg</name></member>
+    <member refid="classtblink__rpc_1_1ILaunchParams_1a31d25afdc357c68ca2ce03d741c9d40c" kind="function"><name>args</name></member>
+    <member refid="classtblink__rpc_1_1ILaunchParams_1a04fb65abf6bfb13e4d3021eaa2c5a2ad" kind="function"><name>add_param</name></member>
+    <member refid="classtblink__rpc_1_1ILaunchParams_1ab35e1b4c3e2fc6c8f3f3df5c078d0afd" kind="function"><name>has_param</name></member>
+    <member refid="classtblink__rpc_1_1ILaunchParams_1a5233282b7139027cae557b67e9bd3abb" kind="function"><name>get_param</name></member>
+    <member refid="classtblink__rpc_1_1ILaunchParams_1a418fb7cb9970669fb6f83c27e8b7d608" kind="function"><name>params</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1ILaunchType" kind="class"><name>tblink_rpc::ILaunchType</name>
+    <member refid="classtblink__rpc_1_1ILaunchType_1a2e44155090416fcac2c78328a6726e36" kind="function"><name>name</name></member>
+    <member refid="classtblink__rpc_1_1ILaunchType_1ae46f939cdb7c6c0ec9f0b17be65d47cb" kind="function"><name>launch</name></member>
+    <member refid="classtblink__rpc_1_1ILaunchType_1aa2c93de73e8002701108ba6a6ed5cc6a" kind="function"><name>newLaunchParams</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1IMethodType" kind="class"><name>tblink_rpc::IMethodType</name>
+    <member refid="classtblink__rpc_1_1IMethodType_1a55078db621d061e2e2ff22ccb82ae1c5" kind="function"><name>name</name></member>
+    <member refid="classtblink__rpc_1_1IMethodType_1afc720de620a1a8b37f2c385fff8591c6" kind="function"><name>id</name></member>
+    <member refid="classtblink__rpc_1_1IMethodType_1a2872c0a2317e10720172f81bec79107b" kind="function"><name>is_export</name></member>
+    <member refid="classtblink__rpc_1_1IMethodType_1abeced832b243376aea372e954a7f8733" kind="function"><name>is_blocking</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1IMethodTypeBuilder" kind="class"><name>tblink_rpc::IMethodTypeBuilder</name>
+    <member refid="classtblink__rpc_1_1IMethodTypeBuilder_1af5bae599087002582a38b6fe45e5a782" kind="function"><name>add_param</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1IParamVal" kind="class"><name>tblink_rpc::IParamVal</name>
+    <member refid="classtblink__rpc_1_1IParamVal_1a4e4692922c2291ce5952d0800b5a9279" kind="enum"><name>kind_e</name></member>
+    <member refid="classtblink__rpc_1_1IParamVal_1a4e4692922c2291ce5952d0800b5a9279a81cec13a615937f06382243992bf5983" kind="enumvalue"><name>Bool</name></member>
+    <member refid="classtblink__rpc_1_1IParamVal_1a4e4692922c2291ce5952d0800b5a9279a0dda70d85041e78bbfe1d5a5dc91536b" kind="enumvalue"><name>Int</name></member>
+    <member refid="classtblink__rpc_1_1IParamVal_1a4e4692922c2291ce5952d0800b5a9279af79236bf425d2c48137c935843e34f11" kind="enumvalue"><name>Map</name></member>
+    <member refid="classtblink__rpc_1_1IParamVal_1a4e4692922c2291ce5952d0800b5a9279a3ab7af46bf3bca16f897b38970d5c5b1" kind="enumvalue"><name>Str</name></member>
+    <member refid="classtblink__rpc_1_1IParamVal_1a4e4692922c2291ce5952d0800b5a9279a11b03ded6ea11943e22eab95744e3dc3" kind="enumvalue"><name>Vec</name></member>
+    <member refid="classtblink__rpc_1_1IParamVal_1affbf6191b5e9f31bb6271889a46fec78" kind="function"><name>kind</name></member>
+    <member refid="classtblink__rpc_1_1IParamVal_1aaa1cbdce83bbaa29e94322568f5cba71" kind="function"><name>dispose</name></member>
+    <member refid="classtblink__rpc_1_1IParamVal_1abd242317efff0ba895bb264fea3b38ab" kind="function"><name>clone</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1IParamValBool" kind="class"><name>tblink_rpc::IParamValBool</name>
+    <member refid="classtblink__rpc_1_1IParamValBool_1a06d136efcc30732978929b6d32d973c5" kind="function"><name>val</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1IParamValInt" kind="class"><name>tblink_rpc::IParamValInt</name>
+    <member refid="classtblink__rpc_1_1IParamValInt_1a760afb7232401512584d638952c390a3" kind="function"><name>val_s</name></member>
+    <member refid="classtblink__rpc_1_1IParamValInt_1a66512cdd9fb5f308e82108482f8e3779" kind="function"><name>val_u</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1IParamValMap" kind="class"><name>tblink_rpc::IParamValMap</name>
+    <member refid="classtblink__rpc_1_1IParamValMap_1a52dcf518973ab8fd613da61099822bca" kind="function"><name>hasKey</name></member>
+    <member refid="classtblink__rpc_1_1IParamValMap_1a115d5fe986414ccbbc75153afc8a70e4" kind="function"><name>getVal</name></member>
+    <member refid="classtblink__rpc_1_1IParamValMap_1a0025327ab7613efc365c4ace413ea6ac" kind="function"><name>setVal</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1IParamValStr" kind="class"><name>tblink_rpc::IParamValStr</name>
+    <member refid="classtblink__rpc_1_1IParamValStr_1aa91d212c03f340832b1188b75a60899d" kind="function"><name>val</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1IParamValVec" kind="class"><name>tblink_rpc::IParamValVec</name>
+    <member refid="classtblink__rpc_1_1IParamValVec_1ac3c35f486c22e376b3a66922bbabf257" kind="function"><name>size</name></member>
+    <member refid="classtblink__rpc_1_1IParamValVec_1af4b526a675ff39708ade8dbeb6c393e9" kind="function"><name>at</name></member>
+    <member refid="classtblink__rpc_1_1IParamValVec_1a9f06e12d00b528b1c4dcda48c27c24b7" kind="function"><name>push_back</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1IType" kind="class"><name>tblink_rpc::IType</name>
+    <member refid="classtblink__rpc_1_1IType_1a4fe3f25502806ac297a4328a37e05266" kind="enum"><name>type_kind_e</name></member>
+    <member refid="classtblink__rpc_1_1IType_1a4fe3f25502806ac297a4328a37e05266a2461dd5013f330d6e11296c6fe177a4b" kind="enumvalue"><name>Bool</name></member>
+    <member refid="classtblink__rpc_1_1IType_1a4fe3f25502806ac297a4328a37e05266a8b7d94c448d76ebc247824c620c47871" kind="enumvalue"><name>Int</name></member>
+    <member refid="classtblink__rpc_1_1IType_1a4fe3f25502806ac297a4328a37e05266a69715141945568ff2a0ef123141992b3" kind="enumvalue"><name>Map</name></member>
+    <member refid="classtblink__rpc_1_1IType_1a4fe3f25502806ac297a4328a37e05266a2d34c7026a53a4ab75fc299c6922bb72" kind="enumvalue"><name>Str</name></member>
+    <member refid="classtblink__rpc_1_1IType_1a4fe3f25502806ac297a4328a37e05266a0a4b2699c2c4e95638d1943637caabfc" kind="enumvalue"><name>Vec</name></member>
+    <member refid="classtblink__rpc_1_1IType_1a1d237b8dc20eabecc7bd6c9050019f8c" kind="function"><name>kind</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1ITypeInt" kind="class"><name>tblink_rpc::ITypeInt</name>
+    <member refid="classtblink__rpc_1_1ITypeInt_1aad3c8f5418d957b2d9fa76c262a95cd6" kind="function"><name>is_signed</name></member>
+    <member refid="classtblink__rpc_1_1ITypeInt_1a6f49948ebed4e0a8c80dc18000e5ef69" kind="function"><name>width</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1ITypeMap" kind="class"><name>tblink_rpc::ITypeMap</name>
+    <member refid="classtblink__rpc_1_1ITypeMap_1a31464e021daa86afee97bf525e63aa84" kind="function"><name>key_t</name></member>
+    <member refid="classtblink__rpc_1_1ITypeMap_1a8f486bf375f457053e7b186dbdef80b1" kind="function"><name>elem_t</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1ITypeVec" kind="class"><name>tblink_rpc::ITypeVec</name>
+    <member refid="classtblink__rpc_1_1ITypeVec_1a0775f747b1073333ee04fcc732766d24" kind="function"><name>elem_t</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1SVEndpoint" kind="class"><name>tblink_rpc::SVEndpoint</name>
+    <member refid="classtblink__rpc_1_1SVEndpoint_1acd04ed22e0987097017f74ef89c01425" kind="variable"><name>m_services</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpoint_1a3b15a018e9f64c0ca947ad8e89fdd246" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpoint_1aef81b11092ce03da40db4396824a01b3" kind="function"><name>init</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpoint_1a6d4d7fe323720ffc4e6a0de9771fd840" kind="function"><name>is_init</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1SVEndpointLoopback" kind="class"><name>tblink_rpc::SVEndpointLoopback</name>
+    <member refid="classtblink__rpc_1_1SVEndpointLoopback_1a72768438a04d1b71e2129dc9b3cd7605" kind="variable"><name>m_peer_ep</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointLoopback_1a4963380000fbfc092a3f78642ad28f35" kind="variable"><name>m_is_hdl</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointLoopback_1a673a9a761f0eac0aa6dee1252b3c3568" kind="variable"><name>m_iftype_m</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointLoopback_1adae085832eac0f70eacf9a05e21d449f" kind="variable"><name>m_ifinst_m</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointLoopback_1a3e8527f0f218a8058024a67ed028e162" kind="variable"><name>m_ifinsts</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointLoopback_1ad3e0298c8189501b5708b1473a8096ea" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointLoopback_1aeea5af05a5237dfb0a03412878f233ff" kind="function"><name>peer_ep</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointLoopback_1a0f8ca87721b1c331553495b18ad87f19" kind="function"><name>build_complete</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointLoopback_1ac9f370c919f74ce4e1aaf44219612de1" kind="function"><name>is_build_complete</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointLoopback_1a8172d014495da75ef5996c52b1277d2b" kind="function"><name>connect_complete</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointLoopback_1ac89076c7642a04caf3748f9e0b7fb37e" kind="function"><name>is_connect_complete</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointLoopback_1afa138ca9b06bb4314acf1c3cc429c2e3" kind="function"><name>await_run_until_event</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointLoopback_1aa020c6fb21f6242746c5190be6523299" kind="function"><name>findInterfaceType</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointLoopback_1a31e70cb1b929abb8ce80f55655cf16ee" kind="function"><name>newInterfaceTypeBuilder</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointLoopback_1a8d9b3d0336adf5444df6c4525d3f09cc" kind="function"><name>defineInterfaceType</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointLoopback_1a54e274c6aa8c61b8d0cc15c0053350e1" kind="function"><name>defineInterfaceInst</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointLoopback_1a8188f8a4f724b54a7fb918dafff091af" kind="function"><name>process_one_message</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointLoopback_1adc8b1225ec028dc820d56a30d77c9e41" kind="function"><name>getInterfaceInsts</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointLoopback_1a2d62da91045a50ee30b0a31d4c96db40" kind="function"><name>mkValBool</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointLoopback_1a93a61f23201ba496bd1995fc0c6a08aa" kind="function"><name>mkValIntS</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointLoopback_1aba4c64f2a06d45ce3bb553ea3b0e0334" kind="function"><name>mkValIntU</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointLoopback_1a83017eccf99ca10069d5f92918b11b22" kind="function"><name>mkValMap</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointLoopback_1aa51d3f85b913de81e8219cc943bc8c40" kind="function"><name>mkValStr</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointLoopback_1a94d308a460655b2df7218a690c8506da" kind="function"><name>mkValVec</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointLoopback_1a108e6b37d53c0c979e2815d4651246e6" kind="function"><name>find_ifinst</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointLoopback_1a378f025e4b1f19a8b49bb3060c4a6ea3" kind="function"><name>invoke_nb</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointLoopback_1a8edf3aad9ab4de5641611223c015e9fc" kind="function"><name>invoke_b</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointLoopback_1a55830374c6ec9fc21db91f6cc0b78a7a" kind="function"><name>mk</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1SVEndpointSequencer" kind="class"><name>tblink_rpc::SVEndpointSequencer</name>
+    <member refid="classtblink__rpc_1_1SVEndpointSequencer_1a59a40a51ea6137e94497364cf7b0bc39" kind="enum"><name>seqr_state_e</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointSequencer_1a59a40a51ea6137e94497364cf7b0bc39a4e200ef8db81c5aedd05a7a0c2fd39f5" kind="enumvalue"><name>WaitBfmRegistration</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointSequencer_1a59a40a51ea6137e94497364cf7b0bc39a27d4d8a7e193b42c9f6fe3849067ed59" kind="enumvalue"><name>WaitBuildComplete</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointSequencer_1a59a40a51ea6137e94497364cf7b0bc39a3c2a744b475ebb37591e9b5796570cd6" kind="enumvalue"><name>WaitConnectComplete</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointSequencer_1a59a40a51ea6137e94497364cf7b0bc39a0fb2d5ba9ad5d93efb9f21895f728a25" kind="enumvalue"><name>ProcessMessages</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointSequencer_1a59a40a51ea6137e94497364cf7b0bc39acd816c1550520fe52d618c18ee46dac9" kind="enumvalue"><name>Terminated</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointSequencer_1a2728a50d7951055efe1cc344349e97ff" kind="variable"><name>m_ep</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointSequencer_1a8f937617da467733f20988f2fde94eaf" kind="variable"><name>m_state</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointSequencer_1ae0648eebd75027e3f454deb69dfa6b42" kind="variable"><name>m_thread</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointSequencer_1a43cd7921af09429a661c0e63940e5123" kind="variable"><name>m_thread_queued</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointSequencer_1a1d1fb73b40770d5286518fbf47e56fc8" kind="variable"><name>m_tblink</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointSequencer_1a942d8cdbf8f658132fbd7c4a84091cb0" kind="variable"><name>m_last_ifinst_count</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointSequencer_1a9d27639716b9e62b7418f370dc1f2807" kind="variable"><name>m_it_count</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointSequencer_1ae4ce2cbbeedb9563ea330ee10ef04858" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointSequencer_1a37040e35e288eeef2bbf10c38ad167bf" kind="function"><name>init</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointSequencer_1a9c123b60459443ed82fc8319e25c320b" kind="function"><name>start</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointSequencer_1a169dac40ff4b38a83abb36f0c78d608c" kind="function"><name>event_f</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointSequencer_1afc5eec5364b0828d764eae18005780a3" kind="function"><name>run</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1SVEndpointSequencerThread" kind="class"><name>tblink_rpc::SVEndpointSequencerThread</name>
+    <member refid="classtblink__rpc_1_1SVEndpointSequencerThread_1a382cc64b572a720b91dc9a7296a22ba7" kind="variable"><name>m_seqr</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointSequencerThread_1a31bed485f22faa1d42f2b2410ac49cd7" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointSequencerThread_1a14a0f64b665dcb80cf08e278a7eb8368" kind="function"><name>run</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1SVEndpointServices" kind="class"><name>tblink_rpc::SVEndpointServices</name>
+    <member refid="classtblink__rpc_1_1SVEndpointServices_1a3616ea1348696ea9e9e6b2668526c40b" kind="variable"><name>m_ep</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointServices_1a7434cda39f36edd6561ad87f1bde7ffe" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointServices_1aeb2865fa6fec34c233cd5943fa56bae7" kind="function"><name>init</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointServices_1a5bfac8eac64e51f2e11c6141e5b67a2d" kind="function"><name>args</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointServices_1a549ba33ed94b93f180238f52efde2bf4" kind="function"><name>shutdown</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointServices_1a8883d045af9e54031274759335866f7f" kind="function"><name>add_time_cb</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointServices_1a3f576528282331d7e25b48e2ec263b43" kind="function"><name>cancel_callback</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointServices_1abc60aa88f5333942ab54d0c0ae046c09" kind="function"><name>get_time</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointServices_1a9607b67a6721eb08c5d6e6c7b16d7e21" kind="function"><name>time_precision</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointServices_1ae34b28606c5e9a9f47cd18694d5af243" kind="function"><name>run_until_event</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointServices_1a238262f4641ccca3aeb98ced6228ff4b" kind="function"><name>hit_event</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointServices_1a94dc940cffd9f7f4f90dfcfa211d9984" kind="function"><name>idle</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1SVEndpointServicesFactory" kind="class"><name>tblink_rpc::SVEndpointServicesFactory</name>
+    <member refid="classtblink__rpc_1_1SVEndpointServicesFactory_1a8b2f4241ea891ae273ee7ed6b2a42c1a" kind="function"><name>create</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1SVInterfaceImplVif" kind="class"><name>tblink_rpc::SVInterfaceImplVif</name>
+    <member refid="classtblink__rpc_1_1SVInterfaceImplVif_1a600f05a8d05b34f34ab555a889224874" kind="variable"><name>m_vif</name></member>
+    <member refid="classtblink__rpc_1_1SVInterfaceImplVif_1ae6401c9db9ed715b2ca032ecc0db4bc6" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1SVInterfaceImplVif_1a8bfd7d29497501fd4cd54c5d8a05b0e0" kind="function"><name>invoke_nb</name></member>
+    <member refid="classtblink__rpc_1_1SVInterfaceImplVif_1a43b509c02b1ae462395cf203a6be9490" kind="function"><name>invoke_b</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1SVInterfaceInst" kind="class"><name>tblink_rpc::SVInterfaceInst</name>
+    <member refid="classtblink__rpc_1_1SVInterfaceInst_1a727c2d4a5d4bf638fa83bbacc1c9db85" kind="variable"><name>m_ep</name></member>
+    <member refid="classtblink__rpc_1_1SVInterfaceInst_1a35e82af2c142e08a76de6536d099a085" kind="variable"><name>m_iftype</name></member>
+    <member refid="classtblink__rpc_1_1SVInterfaceInst_1af602ab8be5c35c7b310f2e2fa8fa5d82" kind="variable"><name>m_name</name></member>
+    <member refid="classtblink__rpc_1_1SVInterfaceInst_1aff66b5362e811ffd5793cc75da0c4db3" kind="variable"><name>m_is_mirror</name></member>
+    <member refid="classtblink__rpc_1_1SVInterfaceInst_1a70bcef8e55260afc901a1ae190d0072c" kind="variable"><name>m_impl</name></member>
+    <member refid="classtblink__rpc_1_1SVInterfaceInst_1a1600aed06081d69c4e81425050b6b781" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1SVInterfaceInst_1a44840d8073539ecad23efcbeb2f46f82" kind="function"><name>set_impl</name></member>
+    <member refid="classtblink__rpc_1_1SVInterfaceInst_1a5305ca667ecdea099781ce4a3bec9453" kind="function"><name>get_impl</name></member>
+    <member refid="classtblink__rpc_1_1SVInterfaceInst_1a26d6afb4bca64d6f076675c709726a3e" kind="function"><name>endpoint</name></member>
+    <member refid="classtblink__rpc_1_1SVInterfaceInst_1ade88836fb4b0ee509e824a45bccfc7ea" kind="function"><name>name</name></member>
+    <member refid="classtblink__rpc_1_1SVInterfaceInst_1a26329d50be202eb2ac78ef0d6f07815f" kind="function"><name>iftype</name></member>
+    <member refid="classtblink__rpc_1_1SVInterfaceInst_1af964636cbcef79345c2bf296538ce241" kind="function"><name>is_mirror</name></member>
+    <member refid="classtblink__rpc_1_1SVInterfaceInst_1a6f4e3cb9828ac54211a7642f4c0cec37" kind="function"><name>invoke_nb</name></member>
+    <member refid="classtblink__rpc_1_1SVInterfaceInst_1ae6f0221e8c66fd8cf88acba8cc458456" kind="function"><name>invoke_b</name></member>
+    <member refid="classtblink__rpc_1_1SVInterfaceInst_1a1fb2e00d99b15178a9161bd9f8ec257d" kind="function"><name>mkValBool</name></member>
+    <member refid="classtblink__rpc_1_1SVInterfaceInst_1a97aff741ee41cd83ab9a615e22758518" kind="function"><name>mkValIntS</name></member>
+    <member refid="classtblink__rpc_1_1SVInterfaceInst_1a8fc51c301601e7a0fbae3a21f183f092" kind="function"><name>mkValIntU</name></member>
+    <member refid="classtblink__rpc_1_1SVInterfaceInst_1aa59cb4994459ebe6e7d0d3b9f0961af8" kind="function"><name>mkValMap</name></member>
+    <member refid="classtblink__rpc_1_1SVInterfaceInst_1a3333f92d4d35b9023f67eb4cb54ddc41" kind="function"><name>mkValStr</name></member>
+    <member refid="classtblink__rpc_1_1SVInterfaceInst_1a1a0061a17707f52d37dc828581105169" kind="function"><name>mkValVec</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1SVInterfaceType" kind="class"><name>tblink_rpc::SVInterfaceType</name>
+    <member refid="classtblink__rpc_1_1SVInterfaceType_1a92e64cf6b06efa41b5008b77a44f9d08" kind="variable"><name>m_name</name></member>
+    <member refid="classtblink__rpc_1_1SVInterfaceType_1ab8553b4f6e38396928af6960d8722bff" kind="variable"><name>m_methods</name></member>
+    <member refid="classtblink__rpc_1_1SVInterfaceType_1a6307477f06b5132caacb4b72c3002420" kind="variable"><name>m_method_m</name></member>
+    <member refid="classtblink__rpc_1_1SVInterfaceType_1a5ac1782ee1558b1a74b0ae678db66d61" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1SVInterfaceType_1abe01379a224ca883ee995b4828d2aad0" kind="function"><name>name</name></member>
+    <member refid="classtblink__rpc_1_1SVInterfaceType_1ac1bda776341e670c761246a542e5ce16" kind="function"><name>methods</name></member>
+    <member refid="classtblink__rpc_1_1SVInterfaceType_1a27f3f5cd876d9d82582dd757741be858" kind="function"><name>add_method</name></member>
+    <member refid="classtblink__rpc_1_1SVInterfaceType_1acc208d07ac246f53d3bac080d0c1b432" kind="function"><name>findMethod</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1SVInterfaceTypeBuilder" kind="class"><name>tblink_rpc::SVInterfaceTypeBuilder</name>
+    <member refid="classtblink__rpc_1_1SVInterfaceTypeBuilder_1a75608fb803326a491bca6ced0febe69a" kind="variable"><name>m_iftype</name></member>
+    <member refid="classtblink__rpc_1_1SVInterfaceTypeBuilder_1a71134cd3392439cc0a0e3b2cfe817d03" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1SVInterfaceTypeBuilder_1ad8384d56154e7ee319adbc3c179af4c8" kind="function"><name>newMethodTypeBuilder</name></member>
+    <member refid="classtblink__rpc_1_1SVInterfaceTypeBuilder_1a366981b0731b20c007df217a8c939066" kind="function"><name>add_method</name></member>
+    <member refid="classtblink__rpc_1_1SVInterfaceTypeBuilder_1aadf4b4eda1f7d6a276a52fffff32f57f" kind="function"><name>mkTypeBool</name></member>
+    <member refid="classtblink__rpc_1_1SVInterfaceTypeBuilder_1af0690912cefa759d731bbc94106f9620" kind="function"><name>mkTypeInt</name></member>
+    <member refid="classtblink__rpc_1_1SVInterfaceTypeBuilder_1aa9202a2e111f1eda6c3818f0d24982e6" kind="function"><name>mkTypeMap</name></member>
+    <member refid="classtblink__rpc_1_1SVInterfaceTypeBuilder_1ac29f1422b2e037cced22eee47d82bb5f" kind="function"><name>mkTypeStr</name></member>
+    <member refid="classtblink__rpc_1_1SVInterfaceTypeBuilder_1a7cef4fdc62ce05174a39adcea840c528" kind="function"><name>mkTypeVec</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1SVLaunchParams" kind="class"><name>tblink_rpc::SVLaunchParams</name>
+    <member refid="classtblink__rpc_1_1SVLaunchParams_1ae4217b16c7eab372a8f1714e98145eb3" kind="variable"><name>m_args</name></member>
+    <member refid="classtblink__rpc_1_1SVLaunchParams_1ace7fd236711e41c67113dade71313ca9" kind="variable"><name>m_params</name></member>
+    <member refid="classtblink__rpc_1_1SVLaunchParams_1a4861eee178dd4bb925cb7fadd2c0d963" kind="function"><name>add_arg</name></member>
+    <member refid="classtblink__rpc_1_1SVLaunchParams_1a0d2bc4afbacc565994aad318109eb236" kind="function"><name>args</name></member>
+    <member refid="classtblink__rpc_1_1SVLaunchParams_1a56f4d1cd85ef16bb50ac4ce5c3049756" kind="function"><name>add_param</name></member>
+    <member refid="classtblink__rpc_1_1SVLaunchParams_1aa58e957862d97e24a6589fd30b398ddd" kind="function"><name>has_param</name></member>
+    <member refid="classtblink__rpc_1_1SVLaunchParams_1a062ccf87a1a648d3b2acfc3f728e28f6" kind="function"><name>get_param</name></member>
+    <member refid="classtblink__rpc_1_1SVLaunchParams_1a71f13337c396894d03bc8437add381ce" kind="function"><name>params</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1SVLaunchTypeLoopback" kind="class"><name>tblink_rpc::SVLaunchTypeLoopback</name>
+    <member refid="classtblink__rpc_1_1SVLaunchTypeLoopback_1a02fe64258ca28805a8546f662a206ce5" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1SVLaunchTypeLoopback_1a5b0f2311405c3968e0fbc808f2977497" kind="function"><name>name</name></member>
+    <member refid="classtblink__rpc_1_1SVLaunchTypeLoopback_1a752e6b178156a315e18f4eed84db6b9d" kind="function"><name>launch</name></member>
+    <member refid="classtblink__rpc_1_1SVLaunchTypeLoopback_1a33f88d7220fba67f583d2a867cd23d1a" kind="function"><name>newLaunchParams</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1SVLaunchTypeNativeLoopbackDpi" kind="class"><name>tblink_rpc::SVLaunchTypeNativeLoopbackDpi</name>
+    <member refid="classtblink__rpc_1_1SVLaunchTypeNativeLoopbackDpi_1a20b3d24cc7a8de89e97e5a88c751db3a" kind="function"><name>name</name></member>
+    <member refid="classtblink__rpc_1_1SVLaunchTypeNativeLoopbackDpi_1a58179571fd1b1a64581b4acf2dae7c05" kind="function"><name>launch</name></member>
+    <member refid="classtblink__rpc_1_1SVLaunchTypeNativeLoopbackDpi_1ad6135f4f435fea28617f36c6e3362d48" kind="function"><name>newLaunchParams</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1SVLaunchTypeRegistration" kind="class"><name>tblink_rpc::SVLaunchTypeRegistration</name>
+    <member refid="classtblink__rpc_1_1SVLaunchTypeRegistration_1a78fadc37d670e3ea7ff26515bf405676" kind="function"><name>register</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1SVMethodType" kind="class"><name>tblink_rpc::SVMethodType</name>
+    <member refid="classtblink__rpc_1_1SVMethodType_1ad5e215d2497b86f0c54a02181714e84e" kind="variable"><name>m_name</name></member>
+    <member refid="classtblink__rpc_1_1SVMethodType_1af989d49badc499b92c730c2ee7d673e4" kind="variable"><name>m_id</name></member>
+    <member refid="classtblink__rpc_1_1SVMethodType_1a32cadcc3061becd49cbae9247040aa6d" kind="variable"><name>m_rtype</name></member>
+    <member refid="classtblink__rpc_1_1SVMethodType_1afc42866170552739a872b4e4e97898f3" kind="variable"><name>m_is_export</name></member>
+    <member refid="classtblink__rpc_1_1SVMethodType_1aa444e529c937f9fb843fff56ac9396a8" kind="variable"><name>m_is_blocking</name></member>
+    <member refid="classtblink__rpc_1_1SVMethodType_1a4f1f8195278c286f23229648381e6a9e" kind="variable"><name>m_param_names</name></member>
+    <member refid="classtblink__rpc_1_1SVMethodType_1a2e88bc817ed1933efdb264b6b9c47f69" kind="variable"><name>m_param_types</name></member>
+    <member refid="classtblink__rpc_1_1SVMethodType_1abe659eebd1fcbd4e442a3cdbc52e6e26" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1SVMethodType_1a377f1d33bcfc840a6ba51a1375996988" kind="function"><name>name</name></member>
+    <member refid="classtblink__rpc_1_1SVMethodType_1ac5544ca2963ca4fd3f94e12a9d0578b8" kind="function"><name>id</name></member>
+    <member refid="classtblink__rpc_1_1SVMethodType_1ac0474566def82aaf8b9f112c547df4ab" kind="function"><name>is_export</name></member>
+    <member refid="classtblink__rpc_1_1SVMethodType_1a3699cd131e73cbd7b0d51c0923838d4f" kind="function"><name>is_blocking</name></member>
+    <member refid="classtblink__rpc_1_1SVMethodType_1a3c8f3a6fb2f8417220154106fab99242" kind="function"><name>add_param</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1SVMethodTypeBuilder" kind="class"><name>tblink_rpc::SVMethodTypeBuilder</name>
+    <member refid="classtblink__rpc_1_1SVMethodTypeBuilder_1a693c2995d6e1f6e684d45ffb50d9b1de" kind="variable"><name>method_t</name></member>
+    <member refid="classtblink__rpc_1_1SVMethodTypeBuilder_1adf5df4febfd8b17b032e1ea5f90e676f" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1SVMethodTypeBuilder_1a3c97429b2b9deff4cf9450b275a4e864" kind="function"><name>add_param</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1SVParamVal" kind="class"><name>tblink_rpc::SVParamVal</name>
+    <member refid="classtblink__rpc_1_1SVParamVal_1a798ee16ff4db0e1ca919ec3951e5402c" kind="function"><name>new</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1SVParamValBool" kind="class"><name>tblink_rpc::SVParamValBool</name>
+    <member refid="classtblink__rpc_1_1SVParamValBool_1a96ae2ec8d9e09b06d1d42c87ac49ebeb" kind="variable"><name>m_val</name></member>
+    <member refid="classtblink__rpc_1_1SVParamValBool_1a2ae1c086417dd90d48eaf504d2f1bf39" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1SVParamValBool_1a4345ec9593657b71c5b18dad6df5a194" kind="function"><name>clone</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1SVParamValInt" kind="class"><name>tblink_rpc::SVParamValInt</name>
+    <member refid="classtblink__rpc_1_1SVParamValInt_1a941965443191b8d8fcd9351016f1f399" kind="variable"><name>m_val</name></member>
+    <member refid="classtblink__rpc_1_1SVParamValInt_1aaf23c7cdfabdeb16faf96238f3459548" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1SVParamValInt_1a4ca72b467bd10ca41b13f54d0d2774b4" kind="function"><name>val_s</name></member>
+    <member refid="classtblink__rpc_1_1SVParamValInt_1ab8d9e5d25a7043e86d70200d0bef7a8b" kind="function"><name>val_u</name></member>
+    <member refid="classtblink__rpc_1_1SVParamValInt_1a763144e60f1764865f6ebb9ca8f9f088" kind="function"><name>kind</name></member>
+    <member refid="classtblink__rpc_1_1SVParamValInt_1a3da58dce29fe99cb71cec07a042c3533" kind="function"><name>clone</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1SVParamValMap" kind="class"><name>tblink_rpc::SVParamValMap</name>
+    <member refid="classtblink__rpc_1_1SVParamValMap_1a11fe17d36d4c2d9ebe52faa0eed26772" kind="variable"><name>m_val_m</name></member>
+    <member refid="classtblink__rpc_1_1SVParamValMap_1a4219d27b429cdef6721a0d22f1d9d1eb" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1SVParamValMap_1a54e3d8f268d28c054d648249b725a4d6" kind="function"><name>hasKey</name></member>
+    <member refid="classtblink__rpc_1_1SVParamValMap_1a6285bc3aa21794e98785add7606d7cff" kind="function"><name>getVal</name></member>
+    <member refid="classtblink__rpc_1_1SVParamValMap_1ab0087b7b4e59018bb786e36c2c74873d" kind="function"><name>setVal</name></member>
+    <member refid="classtblink__rpc_1_1SVParamValMap_1a1ed71e0f95e0969b35f19300fed6cfc3" kind="function"><name>kind</name></member>
+    <member refid="classtblink__rpc_1_1SVParamValMap_1abecf94f88381ddd1baed7ddc6abfeae9" kind="function"><name>clone</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1SVParamValStr" kind="class"><name>tblink_rpc::SVParamValStr</name>
+    <member refid="classtblink__rpc_1_1SVParamValStr_1ad538a4da18cde333ae119ea29b1930a7" kind="variable"><name>m_val</name></member>
+    <member refid="classtblink__rpc_1_1SVParamValStr_1a5144d26a0b989d1f7c8f22b39c79ffdc" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1SVParamValStr_1a6e2d84c5588114bbe453265b8853c88a" kind="function"><name>kind</name></member>
+    <member refid="classtblink__rpc_1_1SVParamValStr_1a5cb45e32e558c2c12d4e07f618bd194d" kind="function"><name>clone</name></member>
+    <member refid="classtblink__rpc_1_1SVParamValStr_1adc7b1db725b7fcc0911d8dda6e419456" kind="function"><name>val</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1SVParamValVec" kind="class"><name>tblink_rpc::SVParamValVec</name>
+    <member refid="classtblink__rpc_1_1SVParamValVec_1abe6f391d6f7c4518e9caaa4a72982a7a" kind="variable"><name>m_values</name></member>
+    <member refid="classtblink__rpc_1_1SVParamValVec_1a032415f439dab1307fa15773290e30b2" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1SVParamValVec_1a6d69cfe154d8763d4aaf5ed2904fdb36" kind="function"><name>size</name></member>
+    <member refid="classtblink__rpc_1_1SVParamValVec_1aea79625c502d472eed5401fec02797f1" kind="function"><name>at</name></member>
+    <member refid="classtblink__rpc_1_1SVParamValVec_1a24666048adf717e10ace50efd3b1faa0" kind="function"><name>push_back</name></member>
+    <member refid="classtblink__rpc_1_1SVParamValVec_1a27d3a828b1ba0be28608bbf693400db9" kind="function"><name>kind</name></member>
+    <member refid="classtblink__rpc_1_1SVParamValVec_1a726690957c39f084fcc861adc13e1730" kind="function"><name>clone</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1SVType" kind="class"><name>tblink_rpc::SVType</name>
+    <member refid="classtblink__rpc_1_1SVType_1a00d7753a22bca6804ce6bd835b64cb7e" kind="variable"><name>m_kind</name></member>
+    <member refid="classtblink__rpc_1_1SVType_1ab24fc8cf67e160824f555d7975a4279f" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1SVType_1ab6c397ed1e64aa0c08ddaf2e92dbcffb" kind="function"><name>kind</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1SVTypeInt" kind="class"><name>tblink_rpc::SVTypeInt</name>
+    <member refid="classtblink__rpc_1_1SVTypeInt_1a74086f2f737b68d9509325c7d2208bf3" kind="variable"><name>m_is_signed</name></member>
+    <member refid="classtblink__rpc_1_1SVTypeInt_1a2262b53e16db4b5c59c55fdf05a8edc6" kind="variable"><name>m_width</name></member>
+    <member refid="classtblink__rpc_1_1SVTypeInt_1a9a629fe907d9bac282c83a52e3cd0a56" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1SVTypeInt_1aa420e3b809c52d3650575b9a14ed08c3" kind="function"><name>kind</name></member>
+    <member refid="classtblink__rpc_1_1SVTypeInt_1aa15c59661992eb7ba519e6865cffb2a1" kind="function"><name>is_signed</name></member>
+    <member refid="classtblink__rpc_1_1SVTypeInt_1acb8808a22c9798b076e411b880b78427" kind="function"><name>width</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1SVTypeMap" kind="class"><name>tblink_rpc::SVTypeMap</name>
+    <member refid="classtblink__rpc_1_1SVTypeMap_1a20f8378197dd30788bdd80db7ef9ff87" kind="variable"><name>m_key_t</name></member>
+    <member refid="classtblink__rpc_1_1SVTypeMap_1a0b7e1f21aa2a5dd0b59290ed6372518c" kind="variable"><name>m_elem_t</name></member>
+    <member refid="classtblink__rpc_1_1SVTypeMap_1a81891a885a824e54f91b41280da1851a" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1SVTypeMap_1a695da764efbbaca99e7ad17fd3458936" kind="function"><name>kind</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1SVTypeVec" kind="class"><name>tblink_rpc::SVTypeVec</name>
+    <member refid="classtblink__rpc_1_1SVTypeVec_1ab60097e74342e358b22622a71cc94f97" kind="variable"><name>m_elem_t</name></member>
+    <member refid="classtblink__rpc_1_1SVTypeVec_1ab414ee78fdb59cc7f6bd5f1862db0304" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1SVTypeVec_1a20cf0b6cbb824550f947bec3e1bd39f0" kind="function"><name>kind</name></member>
+    <member refid="classtblink__rpc_1_1SVTypeVec_1ace39d99959d51d4ef0433f27813d2298" kind="function"><name>elem_t</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1TbLink" kind="class"><name>tblink_rpc::TbLink</name>
+    <member refid="classtblink__rpc_1_1TbLink_1a2b53a7063b497ea5f57de9708cd0c5d3" kind="variable"><name>m_default_ep</name></member>
+    <member refid="classtblink__rpc_1_1TbLink_1a234a90de0b88b2edcd84f541ae1428b8" kind="variable"><name>m_default_services_f</name></member>
+    <member refid="classtblink__rpc_1_1TbLink_1aab3e9ffada6d744798fdcc47869ae6d8" kind="variable"><name>m_default_ep_seqr</name></member>
+    <member refid="classtblink__rpc_1_1TbLink_1aa03189080af64d30c177403dba67c32b" kind="variable"><name>m_time_precision</name></member>
+    <member refid="classtblink__rpc_1_1TbLink_1a11e3381e25405ca3d30a268ce00980ad" kind="variable"><name>m_sv_launch_type_m</name></member>
+    <member refid="classtblink__rpc_1_1TbLink_1a27c03a37ee52ca595c0b2042f714e2b8" kind="variable"><name>m_dispatch_q</name></member>
+    <member refid="classtblink__rpc_1_1TbLink_1a684af60040bcca27abf28722e057a02d" kind="variable"><name>m_dispatch_started</name></member>
+    <member refid="classtblink__rpc_1_1TbLink_1aca8f3540d30fafaa4428c56e08c58cb0" kind="variable"><name>m_dispatch_scheduled</name></member>
+    <member refid="classtblink__rpc_1_1TbLink_1a8837555778bcc662fffd860c9df081e6" kind="variable"><name>m_delta_cb_pending</name></member>
+    <member refid="classtblink__rpc_1_1TbLink_1a752eacbdce043d63e18819af04d00a0d" kind="variable"><name>m_last_ifinst_count</name></member>
+    <member refid="classtblink__rpc_1_1TbLink_1ae81ff13bd5d00b605736008fb85afd6a" kind="variable"><name>m_zero_count_repeat</name></member>
+    <member refid="classtblink__rpc_1_1TbLink_1ada6ecd6fb6dde3d87d013f565f23011a" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1TbLink_1ab69e73042bcbdb0b71df603b3630fe29" kind="function"><name>setTimePrecision</name></member>
+    <member refid="classtblink__rpc_1_1TbLink_1a246bf82e0cead3fda491b4890688f20f" kind="function"><name>setDefaultEp</name></member>
+    <member refid="classtblink__rpc_1_1TbLink_1a0dd914e962f9e6d71bea5e1b7caaf7f9" kind="function"><name>getDefaultEp</name></member>
+    <member refid="classtblink__rpc_1_1TbLink_1a9626adea3fec85e33cab0a22458b0585" kind="function"><name>getDefaultServicesFactory</name></member>
+    <member refid="classtblink__rpc_1_1TbLink_1a1af670f4a79e54e6b8b0c9c599973719" kind="function"><name>setDefaultServicesFactory</name></member>
+    <member refid="classtblink__rpc_1_1TbLink_1a9e93add79a82fd7a64a74d99f86ccfbd" kind="function"><name>getTimePrecision</name></member>
+    <member refid="classtblink__rpc_1_1TbLink_1afa5e7796be3ea8008cc12e1a42ec5805" kind="function"><name>auto_launch</name></member>
+    <member refid="classtblink__rpc_1_1TbLink_1a8f8c6c0dc32d4cac2c7547ed7d50b219" kind="function"><name>register_delta_cb</name></member>
+    <member refid="classtblink__rpc_1_1TbLink_1a83ea5ce1e5ad4a762bbdff0dfddcf9bb" kind="function"><name>delta_cb</name></member>
+    <member refid="classtblink__rpc_1_1TbLink_1afdd7f12c6dae64c0bb65f1b583856ca6" kind="function"><name>start</name></member>
+    <member refid="classtblink__rpc_1_1TbLink_1add56d38b9d4365921dbd201dc812f4d4" kind="function"><name>next_thread</name></member>
+    <member refid="classtblink__rpc_1_1TbLink_1a21b2a3c19476f50d44bb9d97b5ce38c5" kind="function"><name>dispatch</name></member>
+    <member refid="classtblink__rpc_1_1TbLink_1addcb1e35b56d6ed6a72858c8898f27f4" kind="function"><name>queue_thread</name></member>
+    <member refid="classtblink__rpc_1_1TbLink_1ad3ae8e70feb940de8c8ae6f86da3b277" kind="function"><name>get_default_ep</name></member>
+    <member refid="classtblink__rpc_1_1TbLink_1a5e89339de894e195d107e0c5f52d4e50" kind="function"><name>findLaunchType</name></member>
+    <member refid="classtblink__rpc_1_1TbLink_1ac1a1375e2a6515401abc0672c91cec5d" kind="function"><name>registerLaunchType</name></member>
+    <member refid="classtblink__rpc_1_1TbLink_1a1c958b4e2f4e72579f58ccd65d2dc0bb" kind="function"><name>inst</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1TbLinkInvokeB" kind="class"><name>tblink_rpc::TbLinkInvokeB</name>
+    <member refid="classtblink__rpc_1_1TbLinkInvokeB_1a886de28cf05a47844989d02e3845b14f" kind="variable"><name>m_ifinst</name></member>
+    <member refid="classtblink__rpc_1_1TbLinkInvokeB_1af626c50a40c80096be21ef3cd35bb13f" kind="variable"><name>m_method</name></member>
+    <member refid="classtblink__rpc_1_1TbLinkInvokeB_1a4e89eed7485d77357470d7d452c29ff1" kind="variable"><name>m_call_id</name></member>
+    <member refid="classtblink__rpc_1_1TbLinkInvokeB_1a2b5c1a374c2a1f93df2d668011c3f400" kind="variable"><name>m_params</name></member>
+    <member refid="classtblink__rpc_1_1TbLinkInvokeB_1a11a1aa256f0f08a8ae6d6d3506765467" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1TbLinkInvokeB_1aaa9d3247a87aad277aae9304a6079650" kind="function"><name>run</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1TbLinkThread" kind="class"><name>tblink_rpc::TbLinkThread</name>
+    <member refid="classtblink__rpc_1_1TbLinkThread_1a725caa05229db72edf4311440ca1bc2a" kind="variable"><name>m_next</name></member>
+    <member refid="classtblink__rpc_1_1TbLinkThread_1ae1b52686732f6d1432eaa66704e362d8" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1TbLinkThread_1a47a6bbfa96907639431da4a61ec37b35" kind="function"><name>next</name></member>
+    <member refid="classtblink__rpc_1_1TbLinkThread_1a5f55e8041c9d21a38f5ffb2b4d058b46" kind="function"><name>set_next</name></member>
+    <member refid="classtblink__rpc_1_1TbLinkThread_1a78d77990ad48921a8c86129d4389ea54" kind="function"><name>run</name></member>
+  </compound>
+  <compound refid="namespacetblink__rpc" kind="namespace"><name>tblink_rpc</name>
+    <member refid="namespacetblink__rpc_1a398c8dafefa32d749690b92410413705" kind="variable"><name>prv_hndl2impl</name></member>
+    <member refid="namespacetblink__rpc_1a3f6495a54ebcd7baf3ad3caa2e953e77" kind="variable"><name>prv_closure_m</name></member>
+    <member refid="namespacetblink__rpc_1a6cb67578153a47654cab7f88c36de7b8" kind="variable"><name>prv_proxy_params_m</name></member>
+    <member refid="namespacetblink__rpc_1abb6e38e5d38dead80ac103567058238e" kind="variable"><name>prv_dpi_services_m</name></member>
+    <member refid="namespacetblink__rpc_1ade7fbc780941fafdcd3c57892e1d32a5" kind="variable"><name>prv_dpi_listener_m</name></member>
+    <member refid="namespacetblink__rpc_1aa29a43c9be5d2d7be63035f34b920320" kind="variable"><name>prv_listener_dpi_m</name></member>
+    <member refid="namespacetblink__rpc_1a4cf6d0478723e5afb3e8da83a955f414" kind="variable"><name>_tblink_inst</name></member>
+    <member refid="namespacetblink__rpc_1a3e83bc63da9304f055bc87c05cb1c622" kind="variable"><name>prv_tblink_init</name></member>
+    <member refid="namespacetblink__rpc_1a0ef01a1480a50ddbe66580a77de278c6" kind="function"><name>tblink_rpc_IType_kind</name></member>
+    <member refid="namespacetblink__rpc_1a6ef4a0aff911701995c63573a27a55ac" kind="function"><name>tblink_rpc_IParamVal_dispose</name></member>
+    <member refid="namespacetblink__rpc_1a71418145aa1ee6f1e0514fb15a7e4687" kind="function"><name>tblink_rpc_closure_invoke_rsp</name></member>
+    <member refid="namespacetblink__rpc_1a6119007cf0f4dc56883d909a1dac7a6a" kind="function"><name>tblink_rpc_IInterfaceInstInvokeClosure_new</name></member>
+    <member refid="namespacetblink__rpc_1ad8ace8f0689349d7fb769897b21ce4e5" kind="function"><name>tblink_rpc_IInterfaceInstInvokeClosure_dispose</name></member>
+    <member refid="namespacetblink__rpc_1a01568b43c2b34f2d58772ec938799bc7" kind="function"><name>tblink_rpc_IInterfaceInst_endpoint</name></member>
+    <member refid="namespacetblink__rpc_1aec35905458dc98c63463bbe7e738c293" kind="function"><name>tblink_rpc_IInterfaceInst_invoke_nb</name></member>
+    <member refid="namespacetblink__rpc_1a0adc76701709f288e0b2db28009cf1c0" kind="function"><name>tblink_rpc_IInterfaceInst_invoke_rsp</name></member>
+    <member refid="namespacetblink__rpc_1ae865baf968f40e870e7422c830b5b1c3" kind="function"><name>tblink_rpc_IInterfaceInst_mkValBool</name></member>
+    <member refid="namespacetblink__rpc_1a693f2833f306779a13d427688ee996bc" kind="function"><name>tblink_rpc_IInterfaceInst_mkValIntU</name></member>
+    <member refid="namespacetblink__rpc_1a5ab1544cff17f23cdc872b1669002391" kind="function"><name>tblink_rpc_IInterfaceInst_mkValIntS</name></member>
+    <member refid="namespacetblink__rpc_1affdb1e8a27ce9d30db558a310aaaff14" kind="function"><name>tblink_rpc_IInterfaceInst_mkValMap</name></member>
+    <member refid="namespacetblink__rpc_1abddd88b252bad61919615ea28d4fdc16" kind="function"><name>tblink_rpc_IInterfaceInst_mkValStr</name></member>
+    <member refid="namespacetblink__rpc_1a3da069033592bc042d861daf1279629d" kind="function"><name>tblink_rpc_IInterfaceInst_mkValVec</name></member>
+    <member refid="namespacetblink__rpc_1a38cc241e370b369d6d6dbfc29843f97c" kind="function"><name>tblink_rpc_IMethodTypeBuilder_add_param</name></member>
+    <member refid="namespacetblink__rpc_1a3d444a1f83fd82d85bc5e3687be0ff9d" kind="function"><name>tblink_rpc_IInterfaceTypeBuilder_mkTypeBool</name></member>
+    <member refid="namespacetblink__rpc_1aace3f1db8da737fd037a3ec4a9615eae" kind="function"><name>tblink_rpc_IInterfaceTypeBuilder_mkTypeInt</name></member>
+    <member refid="namespacetblink__rpc_1a6a9df7bc13620ed4f30aa2bd3f2e4e62" kind="function"><name>tblink_rpc_IInterfaceTypeBuilder_mkTypeMap</name></member>
+    <member refid="namespacetblink__rpc_1a0f6df0c3ad2962246e9dad3a7de94ad2" kind="function"><name>tblink_rpc_IInterfaceTypeBuilder_mkTypeStr</name></member>
+    <member refid="namespacetblink__rpc_1a84aca7c41614f9ead8ccd08f07967c29" kind="function"><name>tblink_rpc_IInterfaceTypeBuilder_mkTypeVec</name></member>
+    <member refid="namespacetblink__rpc_1a59eaf269bc7e59edd642a3e21b7b8135" kind="function"><name>tblink_rpc_IInterfaceTypeBuilder_newMethodTypeBuilder</name></member>
+    <member refid="namespacetblink__rpc_1a4656b1a2e14f4f4eb7c7f9b164f5f06d" kind="function"><name>tblink_rpc_IInterfaceTypeBuilder_add_method</name></member>
+    <member refid="namespacetblink__rpc_1ae51bbb7d97cbf782326cd60eb31da719" kind="function"><name>tblink_rpc_IInterfaceType_findMethod</name></member>
+    <member refid="namespacetblink__rpc_1a88cd52331105035fa2b06b7e45dfd808" kind="function"><name>tblink_rpc_ILaunchParams_add_arg</name></member>
+    <member refid="namespacetblink__rpc_1aa26fa33fdf76963bffc02091a64228d6" kind="function"><name>tblink_rpc_ILaunchParams_add_param</name></member>
+    <member refid="namespacetblink__rpc_1a43a4153a71af074c5c97907dd4beb6ec" kind="function"><name>tblink_rpc_ILaunchParams_has_param</name></member>
+    <member refid="namespacetblink__rpc_1a9619416c6eb6b30cddadb71375abb3e7" kind="function"><name>tblink_rpc_ILaunchParams_get_param</name></member>
+    <member refid="namespacetblink__rpc_1a1e22e733e0ebe961214673bdc2be5a5d" kind="function"><name>newLaunchParamsProxy</name></member>
+    <member refid="namespacetblink__rpc_1a43efbaada6f0618cf117adb2977d10f2" kind="function"><name>delLaunchParamsProxy</name></member>
+    <member refid="namespacetblink__rpc_1afb8565e35a2e9591562160aade0668e2" kind="function"><name>tblink_rpc_DpiLaunchParamsProxy_add_arg</name></member>
+    <member refid="namespacetblink__rpc_1a386cdb2db4697d31286c43dfd0d2a727" kind="function"><name>tblink_rpc_DpiLaunchParamsProxy_add_param</name></member>
+    <member refid="namespacetblink__rpc_1a3a0cf4f4d9fee6861e60bf5ef1cee745" kind="function"><name>tblink_rpc_DpiLaunchParamsProxy_new</name></member>
+    <member refid="namespacetblink__rpc_1a58f8b1a439ea1da86932b33a34d0526d" kind="function"><name>tblink_rpc_DpiLaunchParamsProxy_del</name></member>
+    <member refid="namespacetblink__rpc_1a02f669befabbc5f7624df25be16d5e01" kind="function"><name>tblink_rpc_IMethodType_name</name></member>
+    <member refid="namespacetblink__rpc_1a55507b8040326cae283b7a5bae8df459" kind="function"><name>tblink_rpc_IMethodType_id</name></member>
+    <member refid="namespacetblink__rpc_1a2d012fcd5849d328cbea3df8de104abb" kind="function"><name>tblink_rpc_IMethodType_is_export</name></member>
+    <member refid="namespacetblink__rpc_1ae5194d3650f7d9a463cc8ab2a1b1c4ef" kind="function"><name>tblink_rpc_IMethodType_is_blocking</name></member>
+    <member refid="namespacetblink__rpc_1a52521a6d1a7b38195dc16e99d91ad98d" kind="function"><name>tblink_rpc_IParamValInt_val_u</name></member>
+    <member refid="namespacetblink__rpc_1a704ca2ba31e8619a83bd0a7335a04375" kind="function"><name>tblink_rpc_IParamValInt_val_s</name></member>
+    <member refid="namespacetblink__rpc_1a2568ddcceb6a6deb81c75116ce61b864" kind="function"><name>tblink_rpc_IParamValMap_hasKey</name></member>
+    <member refid="namespacetblink__rpc_1a45ecc3a08ae07ca7985ad6efc1743f45" kind="function"><name>tblink_rpc_IParamValMap_getVal</name></member>
+    <member refid="namespacetblink__rpc_1abb28088b9c48a63831ca2af231b928bc" kind="function"><name>tblink_rpc_IParamValMap_setVal</name></member>
+    <member refid="namespacetblink__rpc_1aab2c09f02d2bc7f46c3b2cd2c127c2fd" kind="function"><name>tblink_rpc_IParamValStr_val</name></member>
+    <member refid="namespacetblink__rpc_1a19892d09bc1112e60e2ca8f3e6b7fcec" kind="function"><name>tblink_rpc_IParamValVec_size</name></member>
+    <member refid="namespacetblink__rpc_1a1c4503b2572a05c4bfbd33234dc58479" kind="function"><name>tblink_rpc_IParamValVec_at</name></member>
+    <member refid="namespacetblink__rpc_1a0bbff9eedf751bd254f26bd0e7d7b43e" kind="function"><name>tblink_rpc_IParamValVec_push_back</name></member>
+    <member refid="namespacetblink__rpc_1a3a7ca93a78474c2425a9bc88411c7abb" kind="function"><name>tblink_rpc_invoke_nb_dpi_bfm</name></member>
+    <member refid="namespacetblink__rpc_1afaf236532da40bf8af6b5b04267e65ba" kind="function"><name>tblink_rpc_invoke_b_dpi_bfm</name></member>
+    <member refid="namespacetblink__rpc_1aa2990d78f69c4b7b4e1df28147bf0511" kind="function"><name>newDpiEndpointServicesProxy</name></member>
+    <member refid="namespacetblink__rpc_1a0f458557ca4d2452b41065e3e07e4083" kind="function"><name>tblink_rpc_DpiEndpointServicesProxy_new</name></member>
+    <member refid="namespacetblink__rpc_1a7bad887fb8c014ceee242db6182c1cc7" kind="function"><name>tblink_rpc_DpiEndpointServicesProxy_shutdown</name></member>
+    <member refid="namespacetblink__rpc_1a3846ae8a1d6755d1673fba2e70adccc1" kind="function"><name>tblink_rpc_DpiEndpointServicesProxy_run_until_event</name></member>
+    <member refid="namespacetblink__rpc_1a6032beb464413c3c557517ab7931256d" kind="function"><name>tblink_rpc_DpiEndpointServicesProxy_hit_event</name></member>
+    <member refid="namespacetblink__rpc_1a2af8f2e4fa1fa8f3e347cd654dc44620" kind="function"><name>tblink_rpc_DpiEndpointServicesProxy_idle</name></member>
+    <member refid="namespacetblink__rpc_1a0f9363c924919c141091da6ed1060e93" kind="function"><name>mkDpiEndpoint</name></member>
+    <member refid="namespacetblink__rpc_1af5905fb3b56d6530d54dec1bc95319d3" kind="function"><name>tblink_rpc_IEndpoint_init</name></member>
+    <member refid="namespacetblink__rpc_1a2f21cca5fe819dde650855515964daa0" kind="function"><name>tblink_rpc_IEndpoint_is_init</name></member>
+    <member refid="namespacetblink__rpc_1a1ccad71797ac97931620f9213a6a1d9f" kind="function"><name>tblink_rpc_IEndpoint_build_complete</name></member>
+    <member refid="namespacetblink__rpc_1a79f47c41319ee7058a3004f7c3baec9d" kind="function"><name>tblink_rpc_IEndpoint_is_build_complete</name></member>
+    <member refid="namespacetblink__rpc_1a3e580c93064aeddfbbf4f5033a566dd0" kind="function"><name>tblink_rpc_IEndpoint_connect_complete</name></member>
+    <member refid="namespacetblink__rpc_1aa9818e4a4c4aa3245c8fb16cba1c88ca" kind="function"><name>tblink_rpc_IEndpoint_is_connect_complete</name></member>
+    <member refid="namespacetblink__rpc_1a2b2540b789dfab6584ccfe03a3a42502" kind="function"><name>tblink_rpc_IEndpoint_comm_state</name></member>
+    <member refid="namespacetblink__rpc_1a18b5cecb5fdf62a58759f2a79d27b4a6" kind="function"><name>_tblink_rpc_IEndpoint_await_run_until_event</name></member>
+    <member refid="namespacetblink__rpc_1a51833576a582ca1dd23a83752b39da76" kind="function"><name>_tblink_rpc_endpoint_shutdown</name></member>
+    <member refid="namespacetblink__rpc_1af688b501491da6bdc9e2492be5ae2df2" kind="function"><name>tblink_rpc_IEndpoint_last_error</name></member>
+    <member refid="namespacetblink__rpc_1ab58e23d3e4fcbcbda18337e0186574e5" kind="function"><name>tblink_rpc_IEndpoint_findInterfaceType</name></member>
+    <member refid="namespacetblink__rpc_1a1f0812db48c67e050bfdfa254778ebbe" kind="function"><name>tblink_rpc_IEndpoint_newInterfaceTypeBuilder</name></member>
+    <member refid="namespacetblink__rpc_1ace101c7451844b1131d444d595297333" kind="function"><name>tblink_rpc_IEndpoint_defineInterfaceType</name></member>
+    <member refid="namespacetblink__rpc_1a5f496dd9c7b25fd2bbceb34c654245a1" kind="function"><name>tblink_rpc_IEndpoint_getInterfaceInstCount</name></member>
+    <member refid="namespacetblink__rpc_1af652ff74f21df4176a38fc74a5726061" kind="function"><name>tblink_rpc_IEndpoint_getInterfaceInstAt</name></member>
+    <member refid="namespacetblink__rpc_1a2ae204ded05b7ff9fdcd3aa47bfe47b1" kind="function"><name>_tblink_rpc_IEndpoint_defineInterfaceInst</name></member>
+    <member refid="namespacetblink__rpc_1a162918246b7dbe051d2719ceaf83bd24" kind="function"><name>tblink_rpc_IEndpoint_process_one_message</name></member>
+    <member refid="namespacetblink__rpc_1a2fc700ee8bc7d945b978bd369e118900" kind="function"><name>tblink_rpc_IEndpointEvent_kind</name></member>
+    <member refid="namespacetblink__rpc_1a72004ecae9fec80cc776cd4ce2a90d8c" kind="function"><name>connectDpiEndpointListenerProxy</name></member>
+    <member refid="namespacetblink__rpc_1a4dc4f17cbd2242f4d43147e9244076d9" kind="function"><name>disconnectDpiEndpointListenerProxy</name></member>
+    <member refid="namespacetblink__rpc_1a31d396f2ba1ce4269e1e34b0d75f052c" kind="function"><name>tblink_rpc_DpiEndpointListenerProxy_connect</name></member>
+    <member refid="namespacetblink__rpc_1a60a4a204178cc140b027e3f02b58f94f" kind="function"><name>tblink_rpc_DpiEndpointListenerProxy_disconnect</name></member>
+    <member refid="namespacetblink__rpc_1aaf391a623a959f56b18bb2dedf826012" kind="function"><name>tblink_rpc_DpiEndpointListenerProxy_event</name></member>
+    <member refid="namespacetblink__rpc_1a7de3eccce0c48c11f8232f87b36237d2" kind="function"><name>tblink_rpc_DpiEndpointLoopback_new</name></member>
+    <member refid="namespacetblink__rpc_1aee49c7869a2097e6a27d22fa9b07cc3d" kind="function"><name>tblink_rpc_ILaunchType_launch</name></member>
+    <member refid="namespacetblink__rpc_1acc59f665ff0c357be7bc6e49db6ce305" kind="function"><name>tblink_rpc_ILaunchType_newLaunchParams</name></member>
+    <member refid="namespacetblink__rpc_1a938e997a283da0cd59ac92207d8a7391" kind="function"><name>mkSVEndpointSequencer</name></member>
+    <member refid="namespacetblink__rpc_1a16dc64f36cbaf324325f5b8c6651ab10" kind="function"><name>tblink_rpc_add_time_cb</name></member>
+    <member refid="namespacetblink__rpc_1a04a718e857216e832b6220bc67459f57" kind="function"><name>tblink_rpc_notify_time_cb</name></member>
+    <member refid="namespacetblink__rpc_1a32eb807f0739a592118de3cf0ca1e1d7" kind="function"><name>tblink_rpc_init</name></member>
+    <member refid="namespacetblink__rpc_1a153fe63999f9fcabde98f552f6f6affd" kind="function"><name>_tblink_rpc_pkg_init</name></member>
+    <member refid="namespacetblink__rpc_1ae97d7f6abebbc6b649c10f873131ffe3" kind="function"><name>tblink_rpc_findLaunchType</name></member>
+    <member refid="namespacetblink__rpc_1add720ac713b3195d621d3aa96f4ad57c" kind="function"><name>tblink_rpc_libpath</name></member>
+    <member refid="namespacetblink__rpc_1a62e2cf8ab93796fbacf914dac2bba512" kind="function"><name>tblink_rpc_TbLink_inst</name></member>
+    <member refid="namespacetblink__rpc_1ab916c4375e1fc399e86af8bf38f0767d" kind="function"><name>tblink_rpc_TbLink_setDefaultEP</name></member>
+    <member refid="namespacetblink__rpc_1a61660ad4e9e74a9145cce680f07e499a" kind="function"><name>tblink_rpc_TbLink_getDefaultEP</name></member>
+    <member refid="namespacetblink__rpc_1a6c31b8af971900f533a8f35a7c94965d" kind="function"><name>tblink_rpc_ParseLaunchPlusargs</name></member>
+    <member refid="namespacetblink__rpc_1a9ef99ca68716beb15e151669aa08fd14" kind="function"><name>tblink_rpc_delta_cb</name></member>
+    <member refid="namespacetblink__rpc_1a05425e3999c20cd3c37f267ad7f4248d" kind="function"><name>tblink_rpc_register_delta_cb</name></member>
+    <member refid="namespacetblink__rpc_1aada49aa92eb67cb947506bfbc4814c71" kind="function"><name>tblink_rpc_register_dispatch_cb</name></member>
+    <member refid="namespacetblink__rpc_1a4c0dcb4397e8291f418acc361ab76218" kind="function"><name>tblink_rpc_dispatch_cb</name></member>
+    <member refid="namespacetblink__rpc_1a8af0d1393fdafa6823f39b015017d4bd" kind="function"><name>tblink</name></member>
+    <member refid="namespacetblink__rpc_1aadffd41d9f02807cbc222a3543492eb5" kind="function"><name>tblink_rpc_iftype_find_method</name></member>
+    <member refid="namespacetblink__rpc_1aea4cae6b22b25153ecc5159f079104b4" kind="function"><name>_tblink_rpc_iparam_val_clone</name></member>
+    <member refid="namespacetblink__rpc_1ac2e3b46703f9b4441b81f082842574e7" kind="function"><name>_tblink_rpc_iparam_val_type</name></member>
+    <member refid="namespacetblink__rpc_1aae33751b3b5d765bd07bbec2acc7c6a4" kind="function"><name>_tblink_rpc_iparam_val_bool_val</name></member>
+    <member refid="namespacetblink__rpc_1ab2b687e3a85d202b25c438537b59f622" kind="function"><name>tblink_rpc_IInterfaceInst_name</name></member>
+    <member refid="namespacetblink__rpc_1a635b0ab6f898a2885cbebffbb2e8b009" kind="function"><name>tblink_rpc_IInterfaceInst_type</name></member>
+    <member refid="namespacetblink__rpc_1aa71e2ed26511c0cc7961dc29b12606af" kind="function"><name>tblink_rpc_IInterfaceInst_is_mirror</name></member>
+    <member refid="namespacetblink__rpc_1a28ece156a8afe9ce225e4cd3b177e2ac" kind="function"><name>_tblink_rpc_ifinst_invoke_nb</name></member>
+    <member refid="namespacetblink__rpc_1a007c0955325b52f9ed7da3ef5edb817b" kind="function"><name>tblink_rpc_start</name></member>
+    <member refid="namespacetblink__rpc_1a4e6d383b412e6c6559ca509e6da86015" kind="function"><name>tblink_rpc_invoke</name></member>
+    <member refid="namespacetblink__rpc_1a4ecdab02188120dc50eadf2c892b1d1d" kind="function"><name>tblink_rpc_get_plusargs</name></member>
+    <member refid="namespacetblink__rpc_1aa2bcf5f8766fdcfbb354035c255bb042" kind="function"><name>_tblink_rpc_get_plusargs</name></member>
+    <member refid="namespacetblink__rpc_1a248bc755162d158edac3bab2ab50aa41" kind="function"><name>tblink_rpc_register_dpi_bfm</name></member>
+  </compound>
+  <compound refid="tblink__rpc__pkg_8cpp" kind="file"><name>tblink_rpc_pkg.cpp</name>
+  </compound>
+  <compound refid="dir_270f98b8c0462f5cef4086622d3cd950" kind="dir"><name>tblink_rpc_sv_tmp</name>
+  </compound>
+</doxygenindex>
