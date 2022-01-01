@@ -3,6 +3,7 @@ layout: default
 title: Home
 ---
 
+<!--
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
@@ -18,6 +19,7 @@ title: Home
   </div>
   {% endfor %}
 </div>
+ -->
 
 # TbLink-RPC
 
