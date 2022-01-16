@@ -168,7 +168,6 @@
         <definition>virtual int tblink_rpc::IEndpoint::await_run_until_event</definition>
         <argsstring>()</argsstring>
         <name>await_run_until_event</name>
-        <reimplementedby refid="classtblink__rpc_1_1DpiEndpoint_1a5f33a5ed058a90858fe443d9a81a5289">await_run_until_event</reimplementedby>
         <reimplementedby refid="classtblink__rpc_1_1SVEndpointLoopback_1afa138ca9b06bb4314acf1c3cc429c2e3">await_run_until_event</reimplementedby>
         <briefdescription>
         </briefdescription>

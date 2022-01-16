@@ -530,7 +530,7 @@
     <member refid="classtblink__rpc__core_1_1ITbLink_1ad55f90f335b60156b647d012d1ac997b" kind="function"><name>findLaunchType</name></member>
     <member refid="classtblink__rpc__core_1_1ITbLink_1a2788551154dbf6637caf0cf9378def23" kind="function"><name>getLibPath</name></member>
     <member refid="classtblink__rpc__core_1_1ITbLink_1aaf2d4898f40d05497394a8425729d689" kind="function"><name>sym_finder</name></member>
-    <member refid="classtblink__rpc__core_1_1ITbLink_1ac36eb106a82ad14a14f00a27663e57cb" kind="function"><name>load_library</name></member>
+    <member refid="classtblink__rpc__core_1_1ITbLink_1a4c726ff0ac0e8e2eddae61c45aa12c99" kind="function"><name>load_library</name></member>
   </compound>
   <compound refid="classtblink__rpc__core_1_1ITransport" kind="class"><name>tblink_rpc_core::ITransport</name>
     <member refid="classtblink__rpc__core_1_1ITransport_1adc6ad0ff11e949f9cf34b088979eb9c3" kind="function"><name>~ITransport</name></member>

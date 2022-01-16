@@ -273,7 +273,7 @@
         <definition>ISymFinder::result_t tblink_rpc_core::TbLink::load_library</definition>
         <argsstring>(const std::string &amp;path) override</argsstring>
         <name>load_library</name>
-        <reimplements refid="classtblink__rpc__core_1_1ITbLink_1ac36eb106a82ad14a14f00a27663e57cb">load_library</reimplements>
+        <reimplements refid="classtblink__rpc__core_1_1ITbLink_1a4c726ff0ac0e8e2eddae61c45aa12c99">load_library</reimplements>
         <param>
           <type>const std::string &amp;</type>
           <declname>path</declname>

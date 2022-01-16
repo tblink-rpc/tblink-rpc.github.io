@@ -22,7 +22,6 @@
     <member refid="classtblink__rpc_1_1DpiEndpoint_1a8f8f7d9f7dc73a1a0481d28c35424f5e" kind="function"><name>comm_state</name></member>
     <member refid="classtblink__rpc_1_1DpiEndpoint_1a21bfbeedec4aea9dd8d6b87606460295" kind="function"><name>addListener</name></member>
     <member refid="classtblink__rpc_1_1DpiEndpoint_1ae14ef1ad90d6d8c29118240e9b6f5a15" kind="function"><name>removeListener</name></member>
-    <member refid="classtblink__rpc_1_1DpiEndpoint_1a5f33a5ed058a90858fe443d9a81a5289" kind="function"><name>await_run_until_event</name></member>
     <member refid="classtblink__rpc_1_1DpiEndpoint_1a10d1814e28e49f945327525ae8cdd364" kind="function"><name>shutdown</name></member>
     <member refid="classtblink__rpc_1_1DpiEndpoint_1a45bd4b9af648bf35c5a16f4578dc00ab" kind="function"><name>last_error</name></member>
     <member refid="classtblink__rpc_1_1DpiEndpoint_1ab4d9576effa616ad97fb6f5e40579033" kind="function"><name>findInterfaceType</name></member>
@@ -709,7 +708,6 @@
     <member refid="namespacetblink__rpc_1a3e580c93064aeddfbbf4f5033a566dd0" kind="function"><name>tblink_rpc_IEndpoint_connect_complete</name></member>
     <member refid="namespacetblink__rpc_1aa9818e4a4c4aa3245c8fb16cba1c88ca" kind="function"><name>tblink_rpc_IEndpoint_is_connect_complete</name></member>
     <member refid="namespacetblink__rpc_1a2b2540b789dfab6584ccfe03a3a42502" kind="function"><name>tblink_rpc_IEndpoint_comm_state</name></member>
-    <member refid="namespacetblink__rpc_1a18b5cecb5fdf62a58759f2a79d27b4a6" kind="function"><name>_tblink_rpc_IEndpoint_await_run_until_event</name></member>
     <member refid="namespacetblink__rpc_1a51833576a582ca1dd23a83752b39da76" kind="function"><name>_tblink_rpc_endpoint_shutdown</name></member>
     <member refid="namespacetblink__rpc_1af688b501491da6bdc9e2492be5ae2df2" kind="function"><name>tblink_rpc_IEndpoint_last_error</name></member>
     <member refid="namespacetblink__rpc_1ab58e23d3e4fcbcbda18337e0186574e5" kind="function"><name>tblink_rpc_IEndpoint_findInterfaceType</name></member>

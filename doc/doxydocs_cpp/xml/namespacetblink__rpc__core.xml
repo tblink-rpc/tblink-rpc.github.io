@@ -693,7 +693,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" line="1256" column="27" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="1256" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" line="1259" column="27" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="1259" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="LaunchTypeConnectNativeLoopback_8cpp_1a631f4cd2211fffab12d400bfe309cd43" prot="public" static="yes" mutable="no">
         <type><ref refid="classtblink__rpc__core_1_1LaunchTypeRegistration" kindref="compound">LaunchTypeRegistration</ref>&lt; <ref refid="classtblink__rpc__core_1_1LaunchTypeConnectNativeLoopback" kindref="compound">LaunchTypeConnectNativeLoopback</ref> &gt;</type>
@@ -732,7 +732,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeNativeLoopback.cpp" line="57" column="30" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeNativeLoopback.cpp" bodystart="57" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeNativeLoopback.cpp" line="59" column="30" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeNativeLoopback.cpp" bodystart="59" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="LaunchTypeProcessSocket_8cpp_1ab4594246da598af6eba0f4ee5bf33cc0" prot="public" static="yes" mutable="no">
         <type><ref refid="classtblink__rpc__core_1_1LaunchTypeRegistration" kindref="compound">LaunchTypeRegistration</ref>&lt; <ref refid="classtblink__rpc__core_1_1LaunchTypeProcessSocket" kindref="compound">LaunchTypeProcessSocket</ref> &gt;</type>

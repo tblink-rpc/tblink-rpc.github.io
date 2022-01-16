@@ -158,10 +158,10 @@
         </inbodydescription>
         <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ITbLink.h" line="41" column="20"/>
       </memberdef>
-      <memberdef kind="function" id="classtblink__rpc__core_1_1ITbLink_1ac36eb106a82ad14a14f00a27663e57cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classtblink__rpc__core_1_1ITbLink_1a4c726ff0ac0e8e2eddae61c45aa12c99" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>ISymFinder::result_t</type>
         <definition>virtual ISymFinder::result_t tblink_rpc_core::ITbLink::load_library</definition>
-        <argsstring>(const std::string &amp;path)</argsstring>
+        <argsstring>(const std::string &amp;path)=0</argsstring>
         <name>load_library</name>
         <reimplementedby refid="classtblink__rpc__core_1_1TbLink_1aa44cd781525cc07af2feb715b9163b09">load_library</reimplementedby>
         <param>
@@ -201,7 +201,7 @@
       <member refid="classtblink__rpc__core_1_1ITbLink_1a47d1a16e00b1adad1b87afca26bfff3d" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::ITbLink</scope><name>getDefaultServicesFactory</name></member>
       <member refid="classtblink__rpc__core_1_1ITbLink_1a2788551154dbf6637caf0cf9378def23" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::ITbLink</scope><name>getLibPath</name></member>
       <member refid="classtblink__rpc__core_1_1ITbLink_1a415358ed49047f4151b13c6d83645902" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::ITbLink</scope><name>launchTypes</name></member>
-      <member refid="classtblink__rpc__core_1_1ITbLink_1ac36eb106a82ad14a14f00a27663e57cb" prot="public" virt="virtual"><scope>tblink_rpc_core::ITbLink</scope><name>load_library</name></member>
+      <member refid="classtblink__rpc__core_1_1ITbLink_1a4c726ff0ac0e8e2eddae61c45aa12c99" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::ITbLink</scope><name>load_library</name></member>
       <member refid="classtblink__rpc__core_1_1ITbLink_1a42c29eab6db8621a90d74fbd455fa2f2" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::ITbLink</scope><name>setDefaultEP</name></member>
       <member refid="classtblink__rpc__core_1_1ITbLink_1a1ab6a3cb457ef545828c91e96a2d144e" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::ITbLink</scope><name>setDefaultServicesFactory</name></member>
       <member refid="classtblink__rpc__core_1_1ITbLink_1aaf2d4898f40d05497394a8425729d689" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::ITbLink</scope><name>sym_finder</name></member>
