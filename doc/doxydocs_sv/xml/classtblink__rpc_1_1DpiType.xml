@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1731" column="8" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1731" bodyend="-1"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2045" column="8" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2045" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1734" column="2" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1734" bodyend="1736"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2048" column="2" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2048" bodyend="2050"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc_1_1DpiType_1a7c71ae65872a0b2baf1b2355c77d3b1d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>type_kind_e</type>
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1739" column="22" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1739" bodyend="1741"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2053" column="22" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2053" bodyend="2055"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1743" column="21" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1743" bodyend="1745"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2057" column="21" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2057" bodyend="2059"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc_1_1DpiType_1afbab6b8299cbc74ea7a3ecaa0479b86b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>chandle</type>
@@ -84,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1747" column="17" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1747" bodyend="1774"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2061" column="17" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2061" bodyend="2088"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc_1_1DpiType_1a0cc0cec49bc39616d5cc89ce729f5d06" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classtblink__rpc_1_1DpiType" kindref="compound">DpiType</ref></type>
@@ -101,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1776" column="17" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1776" bodyend="1793"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2090" column="17" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2090" bodyend="2107"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -134,7 +134,7 @@
         <link refid="classtblink__rpc_1_1IType"/>
       </node>
     </collaborationgraph>
-    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1730" column="27" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1730" bodyend="1794"/>
+    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2044" column="27" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2044" bodyend="2108"/>
     <listofallmembers>
       <member refid="classtblink__rpc_1_1DpiType_1a3482295baa4bbb2a4c66e2aeeb9fd3d2" prot="public" virt="non-virtual"><scope>tblink_rpc::DpiType</scope><name>_kind</name></member>
       <member refid="classtblink__rpc_1_1IType_1a4fe3f25502806ac297a4328a37e05266a2461dd5013f330d6e11296c6fe177a4b" prot="public" virt="non-virtual"><scope>tblink_rpc::DpiType</scope><name>Bool</name></member>

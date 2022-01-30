@@ -4,7 +4,10 @@
     <compoundname>Type.cpp</compoundname>
     <includes refid="Type_8h" local="yes">Type.h</includes>
     <incdepgraph>
-      <node id="5">
+      <node id="4">
+        <label>functional</label>
+      </node>
+      <node id="6">
         <label>stdint.h</label>
       </node>
       <node id="1">
@@ -20,6 +23,8 @@
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
       </node>
       <node id="2">
         <label>Type.h</label>
@@ -27,7 +32,7 @@
         <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="4">
+      <node id="5">
         <label>memory</label>
       </node>
     </incdepgraph>

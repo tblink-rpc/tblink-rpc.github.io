@@ -11,6 +11,9 @@
     <includedby refid="MethodType_8cpp" local="yes">/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/MethodType.cpp</includedby>
     <incdepgraph>
       <node id="8">
+        <label>functional</label>
+      </node>
+      <node id="9">
         <label>stdint.h</label>
       </node>
       <node id="2">
@@ -31,9 +34,11 @@
       <node id="7">
         <label>tblink_rpc/IType.h</label>
         <link refid="IType_8h_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
       </node>
       <node id="4">

@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5391" column="20" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5391" bodyend="-1"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5820" column="20" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5820" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5393" column="2" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5393" bodyend="5395"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5822" column="2" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5822" bodyend="5824"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc_1_1SVEndpointSequencerThread_1a14a0f64b665dcb80cf08e278a7eb8368" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>task</type>
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5397" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5397" bodyend="5399"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5826" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5826" bodyend="5828"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -71,23 +71,34 @@
       <node id="5">
         <label>tblink_rpc::TbLink</label>
         <link refid="classtblink__rpc_1_1TbLink"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>m_if_factories</edgelabel>
+          <edgelabel>m_if_factory_m</edgelabel>
+        </childnode>
         <childnode refid="2" relation="usage">
           <edgelabel>m_dispatch_q</edgelabel>
         </childnode>
         <childnode refid="3" relation="usage">
           <edgelabel>m_default_ep_seqr</edgelabel>
         </childnode>
-        <childnode refid="6" relation="usage">
+        <childnode refid="8" relation="usage">
+          <edgelabel>m_endpoints</edgelabel>
           <edgelabel>m_default_ep</edgelabel>
         </childnode>
-        <childnode refid="7" relation="usage">
+        <childnode refid="9" relation="usage">
           <edgelabel>m_sv_launch_type_m</edgelabel>
         </childnode>
-        <childnode refid="8" relation="usage">
+        <childnode refid="10" relation="usage">
           <edgelabel>m_default_services_f</edgelabel>
         </childnode>
       </node>
-      <node id="8">
+      <node id="7">
+        <label>tblink_rpc::IInterfaceFactoryBase</label>
+        <link refid="classtblink__rpc_1_1IInterfaceFactoryBase"/>
+      </node>
+      <node id="10">
         <label>tblink_rpc::IEndpointServicesFactory</label>
         <link refid="classtblink__rpc_1_1IEndpointServicesFactory"/>
       </node>
@@ -100,13 +111,17 @@
           <edgelabel>m_seqr</edgelabel>
         </childnode>
       </node>
-      <node id="7">
+      <node id="9">
         <label>tblink_rpc::ILaunchType</label>
         <link refid="classtblink__rpc_1_1ILaunchType"/>
       </node>
       <node id="4">
         <label>tblink_rpc::IEndpointListener</label>
         <link refid="classtblink__rpc_1_1IEndpointListener"/>
+      </node>
+      <node id="6">
+        <label>tblink_rpc::ITbLinkListener</label>
+        <link refid="classtblink__rpc_1_1ITbLinkListener"/>
       </node>
       <node id="2">
         <label>tblink_rpc::TbLinkThread</label>
@@ -126,16 +141,16 @@
         <childnode refid="5" relation="usage">
           <edgelabel>m_tblink</edgelabel>
         </childnode>
-        <childnode refid="6" relation="usage">
+        <childnode refid="8" relation="usage">
           <edgelabel>m_ep</edgelabel>
         </childnode>
       </node>
-      <node id="6">
+      <node id="8">
         <label>tblink_rpc::IEndpoint</label>
         <link refid="classtblink__rpc_1_1IEndpoint"/>
       </node>
     </collaborationgraph>
-    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5389" column="52" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5389" bodyend="5401"/>
+    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5818" column="52" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5818" bodyend="5830"/>
     <listofallmembers>
       <member refid="classtblink__rpc_1_1TbLinkThread_1a725caa05229db72edf4311440ca1bc2a" prot="public" virt="non-virtual"><scope>tblink_rpc::SVEndpointSequencerThread</scope><name>m_next</name></member>
       <member refid="classtblink__rpc_1_1SVEndpointSequencerThread_1a382cc64b572a720b91dc9a7296a22ba7" prot="public" virt="non-virtual"><scope>tblink_rpc::SVEndpointSequencerThread</scope><name>m_seqr</name></member>

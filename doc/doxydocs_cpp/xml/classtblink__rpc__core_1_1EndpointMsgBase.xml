@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="183" column="19" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="183" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="188" column="19" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="188" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="classtblink__rpc__core_1_1EndpointMsgBase_1a57bde1341558408b3a41cd5858c1e2c6" prot="private" static="no">
         <type>std::function&lt; rsp_t(intptr_t, <ref refid="classtblink__rpc__core_1_1IParamValMap" kindref="compound">IParamValMap</ref> *)&gt;</type>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="184" column="23" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="184" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="189" column="23" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="189" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="classtblink__rpc__core_1_1EndpointMsgBase_1ab69cfdf5abd0b1a086915c046c17a3ad" prot="private" static="no">
         <type>std::pair&lt; bool, std::pair&lt; <ref refid="classtblink__rpc__core_1_1IParamValMap" kindref="compound">IParamValMap</ref> *, <ref refid="classtblink__rpc__core_1_1IParamValMap" kindref="compound">IParamValMap</ref> * &gt; &gt;</type>
@@ -59,7 +59,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="273" column="19" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="273" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="278" column="19" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="278" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="friend">
@@ -89,10 +89,23 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="276" column="20" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="276" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="281" column="20" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="281" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtblink__rpc__core_1_1EndpointMsgBase_1af9732c704375aa6a81b97e25ad340b8d" prot="private" static="no" mutable="no">
+        <type>IEndpointFlags</type>
+        <definition>IEndpointFlags tblink_rpc_core::EndpointMsgBase::m_flags</definition>
+        <argsstring></argsstring>
+        <name>m_flags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="284" column="15" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="284" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="classtblink__rpc__core_1_1EndpointMsgBase_1acd5b3f7431d342d17a9088765358a519" prot="private" static="no" mutable="no">
         <type>intptr_t</type>
         <definition>intptr_t tblink_rpc_core::EndpointMsgBase::m_id</definition>
@@ -104,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="279" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="279" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="285" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="285" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc__core_1_1EndpointMsgBase_1ac5dd5bef9582c2df488ac0f98c24ca8f" prot="private" static="no" mutable="no">
         <type>intptr_t</type>
@@ -117,7 +130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="280" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="280" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="286" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="286" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc__core_1_1EndpointMsgBase_1a820625d8380a59f7f3534ce7ee1e5094" prot="private" static="no" mutable="no">
         <type>std::unordered_map&lt; intptr_t, invoke_rsp_f &gt;</type>
@@ -130,7 +143,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="281" column="19" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="281" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="287" column="19" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="287" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc__core_1_1EndpointMsgBase_1aa06db42255d573828ebc4e05a403dacf" prot="private" static="no" mutable="no">
         <type>std::string</type>
@@ -143,7 +156,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="283" column="12" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="283" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="289" column="12" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="289" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc__core_1_1EndpointMsgBase_1ab461e3eb82cbfab7ec610189ce9d0384" prot="private" static="no" mutable="no">
         <type>std::unordered_map&lt; intptr_t, response_f &gt;</type>
@@ -156,7 +169,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="285" column="19" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="285" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="291" column="19" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="291" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc__core_1_1EndpointMsgBase_1aedce1e705605eb9e2c89119c44edc417" prot="private" static="no" mutable="no">
         <type>int32_t</type>
@@ -169,7 +182,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="287" column="8" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="287" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="293" column="8" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="293" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc__core_1_1EndpointMsgBase_1ac6d16a059dd831afb4f8627e6bb46c4e" prot="private" static="no" mutable="no">
         <type>int32_t</type>
@@ -182,7 +195,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="288" column="8" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="288" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="294" column="8" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="294" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc__core_1_1EndpointMsgBase_1a979b6e765c2cbc883c39520de94a06e2" prot="private" static="no" mutable="no">
         <type>int32_t</type>
@@ -195,7 +208,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="289" column="8" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="289" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="295" column="8" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="295" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc__core_1_1EndpointMsgBase_1a79579367994d4107c1fcc0848774b643" prot="private" static="no" mutable="no">
         <type>int32_t</type>
@@ -208,7 +221,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="290" column="8" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="290" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="296" column="8" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="296" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc__core_1_1EndpointMsgBase_1ad08527b5dbf2d7c278380af855665ed1" prot="private" static="no" mutable="no">
         <type>int32_t</type>
@@ -221,7 +234,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="291" column="8" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="291" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="297" column="8" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="297" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc__core_1_1EndpointMsgBase_1aee02e58846085d02c7ab8f87d9fe2b47" prot="private" static="no" mutable="no">
         <type>int32_t</type>
@@ -234,7 +247,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="292" column="8" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="292" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="298" column="8" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="298" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc__core_1_1EndpointMsgBase_1a377d68cba800e442221cb121176bcb76" prot="private" static="no" mutable="no">
         <type>int32_t</type>
@@ -247,7 +260,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="293" column="8" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="293" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="299" column="8" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="299" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc__core_1_1EndpointMsgBase_1ae2c2c66c17e099286262e905cde8d0ef" prot="private" static="no" mutable="no">
         <type>std::map&lt; intptr_t, std::function&lt; void()&gt; &gt;</type>
@@ -260,7 +273,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="294" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="294" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="300" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="300" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc__core_1_1EndpointMsgBase_1a06534dfa2af9699556b288920e78d105" prot="private" static="no" mutable="no">
         <type>std::set&lt; intptr_t &gt;</type>
@@ -273,7 +286,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="295" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="295" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="301" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="301" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc__core_1_1EndpointMsgBase_1a74764966e7508f7828470340b47c3813" prot="private" static="no" mutable="no">
         <type>intptr_t</type>
@@ -286,7 +299,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="296" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="296" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="302" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="302" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc__core_1_1EndpointMsgBase_1a501cfdc91ac4435ac5710e5efe72d2b3" prot="private" static="no" mutable="no">
         <type>std::map&lt; std::string, req_func_t &gt;</type>
@@ -299,7 +312,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="297" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="297" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="303" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="303" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc__core_1_1EndpointMsgBase_1a31d9ab996f5dc01843a515a9a180a348" prot="private" static="no" mutable="no">
         <type>std::map&lt; std::string, IInterfaceTypeUP &gt;</type>
@@ -312,7 +325,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="299" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="299" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="305" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="305" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc__core_1_1EndpointMsgBase_1a2163c7cb293cc13630759024dce91ecf" prot="private" static="no" mutable="no">
         <type>uint64_t</type>
@@ -325,7 +338,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="300" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="300" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="306" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="306" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc__core_1_1EndpointMsgBase_1a5677a5cb73fb80bf09a271dfcc95168c" prot="private" static="no" mutable="no">
         <type>std::vector&lt; std::string &gt;</type>
@@ -338,7 +351,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="302" column="12" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="302" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="308" column="12" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="308" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc__core_1_1EndpointMsgBase_1a5c0258f2ed254049376a55a1b619e1f9" prot="private" static="no" mutable="no">
         <type>int32_t</type>
@@ -351,7 +364,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="303" column="8" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="303" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="309" column="8" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="309" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc__core_1_1EndpointMsgBase_1a9eeabc6d6fbd364fe1615adfc3842fa4" prot="private" static="no" mutable="no">
         <type>std::unordered_map&lt; std::string, InterfaceTypeUP &gt;</type>
@@ -364,7 +377,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="305" column="19" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="305" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="311" column="19" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="311" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc__core_1_1EndpointMsgBase_1a2f7dd8dede86fc460ca70c2e13453014" prot="private" static="no" mutable="no">
         <type>std::vector&lt; <ref refid="classtblink__rpc__core_1_1IInterfaceType" kindref="compound">IInterfaceType</ref> * &gt;</type>
@@ -377,7 +390,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="306" column="12" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="306" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="312" column="12" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="312" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc__core_1_1EndpointMsgBase_1a43a20f041c0eb29b64a8ed71b95abdd2" prot="private" static="no" mutable="no">
         <type>std::unordered_map&lt; std::string, InterfaceTypeUP &gt;</type>
@@ -390,7 +403,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="307" column="19" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="307" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="313" column="19" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="313" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc__core_1_1EndpointMsgBase_1ad4c81913dc5e0867582fedf19a6c164c" prot="private" static="no" mutable="no">
         <type>std::vector&lt; <ref refid="classtblink__rpc__core_1_1IInterfaceType" kindref="compound">IInterfaceType</ref> * &gt;</type>
@@ -403,7 +416,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="308" column="12" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="308" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="314" column="12" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="314" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc__core_1_1EndpointMsgBase_1a18e35f2c349c0572627b0a05918be8cb" prot="private" static="no" mutable="no">
         <type>std::unordered_map&lt; std::string, InterfaceInstMsgTransportUP &gt;</type>
@@ -416,7 +429,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="310" column="19" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="310" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="316" column="19" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="316" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc__core_1_1EndpointMsgBase_1a6c46951b9322d47b3aafdb3c397489dc" prot="private" static="no" mutable="no">
         <type>std::vector&lt; <ref refid="classtblink__rpc__core_1_1IInterfaceInst" kindref="compound">IInterfaceInst</ref> * &gt;</type>
@@ -429,7 +442,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="311" column="12" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="311" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="317" column="12" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="317" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc__core_1_1EndpointMsgBase_1a548a874bbb88a9e347da85f33dac3fe3" prot="private" static="no" mutable="no">
         <type>std::unordered_map&lt; std::string, InterfaceInstMsgTransportUP &gt;</type>
@@ -442,7 +455,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="312" column="19" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="312" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="318" column="19" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="318" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc__core_1_1EndpointMsgBase_1a3a4318c6e8e40251720302360805adb2" prot="private" static="no" mutable="no">
         <type>std::vector&lt; <ref refid="classtblink__rpc__core_1_1IInterfaceInst" kindref="compound">IInterfaceInst</ref> * &gt;</type>
@@ -455,7 +468,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="313" column="12" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="313" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="319" column="12" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="319" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc__core_1_1EndpointMsgBase_1ab8d49b364189835d747256d3a3176432" prot="private" static="no" mutable="no">
         <type>int32_t</type>
@@ -468,7 +481,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="315" column="8" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="315" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="321" column="8" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="321" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc__core_1_1EndpointMsgBase_1afc7e0f1a1e207005b5c63aebf71b6e60" prot="private" static="no" mutable="no">
         <type>int32_t</type>
@@ -481,7 +494,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="316" column="8" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="316" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="322" column="8" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="322" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc__core_1_1EndpointMsgBase_1a9c448efac68458a9e02c7bf5aaccf1d8" prot="private" static="no" mutable="no">
         <type>std::vector&lt; IEndpointListenerUP &gt;</type>
@@ -494,7 +507,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="317" column="12" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="317" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="323" column="12" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="323" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc__core_1_1EndpointMsgBase_1a176ca5437f106d7551fc85156e204f0a" prot="private" static="no" mutable="no">
         <type>std::vector&lt; <ref refid="classtblink__rpc__core_1_1IEndpointListener" kindref="compound">IEndpointListener</ref> * &gt;</type>
@@ -507,7 +520,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="318" column="12" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="318" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="324" column="12" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="324" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc__core_1_1EndpointMsgBase_1a039129554fb70ee63073aab2402ff967" prot="private" static="no" mutable="no">
         <type>IEndpoint::comm_state_e</type>
@@ -520,7 +533,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="319" column="24" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="319" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="325" column="24" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="325" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc__core_1_1EndpointMsgBase_1ade413c3e6305f7e98905ad83fc0b3a14" prot="private" static="no" mutable="no">
         <type>IEndpoint::comm_mode_e</type>
@@ -533,7 +546,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="320" column="23" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="320" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="326" column="23" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="326" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc__core_1_1EndpointMsgBase_1a604dd2602253d89b8ad0a0faa06a848c" prot="private" static="no" mutable="no">
         <type>uint32_t</type>
@@ -546,7 +559,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="321" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="321" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="327" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="327" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc__core_1_1EndpointMsgBase_1adf71ac945de128dbba7701022f5882d7" prot="private" static="no" mutable="no">
         <type>int32_t</type>
@@ -559,7 +572,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="323" column="8" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="323" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="329" column="8" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="329" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc__core_1_1EndpointMsgBase_1ae0e0e24e6c8ae8352600f677de1693f3" prot="private" static="no" mutable="no">
         <type>int32_t</type>
@@ -572,7 +585,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="324" column="8" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="324" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="330" column="8" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="330" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -587,7 +600,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="31" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="39" bodyend="111"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="31" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="39" bodyend="112"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a50d73f2aac3398982ab7a20fe54563ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type></type>
@@ -600,7 +613,39 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="33" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="113" bodyend="115"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="33" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="114" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1adb5e5d23a485c81c3caef402d25d736a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>IEndpointFlags</type>
+        <definition>IEndpointFlags tblink_rpc_core::EndpointMsgBase::getFlags</definition>
+        <argsstring>() override</argsstring>
+        <name>getFlags</name>
+        <reimplements refid="classtblink__rpc__core_1_1IEndpoint_1a6828a5dce1d29b4be96d2c2b39176268">getFlags</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="35" column="24" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="118" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a0a1bcb3046dea9891fd4eb1a50289811" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void tblink_rpc_core::EndpointMsgBase::setFlag</definition>
+        <argsstring>(IEndpointFlags f) override</argsstring>
+        <name>setFlag</name>
+        <reimplements refid="classtblink__rpc__core_1_1IEndpoint_1aeb4cae865da49aa53112cd909355c47e">setFlag</reimplements>
+        <param>
+          <type>IEndpointFlags</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="37" column="14" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="122" bodyend="124"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a941ac2466061e437b853ab06acf15eb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>int32_t</type>
@@ -618,7 +663,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="35" column="17" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="117" bodyend="148"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="39" column="17" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="126" bodyend="160"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a551ce5971900c6d18a51519f08f88f2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>int32_t</type>
@@ -632,7 +677,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="37" column="17" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="150" bodyend="157"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="41" column="17" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="162" bodyend="169"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1afef8ee3fa6315f6012d85b67e871e429" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>int32_t</type>
@@ -646,7 +691,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="39" column="17" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="235" bodyend="260"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="43" column="17" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="247" bodyend="272"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1af8e96920282860b7f3a5b07753a9b29f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>int32_t</type>
@@ -660,7 +705,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="41" column="17" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="262" bodyend="270"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="45" column="17" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="274" bodyend="282"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a7cd083aeaef756210e2a475902536525" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>int32_t</type>
@@ -674,7 +719,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="43" column="17" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="272" bodyend="292"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="47" column="17" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="284" bodyend="304"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a6b84209159d8a5d581dee972c3cf4755" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>int32_t</type>
@@ -688,7 +733,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="45" column="17" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="294" bodyend="360"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="49" column="17" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="306" bodyend="372"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1af88b1edf59395b60ca44b5184137464e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -702,7 +747,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="47" column="14" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="362" bodyend="381"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="51" column="14" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="374" bodyend="393"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a291dcf940e11e4b7ef3bf0cc8d1caa3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>IEndpoint::comm_state_e</type>
@@ -716,7 +761,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="49" column="33" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="159" bodyend="163"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="53" column="33" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="171" bodyend="175"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1ac631254d3f94d6eadc7b4531535e473c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -738,7 +783,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="51" column="14" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="165" bodyend="182"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="55" column="14" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="177" bodyend="194"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1ae2fd55dbeae85845683069f5a860833e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type><ref refid="classtblink__rpc__core_1_1IEndpointListener" kindref="compound">IEndpointListener</ref> *</type>
@@ -756,7 +801,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="53" column="27" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="184" bodyend="191"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="57" column="27" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="196" bodyend="203"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a9bf7cd8d31ac818c52098a0fea47cbcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -774,7 +819,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="55" column="14" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="193" bodyend="197"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="59" column="14" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="205" bodyend="209"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a9ba73f709ba905685ce9d78c00c4f537" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -792,7 +837,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="57" column="14" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="199" bodyend="212"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="61" column="14" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="211" bodyend="224"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a21dc1674d0c5cda4ef286074322b06e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -809,7 +854,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="59" column="6" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="214" bodyend="217"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="63" column="6" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="226" bodyend="229"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1ad9d8de815bf85d4ca44f14075c524c62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -826,7 +871,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="61" column="6" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="219" bodyend="232"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="65" column="6" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="231" bodyend="244"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1af8d680e5a389bac85377df5b9986b215" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>intptr_t</type>
@@ -848,7 +893,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="63" column="18" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="383" bodyend="407"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="67" column="18" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="395" bodyend="419"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1aa365235a3dae3f196de17f7c2cadce19" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -866,7 +911,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="67" column="14" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="425" bodyend="431"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="71" column="14" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="437" bodyend="443"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1adc46841ff700a7089e6c93eec6d8bf83" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>std::vector&lt; std::string &gt;</type>
@@ -880,7 +925,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="69" column="21" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="409" bodyend="415"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="73" column="21" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="421" bodyend="427"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a43f17fdd86952c87efdfd331f1895dc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>uint64_t</type>
@@ -894,7 +939,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="71" column="18" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="417" bodyend="423"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="75" column="18" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="429" bodyend="435"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a48a88f6f1c77c4be3503ee4412397a24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>int32_t</type>
@@ -908,7 +953,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="73" column="17" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="73" bodyend="75"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="77" column="17" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="77" bodyend="79"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a1219f5e8c61e1c270daefdac9a7bb142" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -928,7 +973,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="80" column="14" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="436" bodyend="454"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="84" column="14" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="448" bodyend="466"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a408017aae55a43c94efa29fc06edcbd3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>const std::string &amp;</type>
@@ -942,7 +987,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="83" column="27" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="83" bodyend="85"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="87" column="27" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="87" bodyend="89"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a67f8ed2f158fae63a96fc51cdb0b2e84" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -962,7 +1007,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="87" column="14" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="456" bodyend="464"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="91" column="14" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="468" bodyend="476"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1af1baf685ca4caaaca6704265ef20d782" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type><ref refid="classtblink__rpc__core_1_1IInterfaceType" kindref="compound">IInterfaceType</ref> *</type>
@@ -980,7 +1025,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="89" column="24" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="466" bodyend="475"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="93" column="24" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="478" bodyend="487"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a4e39f3e437822daeb8cec5b9669705a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type><ref refid="classtblink__rpc__core_1_1IInterfaceTypeBuilder" kindref="compound">IInterfaceTypeBuilder</ref> *</type>
@@ -998,17 +1043,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="92" column="31" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="477" bodyend="480"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="96" column="31" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="489" bodyend="492"/>
       </memberdef>
-      <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a24456564305f9f53ca996496d3834efe" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a1baf11ee17576cccf10ff586b36db5f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type><ref refid="classtblink__rpc__core_1_1IInterfaceType" kindref="compound">IInterfaceType</ref> *</type>
         <definition>IInterfaceType * tblink_rpc_core::EndpointMsgBase::defineInterfaceType</definition>
-        <argsstring>(IInterfaceTypeBuilder *type) override</argsstring>
+        <argsstring>(IInterfaceTypeBuilder *type, IInterfaceInstFactory *factory) override</argsstring>
         <name>defineInterfaceType</name>
-        <reimplements refid="classtblink__rpc__core_1_1IEndpoint_1a1ad07f2795ef1b1981c04517135e869b">defineInterfaceType</reimplements>
+        <reimplements refid="classtblink__rpc__core_1_1IEndpoint_1a4ac295da75151394c1edb87c25b5a09b">defineInterfaceType</reimplements>
         <param>
           <type><ref refid="classtblink__rpc__core_1_1IInterfaceTypeBuilder" kindref="compound">IInterfaceTypeBuilder</ref> *</type>
           <declname>type</declname>
+        </param>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1IInterfaceInstFactory" kindref="compound">IInterfaceInstFactory</ref> *</type>
+          <declname>factory</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -1016,14 +1065,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="95" column="24" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="482" bodyend="494"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="99" column="24" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="494" bodyend="507"/>
       </memberdef>
-      <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1aba5dba9483305aa7716b38d5b44eef6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a6fbee0bece2d962142c31aac6563dfa1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type><ref refid="classtblink__rpc__core_1_1IInterfaceInst" kindref="compound">IInterfaceInst</ref> *</type>
         <definition>IInterfaceInst * tblink_rpc_core::EndpointMsgBase::defineInterfaceInst</definition>
-        <argsstring>(IInterfaceType *type, const std::string &amp;inst_name, bool is_mirror, const invoke_req_f &amp;req_f) override</argsstring>
+        <argsstring>(IInterfaceType *type, const std::string &amp;inst_name, bool is_mirror, IInterfaceImpl *impl) override</argsstring>
         <name>defineInterfaceInst</name>
-        <reimplements refid="classtblink__rpc__core_1_1IEndpoint_1adef8ff2f4e5338fe810e8827aec98250">defineInterfaceInst</reimplements>
+        <reimplements refid="classtblink__rpc__core_1_1IEndpoint_1a224d59ab18319dba8d655a3bd3e8a970">defineInterfaceInst</reimplements>
         <param>
           <type><ref refid="classtblink__rpc__core_1_1IInterfaceType" kindref="compound">IInterfaceType</ref> *</type>
           <declname>type</declname>
@@ -1037,8 +1086,8 @@
           <declname>is_mirror</declname>
         </param>
         <param>
-          <type>const invoke_req_f &amp;</type>
-          <declname>req_f</declname>
+          <type><ref refid="classtblink__rpc__core_1_1IInterfaceImpl" kindref="compound">IInterfaceImpl</ref> *</type>
+          <declname>impl</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -1046,7 +1095,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="98" column="24" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="496" bodyend="516"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="103" column="24" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="509" bodyend="529"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a307734b5444b11b4e2c4060c3ede973b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>const std::vector&lt; <ref refid="classtblink__rpc__core_1_1IInterfaceType" kindref="compound">IInterfaceType</ref> * &gt; &amp;</type>
@@ -1060,7 +1109,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="105" column="27" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="518" bodyend="520"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="110" column="27" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="531" bodyend="533"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a46f66dccfce09b9c20d08b2fb8022e8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>const std::vector&lt; <ref refid="classtblink__rpc__core_1_1IInterfaceType" kindref="compound">IInterfaceType</ref> * &gt; &amp;</type>
@@ -1075,7 +1124,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="111" column="27" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="522" bodyend="524"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="116" column="27" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="535" bodyend="537"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1ad9be307d5322566d5f606d8ab213ec42" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>const std::vector&lt; <ref refid="classtblink__rpc__core_1_1IInterfaceInst" kindref="compound">IInterfaceInst</ref> * &gt; &amp;</type>
@@ -1090,7 +1139,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="117" column="27" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="526" bodyend="528"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="122" column="27" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="539" bodyend="541"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a221586b6d647a52e48dd940eddbda8d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>const std::vector&lt; <ref refid="classtblink__rpc__core_1_1IInterfaceInst" kindref="compound">IInterfaceInst</ref> * &gt; &amp;</type>
@@ -1105,7 +1154,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="123" column="27" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="530" bodyend="532"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="128" column="27" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="543" bodyend="545"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1ae31c8938bc4855c4899dfa3e62101f4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>intptr_t</type>
@@ -1127,7 +1176,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="125" column="18" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="1033" bodyend="1043"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="130" column="18" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="1048" bodyend="1058"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1ac4dae09016cc3e4d5dfdb83c81d56393" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>intptr_t</type>
@@ -1153,7 +1202,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="129" column="18" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="1045" bodyend="1060"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="134" column="18" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="1060" bodyend="1075"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1ad4abcac75c446362272609820100f951" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type><ref refid="classtblink__rpc__core_1_1IParamValBool" kindref="compound">IParamValBool</ref> *</type>
@@ -1172,7 +1221,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="134" column="23" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="1062" bodyend="1064"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="139" column="23" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="1077" bodyend="1079"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a68e3dad1519e7ce5577b1af75989d42c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type><ref refid="classtblink__rpc__core_1_1IParamValInt" kindref="compound">IParamValInt</ref> *</type>
@@ -1195,7 +1244,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="136" column="22" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="1066" bodyend="1068"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="141" column="22" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="1081" bodyend="1083"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a4125301118fecebd83f37f60763b3868" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type><ref refid="classtblink__rpc__core_1_1IParamValInt" kindref="compound">IParamValInt</ref> *</type>
@@ -1218,7 +1267,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="138" column="22" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="1070" bodyend="1072"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="143" column="22" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="1085" bodyend="1087"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a6f1833785c7a19594f3aaf220faa4434" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type><ref refid="classtblink__rpc__core_1_1IParamValMap" kindref="compound">IParamValMap</ref> *</type>
@@ -1233,7 +1282,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="140" column="22" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="1074" bodyend="1076"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="145" column="22" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="1089" bodyend="1091"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a38189594eda93ffc428282916cdf5e6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type><ref refid="classtblink__rpc__core_1_1IParamValStr" kindref="compound">IParamValStr</ref> *</type>
@@ -1252,7 +1301,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="142" column="22" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="1078" bodyend="1080"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="147" column="22" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="1093" bodyend="1095"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a85d08894d6164fe927d0303de9602de6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type><ref refid="classtblink__rpc__core_1_1IParamValVec" kindref="compound">IParamValVec</ref> *</type>
@@ -1267,7 +1316,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="144" column="22" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="1082" bodyend="1084"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="149" column="22" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="1097" bodyend="1099"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a2a60fc02bf014de0147ab14da7fdbacb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32_t</type>
@@ -1292,7 +1341,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="146" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="971" bodyend="1011"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="151" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="986" bodyend="1026"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a3ce8bba081a4bab2a6dad0cc39fff531" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32_t</type>
@@ -1317,7 +1366,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="151" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="1013" bodyend="1031"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="156" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="1028" bodyend="1046"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a75a7a8779814e561328fe32cd7214948" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>int32_t</type>
@@ -1344,7 +1393,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="156" column="17"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="161" column="17"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a1f1aadc4701dff5039f4cb2a27927380" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>int32_t</type>
@@ -1371,7 +1420,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="161" column="17"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="166" column="17"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a5c358d080d29282827c15ac10c825397" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::pair&lt; IParamValMapUP, IParamValMapUP &gt;</type>
@@ -1388,13 +1437,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="166" column="11" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="1086" bodyend="1120"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="171" column="11" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="1101" bodyend="1135"/>
       </memberdef>
-      <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a8448a1ba028b64d3b76a8712e5ea33f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a3956b1266baee2c17bc4545575155e41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32_t</type>
-        <definition>int32_t tblink_rpc_core::EndpointMsgBase::invoke_nb</definition>
+        <definition>int32_t tblink_rpc_core::EndpointMsgBase::invoke</definition>
         <argsstring>(InterfaceInstBase *ifinst, IMethodType *method, IParamValVec *params, const invoke_rsp_f &amp;rsp_f)</argsstring>
-        <name>invoke_nb</name>
+        <name>invoke</name>
         <param>
           <type><ref refid="classtblink__rpc__core_1_1InterfaceInstBase" kindref="compound">InterfaceInstBase</ref> *</type>
           <declname>ifinst</declname>
@@ -1417,7 +1466,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="171" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="1122" bodyend="1168"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="176" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="1137" bodyend="1185"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a0961b0bd2ffc5679dfcd83a3f5735afb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1442,7 +1491,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="177" column="6" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="1170" bodyend="1191"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="182" column="6" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="1187" bodyend="1208"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -1465,7 +1514,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="187" column="7" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="534" bodyend="551"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="192" column="7" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="547" bodyend="564"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1ad39a07f15e5f249671465c2a20ab319c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>rsp_t</type>
@@ -1486,7 +1535,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="191" column="7" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="553" bodyend="609"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="196" column="7" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="566" bodyend="622"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1ad5313c2fde5e02bdc2c6c699ad29afb6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>rsp_t</type>
@@ -1507,7 +1556,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="195" column="7" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="611" bodyend="635"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="200" column="7" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="624" bodyend="648"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a9b5222bc51468001d2865db1f235a8ff" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>rsp_t</type>
@@ -1528,7 +1577,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="199" column="7" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="637" bodyend="644"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="204" column="7" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="650" bodyend="657"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a293a067c5a4ab7b62d57aa0726a01e1f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>rsp_t</type>
@@ -1549,7 +1598,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="203" column="7" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="646" bodyend="664"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="208" column="7" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="659" bodyend="679"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a8291076cf2614d5885d03399da68a072" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>rsp_t</type>
@@ -1570,7 +1619,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="207" column="7" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="666" bodyend="687"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="212" column="7" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="681" bodyend="702"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a6a7e73e1009698138832c99ff9484e2c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>rsp_t</type>
@@ -1591,7 +1640,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="211" column="7" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="689" bodyend="701"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="216" column="7" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="704" bodyend="716"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1ae11d20e9048c215744dea4e9ead4805c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>rsp_t</type>
@@ -1612,7 +1661,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="215" column="7" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="703" bodyend="745"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="220" column="7" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="718" bodyend="760"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a1b8971a1d8883f6d859e57ecafd30614" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>rsp_t</type>
@@ -1633,7 +1682,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="219" column="7" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="747" bodyend="792"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="224" column="7" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="762" bodyend="807"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1afb5fed846f265d1ddef978ab8efd6dc7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>rsp_t</type>
@@ -1654,7 +1703,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="223" column="7" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="794" bodyend="842"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="228" column="7" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="809" bodyend="857"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1aa7c81f90d24aafc4e92b922aa38236cd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>rsp_t</type>
@@ -1675,7 +1724,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="227" column="7" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="844" bodyend="856"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="232" column="7" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="859" bodyend="871"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a17cac468122d9d83b495d71e9a1022ab" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>rsp_t</type>
@@ -1696,7 +1745,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="231" column="7" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="858" bodyend="870"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="236" column="7" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="873" bodyend="885"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a3b3316ad05cceee5f97394712a7d5084" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>rsp_t</type>
@@ -1717,7 +1766,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="235" column="7" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="872" bodyend="889"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="240" column="7" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="887" bodyend="904"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1ae580a9ecdad075c4524e5ebfc77819a9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1742,7 +1791,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="239" column="6" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="892" bodyend="906"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="244" column="6" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="907" bodyend="921"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a6b2bc5b0e27f87cb8b2a771687c9d7f6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1767,7 +1816,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="244" column="6" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="908" bodyend="951"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="249" column="6" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="923" bodyend="966"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a3caf3edfa09ab2c7923bbd17d1fac50e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1792,7 +1841,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="249" column="6" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="953" bodyend="969"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="254" column="6" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="968" bodyend="984"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1ab0dafac584cda3fd1ddc5854704025eb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classtblink__rpc__core_1_1IParamValMap" kindref="compound">IParamValMap</ref> *</type>
@@ -1809,7 +1858,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="254" column="14" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="1193" bodyend="1243"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="259" column="14" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="1210" bodyend="1260"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1ac492a6c3e60db4153c76810987084bea" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classtblink__rpc__core_1_1IParamValMap" kindref="compound">IParamValMap</ref> *</type>
@@ -1826,7 +1875,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="257" column="14" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="1245" bodyend="1257"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="262" column="14" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="1262" bodyend="1274"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a2231927eee767ccb61f3e03feb7bc5f0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classtblink__rpc__core_1_1IParamValMap" kindref="compound">IParamValMap</ref> *</type>
@@ -1843,7 +1892,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="260" column="14" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="1267" bodyend="1293"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="265" column="14" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="1284" bodyend="1310"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a4adbda82d1a4248b445c3bef4923033c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1868,7 +1917,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="262" column="6" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="1295" bodyend="1331"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="267" column="6" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="1312" bodyend="1348"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1EndpointMsgBase_1a8ffa5b459b536643fc734b7ce420bca4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1893,7 +1942,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="267" column="6" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="1333" bodyend="1376"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="272" column="6" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.cpp" bodystart="1350" bodyend="1393"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -1960,7 +2009,7 @@
         <link refid="classtblink__rpc__core_1_1IParamValFactory"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="24" column="76" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="24" bodyend="326"/>
+    <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" line="24" column="76" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h" bodystart="24" bodyend="332"/>
     <listofallmembers>
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1af8d680e5a389bac85377df5b9986b215" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgBase</scope><name>add_time_callback</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1ae2fd55dbeae85845683069f5a860833e" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgBase</scope><name>addListener</name></member>
@@ -1975,18 +2024,19 @@
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a291dcf940e11e4b7ef3bf0cc8d1caa3f" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgBase</scope><name>comm_state</name></member>
       <member refid="classtblink__rpc__core_1_1IEndpoint_1a3d27060e425e258df64b81572a67cad5" prot="public" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgBase</scope><name>comm_state_e</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a7cd083aeaef756210e2a475902536525" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgBase</scope><name>connect_complete</name></member>
-      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1aba5dba9483305aa7716b38d5b44eef6c" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgBase</scope><name>defineInterfaceInst</name></member>
-      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a24456564305f9f53ca996496d3834efe" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgBase</scope><name>defineInterfaceType</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a6fbee0bece2d962142c31aac6563dfa1" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgBase</scope><name>defineInterfaceInst</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a1baf11ee17576cccf10ff586b36db5f3" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgBase</scope><name>defineInterfaceType</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a85c9769367c10fdfc46df3a297dc7a51" prot="public" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgBase</scope><name>EndpointMsgBase</name></member>
       <member refid="classtblink__rpc__core_1_1IEndpoint_1a1a62633037cb3f51ddd17018f7444955a116cd0998ae3758bcfec6fc29a3a572a" prot="public" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgBase</scope><name>Explicit</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1af1baf685ca4caaaca6704265ef20d782" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgBase</scope><name>findInterfaceType</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1adb5e5d23a485c81c3caef402d25d736a" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgBase</scope><name>getFlags</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1ad9be307d5322566d5f606d8ab213ec42" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgBase</scope><name>getInterfaceInsts</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a307734b5444b11b4e2c4060c3ede973b" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgBase</scope><name>getInterfaceTypes</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a221586b6d647a52e48dd940eddbda8d6" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgBase</scope><name>getPeerInterfaceInsts</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a46f66dccfce09b9c20d08b2fb8022e8e" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgBase</scope><name>getPeerInterfaceTypes</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a941ac2466061e437b853ab06acf15eb0" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgBase</scope><name>init</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1acbdb4a95cb18324b04940167a9cb4588" prot="public" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgBase</scope><name>InterfaceInstBase</name></member>
-      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a8448a1ba028b64d3b76a8712e5ea33f3" prot="public" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgBase</scope><name>invoke_nb</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a3956b1266baee2c17bc4545575155e41" prot="public" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgBase</scope><name>invoke</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a0961b0bd2ffc5679dfcd83a3f5735afb" prot="public" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgBase</scope><name>invoke_nb_rsp</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1af8e96920282860b7f3a5b07753a9b29f" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgBase</scope><name>is_build_complete</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a6b84209159d8a5d581dee972c3cf4755" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgBase</scope><name>is_connect_complete</name></member>
@@ -2002,6 +2052,7 @@
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a039129554fb70ee63073aab2402ff967" prot="private" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgBase</scope><name>m_comm_state</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1ad08527b5dbf2d7c278380af855665ed1" prot="private" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgBase</scope><name>m_connect_complete</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1afc7e0f1a1e207005b5c63aebf71b6e60" prot="private" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgBase</scope><name>m_event_received</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1af9732c704375aa6a81b97e25ad340b8d" prot="private" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgBase</scope><name>m_flags</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1acd5b3f7431d342d17a9088765358a519" prot="private" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgBase</scope><name>m_id</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a31d9ab996f5dc01843a515a9a180a348" prot="private" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgBase</scope><name>m_iftype_m</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1aedce1e705605eb9e2c89119c44edc417" prot="private" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgBase</scope><name>m_init</name></member>
@@ -2071,6 +2122,7 @@
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a1f1aadc4701dff5039f4cb2a27927380" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::EndpointMsgBase</scope><name>send_rsp</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a21dc1674d0c5cda4ef286074322b06e6" prot="public" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgBase</scope><name>sendEvent</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1ad9d8de815bf85d4ca44f14075c524c62" prot="public" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgBase</scope><name>sendEvent</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a0a1bcb3046dea9891fd4eb1a50289811" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgBase</scope><name>setFlag</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1af88b1edf59395b60ca44b5184137464e" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgBase</scope><name>shutdown</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a43f17fdd86952c87efdfd331f1895dc2" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgBase</scope><name>time</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a48a88f6f1c77c4be3503ee4412397a24" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgBase</scope><name>time_precision</name></member>

@@ -6,26 +6,28 @@
     <includes refid="EndpointMsgBase_8h" local="yes">EndpointMsgBase.h</includes>
     <includes refid="InterfaceInstBase_8h" local="yes">InterfaceInstBase.h</includes>
     <incdepgraph>
-      <node id="17">
+      <node id="18">
         <label>tblink_rpc/IInterfaceInst.h</label>
         <link refid="IInterfaceInst_8h_source"/>
         <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
         <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
         <childnode refid="23" relation="include">
         </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
       </node>
-      <node id="25">
+      <node id="26">
         <label>tblink_rpc/IParamValBool.h</label>
         <link refid="IParamValBool_8h_source"/>
-        <childnode refid="24" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
       </node>
       <node id="10">
@@ -38,10 +40,10 @@
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
       </node>
-      <node id="24">
+      <node id="25">
         <label>IParamVal.h</label>
         <link refid="IParamVal_8h_source"/>
         <childnode refid="13" relation="include">
@@ -50,16 +52,16 @@
       <node id="6">
         <label>stdint.h</label>
       </node>
-      <node id="19">
+      <node id="20">
         <label>IMethodType.h</label>
         <link refid="IMethodType_8h_source"/>
         <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
         <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
         </childnode>
       </node>
       <node id="15">
@@ -72,10 +74,10 @@
         <childnode refid="16" relation="include">
         </childnode>
       </node>
-      <node id="35">
+      <node id="37">
         <label>ITypeVec.h</label>
         <link refid="ITypeVec_8h_source"/>
-        <childnode refid="21" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
       </node>
       <node id="11">
@@ -84,16 +86,24 @@
       <node id="4">
         <label>map</label>
       </node>
-      <node id="36">
+      <node id="38">
         <label>InterfaceType.h</label>
         <link refid="InterfaceType_8h_source"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
         <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>tblink_rpc/IInterfaceImpl.h</label>
+        <link refid="IInterfaceImpl_8h_source"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -106,17 +116,25 @@
         <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="27">
+      <node id="28">
         <label>tblink_rpc/IParamValMap.h</label>
         <link refid="IParamValMap_8h_source"/>
-        <childnode refid="28" relation="include">
+        <childnode refid="29" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
       </node>
-      <node id="21">
+      <node id="31">
+        <label>tblink_rpc/IInterfaceInstFactory.h</label>
+        <link refid="IInterfaceInstFactory_8h_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
         <label>tblink_rpc/IType.h</label>
         <link refid="IType_8h_source"/>
+        <childnode refid="10" relation="include">
+        </childnode>
         <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
@@ -133,23 +151,23 @@
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="36" relation="include">
+        <childnode refid="38" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="37" relation="include">
+        <childnode refid="39" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
       </node>
-      <node id="26">
+      <node id="27">
         <label>tblink_rpc/IParamValInt.h</label>
         <link refid="IParamValInt_8h_source"/>
-        <childnode refid="24" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
       </node>
       <node id="9">
@@ -167,50 +185,54 @@
         </childnode>
         <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="30" relation="include">
-        </childnode>
-      </node>
-      <node id="30">
-        <label>tblink_rpc/IInterfaceTypeBuilder.h</label>
-        <link refid="IInterfaceTypeBuilder_8h_source"/>
-        <childnode refid="19" relation="include">
-        </childnode>
         <childnode refid="31" relation="include">
         </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
         <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>tblink_rpc/IInterfaceTypeBuilder.h</label>
+        <link refid="IInterfaceTypeBuilder_8h_source"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
         </childnode>
       </node>
       <node id="14">
         <label>tblink_rpc/IEndpointEvent.h</label>
         <link refid="IEndpointEvent_8h_source"/>
       </node>
-      <node id="23">
+      <node id="24">
         <label>IParamValVec.h</label>
         <link refid="IParamValVec_8h_source"/>
-        <childnode refid="24" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
       </node>
-      <node id="22">
+      <node id="23">
         <label>IParamValFactory.h</label>
         <link refid="IParamValFactory_8h_source"/>
-        <childnode refid="23" relation="include">
-        </childnode>
-        <childnode refid="25" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
         <childnode refid="26" relation="include">
         </childnode>
         <childnode refid="27" relation="include">
         </childnode>
-        <childnode refid="29" relation="include">
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
         </childnode>
       </node>
       <node id="16">
         <label>vector</label>
       </node>
-      <node id="29">
+      <node id="30">
         <label>tblink_rpc/IParamValStr.h</label>
         <link refid="IParamValStr_8h_source"/>
-        <childnode refid="24" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -233,7 +255,7 @@
         <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="37">
+      <node id="39">
         <label>tblink_rpc/IEndpointMsg.h</label>
         <link refid="IEndpointMsg_8h_source"/>
         <childnode refid="10" relation="include">
@@ -242,62 +264,62 @@
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="27" relation="include">
+        <childnode refid="28" relation="include">
         </childnode>
       </node>
       <node id="5">
         <label>unordered_map</label>
       </node>
-      <node id="28">
+      <node id="29">
         <label>set</label>
       </node>
-      <node id="32">
+      <node id="34">
         <label>ITypeFactory.h</label>
         <link refid="ITypeFactory_8h_source"/>
-        <childnode refid="33" relation="include">
-        </childnode>
-        <childnode refid="34" relation="include">
-        </childnode>
         <childnode refid="35" relation="include">
         </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
       </node>
-      <node id="20">
+      <node id="21">
         <label>tblink_rpc/IParamDecl.h</label>
         <link refid="IParamDecl_8h_source"/>
         <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
       </node>
-      <node id="31">
+      <node id="33">
         <label>IMethodTypeBuilder.h</label>
         <link refid="IMethodTypeBuilder_8h_source"/>
         <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
       </node>
       <node id="13">
         <label>memory</label>
       </node>
-      <node id="18">
+      <node id="19">
         <label>IInterfaceType.h</label>
         <link refid="IInterfaceType_8h_source"/>
         <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
       </node>
-      <node id="33">
+      <node id="35">
         <label>ITypeInt.h</label>
         <link refid="ITypeInt_8h_source"/>
-        <childnode refid="21" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
       </node>
-      <node id="34">
+      <node id="36">
         <label>ITypeMap.h</label>
         <link refid="ITypeMap_8h_source"/>
-        <childnode refid="21" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -403,12 +425,12 @@
 <codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IInterfaceType<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*type,</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;inst_name,</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>is_mirror,</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>invoke_req_f<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;req_f)<sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IInterfaceImpl<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*impl)<sp/>{</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>m_endpoint<sp/>=<sp/>endpoint;</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>m_type<sp/>=<sp/>type;</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>m_inst_name<sp/>=<sp/>inst_name;</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>m_is_mirror<sp/>=<sp/>is_mirror;</highlight></codeline>
-<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>m_req_f<sp/>=<sp/>req_f;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>m_impl<sp/>=<sp/>IInterfaceImplUP(impl);</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>m_call_id<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="53"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"></highlight></codeline>
@@ -416,114 +438,118 @@
 <codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO<sp/>Auto-generated<sp/>destructor<sp/>stub</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="57"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"></highlight></codeline>
-<codeline lineno="62"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtblink__rpc__core_1_1InterfaceInstBase_1abf43474a99c7dae3bc2bfb373f8c0f5b" kindref="member">InterfaceInstBase::invoke_req</ref>(</highlight></codeline>
-<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IMethodType<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*method,</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IParamValVec<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*params,</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>invoke_rsp_f<sp/><sp/><sp/><sp/><sp/><sp/>&amp;response_f)<sp/>{</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>DEBUG_ENTER(</highlight><highlight class="stringliteral">&quot;invoke_req&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>intptr_t<sp/>call_id<sp/>=<sp/>m_call_id;</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>m_call_id<sp/>+=<sp/>1;</highlight></codeline>
-<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>m_invoke_m.insert({call_id,<sp/>response_f});</highlight></codeline>
-<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>m_req_f(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>method,<sp/>call_id,<sp/>params);</highlight></codeline>
-<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>DEBUG_LEAVE(</highlight><highlight class="stringliteral">&quot;invoke_req&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="72"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="73"><highlight class="normal"></highlight></codeline>
-<codeline lineno="77"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtblink__rpc__core_1_1InterfaceInstBase_1acc9359a38783bcd993a37bae1fd266c1" kindref="member">InterfaceInstBase::invoke_rsp</ref>(</highlight></codeline>
-<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>intptr_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>call_id,</highlight></codeline>
-<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IParamVal<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*ret)<sp/>{</highlight></codeline>
-<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>DEBUG_ENTER(</highlight><highlight class="stringliteral">&quot;invoke_rsp&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>std::unordered_map&lt;intptr_t,invoke_rsp_f&gt;::const_iterator<sp/>it;</highlight></codeline>
-<codeline lineno="82"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((it=m_invoke_m.find(call_id))<sp/>!=<sp/>m_invoke_m.end())<sp/>{</highlight></codeline>
-<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>it-&gt;second(ret);</highlight></codeline>
-<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_invoke_m.erase(it);</highlight></codeline>
-<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stdout,<sp/></highlight><highlight class="stringliteral">&quot;Error:<sp/>unknown<sp/>call-id<sp/>%lld\n&quot;</highlight><highlight class="normal">,<sp/>call_id);</highlight></codeline>
-<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fflush(stdout);</highlight></codeline>
-<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>DEBUG_LEAVE(</highlight><highlight class="stringliteral">&quot;invoke_rsp&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="91"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="92"><highlight class="normal"></highlight></codeline>
-<codeline lineno="96"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtblink__rpc__core_1_1InterfaceInstBase_1a153a5cdced414aa681696da2e7ac28de" kindref="member">InterfaceInstBase::invoke_nb_rsp</ref>(</highlight></codeline>
-<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>intptr_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,</highlight></codeline>
-<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IParamValMap<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*result,</highlight></codeline>
-<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IParamValMap<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*error)<sp/>{</highlight></codeline>
-<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>DEBUG_ENTER(</highlight><highlight class="stringliteral">&quot;invoke_nb_rsp&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>int64_t<sp/>call_id<sp/>=<sp/>result-&gt;getValT&lt;IParamValInt&gt;(</highlight><highlight class="stringliteral">&quot;call-id&quot;</highlight><highlight class="normal">)-&gt;val_s();</highlight></codeline>
-<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>std::unordered_map&lt;intptr_t,invoke_rsp_f&gt;::const_iterator<sp/>it;</highlight></codeline>
-<codeline lineno="103"><highlight class="normal"></highlight></codeline>
-<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((it=m_outbound_invoke_m.find(call_id))<sp/>!=<sp/>m_outbound_invoke_m.end())<sp/>{</highlight></codeline>
-<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IParamVal<sp/>*retval<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="106"><highlight class="normal"></highlight></codeline>
-<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(result-&gt;hasKey(</highlight><highlight class="stringliteral">&quot;return&quot;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
-<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>retval<sp/>=<sp/>result-&gt;getVal(</highlight><highlight class="stringliteral">&quot;return&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>InterfaceInstBase::setImpl(IInterfaceImpl<sp/>*impl)<sp/>{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>m_impl<sp/>=<sp/>IInterfaceImplUP(impl);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtblink__rpc__core_1_1InterfaceInstBase_1abf43474a99c7dae3bc2bfb373f8c0f5b" kindref="member">InterfaceInstBase::invoke_req</ref>(</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IMethodType<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*method,</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IParamValVec<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*params,</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>invoke_rsp_f<sp/><sp/><sp/><sp/><sp/><sp/>&amp;response_f)<sp/>{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>DEBUG_ENTER(</highlight><highlight class="stringliteral">&quot;invoke_req&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>intptr_t<sp/>call_id<sp/>=<sp/>m_call_id;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>m_call_id<sp/>+=<sp/>1;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>m_invoke_m.insert({call_id,<sp/>response_f});</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>m_impl-&gt;invoke(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>method,<sp/>call_id,<sp/>params);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>DEBUG_LEAVE(</highlight><highlight class="stringliteral">&quot;invoke_req&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtblink__rpc__core_1_1InterfaceInstBase_1acc9359a38783bcd993a37bae1fd266c1" kindref="member">InterfaceInstBase::invoke_rsp</ref>(</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>intptr_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>call_id,</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IParamVal<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*ret)<sp/>{</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>DEBUG_ENTER(</highlight><highlight class="stringliteral">&quot;invoke_rsp&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>std::unordered_map&lt;intptr_t,invoke_rsp_f&gt;::const_iterator<sp/>it;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((it=m_invoke_m.find(call_id))<sp/>!=<sp/>m_invoke_m.end())<sp/>{</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>it-&gt;second(ret);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_invoke_m.erase(it);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stdout,<sp/></highlight><highlight class="stringliteral">&quot;Error:<sp/>unknown<sp/>call-id<sp/>%lld\n&quot;</highlight><highlight class="normal">,<sp/>call_id);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fflush(stdout);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>DEBUG_LEAVE(</highlight><highlight class="stringliteral">&quot;invoke_rsp&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtblink__rpc__core_1_1InterfaceInstBase_1a153a5cdced414aa681696da2e7ac28de" kindref="member">InterfaceInstBase::invoke_nb_rsp</ref>(</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>intptr_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IParamValMap<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*result,</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IParamValMap<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*error)<sp/>{</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>DEBUG_ENTER(</highlight><highlight class="stringliteral">&quot;invoke_nb_rsp&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>int64_t<sp/>call_id<sp/>=<sp/>result-&gt;getValT&lt;IParamValInt&gt;(</highlight><highlight class="stringliteral">&quot;call-id&quot;</highlight><highlight class="normal">)-&gt;val_s();</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>std::unordered_map&lt;intptr_t,invoke_rsp_f&gt;::const_iterator<sp/>it;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((it=m_outbound_invoke_m.find(call_id))<sp/>!=<sp/>m_outbound_invoke_m.end())<sp/>{</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IParamVal<sp/>*retval<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="110"><highlight class="normal"></highlight></codeline>
-<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>it-&gt;second(retval);</highlight></codeline>
-<codeline lineno="112"><highlight class="normal"></highlight></codeline>
-<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_outbound_invoke_m.erase(it);</highlight></codeline>
-<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stdout,<sp/></highlight><highlight class="stringliteral">&quot;Error:<sp/>unknown<sp/>call-id<sp/>%lld\n&quot;</highlight><highlight class="normal">,<sp/>call_id);</highlight></codeline>
-<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fflush(stdout);</highlight></codeline>
-<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>DEBUG_LEAVE(</highlight><highlight class="stringliteral">&quot;invoke_nb_rsp&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="119"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="120"><highlight class="normal"></highlight></codeline>
-<codeline lineno="125"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtblink__rpc__core_1_1InterfaceInstBase_1a40a66358cd4636553eba3bec65f7137b" kindref="member">InterfaceInstBase::invoke_b_rsp</ref>(</highlight></codeline>
-<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>intptr_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>call_id,</highlight></codeline>
-<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IParamVal<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*ret)<sp/>{</highlight></codeline>
-<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>DEBUG_ENTER(</highlight><highlight class="stringliteral">&quot;invoke_b_rsp&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>std::unordered_map&lt;intptr_t,invoke_rsp_f&gt;::const_iterator<sp/>it;</highlight></codeline>
-<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((it=m_outbound_invoke_m.find(call_id))<sp/>!=<sp/>m_outbound_invoke_m.end())<sp/>{</highlight></codeline>
-<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DEBUG(</highlight><highlight class="stringliteral">&quot;--&gt;<sp/>Receive<sp/>response\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>it-&gt;second(ret);</highlight></codeline>
-<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_outbound_invoke_m.erase(it);</highlight></codeline>
-<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DEBUG(</highlight><highlight class="stringliteral">&quot;&lt;--<sp/>Receive<sp/>response\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stdout,<sp/></highlight><highlight class="stringliteral">&quot;Error:<sp/>unknown<sp/>call-response<sp/>id<sp/>%lld\n&quot;</highlight><highlight class="normal">,<sp/>call_id);</highlight></codeline>
-<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fflush(stdout);</highlight></codeline>
-<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="139"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>UNDEFINED</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((it=m_invoke_m.find(call_id))<sp/>!=<sp/>m_invoke_m.end())<sp/>{</highlight></codeline>
-<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stdout,<sp/></highlight><highlight class="stringliteral">&quot;--&gt;<sp/>Send<sp/>response\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fflush(stdout);</highlight></codeline>
-<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>it-&gt;second(ret);</highlight></codeline>
-<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stdout,<sp/></highlight><highlight class="stringliteral">&quot;&lt;--<sp/>Send<sp/>response\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fflush(stdout);</highlight></codeline>
-<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_invoke_m.erase(it);</highlight></codeline>
-<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stdout,<sp/></highlight><highlight class="stringliteral">&quot;Error:<sp/>unknown<sp/>call-id<sp/>%lld\n&quot;</highlight><highlight class="normal">,<sp/>call_id);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(result-&gt;hasKey(</highlight><highlight class="stringliteral">&quot;return&quot;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>retval<sp/>=<sp/>result-&gt;getVal(</highlight><highlight class="stringliteral">&quot;return&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>it-&gt;second(retval);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_outbound_invoke_m.erase(it);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stdout,<sp/></highlight><highlight class="stringliteral">&quot;Error:<sp/>unknown<sp/>call-id<sp/>%lld\n&quot;</highlight><highlight class="normal">,<sp/>call_id);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fflush(stdout);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>DEBUG_LEAVE(</highlight><highlight class="stringliteral">&quot;invoke_nb_rsp&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtblink__rpc__core_1_1InterfaceInstBase_1a40a66358cd4636553eba3bec65f7137b" kindref="member">InterfaceInstBase::invoke_b_rsp</ref>(</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>intptr_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>call_id,</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IParamVal<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*ret)<sp/>{</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>DEBUG_ENTER(</highlight><highlight class="stringliteral">&quot;invoke_b_rsp&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>std::unordered_map&lt;intptr_t,invoke_rsp_f&gt;::const_iterator<sp/>it;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((it=m_outbound_invoke_m.find(call_id))<sp/>!=<sp/>m_outbound_invoke_m.end())<sp/>{</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DEBUG(</highlight><highlight class="stringliteral">&quot;--&gt;<sp/>Receive<sp/>response\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>it-&gt;second(ret);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_outbound_invoke_m.erase(it);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DEBUG(</highlight><highlight class="stringliteral">&quot;&lt;--<sp/>Receive<sp/>response\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stdout,<sp/></highlight><highlight class="stringliteral">&quot;Error:<sp/>unknown<sp/>call-response<sp/>id<sp/>%lld\n&quot;</highlight><highlight class="normal">,<sp/>call_id);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fflush(stdout);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>UNDEFINED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((it=m_invoke_m.find(call_id))<sp/>!=<sp/>m_invoke_m.end())<sp/>{</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stdout,<sp/></highlight><highlight class="stringliteral">&quot;--&gt;<sp/>Send<sp/>response\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fflush(stdout);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>it-&gt;second(ret);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stdout,<sp/></highlight><highlight class="stringliteral">&quot;&lt;--<sp/>Send<sp/>response\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fflush(stdout);</highlight></codeline>
-<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="151"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>DEBUG_LEAVE(</highlight><highlight class="stringliteral">&quot;invoke_b_rsp&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="153"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="154"><highlight class="normal"></highlight></codeline>
-<codeline lineno="155"><highlight class="normal">IParamValBool<sp/>*InterfaceInstBase::mkValBool(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>val)<sp/>{</highlight></codeline>
-<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_endpoint-&gt;mkValBool(val);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_invoke_m.erase(it);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stdout,<sp/></highlight><highlight class="stringliteral">&quot;Error:<sp/>unknown<sp/>call-id<sp/>%lld\n&quot;</highlight><highlight class="normal">,<sp/>call_id);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fflush(stdout);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>DEBUG_LEAVE(</highlight><highlight class="stringliteral">&quot;invoke_b_rsp&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="157"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="158"><highlight class="normal"></highlight></codeline>
-<codeline lineno="159"><highlight class="normal">IParamValInt<sp/>*InterfaceInstBase::mkValIntU(uint64_t<sp/>val,<sp/>int32_t<sp/>width)<sp/>{</highlight></codeline>
-<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_endpoint-&gt;mkValIntU(val,<sp/>width);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal">IParamValBool<sp/>*InterfaceInstBase::mkValBool(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>val)<sp/>{</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_endpoint-&gt;mkValBool(val);</highlight></codeline>
 <codeline lineno="161"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="162"><highlight class="normal"></highlight></codeline>
-<codeline lineno="163"><highlight class="normal">IParamValInt<sp/>*InterfaceInstBase::mkValIntS(int64_t<sp/>val,<sp/>int32_t<sp/>width)<sp/>{</highlight></codeline>
-<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_endpoint-&gt;mkValIntS(val,<sp/>width);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal">IParamValInt<sp/>*InterfaceInstBase::mkValIntU(uint64_t<sp/>val,<sp/>int32_t<sp/>width)<sp/>{</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_endpoint-&gt;mkValIntU(val,<sp/>width);</highlight></codeline>
 <codeline lineno="165"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="166"><highlight class="normal"></highlight></codeline>
-<codeline lineno="167"><highlight class="normal">IParamValMap<sp/>*InterfaceInstBase::mkValMap()<sp/>{</highlight></codeline>
-<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_endpoint-&gt;mkValMap();</highlight></codeline>
+<codeline lineno="167"><highlight class="normal">IParamValInt<sp/>*InterfaceInstBase::mkValIntS(int64_t<sp/>val,<sp/>int32_t<sp/>width)<sp/>{</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_endpoint-&gt;mkValIntS(val,<sp/>width);</highlight></codeline>
 <codeline lineno="169"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="170"><highlight class="normal"></highlight></codeline>
-<codeline lineno="171"><highlight class="normal">IParamValStr<sp/>*InterfaceInstBase::mkValStr(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;val)<sp/>{</highlight></codeline>
-<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_endpoint-&gt;mkValStr(val);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal">IParamValMap<sp/>*InterfaceInstBase::mkValMap()<sp/>{</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_endpoint-&gt;mkValMap();</highlight></codeline>
 <codeline lineno="173"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="174"><highlight class="normal"></highlight></codeline>
-<codeline lineno="175"><highlight class="normal">IParamValVec<sp/>*InterfaceInstBase::mkValVec()<sp/>{</highlight></codeline>
-<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_endpoint-&gt;mkValVec();</highlight></codeline>
+<codeline lineno="175"><highlight class="normal">IParamValStr<sp/>*InterfaceInstBase::mkValStr(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;val)<sp/>{</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_endpoint-&gt;mkValStr(val);</highlight></codeline>
 <codeline lineno="177"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="178"><highlight class="normal"></highlight></codeline>
-<codeline lineno="179"><highlight class="normal">}<sp/></highlight><highlight class="comment">/*<sp/>namespace<sp/>tblink_rpc_core<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal">IParamValVec<sp/>*InterfaceInstBase::mkValVec()<sp/>{</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_endpoint-&gt;mkValVec();</highlight></codeline>
+<codeline lineno="181"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal">}<sp/></highlight><highlight class="comment">/*<sp/>namespace<sp/>tblink_rpc_core<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceInstBase.cpp"/>
   </compounddef>

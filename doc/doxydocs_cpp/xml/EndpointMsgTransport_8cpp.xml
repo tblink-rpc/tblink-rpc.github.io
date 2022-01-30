@@ -4,16 +4,18 @@
     <compoundname>EndpointMsgTransport.cpp</compoundname>
     <includes refid="EndpointMsgTransport_8h" local="yes">EndpointMsgTransport.h</includes>
     <incdepgraph>
-      <node id="26">
+      <node id="27">
         <label>tblink_rpc/IInterfaceInst.h</label>
         <link refid="IInterfaceInst_8h_source"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="27" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
         <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
@@ -36,7 +38,7 @@
         </childnode>
         <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="26" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
       </node>
       <node id="7">
@@ -48,16 +50,16 @@
       <node id="5">
         <label>stdint.h</label>
       </node>
-      <node id="28">
+      <node id="29">
         <label>IMethodType.h</label>
         <link refid="IMethodType_8h_source"/>
         <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="25" relation="include">
         </childnode>
-        <childnode refid="29" relation="include">
-        </childnode>
         <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
         </childnode>
       </node>
       <node id="24">
@@ -70,10 +72,10 @@
         <childnode refid="25" relation="include">
         </childnode>
       </node>
-      <node id="36">
+      <node id="38">
         <label>ITypeVec.h</label>
         <link refid="ITypeVec_8h_source"/>
-        <childnode refid="30" relation="include">
+        <childnode refid="31" relation="include">
         </childnode>
       </node>
       <node id="21">
@@ -82,16 +84,24 @@
       <node id="16">
         <label>map</label>
       </node>
-      <node id="37">
+      <node id="39">
         <label>InterfaceType.h</label>
         <link refid="InterfaceType_8h_source"/>
         <childnode refid="16" relation="include">
         </childnode>
         <childnode refid="25" relation="include">
         </childnode>
-        <childnode refid="27" relation="include">
-        </childnode>
         <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>tblink_rpc/IInterfaceImpl.h</label>
+        <link refid="IInterfaceImpl_8h_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="9">
@@ -116,9 +126,17 @@
         <childnode refid="11" relation="include">
         </childnode>
       </node>
-      <node id="30">
+      <node id="32">
+        <label>tblink_rpc/IInterfaceInstFactory.h</label>
+        <link refid="IInterfaceInstFactory_8h_source"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
         <label>tblink_rpc/IType.h</label>
         <link refid="IType_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
         <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
@@ -135,13 +153,13 @@
         </childnode>
         <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="37" relation="include">
+        <childnode refid="39" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="38" relation="include">
+        <childnode refid="40" relation="include">
         </childnode>
         <childnode refid="22" relation="include">
         </childnode>
@@ -163,7 +181,11 @@
         </childnode>
         <childnode refid="27" relation="include">
         </childnode>
-        <childnode refid="31" relation="include">
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
         </childnode>
       </node>
       <node id="13">
@@ -172,14 +194,14 @@
         <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="31">
+      <node id="33">
         <label>tblink_rpc/IInterfaceTypeBuilder.h</label>
         <link refid="IInterfaceTypeBuilder_8h_source"/>
-        <childnode refid="28" relation="include">
+        <childnode refid="29" relation="include">
         </childnode>
-        <childnode refid="32" relation="include">
+        <childnode refid="34" relation="include">
         </childnode>
-        <childnode refid="33" relation="include">
+        <childnode refid="35" relation="include">
         </childnode>
       </node>
       <node id="23">
@@ -245,7 +267,7 @@
         <childnode refid="19" relation="include">
         </childnode>
       </node>
-      <node id="38">
+      <node id="40">
         <label>tblink_rpc/IEndpointMsg.h</label>
         <link refid="IEndpointMsg_8h_source"/>
         <childnode refid="4" relation="include">
@@ -263,53 +285,53 @@
       <node id="10">
         <label>set</label>
       </node>
-      <node id="33">
+      <node id="35">
         <label>ITypeFactory.h</label>
         <link refid="ITypeFactory_8h_source"/>
-        <childnode refid="34" relation="include">
-        </childnode>
-        <childnode refid="35" relation="include">
-        </childnode>
         <childnode refid="36" relation="include">
         </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
       </node>
-      <node id="29">
+      <node id="30">
         <label>tblink_rpc/IParamDecl.h</label>
         <link refid="IParamDecl_8h_source"/>
         <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="30" relation="include">
+        <childnode refid="31" relation="include">
         </childnode>
       </node>
-      <node id="32">
+      <node id="34">
         <label>IMethodTypeBuilder.h</label>
         <link refid="IMethodTypeBuilder_8h_source"/>
         <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="30" relation="include">
+        <childnode refid="31" relation="include">
         </childnode>
       </node>
       <node id="8">
         <label>memory</label>
       </node>
-      <node id="27">
+      <node id="28">
         <label>IInterfaceType.h</label>
         <link refid="IInterfaceType_8h_source"/>
         <childnode refid="25" relation="include">
         </childnode>
-        <childnode refid="28" relation="include">
+        <childnode refid="29" relation="include">
         </childnode>
       </node>
-      <node id="34">
+      <node id="36">
         <label>ITypeInt.h</label>
         <link refid="ITypeInt_8h_source"/>
-        <childnode refid="30" relation="include">
+        <childnode refid="31" relation="include">
         </childnode>
       </node>
-      <node id="35">
+      <node id="37">
         <label>ITypeMap.h</label>
         <link refid="ITypeMap_8h_source"/>
-        <childnode refid="30" relation="include">
+        <childnode refid="31" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -332,70 +354,72 @@
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal">EndpointMsgTransport::EndpointMsgTransport(</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ITransport<sp/>*transport)<sp/>:<sp/>m_transport(transport)<sp/>{</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>m_transport-&gt;init(</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::bind(</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;EndpointMsgTransport::recv_req,</highlight></codeline>
-<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::placeholders::_1,</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::placeholders::_2,</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::placeholders::_3),</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::bind(</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;EndpointMsgTransport::recv_rsp,</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::placeholders::_1,</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::placeholders::_2,</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::placeholders::_3)</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
-<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="normal">EndpointMsgTransport::~EndpointMsgTransport()<sp/>{</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO<sp/>Auto-generated<sp/>destructor<sp/>stub</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35"><highlight class="normal">int32_t<sp/><ref refid="classtblink__rpc__core_1_1EndpointMsgTransport_1a0e42512e9c4f7fc83a124c3d31a11949" kindref="member">EndpointMsgTransport::process_one_message</ref>()<sp/>{</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_transport-&gt;<ref refid="classtblink__rpc__core_1_1ITransport_1a788c085ac7ec47e26675e62491139c3a" kindref="member">process_one_message</ref>();</highlight></codeline>
-<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39"><highlight class="normal">int32_t<sp/>EndpointMsgTransport::send_req(</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/><sp/><sp/>&amp;method,</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>intptr_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IParamValMap<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*params)<sp/>{</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_transport-&gt;send_req(method,<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>params);</highlight></codeline>
-<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46"><highlight class="normal">int32_t<sp/>EndpointMsgTransport::send_rsp(</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>intptr_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IParamValMap<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*result,</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IParamValMap<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*error)<sp/>{</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_transport-&gt;send_rsp(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>result,<sp/>error);</highlight></codeline>
-<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53"><highlight class="normal">IParamValBool<sp/>*EndpointMsgTransport::mkValBool(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>val)<sp/>{</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_transport-&gt;mkValBool(val);</highlight></codeline>
-<codeline lineno="55"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"></highlight></codeline>
-<codeline lineno="57"><highlight class="normal">IParamValInt<sp/>*EndpointMsgTransport::mkValIntU(uint64_t<sp/>val,<sp/>int32_t<sp/>width)<sp/>{</highlight></codeline>
-<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_transport-&gt;mkValIntU(val,<sp/>width);</highlight></codeline>
-<codeline lineno="59"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="61"><highlight class="normal">IParamValInt<sp/>*EndpointMsgTransport::mkValIntS(int64_t<sp/>val,<sp/>int32_t<sp/>width)<sp/>{</highlight></codeline>
-<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_transport-&gt;mkValIntS(val,<sp/>width);</highlight></codeline>
-<codeline lineno="63"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"></highlight></codeline>
-<codeline lineno="65"><highlight class="normal">IParamValMap<sp/>*EndpointMsgTransport::mkValMap()<sp/>{</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_transport-&gt;mkValMap();</highlight></codeline>
-<codeline lineno="67"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"></highlight></codeline>
-<codeline lineno="69"><highlight class="normal">IParamValStr<sp/>*EndpointMsgTransport::mkValStr(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;val)<sp/>{</highlight></codeline>
-<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_transport-&gt;mkValStr(val);</highlight></codeline>
-<codeline lineno="71"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="72"><highlight class="normal"></highlight></codeline>
-<codeline lineno="73"><highlight class="normal">IParamValVec<sp/>*EndpointMsgTransport::mkValVec()<sp/>{</highlight></codeline>
-<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_transport-&gt;mkValVec();</highlight></codeline>
-<codeline lineno="75"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="76"><highlight class="normal"></highlight></codeline>
-<codeline lineno="77"><highlight class="normal">}<sp/></highlight><highlight class="comment">/*<sp/>namespace<sp/>tblink_rpc_core<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>We<sp/>already<sp/>know<sp/>that<sp/>this<sp/>endpoint<sp/>is<sp/>claimed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>setFlag(IEndpointFlags::Claimed);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>m_transport-&gt;init(</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::bind(</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;EndpointMsgTransport::recv_req,</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::placeholders::_1,</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::placeholders::_2,</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::placeholders::_3),</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::bind(</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;EndpointMsgTransport::recv_rsp,</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::placeholders::_1,</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::placeholders::_2,</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::placeholders::_3)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">EndpointMsgTransport::~EndpointMsgTransport()<sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO<sp/>Auto-generated<sp/>destructor<sp/>stub</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal">int32_t<sp/><ref refid="classtblink__rpc__core_1_1EndpointMsgTransport_1a0e42512e9c4f7fc83a124c3d31a11949" kindref="member">EndpointMsgTransport::process_one_message</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_transport-&gt;<ref refid="classtblink__rpc__core_1_1ITransport_1a788c085ac7ec47e26675e62491139c3a" kindref="member">process_one_message</ref>();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">int32_t<sp/>EndpointMsgTransport::send_req(</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/><sp/><sp/>&amp;method,</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>intptr_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IParamValMap<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*params)<sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_transport-&gt;send_req(method,<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>params);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal">int32_t<sp/>EndpointMsgTransport::send_rsp(</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>intptr_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IParamValMap<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*result,</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IParamValMap<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*error)<sp/>{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_transport-&gt;send_rsp(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>result,<sp/>error);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal">IParamValBool<sp/>*EndpointMsgTransport::mkValBool(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>val)<sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_transport-&gt;mkValBool(val);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal">IParamValInt<sp/>*EndpointMsgTransport::mkValIntU(uint64_t<sp/>val,<sp/>int32_t<sp/>width)<sp/>{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_transport-&gt;mkValIntU(val,<sp/>width);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal">IParamValInt<sp/>*EndpointMsgTransport::mkValIntS(int64_t<sp/>val,<sp/>int32_t<sp/>width)<sp/>{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_transport-&gt;mkValIntS(val,<sp/>width);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal">IParamValMap<sp/>*EndpointMsgTransport::mkValMap()<sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_transport-&gt;mkValMap();</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal">IParamValStr<sp/>*EndpointMsgTransport::mkValStr(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;val)<sp/>{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_transport-&gt;mkValStr(val);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal">IParamValVec<sp/>*EndpointMsgTransport::mkValVec()<sp/>{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_transport-&gt;mkValVec();</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal">}<sp/></highlight><highlight class="comment">/*<sp/>namespace<sp/>tblink_rpc_core<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgTransport.cpp"/>
   </compounddef>

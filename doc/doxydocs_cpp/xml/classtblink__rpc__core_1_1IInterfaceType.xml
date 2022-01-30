@@ -36,7 +36,7 @@
         <definition>virtual const std::vector&lt;IMethodType *&gt;&amp; tblink_rpc_core::IInterfaceType::methods</definition>
         <argsstring>()=0</argsstring>
         <name>methods</name>
-        <reimplementedby refid="classtblink__rpc__core_1_1InterfaceType_1ad74923dc44d64d39dea723c497704b13">methods</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1InterfaceType_1ace3283e2055e2e7225391a7f949b61f3">methods</reimplementedby>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -50,7 +50,7 @@
         <definition>virtual IMethodType* tblink_rpc_core::IInterfaceType::findMethod</definition>
         <argsstring>(const std::string &amp;name)=0</argsstring>
         <name>findMethod</name>
-        <reimplementedby refid="classtblink__rpc__core_1_1InterfaceType_1aa58afae5e20cdad0f84effa043d1266f">findMethod</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1InterfaceType_1a2fb0ee2b4715610d934ce2c9e9c0c448">findMethod</reimplementedby>
         <param>
           <type>const std::string &amp;</type>
           <declname>name</declname>

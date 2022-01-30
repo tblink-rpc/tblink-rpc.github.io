@@ -13,7 +13,7 @@
         <childnode refid="4" relation="include">
         </childnode>
       </node>
-      <node id="15">
+      <node id="16">
         <label>nlohmann/json_fwd.hpp</label>
       </node>
       <node id="7">
@@ -23,15 +23,17 @@
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
         <childnode refid="10" relation="include">
         </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
       </node>
-      <node id="17">
+      <node id="8">
         <label>string</label>
       </node>
-      <node id="9">
+      <node id="10">
         <label>unordered_set</label>
       </node>
       <node id="1">
@@ -41,15 +43,15 @@
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
       </node>
-      <node id="10">
+      <node id="11">
         <label>tblink_rpc/IParamValMap.h</label>
         <link refid="IParamValMap_8h_source"/>
-        <childnode refid="11" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
@@ -60,40 +62,40 @@
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="13">
+      <node id="14">
         <label>include/tblink_rpc/IParamValVec.h</label>
         <link refid="IParamValVec_8h_source"/>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="16">
+      <node id="17">
         <label>ParamValStr.h</label>
         <link refid="ParamValStr_8h_source"/>
-        <childnode refid="17" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
       </node>
-      <node id="14">
+      <node id="15">
         <label>tblink_rpc/IParamValStr.h</label>
         <link refid="IParamValStr_8h_source"/>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="12">
+      <node id="13">
         <label>JsonParamValFactory.h</label>
         <link refid="JsonParamValFactory_8h_source"/>
-        <childnode refid="13" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
         <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
@@ -114,10 +116,10 @@
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="8">
+      <node id="9">
         <label>unordered_map</label>
       </node>
-      <node id="11">
+      <node id="12">
         <label>set</label>
       </node>
       <node id="4">
@@ -196,7 +198,7 @@
 <codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ret-&gt;setVal(it-&gt;first,<sp/>it-&gt;second-&gt;clone());</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"></highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">dynamic_cast&lt;</highlight><highlight class="normal">IParamValMap<sp/>*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(ret);</highlight></codeline>
 <codeline lineno="68"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
 <codeline lineno="70"><highlight class="normal">ParamValMapUP<sp/>ParamValMap::mk()<sp/>{</highlight></codeline>

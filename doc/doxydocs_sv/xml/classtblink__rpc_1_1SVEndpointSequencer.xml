@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5406" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5406" bodyend="5412"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5835" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5835" bodyend="5841"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-attrib">
@@ -63,7 +63,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5415" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5415" bodyend="-1"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5844" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5844" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc_1_1SVEndpointSequencer_1a8f937617da467733f20988f2fde94eaf" prot="public" static="no" mutable="no">
         <type>seqr_state_e</type>
@@ -76,7 +76,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5416" column="13" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5416" bodyend="-1"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5845" column="13" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5845" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc_1_1SVEndpointSequencer_1ae0648eebd75027e3f454deb69dfa6b42" prot="public" static="no" mutable="no">
         <type><ref refid="classtblink__rpc_1_1SVEndpointSequencerThread" kindref="compound">SVEndpointSequencerThread</ref></type>
@@ -89,7 +89,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5417" column="26" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5417" bodyend="-1"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5846" column="26" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5846" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc_1_1SVEndpointSequencer_1a43cd7921af09429a661c0e63940e5123" prot="public" static="no" mutable="no">
         <type>bit</type>
@@ -102,7 +102,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5418" column="4" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5418" bodyend="-1"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5847" column="4" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5847" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc_1_1SVEndpointSequencer_1a1d1fb73b40770d5286518fbf47e56fc8" prot="public" static="no" mutable="no">
         <type><ref refid="classtblink__rpc_1_1TbLink" kindref="compound">TbLink</ref></type>
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5419" column="7" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5419" bodyend="-1"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5848" column="7" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5848" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc_1_1SVEndpointSequencer_1a942d8cdbf8f658132fbd7c4a84091cb0" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -128,7 +128,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5420" column="4" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5420" bodyend="-1"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5849" column="4" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5849" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc_1_1SVEndpointSequencer_1a9d27639716b9e62b7418f370dc1f2807" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -141,7 +141,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5421" column="4" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5421" bodyend="-1"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5850" column="4" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5850" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -160,7 +160,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5423" column="2" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5423" bodyend="5427"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5852" column="2" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5852" bodyend="5856"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc_1_1SVEndpointSequencer_1a37040e35e288eeef2bbf10c38ad167bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -177,7 +177,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5429" column="7" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5429" bodyend="5431"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5858" column="7" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5858" bodyend="5860"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc_1_1SVEndpointSequencer_1a9c123b60459443ed82fc8319e25c320b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>task</type>
@@ -190,7 +190,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5433" column="6" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5433" bodyend="5439"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5862" column="6" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5862" bodyend="5868"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc_1_1SVEndpointSequencer_1a169dac40ff4b38a83abb36f0c78d608c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -208,7 +208,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5441" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5441" bodyend="5447"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5870" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5870" bodyend="5876"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc_1_1SVEndpointSequencer_1afc5eec5364b0828d764eae18005780a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>task</type>
@@ -221,7 +221,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5449" column="6" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5449" bodyend="5520"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5878" column="6" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5878" bodyend="5949"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -244,23 +244,34 @@
       <node id="5">
         <label>tblink_rpc::TbLink</label>
         <link refid="classtblink__rpc_1_1TbLink"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>m_if_factories</edgelabel>
+          <edgelabel>m_if_factory_m</edgelabel>
+        </childnode>
         <childnode refid="4" relation="usage">
           <edgelabel>m_dispatch_q</edgelabel>
         </childnode>
         <childnode refid="1" relation="usage">
           <edgelabel>m_default_ep_seqr</edgelabel>
         </childnode>
-        <childnode refid="6" relation="usage">
+        <childnode refid="8" relation="usage">
+          <edgelabel>m_endpoints</edgelabel>
           <edgelabel>m_default_ep</edgelabel>
         </childnode>
-        <childnode refid="7" relation="usage">
+        <childnode refid="9" relation="usage">
           <edgelabel>m_sv_launch_type_m</edgelabel>
         </childnode>
-        <childnode refid="8" relation="usage">
+        <childnode refid="10" relation="usage">
           <edgelabel>m_default_services_f</edgelabel>
         </childnode>
       </node>
-      <node id="8">
+      <node id="7">
+        <label>tblink_rpc::IInterfaceFactoryBase</label>
+        <link refid="classtblink__rpc_1_1IInterfaceFactoryBase"/>
+      </node>
+      <node id="10">
         <label>tblink_rpc::IEndpointServicesFactory</label>
         <link refid="classtblink__rpc_1_1IEndpointServicesFactory"/>
       </node>
@@ -273,13 +284,17 @@
           <edgelabel>m_seqr</edgelabel>
         </childnode>
       </node>
-      <node id="7">
+      <node id="9">
         <label>tblink_rpc::ILaunchType</label>
         <link refid="classtblink__rpc_1_1ILaunchType"/>
       </node>
       <node id="2">
         <label>tblink_rpc::IEndpointListener</label>
         <link refid="classtblink__rpc_1_1IEndpointListener"/>
+      </node>
+      <node id="6">
+        <label>tblink_rpc::ITbLinkListener</label>
+        <link refid="classtblink__rpc_1_1ITbLinkListener"/>
       </node>
       <node id="4">
         <label>tblink_rpc::TbLinkThread</label>
@@ -299,16 +314,16 @@
         <childnode refid="5" relation="usage">
           <edgelabel>m_tblink</edgelabel>
         </childnode>
-        <childnode refid="6" relation="usage">
+        <childnode refid="8" relation="usage">
           <edgelabel>m_ep</edgelabel>
         </childnode>
       </node>
-      <node id="6">
+      <node id="8">
         <label>tblink_rpc::IEndpoint</label>
         <link refid="classtblink__rpc_1_1IEndpoint"/>
       </node>
     </collaborationgraph>
-    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5404" column="51" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5404" bodyend="5523"/>
+    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5833" column="51" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5833" bodyend="5952"/>
     <listofallmembers>
       <member refid="classtblink__rpc_1_1SVEndpointSequencer_1a169dac40ff4b38a83abb36f0c78d608c" prot="public" virt="virtual"><scope>tblink_rpc::SVEndpointSequencer</scope><name>event_f</name></member>
       <member refid="classtblink__rpc_1_1SVEndpointSequencer_1a37040e35e288eeef2bbf10c38ad167bf" prot="public" virt="non-virtual"><scope>tblink_rpc::SVEndpointSequencer</scope><name>init</name></member>

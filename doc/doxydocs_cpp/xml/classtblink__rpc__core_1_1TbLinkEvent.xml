@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc__core_1_1TbLinkEvent" kind="class" language="C++" prot="public">
+    <compoundname>tblink_rpc_core::TbLinkEvent</compoundname>
+    <basecompoundref refid="classtblink__rpc__core_1_1ITbLinkEvent" prot="public" virt="non-virtual">tblink_rpc_core::ITbLinkEvent</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtblink__rpc__core_1_1TbLinkEvent_1a847acf7231fea58c464fffa890dc41db" prot="private" static="no" mutable="no">
+        <type>TbLinkEventKind</type>
+        <definition>TbLinkEventKind tblink_rpc_core::TbLinkEvent::m_kind</definition>
+        <argsstring></argsstring>
+        <name>m_kind</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TbLinkEvent.h" line="26" column="16" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TbLinkEvent.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtblink__rpc__core_1_1TbLinkEvent_1a3dcbf05b13d2bbf4ae4770f6b63173c0" prot="private" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* tblink_rpc_core::TbLinkEvent::m_hndl</definition>
+        <argsstring></argsstring>
+        <name>m_hndl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TbLinkEvent.h" line="27" column="5" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TbLinkEvent.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc__core_1_1TbLinkEvent_1a24e94576d0a0779fdfe51228790f8554" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>tblink_rpc_core::TbLinkEvent::TbLinkEvent</definition>
+        <argsstring>(TbLinkEventKind kind, void *hndl)</argsstring>
+        <name>TbLinkEvent</name>
+        <param>
+          <type>TbLinkEventKind</type>
+          <declname>kind</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>hndl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TbLinkEvent.h" line="15" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TbLinkEvent.cpp" bodystart="12" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1TbLinkEvent_1a975e73800c2dec36ac05c64af1d4d196" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>tblink_rpc_core::TbLinkEvent::~TbLinkEvent</definition>
+        <argsstring>()</argsstring>
+        <name>~TbLinkEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TbLinkEvent.h" line="19" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TbLinkEvent.cpp" bodystart="18" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1TbLinkEvent_1a0c3543eb2a7e5c7f33ff918078410ca3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>TbLinkEventKind</type>
+        <definition>virtual TbLinkEventKind tblink_rpc_core::TbLinkEvent::kind</definition>
+        <argsstring>() override</argsstring>
+        <name>kind</name>
+        <reimplements refid="classtblink__rpc__core_1_1ITbLinkEvent_1aace49e4c39be48349cd4718e19ff8acc">kind</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TbLinkEvent.h" line="21" column="25" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TbLinkEvent.h" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1TbLinkEvent_1a508b6b99790faebb8bbef16ac26e1757" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void *</type>
+        <definition>virtual void* tblink_rpc_core::TbLinkEvent::hndl</definition>
+        <argsstring>() override</argsstring>
+        <name>hndl</name>
+        <reimplements refid="classtblink__rpc__core_1_1ITbLinkEvent_1a1eeac518f6226042dea82eff83b907b9">hndl</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TbLinkEvent.h" line="23" column="14" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TbLinkEvent.h" bodystart="23" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>tblink_rpc_core::ITbLinkEvent</label>
+        <link refid="classtblink__rpc__core_1_1ITbLinkEvent"/>
+      </node>
+      <node id="1">
+        <label>tblink_rpc_core::TbLinkEvent</label>
+        <link refid="classtblink__rpc__core_1_1TbLinkEvent"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>tblink_rpc_core::ITbLinkEvent</label>
+        <link refid="classtblink__rpc__core_1_1ITbLinkEvent"/>
+      </node>
+      <node id="1">
+        <label>tblink_rpc_core::TbLinkEvent</label>
+        <link refid="classtblink__rpc__core_1_1TbLinkEvent"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TbLinkEvent.h" line="13" column="38" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TbLinkEvent.h" bodystart="13" bodyend="28"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc__core_1_1TbLinkEvent_1a508b6b99790faebb8bbef16ac26e1757" prot="public" virt="virtual"><scope>tblink_rpc_core::TbLinkEvent</scope><name>hndl</name></member>
+      <member refid="classtblink__rpc__core_1_1ITbLinkEvent_1ab532dfee4651d6fc618df8dad7364bbf" prot="public" virt="non-virtual"><scope>tblink_rpc_core::TbLinkEvent</scope><name>hndlT</name></member>
+      <member refid="classtblink__rpc__core_1_1TbLinkEvent_1a0c3543eb2a7e5c7f33ff918078410ca3" prot="public" virt="virtual"><scope>tblink_rpc_core::TbLinkEvent</scope><name>kind</name></member>
+      <member refid="classtblink__rpc__core_1_1TbLinkEvent_1a3dcbf05b13d2bbf4ae4770f6b63173c0" prot="private" virt="non-virtual"><scope>tblink_rpc_core::TbLinkEvent</scope><name>m_hndl</name></member>
+      <member refid="classtblink__rpc__core_1_1TbLinkEvent_1a847acf7231fea58c464fffa890dc41db" prot="private" virt="non-virtual"><scope>tblink_rpc_core::TbLinkEvent</scope><name>m_kind</name></member>
+      <member refid="classtblink__rpc__core_1_1TbLinkEvent_1a24e94576d0a0779fdfe51228790f8554" prot="public" virt="non-virtual"><scope>tblink_rpc_core::TbLinkEvent</scope><name>TbLinkEvent</name></member>
+      <member refid="classtblink__rpc__core_1_1ITbLinkEvent_1a70fb89ca5865d8fe49b2f0d9c9e647f6" prot="public" virt="virtual"><scope>tblink_rpc_core::TbLinkEvent</scope><name>~ITbLinkEvent</name></member>
+      <member refid="classtblink__rpc__core_1_1TbLinkEvent_1a975e73800c2dec36ac05c64af1d4d196" prot="public" virt="virtual"><scope>tblink_rpc_core::TbLinkEvent</scope><name>~TbLinkEvent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

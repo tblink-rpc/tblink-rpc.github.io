@@ -14,7 +14,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" line="29" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" bodystart="29" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" line="53" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" bodystart="53" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc__core_1_1PythonApi_1ab0d25db434fdb5ca10fe053ce116ddaa" prot="private" static="no" mutable="no">
         <type>void *(*</type>
@@ -27,7 +27,98 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" line="30" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" bodystart="30" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" line="54" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtblink__rpc__core_1_1PythonApi_1a5b947377c98eb0cd4aeba9013da93bb4" prot="private" static="no" mutable="no">
+        <type>void *(*</type>
+        <definition>void*(* tblink_rpc_core::PythonApi::PyList_New_f) (int)</definition>
+        <argsstring>)(int)</argsstring>
+        <name>PyList_New_f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" line="55" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtblink__rpc__core_1_1PythonApi_1a5e4a47dd82de2e145ee36fcc0c05ebef" prot="private" static="no" mutable="no">
+        <type>int(*</type>
+        <definition>int(* tblink_rpc_core::PythonApi::PyList_Append_f) (void *, void *)</definition>
+        <argsstring>)(void *, void *)</argsstring>
+        <name>PyList_Append_f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" line="56" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtblink__rpc__core_1_1PythonApi_1adb903a508905795484461bf781644fbd" prot="private" static="no" mutable="no">
+        <type>void *(*</type>
+        <definition>void*(* tblink_rpc_core::PythonApi::PyObject_CallObject_f) (void *, void *)</definition>
+        <argsstring>)(void *, void *)</argsstring>
+        <name>PyObject_CallObject_f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" line="57" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtblink__rpc__core_1_1PythonApi_1a79ce8ec0c16c1d3ed604bc2108d00afa" prot="private" static="no" mutable="no">
+        <type>void *(*</type>
+        <definition>void*(* tblink_rpc_core::PythonApi::PyObject_GetAttrString_f) (void *, const char *)</definition>
+        <argsstring>)(void *, const char *)</argsstring>
+        <name>PyObject_GetAttrString_f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" line="58" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtblink__rpc__core_1_1PythonApi_1ae3acf06a1abe29b1bf67e9b9552bf34b" prot="private" static="no" mutable="no">
+        <type>void *(*</type>
+        <definition>void*(* tblink_rpc_core::PythonApi::PyTuple_New_f) (uint32_t)</definition>
+        <argsstring>)(uint32_t)</argsstring>
+        <name>PyTuple_New_f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" line="59" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtblink__rpc__core_1_1PythonApi_1a262c5c9f2ddbf991c9d2e61bf57c3e6e" prot="private" static="no" mutable="no">
+        <type>int(*</type>
+        <definition>int(* tblink_rpc_core::PythonApi::PyTuple_SetItem_f) (void *, uint32_t, void *)</definition>
+        <argsstring>)(void *, uint32_t, void *)</argsstring>
+        <name>PyTuple_SetItem_f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" line="60" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtblink__rpc__core_1_1PythonApi_1aac4626b3fd29be4d320041ad9a525a8c" prot="private" static="no" mutable="no">
+        <type>void *(*</type>
+        <definition>void*(* tblink_rpc_core::PythonApi::PyUnicode_FromString_f) (const char *)</definition>
+        <argsstring>)(const char *)</argsstring>
+        <name>PyUnicode_FromString_f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" line="61" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" bodystart="61" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -72,7 +163,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" line="20" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.cpp" bodystart="24" bodyend="40"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" line="20" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.cpp" bodystart="24" bodyend="55"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1PythonApi_1aa914c6b4d592949f485a79f044afc701" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -104,19 +195,146 @@
         </inbodydescription>
         <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" line="24" column="6" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" bodystart="24" bodyend="26"/>
       </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1PythonApi_1a3b7d928bddce74f7ec26f73613a69b53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void *</type>
+        <definition>void* tblink_rpc_core::PythonApi::PyList_New</definition>
+        <argsstring>()</argsstring>
+        <name>PyList_New</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" line="28" column="6" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" bodystart="28" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1PythonApi_1ad5578738e82b5282723c0a0ac2a52f86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void *</type>
+        <definition>void* tblink_rpc_core::PythonApi::PyObject_GetAttrString</definition>
+        <argsstring>(void *m, const std::string &amp;name)</argsstring>
+        <name>PyObject_GetAttrString</name>
+        <param>
+          <type>void *</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" line="32" column="6" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" bodystart="32" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1PythonApi_1abb446a83548b526bcb4f7ea377096482" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void *</type>
+        <definition>void* tblink_rpc_core::PythonApi::PyObject_CallObject</definition>
+        <argsstring>(void *c, void *a)</argsstring>
+        <name>PyObject_CallObject</name>
+        <param>
+          <type>void *</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" line="36" column="6" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" bodystart="36" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1PythonApi_1a04d36ecef6272c4f96d28db6486470e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void *</type>
+        <definition>void* tblink_rpc_core::PythonApi::PyTuple_New</definition>
+        <argsstring>(uint32_t sz)</argsstring>
+        <name>PyTuple_New</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>sz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" line="40" column="6" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" bodystart="40" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1PythonApi_1a37c1da80436454350563233025590626" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int tblink_rpc_core::PythonApi::PyTuple_SetItem</definition>
+        <argsstring>(void *t, uint32_t i, void *o)</argsstring>
+        <name>PyTuple_SetItem</name>
+        <param>
+          <type>void *</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" line="44" column="5" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" bodystart="44" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1PythonApi_1a0f5dfbf06ad2b8245060fc91a2edd6eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void *</type>
+        <definition>void* tblink_rpc_core::PythonApi::PyUnicode_FromString</definition>
+        <argsstring>(const std::string &amp;s)</argsstring>
+        <name>PyUnicode_FromString</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" line="48" column="6" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" bodystart="48" bodyend="50"/>
+      </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" line="14" column="16" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" bodystart="14" bodyend="31"/>
+    <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" line="14" column="16" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h" bodystart="14" bodyend="62"/>
     <listofallmembers>
       <member refid="classtblink__rpc__core_1_1PythonApi_1a4beb9e0c2e19bbceeee97366453beac8" prot="public" virt="non-virtual"><scope>tblink_rpc_core::PythonApi</scope><name>init</name></member>
       <member refid="classtblink__rpc__core_1_1PythonApi_1aa914c6b4d592949f485a79f044afc701" prot="public" virt="non-virtual"><scope>tblink_rpc_core::PythonApi</scope><name>Py_Initialize</name></member>
       <member refid="classtblink__rpc__core_1_1PythonApi_1a1f5408bfa625ad97172e062b446558ac" prot="private" virt="non-virtual"><scope>tblink_rpc_core::PythonApi</scope><name>Py_Initialize_f</name></member>
       <member refid="classtblink__rpc__core_1_1PythonApi_1a560c285802bcccdc23773a601238e7ec" prot="public" virt="non-virtual"><scope>tblink_rpc_core::PythonApi</scope><name>PyImport_ImportModule</name></member>
       <member refid="classtblink__rpc__core_1_1PythonApi_1ab0d25db434fdb5ca10fe053ce116ddaa" prot="private" virt="non-virtual"><scope>tblink_rpc_core::PythonApi</scope><name>PyImport_ImportModule_f</name></member>
+      <member refid="classtblink__rpc__core_1_1PythonApi_1a5e4a47dd82de2e145ee36fcc0c05ebef" prot="private" virt="non-virtual"><scope>tblink_rpc_core::PythonApi</scope><name>PyList_Append_f</name></member>
+      <member refid="classtblink__rpc__core_1_1PythonApi_1a3b7d928bddce74f7ec26f73613a69b53" prot="public" virt="non-virtual"><scope>tblink_rpc_core::PythonApi</scope><name>PyList_New</name></member>
+      <member refid="classtblink__rpc__core_1_1PythonApi_1a5b947377c98eb0cd4aeba9013da93bb4" prot="private" virt="non-virtual"><scope>tblink_rpc_core::PythonApi</scope><name>PyList_New_f</name></member>
+      <member refid="classtblink__rpc__core_1_1PythonApi_1abb446a83548b526bcb4f7ea377096482" prot="public" virt="non-virtual"><scope>tblink_rpc_core::PythonApi</scope><name>PyObject_CallObject</name></member>
+      <member refid="classtblink__rpc__core_1_1PythonApi_1adb903a508905795484461bf781644fbd" prot="private" virt="non-virtual"><scope>tblink_rpc_core::PythonApi</scope><name>PyObject_CallObject_f</name></member>
+      <member refid="classtblink__rpc__core_1_1PythonApi_1ad5578738e82b5282723c0a0ac2a52f86" prot="public" virt="non-virtual"><scope>tblink_rpc_core::PythonApi</scope><name>PyObject_GetAttrString</name></member>
+      <member refid="classtblink__rpc__core_1_1PythonApi_1a79ce8ec0c16c1d3ed604bc2108d00afa" prot="private" virt="non-virtual"><scope>tblink_rpc_core::PythonApi</scope><name>PyObject_GetAttrString_f</name></member>
       <member refid="classtblink__rpc__core_1_1PythonApi_1aee99b35c81f07534e4c20e06543bd614" prot="public" virt="non-virtual"><scope>tblink_rpc_core::PythonApi</scope><name>PythonApi</name></member>
+      <member refid="classtblink__rpc__core_1_1PythonApi_1a04d36ecef6272c4f96d28db6486470e0" prot="public" virt="non-virtual"><scope>tblink_rpc_core::PythonApi</scope><name>PyTuple_New</name></member>
+      <member refid="classtblink__rpc__core_1_1PythonApi_1ae3acf06a1abe29b1bf67e9b9552bf34b" prot="private" virt="non-virtual"><scope>tblink_rpc_core::PythonApi</scope><name>PyTuple_New_f</name></member>
+      <member refid="classtblink__rpc__core_1_1PythonApi_1a37c1da80436454350563233025590626" prot="public" virt="non-virtual"><scope>tblink_rpc_core::PythonApi</scope><name>PyTuple_SetItem</name></member>
+      <member refid="classtblink__rpc__core_1_1PythonApi_1a262c5c9f2ddbf991c9d2e61bf57c3e6e" prot="private" virt="non-virtual"><scope>tblink_rpc_core::PythonApi</scope><name>PyTuple_SetItem_f</name></member>
+      <member refid="classtblink__rpc__core_1_1PythonApi_1a0f5dfbf06ad2b8245060fc91a2edd6eb" prot="public" virt="non-virtual"><scope>tblink_rpc_core::PythonApi</scope><name>PyUnicode_FromString</name></member>
+      <member refid="classtblink__rpc__core_1_1PythonApi_1aac4626b3fd29be4d320041ad9a525a8c" prot="private" virt="non-virtual"><scope>tblink_rpc_core::PythonApi</scope><name>PyUnicode_FromString_f</name></member>
       <member refid="classtblink__rpc__core_1_1PythonApi_1a4408001b0e36e219adb356c13eaf1e2b" prot="public" virt="virtual"><scope>tblink_rpc_core::PythonApi</scope><name>~PythonApi</name></member>
     </listofallmembers>
   </compounddef>

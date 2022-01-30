@@ -4,6 +4,7 @@
     <compoundname>IInterfaceInst.h</compoundname>
     <includes local="no">functional</includes>
     <includes local="no">stdint.h</includes>
+    <includes refid="IInterfaceImpl_8h" local="yes">tblink_rpc/IInterfaceImpl.h</includes>
     <includes refid="IInterfaceType_8h" local="yes">IInterfaceType.h</includes>
     <includes refid="IMethodType_8h" local="yes">IMethodType.h</includes>
     <includes refid="IParamValFactory_8h" local="yes">IParamValFactory.h</includes>
@@ -25,115 +26,127 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
       </node>
-      <node id="14">
+      <node id="15">
         <label>tblink_rpc/IParamValBool.h</label>
         <link refid="IParamValBool_8h_source"/>
-        <childnode refid="13" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
       </node>
       <node id="2">
         <label>functional</label>
       </node>
-      <node id="13">
+      <node id="14">
         <label>IParamVal.h</label>
         <link refid="IParamVal_8h_source"/>
-        <childnode refid="7" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="3">
         <label>stdint.h</label>
       </node>
-      <node id="6">
+      <node id="8">
         <label>IMethodType.h</label>
         <link refid="IMethodType_8h_source"/>
-        <childnode refid="7" relation="include">
-        </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
-      </node>
-      <node id="9">
-        <label>string</label>
-      </node>
-      <node id="16">
-        <label>tblink_rpc/IParamValMap.h</label>
-        <link refid="IParamValMap_8h_source"/>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
       </node>
       <node id="10">
-        <label>tblink_rpc/IType.h</label>
-        <link refid="IType_8h_source"/>
-        <childnode refid="7" relation="include">
+        <label>string</label>
+      </node>
+      <node id="4">
+        <label>tblink_rpc/IInterfaceImpl.h</label>
+        <link refid="IInterfaceImpl_8h_source"/>
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="15">
-        <label>tblink_rpc/IParamValInt.h</label>
-        <link refid="IParamValInt_8h_source"/>
-        <childnode refid="13" relation="include">
+      <node id="17">
+        <label>tblink_rpc/IParamValMap.h</label>
+        <link refid="IParamValMap_8h_source"/>
+        <childnode refid="18" relation="include">
         </childnode>
-      </node>
-      <node id="12">
-        <label>IParamValVec.h</label>
-        <link refid="IParamValVec_8h_source"/>
-        <childnode refid="13" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
       </node>
       <node id="11">
+        <label>tblink_rpc/IType.h</label>
+        <link refid="IType_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>tblink_rpc/IParamValInt.h</label>
+        <link refid="IParamValInt_8h_source"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>IParamValVec.h</label>
+        <link refid="IParamValVec_8h_source"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
         <label>IParamValFactory.h</label>
         <link refid="IParamValFactory_8h_source"/>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
-      </node>
-      <node id="5">
-        <label>vector</label>
-      </node>
-      <node id="18">
-        <label>tblink_rpc/IParamValStr.h</label>
-        <link refid="IParamValStr_8h_source"/>
-        <childnode refid="13" relation="include">
-        </childnode>
-      </node>
-      <node id="17">
-        <label>set</label>
-      </node>
-      <node id="8">
-        <label>tblink_rpc/IParamDecl.h</label>
-        <link refid="IParamDecl_8h_source"/>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
       </node>
       <node id="7">
+        <label>vector</label>
+      </node>
+      <node id="19">
+        <label>tblink_rpc/IParamValStr.h</label>
+        <link refid="IParamValStr_8h_source"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>set</label>
+      </node>
+      <node id="9">
+        <label>tblink_rpc/IParamDecl.h</label>
+        <link refid="IParamDecl_8h_source"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
         <label>memory</label>
       </node>
-      <node id="4">
+      <node id="6">
         <label>IInterfaceType.h</label>
         <link refid="IInterfaceType_8h_source"/>
-        <childnode refid="5" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -309,53 +322,54 @@
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;functional&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;IInterfaceType.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;IMethodType.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;IParamValFactory.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;IParamValVec.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">tblink_rpc_core<sp/>{</highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">IEndpoint;</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">IInterfaceInst;</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>IInterfaceInstUP=std::unique_ptr&lt;IInterfaceInst&gt;;</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::function&lt;void(</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IInterfaceInst<sp/><sp/><sp/><sp/><sp/><sp/>*inst,</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IMethodType<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*method,</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>intptr_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>call_id,</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IParamValVec<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*params)&gt;<sp/>invoke_req_f;</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::function&lt;void(IParamVal<sp/>*retval)&gt;<sp/>invoke_rsp_f;</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="classtblink__rpc__core_1_1IInterfaceInst" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classtblink__rpc__core_1_1IInterfaceInst" kindref="compound">IInterfaceInst</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classtblink__rpc__core_1_1IParamValFactory" kindref="compound">IParamValFactory</ref><sp/>{</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~<ref refid="classtblink__rpc__core_1_1IInterfaceInst" kindref="compound">IInterfaceInst</ref>()<sp/>{<sp/>}</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classtblink__rpc__core_1_1IEndpoint" kindref="compound">IEndpoint</ref><sp/>*endpoint()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;name()<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classtblink__rpc__core_1_1IInterfaceType" kindref="compound">IInterfaceType</ref><sp/>*type()<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>is_mirror()<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>set_invoke_req_f(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>invoke_req_f<sp/>&amp;req_f)<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>int32_t<sp/><ref refid="classtblink__rpc__core_1_1IInterfaceInst_1a1a8a5e9ff7c9a0a384bd4159ee7c63c2" kindref="member">invoke_nb</ref>(</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtblink__rpc__core_1_1IMethodType" kindref="compound">IMethodType</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*method,</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtblink__rpc__core_1_1IParamValVec" kindref="compound">IParamValVec</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*params,</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>invoke_rsp_f<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;completion_f)<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtblink__rpc__core_1_1IInterfaceInst_1a13f79b030a20baac79214b1ec7b8189a" kindref="member">invoke_rsp</ref>(</highlight></codeline>
-<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>intptr_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>call_id,</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtblink__rpc__core_1_1IParamVal" kindref="compound">IParamVal</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*ret)<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;tblink_rpc/IInterfaceImpl.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;IInterfaceType.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;IMethodType.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;IParamValFactory.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;IParamValVec.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">tblink_rpc_core<sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">IEndpoint;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">IInterfaceInst;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>IInterfaceInstUP=std::unique_ptr&lt;IInterfaceInst&gt;;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::function&lt;void(</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IInterfaceInst<sp/><sp/><sp/><sp/><sp/><sp/>*inst,</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IMethodType<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*method,</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>intptr_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>call_id,</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IParamValVec<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*params)&gt;<sp/>invoke_req_f;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::function&lt;void(IParamVal<sp/>*retval)&gt;<sp/>invoke_rsp_f;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="classtblink__rpc__core_1_1IInterfaceInst" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classtblink__rpc__core_1_1IInterfaceInst" kindref="compound">IInterfaceInst</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classtblink__rpc__core_1_1IParamValFactory" kindref="compound">IParamValFactory</ref><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~<ref refid="classtblink__rpc__core_1_1IInterfaceInst" kindref="compound">IInterfaceInst</ref>()<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classtblink__rpc__core_1_1IEndpoint" kindref="compound">IEndpoint</ref><sp/>*endpoint()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;name()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classtblink__rpc__core_1_1IInterfaceType" kindref="compound">IInterfaceType</ref><sp/>*type()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>is_mirror()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setImpl(<ref refid="classtblink__rpc__core_1_1IInterfaceImpl" kindref="compound">IInterfaceImpl</ref><sp/>*impl)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>int32_t<sp/><ref refid="classtblink__rpc__core_1_1IInterfaceInst_1a54460e93361ae9e231bf6b42c79fbf77" kindref="member">invoke</ref>(</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtblink__rpc__core_1_1IMethodType" kindref="compound">IMethodType</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*method,</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtblink__rpc__core_1_1IParamValVec" kindref="compound">IParamValVec</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*params,</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>invoke_rsp_f<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;completion_f)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtblink__rpc__core_1_1IInterfaceInst_1a13f79b030a20baac79214b1ec7b8189a" kindref="member">invoke_rsp</ref>(</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>intptr_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>call_id,</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtblink__rpc__core_1_1IParamVal" kindref="compound">IParamVal</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*ret)<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
-<codeline lineno="64"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IInterfaceInst.h"/>
   </compounddef>

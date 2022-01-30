@@ -40,7 +40,7 @@
         <definition>virtual const std::vector&lt;std::string&gt;&amp; tblink_rpc_core::ILaunchParams::args</definition>
         <argsstring>() const =0</argsstring>
         <name>args</name>
-        <reimplementedby refid="classtblink__rpc__core_1_1LaunchParams_1a368840cb11d32147e12446f6c567ec2c">args</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1LaunchParams_1a604a4e76cc02c43c40e21d6ed19ee587">args</reimplementedby>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -112,7 +112,7 @@
         <definition>virtual const std::map&lt;std::string,std::string&gt;&amp; tblink_rpc_core::ILaunchParams::params</definition>
         <argsstring>() const =0</argsstring>
         <name>params</name>
-        <reimplementedby refid="classtblink__rpc__core_1_1LaunchParams_1a9560c4c113c22bfa7aaa1fd41d952702">params</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1LaunchParams_1adbd496216596ed198db5256270a336bd">params</reimplementedby>
         <briefdescription>
         </briefdescription>
         <detaileddescription>

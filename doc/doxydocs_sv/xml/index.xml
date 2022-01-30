@@ -13,6 +13,8 @@
     <member refid="classtblink__rpc_1_1DpiEndpoint_1a54bac19fe40cc0054298e6cc63bddcc2" kind="function"><name>new</name></member>
     <member refid="classtblink__rpc_1_1DpiEndpoint_1a7e63a196f2d4b27359dbd32cdc5d2f75" kind="function"><name>set_hndl</name></member>
     <member refid="classtblink__rpc_1_1DpiEndpoint_1a0ebf2f49075732d1e33f89f19ee2c1ed" kind="function"><name>set_this</name></member>
+    <member refid="classtblink__rpc_1_1DpiEndpoint_1a269176ce47932f217df6885f9dc3f7cd" kind="function"><name>getFlags</name></member>
+    <member refid="classtblink__rpc_1_1DpiEndpoint_1aabafe6ec8fbe659525c0243176fece7b" kind="function"><name>setFlag</name></member>
     <member refid="classtblink__rpc_1_1DpiEndpoint_1af22e7adfba89f586a12b7e3d79209508" kind="function"><name>init</name></member>
     <member refid="classtblink__rpc_1_1DpiEndpoint_1ac2bc74c9c11c14afb8ac83e8effbbbfd" kind="function"><name>is_init</name></member>
     <member refid="classtblink__rpc_1_1DpiEndpoint_1a217de539f9c9a9373bc4bfb77a47e9b9" kind="function"><name>build_complete</name></member>
@@ -23,6 +25,7 @@
     <member refid="classtblink__rpc_1_1DpiEndpoint_1a21bfbeedec4aea9dd8d6b87606460295" kind="function"><name>addListener</name></member>
     <member refid="classtblink__rpc_1_1DpiEndpoint_1ae14ef1ad90d6d8c29118240e9b6f5a15" kind="function"><name>removeListener</name></member>
     <member refid="classtblink__rpc_1_1DpiEndpoint_1a10d1814e28e49f945327525ae8cdd364" kind="function"><name>shutdown</name></member>
+    <member refid="classtblink__rpc_1_1DpiEndpoint_1a09472b0a14c9534110a5a207e3327964" kind="function"><name>notify_callback</name></member>
     <member refid="classtblink__rpc_1_1DpiEndpoint_1a45bd4b9af648bf35c5a16f4578dc00ab" kind="function"><name>last_error</name></member>
     <member refid="classtblink__rpc_1_1DpiEndpoint_1ab4d9576effa616ad97fb6f5e40579033" kind="function"><name>findInterfaceType</name></member>
     <member refid="classtblink__rpc_1_1DpiEndpoint_1a301ec28cfa4e8afefc2ad3410c5faee6" kind="function"><name>newInterfaceTypeBuilder</name></member>
@@ -172,6 +175,11 @@
     <member refid="classtblink__rpc_1_1DpiParamValVec_1a2d34a3c29f4ee55ca4886308dec0427c" kind="function"><name>dispose</name></member>
     <member refid="classtblink__rpc_1_1DpiParamValVec_1a7d32dfead2056af3573f39beb9c25567" kind="function"><name>clone</name></member>
   </compound>
+  <compound refid="classtblink__rpc_1_1DpiTbLinkEvent" kind="class"><name>tblink_rpc::DpiTbLinkEvent</name>
+    <member refid="classtblink__rpc_1_1DpiTbLinkEvent_1abc44154ff1fa75cf2db76a6d1f1550e2" kind="variable"><name>m_hndl</name></member>
+    <member refid="classtblink__rpc_1_1DpiTbLinkEvent_1a50e4acad525bae2ad634854f78cd8ae7" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1DpiTbLinkEvent_1a47e870810d8fbda53b16b2dcb658bfdd" kind="function"><name>kind</name></member>
+  </compound>
   <compound refid="classtblink__rpc_1_1DpiType" kind="class"><name>tblink_rpc::DpiType</name>
     <member refid="classtblink__rpc_1_1DpiType_1af9e84ea8081e3403e626bd89878ae43f" kind="variable"><name>m_hndl</name></member>
     <member refid="classtblink__rpc_1_1DpiType_1ae615a14adce5dd5eef1d3f461ff84c47" kind="function"><name>new</name></member>
@@ -199,6 +207,11 @@
     <member refid="classtblink__rpc_1_1IEndpoint_1a27a23baecfc154e89cb7e2cd2d7597cc" kind="enum"><name>comm_state_e</name></member>
     <member refid="classtblink__rpc_1_1IEndpoint_1a27a23baecfc154e89cb7e2cd2d7597ccad1d323a83babe11cb9154628d4ad8b90" kind="enumvalue"><name>Waiting</name></member>
     <member refid="classtblink__rpc_1_1IEndpoint_1a27a23baecfc154e89cb7e2cd2d7597ccab6abe30a3acd8ab3a883b673d42f8edc" kind="enumvalue"><name>Released</name></member>
+    <member refid="classtblink__rpc_1_1IEndpoint_1a489fb8d28419c7dbcd27eb1f0a98fe8d" kind="enum"><name>comm_mode_e</name></member>
+    <member refid="classtblink__rpc_1_1IEndpoint_1a489fb8d28419c7dbcd27eb1f0a98fe8da09aec55b69ce9e1424487d8446a2f9dc" kind="enumvalue"><name>Automatic</name></member>
+    <member refid="classtblink__rpc_1_1IEndpoint_1a489fb8d28419c7dbcd27eb1f0a98fe8daf6635b31a81ebbbbb8f3a992625bddf5" kind="enumvalue"><name>Explicit</name></member>
+    <member refid="classtblink__rpc_1_1IEndpoint_1a8e91982ef6ada81dabc4d8734d90a507" kind="function"><name>getFlags</name></member>
+    <member refid="classtblink__rpc_1_1IEndpoint_1af084e5ecf9766073632bf37d33936524" kind="function"><name>setFlag</name></member>
     <member refid="classtblink__rpc_1_1IEndpoint_1a556b566c429a768e642c3a76ddbb515d" kind="function"><name>init</name></member>
     <member refid="classtblink__rpc_1_1IEndpoint_1a452e692f0d6acd881b98edc8ebce652f" kind="function"><name>is_init</name></member>
     <member refid="classtblink__rpc_1_1IEndpoint_1a8ac4e37bc389c1a9e1e22e192aa70d86" kind="function"><name>build_complete</name></member>
@@ -207,9 +220,10 @@
     <member refid="classtblink__rpc_1_1IEndpoint_1a17987cdcb9dd0be67c1a846394d00d43" kind="function"><name>is_connect_complete</name></member>
     <member refid="classtblink__rpc_1_1IEndpoint_1a9b0baf75d79d5cae472b6b82263a1b0b" kind="function"><name>addListener</name></member>
     <member refid="classtblink__rpc_1_1IEndpoint_1a27dc60268d6c65844561bcdc1d487c08" kind="function"><name>removeListener</name></member>
-    <member refid="classtblink__rpc_1_1IEndpoint_1abe27e855aa88e0407d59ef7cfbdeed69" kind="function"><name>await_run_until_event</name></member>
     <member refid="classtblink__rpc_1_1IEndpoint_1a84978f42bbbfa85979d5e5f0adf2eb85" kind="function"><name>shutdown</name></member>
     <member refid="classtblink__rpc_1_1IEndpoint_1a00f95603e44766c792021dd6fd8096c3" kind="function"><name>comm_state</name></member>
+    <member refid="classtblink__rpc_1_1IEndpoint_1a71a6164ea87f9e74407305ebebef17b4" kind="function"><name>comm_mode</name></member>
+    <member refid="classtblink__rpc_1_1IEndpoint_1ae2d53a05d29a38b781314452f68055e0" kind="function"><name>notify_callback</name></member>
     <member refid="classtblink__rpc_1_1IEndpoint_1ae1799aafcc35c22ffe6d4054241e416b" kind="function"><name>last_error</name></member>
     <member refid="classtblink__rpc_1_1IEndpoint_1a27c441a07983c7bee30a99b17605e45e" kind="function"><name>findInterfaceType</name></member>
     <member refid="classtblink__rpc_1_1IEndpoint_1a7dc1af5d7c59b63cce8037359370a37e" kind="function"><name>newInterfaceTypeBuilder</name></member>
@@ -223,6 +237,13 @@
     <member refid="classtblink__rpc_1_1IEndpointEvent_1a328eb59ee9b4801d5d14583b1f9f0fdf" kind="enum"><name>kind_t</name></member>
     <member refid="classtblink__rpc_1_1IEndpointEvent_1a328eb59ee9b4801d5d14583b1f9f0fdfae986b457a1287f879f0ba67ba99ac201" kind="enumvalue"><name>Unknown</name></member>
     <member refid="classtblink__rpc_1_1IEndpointEvent_1af30ddad9890c82371624400f57761cd1" kind="function"><name>kind</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1IEndpointFlags" kind="class"><name>tblink_rpc::IEndpointFlags</name>
+    <member refid="classtblink__rpc_1_1IEndpointFlags_1a674e8b779a4063f7c6db6232f05571fd" kind="enum"><name>_t</name></member>
+    <member refid="classtblink__rpc_1_1IEndpointFlags_1a674e8b779a4063f7c6db6232f05571fda51ba3fcc759856eb5e8b1836432cbc7f" kind="enumvalue"><name>Empty</name></member>
+    <member refid="classtblink__rpc_1_1IEndpointFlags_1a674e8b779a4063f7c6db6232f05571fdacd2b516b058a6c226e50b5e916d0a20e" kind="enumvalue"><name>Claimed</name></member>
+    <member refid="classtblink__rpc_1_1IEndpointFlags_1a674e8b779a4063f7c6db6232f05571fda952a0214838982afedb83ae21a037a11" kind="enumvalue"><name>LoopbackPri</name></member>
+    <member refid="classtblink__rpc_1_1IEndpointFlags_1a674e8b779a4063f7c6db6232f05571fdab2f14c0841d5847bcc892fb7c550a84f" kind="enumvalue"><name>LoopbackSec</name></member>
   </compound>
   <compound refid="classtblink__rpc_1_1IEndpointListener" kind="class"><name>tblink_rpc::IEndpointListener</name>
     <member refid="classtblink__rpc_1_1IEndpointListener_1afc007aa8b5c7ae5389a299199c8cc05d" kind="function"><name>event_f</name></member>
@@ -242,10 +263,23 @@
   <compound refid="classtblink__rpc_1_1IEndpointServicesFactory" kind="class"><name>tblink_rpc::IEndpointServicesFactory</name>
     <member refid="classtblink__rpc_1_1IEndpointServicesFactory_1af39e405ab70855ef770b2989a905d1c7" kind="function"><name>create</name></member>
   </compound>
+  <compound refid="classtblink__rpc_1_1IInterfaceFactory" kind="class"><name>tblink_rpc::IInterfaceFactory</name>
+    <member refid="classtblink__rpc_1_1IInterfaceFactory_1ab468b291dee55fc64d4a237873f8339c" kind="variable"><name>m_inst</name></member>
+    <member refid="classtblink__rpc_1_1IInterfaceFactory_1af3e5f8082abe07b8bd75ef43048a564e" kind="function"><name>inst</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1IInterfaceFactoryBase" kind="class"><name>tblink_rpc::IInterfaceFactoryBase</name>
+    <member refid="classtblink__rpc_1_1IInterfaceFactoryBase_1a57f07ef1c0eced971ac9e1d1b2c81ca6" kind="function"><name>name</name></member>
+    <member refid="classtblink__rpc_1_1IInterfaceFactoryBase_1a861aae51553c43ddffb42ae721a037aa" kind="function"><name>defineType</name></member>
+    <member refid="classtblink__rpc_1_1IInterfaceFactoryBase_1ae35ce38f1750360d701aeefbcfbd2cdc" kind="function"><name>createIfImpl</name></member>
+  </compound>
   <compound refid="classtblink__rpc_1_1IInterfaceImpl" kind="class"><name>tblink_rpc::IInterfaceImpl</name>
     <member refid="classtblink__rpc_1_1IInterfaceImpl_1ac620f3a6be7c94c8e335b31f01c1730c" kind="function"><name>init</name></member>
     <member refid="classtblink__rpc_1_1IInterfaceImpl_1afe026479015b350fe5bde6ac16c19244" kind="function"><name>invoke_nb</name></member>
     <member refid="classtblink__rpc_1_1IInterfaceImpl_1a0d01513d8d12dba4db89845983e62a4e" kind="function"><name>invoke_b</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1IInterfaceImplProxy" kind="class"><name>tblink_rpc::IInterfaceImplProxy</name>
+    <member refid="classtblink__rpc_1_1IInterfaceImplProxy_1a832b9dac113df8e0fce8bcbc9fab75de" kind="function"><name>init</name></member>
+    <member refid="classtblink__rpc_1_1IInterfaceImplProxy_1a01b86761d6abc1d5208b10d481c7f245" kind="function"><name>is_mirror</name></member>
   </compound>
   <compound refid="classtblink__rpc_1_1IInterfaceInst" kind="class"><name>tblink_rpc::IInterfaceInst</name>
     <member refid="classtblink__rpc_1_1IInterfaceInst_1a9719944cd633e099199c53af139fdbbf" kind="function"><name>set_impl</name></member>
@@ -334,6 +368,12 @@
     <member refid="classtblink__rpc_1_1IParamValVec_1af4b526a675ff39708ade8dbeb6c393e9" kind="function"><name>at</name></member>
     <member refid="classtblink__rpc_1_1IParamValVec_1a9f06e12d00b528b1c4dcda48c27c24b7" kind="function"><name>push_back</name></member>
   </compound>
+  <compound refid="classtblink__rpc_1_1ITbLinkEvent" kind="class"><name>tblink_rpc::ITbLinkEvent</name>
+    <member refid="classtblink__rpc_1_1ITbLinkEvent_1a17c2924c2b77cabd12f2d35055742395" kind="function"><name>kind</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1ITbLinkListener" kind="class"><name>tblink_rpc::ITbLinkListener</name>
+    <member refid="classtblink__rpc_1_1ITbLinkListener_1a685af5c481e50d2873fb8e8b4321913d" kind="function"><name>notify</name></member>
+  </compound>
   <compound refid="classtblink__rpc_1_1IType" kind="class"><name>tblink_rpc::IType</name>
     <member refid="classtblink__rpc_1_1IType_1a4fe3f25502806ac297a4328a37e05266" kind="enum"><name>type_kind_e</name></member>
     <member refid="classtblink__rpc_1_1IType_1a4fe3f25502806ac297a4328a37e05266a2461dd5013f330d6e11296c6fe177a4b" kind="enumvalue"><name>Bool</name></member>
@@ -363,16 +403,28 @@
   <compound refid="classtblink__rpc_1_1SVEndpointLoopback" kind="class"><name>tblink_rpc::SVEndpointLoopback</name>
     <member refid="classtblink__rpc_1_1SVEndpointLoopback_1a72768438a04d1b71e2129dc9b3cd7605" kind="variable"><name>m_peer_ep</name></member>
     <member refid="classtblink__rpc_1_1SVEndpointLoopback_1a4963380000fbfc092a3f78642ad28f35" kind="variable"><name>m_is_hdl</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointLoopback_1ab6a74cf3064cdc46239cba30fac1f37a" kind="variable"><name>m_services</name></member>
     <member refid="classtblink__rpc_1_1SVEndpointLoopback_1a673a9a761f0eac0aa6dee1252b3c3568" kind="variable"><name>m_iftype_m</name></member>
     <member refid="classtblink__rpc_1_1SVEndpointLoopback_1adae085832eac0f70eacf9a05e21d449f" kind="variable"><name>m_ifinst_m</name></member>
     <member refid="classtblink__rpc_1_1SVEndpointLoopback_1a3e8527f0f218a8058024a67ed028e162" kind="variable"><name>m_ifinsts</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointLoopback_1a02d093f5aa0c4377fc46f578c8934687" kind="variable"><name>m_listeners</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointLoopback_1a2ace982a94f2063a67dd192628dd439e" kind="variable"><name>m_comm_state</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointLoopback_1a8ba65c551aac7c0b7f6789492181c14c" kind="variable"><name>m_comm_mode</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointLoopback_1a607a592152aa0dd0d27cddbb5e9137b3" kind="variable"><name>m_flags</name></member>
     <member refid="classtblink__rpc_1_1SVEndpointLoopback_1ad3e0298c8189501b5708b1473a8096ea" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointLoopback_1aa102fc321ae418702a059e4e5ded70d3" kind="function"><name>getFlags</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointLoopback_1a7bfc70b3580210aab6d44c6e2c02bca5" kind="function"><name>setFlag</name></member>
     <member refid="classtblink__rpc_1_1SVEndpointLoopback_1aeea5af05a5237dfb0a03412878f233ff" kind="function"><name>peer_ep</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointLoopback_1a3eb5d5f490dfd5636c38c0e7a89d5c52" kind="function"><name>init</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointLoopback_1a7a6ed3150e637c6b580c59d76d4d4c5b" kind="function"><name>is_init</name></member>
     <member refid="classtblink__rpc_1_1SVEndpointLoopback_1a0f8ca87721b1c331553495b18ad87f19" kind="function"><name>build_complete</name></member>
     <member refid="classtblink__rpc_1_1SVEndpointLoopback_1ac9f370c919f74ce4e1aaf44219612de1" kind="function"><name>is_build_complete</name></member>
     <member refid="classtblink__rpc_1_1SVEndpointLoopback_1a8172d014495da75ef5996c52b1277d2b" kind="function"><name>connect_complete</name></member>
     <member refid="classtblink__rpc_1_1SVEndpointLoopback_1ac89076c7642a04caf3748f9e0b7fb37e" kind="function"><name>is_connect_complete</name></member>
-    <member refid="classtblink__rpc_1_1SVEndpointLoopback_1afa138ca9b06bb4314acf1c3cc429c2e3" kind="function"><name>await_run_until_event</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointLoopback_1ac908d4e390ede028e2fba6b756730d2a" kind="function"><name>addListener</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointLoopback_1ac2b1f2c6491727a42e20a4ecadcdecd3" kind="function"><name>removeListener</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointLoopback_1a2f41b7b6293d6caf49549545c4748eb0" kind="function"><name>comm_state</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointLoopback_1a9daec4461b38a13131eb2b226468b6a6" kind="function"><name>comm_mode</name></member>
     <member refid="classtblink__rpc_1_1SVEndpointLoopback_1aa020c6fb21f6242746c5190be6523299" kind="function"><name>findInterfaceType</name></member>
     <member refid="classtblink__rpc_1_1SVEndpointLoopback_1a31e70cb1b929abb8ce80f55655cf16ee" kind="function"><name>newInterfaceTypeBuilder</name></member>
     <member refid="classtblink__rpc_1_1SVEndpointLoopback_1a8d9b3d0336adf5444df6c4525d3f09cc" kind="function"><name>defineInterfaceType</name></member>
@@ -417,11 +469,13 @@
   </compound>
   <compound refid="classtblink__rpc_1_1SVEndpointServices" kind="class"><name>tblink_rpc::SVEndpointServices</name>
     <member refid="classtblink__rpc_1_1SVEndpointServices_1a3616ea1348696ea9e9e6b2668526c40b" kind="variable"><name>m_ep</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointServices_1adf427e156ac3e8c321612b3f339b6e30" kind="variable"><name>m_cb_m</name></member>
     <member refid="classtblink__rpc_1_1SVEndpointServices_1a7434cda39f36edd6561ad87f1bde7ffe" kind="function"><name>new</name></member>
     <member refid="classtblink__rpc_1_1SVEndpointServices_1aeb2865fa6fec34c233cd5943fa56bae7" kind="function"><name>init</name></member>
     <member refid="classtblink__rpc_1_1SVEndpointServices_1a5bfac8eac64e51f2e11c6141e5b67a2d" kind="function"><name>args</name></member>
     <member refid="classtblink__rpc_1_1SVEndpointServices_1a549ba33ed94b93f180238f52efde2bf4" kind="function"><name>shutdown</name></member>
     <member refid="classtblink__rpc_1_1SVEndpointServices_1a8883d045af9e54031274759335866f7f" kind="function"><name>add_time_cb</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointServices_1a4d0a5945917712c6c42c11e55a4e2d49" kind="function"><name>notify_time_cb</name></member>
     <member refid="classtblink__rpc_1_1SVEndpointServices_1a3f576528282331d7e25b48e2ec263b43" kind="function"><name>cancel_callback</name></member>
     <member refid="classtblink__rpc_1_1SVEndpointServices_1abc60aa88f5333942ab54d0c0ae046c09" kind="function"><name>get_time</name></member>
     <member refid="classtblink__rpc_1_1SVEndpointServices_1a9607b67a6721eb08c5d6e6c7b16d7e21" kind="function"><name>time_precision</name></member>
@@ -431,6 +485,14 @@
   </compound>
   <compound refid="classtblink__rpc_1_1SVEndpointServicesFactory" kind="class"><name>tblink_rpc::SVEndpointServicesFactory</name>
     <member refid="classtblink__rpc_1_1SVEndpointServicesFactory_1a8b2f4241ea891ae273ee7ed6b2a42c1a" kind="function"><name>create</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1SVEndpointServicesTimedCB" kind="class"><name>tblink_rpc::SVEndpointServicesTimedCB</name>
+    <member refid="classtblink__rpc_1_1SVEndpointServicesTimedCB_1ad3c840ac22980beb7e251597436c151f" kind="variable"><name>m_services</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointServicesTimedCB_1a1b0b11666827da64a2f429aff8ec7c53" kind="variable"><name>m_cb_time</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointServicesTimedCB_1aa0b83599cc35dfe23b28b45d4b4f4e0d" kind="variable"><name>m_cb_id</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointServicesTimedCB_1a0afd4d51fa16b442a3dbb4ecfdc09f81" kind="variable"><name>m_valid</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointServicesTimedCB_1a26729246770fe7d588034a363ec74904" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1SVEndpointServicesTimedCB_1a0f3ef7bcfb75132e24b622406c8e3a4e" kind="function"><name>run</name></member>
   </compound>
   <compound refid="classtblink__rpc_1_1SVInterfaceImplVif" kind="class"><name>tblink_rpc::SVInterfaceImplVif</name>
     <member refid="classtblink__rpc_1_1SVInterfaceImplVif_1a600f05a8d05b34f34ab555a889224874" kind="variable"><name>m_vif</name></member>
@@ -490,6 +552,12 @@
     <member refid="classtblink__rpc_1_1SVLaunchParams_1aa58e957862d97e24a6589fd30b398ddd" kind="function"><name>has_param</name></member>
     <member refid="classtblink__rpc_1_1SVLaunchParams_1a062ccf87a1a648d3b2acfc3f728e28f6" kind="function"><name>get_param</name></member>
     <member refid="classtblink__rpc_1_1SVLaunchParams_1a71f13337c396894d03bc8437add381ce" kind="function"><name>params</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1SVLaunchTypeConnectLoopback" kind="class"><name>tblink_rpc::SVLaunchTypeConnectLoopback</name>
+    <member refid="classtblink__rpc_1_1SVLaunchTypeConnectLoopback_1a5f0ebbee0550e496954ab600d66be412" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1SVLaunchTypeConnectLoopback_1a118705562a96c9caadfaa1753eb5bedf" kind="function"><name>name</name></member>
+    <member refid="classtblink__rpc_1_1SVLaunchTypeConnectLoopback_1a97449d3404ee3bc3de75292e1bf33505" kind="function"><name>launch</name></member>
+    <member refid="classtblink__rpc_1_1SVLaunchTypeConnectLoopback_1aa87776c0996757edea0261221986d87d" kind="function"><name>newLaunchParams</name></member>
   </compound>
   <compound refid="classtblink__rpc_1_1SVLaunchTypeLoopback" kind="class"><name>tblink_rpc::SVLaunchTypeLoopback</name>
     <member refid="classtblink__rpc_1_1SVLaunchTypeLoopback_1a02fe64258ca28805a8546f662a206ce5" kind="function"><name>new</name></member>
@@ -603,13 +671,22 @@
     <member refid="classtblink__rpc_1_1TbLink_1a8837555778bcc662fffd860c9df081e6" kind="variable"><name>m_delta_cb_pending</name></member>
     <member refid="classtblink__rpc_1_1TbLink_1a752eacbdce043d63e18819af04d00a0d" kind="variable"><name>m_last_ifinst_count</name></member>
     <member refid="classtblink__rpc_1_1TbLink_1ae81ff13bd5d00b605736008fb85afd6a" kind="variable"><name>m_zero_count_repeat</name></member>
+    <member refid="classtblink__rpc_1_1TbLink_1afb33c6369da79861295f6cb5a7108dc7" kind="variable"><name>m_tblink_core</name></member>
+    <member refid="classtblink__rpc_1_1TbLink_1a8242522f81b555f4e8134e53dc58f453" kind="variable"><name>m_endpoints</name></member>
+    <member refid="classtblink__rpc_1_1TbLink_1aca59f64299efdca2dfb2d360733079c8" kind="variable"><name>m_if_factories</name></member>
+    <member refid="classtblink__rpc_1_1TbLink_1abae606e612da4d2b42b9af4e2f7a0113" kind="variable"><name>m_if_factory_m</name></member>
     <member refid="classtblink__rpc_1_1TbLink_1ada6ecd6fb6dde3d87d013f565f23011a" kind="function"><name>new</name></member>
+    <member refid="classtblink__rpc_1_1TbLink_1a03ea45097b220c61acd882b1546a9bc8" kind="function"><name>tblink_core</name></member>
     <member refid="classtblink__rpc_1_1TbLink_1ab69e73042bcbdb0b71df603b3630fe29" kind="function"><name>setTimePrecision</name></member>
     <member refid="classtblink__rpc_1_1TbLink_1a246bf82e0cead3fda491b4890688f20f" kind="function"><name>setDefaultEp</name></member>
+    <member refid="classtblink__rpc_1_1TbLink_1abcee2807550b1fcdcc7249a1f06b7633" kind="function"><name>addIfFactory</name></member>
+    <member refid="classtblink__rpc_1_1TbLink_1a327e4e20bfc75ddf955fe3d122a59f1c" kind="function"><name>addEndpoint</name></member>
+    <member refid="classtblink__rpc_1_1TbLink_1a27d8e0c027d8755d80250f94da1034b4" kind="function"><name>removeEndpoint</name></member>
     <member refid="classtblink__rpc_1_1TbLink_1a0dd914e962f9e6d71bea5e1b7caaf7f9" kind="function"><name>getDefaultEp</name></member>
     <member refid="classtblink__rpc_1_1TbLink_1a9626adea3fec85e33cab0a22458b0585" kind="function"><name>getDefaultServicesFactory</name></member>
     <member refid="classtblink__rpc_1_1TbLink_1a1af670f4a79e54e6b8b0c9c599973719" kind="function"><name>setDefaultServicesFactory</name></member>
     <member refid="classtblink__rpc_1_1TbLink_1a9e93add79a82fd7a64a74d99f86ccfbd" kind="function"><name>getTimePrecision</name></member>
+    <member refid="classtblink__rpc_1_1TbLink_1a36d0d09d597ec0abc6c378c64f019701" kind="function"><name>notify</name></member>
     <member refid="classtblink__rpc_1_1TbLink_1afa5e7796be3ea8008cc12e1a42ec5805" kind="function"><name>auto_launch</name></member>
     <member refid="classtblink__rpc_1_1TbLink_1a8f8c6c0dc32d4cac2c7547ed7d50b219" kind="function"><name>register_delta_cb</name></member>
     <member refid="classtblink__rpc_1_1TbLink_1a83ea5ce1e5ad4a762bbdff0dfddcf9bb" kind="function"><name>delta_cb</name></member>
@@ -620,7 +697,13 @@
     <member refid="classtblink__rpc_1_1TbLink_1ad3ae8e70feb940de8c8ae6f86da3b277" kind="function"><name>get_default_ep</name></member>
     <member refid="classtblink__rpc_1_1TbLink_1a5e89339de894e195d107e0c5f52d4e50" kind="function"><name>findLaunchType</name></member>
     <member refid="classtblink__rpc_1_1TbLink_1ac1a1375e2a6515401abc0672c91cec5d" kind="function"><name>registerLaunchType</name></member>
+    <member refid="classtblink__rpc_1_1TbLink_1aa5da285ae5d141fb6080197593bb47ff" kind="function"><name>register_types</name></member>
     <member refid="classtblink__rpc_1_1TbLink_1a1c958b4e2f4e72579f58ccd65d2dc0bb" kind="function"><name>inst</name></member>
+  </compound>
+  <compound refid="classtblink__rpc_1_1TbLinkEventKind" kind="class"><name>tblink_rpc::TbLinkEventKind</name>
+    <member refid="classtblink__rpc_1_1TbLinkEventKind_1a4e3f9d5257ed4627da88c6bc60b12a8c" kind="enum"><name>_t</name></member>
+    <member refid="classtblink__rpc_1_1TbLinkEventKind_1a4e3f9d5257ed4627da88c6bc60b12a8ca65bda9da6ac0388fddcf2a7eb35308a4" kind="enumvalue"><name>AddEndpoint</name></member>
+    <member refid="classtblink__rpc_1_1TbLinkEventKind_1a4e3f9d5257ed4627da88c6bc60b12a8ca7f2b56c284d78f5f7e9fe68304b6324d" kind="enumvalue"><name>RemEndpoint</name></member>
   </compound>
   <compound refid="classtblink__rpc_1_1TbLinkInvokeB" kind="class"><name>tblink_rpc::TbLinkInvokeB</name>
     <member refid="classtblink__rpc_1_1TbLinkInvokeB_1a886de28cf05a47844989d02e3845b14f" kind="variable"><name>m_ifinst</name></member>
@@ -638,12 +721,15 @@
     <member refid="classtblink__rpc_1_1TbLinkThread_1a78d77990ad48921a8c86129d4389ea54" kind="function"><name>run</name></member>
   </compound>
   <compound refid="namespacetblink__rpc" kind="namespace"><name>tblink_rpc</name>
+    <member refid="namespacetblink__rpc_1aa70b1d2b9f08815bc1a1596a0a7b3d79" kind="typedef"><name>IEndpointFlags_t</name></member>
+    <member refid="namespacetblink__rpc_1ad4440e02cf1789851a7f5119aa800a34" kind="typedef"><name>TbLinkEventKind_t</name></member>
     <member refid="namespacetblink__rpc_1a398c8dafefa32d749690b92410413705" kind="variable"><name>prv_hndl2impl</name></member>
     <member refid="namespacetblink__rpc_1a3f6495a54ebcd7baf3ad3caa2e953e77" kind="variable"><name>prv_closure_m</name></member>
     <member refid="namespacetblink__rpc_1a6cb67578153a47654cab7f88c36de7b8" kind="variable"><name>prv_proxy_params_m</name></member>
     <member refid="namespacetblink__rpc_1abb6e38e5d38dead80ac103567058238e" kind="variable"><name>prv_dpi_services_m</name></member>
     <member refid="namespacetblink__rpc_1ade7fbc780941fafdcd3c57892e1d32a5" kind="variable"><name>prv_dpi_listener_m</name></member>
     <member refid="namespacetblink__rpc_1aa29a43c9be5d2d7be63035f34b920320" kind="variable"><name>prv_listener_dpi_m</name></member>
+    <member refid="namespacetblink__rpc_1a960b7237f3cfd581b8dd24ecb241f181" kind="variable"><name>prv_dpi_tblink_listener_m</name></member>
     <member refid="namespacetblink__rpc_1a4cf6d0478723e5afb3e8da83a955f414" kind="variable"><name>_tblink_inst</name></member>
     <member refid="namespacetblink__rpc_1a3e83bc63da9304f055bc87c05cb1c622" kind="variable"><name>prv_tblink_init</name></member>
     <member refid="namespacetblink__rpc_1a0ef01a1480a50ddbe66580a77de278c6" kind="function"><name>tblink_rpc_IType_kind</name></member>
@@ -696,11 +782,14 @@
     <member refid="namespacetblink__rpc_1afaf236532da40bf8af6b5b04267e65ba" kind="function"><name>tblink_rpc_invoke_b_dpi_bfm</name></member>
     <member refid="namespacetblink__rpc_1aa2990d78f69c4b7b4e1df28147bf0511" kind="function"><name>newDpiEndpointServicesProxy</name></member>
     <member refid="namespacetblink__rpc_1a0f458557ca4d2452b41065e3e07e4083" kind="function"><name>tblink_rpc_DpiEndpointServicesProxy_new</name></member>
+    <member refid="namespacetblink__rpc_1aab358f2b6943a15331c1a858fcd7d8db" kind="function"><name>tblink_rpc_DpiEndpointServicesProxy_add_time_cb</name></member>
     <member refid="namespacetblink__rpc_1a7bad887fb8c014ceee242db6182c1cc7" kind="function"><name>tblink_rpc_DpiEndpointServicesProxy_shutdown</name></member>
     <member refid="namespacetblink__rpc_1a3846ae8a1d6755d1673fba2e70adccc1" kind="function"><name>tblink_rpc_DpiEndpointServicesProxy_run_until_event</name></member>
     <member refid="namespacetblink__rpc_1a6032beb464413c3c557517ab7931256d" kind="function"><name>tblink_rpc_DpiEndpointServicesProxy_hit_event</name></member>
     <member refid="namespacetblink__rpc_1a2af8f2e4fa1fa8f3e347cd654dc44620" kind="function"><name>tblink_rpc_DpiEndpointServicesProxy_idle</name></member>
     <member refid="namespacetblink__rpc_1a0f9363c924919c141091da6ed1060e93" kind="function"><name>mkDpiEndpoint</name></member>
+    <member refid="namespacetblink__rpc_1aa0abe87577bb0840e468b9b1605f5a0a" kind="function"><name>tblink_rpc_IEndpoint_getFlags</name></member>
+    <member refid="namespacetblink__rpc_1aeb6c3b08e4f58ab66f6d710dfa5143ee" kind="function"><name>tblink_rpc_IEndpoint_setFlag</name></member>
     <member refid="namespacetblink__rpc_1af5905fb3b56d6530d54dec1bc95319d3" kind="function"><name>tblink_rpc_IEndpoint_init</name></member>
     <member refid="namespacetblink__rpc_1a2f21cca5fe819dde650855515964daa0" kind="function"><name>tblink_rpc_IEndpoint_is_init</name></member>
     <member refid="namespacetblink__rpc_1a1ccad71797ac97931620f9213a6a1d9f" kind="function"><name>tblink_rpc_IEndpoint_build_complete</name></member>
@@ -708,6 +797,7 @@
     <member refid="namespacetblink__rpc_1a3e580c93064aeddfbbf4f5033a566dd0" kind="function"><name>tblink_rpc_IEndpoint_connect_complete</name></member>
     <member refid="namespacetblink__rpc_1aa9818e4a4c4aa3245c8fb16cba1c88ca" kind="function"><name>tblink_rpc_IEndpoint_is_connect_complete</name></member>
     <member refid="namespacetblink__rpc_1a2b2540b789dfab6584ccfe03a3a42502" kind="function"><name>tblink_rpc_IEndpoint_comm_state</name></member>
+    <member refid="namespacetblink__rpc_1a15807088bff27cb32d289d1afb8895af" kind="function"><name>tblink_rpc_IEndpoint_notify_callback</name></member>
     <member refid="namespacetblink__rpc_1a51833576a582ca1dd23a83752b39da76" kind="function"><name>_tblink_rpc_endpoint_shutdown</name></member>
     <member refid="namespacetblink__rpc_1af688b501491da6bdc9e2492be5ae2df2" kind="function"><name>tblink_rpc_IEndpoint_last_error</name></member>
     <member refid="namespacetblink__rpc_1ab58e23d3e4fcbcbda18337e0186574e5" kind="function"><name>tblink_rpc_IEndpoint_findInterfaceType</name></member>
@@ -726,6 +816,10 @@
     <member refid="namespacetblink__rpc_1a7de3eccce0c48c11f8232f87b36237d2" kind="function"><name>tblink_rpc_DpiEndpointLoopback_new</name></member>
     <member refid="namespacetblink__rpc_1aee49c7869a2097e6a27d22fa9b07cc3d" kind="function"><name>tblink_rpc_ILaunchType_launch</name></member>
     <member refid="namespacetblink__rpc_1acc59f665ff0c357be7bc6e49db6ce305" kind="function"><name>tblink_rpc_ILaunchType_newLaunchParams</name></member>
+    <member refid="namespacetblink__rpc_1a006e9b8b12b5aab8dc5ac0a9050afe4c" kind="function"><name>tblink_rpc_ITbLinkEvent_kind</name></member>
+    <member refid="namespacetblink__rpc_1ab9fc354c915ed5014a5aabc6693a1040" kind="function"><name>newDpiTbLinkListenerProxy</name></member>
+    <member refid="namespacetblink__rpc_1a3b9675057619479970dbf619a4d5da24" kind="function"><name>tblink_rpc_DpiTbLinkListenerProxy_new</name></member>
+    <member refid="namespacetblink__rpc_1a72ed37bb0eb65f2382aff2483c2f67e9" kind="function"><name>tblink_rpc_DpiTbLinkListenerProxy_notify</name></member>
     <member refid="namespacetblink__rpc_1a938e997a283da0cd59ac92207d8a7391" kind="function"><name>mkSVEndpointSequencer</name></member>
     <member refid="namespacetblink__rpc_1a16dc64f36cbaf324325f5b8c6651ab10" kind="function"><name>tblink_rpc_add_time_cb</name></member>
     <member refid="namespacetblink__rpc_1a04a718e857216e832b6220bc67459f57" kind="function"><name>tblink_rpc_notify_time_cb</name></member>
@@ -733,9 +827,14 @@
     <member refid="namespacetblink__rpc_1a153fe63999f9fcabde98f552f6f6affd" kind="function"><name>_tblink_rpc_pkg_init</name></member>
     <member refid="namespacetblink__rpc_1ae97d7f6abebbc6b649c10f873131ffe3" kind="function"><name>tblink_rpc_findLaunchType</name></member>
     <member refid="namespacetblink__rpc_1add720ac713b3195d621d3aa96f4ad57c" kind="function"><name>tblink_rpc_libpath</name></member>
-    <member refid="namespacetblink__rpc_1a62e2cf8ab93796fbacf914dac2bba512" kind="function"><name>tblink_rpc_TbLink_inst</name></member>
     <member refid="namespacetblink__rpc_1ab916c4375e1fc399e86af8bf38f0767d" kind="function"><name>tblink_rpc_TbLink_setDefaultEP</name></member>
     <member refid="namespacetblink__rpc_1a61660ad4e9e74a9145cce680f07e499a" kind="function"><name>tblink_rpc_TbLink_getDefaultEP</name></member>
+    <member refid="namespacetblink__rpc_1a40ce275478b3f6046fa3efbd9c7a236e" kind="function"><name>tblink_rpc_TbLink_addListener</name></member>
+    <member refid="namespacetblink__rpc_1a0561723a8adec3e84c750f9b978c0535" kind="function"><name>tblink_rpc_TbLink_removeListener</name></member>
+    <member refid="namespacetblink__rpc_1ae730d6d1b67a765b80e0470cef1e44b3" kind="function"><name>tblink_rpc_TbLink_addEndpoint</name></member>
+    <member refid="namespacetblink__rpc_1a78c5e7ce59215656d748666d1a400c30" kind="function"><name>tblink_rpc_TbLink_getEndpoints_size</name></member>
+    <member refid="namespacetblink__rpc_1ab50d7dcae6ff742c8842842f09a9c60a" kind="function"><name>tblink_rpc_TbLink_getEndpoints_at</name></member>
+    <member refid="namespacetblink__rpc_1a62e2cf8ab93796fbacf914dac2bba512" kind="function"><name>tblink_rpc_TbLink_inst</name></member>
     <member refid="namespacetblink__rpc_1a6c31b8af971900f533a8f35a7c94965d" kind="function"><name>tblink_rpc_ParseLaunchPlusargs</name></member>
     <member refid="namespacetblink__rpc_1a9ef99ca68716beb15e151669aa08fd14" kind="function"><name>tblink_rpc_delta_cb</name></member>
     <member refid="namespacetblink__rpc_1a05425e3999c20cd3c37f267ad7f4248d" kind="function"><name>tblink_rpc_register_delta_cb</name></member>

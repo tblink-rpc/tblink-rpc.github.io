@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeConnectNativeLoopback.h" line="21" column="18" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeConnectNativeLoopback.cpp" bodystart="26" bodyend="47"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeConnectNativeLoopback.h" line="21" column="18" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeConnectNativeLoopback.cpp" bodystart="26" bodyend="53"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1LaunchTypeConnectNativeLoopback_1a1088fc912120aa81085e68ce080041a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type><ref refid="classtblink__rpc__core_1_1ILaunchParams" kindref="compound">ILaunchParams</ref> *</type>
@@ -80,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeConnectNativeLoopback.h" line="25" column="23" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeConnectNativeLoopback.cpp" bodystart="49" bodyend="51"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeConnectNativeLoopback.h" line="25" column="23" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeConnectNativeLoopback.cpp" bodystart="55" bodyend="57"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

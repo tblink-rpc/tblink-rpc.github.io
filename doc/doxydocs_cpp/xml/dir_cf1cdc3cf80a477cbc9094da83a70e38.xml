@@ -77,6 +77,8 @@
     <innerfile refid="StringUtil_8h">StringUtil.h</innerfile>
     <innerfile refid="TbLink_8cpp">TbLink.cpp</innerfile>
     <innerfile refid="TbLink_8h">TbLink.h</innerfile>
+    <innerfile refid="TbLinkEvent_8cpp">TbLinkEvent.cpp</innerfile>
+    <innerfile refid="TbLinkEvent_8h">TbLinkEvent.h</innerfile>
     <innerfile refid="TransportJsonSocket_8cpp">TransportJsonSocket.cpp</innerfile>
     <innerfile refid="TransportJsonSocket_8h">TransportJsonSocket.h</innerfile>
     <innerfile refid="TransportMessageFifo_8cpp">TransportMessageFifo.cpp</innerfile>

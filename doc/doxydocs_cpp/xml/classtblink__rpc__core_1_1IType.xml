@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IType.h" line="27" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IType.h" bodystart="27" bodyend="27"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IType.h" line="29" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IType.h" bodystart="29" bodyend="29"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1IType_1a62157b4dcaf0777e10c6ff4dd0d93af1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
         <type>TypeE</type>
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IType.h" line="29" column="15"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IType.h" line="31" column="15"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -90,7 +90,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IType.h" line="24" column="12" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IType.h" bodystart="24" bodyend="31"/>
+    <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IType.h" line="26" column="12" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IType.h" bodystart="26" bodyend="33"/>
     <listofallmembers>
       <member refid="classtblink__rpc__core_1_1IType_1a62157b4dcaf0777e10c6ff4dd0d93af1" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::IType</scope><name>kind</name></member>
       <member refid="classtblink__rpc__core_1_1IType_1ad9c9e5ad705bf07a042484dd996851a4" prot="public" virt="virtual"><scope>tblink_rpc_core::IType</scope><name>~IType</name></member>

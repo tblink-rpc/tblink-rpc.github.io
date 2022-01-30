@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1326" column="28" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1326" bodyend="1329"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1535" column="28" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1535" bodyend="1538"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -37,7 +37,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1321" column="31" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1321" bodyend="1330"/>
+    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1530" column="31" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1530" bodyend="1539"/>
     <listofallmembers>
       <member refid="classtblink__rpc_1_1IEndpointServicesFactory_1af39e405ab70855ef770b2989a905d1c7" prot="public" virt="virtual"><scope>tblink_rpc::IEndpointServicesFactory</scope><name>create</name></member>
     </listofallmembers>

@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc_1_1SVLaunchTypeConnectLoopback" kind="class" language="C++" prot="public">
+    <compoundname>tblink_rpc::SVLaunchTypeConnectLoopback</compoundname>
+    <basecompoundref refid="classtblink__rpc_1_1ILaunchType" prot="public" virt="non-virtual">tblink_rpc::ILaunchType</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc_1_1SVLaunchTypeConnectLoopback_1a5f0ebbee0550e496954ab600d66be412" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>tblink_rpc::SVLaunchTypeConnectLoopback::new</definition>
+        <argsstring>()</argsstring>
+        <name>new</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6635" column="2" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6635" bodyend="6638"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1SVLaunchTypeConnectLoopback_1a118705562a96c9caadfaa1753eb5bedf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>string</type>
+        <definition>virtual string tblink_rpc::SVLaunchTypeConnectLoopback::name</definition>
+        <argsstring>()</argsstring>
+        <name>name</name>
+        <reimplements refid="classtblink__rpc_1_1ILaunchType_1a2e44155090416fcac2c78328a6726e36">name</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6640" column="17" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6640" bodyend="6642"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1SVLaunchTypeConnectLoopback_1a97449d3404ee3bc3de75292e1bf33505" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classtblink__rpc_1_1IEndpoint" kindref="compound">IEndpoint</ref></type>
+        <definition>virtual IEndpoint tblink_rpc::SVLaunchTypeConnectLoopback::launch</definition>
+        <argsstring>(input ILaunchParams params, input IEndpointServices services, output string errmsg)</argsstring>
+        <name>launch</name>
+        <reimplements refid="classtblink__rpc_1_1ILaunchType_1ae46f939cdb7c6c0ec9f0b17be65d47cb">launch</reimplements>
+        <param>
+          <type>input <ref refid="classtblink__rpc_1_1ILaunchParams" kindref="compound">ILaunchParams</ref></type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>input <ref refid="classtblink__rpc_1_1IEndpointServices" kindref="compound">IEndpointServices</ref></type>
+          <declname>services</declname>
+        </param>
+        <param>
+          <type>output string</type>
+          <declname>errmsg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6644" column="20" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6644" bodyend="6663"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1SVLaunchTypeConnectLoopback_1aa87776c0996757edea0261221986d87d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classtblink__rpc_1_1ILaunchParams" kindref="compound">ILaunchParams</ref></type>
+        <definition>virtual ILaunchParams tblink_rpc::SVLaunchTypeConnectLoopback::newLaunchParams</definition>
+        <argsstring>()</argsstring>
+        <name>newLaunchParams</name>
+        <reimplements refid="classtblink__rpc_1_1ILaunchType_1aa2c93de73e8002701108ba6a6ed5cc6a">newLaunchParams</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6665" column="24" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6665" bodyend="6668"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="classtblink__rpc_1_1SVLaunchTypeConnectLoopback" kindref="compound">SVLaunchTypeConnectLoopback</ref></para>
+<para>TODO: Add class documentation </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>tblink_rpc::ILaunchType</label>
+        <link refid="classtblink__rpc_1_1ILaunchType"/>
+      </node>
+      <node id="1">
+        <label>tblink_rpc::SVLaunchTypeConnectLoopback</label>
+        <link refid="classtblink__rpc_1_1SVLaunchTypeConnectLoopback"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>tblink_rpc::ILaunchType</label>
+        <link refid="classtblink__rpc_1_1ILaunchType"/>
+      </node>
+      <node id="1">
+        <label>tblink_rpc::SVLaunchTypeConnectLoopback</label>
+        <link refid="classtblink__rpc_1_1SVLaunchTypeConnectLoopback"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6630" column="53" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6630" bodyend="6670"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc_1_1SVLaunchTypeConnectLoopback_1a97449d3404ee3bc3de75292e1bf33505" prot="public" virt="virtual"><scope>tblink_rpc::SVLaunchTypeConnectLoopback</scope><name>launch</name></member>
+      <member refid="classtblink__rpc_1_1SVLaunchTypeConnectLoopback_1a118705562a96c9caadfaa1753eb5bedf" prot="public" virt="virtual"><scope>tblink_rpc::SVLaunchTypeConnectLoopback</scope><name>name</name></member>
+      <member refid="classtblink__rpc_1_1SVLaunchTypeConnectLoopback_1a5f0ebbee0550e496954ab600d66be412" prot="public" virt="non-virtual"><scope>tblink_rpc::SVLaunchTypeConnectLoopback</scope><name>new</name></member>
+      <member refid="classtblink__rpc_1_1SVLaunchTypeConnectLoopback_1aa87776c0996757edea0261221986d87d" prot="public" virt="virtual"><scope>tblink_rpc::SVLaunchTypeConnectLoopback</scope><name>newLaunchParams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

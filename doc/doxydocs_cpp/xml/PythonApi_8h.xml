@@ -56,13 +56,44 @@
 <codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>PyImport_ImportModule_f(name.c_str());</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/>(*Py_Initialize_f)();</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*(*PyImport_ImportModule_f)(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name);</highlight></codeline>
-<codeline lineno="31"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal">}<sp/></highlight><highlight class="comment">/*<sp/>namespace<sp/>tblink_rpc_core<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*PyList_New()<sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>PyList_New_f(0);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*PyObject_GetAttrString(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*m,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;name)<sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>PyObject_GetAttrString_f(m,<sp/>name.c_str());</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*PyObject_CallObject(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*c,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*a)<sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>PyObject_CallObject_f(c,<sp/>a);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*PyTuple_New(uint32_t<sp/>sz)<sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>PyTuple_New_f(sz);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>PyTuple_SetItem(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*t,<sp/>uint32_t<sp/>i,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*o)<sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>PyTuple_SetItem_f(t,<sp/>i,<sp/>o);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*PyUnicode_FromString(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;s)<sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>PyUnicode_FromString_f(s.c_str());</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/>(*Py_Initialize_f)();</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*(*PyImport_ImportModule_f)(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*(*PyList_New_f)(int);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>int<sp/>(*PyList_Append_f)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*(*PyObject_CallObject_f)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*(*PyObject_GetAttrString_f)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*(*PyTuple_New_f)(uint32_t);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>int<sp/>(*PyTuple_SetItem_f)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*,<sp/>uint32_t,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*(*PyUnicode_FromString_f)(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal">}<sp/></highlight><highlight class="comment">/*<sp/>namespace<sp/>tblink_rpc_core<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.h"/>
   </compounddef>

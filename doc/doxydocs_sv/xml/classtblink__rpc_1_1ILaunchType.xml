@@ -3,6 +3,7 @@
   <compounddef id="classtblink__rpc_1_1ILaunchType" kind="class" language="C++" prot="public">
     <compoundname>tblink_rpc::ILaunchType</compoundname>
     <derivedcompoundref refid="classtblink__rpc_1_1DpiLaunchType" prot="public" virt="non-virtual">tblink_rpc::DpiLaunchType</derivedcompoundref>
+    <derivedcompoundref refid="classtblink__rpc_1_1SVLaunchTypeConnectLoopback" prot="public" virt="non-virtual">tblink_rpc::SVLaunchTypeConnectLoopback</derivedcompoundref>
     <derivedcompoundref refid="classtblink__rpc_1_1SVLaunchTypeLoopback" prot="public" virt="non-virtual">tblink_rpc::SVLaunchTypeLoopback</derivedcompoundref>
     <derivedcompoundref refid="classtblink__rpc_1_1SVLaunchTypeNativeLoopbackDpi" prot="public" virt="non-virtual">tblink_rpc::SVLaunchTypeNativeLoopbackDpi</derivedcompoundref>
       <sectiondef kind="public-func">
@@ -11,6 +12,7 @@
         <definition>virtual string tblink_rpc::ILaunchType::name</definition>
         <argsstring>()</argsstring>
         <name>name</name>
+        <reimplementedby refid="classtblink__rpc_1_1SVLaunchTypeConnectLoopback_1a118705562a96c9caadfaa1753eb5bedf">name</reimplementedby>
         <reimplementedby refid="classtblink__rpc_1_1SVLaunchTypeLoopback_1a5b0f2311405c3968e0fbc808f2977497">name</reimplementedby>
         <reimplementedby refid="classtblink__rpc_1_1SVLaunchTypeNativeLoopbackDpi_1a20b3d24cc7a8de89e97e5a88c751db3a">name</reimplementedby>
         <briefdescription>
@@ -19,7 +21,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1444" column="17" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1444" bodyend="1446"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1653" column="17" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1653" bodyend="1655"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc_1_1ILaunchType_1ae46f939cdb7c6c0ec9f0b17be65d47cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type><ref refid="classtblink__rpc_1_1IEndpoint" kindref="compound">IEndpoint</ref></type>
@@ -27,6 +29,7 @@
         <argsstring>(input ILaunchParams params, input IEndpointServices services, output string errmsg)</argsstring>
         <name>launch</name>
         <reimplementedby refid="classtblink__rpc_1_1DpiLaunchType_1ae5650428f9b6bc43ca6ab45ced98f979">launch</reimplementedby>
+        <reimplementedby refid="classtblink__rpc_1_1SVLaunchTypeConnectLoopback_1a97449d3404ee3bc3de75292e1bf33505">launch</reimplementedby>
         <reimplementedby refid="classtblink__rpc_1_1SVLaunchTypeLoopback_1a752e6b178156a315e18f4eed84db6b9d">launch</reimplementedby>
         <reimplementedby refid="classtblink__rpc_1_1SVLaunchTypeNativeLoopbackDpi_1a58179571fd1b1a64581b4acf2dae7c05">launch</reimplementedby>
         <param>
@@ -47,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1448" column="20" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1448" bodyend="1453"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1657" column="20" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1657" bodyend="1662"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc_1_1ILaunchType_1aa2c93de73e8002701108ba6a6ed5cc6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type><ref refid="classtblink__rpc_1_1ILaunchParams" kindref="compound">ILaunchParams</ref></type>
@@ -55,6 +58,7 @@
         <argsstring>()</argsstring>
         <name>newLaunchParams</name>
         <reimplementedby refid="classtblink__rpc_1_1DpiLaunchType_1a733451c02bf3045664b0cefa0cbc5eb1">newLaunchParams</reimplementedby>
+        <reimplementedby refid="classtblink__rpc_1_1SVLaunchTypeConnectLoopback_1aa87776c0996757edea0261221986d87d">newLaunchParams</reimplementedby>
         <reimplementedby refid="classtblink__rpc_1_1SVLaunchTypeLoopback_1a33f88d7220fba67f583d2a867cd23d1a">newLaunchParams</reimplementedby>
         <reimplementedby refid="classtblink__rpc_1_1SVLaunchTypeNativeLoopbackDpi_1ad6135f4f435fea28617f36c6e3362d48">newLaunchParams</reimplementedby>
         <briefdescription>
@@ -63,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1455" column="24" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1455" bodyend="1457"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1664" column="24" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1664" bodyend="1666"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -77,13 +81,19 @@
         <label>tblink_rpc::ILaunchType</label>
         <link refid="classtblink__rpc_1_1ILaunchType"/>
       </node>
-      <node id="4">
+      <node id="3">
+        <label>tblink_rpc::SVLaunchTypeConnectLoopback</label>
+        <link refid="classtblink__rpc_1_1SVLaunchTypeConnectLoopback"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
         <label>tblink_rpc::SVLaunchTypeNativeLoopbackDpi</label>
         <link refid="classtblink__rpc_1_1SVLaunchTypeNativeLoopbackDpi"/>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="3">
+      <node id="4">
         <label>tblink_rpc::SVLaunchTypeLoopback</label>
         <link refid="classtblink__rpc_1_1SVLaunchTypeLoopback"/>
         <childnode refid="1" relation="public-inheritance">
@@ -96,7 +106,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1440" column="18" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1440" bodyend="1458"/>
+    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1649" column="18" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1649" bodyend="1667"/>
     <listofallmembers>
       <member refid="classtblink__rpc_1_1ILaunchType_1ae46f939cdb7c6c0ec9f0b17be65d47cb" prot="public" virt="virtual"><scope>tblink_rpc::ILaunchType</scope><name>launch</name></member>
       <member refid="classtblink__rpc_1_1ILaunchType_1a2e44155090416fcac2c78328a6726e36" prot="public" virt="virtual"><scope>tblink_rpc::ILaunchType</scope><name>name</name></member>

@@ -27,8 +27,8 @@
         <reimplementedby refid="classtblink__rpc__core_1_1EndpointMsgTransport_1a69b663d4fc7e70962d5ac863fcaba21a">mkValBool</reimplementedby>
         <reimplementedby refid="classtblink__rpc__core_1_1TransportJsonSocket_1ae69400480504dd7b8ee5a058b2f58d7a">mkValBool</reimplementedby>
         <reimplementedby refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1ae681cbeef7037ceda7db8b6ad8fc78e3">mkValBool</reimplementedby>
-        <reimplementedby refid="classtblink__rpc__core_1_1EndpointBase_1a5509d2c4c6fcbdfb2dec202f3013d090">mkValBool</reimplementedby>
         <reimplementedby refid="classtblink__rpc__core_1_1InterfaceInstBase_1a711b96fc59f9ea3a9fbef0a991e75c42">mkValBool</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1EndpointBase_1a5509d2c4c6fcbdfb2dec202f3013d090">mkValBool</reimplementedby>
         <reimplementedby refid="classtblink__rpc__core_1_1EndpointMsgBase_1ad4abcac75c446362272609820100f951">mkValBool</reimplementedby>
         <param>
           <type>bool</type>
@@ -50,8 +50,8 @@
         <reimplementedby refid="classtblink__rpc__core_1_1EndpointMsgTransport_1a8d4217aa28d47bdac9a41d57ad9fd8dd">mkValIntU</reimplementedby>
         <reimplementedby refid="classtblink__rpc__core_1_1TransportJsonSocket_1ab95b460581b7869d3f673741db74810c">mkValIntU</reimplementedby>
         <reimplementedby refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1a303812a9f1e809fe480f81a0e8de33f2">mkValIntU</reimplementedby>
-        <reimplementedby refid="classtblink__rpc__core_1_1EndpointBase_1a4690f7d749dde72417af55605936e9d5">mkValIntU</reimplementedby>
         <reimplementedby refid="classtblink__rpc__core_1_1InterfaceInstBase_1ae0b89b3d63c6badfa0c313986807d8db">mkValIntU</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1EndpointBase_1a4690f7d749dde72417af55605936e9d5">mkValIntU</reimplementedby>
         <reimplementedby refid="classtblink__rpc__core_1_1EndpointMsgBase_1a68e3dad1519e7ce5577b1af75989d42c">mkValIntU</reimplementedby>
         <param>
           <type>uint64_t</type>
@@ -77,8 +77,8 @@
         <reimplementedby refid="classtblink__rpc__core_1_1EndpointMsgTransport_1a4fdbea6bf179e274bab96b2563f9c292">mkValIntS</reimplementedby>
         <reimplementedby refid="classtblink__rpc__core_1_1TransportJsonSocket_1a891c70537ab046e70c5db621cf8d4189">mkValIntS</reimplementedby>
         <reimplementedby refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1a3f46efbec71b100d266610ea0f72865c">mkValIntS</reimplementedby>
-        <reimplementedby refid="classtblink__rpc__core_1_1EndpointBase_1a67e7e0f725778797414a536621701e79">mkValIntS</reimplementedby>
         <reimplementedby refid="classtblink__rpc__core_1_1InterfaceInstBase_1a43d19c32a2c6c956e82516a8e0ab356e">mkValIntS</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1EndpointBase_1a67e7e0f725778797414a536621701e79">mkValIntS</reimplementedby>
         <reimplementedby refid="classtblink__rpc__core_1_1EndpointMsgBase_1a4125301118fecebd83f37f60763b3868">mkValIntS</reimplementedby>
         <param>
           <type>int64_t</type>
@@ -104,8 +104,8 @@
         <reimplementedby refid="classtblink__rpc__core_1_1EndpointMsgTransport_1ab94f94d54fb2a5e0b71432bcd33304e0">mkValMap</reimplementedby>
         <reimplementedby refid="classtblink__rpc__core_1_1TransportJsonSocket_1aacd4eb51a7321e255d36ad8060e84430">mkValMap</reimplementedby>
         <reimplementedby refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1a215e88e18c92ac55b6aa5199f1d076bf">mkValMap</reimplementedby>
-        <reimplementedby refid="classtblink__rpc__core_1_1EndpointBase_1a304f411577df08042eb16e2106c08d8d">mkValMap</reimplementedby>
         <reimplementedby refid="classtblink__rpc__core_1_1InterfaceInstBase_1a602ad375222cdf0865c1a5e2e3a24c8b">mkValMap</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1EndpointBase_1a304f411577df08042eb16e2106c08d8d">mkValMap</reimplementedby>
         <reimplementedby refid="classtblink__rpc__core_1_1EndpointMsgBase_1a6f1833785c7a19594f3aaf220faa4434">mkValMap</reimplementedby>
         <briefdescription>
         </briefdescription>
@@ -123,8 +123,8 @@
         <reimplementedby refid="classtblink__rpc__core_1_1EndpointMsgTransport_1a8488aff8e1b54b02a5142d74bc1bfe77">mkValStr</reimplementedby>
         <reimplementedby refid="classtblink__rpc__core_1_1TransportJsonSocket_1ac09e3bdb9604760429b396783c5cfe7f">mkValStr</reimplementedby>
         <reimplementedby refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1affa53b96ad477625982961755c0ab37a">mkValStr</reimplementedby>
-        <reimplementedby refid="classtblink__rpc__core_1_1EndpointBase_1ae1be8b5e674f1ea89948ace49af4e9ba">mkValStr</reimplementedby>
         <reimplementedby refid="classtblink__rpc__core_1_1InterfaceInstBase_1a739444c39f2d78866281fe55e2dac354">mkValStr</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1EndpointBase_1ae1be8b5e674f1ea89948ace49af4e9ba">mkValStr</reimplementedby>
         <reimplementedby refid="classtblink__rpc__core_1_1EndpointMsgBase_1a38189594eda93ffc428282916cdf5e6f">mkValStr</reimplementedby>
         <param>
           <type>const std::string &amp;</type>
@@ -146,8 +146,8 @@
         <reimplementedby refid="classtblink__rpc__core_1_1EndpointMsgTransport_1a11173bff86c1f38b0c61d71b7b637faa">mkValVec</reimplementedby>
         <reimplementedby refid="classtblink__rpc__core_1_1TransportJsonSocket_1ad297933f5ceff7f2dac38a4a3972d8ed">mkValVec</reimplementedby>
         <reimplementedby refid="classtblink__rpc__core_1_1TransportMessageFifoEP_1a10eb285d286461fec58d3d0fa162d8b7">mkValVec</reimplementedby>
-        <reimplementedby refid="classtblink__rpc__core_1_1EndpointBase_1a361c213e1cb0ccc47a5239551189ad1b">mkValVec</reimplementedby>
         <reimplementedby refid="classtblink__rpc__core_1_1InterfaceInstBase_1aa490e1b61adc3619f3dd9d12d06ce2e0">mkValVec</reimplementedby>
+        <reimplementedby refid="classtblink__rpc__core_1_1EndpointBase_1a361c213e1cb0ccc47a5239551189ad1b">mkValVec</reimplementedby>
         <reimplementedby refid="classtblink__rpc__core_1_1EndpointMsgBase_1a85d08894d6164fe927d0303de9602de6">mkValVec</reimplementedby>
         <briefdescription>
         </briefdescription>

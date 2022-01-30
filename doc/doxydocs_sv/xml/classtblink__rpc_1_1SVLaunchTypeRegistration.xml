@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5948" column="13" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5948" bodyend="5955"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6503" column="13" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6503" bodyend="6510"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -29,7 +29,7 @@
 <para>Class: <ref refid="classtblink__rpc_1_1SVLaunchTypeRegistration" kindref="compound">SVLaunchTypeRegistration</ref></para>
 <para>TODO: Add class documentation </para>
     </detaileddescription>
-    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5945" column="44" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5945" bodyend="5958"/>
+    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6500" column="44" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6500" bodyend="6513"/>
     <listofallmembers>
       <member refid="classtblink__rpc_1_1SVLaunchTypeRegistration_1a78fadc37d670e3ea7ff26515bf405676" prot="public" virt="non-virtual"><scope>tblink_rpc::SVLaunchTypeRegistration</scope><name>register</name></member>
     </listofallmembers>

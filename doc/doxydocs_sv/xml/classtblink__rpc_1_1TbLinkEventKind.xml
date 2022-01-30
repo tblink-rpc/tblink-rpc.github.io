@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc_1_1TbLinkEventKind" kind="class" language="C++" prot="public">
+    <compoundname>tblink_rpc::TbLinkEventKind</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classtblink__rpc_1_1TbLinkEventKind_1a4e3f9d5257ed4627da88c6bc60b12a8c" prot="public" static="no" strong="no">
+        <type></type>
+        <name>_t</name>
+        <enumvalue id="classtblink__rpc_1_1TbLinkEventKind_1a4e3f9d5257ed4627da88c6bc60b12a8ca65bda9da6ac0388fddcf2a7eb35308a4" prot="public">
+          <name>AddEndpoint</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classtblink__rpc_1_1TbLinkEventKind_1a4e3f9d5257ed4627da88c6bc60b12a8ca7f2b56c284d78f5f7e9fe68304b6324d" prot="public">
+          <name>RemEndpoint</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1694" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1694" bodyend="1697"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1691" column="22" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1691" bodyend="1696"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc_1_1TbLinkEventKind_1a4e3f9d5257ed4627da88c6bc60b12a8c" prot="public" virt="non-virtual"><scope>tblink_rpc::TbLinkEventKind</scope><name>_t</name></member>
+      <member refid="classtblink__rpc_1_1TbLinkEventKind_1a4e3f9d5257ed4627da88c6bc60b12a8ca65bda9da6ac0388fddcf2a7eb35308a4" prot="public" virt="non-virtual"><scope>tblink_rpc::TbLinkEventKind</scope><name>AddEndpoint</name></member>
+      <member refid="classtblink__rpc_1_1TbLinkEventKind_1a4e3f9d5257ed4627da88c6bc60b12a8ca7f2b56c284d78f5f7e9fe68304b6324d" prot="public" virt="non-virtual"><scope>tblink_rpc::TbLinkEventKind</scope><name>RemEndpoint</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

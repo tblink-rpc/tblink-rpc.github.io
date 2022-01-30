@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypePythonLoopback.h" line="15" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypePythonLoopback.cpp" bodystart="37" bodyend="40"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypePythonLoopback.h" line="15" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypePythonLoopback.cpp" bodystart="41" bodyend="44"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1LaunchTypePythonLoopback_1a397c9fbf36c028ad49a4417c07ff7852" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type></type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypePythonLoopback.h" line="17" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypePythonLoopback.cpp" bodystart="42" bodyend="44"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypePythonLoopback.h" line="17" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypePythonLoopback.cpp" bodystart="46" bodyend="48"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1LaunchTypePythonLoopback_1a96706ef9f41d54069b4bacb7ade2a444" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>std::string</type>
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypePythonLoopback.h" line="31" column="18" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypePythonLoopback.cpp" bodystart="46" bodyend="86"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypePythonLoopback.h" line="31" column="18" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypePythonLoopback.cpp" bodystart="50" bodyend="122"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1LaunchTypePythonLoopback_1ab1b7517c50cac48f32d3510cc99e656f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type><ref refid="classtblink__rpc__core_1_1ILaunchParams" kindref="compound">ILaunchParams</ref> *</type>
@@ -80,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypePythonLoopback.h" line="38" column="23" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypePythonLoopback.cpp" bodystart="91" bodyend="93"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypePythonLoopback.h" line="38" column="23" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypePythonLoopback.cpp" bodystart="127" bodyend="129"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -107,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypePythonLoopback.h" line="42" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypePythonLoopback.cpp" bodystart="95" bodyend="178"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypePythonLoopback.h" line="42" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypePythonLoopback.cpp" bodystart="131" bodyend="214"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

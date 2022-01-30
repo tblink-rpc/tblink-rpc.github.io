@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc__core_1_1ITbLinkListener" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>tblink_rpc_core::ITbLinkListener</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc__core_1_1ITbLinkListener_1a6360c8b9d20637f30478faeee55e3fff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual tblink_rpc_core::ITbLinkListener::~ITbLinkListener</definition>
+        <argsstring>()</argsstring>
+        <name>~ITbLinkListener</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ITbLinkListener.h" line="19" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ITbLinkListener.h" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1ITbLinkListener_1ada6e01cbfd1d30f692747e78cc4285de" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void tblink_rpc_core::ITbLinkListener::notify</definition>
+        <argsstring>(const ITbLinkEvent *)=0</argsstring>
+        <name>notify</name>
+        <param>
+          <type>const <ref refid="classtblink__rpc__core_1_1ITbLinkEvent" kindref="compound">ITbLinkEvent</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ITbLinkListener.h" line="21" column="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ITbLinkListener.h" line="16" column="22" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ITbLinkListener.h" bodystart="16" bodyend="23"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc__core_1_1ITbLinkListener_1ada6e01cbfd1d30f692747e78cc4285de" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::ITbLinkListener</scope><name>notify</name></member>
+      <member refid="classtblink__rpc__core_1_1ITbLinkListener_1a6360c8b9d20637f30478faeee55e3fff" prot="public" virt="virtual"><scope>tblink_rpc_core::ITbLinkListener</scope><name>~ITbLinkListener</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

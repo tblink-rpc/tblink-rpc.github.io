@@ -11,7 +11,6 @@
     <includedby refid="TransportJsonSocket_8h" local="yes">/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportJsonSocket.h</includedby>
     <includedby refid="TransportMessageFifo_8h" local="yes">/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifo.h</includedby>
     <includedby refid="TransportMessageFifoEP_8h" local="yes">/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifoEP.h</includedby>
-    <includedby refid="ITbLink_8h" local="yes">/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ITbLink.h</includedby>
     <incdepgraph>
       <node id="10">
         <label>tblink_rpc/IParamValBool.h</label>
@@ -105,26 +104,12 @@
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifo.h</label>
         <link refid="TransportMessageFifo_8h_source"/>
       </node>
-      <node id="9">
-        <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeRegistration.h</label>
-        <link refid="LaunchTypeRegistration_8h_source"/>
-      </node>
       <node id="5">
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifoEP.h</label>
         <link refid="TransportMessageFifoEP_8h_source"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
-        </childnode>
-      </node>
-      <node id="7">
-        <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ITbLink.h</label>
-        <link refid="ITbLink_8h_source"/>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -138,26 +123,10 @@
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-      </node>
-      <node id="11">
-        <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/tblink_rpc.h</label>
-        <link refid="tblink__rpc_8h_source"/>
       </node>
       <node id="2">
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgTransport.h</label>
         <link refid="EndpointMsgTransport_8h_source"/>
-      </node>
-      <node id="10">
-        <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/loader.h</label>
-        <link refid="loader_8h_source"/>
-      </node>
-      <node id="8">
-        <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TbLink.h</label>
-        <link refid="TbLink_8h_source"/>
-        <childnode refid="9" relation="include">
-        </childnode>
       </node>
     </invincdepgraph>
     <innerclass refid="classtblink__rpc__core_1_1ITransport" prot="public">tblink_rpc_core::ITransport</innerclass>

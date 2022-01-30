@@ -15,7 +15,20 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5572" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5572" bodyend="-1"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6002" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6002" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtblink__rpc_1_1SVEndpointServices_1adf427e156ac3e8c321612b3f339b6e30" prot="public" static="no" mutable="no">
+        <type><ref refid="classtblink__rpc_1_1SVEndpointServicesTimedCB" kindref="compound">SVEndpointServicesTimedCB</ref></type>
+        <definition>SVEndpointServicesTimedCB tblink_rpc::SVEndpointServices::m_cb_m[longint]</definition>
+        <argsstring>[longint]</argsstring>
+        <name>m_cb_m</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6003" column="26" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6003" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -30,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5575" column="2" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5575" bodyend="5576"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6006" column="2" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6006" bodyend="6007"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc_1_1SVEndpointServices_1aeb2865fa6fec34c233cd5943fa56bae7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -48,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5579" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5579" bodyend="5581"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6010" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6010" bodyend="6012"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc_1_1SVEndpointServices_1a5bfac8eac64e51f2e11c6141e5b67a2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type></type>
@@ -67,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5583" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5583" bodyend="5585"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6014" column="10" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6014" bodyend="6016"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc_1_1SVEndpointServices_1a549ba33ed94b93f180238f52efde2bf4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -81,7 +94,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5587" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5587" bodyend="5588"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6018" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6018" bodyend="6019"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc_1_1SVEndpointServices_1a8883d045af9e54031274759335866f7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>int</type>
@@ -103,7 +116,24 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5590" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5590" bodyend="5596"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6021" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6021" bodyend="6029"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1SVEndpointServices_1a4d0a5945917712c6c42c11e55a4e2d49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void tblink_rpc::SVEndpointServices::notify_time_cb</definition>
+        <argsstring>(longint callback_id)</argsstring>
+        <name>notify_time_cb</name>
+        <param>
+          <type>longint</type>
+          <declname>callback_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6031" column="7" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6031" bodyend="6036"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc_1_1SVEndpointServices_1a3f576528282331d7e25b48e2ec263b43" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -121,7 +151,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5598" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5598" bodyend="5602"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6038" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6038" bodyend="6043"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc_1_1SVEndpointServices_1abc60aa88f5333942ab54d0c0ae046c09" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>longint unsigned</type>
@@ -135,7 +165,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5604" column="27" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5604" bodyend="5606"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6045" column="27" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6045" bodyend="6047"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc_1_1SVEndpointServices_1a9607b67a6721eb08c5d6e6c7b16d7e21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>int</type>
@@ -149,7 +179,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5608" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5608" bodyend="5611"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6049" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6049" bodyend="6052"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc_1_1SVEndpointServices_1ae34b28606c5e9a9f47cd18694d5af243" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -163,7 +193,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5613" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5613" bodyend="5614"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6054" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6054" bodyend="6055"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc_1_1SVEndpointServices_1a238262f4641ccca3aeb98ced6228ff4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -177,7 +207,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5616" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5616" bodyend="5617"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6057" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6057" bodyend="6058"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc_1_1SVEndpointServices_1a94dc940cffd9f7f4f90dfcfa211d9984" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -191,7 +221,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5619" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5619" bodyend="5620"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6060" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6060" bodyend="6061"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -219,19 +249,38 @@
         <childnode refid="2" relation="public-inheritance">
         </childnode>
         <childnode refid="3" relation="usage">
+          <edgelabel>m_cb_m</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
           <edgelabel>m_ep</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tblink_rpc::SVEndpointServicesTimedCB</label>
+        <link refid="classtblink__rpc_1_1SVEndpointServicesTimedCB"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>m_services</edgelabel>
         </childnode>
       </node>
       <node id="2">
         <label>tblink_rpc::IEndpointServices</label>
         <link refid="classtblink__rpc_1_1IEndpointServices"/>
       </node>
-      <node id="3">
+      <node id="4">
+        <label>tblink_rpc::TbLinkThread</label>
+        <link refid="classtblink__rpc_1_1TbLinkThread"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>m_next</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
         <label>tblink_rpc::IEndpoint</label>
         <link refid="classtblink__rpc_1_1IEndpoint"/>
       </node>
     </collaborationgraph>
-    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5571" column="50" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5571" bodyend="5623"/>
+    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6001" column="50" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6001" bodyend="6064"/>
     <listofallmembers>
       <member refid="classtblink__rpc_1_1SVEndpointServices_1a8883d045af9e54031274759335866f7f" prot="public" virt="virtual"><scope>tblink_rpc::SVEndpointServices</scope><name>add_time_cb</name></member>
       <member refid="classtblink__rpc_1_1SVEndpointServices_1a5bfac8eac64e51f2e11c6141e5b67a2d" prot="public" virt="virtual"><scope>tblink_rpc::SVEndpointServices</scope><name>args</name></member>
@@ -240,8 +289,10 @@
       <member refid="classtblink__rpc_1_1SVEndpointServices_1a238262f4641ccca3aeb98ced6228ff4b" prot="public" virt="virtual"><scope>tblink_rpc::SVEndpointServices</scope><name>hit_event</name></member>
       <member refid="classtblink__rpc_1_1SVEndpointServices_1a94dc940cffd9f7f4f90dfcfa211d9984" prot="public" virt="virtual"><scope>tblink_rpc::SVEndpointServices</scope><name>idle</name></member>
       <member refid="classtblink__rpc_1_1SVEndpointServices_1aeb2865fa6fec34c233cd5943fa56bae7" prot="public" virt="virtual"><scope>tblink_rpc::SVEndpointServices</scope><name>init</name></member>
+      <member refid="classtblink__rpc_1_1SVEndpointServices_1adf427e156ac3e8c321612b3f339b6e30" prot="public" virt="non-virtual"><scope>tblink_rpc::SVEndpointServices</scope><name>m_cb_m</name></member>
       <member refid="classtblink__rpc_1_1SVEndpointServices_1a3616ea1348696ea9e9e6b2668526c40b" prot="public" virt="non-virtual"><scope>tblink_rpc::SVEndpointServices</scope><name>m_ep</name></member>
       <member refid="classtblink__rpc_1_1SVEndpointServices_1a7434cda39f36edd6561ad87f1bde7ffe" prot="public" virt="non-virtual"><scope>tblink_rpc::SVEndpointServices</scope><name>new</name></member>
+      <member refid="classtblink__rpc_1_1SVEndpointServices_1a4d0a5945917712c6c42c11e55a4e2d49" prot="public" virt="non-virtual"><scope>tblink_rpc::SVEndpointServices</scope><name>notify_time_cb</name></member>
       <member refid="classtblink__rpc_1_1SVEndpointServices_1ae34b28606c5e9a9f47cd18694d5af243" prot="public" virt="virtual"><scope>tblink_rpc::SVEndpointServices</scope><name>run_until_event</name></member>
       <member refid="classtblink__rpc_1_1SVEndpointServices_1a549ba33ed94b93f180238f52efde2bf4" prot="public" virt="virtual"><scope>tblink_rpc::SVEndpointServices</scope><name>shutdown</name></member>
       <member refid="classtblink__rpc_1_1SVEndpointServices_1a9607b67a6721eb08c5d6e6c7b16d7e21" prot="public" virt="virtual"><scope>tblink_rpc::SVEndpointServices</scope><name>time_precision</name></member>

@@ -6,26 +6,28 @@
     <includes refid="ISymFinder_8h" local="yes">tblink_rpc/ISymFinder.h</includes>
     <includes refid="TbLink_8h" local="yes">TbLink.h</includes>
     <incdepgraph>
-      <node id="15">
+      <node id="16">
         <label>tblink_rpc/IInterfaceInst.h</label>
         <link refid="IInterfaceInst_8h_source"/>
         <childnode refid="11" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
         <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
         <childnode refid="21" relation="include">
         </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
       </node>
-      <node id="23">
+      <node id="24">
         <label>tblink_rpc/IParamValBool.h</label>
         <link refid="IParamValBool_8h_source"/>
-        <childnode refid="22" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
       </node>
       <node id="11">
@@ -39,7 +41,7 @@
         <childnode refid="4" relation="include">
         </childnode>
       </node>
-      <node id="22">
+      <node id="23">
         <label>IParamVal.h</label>
         <link refid="IParamVal_8h_source"/>
         <childnode refid="6" relation="include">
@@ -48,10 +50,10 @@
       <node id="3">
         <label>stdint.h</label>
       </node>
-      <node id="37">
+      <node id="39">
         <label>tblink_rpc/ILaunchType.h</label>
         <link refid="ILaunchType_8h_source"/>
-        <childnode refid="36" relation="include">
+        <childnode refid="38" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
@@ -61,22 +63,22 @@
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="35" relation="include">
+        <childnode refid="37" relation="include">
         </childnode>
       </node>
-      <node id="17">
+      <node id="18">
         <label>IMethodType.h</label>
         <link refid="IMethodType_8h_source"/>
         <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
         <childnode refid="19" relation="include">
         </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
       </node>
-      <node id="34">
+      <node id="36">
         <label>tblink_rpc/IEndpointServicesFactory.h</label>
         <link refid="IEndpointServicesFactory_8h_source"/>
         <childnode refid="6" relation="include">
@@ -92,24 +94,32 @@
         <childnode refid="9" relation="include">
         </childnode>
       </node>
-      <node id="33">
+      <node id="35">
         <label>ITypeVec.h</label>
         <link refid="ITypeVec_8h_source"/>
-        <childnode refid="19" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
       </node>
       <node id="4">
         <label>string</label>
       </node>
-      <node id="36">
+      <node id="38">
         <label>map</label>
       </node>
-      <node id="25">
+      <node id="15">
+        <label>tblink_rpc/IInterfaceImpl.h</label>
+        <link refid="IInterfaceImpl_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
         <label>tblink_rpc/IParamValMap.h</label>
         <link refid="IParamValMap_8h_source"/>
-        <childnode refid="26" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
       </node>
       <node id="8">
@@ -121,40 +131,34 @@
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="34" relation="include">
-        </childnode>
-        <childnode refid="35" relation="include">
+        <childnode refid="36" relation="include">
         </childnode>
         <childnode refid="37" relation="include">
         </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="38" relation="include">
+        <childnode refid="40" relation="include">
         </childnode>
       </node>
-      <node id="38">
-        <label>tblink_rpc/ITransport.h</label>
-        <link refid="ITransport_8h_source"/>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="25" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
+      <node id="29">
+        <label>tblink_rpc/IInterfaceInstFactory.h</label>
+        <link refid="IInterfaceInstFactory_8h_source"/>
+        <childnode refid="4" relation="include">
         </childnode>
       </node>
-      <node id="19">
+      <node id="20">
         <label>tblink_rpc/IType.h</label>
         <link refid="IType_8h_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
         <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="39">
+      <node id="42">
         <label>DynSymFinder.h</label>
         <link refid="DynSymFinder_8h_source"/>
         <childnode refid="4" relation="include">
@@ -164,10 +168,10 @@
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="24">
+      <node id="25">
         <label>tblink_rpc/IParamValInt.h</label>
         <link refid="IParamValInt_8h_source"/>
-        <childnode refid="22" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
       </node>
       <node id="10">
@@ -185,50 +189,54 @@
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="28" relation="include">
-        </childnode>
-      </node>
-      <node id="28">
-        <label>tblink_rpc/IInterfaceTypeBuilder.h</label>
-        <link refid="IInterfaceTypeBuilder_8h_source"/>
-        <childnode refid="17" relation="include">
-        </childnode>
         <childnode refid="29" relation="include">
         </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
         <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>tblink_rpc/IInterfaceTypeBuilder.h</label>
+        <link refid="IInterfaceTypeBuilder_8h_source"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
         </childnode>
       </node>
       <node id="13">
         <label>tblink_rpc/IEndpointEvent.h</label>
         <link refid="IEndpointEvent_8h_source"/>
       </node>
-      <node id="21">
+      <node id="22">
         <label>IParamValVec.h</label>
         <link refid="IParamValVec_8h_source"/>
-        <childnode refid="22" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
       </node>
-      <node id="20">
+      <node id="21">
         <label>IParamValFactory.h</label>
         <link refid="IParamValFactory_8h_source"/>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="23" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
         <childnode refid="24" relation="include">
         </childnode>
         <childnode refid="25" relation="include">
         </childnode>
-        <childnode refid="27" relation="include">
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
         </childnode>
       </node>
       <node id="9">
         <label>vector</label>
       </node>
-      <node id="27">
+      <node id="28">
         <label>tblink_rpc/IParamValStr.h</label>
         <link refid="IParamValStr_8h_source"/>
-        <childnode refid="22" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
       </node>
       <node id="12">
@@ -241,10 +249,10 @@
         <childnode refid="13" relation="include">
         </childnode>
       </node>
-      <node id="35">
+      <node id="37">
         <label>tblink_rpc/ILaunchParams.h</label>
         <link refid="ILaunchParams_8h_source"/>
-        <childnode refid="36" relation="include">
+        <childnode refid="38" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
@@ -269,7 +277,19 @@
         <childnode refid="4" relation="include">
         </childnode>
       </node>
-      <node id="26">
+      <node id="40">
+        <label>tblink_rpc/ITbLinkListener.h</label>
+        <link refid="ITbLinkListener_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>tblink_rpc/ITbLinkEvent.h</label>
+        <link refid="ITbLinkEvent_8h_source"/>
+      </node>
+      <node id="27">
         <label>set</label>
       </node>
       <node id="7">
@@ -279,58 +299,58 @@
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="37" relation="include">
-        </childnode>
         <childnode refid="39" relation="include">
         </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
       </node>
-      <node id="30">
+      <node id="32">
         <label>ITypeFactory.h</label>
         <link refid="ITypeFactory_8h_source"/>
-        <childnode refid="31" relation="include">
-        </childnode>
-        <childnode refid="32" relation="include">
-        </childnode>
         <childnode refid="33" relation="include">
         </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
       </node>
-      <node id="18">
+      <node id="19">
         <label>tblink_rpc/IParamDecl.h</label>
         <link refid="IParamDecl_8h_source"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
       </node>
-      <node id="29">
+      <node id="31">
         <label>IMethodTypeBuilder.h</label>
         <link refid="IMethodTypeBuilder_8h_source"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
       </node>
       <node id="6">
         <label>memory</label>
       </node>
-      <node id="16">
+      <node id="17">
         <label>IInterfaceType.h</label>
         <link refid="IInterfaceType_8h_source"/>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
       </node>
-      <node id="31">
+      <node id="33">
         <label>ITypeInt.h</label>
         <link refid="ITypeInt_8h_source"/>
-        <childnode refid="19" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
       </node>
-      <node id="32">
+      <node id="34">
         <label>ITypeMap.h</label>
         <link refid="ITypeMap_8h_source"/>
-        <childnode refid="19" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -368,20 +388,35 @@
 <codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>ISymFinder::result_t<sp/>lib_r<sp/>=<sp/>tblink-&gt;load_library(pylib);</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>ISymFinder<sp/>*lib<sp/>=<sp/>lib_r.first.get();</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>Py_Initialize_f<sp/>=<sp/>lib-&gt;findSymT&lt;void<sp/>(*)()&gt;(</highlight><highlight class="stringliteral">&quot;Py_Initialize&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!Py_Initialize_f)<sp/>{</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">fm_t<sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>**fp_p;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*fn;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>PyImport_ImportModule_f<sp/>=<sp/>lib-&gt;findSymT&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*(*)(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*)&gt;(</highlight><highlight class="stringliteral">&quot;PyImport_ImportModule&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!PyImport_ImportModule_f)<sp/>{</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
-<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42"><highlight class="normal">}<sp/></highlight><highlight class="comment">/*<sp/>namespace<sp/>tblink_rpc_core<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>fm_t<sp/>func_t[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>**)&amp;Py_Initialize_f,<sp/></highlight><highlight class="stringliteral">&quot;Py_Initialize&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>**)&amp;PyImport_ImportModule_f,<sp/></highlight><highlight class="stringliteral">&quot;PyImport_ImportModule&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>**)&amp;PyList_New_f,<sp/></highlight><highlight class="stringliteral">&quot;PyList_New&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>**)&amp;PyObject_CallObject_f,<sp/></highlight><highlight class="stringliteral">&quot;PyObject_CallObject&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>**)&amp;PyObject_GetAttrString_f,<sp/></highlight><highlight class="stringliteral">&quot;PyObject_GetAttrString&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>**)&amp;PyTuple_New_f,<sp/></highlight><highlight class="stringliteral">&quot;PyTuple_New&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>**)&amp;PyTuple_SetItem_f,<sp/></highlight><highlight class="stringliteral">&quot;PyTuple_SetItem&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>**)&amp;PyUnicode_FromString_f,<sp/></highlight><highlight class="stringliteral">&quot;PyUnicode_FromString&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(uint32_t<sp/>i=0;<sp/>i&lt;</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(func_t)/</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(fm_t);<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*(func_t[i].fp_p)<sp/>=<sp/>lib-&gt;findSym(func_t[i].fn);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!*func_t[i].fp_p)<sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stdout,<sp/></highlight><highlight class="stringliteral">&quot;Error:<sp/>Failed<sp/>to<sp/>find<sp/>%s\n&quot;</highlight><highlight class="normal">,<sp/>func_t[i].fn);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal">}<sp/></highlight><highlight class="comment">/*<sp/>namespace<sp/>tblink_rpc_core<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/PythonApi.cpp"/>
   </compounddef>

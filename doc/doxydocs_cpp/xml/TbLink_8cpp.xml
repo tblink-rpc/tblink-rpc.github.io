@@ -13,47 +13,50 @@
     <includes refid="DynLibSymFinder_8h" local="yes">DynLibSymFinder.h</includes>
     <includes refid="EndpointMsgBase_8h" local="yes">EndpointMsgBase.h</includes>
     <includes refid="LaunchParams_8h" local="yes">LaunchParams.h</includes>
+    <includes refid="TbLinkEvent_8h" local="yes">TbLinkEvent.h</includes>
     <includes refid="TransportJsonSocket_8h" local="yes">TransportJsonSocket.h</includes>
     <incdepgraph>
-      <node id="43">
+      <node id="46">
         <label>sys/stat.h</label>
       </node>
-      <node id="13">
+      <node id="14">
         <label>tblink_rpc/IInterfaceInst.h</label>
         <link refid="IInterfaceInst_8h_source"/>
         <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
         <childnode refid="19" relation="include">
         </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
       </node>
-      <node id="21">
+      <node id="22">
         <label>tblink_rpc/IParamValBool.h</label>
         <link refid="IParamValBool_8h_source"/>
-        <childnode refid="20" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
       </node>
       <node id="7">
         <label>functional</label>
       </node>
-      <node id="49">
+      <node id="52">
         <label>InterfaceInstBase.h</label>
         <link refid="InterfaceInstBase_8h_source"/>
-        <childnode refid="47" relation="include">
+        <childnode refid="50" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
       </node>
-      <node id="36">
+      <node id="38">
         <label>tblink_rpc/ISymFinder.h</label>
         <link refid="ISymFinder_8h_source"/>
         <childnode refid="3" relation="include">
@@ -61,7 +64,7 @@
         <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="20">
+      <node id="21">
         <label>IParamVal.h</label>
         <link refid="IParamVal_8h_source"/>
         <childnode refid="3" relation="include">
@@ -70,10 +73,10 @@
       <node id="12">
         <label>stdint.h</label>
       </node>
-      <node id="35">
+      <node id="37">
         <label>tblink_rpc/ILaunchType.h</label>
         <link refid="ILaunchType_8h_source"/>
-        <childnode refid="34" relation="include">
+        <childnode refid="36" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
@@ -83,44 +86,44 @@
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="33" relation="include">
+        <childnode refid="35" relation="include">
         </childnode>
       </node>
-      <node id="15">
+      <node id="16">
         <label>IMethodType.h</label>
         <link refid="IMethodType_8h_source"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
         <childnode refid="17" relation="include">
         </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
       </node>
-      <node id="53">
+      <node id="57">
         <label>TransportJsonSocket.h</label>
         <link refid="TransportJsonSocket_8h_source"/>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="37" relation="include">
+        <childnode refid="58" relation="include">
         </childnode>
-        <childnode refid="54" relation="include">
+        <childnode refid="59" relation="include">
         </childnode>
       </node>
-      <node id="52">
+      <node id="55">
         <label>LaunchParams.h</label>
         <link refid="LaunchParams_8h_source"/>
-        <childnode refid="34" relation="include">
+        <childnode refid="36" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="33" relation="include">
+        <childnode refid="35" relation="include">
         </childnode>
       </node>
-      <node id="32">
+      <node id="34">
         <label>tblink_rpc/IEndpointServicesFactory.h</label>
         <link refid="IEndpointServicesFactory_8h_source"/>
         <childnode refid="3" relation="include">
@@ -136,13 +139,13 @@
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="55">
+      <node id="60">
         <label>nlohmann/json_fwd.hpp</label>
       </node>
-      <node id="31">
+      <node id="33">
         <label>ITypeVec.h</label>
         <link refid="ITypeVec_8h_source"/>
-        <childnode refid="17" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -150,17 +153,11 @@
         <link refid="TbLink_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="39" relation="include">
-        </childnode>
-        <childnode refid="40" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="41" relation="include">
-        </childnode>
         <childnode refid="42" relation="include">
         </childnode>
         <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="44" relation="include">
         </childnode>
@@ -168,38 +165,60 @@
         </childnode>
         <childnode refid="46" relation="include">
         </childnode>
-        <childnode refid="52" relation="include">
+        <childnode refid="47" relation="include">
         </childnode>
-        <childnode refid="53" relation="include">
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
         </childnode>
       </node>
       <node id="8">
         <label>string</label>
       </node>
-      <node id="34">
+      <node id="36">
         <label>map</label>
       </node>
-      <node id="41">
+      <node id="44">
         <label>unordered_set</label>
       </node>
-      <node id="50">
+      <node id="53">
         <label>InterfaceType.h</label>
         <link refid="InterfaceType_8h_source"/>
-        <childnode refid="34" relation="include">
+        <childnode refid="36" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
         <childnode refid="15" relation="include">
         </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
       </node>
-      <node id="23">
+      <node id="13">
+        <label>tblink_rpc/IInterfaceImpl.h</label>
+        <link refid="IInterfaceImpl_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="56">
+        <label>TbLinkEvent.h</label>
+        <link refid="TbLinkEvent_8h_source"/>
+        <childnode refid="40" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
         <label>tblink_rpc/IParamValMap.h</label>
         <link refid="IParamValMap_8h_source"/>
-        <childnode refid="24" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
       </node>
       <node id="4">
@@ -211,80 +230,88 @@
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="32" relation="include">
-        </childnode>
-        <childnode refid="33" relation="include">
+        <childnode refid="34" relation="include">
         </childnode>
         <childnode refid="35" relation="include">
         </childnode>
-        <childnode refid="36" relation="include">
-        </childnode>
         <childnode refid="37" relation="include">
         </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
       </node>
-      <node id="37">
+      <node id="58">
         <label>tblink_rpc/ITransport.h</label>
         <link refid="ITransport_8h_source"/>
         <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
         <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="23" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
+      </node>
+      <node id="27">
+        <label>tblink_rpc/IInterfaceInstFactory.h</label>
+        <link refid="IInterfaceInstFactory_8h_source"/>
+        <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="17">
+      <node id="18">
         <label>tblink_rpc/IType.h</label>
         <link refid="IType_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
       </node>
-      <node id="46">
+      <node id="49">
         <label>EndpointMsgBase.h</label>
         <link refid="EndpointMsgBase_8h_source"/>
-        <childnode refid="34" relation="include">
-        </childnode>
-        <childnode refid="47" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="48" relation="include">
+        <childnode refid="36" relation="include">
         </childnode>
         <childnode refid="50" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="51" relation="include">
+        <childnode refid="54" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
       </node>
-      <node id="38">
+      <node id="41">
         <label>DynSymFinder.h</label>
         <link refid="DynSymFinder_8h_source"/>
         <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="36" relation="include">
+        <childnode refid="38" relation="include">
         </childnode>
       </node>
-      <node id="42">
+      <node id="45">
         <label>sys/types.h</label>
       </node>
-      <node id="22">
+      <node id="23">
         <label>tblink_rpc/IParamValInt.h</label>
         <link refid="IParamValInt_8h_source"/>
-        <childnode refid="20" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
       </node>
       <node id="6">
@@ -302,69 +329,73 @@
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="26" relation="include">
-        </childnode>
-      </node>
-      <node id="26">
-        <label>tblink_rpc/IInterfaceTypeBuilder.h</label>
-        <link refid="IInterfaceTypeBuilder_8h_source"/>
-        <childnode refid="15" relation="include">
-        </childnode>
         <childnode refid="27" relation="include">
         </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
         <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>tblink_rpc/IInterfaceTypeBuilder.h</label>
+        <link refid="IInterfaceTypeBuilder_8h_source"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
         </childnode>
       </node>
       <node id="10">
         <label>tblink_rpc/IEndpointEvent.h</label>
         <link refid="IEndpointEvent_8h_source"/>
       </node>
-      <node id="19">
+      <node id="20">
         <label>IParamValVec.h</label>
         <link refid="IParamValVec_8h_source"/>
-        <childnode refid="20" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
       </node>
-      <node id="40">
+      <node id="43">
         <label>unistd.h</label>
       </node>
-      <node id="18">
+      <node id="19">
         <label>IParamValFactory.h</label>
         <link refid="IParamValFactory_8h_source"/>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
         <childnode refid="22" relation="include">
         </childnode>
         <childnode refid="23" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
         </childnode>
       </node>
       <node id="5">
         <label>vector</label>
       </node>
-      <node id="25">
+      <node id="26">
         <label>tblink_rpc/IParamValStr.h</label>
         <link refid="IParamValStr_8h_source"/>
-        <childnode refid="20" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
       </node>
-      <node id="54">
+      <node id="59">
         <label>JsonParamValFactory.h</label>
         <link refid="JsonParamValFactory_8h_source"/>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
         <childnode refid="23" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
-        <childnode refid="55" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
-        <childnode refid="56" relation="include">
+        <childnode refid="60" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
         </childnode>
       </node>
       <node id="9">
@@ -377,31 +408,31 @@
         <childnode refid="10" relation="include">
         </childnode>
       </node>
-      <node id="33">
+      <node id="35">
         <label>tblink_rpc/ILaunchParams.h</label>
         <link refid="ILaunchParams_8h_source"/>
-        <childnode refid="34" relation="include">
+        <childnode refid="36" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="56">
+      <node id="61">
         <label>ParamVal.h</label>
         <link refid="ParamVal_8h_source"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-      </node>
-      <node id="48">
-        <label>InterfaceInstMsgTransport.h</label>
-        <link refid="InterfaceInstMsgTransport_8h_source"/>
-        <childnode refid="49" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
       </node>
       <node id="51">
+        <label>InterfaceInstMsgTransport.h</label>
+        <link refid="InterfaceInstMsgTransport_8h_source"/>
+        <childnode refid="52" relation="include">
+        </childnode>
+      </node>
+      <node id="54">
         <label>tblink_rpc/IEndpointMsg.h</label>
         <link refid="IEndpointMsg_8h_source"/>
         <childnode refid="7" relation="include">
@@ -410,13 +441,25 @@
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="23" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
       </node>
-      <node id="47">
+      <node id="50">
         <label>unordered_map</label>
       </node>
-      <node id="24">
+      <node id="39">
+        <label>tblink_rpc/ITbLinkListener.h</label>
+        <link refid="ITbLinkListener_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>tblink_rpc/ITbLinkEvent.h</label>
+        <link refid="ITbLinkEvent_8h_source"/>
+      </node>
+      <node id="25">
         <label>set</label>
       </node>
       <node id="2">
@@ -426,72 +469,70 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="35" relation="include">
+        <childnode refid="37" relation="include">
         </childnode>
-        <childnode refid="38" relation="include">
+        <childnode refid="41" relation="include">
         </childnode>
       </node>
-      <node id="28">
+      <node id="30">
         <label>ITypeFactory.h</label>
         <link refid="ITypeFactory_8h_source"/>
-        <childnode refid="29" relation="include">
-        </childnode>
-        <childnode refid="30" relation="include">
-        </childnode>
         <childnode refid="31" relation="include">
         </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
       </node>
-      <node id="16">
+      <node id="17">
         <label>tblink_rpc/IParamDecl.h</label>
         <link refid="IParamDecl_8h_source"/>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
       </node>
-      <node id="39">
+      <node id="42">
         <label>stdio.h</label>
       </node>
-      <node id="27">
+      <node id="29">
         <label>IMethodTypeBuilder.h</label>
         <link refid="IMethodTypeBuilder_8h_source"/>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
       </node>
       <node id="3">
         <label>memory</label>
       </node>
-      <node id="14">
+      <node id="15">
         <label>IInterfaceType.h</label>
         <link refid="IInterfaceType_8h_source"/>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
       </node>
-      <node id="29">
+      <node id="31">
         <label>ITypeInt.h</label>
         <link refid="ITypeInt_8h_source"/>
-        <childnode refid="17" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
       </node>
-      <node id="30">
+      <node id="32">
         <label>ITypeMap.h</label>
         <link refid="ITypeMap_8h_source"/>
-        <childnode refid="17" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
       </node>
-      <node id="44">
+      <node id="47">
         <label>dlfcn.h</label>
       </node>
-      <node id="45">
+      <node id="48">
         <label>DynLibSymFinder.h</label>
         <link refid="DynLibSymFinder_8h_source"/>
-        <childnode refid="36" relation="include">
-        </childnode>
-        <childnode refid="44" relation="include">
+        <childnode refid="38" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -508,7 +549,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TbLink.cpp" line="91" column="26" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TbLink.cpp" bodystart="91" bodyend="93"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TbLink.cpp" line="140" column="26" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TbLink.cpp" bodystart="140" bodyend="142"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -535,83 +576,132 @@
 <codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;DynLibSymFinder.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;EndpointMsgBase.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;LaunchParams.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;TransportJsonSocket.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">tblink_rpc_core<sp/>{</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal">TbLink::TbLink()<sp/>:<sp/>m_default_ep(0)<sp/>{</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO<sp/>Auto-generated<sp/>constructor<sp/>stub</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29"><highlight class="normal">TbLink::~TbLink()<sp/>{</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO<sp/>Auto-generated<sp/>destructor<sp/>stub</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>TbLink::addLaunchType(ILaunchType<sp/>*launch_t)<sp/>{</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>m_launch_type_m.insert({launch_t-&gt;name(),<sp/>launch_t});</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>m_launch_types.push_back(launch_t);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;TbLinkEvent.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;TransportJsonSocket.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">tblink_rpc_core<sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">TbLink::TbLink()<sp/>:<sp/>m_default_ep(0)<sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO<sp/>Auto-generated<sp/>constructor<sp/>stub</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">TbLink::~TbLink()<sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO<sp/>Auto-generated<sp/>destructor<sp/>stub</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>TbLink::addListener(ITbLinkListener<sp/>*l)<sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>m_listeners.push_back(ITbLinkListenerUP(l));</highlight></codeline>
 <codeline lineno="36"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38"><highlight class="normal">ILaunchType<sp/>*TbLink::findLaunchType(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>std::map&lt;std::string,ILaunchType*&gt;::const_iterator<sp/>it;</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((it=m_launch_type_m.find(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">))<sp/>!=<sp/>m_launch_type_m.end())<sp/>{</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>it-&gt;second;</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;TbLink::getLibPath()<sp/>{</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(m_libpath<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_sym_finder.<ref refid="classtblink__rpc__core_1_1DynSymFinder_1a5199a3a924fce9af087f26bc8897bb41" kindref="member">init</ref>();</highlight></codeline>
-<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::pair&lt;void<sp/>*,<sp/>std::string&gt;<sp/>path<sp/>=<sp/>m_sym_finder.findSymLib(</highlight><highlight class="stringliteral">&quot;tblink&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_libpath<sp/>=<sp/>path.second;</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(m_libpath.size()<sp/>==<sp/>0)<sp/>{</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stdout,<sp/></highlight><highlight class="stringliteral">&quot;TBLink<sp/>Error:<sp/>failed<sp/>to<sp/>find<sp/>library<sp/>path\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="59"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_libpath;</highlight></codeline>
-<codeline lineno="61"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="62"><highlight class="normal"></highlight></codeline>
-<codeline lineno="63"><highlight class="normal">ISymFinder<sp/>*TbLink::sym_finder()<sp/>{</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>m_sym_finder.<ref refid="classtblink__rpc__core_1_1DynSymFinder_1a5199a3a924fce9af087f26bc8897bb41" kindref="member">init</ref>();</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>&amp;m_sym_finder;</highlight></codeline>
-<codeline lineno="66"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"></highlight></codeline>
-<codeline lineno="68"><highlight class="normal">ISymFinder::result_t<sp/>TbLink::load_library(</highlight></codeline>
-<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;path)<sp/>{</highlight></codeline>
-<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*hndl<sp/>=<sp/>dlopen(path.c_str(),<sp/>RTLD_LAZY);</highlight></codeline>
-<codeline lineno="71"><highlight class="normal"></highlight></codeline>
-<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(hndl)<sp/>{</highlight></codeline>
-<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{ISymFinderUP(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>DynLibSymFinder(hndl)),<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">};</highlight></codeline>
-<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{ISymFinderUP(),<sp/>dlerror()};</highlight></codeline>
-<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>TbLink::removeListener(ITbLinkListener<sp/>*l)<sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(std::vector&lt;ITbLinkListenerUP&gt;::iterator</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>it=m_listeners.begin();</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>it!=m_listeners.end();<sp/>it++)<sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(it-&gt;get()<sp/>==<sp/>l)<sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>it-&gt;release();</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_listeners.erase(it);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>TbLink::addEndpoint(IEndpoint<sp/>*ep)<sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>m_endpoints.push_back(ep);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>fprintf(stdout,<sp/></highlight><highlight class="stringliteral">&quot;addEndpoint:<sp/>%u<sp/>listeners\n&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_listeners.size());</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>fflush(stdout);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>sendEvent(TbLinkEventKind::AddEndpoint,<sp/>ep);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>TbLink::removeEndpoint(IEndpoint<sp/>*ep)<sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(std::vector&lt;IEndpoint<sp/>*&gt;::iterator</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>it=m_endpoints.begin();</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>it!=m_endpoints.end();<sp/>it++)<sp/>{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(*it<sp/>==<sp/>ep)<sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_endpoints.erase(it);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>sendEvent(TbLinkEventKind::RemEndpoint,<sp/>ep);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;IEndpoint<sp/>*&gt;<sp/>&amp;TbLink::getEndpoints()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_endpoints;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>TbLink::addLaunchType(ILaunchType<sp/>*launch_t)<sp/>{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>m_launch_type_m.insert({launch_t-&gt;name(),<sp/>launch_t});</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>m_launch_types.push_back(launch_t);</highlight></codeline>
 <codeline lineno="77"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="78"><highlight class="normal"></highlight></codeline>
-<codeline lineno="79"><highlight class="normal">TbLink<sp/>*TbLink::inst()<sp/>{</highlight></codeline>
-<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!m_inst)<sp/>{</highlight></codeline>
-<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_inst<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>TbLink();</highlight></codeline>
-<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_inst;</highlight></codeline>
-<codeline lineno="84"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="85"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86"><highlight class="normal">TbLink<sp/>*TbLink::m_inst<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="87"><highlight class="normal"></highlight></codeline>
-<codeline lineno="88"><highlight class="normal">}<sp/></highlight><highlight class="comment">/*<sp/>namespace<sp/>tblink_rpc_core<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="89"><highlight class="normal"></highlight></codeline>
-<codeline lineno="90"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="91"><highlight class="normal"><ref refid="classtblink__rpc__core_1_1ITbLink" kindref="compound">tblink_rpc_core::ITbLink</ref><sp/>*tblink()<sp/>{</highlight></codeline>
-<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>tblink_rpc_core::TbLink::inst();</highlight></codeline>
-<codeline lineno="93"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="94"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">ILaunchType<sp/>*TbLink::findLaunchType(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>std::map&lt;std::string,ILaunchType*&gt;::const_iterator<sp/>it;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((it=m_launch_type_m.find(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">))<sp/>!=<sp/>m_launch_type_m.end())<sp/>{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>it-&gt;second;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;TbLink::getLibPath()<sp/>{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(m_libpath<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_sym_finder.<ref refid="classtblink__rpc__core_1_1DynSymFinder_1a5199a3a924fce9af087f26bc8897bb41" kindref="member">init</ref>();</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::pair&lt;void<sp/>*,<sp/>std::string&gt;<sp/>path<sp/>=<sp/>m_sym_finder.findSymLib(</highlight><highlight class="stringliteral">&quot;tblink&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_libpath<sp/>=<sp/>path.second;</highlight></codeline>
 <codeline lineno="95"><highlight class="normal"></highlight></codeline>
-<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(m_libpath.size()<sp/>==<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stdout,<sp/></highlight><highlight class="stringliteral">&quot;TBLink<sp/>Error:<sp/>failed<sp/>to<sp/>find<sp/>library<sp/>path\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_libpath;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal">ISymFinder<sp/>*TbLink::sym_finder()<sp/>{</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>m_sym_finder.<ref refid="classtblink__rpc__core_1_1DynSymFinder_1a5199a3a924fce9af087f26bc8897bb41" kindref="member">init</ref>();</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>&amp;m_sym_finder;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal">ISymFinder::result_t<sp/>TbLink::load_library(</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;path)<sp/>{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*hndl<sp/>=<sp/>dlopen(path.c_str(),<sp/>RTLD_LAZY);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(hndl)<sp/>{</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{ISymFinderUP(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>DynLibSymFinder(hndl)),<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">};</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{ISymFinderUP(),<sp/>dlerror()};</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="118"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal">TbLink<sp/>*TbLink::inst()<sp/>{</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!m_inst)<sp/>{</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_inst<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>TbLink();</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_inst;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>TbLink::sendEvent(TbLinkEventKind<sp/>kind,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*hndl)<sp/>{</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>TbLinkEvent<sp/>ev(kind,<sp/>hndl);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>it=m_listeners.begin();<sp/>it!=m_listeners.end();<sp/>it++)<sp/>{</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(*it)-&gt;notify(&amp;ev);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="133"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal">TbLink<sp/>*TbLink::m_inst<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal">}<sp/></highlight><highlight class="comment">/*<sp/>namespace<sp/>tblink_rpc_core<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><ref refid="classtblink__rpc__core_1_1ITbLink" kindref="compound">tblink_rpc_core::ITbLink</ref><sp/>*tblink()<sp/>{</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>tblink_rpc_core::TbLink::inst();</highlight></codeline>
+<codeline lineno="142"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="143"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TbLink.cpp"/>
   </compounddef>

@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc_1_1IInterfaceImplProxy" kind="class" language="C++" prot="public">
+    <compoundname>tblink_rpc::IInterfaceImplProxy</compoundname>
+    <basecompoundref refid="classtblink__rpc_1_1IInterfaceImpl" prot="public" virt="non-virtual">tblink_rpc::IInterfaceImpl</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc_1_1IInterfaceImplProxy_1a832b9dac113df8e0fce8bcbc9fab75de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void tblink_rpc::IInterfaceImplProxy::init</definition>
+        <argsstring>(IInterfaceInst ifinst)</argsstring>
+        <name>init</name>
+        <reimplements refid="classtblink__rpc_1_1IInterfaceImpl_1ac620f3a6be7c94c8e335b31f01c1730c">init</reimplements>
+        <param>
+          <type><ref refid="classtblink__rpc_1_1IInterfaceInst" kindref="compound">IInterfaceInst</ref></type>
+          <declname>ifinst</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1118" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1118" bodyend="1121"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1IInterfaceImplProxy_1a01b86761d6abc1d5208b10d481c7f245" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bit</type>
+        <definition>virtual bit tblink_rpc::IInterfaceImplProxy::is_mirror</definition>
+        <argsstring>()</argsstring>
+        <name>is_mirror</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1123" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1123" bodyend="1126"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="classtblink__rpc_1_1IInterfaceImplProxy" kindref="compound">IInterfaceImplProxy</ref></para>
+<para>TODO: Add class documentation </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>tblink_rpc::IInterfaceImpl</label>
+        <link refid="classtblink__rpc_1_1IInterfaceImpl"/>
+      </node>
+      <node id="1">
+        <label>tblink_rpc::IInterfaceImplProxy</label>
+        <link refid="classtblink__rpc_1_1IInterfaceImplProxy"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>tblink_rpc::IInterfaceImpl</label>
+        <link refid="classtblink__rpc_1_1IInterfaceImpl"/>
+      </node>
+      <node id="1">
+        <label>tblink_rpc::IInterfaceImplProxy</label>
+        <link refid="classtblink__rpc_1_1IInterfaceImplProxy"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1113" column="48" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1113" bodyend="1127"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc_1_1IInterfaceImplProxy_1a832b9dac113df8e0fce8bcbc9fab75de" prot="public" virt="virtual"><scope>tblink_rpc::IInterfaceImplProxy</scope><name>init</name></member>
+      <member refid="classtblink__rpc_1_1IInterfaceImpl_1a0d01513d8d12dba4db89845983e62a4e" prot="public" virt="virtual"><scope>tblink_rpc::IInterfaceImplProxy</scope><name>invoke_b</name></member>
+      <member refid="classtblink__rpc_1_1IInterfaceImpl_1afe026479015b350fe5bde6ac16c19244" prot="public" virt="virtual"><scope>tblink_rpc::IInterfaceImplProxy</scope><name>invoke_nb</name></member>
+      <member refid="classtblink__rpc_1_1IInterfaceImplProxy_1a01b86761d6abc1d5208b10d481c7f245" prot="public" virt="virtual"><scope>tblink_rpc::IInterfaceImplProxy</scope><name>is_mirror</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

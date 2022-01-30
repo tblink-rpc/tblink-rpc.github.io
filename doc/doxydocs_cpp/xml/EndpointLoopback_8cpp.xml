@@ -7,26 +7,28 @@
     <includes refid="InterfaceInstLoopback_8h" local="yes">InterfaceInstLoopback.h</includes>
     <includes refid="InterfaceType_8h" local="yes">InterfaceType.h</includes>
     <incdepgraph>
-      <node id="18">
+      <node id="19">
         <label>tblink_rpc/IInterfaceInst.h</label>
         <link refid="IInterfaceInst_8h_source"/>
         <childnode refid="11" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
         <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="23" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
         <childnode refid="24" relation="include">
         </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
       </node>
-      <node id="26">
+      <node id="27">
         <label>tblink_rpc/IParamValBool.h</label>
         <link refid="IParamValBool_8h_source"/>
-        <childnode refid="25" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
       </node>
       <node id="11">
@@ -39,10 +41,10 @@
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
       </node>
-      <node id="25">
+      <node id="26">
         <label>IParamVal.h</label>
         <link refid="IParamVal_8h_source"/>
         <childnode refid="14" relation="include">
@@ -51,16 +53,16 @@
       <node id="7">
         <label>stdint.h</label>
       </node>
-      <node id="20">
+      <node id="21">
         <label>IMethodType.h</label>
         <link refid="IMethodType_8h_source"/>
         <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
         <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
         </childnode>
       </node>
       <node id="16">
@@ -73,10 +75,10 @@
         <childnode refid="17" relation="include">
         </childnode>
       </node>
-      <node id="36">
+      <node id="38">
         <label>ITypeVec.h</label>
         <link refid="ITypeVec_8h_source"/>
-        <childnode refid="22" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
       </node>
       <node id="12">
@@ -85,16 +87,24 @@
       <node id="5">
         <label>map</label>
       </node>
-      <node id="37">
+      <node id="39">
         <label>InterfaceType.h</label>
         <link refid="InterfaceType_8h_source"/>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
         <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>tblink_rpc/IInterfaceImpl.h</label>
+        <link refid="IInterfaceImpl_8h_source"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -102,28 +112,36 @@
         <link refid="EndpointLoopback_8h_source"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="39" relation="include">
+        <childnode refid="41" relation="include">
         </childnode>
       </node>
-      <node id="40">
+      <node id="42">
         <label>InterfaceInstLoopback.h</label>
         <link refid="InterfaceInstLoopback_8h_source"/>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
       </node>
-      <node id="28">
+      <node id="29">
         <label>tblink_rpc/IParamValMap.h</label>
         <link refid="IParamValMap_8h_source"/>
-        <childnode refid="29" relation="include">
+        <childnode refid="30" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
       </node>
-      <node id="22">
+      <node id="32">
+        <label>tblink_rpc/IInterfaceInstFactory.h</label>
+        <link refid="IInterfaceInstFactory_8h_source"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
         <label>tblink_rpc/IType.h</label>
         <link refid="IType_8h_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
         <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
@@ -140,23 +158,23 @@
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="37" relation="include">
+        <childnode refid="39" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="38" relation="include">
+        <childnode refid="40" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
       </node>
-      <node id="27">
+      <node id="28">
         <label>tblink_rpc/IParamValInt.h</label>
         <link refid="IParamValInt_8h_source"/>
-        <childnode refid="25" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
       </node>
       <node id="10">
@@ -174,31 +192,35 @@
         </childnode>
         <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="31" relation="include">
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
         </childnode>
       </node>
-      <node id="39">
+      <node id="41">
         <label>tblink_rpc/IEndpointLoopback.h</label>
         <link refid="IEndpointLoopback_8h_source"/>
       </node>
-      <node id="31">
+      <node id="33">
         <label>tblink_rpc/IInterfaceTypeBuilder.h</label>
         <link refid="IInterfaceTypeBuilder_8h_source"/>
-        <childnode refid="20" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="32" relation="include">
+        <childnode refid="34" relation="include">
         </childnode>
-        <childnode refid="33" relation="include">
+        <childnode refid="35" relation="include">
         </childnode>
       </node>
       <node id="15">
         <label>tblink_rpc/IEndpointEvent.h</label>
         <link refid="IEndpointEvent_8h_source"/>
       </node>
-      <node id="24">
+      <node id="25">
         <label>IParamValVec.h</label>
         <link refid="IParamValVec_8h_source"/>
-        <childnode refid="25" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -208,32 +230,32 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="40" relation="include">
+        <childnode refid="42" relation="include">
         </childnode>
-        <childnode refid="37" relation="include">
+        <childnode refid="39" relation="include">
         </childnode>
       </node>
-      <node id="23">
+      <node id="24">
         <label>IParamValFactory.h</label>
         <link refid="IParamValFactory_8h_source"/>
-        <childnode refid="24" relation="include">
-        </childnode>
-        <childnode refid="26" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
         <childnode refid="27" relation="include">
         </childnode>
         <childnode refid="28" relation="include">
         </childnode>
-        <childnode refid="30" relation="include">
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
         </childnode>
       </node>
       <node id="17">
         <label>vector</label>
       </node>
-      <node id="30">
+      <node id="31">
         <label>tblink_rpc/IParamValStr.h</label>
         <link refid="IParamValStr_8h_source"/>
-        <childnode refid="25" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -256,7 +278,7 @@
         <childnode refid="9" relation="include">
         </childnode>
       </node>
-      <node id="38">
+      <node id="40">
         <label>tblink_rpc/IEndpointMsg.h</label>
         <link refid="IEndpointMsg_8h_source"/>
         <childnode refid="11" relation="include">
@@ -265,62 +287,62 @@
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="28" relation="include">
+        <childnode refid="29" relation="include">
         </childnode>
       </node>
       <node id="6">
         <label>unordered_map</label>
       </node>
-      <node id="29">
+      <node id="30">
         <label>set</label>
       </node>
-      <node id="33">
+      <node id="35">
         <label>ITypeFactory.h</label>
         <link refid="ITypeFactory_8h_source"/>
-        <childnode refid="34" relation="include">
-        </childnode>
-        <childnode refid="35" relation="include">
-        </childnode>
         <childnode refid="36" relation="include">
         </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
       </node>
-      <node id="21">
+      <node id="22">
         <label>tblink_rpc/IParamDecl.h</label>
         <link refid="IParamDecl_8h_source"/>
         <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
       </node>
-      <node id="32">
+      <node id="34">
         <label>IMethodTypeBuilder.h</label>
         <link refid="IMethodTypeBuilder_8h_source"/>
         <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
       </node>
       <node id="14">
         <label>memory</label>
       </node>
-      <node id="19">
+      <node id="20">
         <label>IInterfaceType.h</label>
         <link refid="IInterfaceType_8h_source"/>
         <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
       </node>
-      <node id="34">
+      <node id="36">
         <label>ITypeInt.h</label>
         <link refid="ITypeInt_8h_source"/>
-        <childnode refid="22" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
       </node>
-      <node id="35">
+      <node id="37">
         <label>ITypeMap.h</label>
         <link refid="ITypeMap_8h_source"/>
-        <childnode refid="22" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -413,61 +435,65 @@
 <codeline lineno="30"><highlight class="normal">EndpointLoopback::EndpointLoopback()<sp/>:<sp/>m_primary(true)<sp/>{</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>m_peer<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>EndpointLoopback(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>m_peer_u<sp/>=<sp/>EndpointLoopbackUP(m_peer);</highlight></codeline>
-<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35"><highlight class="normal">EndpointLoopback::EndpointLoopback(EndpointLoopback<sp/>*peer)<sp/>:</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_primary(false),<sp/>m_peer(peer)<sp/>{</highlight></codeline>
-<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39"><highlight class="normal">EndpointLoopback::~EndpointLoopback()<sp/>{</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO<sp/>Auto-generated<sp/>destructor<sp/>stub</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>setFlag(IEndpointFlags::Claimed);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>setFlag(IEndpointFlags::LoopbackPri);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">EndpointLoopback::EndpointLoopback(EndpointLoopback<sp/>*peer)<sp/>:</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_primary(false),<sp/>m_peer(peer)<sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>setFlag(IEndpointFlags::LoopbackSec);</highlight></codeline>
 <codeline lineno="41"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43"><highlight class="normal">int32_t<sp/><ref refid="classtblink__rpc__core_1_1EndpointLoopback_1abc759d7999f5e6a2107e975b2e50ffc3" kindref="member">EndpointLoopback::process_one_message</ref>()<sp/>{</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">EndpointLoopback::~EndpointLoopback()<sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO<sp/>Auto-generated<sp/>destructor<sp/>stub</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="45"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47"><highlight class="normal">int32_t<sp/>EndpointLoopback::send_req(</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;method,</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>intptr_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IParamValMap<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*params)<sp/>{</highlight></codeline>
-<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>DEBUG_ENTER(</highlight><highlight class="stringliteral">&quot;send_req&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>int32_t<sp/>ret<sp/>=<sp/>m_peer-&gt;peer_recv_req(method,<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>params);</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>DEBUG_LEAVE(</highlight><highlight class="stringliteral">&quot;send_req<sp/>%d&quot;</highlight><highlight class="normal">,<sp/>ret);</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
-<codeline lineno="55"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"></highlight></codeline>
-<codeline lineno="57"><highlight class="normal">int32_t<sp/>EndpointLoopback::peer_recv_req(</highlight></codeline>
-<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;method,</highlight></codeline>
-<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>intptr_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,</highlight></codeline>
-<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IParamValMap<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*params)<sp/>{</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>DEBUG_ENTER(</highlight><highlight class="stringliteral">&quot;peer_recv_req&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>int32_t<sp/>ret<sp/>=<sp/>recv_req(method,<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>params);</highlight></codeline>
-<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>DEBUG_LEAVE(</highlight><highlight class="stringliteral">&quot;peer_recv_req<sp/>%d&quot;</highlight><highlight class="normal">,<sp/>ret);</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
-<codeline lineno="65"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"></highlight></codeline>
-<codeline lineno="67"><highlight class="normal">int32_t<sp/>EndpointLoopback::send_rsp(</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>intptr_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,</highlight></codeline>
-<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IParamValMap<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*result,</highlight></codeline>
-<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IParamValMap<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*error)<sp/>{</highlight></codeline>
-<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>DEBUG_ENTER(</highlight><highlight class="stringliteral">&quot;send_rsp&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>int32_t<sp/>ret<sp/>=<sp/>m_peer-&gt;peer_recv_rsp(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>result,<sp/>error);</highlight></codeline>
-<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>DEBUG_LEAVE(</highlight><highlight class="stringliteral">&quot;send_rsp<sp/>%d&quot;</highlight><highlight class="normal">,<sp/>ret);</highlight></codeline>
-<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
-<codeline lineno="75"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="76"><highlight class="normal"></highlight></codeline>
-<codeline lineno="77"><highlight class="normal">int32_t<sp/>EndpointLoopback::peer_recv_rsp(</highlight></codeline>
-<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>intptr_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,</highlight></codeline>
-<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IParamValMap<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*result,</highlight></codeline>
-<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IParamValMap<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*error)<sp/>{</highlight></codeline>
-<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>DEBUG_ENTER(</highlight><highlight class="stringliteral">&quot;peer_recv_rsp&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>int32_t<sp/>ret<sp/>=<sp/>recv_rsp(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>result,<sp/>error);</highlight></codeline>
-<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>DEBUG_LEAVE(</highlight><highlight class="stringliteral">&quot;peer_recv_rsp<sp/>%d&quot;</highlight><highlight class="normal">,<sp/>ret);</highlight></codeline>
-<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
-<codeline lineno="85"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="86"><highlight class="normal"></highlight></codeline>
-<codeline lineno="87"><highlight class="normal">}<sp/></highlight><highlight class="comment">/*<sp/>namespace<sp/>tblink_rpc_core<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">int32_t<sp/><ref refid="classtblink__rpc__core_1_1EndpointLoopback_1abc759d7999f5e6a2107e975b2e50ffc3" kindref="member">EndpointLoopback::process_one_message</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal">int32_t<sp/>EndpointLoopback::send_req(</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;method,</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>intptr_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IParamValMap<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*params)<sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>DEBUG_ENTER(</highlight><highlight class="stringliteral">&quot;send_req&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>int32_t<sp/>ret<sp/>=<sp/>m_peer-&gt;peer_recv_req(method,<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>params);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>DEBUG_LEAVE(</highlight><highlight class="stringliteral">&quot;send_req<sp/>%d&quot;</highlight><highlight class="normal">,<sp/>ret);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal">int32_t<sp/>EndpointLoopback::peer_recv_req(</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;method,</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>intptr_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IParamValMap<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*params)<sp/>{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>DEBUG_ENTER(</highlight><highlight class="stringliteral">&quot;peer_recv_req&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>int32_t<sp/>ret<sp/>=<sp/>recv_req(method,<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>params);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>DEBUG_LEAVE(</highlight><highlight class="stringliteral">&quot;peer_recv_req<sp/>%d&quot;</highlight><highlight class="normal">,<sp/>ret);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal">int32_t<sp/>EndpointLoopback::send_rsp(</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>intptr_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IParamValMap<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*result,</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IParamValMap<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*error)<sp/>{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>DEBUG_ENTER(</highlight><highlight class="stringliteral">&quot;send_rsp&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>int32_t<sp/>ret<sp/>=<sp/>m_peer-&gt;peer_recv_rsp(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>result,<sp/>error);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>DEBUG_LEAVE(</highlight><highlight class="stringliteral">&quot;send_rsp<sp/>%d&quot;</highlight><highlight class="normal">,<sp/>ret);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal">int32_t<sp/>EndpointLoopback::peer_recv_rsp(</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>intptr_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IParamValMap<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*result,</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IParamValMap<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*error)<sp/>{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>DEBUG_ENTER(</highlight><highlight class="stringliteral">&quot;peer_recv_rsp&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>int32_t<sp/>ret<sp/>=<sp/>recv_rsp(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>result,<sp/>error);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>DEBUG_LEAVE(</highlight><highlight class="stringliteral">&quot;peer_recv_rsp<sp/>%d&quot;</highlight><highlight class="normal">,<sp/>ret);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal">}<sp/></highlight><highlight class="comment">/*<sp/>namespace<sp/>tblink_rpc_core<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointLoopback.cpp"/>
   </compounddef>

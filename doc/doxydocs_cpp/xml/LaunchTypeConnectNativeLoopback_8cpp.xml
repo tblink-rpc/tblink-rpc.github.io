@@ -9,26 +9,28 @@
     <includes refid="LaunchTypeRegistration_8h" local="yes">LaunchTypeRegistration.h</includes>
     <includes refid="TbLink_8h" local="yes">TbLink.h</includes>
     <incdepgraph>
-      <node id="18">
+      <node id="19">
         <label>tblink_rpc/IInterfaceInst.h</label>
         <link refid="IInterfaceInst_8h_source"/>
         <childnode refid="11" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
         <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="23" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
         <childnode refid="24" relation="include">
         </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
       </node>
-      <node id="26">
+      <node id="27">
         <label>tblink_rpc/IParamValBool.h</label>
         <link refid="IParamValBool_8h_source"/>
-        <childnode refid="25" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
       </node>
       <node id="11">
@@ -41,10 +43,10 @@
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
       </node>
-      <node id="47">
+      <node id="49">
         <label>tblink_rpc/ISymFinder.h</label>
         <link refid="ISymFinder_8h_source"/>
         <childnode refid="14" relation="include">
@@ -52,7 +54,7 @@
         <childnode refid="12" relation="include">
         </childnode>
       </node>
-      <node id="25">
+      <node id="26">
         <label>IParamVal.h</label>
         <link refid="IParamVal_8h_source"/>
         <childnode refid="14" relation="include">
@@ -61,7 +63,7 @@
       <node id="7">
         <label>stdint.h</label>
       </node>
-      <node id="42">
+      <node id="44">
         <label>tblink_rpc/ILaunchType.h</label>
         <link refid="ILaunchType_8h_source"/>
         <childnode refid="5" relation="include">
@@ -74,22 +76,22 @@
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="40" relation="include">
+        <childnode refid="42" relation="include">
         </childnode>
       </node>
-      <node id="20">
+      <node id="21">
         <label>IMethodType.h</label>
         <link refid="IMethodType_8h_source"/>
         <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
         <childnode refid="22" relation="include">
         </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
       </node>
-      <node id="39">
+      <node id="41">
         <label>LaunchParams.h</label>
         <link refid="LaunchParams_8h_source"/>
         <childnode refid="5" relation="include">
@@ -98,10 +100,10 @@
         </childnode>
         <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="40" relation="include">
+        <childnode refid="42" relation="include">
         </childnode>
       </node>
-      <node id="46">
+      <node id="48">
         <label>tblink_rpc/IEndpointServicesFactory.h</label>
         <link refid="IEndpointServicesFactory_8h_source"/>
         <childnode refid="14" relation="include">
@@ -117,10 +119,10 @@
         <childnode refid="17" relation="include">
         </childnode>
       </node>
-      <node id="36">
+      <node id="38">
         <label>ITypeVec.h</label>
         <link refid="ITypeVec_8h_source"/>
-        <childnode refid="22" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
       </node>
       <node id="12">
@@ -129,22 +131,30 @@
       <node id="5">
         <label>map</label>
       </node>
-      <node id="43">
+      <node id="45">
         <label>LaunchTypeRegistration.h</label>
         <link refid="LaunchTypeRegistration_8h_source"/>
-        <childnode refid="44" relation="include">
+        <childnode refid="46" relation="include">
         </childnode>
       </node>
-      <node id="37">
+      <node id="39">
         <label>InterfaceType.h</label>
         <link refid="InterfaceType_8h_source"/>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
         <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>tblink_rpc/IInterfaceImpl.h</label>
+        <link refid="IInterfaceImpl_8h_source"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -155,15 +165,15 @@
         <childnode refid="2" relation="include">
         </childnode>
       </node>
-      <node id="28">
+      <node id="29">
         <label>tblink_rpc/IParamValMap.h</label>
         <link refid="IParamValMap_8h_source"/>
-        <childnode refid="29" relation="include">
+        <childnode refid="30" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
       </node>
-      <node id="45">
+      <node id="47">
         <label>tblink_rpc/ITbLink.h</label>
         <link refid="ITbLink_8h_source"/>
         <childnode refid="17" relation="include">
@@ -172,40 +182,34 @@
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="46" relation="include">
-        </childnode>
-        <childnode refid="40" relation="include">
-        </childnode>
-        <childnode refid="42" relation="include">
-        </childnode>
-        <childnode refid="47" relation="include">
-        </childnode>
         <childnode refid="48" relation="include">
         </childnode>
-      </node>
-      <node id="48">
-        <label>tblink_rpc/ITransport.h</label>
-        <link refid="ITransport_8h_source"/>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="24" relation="include">
-        </childnode>
-        <childnode refid="28" relation="include">
-        </childnode>
-        <childnode refid="23" relation="include">
-        </childnode>
-      </node>
-      <node id="41">
-        <label>LaunchTypeConnectNativeLoopback.h</label>
-        <link refid="LaunchTypeConnectNativeLoopback_8h_source"/>
         <childnode refid="42" relation="include">
         </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
       </node>
-      <node id="22">
+      <node id="32">
+        <label>tblink_rpc/IInterfaceInstFactory.h</label>
+        <link refid="IInterfaceInstFactory_8h_source"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>LaunchTypeConnectNativeLoopback.h</label>
+        <link refid="LaunchTypeConnectNativeLoopback_8h_source"/>
+        <childnode refid="44" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
         <label>tblink_rpc/IType.h</label>
         <link refid="IType_8h_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
         <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
@@ -222,33 +226,33 @@
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="37" relation="include">
+        <childnode refid="39" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="38" relation="include">
+        <childnode refid="40" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
       </node>
-      <node id="49">
+      <node id="52">
         <label>DynSymFinder.h</label>
         <link refid="DynSymFinder_8h_source"/>
         <childnode refid="12" relation="include">
         </childnode>
         <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="47" relation="include">
+        <childnode refid="49" relation="include">
         </childnode>
       </node>
-      <node id="27">
+      <node id="28">
         <label>tblink_rpc/IParamValInt.h</label>
         <link refid="IParamValInt_8h_source"/>
-        <childnode refid="25" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
       </node>
       <node id="10">
@@ -266,54 +270,58 @@
         </childnode>
         <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="31" relation="include">
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
         </childnode>
       </node>
       <node id="2">
         <label>tblink_rpc/IEndpointLoopback.h</label>
         <link refid="IEndpointLoopback_8h_source"/>
       </node>
-      <node id="31">
+      <node id="33">
         <label>tblink_rpc/IInterfaceTypeBuilder.h</label>
         <link refid="IInterfaceTypeBuilder_8h_source"/>
-        <childnode refid="20" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="32" relation="include">
+        <childnode refid="34" relation="include">
         </childnode>
-        <childnode refid="33" relation="include">
+        <childnode refid="35" relation="include">
         </childnode>
       </node>
       <node id="15">
         <label>tblink_rpc/IEndpointEvent.h</label>
         <link refid="IEndpointEvent_8h_source"/>
       </node>
-      <node id="24">
+      <node id="25">
         <label>IParamValVec.h</label>
         <link refid="IParamValVec_8h_source"/>
-        <childnode refid="25" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
       </node>
-      <node id="23">
+      <node id="24">
         <label>IParamValFactory.h</label>
         <link refid="IParamValFactory_8h_source"/>
-        <childnode refid="24" relation="include">
-        </childnode>
-        <childnode refid="26" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
         <childnode refid="27" relation="include">
         </childnode>
         <childnode refid="28" relation="include">
         </childnode>
-        <childnode refid="30" relation="include">
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
         </childnode>
       </node>
       <node id="17">
         <label>vector</label>
       </node>
-      <node id="30">
+      <node id="31">
         <label>tblink_rpc/IParamValStr.h</label>
         <link refid="IParamValStr_8h_source"/>
-        <childnode refid="25" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
       </node>
       <node id="13">
@@ -326,7 +334,7 @@
         <childnode refid="15" relation="include">
         </childnode>
       </node>
-      <node id="40">
+      <node id="42">
         <label>tblink_rpc/ILaunchParams.h</label>
         <link refid="ILaunchParams_8h_source"/>
         <childnode refid="5" relation="include">
@@ -349,16 +357,16 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="39" relation="include">
-        </childnode>
         <childnode refid="41" relation="include">
         </childnode>
         <childnode refid="43" relation="include">
         </childnode>
-        <childnode refid="44" relation="include">
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
         </childnode>
       </node>
-      <node id="38">
+      <node id="40">
         <label>tblink_rpc/IEndpointMsg.h</label>
         <link refid="IEndpointMsg_8h_source"/>
         <childnode refid="11" relation="include">
@@ -367,74 +375,86 @@
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="28" relation="include">
+        <childnode refid="29" relation="include">
         </childnode>
       </node>
       <node id="6">
         <label>unordered_map</label>
       </node>
-      <node id="29">
+      <node id="50">
+        <label>tblink_rpc/ITbLinkListener.h</label>
+        <link refid="ITbLinkListener_8h_source"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>tblink_rpc/ITbLinkEvent.h</label>
+        <link refid="ITbLinkEvent_8h_source"/>
+      </node>
+      <node id="30">
         <label>set</label>
       </node>
-      <node id="44">
+      <node id="46">
         <label>TbLink.h</label>
         <link refid="TbLink_8h_source"/>
         <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="45" relation="include">
+        <childnode refid="47" relation="include">
         </childnode>
-        <childnode refid="42" relation="include">
+        <childnode refid="44" relation="include">
         </childnode>
-        <childnode refid="49" relation="include">
+        <childnode refid="52" relation="include">
         </childnode>
       </node>
-      <node id="33">
+      <node id="35">
         <label>ITypeFactory.h</label>
         <link refid="ITypeFactory_8h_source"/>
-        <childnode refid="34" relation="include">
-        </childnode>
-        <childnode refid="35" relation="include">
-        </childnode>
         <childnode refid="36" relation="include">
         </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
       </node>
-      <node id="21">
+      <node id="22">
         <label>tblink_rpc/IParamDecl.h</label>
         <link refid="IParamDecl_8h_source"/>
         <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
       </node>
-      <node id="32">
+      <node id="34">
         <label>IMethodTypeBuilder.h</label>
         <link refid="IMethodTypeBuilder_8h_source"/>
         <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
       </node>
       <node id="14">
         <label>memory</label>
       </node>
-      <node id="19">
+      <node id="20">
         <label>IInterfaceType.h</label>
         <link refid="IInterfaceType_8h_source"/>
         <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
       </node>
-      <node id="34">
+      <node id="36">
         <label>ITypeInt.h</label>
         <link refid="ITypeInt_8h_source"/>
-        <childnode refid="22" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
       </node>
-      <node id="35">
+      <node id="37">
         <label>ITypeMap.h</label>
         <link refid="ITypeMap_8h_source"/>
-        <childnode refid="22" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -477,28 +497,34 @@
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
 <codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>ITbLink<sp/>*tblink<sp/>=<sp/>TbLink::inst();</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!tblink-&gt;getDefaultEP())<sp/>{</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>msg<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;No<sp/>default<sp/>endpoint<sp/>registered&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IEndpointLoopback<sp/>*lb_ep<sp/>=<sp/></highlight><highlight class="keyword">dynamic_cast&lt;</highlight><highlight class="normal">IEndpointLoopback<sp/>*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(tblink-&gt;getDefaultEP());</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stdout,<sp/></highlight><highlight class="stringliteral">&quot;Default<sp/>EP:<sp/>%p\n&quot;</highlight><highlight class="normal">,<sp/>tblink-&gt;getDefaultEP());</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stdout,<sp/></highlight><highlight class="stringliteral">&quot;lb_ep=%p\n&quot;</highlight><highlight class="normal">,<sp/>lb_ep);</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ep<sp/>=<sp/>lb_ep-&gt;peer();</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stdout,<sp/></highlight><highlight class="stringliteral">&quot;Peer<sp/>EP:<sp/>%p\n&quot;</highlight><highlight class="normal">,<sp/>ep);</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>params;</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{ep,<sp/>msg};</highlight></codeline>
-<codeline lineno="47"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49"><highlight class="normal">ILaunchParams<sp/>*LaunchTypeConnectNativeLoopback::newLaunchParams()<sp/>{</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>LaunchParams();</highlight></codeline>
-<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>LaunchTypeRegistration&lt;LaunchTypeConnectNativeLoopback&gt;<sp/>registration;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>it=tblink-&gt;getEndpoints().begin();</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>it!=tblink-&gt;getEndpoints().end();<sp/>it++)<sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(((*it)-&gt;getFlags()<sp/>&amp;<sp/>IEndpointFlags::LoopbackSec)<sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>!((*it)-&gt;getFlags()<sp/>&amp;<sp/>IEndpointFlags::Claimed))<sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ep<sp/>=<sp/>*it;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!ep)<sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>msg<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;No<sp/>default<sp/>endpoint<sp/>registered&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Claim<sp/>the<sp/>endpoint</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ep-&gt;setFlag(IEndpointFlags::Claimed);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>params;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{ep,<sp/>msg};</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55"><highlight class="normal">}<sp/></highlight><highlight class="comment">/*<sp/>namespace<sp/>tblink_rpc_core<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal">ILaunchParams<sp/>*LaunchTypeConnectNativeLoopback::newLaunchParams()<sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>LaunchParams();</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>LaunchTypeRegistration&lt;LaunchTypeConnectNativeLoopback&gt;<sp/>registration;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal">}<sp/></highlight><highlight class="comment">/*<sp/>namespace<sp/>tblink_rpc_core<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeConnectNativeLoopback.cpp"/>
   </compounddef>
