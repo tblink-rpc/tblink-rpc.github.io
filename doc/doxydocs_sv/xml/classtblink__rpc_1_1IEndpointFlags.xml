@@ -44,14 +44,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1153" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1153" bodyend="1158"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1370" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1370" bodyend="1375"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1152" column="21" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1152" bodyend="1159"/>
+    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1369" column="21" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1369" bodyend="1376"/>
     <listofallmembers>
       <member refid="classtblink__rpc_1_1IEndpointFlags_1a674e8b779a4063f7c6db6232f05571fd" prot="public" virt="non-virtual"><scope>tblink_rpc::IEndpointFlags</scope><name>_t</name></member>
       <member refid="classtblink__rpc_1_1IEndpointFlags_1a674e8b779a4063f7c6db6232f05571fdacd2b516b058a6c226e50b5e916d0a20e" prot="public" virt="non-virtual"><scope>tblink_rpc::IEndpointFlags</scope><name>Claimed</name></member>

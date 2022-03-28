@@ -75,7 +75,7 @@
         <link refid="IInterfaceInst_8h_source"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
@@ -88,10 +88,12 @@
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TransportMessageFifoThreadedEP.h</label>
         <link refid="TransportMessageFifoThreadedEP_8h_source"/>
       </node>
-      <node id="4">
+      <node id="7">
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceInstBase.h</label>
         <link refid="InterfaceInstBase_8h_source"/>
-        <childnode refid="5" relation="include">
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
@@ -142,7 +144,7 @@
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeRegistration.h</label>
         <link refid="LaunchTypeRegistration_8h_source"/>
       </node>
-      <node id="7">
+      <node id="5">
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointLoopback.h</label>
         <link refid="EndpointLoopback_8h_source"/>
       </node>
@@ -171,7 +173,7 @@
       <node id="25">
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ITransport.h</label>
         <link refid="ITransport_8h_source"/>
-        <childnode refid="8" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="26" relation="include">
         </childnode>
@@ -184,12 +186,12 @@
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeConnectNativeLoopback.h</label>
         <link refid="LaunchTypeConnectNativeLoopback_8h_source"/>
       </node>
-      <node id="6">
+      <node id="4">
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h</label>
         <link refid="EndpointMsgBase_8h_source"/>
-        <childnode refid="7" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
       <node id="22">
@@ -201,9 +203,9 @@
         <link refid="IEndpoint_8h_source"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
@@ -222,7 +224,7 @@
         <childnode refid="25" relation="include">
         </childnode>
       </node>
-      <node id="8">
+      <node id="6">
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgTransport.h</label>
         <link refid="EndpointMsgTransport_8h_source"/>
       </node>
@@ -233,11 +235,13 @@
       <node id="3">
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointBase.h</label>
         <link refid="EndpointBase_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
       </node>
-      <node id="5">
+      <node id="8">
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceInstMsgTransport.h</label>
         <link refid="InterfaceInstMsgTransport_8h_source"/>
-        <childnode refid="6" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
       </node>
       <node id="18">

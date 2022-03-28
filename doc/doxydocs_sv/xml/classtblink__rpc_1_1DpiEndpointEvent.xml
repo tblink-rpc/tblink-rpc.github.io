@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="4055" column="8" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="4055" bodyend="-1"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="4464" column="8" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="4464" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="4058" column="2" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="4058" bodyend="4060"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="4467" column="2" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="4467" bodyend="4469"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc_1_1DpiEndpointEvent_1aeadc32f056a9c74ae0f924b6b90ea8fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>kind_t</type>
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="4063" column="17" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="4063" bodyend="4065"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="4472" column="17" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="4472" bodyend="4474"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -81,7 +81,7 @@
         <link refid="classtblink__rpc_1_1IEndpointEvent"/>
       </node>
     </collaborationgraph>
-    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="4052" column="45" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="4052" bodyend="4066"/>
+    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="4461" column="45" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="4461" bodyend="4475"/>
     <listofallmembers>
       <member refid="classtblink__rpc_1_1DpiEndpointEvent_1aeadc32f056a9c74ae0f924b6b90ea8fb" prot="public" virt="virtual"><scope>tblink_rpc::DpiEndpointEvent</scope><name>kind</name></member>
       <member refid="classtblink__rpc_1_1IEndpointEvent_1a328eb59ee9b4801d5d14583b1f9f0fdf" prot="public" virt="non-virtual"><scope>tblink_rpc::DpiEndpointEvent</scope><name>kind_t</name></member>

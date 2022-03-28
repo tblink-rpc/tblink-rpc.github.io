@@ -43,8 +43,10 @@ namespace  tblink_rpc {
 	class  IParamValInt;
 	class  IParamValBool;
 	class  IParamValVec;
+	class  TbLink;
+	
 	 
-#line 25 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 27 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -98,11 +100,11 @@ class IParamVal { public:
 
 
 #line 36 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 25 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 27 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 26 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 28 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 26 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 28 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -145,11 +147,11 @@ class IParamValInt : public IParamVal { public:
 
 
 #line 25 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 26 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 28 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 27 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 29 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 27 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 29 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -197,11 +199,11 @@ class IParamValMap : public IParamVal { public:
 
 
 #line 29 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 27 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 29 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 28 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 30 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 28 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 30 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -241,11 +243,11 @@ class IParamValStr : public IParamVal { public:
 
 
 #line 21 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 28 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 30 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 29 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 31 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 29 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 31 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -307,11 +309,11 @@ class IParamValVec : public IParamVal { public:
 
 
 #line 39 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 29 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 31 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 30 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 32 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 30 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 32 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -351,12 +353,12 @@ class IParamValBool : public IParamVal { public:
 
 
 #line 22 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 30 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 32 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 31 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 33 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	
 	 
-#line 32 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 34 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -406,11 +408,11 @@ class IType { public:
 
 
 #line 31 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 32 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 34 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 33 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 35 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 33 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 35 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -456,11 +458,11 @@ class ITypeInt : public IType { public:
 
 
 #line 26 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 33 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 35 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 34 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 36 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 34 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 36 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -504,11 +506,11 @@ class ITypeMap : public IType { public:
 
 
 #line 25 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 34 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 36 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 35 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 37 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 35 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 37 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -548,12 +550,12 @@ class ITypeVec : public IType { public:
 
 
 #line 21 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 35 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-
-
 #line 37 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+
+#line 39 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 37 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 39 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -596,11 +598,11 @@ class IMethodTypeBuilder { public:
 
 
 #line 23 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 37 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 39 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 38 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 40 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 38 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 40 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -652,11 +654,11 @@ class IMethodType { public:
 
 
 #line 34 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 38 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 40 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 39 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 41 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 39 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 41 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -731,123 +733,10 @@ class IInterfaceTypeBuilder { public:
 
 
 #line 57 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 39 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-
-#line 40 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-	
-	 
-#line 41 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-
-#line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-
-#line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-
-#line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-/****************************************************************************
- * IInterfaceFactoryBase.svh
- ****************************************************************************/ 
-#line 6 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-
-#line 6 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-  
-
-#line 11 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-
-#line 11 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-
-#line 11 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-
-#line 11 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-/**
- * Class: IInterfaceFactoryBase
- * 
- * TODO: Add class documentation
- */ 
-#line 12 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-class IInterfaceFactoryBase { public: 
-	
-	virtual  string name() {
-		$display("TbLink Error: IInterfaceFactoryBase::name not implemented");
-		$finish(1);
-		return "";
-	}
-
-#line 20 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-	virtual  IInterfaceType defineType(IEndpoint ep) {
-		$display("TbLink Error: IInterfaceFactoryBase::defineType not implemented");
-		$finish(1);
-		return null;
-	}
-	
-	virtual  tblink_rpc::IInterfaceImpl createIfImpl(
-		tblink_rpc::IInterfaceInst		ifinst,
-		bit								is_mirror) {
-		$display("TbLink Error: IInterfaceFactoryBase::createIfImpl not implemented");
-		$finish(1);
-		return null;
-	}
-	
-
-
-#line 36 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-};
-
-
-
-#line 40 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 41 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 42 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-	 
-#line 42 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-
-#line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-
-#line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-
-#line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-/****************************************************************************
- * IInterfaceFactory.svh
- ****************************************************************************/ 
-#line 6 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-
-#line 6 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-  
-
-#line 11 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-
-#line 11 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-
-#line 11 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-
-#line 11 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-/**
- * Class: IInterfaceFactory
- * 
- * TODO: Add class documentation
- */ 
-#line 12 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-template  <typename T> class IInterfaceFactory : public IInterfaceFactoryBase { public: 
 	
-	static T				m_inst = new();
-
-#line 16 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-	static  T inst() {
-		return m_inst;
-	}
-
-
-#line 21 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-};
-
-
-
-#line 25 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 42 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-
-#line 43 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
 #line 43 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -941,17 +830,24 @@ class IInterfaceInst { public:
 	virtual  IEndpoint endpoint() {
 		$display("TbLink Error: IInterfaceInst::endpoint not implemented");
 		$finish();
+		return null;
 	}
 	
 	virtual  string name() {
+		$display("TbLink Error: IInterfaceInst::name not implemented");
+		$finish();
 		return "";
 	}
 	
 	virtual  IInterfaceType iftype() {
+		$display("TbLink Error: IInterfaceInst::iftype not implemented");
+		$finish();
 		return null;
 	}
 	
 	virtual  bit is_mirror() {
+		$display("TbLink Error: IInterfaceInst::is_mirror not implemented");
+		$finish();
 		return 0;
 	}
 	
@@ -976,7 +872,7 @@ class IInterfaceInst { public:
 		IParamVal					retval) {
 	}
 
-#line 57 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 64 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	virtual  IParamValBool mkValBool(
 		int unsigned		val) {
 		return null;
@@ -1011,7 +907,7 @@ class IInterfaceInst { public:
 
 
 
-#line 91 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 98 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 44 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 45 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -1049,6 +945,8 @@ class IInterfaceInst { public:
 class IInterfaceImpl { public: 
 	
 	virtual  void init(IInterfaceInst ifinst) {
+		$display("TbLink Error: IInterfaceImpl::init not implemented");
+		$finish();
 	}
 	
 	virtual  IParamVal invoke_nb(
@@ -1060,7 +958,7 @@ class IInterfaceImpl { public:
 		return null;
 	}
 
-#line 27 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 29 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	virtual task invoke_b(
 		output IParamVal		retval,
 		input IInterfaceInst	ifinst,
@@ -1074,12 +972,100 @@ class IInterfaceImpl { public:
 
 
 
-#line 40 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 42 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 45 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 46 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
 #line 46 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+/****************************************************************************
+ * IInterfaceImplFactory.svh
+ ****************************************************************************/ 
+#line 5 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 5 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+  
+
+#line 10 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 10 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 10 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 10 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+/**
+ * Class: IInterfaceImplFactory
+ * 
+ * TODO: Add class documentation
+ */ 
+#line 11 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+class IInterfaceImplFactory { public: 
+	
+	virtual  IInterfaceImpl createImpl() {
+		$display("TbLink Error: IInterfaceImplFactory::createImpl unimplemented");
+		$finish();
+		return null;
+	}
+
+#line 19 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+};
+
+
+
+#line 23 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 46 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 47 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+	 
+#line 47 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+/****************************************************************************
+ * InterfaceImplFactoryBase.svh
+ ****************************************************************************/ 
+#line 5 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+
+#line 9 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 9 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 9 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 9 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+/**
+ * Class: InterfaceImplFactoryBase
+ * 
+ * TODO: Add class documentation
+ */ 
+#line 10 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+template  <typename T> class InterfaceImplFactoryBase : public IInterfaceImplFactory { public: 
+
+#line 12 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+	virtual  IInterfaceImpl createImpl() {
+		T ret = new();
+		return ret;
+	}
+
+#line 17 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+};
+
+
+
+#line 21 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 47 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 48 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+	 
+#line 48 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -1117,6 +1103,130 @@ class IInterfaceImplProxy : public IInterfaceImpl { public:
 	virtual  bit is_mirror() {
 		$display("TbLink Error: IInterfaceImplProxy::is_mirror unimplemented");
 		$finish(1);
+		return 0;
+	}
+
+#line 24 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+};
+
+
+
+#line 28 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 48 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 49 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+	 
+#line 49 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+/****************************************************************************
+ * IInterfaceTypeRgy.svh
+ ****************************************************************************/ 
+#line 5 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 5 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+  
+
+#line 10 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 10 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 10 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 10 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+/**
+ * Class: IInterfaceTypeRgy
+ * 
+ * TODO: Add class documentation
+ */ 
+#line 11 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+class IInterfaceTypeRgy { public: 
+	
+	virtual  string name() {
+		$display("TbLink Error: IInterfaceTypeRgy::name not implemented");
+		$finish(1);
+		return "";
+	}
+
+#line 19 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+	virtual  IInterfaceType defineType(IEndpoint ep) {
+		$display("TbLink Error: IInterfaceTypeRgy::defineType not implemented");
+		$finish(1);
+		return null;
+	}
+	
+	virtual  tblink_rpc::IInterfaceImplFactory getImplFactory() {
+		$display("TbLink Error: IInterfaceTypeRgy::getImplFactory not implemented");
+		$finish(1);
+		return null;
+	}
+	
+	virtual  void setImplFactory(tblink_rpc::IInterfaceImplFactory f) {
+		$display("TbLink Error: IInterfaceTypeRgy::setImplFactory not implemented");
+		$finish(1);
+	}
+	
+	virtual  tblink_rpc::IInterfaceImplFactory getMirrorImplFactory() {
+		$display("TbLink Error: IInterfaceTypeRgy::getMirrorImplFactory not implemented");
+		$finish(1);
+		return null;
+	}
+	
+	virtual  void setMirrorImplFactory(tblink_rpc::IInterfaceImplFactory f) {
+		$display("TbLink Error: IInterfaceTypeRgy::setMirrorImplFactory not implemented");
+		$finish(1);
+	}
+
+#line 47 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+};
+
+
+
+#line 51 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 49 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 50 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+	 
+#line 50 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+/****************************************************************************
+ * InterfaceTypeRgyBase.svh
+ ****************************************************************************/ 
+#line 5 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+
+#line 9 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 9 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 9 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 9 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+/**
+ * Class: InterfaceTypeRgyBase
+ * 
+ * TODO: Add class documentation
+ */ 
+#line 10 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+template  <typename T> class InterfaceTypeRgyBase : public IInterfaceTypeRgy { public: 
+	static T				m_inst = inst();
+
+#line 13 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+	static  T inst() {
+		if (m_inst == null) {
+			TbLink tblink = TbLink::inst();
+			m_inst = new();
+			tblink.addIfTypeRgy(m_inst);
+		}
+		$display("m_inst: %p", m_inst);
+		return m_inst;
 	}
 
 #line 23 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -1125,11 +1235,118 @@ class IInterfaceImplProxy : public IInterfaceImpl { public:
 
 
 #line 27 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 46 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 50 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 47 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 51 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 47 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 51 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+/****************************************************************************
+ * InterfaceTypeRgy.svh
+ ****************************************************************************/ 
+#line 5 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 5 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+class  TbLink;
+  
+
+#line 11 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 11 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 11 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 11 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+/**
+ * Class: InterfaceTypeRgy
+ * 
+ * TODO: Add class documentation
+ */ 
+#line 12 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+template  <
+		typename T, 
+		string Tn,
+		typename Tf, 
+		typename Tfm> class InterfaceTypeRgy : public InterfaceTypeRgyBase <T>  { public: 
+	typedef InterfaceTypeRgy <T, Tn, Tf, Tfm>  this_t;
+	
+	class  ImplFactoryProxy;
+	class  ImplMirrorFactoryProxy;
+	
+	IInterfaceImplFactory				m_impl_factory;
+	IInterfaceImplFactory				m_impl_mirror_factory;
+	ImplFactoryProxy					m_impl_factory_proxy;
+	ImplMirrorFactoryProxy				m_impl_mirror_factory_proxy;
+	
+	 new() {
+		Tf impl_f = new();
+		Tfm impl_m_f = new();
+		
+		m_impl_factory = impl_f;
+		m_impl_mirror_factory = impl_m_f;
+		
+		m_impl_factory_proxy = new(this);
+		m_impl_mirror_factory_proxy = new(this);
+	}
+	
+	virtual  string name() {
+		return Tn;
+	}
+	
+	virtual  tblink_rpc::IInterfaceImplFactory getImplFactory() {
+		return m_impl_factory;
+	}
+	
+	virtual  void setImplFactory(tblink_rpc::IInterfaceImplFactory f) {
+		m_impl_factory = f;
+	}
+	
+	virtual  tblink_rpc::IInterfaceImplFactory getMirrorImplFactory() {
+		return m_impl_mirror_factory;
+	}
+	
+	virtual  void setMirrorImplFactory(tblink_rpc::IInterfaceImplFactory f) {
+		m_impl_mirror_factory = f;
+	}	
+	
+	class ImplFactoryProxy : public IInterfaceImplFactory { public: 
+		this_t		m_iftype_rgy;
+		
+		 new(this_t iftype_rgy) {
+			m_iftype_rgy = iftype_rgy;
+		}
+		
+		virtual  tblink_rpc::IInterfaceImplFactory getImplFactory() {
+			return m_iftype_rgy.m_impl_factory;
+		}
+	};
+
+#line 70 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+	class ImplMirrorFactoryProxy : public IInterfaceImplFactory { public: 
+		this_t		m_iftype_rgy;
+		
+		 new(this_t iftype_rgy) {
+			m_iftype_rgy = iftype_rgy;
+		}
+		
+		virtual  tblink_rpc::IInterfaceImplFactory getImplFactory() {
+			return m_iftype_rgy.m_impl_mirror_factory;
+		}
+	};
+};
+
+
+
+#line 85 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 51 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 52 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+	 
+#line 52 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -1272,7 +1489,10 @@ class IEndpoint { public:
 		return null;
 	}
 	
-	virtual  IInterfaceType defineInterfaceType(IInterfaceTypeBuilder iftype_b) {
+	virtual  IInterfaceType defineInterfaceType(
+		IInterfaceTypeBuilder 		iftype_b,
+		IInterfaceImplFactory		impl_f,
+		IInterfaceImplFactory		impl_mirror_f) {
 		$display("TbLink Error: IEndpoint::defineInterfaceType not implemented");
 		$finish(1);
 		return null;
@@ -1288,14 +1508,14 @@ class IEndpoint { public:
 		return null;
 	}
 
-#line 141 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 144 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	
 
-#line 143 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 146 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 /**
 	 * Process a message, returning -1 on error
 	 */ 
-#line 144 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 147 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	virtual  int process_one_message() {
 		$display("TbLink Error: IEndpoint::process_one_message not implemented");
 		$finish(1);
@@ -1313,17 +1533,17 @@ class IEndpoint { public:
 		$finish(1);
 	}
 
-#line 161 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 164 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 };
 
 
 
-#line 165 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 47 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 168 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 52 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 48 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 53 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 48 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 53 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -1368,11 +1588,11 @@ class IEndpointEvent { public:
 
 
 #line 26 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 48 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 53 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 49 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 54 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 49 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 54 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -1415,11 +1635,11 @@ class IEndpointListener { public:
 
 
 #line 23 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 49 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 54 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 50 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 55 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 50 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 55 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -1453,7 +1673,7 @@ class IEndpointServices { public:
 	virtual  void init(IEndpoint ep) {
 	}
 		
-	virtual  args(ref string argv[$]) {
+	virtual  void args(ref string argv[$]) {
 		argv = {};
 	}
 		
@@ -1478,25 +1698,16 @@ class IEndpointServices { public:
 		return -1;
 	}
 		
-	virtual  void run_until_event() {
-	}
-		
-	virtual  void hit_event() {
-	}
-		
-	virtual  void idle() {
-	}
-		
 };
 
 
 
+#line 46 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 55 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 50 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 51 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 56 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 51 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 56 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -1529,20 +1740,21 @@ class IEndpointServicesFactory { public:
 	virtual  IEndpointServices create() {
 		$display("TbLink Error: IEndpointServicesFactory::create unimplemented");
 		$finish();
+		return null;
 	}
 
-#line 18 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 19 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 };
 
 
 
-#line 22 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 51 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 23 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 56 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 52 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 57 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	
 	 
-#line 53 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 58 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -1609,11 +1821,11 @@ class ILaunchParams { public:
 
 
 #line 48 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 53 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 58 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 54 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 59 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 54 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 59 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -1665,12 +1877,12 @@ class ILaunchType { public:
 
 
 #line 33 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 54 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 59 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 
-#line 56 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 61 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 56 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 61 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -1722,11 +1934,11 @@ class ITbLinkEvent { public:
 
 
 #line 32 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 56 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 61 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 57 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 62 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 57 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 62 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -1770,12 +1982,12 @@ class ITbLinkListener { public:
 
 
 #line 24 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 57 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 62 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 58 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 63 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	
 	 
-#line 59 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 64 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -1850,12 +2062,12 @@ class TbLinkThread { public:
 
 
 #line 55 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 59 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 64 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 
-#line 61 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 66 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 61 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 66 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -1911,11 +2123,11 @@ class DpiTypeInt : public ITypeInt { public:
 
 
 #line 35 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 61 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 66 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 62 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 67 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 62 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 67 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -1956,11 +2168,11 @@ class DpiTypeMap : public ITypeMap { public:
 
 
 #line 22 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 62 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 67 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 63 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 68 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 63 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 68 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -2003,11 +2215,11 @@ class DpiTypeVec : public ITypeVec { public:
 
 
 #line 23 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 63 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 68 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 64 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 69 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 64 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 69 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -2109,11 +2321,11 @@ class DpiType : public IType { public:
 
 
 #line 82 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 64 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 69 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 65 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 70 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 65 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 70 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -2254,11 +2466,11 @@ class DpiParamVal : public IParamVal { public:
 
 
 #line 119 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 65 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 70 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 66 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 71 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 66 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 71 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -2279,11 +2491,12 @@ IInterfaceImpl prv_hndl2impl[chandle];
 
 #line 10 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 class  DpiEndpoint;
+class  DpiInterfaceType;
 class  DpiMethodType;
 class  DpiParamValMap;
 class  DpiParamValStr;
 
-#line 15 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 16 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 class DpiInterfaceInstInvokeClosure { public: 
 	chandle				m_hndl;
 	IParamVal			m_retval;
@@ -2291,7 +2504,7 @@ class DpiInterfaceInstInvokeClosure { public:
  
 				  
 
-#line 22 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 23 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	
 	 new() {
 		m_hndl = tblink_rpc_IInterfaceInstInvokeClosure_new();
@@ -2307,42 +2520,49 @@ class DpiInterfaceInstInvokeClosure { public:
  
 		
 
-#line 37 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 38 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	}
 };
 
-#line 40 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 41 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 DpiInterfaceInstInvokeClosure prv_closure_m[chandle];
   
 
-#line 46 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 47 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 46 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 47 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 46 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 47 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 46 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 47 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 /**
  * Class: DpiInterfaceInst
  * 
  * TODO: Add class documentation
  */ 
-#line 47 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 48 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 class DpiInterfaceInst : public IInterfaceInst { public: 
 	chandle				m_hndl;
 
-#line 50 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 51 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 new(chandle hndl) {
 		m_hndl = hndl;
 	}
 
-#line 54 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 55 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	virtual  void set_impl(IInterfaceImpl impl) {
 		prv_hndl2impl[m_hndl] = impl;
 	}
 	
 	virtual  IInterfaceImpl get_impl() {
 		return prv_hndl2impl[m_hndl];
+	}
+	
+	virtual  IInterfaceType iftype() {
+		chandle iftype_h = tblink_rpc_IInterfaceInst_iftype(m_hndl);
+		DpiInterfaceType iftype_i = new(iftype_h);
+		
+		return iftype_i;
 	}
 	
 	virtual  IEndpoint endpoint() {
@@ -2358,7 +2578,7 @@ class DpiInterfaceInst : public IInterfaceInst { public:
 		DpiMethodType method_dpi;
 		chandle params_h;
 
-#line 75 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 83 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 		$display("Add %0p to map", closure.m_hndl);
 		prv_closure_m[closure.m_hndl] = closure;
 		
@@ -2368,13 +2588,13 @@ class DpiInterfaceInst : public IInterfaceInst { public:
 		$display("m_hndl=%0p method_h=%0p params_h=%0p closure_h=%0p",
 				m_hndl, method_dpi.m_hndl, params_h,
 				closure.m_hndl);
-		void(tblink_rpc_IInterfaceInst_invoke_nb(
+		void(tblink_rpc_IInterfaceInst_invoke(
 				m_hndl,
 				method_dpi.m_hndl,
 				params_h,
 				closure.m_hndl));
 
-#line 90 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 98 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 		if (!closure.m_valid) {
 			chandle ep_h = tblink_rpc_IInterfaceInst_endpoint(m_hndl);
 			while (!closure.m_valid) {
@@ -2396,9 +2616,50 @@ class DpiInterfaceInst : public IInterfaceInst { public:
 		output IParamVal			retval,
 		input  IMethodType			method,
 		input  IParamValVec			params) {
-		retval = null;
-		$display("TbLink Error: IInterfaceInst::invoke_b not implemented");
-		$finish();
+		DpiInterfaceInstInvokeClosure	closure = new();
+		DpiMethodType method_dpi;
+		chandle params_h;
+
+#line 123 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+		$display("Add %0p to map", closure.m_hndl);
+		prv_closure_m[closure.m_hndl] = closure;
+		
+		$cast(method_dpi, method);
+		params_h = DpiParamVal::getHndl(params);
+	
+		$display("m_hndl=%0p method_h=%0p params_h=%0p closure_h=%0p",
+				m_hndl, method_dpi.m_hndl, params_h,
+				closure.m_hndl);
+		void(tblink_rpc_IInterfaceInst_invoke(
+					m_hndl,
+					method_dpi.m_hndl,
+					params_h,
+					closure.m_hndl));
+
+#line 138 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+ 
+		
+		
+		
+
+#line 143 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+		if (!closure.m_valid) {
+			chandle ep_h = tblink_rpc_IInterfaceInst_endpoint(m_hndl);
+			while (!closure.m_valid) {
+				if (tblink_rpc_IEndpoint_process_one_message(ep_h) == -1) {
+					break;
+				}
+			}
+		}
+
+
+#line 153 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+		// Expect closure to have been invoked 
+		$display("Remove %0p from map", closure.m_hndl);
+		prv_closure_m.delete(closure.m_hndl);
+		closure.dispose();
+	
+		retval = closure.m_retval;
 	}
 	
 	virtual  void invoke_rsp(
@@ -2472,33 +2733,33 @@ class DpiInterfaceInst : public IInterfaceInst { public:
 		return ret;
 	}	
 
-#line 187 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 232 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 };
 
 
-#line 201 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 246 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 201 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 246 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 201 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 246 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 201 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 246 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 201 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 246 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 201 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 246 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 201 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 246 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 201 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 246 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 201 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 246 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 201 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 246 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 201 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 246 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 201 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 246 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 /**
  * Function: tblink_rpc_invoke_rsp
  * 
@@ -2512,7 +2773,7 @@ class DpiInterfaceInst : public IInterfaceInst { public:
  * Returns:
  *   void
  */ 
-#line 202 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 247 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
  automatic void tblink_rpc_closure_invoke_rsp(
 		chandle			closure_h,
 		chandle			retval_h) {
@@ -2523,16 +2784,19 @@ class DpiInterfaceInst : public IInterfaceInst { public:
 }
 
 
-#line 212 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 257 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
  chandle tblink_rpc_IInterfaceInstInvokeClosure_new() {}
  void tblink_rpc_IInterfaceInstInvokeClosure_dispose(
 		chandle			closure) {}
 		
  chandle tblink_rpc_IInterfaceInst_endpoint(
 		chandle			ifinst) {}
+		
+ chandle tblink_rpc_IInterfaceInst_iftype(
+		chandle			ifinst) {}
 
-#line 219 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
- int tblink_rpc_IInterfaceInst_invoke_nb(
+#line 267 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+ int tblink_rpc_IInterfaceInst_invoke(
 		chandle			ifinst,
 		chandle			method,
 		chandle			params,
@@ -2561,12 +2825,12 @@ class DpiInterfaceInst : public IInterfaceInst { public:
 		chandle				ifinst) {}
 
 
-#line 248 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 66 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 296 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 71 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 67 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 72 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 67 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 72 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -2622,12 +2886,12 @@ class DpiMethodTypeBuilder : public IMethodTypeBuilder { public:
 
 
 #line 35 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 67 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 72 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 68 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 73 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	
 	 
-#line 69 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 74 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -2801,11 +3065,11 @@ class DpiInterfaceTypeBuilder : public IInterfaceTypeBuilder { public:
 	
 
 #line 152 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 69 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 74 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 70 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 75 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 70 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 75 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -2872,11 +3136,11 @@ class DpiInterfaceType : public IInterfaceType { public:
 
 
 #line 44 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 70 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 75 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 71 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 76 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 71 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 76 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -2952,11 +3216,11 @@ class DpiLaunchParams : public ILaunchParams { public:
 
 
 #line 55 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 71 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 76 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 72 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 77 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 72 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 77 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -3009,11 +3273,11 @@ ILaunchParams prv_proxy_params_m[chandle];
 
 
 #line 41 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 72 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 77 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 73 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 78 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 73 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 78 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -3077,11 +3341,11 @@ class DpiMethodType : public IMethodType { public:
 
 
 #line 43 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 73 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 78 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 74 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 79 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 74 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 79 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -3143,11 +3407,11 @@ class DpiParamValBool : public IParamValBool { public:
 
 
 #line 39 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 74 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 79 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 75 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 80 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 75 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 80 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -3217,11 +3481,11 @@ class DpiParamValInt : public IParamValInt { public:
 
 
 #line 49 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 75 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 80 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 76 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 81 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 76 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 81 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -3303,11 +3567,11 @@ class DpiParamValMap : public IParamValMap { public:
 
 
 #line 62 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 76 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 81 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 77 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 82 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 77 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 82 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -3364,15 +3628,18 @@ class DpiParamValStr : public IParamValStr { public:
 #line 36 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
  string tblink_rpc_IParamValStr_val(
 	chandle 				hndl) {}
+	
+ chandle tblink_rpc_IParamValStr_new(
+	string					val) {}
 
 
 
-#line 41 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 77 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 44 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 82 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 78 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 83 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 78 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 83 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -3448,11 +3715,11 @@ class DpiParamValVec : public IParamValVec { public:
 
 
 #line 56 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 78 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 83 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 79 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 84 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 79 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 84 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -3461,7 +3728,7 @@ class DpiParamValVec : public IParamValVec { public:
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 /****************************************************************************
- * DpiInterfaceImpl.svh
+ * DpiBfmInterfaceImpl.svh
  ****************************************************************************/ 
 #line 6 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
@@ -3486,7 +3753,7 @@ class DpiParamValVec : public IParamValVec { public:
 
 #line 16 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 /**
- * Class: DpiInterfaceImpl
+ * Class: DpiBfmInterfaceImpl
  * 
  * This interface-implementation proxy deals with
  * environments that don't have support for virtual
@@ -3496,7 +3763,7 @@ class DpiParamValVec : public IParamValVec { public:
  * Note: This is only supported with a DPI endpoint
  */ 
 #line 17 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-class DpiInterfaceImpl : public IInterfaceImpl { public: 
+class DpiBfmInterfaceImpl : public IInterfaceImpl { public: 
 	string				m_inst_path;
 
 #line 20 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -3599,12 +3866,146 @@ task tblink_rpc_invoke_b_dpi_bfm(
 
 
 #line 113 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 79 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 84 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-
-#line 81 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 85 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 81 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 85 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+/****************************************************************************
+ * DpiInterfaceImplFactoryProxy.svh
+ ****************************************************************************/ 
+#line 5 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 5 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+IInterfaceImplFactory	prv_dpi_ifimpl_factory_m[chandle];
+
+#line 7 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+ automatic chandle newDpiInterfaceImplFactoryProxy(
+	IInterfaceImplFactory		factory) {
+	chandle proxy = tblink_rpc_DpiInterfaceImplFactoryProxy_new();
+	prv_dpi_ifimpl_factory_m[proxy] = factory;
+	return proxy;
+}
+
+#line 14 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+ chandle tblink_rpc_DpiInterfaceImplFactoryProxy_new() {}
+
+#line 16 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+ automatic chandle tblink_rpc_DpiInterfaceImplFactory_createImpl(
+	chandle			proxy) {
+	chandle ifimpl_h;
+	IInterfaceImplFactory f = prv_dpi_ifimpl_factory_m[proxy];
+	IInterfaceImpl impl = f.createImpl();
+	ifimpl_h = newDpiInterfaceImplProxy(impl);
+	return ifimpl_h;
+}
+
+
+#line 26 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+//function automatic  
+	
+
+
+#line 30 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 85 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 86 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+	 
+#line 86 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+/****************************************************************************
+ * DpiInterfaceImplProxy.svh
+ ****************************************************************************/ 
+#line 5 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 5 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+IInterfaceImpl prv_dpi_ifimpl_m[chandle];
+
+#line 7 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+ automatic chandle newDpiInterfaceImplProxy(IInterfaceImpl ifimpl) {
+	chandle proxy = tblink_rpc_DpiInterfaceImplProxy_new();
+	prv_dpi_ifimpl_m[proxy] = ifimpl;
+	return proxy;
+}
+
+#line 13 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+class  TbLinkInvokeB;
+
+#line 15 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+ automatic void tblink_rpc_DpiInterfaceImplProxy_invoke(
+	chandle			proxy_h,
+	chandle			ifinst_h,
+	chandle			method_h,
+	longint			call_id,
+	chandle			params_h) {
+	IInterfaceImpl		ifimpl = prv_dpi_ifimpl_m[proxy_h];
+	DpiInterfaceInst	ifinst = new(ifinst_h);
+	DpiMethodType		method = new(method_h);
+	DpiParamValVec		params = new(params_h);
+		
+	$display("tblink_rpc_invoke: params_h=%p", params_h);
+	
+	if (method.is_blocking() != 0) {
+		TbLink tblink = TbLink::inst();
+		IParamVal params_val_c;
+		IParamValVec params_c;
+		TbLinkInvokeB	invoke_t;
+			
+		 
+			  
+				
+			
+		
+			
+		params_val_c = params.clone();
+		$cast(params_c, params_val_c);
+			
+		// Invoke indirectly 
+		invoke_t = new(
+				ifimpl,
+				ifinst,
+				method,
+				call_id,
+				params_c);
+			
+		// Know this never blocks 
+		tblink.queue_thread(invoke_t);
+	} else {
+		// Invoke directly 
+		IInterfaceImpl ifimpl = ifinst.get_impl();
+		IParamVal retval;
+			
+		retval = ifimpl.invoke_nb(
+				ifinst,
+				method,
+				params);
+		
+		ifinst.invoke_rsp(call_id, retval);
+	}	
+	
+}
+
+
+#line 69 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+ chandle tblink_rpc_DpiInterfaceImplProxy_new() {}
+
+
+#line 72 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 86 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+
+#line 88 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+	 
+#line 88 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -3639,40 +4040,45 @@ IEndpointServices prv_dpi_services_m[chandle];
 
 
 #line 25 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+ automatic longint unsigned tblink_rpc_DpiEndpointServicesProxy_time(
+	chandle				hndl) {
+	IEndpointServices services = prv_dpi_services_m[hndl];
+	return services.get_time();
+}
+
+
+#line 32 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
  automatic void tblink_rpc_DpiEndpointServicesProxy_shutdown(chandle hndl) {
 	IEndpointServices services = prv_dpi_services_m[hndl];
 	services.shutdown();
 }
 
 
-#line 31 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
- automatic void tblink_rpc_DpiEndpointServicesProxy_run_until_event(chandle hndl) {
+#line 38 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+ automatic void tblink_rpc_DpiEndpointServicesProxy_args(
+	chandle hndl,
+	chandle vec_h) {
+	string args[$];
 	IEndpointServices services = prv_dpi_services_m[hndl];
-	services.run_until_event();
-}
+	DpiParamValVec vec = new(vec_h);
+	services.args(args);
 
-
-#line 37 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
- automatic void tblink_rpc_DpiEndpointServicesProxy_hit_event(chandle hndl) {
-	IEndpointServices services = prv_dpi_services_m[hndl];
-	services.hit_event();
-}
-
-
-#line 43 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
- automatic void tblink_rpc_DpiEndpointServicesProxy_idle(chandle hndl) {
-	IEndpointServices services = prv_dpi_services_m[hndl];
-	services.idle();
+#line 46 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+	foreach (args[i]) {
+		DpiParamValStr s = new(tblink_rpc_IParamValStr_new(args[i]));
+		vec.push_back(s);
+	}
 }
 
 
 
-#line 50 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 81 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 82 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 55 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 88 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 89 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 82 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 89 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -3821,15 +4227,30 @@ class DpiEndpoint : public IEndpoint { public:
 		return ret;
 	}
 		
-	virtual  IInterfaceType defineInterfaceType(IInterfaceTypeBuilder iftype_b) {
+	virtual  IInterfaceType defineInterfaceType(
+		IInterfaceTypeBuilder 		iftype_b,
+		IInterfaceImplFactory		impl_f,
+		IInterfaceImplFactory		impl_mirror_f) {
 		DpiInterfaceTypeBuilder builder_dpi;
 		DpiInterfaceType ret;
 		chandle iftype_h;
+		chandle impl_f_proxy;
+		chandle impl_mirror_f_proxy;
+		
+		if (impl_f != null) {
+			impl_f_proxy = newDpiInterfaceImplFactoryProxy(impl_f);
+		}
+		
+		if (impl_mirror_f != null) {
+			impl_mirror_f_proxy = newDpiInterfaceImplFactoryProxy(impl_mirror_f);
+		}
 		
 		$cast(builder_dpi, iftype_b);
 		iftype_h = tblink_rpc_IEndpoint_defineInterfaceType(
 				m_hndl,
-				builder_dpi.m_hndl);
+				builder_dpi.m_hndl,
+				impl_f_proxy,
+				impl_mirror_f_proxy);
 		ret = new(iftype_h);
 		
 		return ret;
@@ -3844,17 +4265,25 @@ class DpiEndpoint : public IEndpoint { public:
 		DpiInterfaceType iftype_dpi;
 		DpiInterfaceInst ifinst;
 		chandle ifinst_h;
+		chandle ifimpl_h = newDpiInterfaceImplProxy(ifinst_impl);
+
+#line 169 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 		
-		$cast(iftype_dpi, iftype);
+		if (!$cast(iftype_dpi, iftype)) {
+			$display("TbLink Error: Interface type %0s doesn't match DPI endpoint", iftype.name());
+			$finish();
+			return null;
+		}
 		
 		ifinst_h = _tblink_rpc_IEndpoint_defineInterfaceInst(
 				m_hndl,
 				iftype_dpi.m_hndl,
 				inst_name,
-				is_mirror);
+				is_mirror,
+				ifimpl_h);
 		
 		ifinst = new(ifinst_h);
-		ifinst.set_impl(ifinst_impl);
+		ifinst_impl.init(ifinst);
 		
 		return ifinst;
 	}
@@ -3878,7 +4307,7 @@ class DpiEndpoint : public IEndpoint { public:
 		}
 	}
 
-#line 186 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 208 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
 	 
 		  
@@ -3899,7 +4328,7 @@ class DpiEndpoint : public IEndpoint { public:
 	
 	
 
-#line 206 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 228 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	// For environments with support for blocking tasks, 
 	// we need to run the main loop from within a task 
 	task run() {
@@ -3909,7 +4338,7 @@ class DpiEndpoint : public IEndpoint { public:
 		if (!m_running) {
 			m_running = 1;
 
-#line 215 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 237 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 			// Launch  
 			m_started = 1;
 			 
@@ -3928,7 +4357,7 @@ class DpiEndpoint : public IEndpoint { public:
 	}
 };
 
-#line 233 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 255 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
  DpiEndpoint mkDpiEndpoint(chandle hndl) {
 	DpiEndpoint ret;
 	
@@ -3938,16 +4367,16 @@ class DpiEndpoint : public IEndpoint { public:
 	return ret;
 }
 
-#line 242 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 264 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
  int tblink_rpc_IEndpoint_getFlags(
 	chandle endpoint_h) {}
 
-#line 245 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 267 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
  void tblink_rpc_IEndpoint_setFlag(
 	chandle endpoint_h, 
 	int f) {}
 
-#line 249 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 271 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
  int tblink_rpc_IEndpoint_init(
 	chandle endpoint_h, 
 	chandle services_h) {}
@@ -3972,7 +4401,9 @@ class DpiEndpoint : public IEndpoint { public:
 	
  chandle tblink_rpc_IEndpoint_defineInterfaceType(
 	chandle		endpoint_h,
-	chandle 	iftype_builder_h) {}
+	chandle 	iftype_builder_h,
+	chandle		ifimpl_f_h,
+	chandle		ifimpl_mirror_f_h) {}
 	
  int unsigned tblink_rpc_IEndpoint_getInterfaceInstCount(
 	chandle		endpoint_h) {}
@@ -3980,34 +4411,12 @@ class DpiEndpoint : public IEndpoint { public:
 	chandle				endpoint_h,
 	int unsigned		idx) {}
 	
-
-#line 282 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
- 
-  
-				
-				
-				
-	 	
-		
-	  
-	
-	  
-	    
-			
-			
-			
-			
-	  
-	 
-
-
-#line 301 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-	
  chandle _tblink_rpc_IEndpoint_defineInterfaceInst(
 	chandle			endpoint_h,
 	chandle			iftype_h,
 	string			inst_name,
-	int unsigned	is_mirror) {}
+	int unsigned	is_mirror,
+	chandle			ifimpl_h) {}
 	
  int tblink_rpc_IEndpoint_process_one_message(
 	chandle			endpoint_h) {}
@@ -4015,12 +4424,12 @@ class DpiEndpoint : public IEndpoint { public:
 	
 
 
-#line 314 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 82 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 318 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 89 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 83 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 90 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 83 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 90 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -4068,11 +4477,11 @@ class DpiEndpointEvent : public IEndpointEvent { public:
 
 
 #line 28 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 83 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 90 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 84 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 91 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 84 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 91 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -4128,11 +4537,11 @@ chandle prv_listener_dpi_m[IEndpointListener];
 
 
 #line 43 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 84 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 91 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 85 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 92 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 85 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 92 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -4196,16 +4605,16 @@ class DpiEndpointLoopbackDpi : public DpiEndpoint { public:
  chandle tblink_rpc_DpiEndpointLoopback_new() {}
 
 #line 44 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 85 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 92 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 86 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 93 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
  
 	 
 
-#line 89 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 96 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	
 	 
-#line 90 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 97 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -4294,12 +4703,12 @@ class DpiLaunchType : public ILaunchType { public:
 
 
 #line 68 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 90 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 97 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 
-#line 92 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 99 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 92 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 99 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -4347,11 +4756,11 @@ class DpiTbLinkEvent : public ITbLinkEvent { public:
 
 
 #line 28 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 92 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 99 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 93 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 100 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 93 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 100 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -4390,12 +4799,12 @@ ITbLinkListener prv_dpi_tblink_listener_m[chandle];
 
 
 #line 28 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 93 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 100 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 
-#line 95 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 102 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 95 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 102 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -4452,11 +4861,11 @@ class SVTypeInt : public ITypeInt { public:
 
 
 #line 37 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 95 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 102 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 96 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 103 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 96 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 103 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -4506,11 +4915,11 @@ class SVTypeMap : public ITypeMap { public:
 
 
 #line 29 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 96 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 103 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 97 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 104 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 97 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 104 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -4562,11 +4971,11 @@ class SVTypeVec : public ITypeVec { public:
 
 
 #line 31 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 97 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 104 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 98 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 105 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 98 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 105 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -4614,12 +5023,12 @@ class SVType : public IType { public:
 
 
 #line 27 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 98 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 105 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 
-#line 100 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 107 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 100 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 107 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -4663,11 +5072,11 @@ class SVParamVal : public IParamVal  { public:
 
 
 #line 23 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 100 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 107 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 101 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 108 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 101 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 108 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -4718,11 +5127,11 @@ class SVParamValBool : public IParamValBool { public:
 
 
 #line 30 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 101 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 108 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 102 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 109 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 102 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 109 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -4786,11 +5195,11 @@ class SVParamValInt : public IParamValInt { public:
 
 
 #line 43 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 102 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 109 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 103 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 110 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 103 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 110 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -4864,11 +5273,11 @@ class SVParamValMap : public IParamValMap { public:
 
 
 #line 53 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 103 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 110 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 104 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 111 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 104 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 111 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -4927,11 +5336,11 @@ class SVParamValStr : public IParamValStr { public:
 
 
 #line 38 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 104 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 111 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 105 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 112 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 105 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 112 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -5002,12 +5411,12 @@ class SVParamValVec : public IParamValVec { public:
 
 
 #line 49 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 105 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 112 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 106 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 113 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	
 	 
-#line 107 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 114 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -5088,11 +5497,11 @@ class SVMethodType : public IMethodType { public:
 
 
 #line 61 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 107 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 114 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 108 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 115 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 108 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 115 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -5146,11 +5555,11 @@ class SVMethodTypeBuilder : public IMethodTypeBuilder { public:
 
 
 #line 34 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 108 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 115 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 109 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 116 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 109 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 116 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -5180,14 +5589,19 @@ class SVMethodTypeBuilder : public IMethodTypeBuilder { public:
  */ 
 #line 12 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 template  <typename VIF=IInterfaceImpl> class SVInterfaceImplVif : public IInterfaceImpl { public: 
-	VIF				m_vif;
+	VIF					m_vif;
+	IInterfaceInst		m_ifinst;
 
-#line 15 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 16 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 new(VIF vif) {
 		m_vif = vif;
 	}
+	
+	virtual  void init(IInterfaceInst ifinst) {
+		m_ifinst = ifinst;
+	}
 
-#line 19 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 24 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	virtual  IParamVal invoke_nb(
 		input IInterfaceInst		ifinst,
 		input IMethodType			method,
@@ -5195,7 +5609,7 @@ template  <typename VIF=IInterfaceImpl> class SVInterfaceImplVif : public IInter
 		return m_vif.invoke_nb(ifinst, method, params);
 	}
 
-#line 26 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 31 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	virtual task invoke_b(
 		output IParamVal			retval,
 		input IInterfaceInst		ifinst,
@@ -5204,17 +5618,17 @@ template  <typename VIF=IInterfaceImpl> class SVInterfaceImplVif : public IInter
 		m_vif.invoke_b(retval, ifinst, method, params);
 	}	
 
-#line 34 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 39 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 };
 
 
 
-#line 38 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 109 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 43 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 116 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 110 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 117 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 110 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 117 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -5346,11 +5760,11 @@ class SVInterfaceInst : public IInterfaceInst { public:
 
 
 #line 111 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 110 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 117 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 111 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 118 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 111 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 118 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -5418,11 +5832,11 @@ class SVInterfaceType : public IInterfaceType { public:
 
 
 #line 46 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 111 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 118 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 112 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 119 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 112 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 119 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -5524,11 +5938,11 @@ class SVInterfaceTypeBuilder : public IInterfaceTypeBuilder { public:
 
 
 #line 81 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 112 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 119 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 113 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 120 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 113 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 120 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -5580,11 +5994,11 @@ class SVEndpoint : public IEndpoint { public:
 
 
 #line 33 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 113 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 120 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 114 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 121 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 114 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 121 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -5621,6 +6035,8 @@ class SVEndpoint : public IEndpoint { public:
 		 
 		   
 		 
+		 
+		   
 	
 		
 		     
@@ -5639,11 +6055,12 @@ class SVEndpoint : public IEndpoint { public:
 		
 		
 
-#line 43 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 45 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+		  
 		 
 			  
 
-#line 46 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 49 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 			    
 				
 				
@@ -5657,47 +6074,53 @@ class SVEndpoint : public IEndpoint { public:
 				
 			
 			
-		    
-		
-		    
-			 
-			
-			
-		
-		
-		    
-			
-			
-			
-		
-	
-		
-		 
 			  
-			 
 			
-			    
-				
-				
-				  
-				
-				
-				    
-					
-				  
-					  
-				
-			
-		    
-		
+		        
 		
 		    
 			 
+			
+			
+		
+		
+		    
+			
 			
 			
 		
 
-#line 99 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 78 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+		  
+		
+		 
+			  
+			 
+			
+			    
+				
+				
+				  
+				
+				
+				    
+					
+				  
+					  
+				
+			
+			
+			  
+		        
+		
+		
+		    
+			 
+			
+			
+		
+
+#line 107 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 		
 		    
 			
@@ -5705,7 +6128,9 @@ class SVEndpoint : public IEndpoint { public:
 			
 		
 		
-		
+
+#line 115 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+		  
 		
 		 
 			  
@@ -5723,7 +6148,10 @@ class SVEndpoint : public IEndpoint { public:
 					  
 				
 			
-		    
+			
+			  
+			
+		        
 		
 		    
 			 
@@ -5748,7 +6176,7 @@ class SVEndpoint : public IEndpoint { public:
 		
 		        
 
-#line 149 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 161 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 			
 			
 			    
@@ -5772,7 +6200,7 @@ class SVEndpoint : public IEndpoint { public:
 			
 			
 
-#line 172 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 184 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 			
 			
 			    
@@ -5798,19 +6226,19 @@ class SVEndpoint : public IEndpoint { public:
 
 
 
-#line 197 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 209 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
     
 	   
 	 
 
 
-#line 202 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 214 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
  // VERILATOR 
 	
 class  SVEndpointSequencer;
 class  TbLink;
 
-#line 207 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 219 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 class SVEndpointSequencerThread : public TbLinkThread { public: 
 	
 	SVEndpointSequencer			m_seqr;
@@ -5825,7 +6253,7 @@ class SVEndpointSequencerThread : public TbLinkThread { public:
 	
 };
 
-#line 221 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 233 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 class SVEndpointSequencer : public IEndpointListener { public: 
 	
 	typedef enum {
@@ -5836,7 +6264,7 @@ class SVEndpointSequencer : public IEndpointListener { public:
 		Terminated
 	} seqr_state_e;
 
-#line 231 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 243 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	IEndpoint						m_ep;
 	seqr_state_e					m_state;
 	SVEndpointSequencerThread		m_thread;
@@ -5948,7 +6376,7 @@ class SVEndpointSequencer : public IEndpointListener { public:
 };
 
 
-#line 342 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 354 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
  automatic SVEndpointSequencer mkSVEndpointSequencer(IEndpoint ep) {
 	SVEndpointSequencer seqr = new(ep);
 	SVEndpointSequencerThread thread = new(seqr);
@@ -5960,12 +6388,12 @@ class SVEndpointSequencer : public IEndpointListener { public:
 
 
 
-#line 353 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 114 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 365 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 121 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 115 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 122 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 115 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 122 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -6007,7 +6435,7 @@ class SVEndpointServices : public IEndpointServices { public:
 		m_ep = ep;
 	}
 		
-	virtual  args(ref string argv[$]) {
+	virtual  void args(ref string argv[$]) {
 		argv = {};
 	}
 		
@@ -6019,6 +6447,7 @@ class SVEndpointServices : public IEndpointServices { public:
 		longint						callback_id) {
 		TbLink tblink = TbLink::inst();
 		SVEndpointServicesTimedCB cb = new(this, simtime, callback_id);
+		$display("SVEndpointServices::add_time_cb");
 		m_cb_m[callback_id] = cb;
 		tblink.queue_thread(cb);
 		return 0;
@@ -6026,7 +6455,6 @@ class SVEndpointServices : public IEndpointServices { public:
 	
 	 void notify_time_cb(
 		longint						callback_id) {
-		$display("notify_time_cb %0t", $time);
 		m_cb_m.delete(callback_id);
 		m_ep.notify_callback(callback_id);
 	}
@@ -6047,26 +6475,101 @@ class SVEndpointServices : public IEndpointServices { public:
 		return tblink.getTimePrecision();
 	}
 		
-	virtual  void run_until_event() {
-	}
-		
-	virtual  void hit_event() {
-	}
-		
-	virtual  void idle() {
-	}
-
-#line 73 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 };
 
 
 
-#line 77 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 115 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 68 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 122 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 116 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 123 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 116 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 123 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+/****************************************************************************
+ * SVEndpointServicesProxy.svh
+ ****************************************************************************/ 
+#line 5 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 5 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+  
+
+#line 10 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 10 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 10 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 10 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+/**
+ * Class: SVEndpointServicesProxy
+ * 
+ * TODO: Add class documentation
+ */ 
+#line 11 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+class SVEndpointServicesProxy : public IEndpointServices { public: 
+	
+	IEndpointServices				m_core;
+	bit								m_override_args = 0;
+	string							m_args[$];
+
+#line 17 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+	 new(IEndpointServices core) {
+		m_core = core;
+	}
+
+#line 21 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+	virtual  void init(IEndpoint ep) {
+		m_core.init(ep);
+	}
+		
+	virtual  void args(ref string argv[$]) {
+		$display("SVEndpointServicesProxy::args %0d", m_override_args);
+		argv = {};
+		if (m_override_args) {
+			foreach (m_args[i]) {
+				argv.push_back(m_args[i]);
+			}
+		} else {
+			m_core.args(argv);
+		}
+	}
+		
+	virtual  int add_time_cb(
+		longint unsigned			simtime,
+		longint						callback_id) {
+		$display("SVEndpointServicesProxy::add_time_cb");
+		return m_core.add_time_cb(simtime, callback_id);
+	}
+		
+	virtual  void cancel_callback(
+		longint						callback_id) {
+		m_core.cancel_callback(callback_id);
+	}
+		
+	virtual  longint unsigned get_time() {
+		return m_core.get_time();
+	}
+		
+	virtual  int time_precision() {
+		return m_core.time_precision();
+	}
+
+#line 57 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+};
+
+
+
+#line 61 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 123 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+
+#line 124 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+	 
+#line 124 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -6107,11 +6610,11 @@ class SVEndpointServicesFactory : public IEndpointServicesFactory { public:
 
 
 #line 22 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 116 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 124 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 117 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 125 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 117 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 125 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -6178,11 +6681,11 @@ class SVEndpointServicesTimedCB : public TbLinkThread { public:
 
 
 #line 47 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 117 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 125 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 118 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 126 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 118 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 126 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -6317,7 +6820,10 @@ class SVEndpointLoopback : public IEndpoint { public:
 		return ret;
 	}
 	
-	virtual  IInterfaceType defineInterfaceType(IInterfaceTypeBuilder iftype_b) {
+	virtual  IInterfaceType defineInterfaceType(
+		IInterfaceTypeBuilder iftype_b,
+		IInterfaceImplFactory		impl_f,
+		IInterfaceImplFactory		impl_mirror_f) {
 		SVInterfaceTypeBuilder iftype_b_sv;
 		SVInterfaceType iftype;
 		$cast(iftype_b_sv, iftype_b);
@@ -6420,7 +6926,7 @@ class SVEndpointLoopback : public IEndpoint { public:
 				method, 
 				params);
 
-#line 216 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 219 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 		return retval;
 	}
 	
@@ -6450,7 +6956,7 @@ class SVEndpointLoopback : public IEndpoint { public:
 		return hdl;
 	}
 
-#line 245 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 248 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 };
 
 
@@ -6458,12 +6964,12 @@ class SVEndpointLoopback : public IEndpoint { public:
 
 
 
-#line 252 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 118 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 255 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 126 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 119 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 127 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 119 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 127 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -6512,11 +7018,11 @@ template  <typename T=ILaunchType> class SVLaunchTypeRegistration   { public:
 
 
 #line 29 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 119 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 127 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 120 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 128 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 120 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 128 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -6590,11 +7096,11 @@ class SVLaunchParams : public ILaunchParams { public:
 
 
 #line 54 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 120 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 128 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 121 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 129 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 121 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 129 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -6668,11 +7174,11 @@ class SVLaunchTypeConnectLoopback : public ILaunchType { public:
 
 
 #line 53 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 121 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 129 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 122 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 130 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 122 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 130 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 4 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -6750,11 +7256,11 @@ class SVLaunchTypeLoopback : public ILaunchType { public:
 
 
 #line 56 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 122 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 130 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 123 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 131 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 
-#line 123 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 131 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -6839,17 +7345,17 @@ class SVLaunchTypeNativeLoopbackDpi : public ILaunchType { public:
 
 
 #line 65 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 123 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 131 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 124 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 132 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
  
 	 
 
-#line 127 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 135 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	
 	
 	 
-#line 129 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 137 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -6907,8 +7413,8 @@ class TbLink : public ITbLinkListener { public:
 	int							m_zero_count_repeat;
 	chandle						m_tblink_core;
 	IEndpoint					m_endpoints[$];
-	IInterfaceFactoryBase			m_if_factories[$];
-	IInterfaceFactoryBase			m_if_factory_m[string];
+	IInterfaceTypeRgy			m_iftype_rgy[$];
+	IInterfaceTypeRgy			m_iftype_rgy_m[string];
 
 #line 42 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 new() {
@@ -6962,11 +7468,11 @@ class TbLink : public ITbLinkListener { public:
 		m_default_ep = ep;
 	}
 	
-	 void addIfFactory(IInterfaceFactoryBase f) {
+	 void addIfTypeRgy(IInterfaceTypeRgy f) {
 		chandle tblink_h = tblink_core();
 		$display("addIfFactory: %0s", f.name());
-		m_if_factories.push_back(f);
-		m_if_factory_m[f.name()] = f;
+		m_iftype_rgy.push_back(f);
+		m_iftype_rgy_m[f.name()] = f;
 		
 		foreach (m_endpoints[i]) {
 			if (!(m_endpoints[i].getFlags() & IEndpointFlags::LoopbackSec)) {
@@ -6992,8 +7498,8 @@ class TbLink : public ITbLinkListener { public:
 		// Register known types with the endpoint  
 		// as long as it's claimed 
 		if (!(ep.getFlags() & IEndpointFlags::LoopbackSec)) {
-			foreach (m_if_factories[i]) {
-				void(m_if_factories[i].defineType(ep));
+			foreach (m_iftype_rgy[i]) {
+				void(m_iftype_rgy[i].defineType(ep));
 			}
 		}
 		
@@ -7367,15 +7873,15 @@ class TbLink : public ITbLinkListener { public:
 	static  TbLink inst() {
 		if (_tblink_inst == null) {
 			_tblink_inst = new();
-			_tblink_inst.tblink_core();
+			void(_tblink_inst.tblink_core());
 			_tblink_inst.auto_launch();
 		}
 		return _tblink_inst;
 	}
 	
 	 void register_types(IEndpoint ep) {
-		foreach (m_if_factories[i]) {
-			void(m_if_factories[i].defineType(ep));
+		foreach (m_iftype_rgy[i]) {
+			void(m_iftype_rgy[i].defineType(ep));
 		}
 	}
 
@@ -7503,30 +8009,30 @@ task automatic tblink_rpc_dispatch_cb() {
  /* VERILATOR */ 
 
 #line 538 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 129 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 137 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 130 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 138 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	
 	 automatic TbLink tblink() {
 		TbLink _tblink;
 
-#line 134 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 142 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 		
 
-#line 139 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 147 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 139 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 147 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 139 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 147 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 139 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 147 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 /**
 		 * Under normal circumstances, the package should be 
 		 * registered as part of package initialization. 
 		 * Verilator doesn't reliably trigger package initialization
 		 * so we manually call/check here
 		 */ 
-#line 140 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 148 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 		if (!prv_tblink_init) {
 			int unsigned time_precision;
 			$display("Calling init");
@@ -7550,16 +8056,16 @@ task automatic tblink_rpc_dispatch_cb() {
 		return _tblink;
 	}
 
-#line 163 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 171 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	// Ensure that we always initialize tblink 
 //	TbLink _prv_tblink = TbLink::inst(); 
 
-#line 166 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 174 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 chandle tblink_rpc_iftype_find_method(
 			chandle		iftype_h,
 			string		name) {}
 
-#line 170 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 178 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 chandle _tblink_rpc_iparam_val_clone(
 			chandle			hndl) {}
 	 int unsigned _tblink_rpc_iparam_val_type(
@@ -7575,25 +8081,19 @@ task automatic tblink_rpc_dispatch_cb() {
 	 int unsigned tblink_rpc_IInterfaceInst_is_mirror(
 			chandle			ifinst) {}
 	
-	 chandle _tblink_rpc_ifinst_invoke_nb(
-			chandle			ifinst_h,
-			chandle			method_h,
-			chandle			params_h) {}
-
-#line 190 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	
 
-#line 192 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 195 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 /**
 	 * Time-based features aren't supported in Verilator
 	 */ 
-#line 193 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 196 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
  
 	 
 	 
  /* ifndef VERILATOR */ 
 	 
-#line 197 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 200 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 #line 1 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 #line 3 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
@@ -7607,16 +8107,19 @@ task automatic tblink_rpc_dispatch_cb() {
 #line 5 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
   
 class TbLinkInvokeB : public TbLinkThread { public: 
+	IInterfaceImpl			m_ifimpl;
 	IInterfaceInst			m_ifinst;
 	IMethodType				m_method;
 	longint					m_call_id;
 	IParamValVec			m_params;
 	
 	 new(
+		IInterfaceImpl		ifimpl,
 		IInterfaceInst		ifinst,
 		IMethodType			method,
 		longint				call_id,
 		IParamValVec		params) {
+		m_ifimpl = ifimpl;
 		m_ifinst = ifinst;
 		m_method = method;
 		m_call_id = call_id;
@@ -7624,43 +8127,42 @@ class TbLinkInvokeB : public TbLinkThread { public:
 	}
 	
 	virtual task run() {
-		IInterfaceImpl ifimpl = m_ifinst.get_impl();
 		IParamVal retval;
 
-#line 27 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-		ifimpl.invoke_b(
+#line 29 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+		m_ifimpl.invoke_b(
 				retval,
 				m_ifinst,
 				m_method,
 				m_params);
 
-#line 33 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 35 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 		// These params are cloned 
 		// TODO: 
 		m_params.dispose();
 
-#line 37 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 39 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 		m_ifinst.invoke_rsp(m_call_id, retval);
 	}
 };
 
 
 
-#line 43 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
-#line 197 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 45 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 200 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
 
-#line 199 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 202 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	
 
-#line 202 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 205 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 202 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 205 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 /**
 	 * Called to start TbLink's main thread. This must be called
 	 * at least once from the testbench
 	 */ 
-#line 203 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 206 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	task automatic tblink_rpc_start() {
 		TbLink tblink;
 		$display("--> tblink_rpc_start");
@@ -7670,66 +8172,69 @@ class TbLinkInvokeB : public TbLinkThread { public:
 	}
 	
 	// IEndpoint functions 
-	
-	 automatic void tblink_rpc_invoke(
-		chandle			ifinst_h,
-		chandle			method_h,
-		longint			call_id,
-		chandle			params_h) {
-		DpiInterfaceInst	ifinst = new(ifinst_h);
-		DpiMethodType		method = new(method_h);
-		DpiParamValVec		params = new(params_h);
+
+#line 216 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+ 
+	   
+					
+					
+					
+					
+			  
+				  
+				  
 		
-		$display("tblink_rpc_invoke: params_h=%p", params_h);
+		 
 	
-		if (method.is_blocking() != 0) {
-			TbLink tblink = TbLink::inst();
-			IParamVal params_val_c;
-			IParamValVec params_c;
-			TbLinkInvokeB	invoke_t;
+		    
+			   
+			 
+			 
+				
 			
  
 			  
 				
 			
 
-#line 235 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 239 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 			
-			params_val_c = params.clone();
-			$cast(params_c, params_val_c);
+			  
+			 
 			
-			// Invoke indirectly 
-			invoke_t = new(
-					ifinst,
-					method,
-					call_id,
-					params_c);
 			
-			// Know this never blocks 
-			tblink.queue_thread(invoke_t);
-		} else {
-			// Invoke directly 
-			IInterfaceImpl ifimpl = ifinst.get_impl();
-			IParamVal retval;
+			  
+					
+					
+					
+					
 			
-			retval = ifimpl.invoke_nb(
-					ifinst,
-					method,
-					params);
+			
+			
+		  
+			
+			   
+			 
+			
+			  
+					
+					
+					
 		
-			ifinst.invoke_rsp(call_id, retval);
-		}
-	}
+			 
+		
+	
+	   
 
 
-#line 263 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 268 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	
 
-#line 265 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 270 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 /**
 	 * Obtain command-line arguments
 	 */ 
-#line 266 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 271 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	 automatic void tblink_rpc_get_plusargs(
 			string prefix, 
 			ref string plusargs[$]) {
@@ -7756,30 +8261,30 @@ class TbLinkInvokeB : public TbLinkThread { public:
 			string 			prefix
 		) {}
 
-#line 292 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 297 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	
 
-#line 304 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 309 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 304 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 309 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 304 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 309 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 304 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 309 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 304 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 309 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 304 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 309 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 304 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 309 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 304 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 309 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 304 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 309 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 304 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 309 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 
-#line 304 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 309 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 /**
 	 * Register DPI-accessible functions that can be
 	 * used to invoke methods from the endpoint. BFM
@@ -7793,7 +8298,7 @@ class TbLinkInvokeB : public TbLinkThread { public:
 		return _tblink_rpc_register_dpi_bfm(inst_path, invoke_nb_f, invoke_b_f);
 	endfunction
 	 */ 
-#line 305 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 310 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
 	
 	 int tblink_rpc_register_dpi_bfm(
 			string					inst_path,
@@ -7803,4 +8308,4 @@ class TbLinkInvokeB : public TbLinkThread { public:
 }
 
 
-#line 314 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//
+#line 319 "/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io//

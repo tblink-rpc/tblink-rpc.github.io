@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc__core_1_1TypeIfc" kind="class" language="C++" prot="public">
+    <compoundname>tblink_rpc_core::TypeIfc</compoundname>
+    <basecompoundref refid="classtblink__rpc__core_1_1ITypeIfc" prot="public" virt="non-virtual">tblink_rpc_core::ITypeIfc</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtblink__rpc__core_1_1TypeIfc_1ab867a098d68d32e5408612088c76d9a0" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string tblink_rpc_core::TypeIfc::m_name</definition>
+        <argsstring></argsstring>
+        <name>m_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TypeIfc.h" line="28" column="12" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TypeIfc.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtblink__rpc__core_1_1TypeIfc_1ae46d9efae7c8ab380d066d04f667be25" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool tblink_rpc_core::TypeIfc::m_is_mirror</definition>
+        <argsstring></argsstring>
+        <name>m_is_mirror</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TypeIfc.h" line="29" column="5" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TypeIfc.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc__core_1_1TypeIfc_1a04a50d3c40a3dd2f29edbe34f23a7180" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>tblink_rpc_core::TypeIfc::TypeIfc</definition>
+        <argsstring>(const std::string &amp;name, bool is_mirror)</argsstring>
+        <name>TypeIfc</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_mirror</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TypeIfc.h" line="15" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TypeIfc.cpp" bodystart="12" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1TypeIfc_1a317d8fd513cd1d91569e514d1fae1538" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>tblink_rpc_core::TypeIfc::~TypeIfc</definition>
+        <argsstring>()</argsstring>
+        <name>~TypeIfc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TypeIfc.h" line="19" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TypeIfc.cpp" bodystart="19" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1TypeIfc_1aba9a212abc3eb5e0617e657fe8cb178a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>TypeE</type>
+        <definition>virtual TypeE tblink_rpc_core::TypeIfc::kind</definition>
+        <argsstring>() const override</argsstring>
+        <name>kind</name>
+        <reimplements refid="classtblink__rpc__core_1_1IType_1a62157b4dcaf0777e10c6ff4dd0d93af1">kind</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TypeIfc.h" line="21" column="15" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TypeIfc.h" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1TypeIfc_1ae332bca6ad315d82450de4717b2b20e2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>const std::string &amp;</type>
+        <definition>virtual const std::string&amp; tblink_rpc_core::TypeIfc::name</definition>
+        <argsstring>() const</argsstring>
+        <name>name</name>
+        <reimplements refid="classtblink__rpc__core_1_1ITypeIfc_1a1ce8be9709886bd3a55f56cbd0eee1e8">name</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TypeIfc.h" line="23" column="27" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TypeIfc.h" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1TypeIfc_1a43d3c2ab0782b1eccbfbedb4b11af6d0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool tblink_rpc_core::TypeIfc::is_mirror</definition>
+        <argsstring>() const</argsstring>
+        <name>is_mirror</name>
+        <reimplements refid="classtblink__rpc__core_1_1ITypeIfc_1a19c8004651bc2a14d45ff8aacc9844de">is_mirror</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TypeIfc.h" line="25" column="14" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TypeIfc.h" bodystart="25" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>tblink_rpc_core::IType</label>
+        <link refid="classtblink__rpc__core_1_1IType"/>
+      </node>
+      <node id="1">
+        <label>tblink_rpc_core::TypeIfc</label>
+        <link refid="classtblink__rpc__core_1_1TypeIfc"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tblink_rpc_core::ITypeIfc</label>
+        <link refid="classtblink__rpc__core_1_1ITypeIfc"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>tblink_rpc_core::IType</label>
+        <link refid="classtblink__rpc__core_1_1IType"/>
+      </node>
+      <node id="1">
+        <label>tblink_rpc_core::TypeIfc</label>
+        <link refid="classtblink__rpc__core_1_1TypeIfc"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tblink_rpc_core::ITypeIfc</label>
+        <link refid="classtblink__rpc__core_1_1ITypeIfc"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TypeIfc.h" line="13" column="30" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TypeIfc.h" bodystart="13" bodyend="30"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc__core_1_1TypeIfc_1a43d3c2ab0782b1eccbfbedb4b11af6d0" prot="public" virt="virtual"><scope>tblink_rpc_core::TypeIfc</scope><name>is_mirror</name></member>
+      <member refid="classtblink__rpc__core_1_1TypeIfc_1aba9a212abc3eb5e0617e657fe8cb178a" prot="public" virt="virtual"><scope>tblink_rpc_core::TypeIfc</scope><name>kind</name></member>
+      <member refid="classtblink__rpc__core_1_1TypeIfc_1ae46d9efae7c8ab380d066d04f667be25" prot="private" virt="non-virtual"><scope>tblink_rpc_core::TypeIfc</scope><name>m_is_mirror</name></member>
+      <member refid="classtblink__rpc__core_1_1TypeIfc_1ab867a098d68d32e5408612088c76d9a0" prot="private" virt="non-virtual"><scope>tblink_rpc_core::TypeIfc</scope><name>m_name</name></member>
+      <member refid="classtblink__rpc__core_1_1TypeIfc_1ae332bca6ad315d82450de4717b2b20e2" prot="public" virt="virtual"><scope>tblink_rpc_core::TypeIfc</scope><name>name</name></member>
+      <member refid="classtblink__rpc__core_1_1TypeIfc_1a04a50d3c40a3dd2f29edbe34f23a7180" prot="public" virt="non-virtual"><scope>tblink_rpc_core::TypeIfc</scope><name>TypeIfc</name></member>
+      <member refid="classtblink__rpc__core_1_1IType_1ad9c9e5ad705bf07a042484dd996851a4" prot="public" virt="virtual"><scope>tblink_rpc_core::TypeIfc</scope><name>~IType</name></member>
+      <member refid="classtblink__rpc__core_1_1ITypeIfc_1ac7ce0a2747de81cbaa54e1ff2d2848a5" prot="public" virt="virtual"><scope>tblink_rpc_core::TypeIfc</scope><name>~ITypeIfc</name></member>
+      <member refid="classtblink__rpc__core_1_1TypeIfc_1a317d8fd513cd1d91569e514d1fae1538" prot="public" virt="virtual"><scope>tblink_rpc_core::TypeIfc</scope><name>~TypeIfc</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

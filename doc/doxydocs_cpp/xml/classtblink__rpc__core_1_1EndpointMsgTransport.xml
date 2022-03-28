@@ -121,7 +121,7 @@
         <definition>IParamValBool * tblink_rpc_core::EndpointMsgTransport::mkValBool</definition>
         <argsstring>(bool val) override</argsstring>
         <name>mkValBool</name>
-        <reimplements refid="classtblink__rpc__core_1_1EndpointMsgBase_1ad4abcac75c446362272609820100f951">mkValBool</reimplements>
+        <reimplements refid="classtblink__rpc__core_1_1EndpointBase_1a5509d2c4c6fcbdfb2dec202f3013d090">mkValBool</reimplements>
         <param>
           <type>bool</type>
           <declname>val</declname>
@@ -139,7 +139,7 @@
         <definition>IParamValInt * tblink_rpc_core::EndpointMsgTransport::mkValIntU</definition>
         <argsstring>(uint64_t val, int32_t width) override</argsstring>
         <name>mkValIntU</name>
-        <reimplements refid="classtblink__rpc__core_1_1EndpointMsgBase_1a68e3dad1519e7ce5577b1af75989d42c">mkValIntU</reimplements>
+        <reimplements refid="classtblink__rpc__core_1_1EndpointBase_1a4690f7d749dde72417af55605936e9d5">mkValIntU</reimplements>
         <param>
           <type>uint64_t</type>
           <declname>val</declname>
@@ -161,7 +161,7 @@
         <definition>IParamValInt * tblink_rpc_core::EndpointMsgTransport::mkValIntS</definition>
         <argsstring>(int64_t val, int32_t width) override</argsstring>
         <name>mkValIntS</name>
-        <reimplements refid="classtblink__rpc__core_1_1EndpointMsgBase_1a4125301118fecebd83f37f60763b3868">mkValIntS</reimplements>
+        <reimplements refid="classtblink__rpc__core_1_1EndpointBase_1a67e7e0f725778797414a536621701e79">mkValIntS</reimplements>
         <param>
           <type>int64_t</type>
           <declname>val</declname>
@@ -183,7 +183,7 @@
         <definition>IParamValMap * tblink_rpc_core::EndpointMsgTransport::mkValMap</definition>
         <argsstring>() override</argsstring>
         <name>mkValMap</name>
-        <reimplements refid="classtblink__rpc__core_1_1EndpointMsgBase_1a6f1833785c7a19594f3aaf220faa4434">mkValMap</reimplements>
+        <reimplements refid="classtblink__rpc__core_1_1EndpointBase_1a304f411577df08042eb16e2106c08d8d">mkValMap</reimplements>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -197,7 +197,7 @@
         <definition>IParamValStr * tblink_rpc_core::EndpointMsgTransport::mkValStr</definition>
         <argsstring>(const std::string &amp;val) override</argsstring>
         <name>mkValStr</name>
-        <reimplements refid="classtblink__rpc__core_1_1EndpointMsgBase_1a38189594eda93ffc428282916cdf5e6f">mkValStr</reimplements>
+        <reimplements refid="classtblink__rpc__core_1_1EndpointBase_1ae1be8b5e674f1ea89948ace49af4e9ba">mkValStr</reimplements>
         <param>
           <type>const std::string &amp;</type>
           <declname>val</declname>
@@ -215,7 +215,7 @@
         <definition>IParamValVec * tblink_rpc_core::EndpointMsgTransport::mkValVec</definition>
         <argsstring>() override</argsstring>
         <name>mkValVec</name>
-        <reimplements refid="classtblink__rpc__core_1_1EndpointMsgBase_1a85d08894d6164fe927d0303de9602de6">mkValVec</reimplements>
+        <reimplements refid="classtblink__rpc__core_1_1EndpointBase_1a361c213e1cb0ccc47a5239551189ad1b">mkValVec</reimplements>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -230,10 +230,10 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="3">
+      <node id="4">
         <label>tblink_rpc_core::IEndpoint</label>
         <link refid="classtblink__rpc__core_1_1IEndpoint"/>
-        <childnode refid="4" relation="public-inheritance">
+        <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
       <node id="1">
@@ -242,7 +242,7 @@
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="5">
+      <node id="6">
         <label>tblink_rpc_core::IEndpointMsg</label>
         <link refid="classtblink__rpc__core_1_1IEndpointMsg"/>
       </node>
@@ -251,19 +251,25 @@
         <link refid="classtblink__rpc__core_1_1EndpointMsgBase"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
-        <childnode refid="5" relation="public-inheritance">
+        <childnode refid="6" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="4">
+      <node id="5">
         <label>tblink_rpc_core::IParamValFactory</label>
         <link refid="classtblink__rpc__core_1_1IParamValFactory"/>
+      </node>
+      <node id="3">
+        <label>tblink_rpc_core::EndpointBase</label>
+        <link refid="classtblink__rpc__core_1_1EndpointBase"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="3">
+      <node id="4">
         <label>tblink_rpc_core::IEndpoint</label>
         <link refid="classtblink__rpc__core_1_1IEndpoint"/>
-        <childnode refid="4" relation="public-inheritance">
+        <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
       <node id="1">
@@ -272,7 +278,7 @@
         <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="5">
+      <node id="6">
         <label>tblink_rpc_core::IEndpointMsg</label>
         <link refid="classtblink__rpc__core_1_1IEndpointMsg"/>
       </node>
@@ -281,75 +287,139 @@
         <link refid="classtblink__rpc__core_1_1EndpointMsgBase"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
-        <childnode refid="5" relation="public-inheritance">
+        <childnode refid="6" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="4">
+      <node id="5">
         <label>tblink_rpc_core::IParamValFactory</label>
         <link refid="classtblink__rpc__core_1_1IParamValFactory"/>
+      </node>
+      <node id="3">
+        <label>tblink_rpc_core::EndpointBase</label>
+        <link refid="classtblink__rpc__core_1_1EndpointBase"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
       </node>
     </collaborationgraph>
     <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgTransport.h" line="14" column="50" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgTransport.h" bodystart="14" bodyend="51"/>
     <listofallmembers>
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1af8d680e5a389bac85377df5b9986b215" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>add_time_callback</name></member>
-      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1ae2fd55dbeae85845683069f5a860833e" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>addListener</name></member>
-      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a9bf7cd8d31ac818c52098a0fea47cbcb" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>addListener</name></member>
-      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1adc46841ff700a7089e6c93eec6d8bf83" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>args</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1a71aa76dcce6343ef82039c8bca49ff94" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>addListener</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1a6e3fa19aad5c6bbb618576ddbad1fc3d" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>addListener</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1ac28818c8b2b61909ea8f36b2b94e1dde" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>args</name></member>
       <member refid="classtblink__rpc__core_1_1IEndpoint_1a1a62633037cb3f51ddd17018f7444955a7e5889fafa856ea5c26b50cc507e5f59" prot="public" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>Automatic</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1afef8ee3fa6315f6012d85b67e871e429" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>build_complete</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1a99ccad50c160777963dbdac41912004b" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>build_complete_check</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1aa365235a3dae3f196de17f7c2cadce19" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>cancel_callback</name></member>
       <member refid="classtblink__rpc__core_1_1IEndpoint_1a1a62633037cb3f51ddd17018f7444955" prot="public" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>comm_mode_e</name></member>
-      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a291dcf940e11e4b7ef3bf0cc8d1caa3f" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>comm_state</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1a886c3777805a8ef09414f1e42ad1449b" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>comm_state</name></member>
       <member refid="classtblink__rpc__core_1_1IEndpoint_1a3d27060e425e258df64b81572a67cad5" prot="public" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>comm_state_e</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a7cd083aeaef756210e2a475902536525" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>connect_complete</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1a155d5b6984b355b0aff89af1435a52d8" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>connect_complete_check</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1aeb8cdfb71bbe742c26de5149528f6815" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>createInterfaceObj</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a6fbee0bece2d962142c31aac6563dfa1" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>defineInterfaceInst</name></member>
-      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a1baf11ee17576cccf10ff586b36db5f3" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>defineInterfaceType</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1a7ea907db948474f46a0def6889ee50bc" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>defineInterfaceType</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a87ed0e6065459e33d4b216bf7ac1a01d" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>destroyInterfaceObj</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1a3cd35d5ba37233222e8f87bfc814d841" prot="public" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>EndpointBase</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a85c9769367c10fdfc46df3a297dc7a51" prot="public" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>EndpointMsgBase</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgTransport_1a29a366f4257f506427af48284352a7df" prot="public" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>EndpointMsgTransport</name></member>
       <member refid="classtblink__rpc__core_1_1IEndpoint_1a1a62633037cb3f51ddd17018f7444955a116cd0998ae3758bcfec6fc29a3a572a" prot="public" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>Explicit</name></member>
-      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1af1baf685ca4caaaca6704265ef20d782" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>findInterfaceType</name></member>
-      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1adb5e5d23a485c81c3caef402d25d736a" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>getFlags</name></member>
-      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1ad9be307d5322566d5f606d8ab213ec42" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>getInterfaceInsts</name></member>
-      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a307734b5444b11b4e2c4060c3ede973b" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>getInterfaceTypes</name></member>
-      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a221586b6d647a52e48dd940eddbda8d6" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>getPeerInterfaceInsts</name></member>
-      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a46f66dccfce09b9c20d08b2fb8022e8e" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>getPeerInterfaceTypes</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1a764453b19f7f60e2764634705371037c" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>findInterfaceType</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1a8c9cb7685c7830e0b417e75f5971fbf9" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>getFlags</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1a60d884cd3ab106367d9ccce5e768acb2" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>getInterfaceInsts</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1ac96a32b471357e0796199e9e1e641eac" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>getInterfaceTypes</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1a61af874e808791343f9c64ecc26b56c7" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>getPeerInterfaceInsts</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1a51e779832de0ec28c5384475854f467a" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>getPeerInterfaceTypes</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1ac5ef49ebcae85f7fe49a17f5ccd3e6a9" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>id2ifinst_m_t</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1ad47f858d6ba5b1510a26c83a98955676" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>ifinst_l_pt</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1aba71726f97c4033418633e83a6a332ca" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>ifinst_l_t</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1ad6561f899fab7e25fbe001d1847c912e" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>ifinst_m_t</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1a44cf571bae6d8a0acb3d2fee1dd7900f" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>ifobj_m_t</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1aac4dd7f22da298783fe7a5c3ccf203f0" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>iftype_l_pt</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1ae0658e0f8b34050802792f67ea82dc31" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>iftype_l_t</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1a6bb3ee4baee1d208684f3bcf6511bb59" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>iftype_m_t</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a941ac2466061e437b853ab06acf15eb0" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>init</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a3956b1266baee2c17bc4545575155e41" prot="public" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>invoke</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a0961b0bd2ffc5679dfcd83a3f5735afb" prot="public" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>invoke_nb_rsp</name></member>
-      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1af8e96920282860b7f3a5b07753a9b29f" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>is_build_complete</name></member>
-      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a6b84209159d8a5d581dee972c3cf4755" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>is_connect_complete</name></member>
-      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a551ce5971900c6d18a51519f08f88f2a" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>is_init</name></member>
-      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a408017aae55a43c94efa29fc06edcbd3" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>last_error</name></member>
-      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a67f8ed2f158fae63a96fc51cdb0b2e84" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>last_error</name></member>
-      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a789bd4d7c994a439e5f544a836b9cd10" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_services</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1a9c51d97fb31c9540bf980162c4ea9bdc" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>is_build_complete</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1a9da91a6964a0c7835948da502893f43e" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>is_connect_complete</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1ada9220674092556d0b2671c52d481a9e" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>is_init</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1ab2a680749507b5cbd86bda3ac3b17f44" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>last_error</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1ae4989388b656102c98a1dab8a4aae75b" prot="protected" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>last_error</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1acde9fb4310c6967ee4c796a64caa6e7d" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_args</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1a261906bfdb7a67b4ef070f726dfb359c" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_build_check_complete</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1ad52292ea4a4b6243abb76b9d9d333b79" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_build_complete</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1ac5dd5bef9582c2df488ac0f98c24ca8f" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_call_id</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a74764966e7508f7828470340b47c3813" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_callback_id</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1ae2c2c66c17e099286262e905cde8d0ef" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_callback_m</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1a1f4e12f29b9d3da002b017afc931593b" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_comm_mode</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1af79e4d4850e393a5aeec213043941bb1" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_comm_state</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1a19cd3758b60cc11b89858c33348b8a93" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_connect_check_complete</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1ae50483a34710780c72ce36d26f8dc93f" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_connect_complete</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1a40a00cc0c48d237083e62ee14ffba726" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_flags</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1acd5b3f7431d342d17a9088765358a519" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_id</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1a302a4767c7a27c25934b79dbba4640b0" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_id2ifinst_m</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1a5e3572c26a62559c57d7beecb74d0d57" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_ifinst_id</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1a6956ff8242da4cf8764d0e00a195af4c" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_init</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1afae7fcef020a1335296912636ae755e0" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_last_error</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1aa3fa762f57b42bdf4aee9a9d1fb952e8" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_listeners</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1a20a6317b1f79d571debbe943a06c13bf" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_listeners_p</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1a8bfd6753ec68c99aa552ce88f32e1e62" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_local_ifc_insts</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1a90efc077835a9c4bd2a08bdacf90a431" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_local_ifc_insts_l</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1af20e8289a8407372a3ed7f007f122554" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_local_ifc_insts_pl</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1afb33c1f96cc8b06fffdb35fb994c57b2" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_local_ifc_type_l</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1a68c486524b084f92f65ff0c661a88e75" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_local_ifc_type_pl</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1a2dac359ddcd0ac7dd1a2e73c895909cf" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_local_ifc_types</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1ad2556907b3f19c85cef78f831ac937bb" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_obj_m</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a820625d8380a59f7f3534ce7ee1e5094" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_outbound_invoke_m</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1adc69cbf48b4ff56c468af491090c9327" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_peer_build_complete</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1a45eb7d881d8c26c88207c914029820ff" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_peer_connect_complete</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1acfa0e3cbabe88698fae65121e703cd72" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_peer_ifc_insts</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1a608b5f39d7ee052092e37275fcae83cc" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_peer_ifc_insts_l</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1a5294fd943ed2ea35b8b655b91a389d3c" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_peer_ifc_insts_pl</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1ad9d32d7ffe899b944189bff9f108c285" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_peer_ifc_types</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1a69d911c25a8b02b32a2d141d593f4116" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_peer_ifc_types_l</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1ae42ed3e0355194cf3579f9d40e18c2b1" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_peer_ifc_types_pl</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1abed1caf7f9a1a204edab002ee6021bb0" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_peer_init</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a06534dfa2af9699556b288920e78d105" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_pending_time_cb</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1adf71ac945de128dbba7701022f5882d7" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_release_reqs</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a501cfdc91ac4435ac5710e5efe72d2b3" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_req_m</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1ab461e3eb82cbfab7ec610189ce9d0384" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_rsp_m</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1a9a833dde2c6a3ae70a020ac0c41a0503" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_services</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1af9cfa2233c062b63cbf2fd814899e6a4" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_time</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1af0628972a172133778bf59853172c0f3" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_time_precision</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgTransport_1a3a4949b9ed8b3a77de24b2659570505f" prot="private" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_transport</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1ae0e0e24e6c8ae8352600f677de1693f3" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>m_wait_reqs</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgTransport_1a69b663d4fc7e70962d5ac863fcaba21a" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>mkValBool</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgTransport_1a4fdbea6bf179e274bab96b2563f9c292" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>mkValIntS</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgTransport_1a8d4217aa28d47bdac9a41d57ad9fd8dd" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>mkValIntU</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgTransport_1ab94f94d54fb2a5e0b71432bcd33304e0" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>mkValMap</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgTransport_1a8488aff8e1b54b02a5142d74bc1bfe77" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>mkValStr</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgTransport_1a11173bff86c1f38b0c61d71b7b637faa" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>mkValVec</name></member>
-      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a4e39f3e437822daeb8cec5b9669705a5" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>newInterfaceTypeBuilder</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1ab0b52381fdcc4e5cde5f25bdcc2f4df8" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>newInterfaceTypeBuilder</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a1219f5e8c61e1c270daefdac9a7bb142" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>notify_callback</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1ab9603e3e3fa21a3fbc1693b1981f5865" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>peer_build_complete</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1a8c8ca15e2b704fce8d31b617e1be6bce" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>peer_connect_complete</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1aa811de2f5a0958d649ef125bf35e234a" prot="protected" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>peer_init</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgTransport_1a0e42512e9c4f7fc83a124c3d31a11949" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>process_one_message</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a2a60fc02bf014de0147ab14da7fdbacb" prot="public" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>recv_req</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a3ce8bba081a4bab2a6dad0cc39fff531" prot="public" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>recv_rsp</name></member>
       <member refid="classtblink__rpc__core_1_1IEndpoint_1a3d27060e425e258df64b81572a67cad5a67872ea93473fed9595153af2c2e8571" prot="public" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>Released</name></member>
-      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a9ba73f709ba905685ce9d78c00c4f537" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>removeListener</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1adf9433752d017999a682424675af51ac" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>removeListener</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1ab3fd5034c68919f45f9c7567eca1afa5" prot="public" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>response_f</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgTransport_1a896219ae21b2f6614d3f57ba8160d3c7" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>send_req</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1ae31c8938bc4855c4899dfa3e62101f4c" prot="public" virt="virtual" ambiguityscope="tblink_rpc_core::EndpointMsgBase::"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>send_req</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1ac4dae09016cc3e4d5dfdb83c81d56393" prot="public" virt="virtual" ambiguityscope="tblink_rpc_core::EndpointMsgBase::"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>send_req</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgTransport_1abf143b54464e4c009ae4db8034f121a2" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>send_rsp</name></member>
-      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a21dc1674d0c5cda4ef286074322b06e6" prot="public" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>sendEvent</name></member>
-      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1ad9d8de815bf85d4ca44f14075c524c62" prot="public" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>sendEvent</name></member>
-      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a0a1bcb3046dea9891fd4eb1a50289811" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>setFlag</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1a7e0127c8536f6fe319741653c548fa58" prot="public" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>sendEvent</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1aec982e2e2b3c4673ccd28c8042e16597" prot="public" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>sendEvent</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1a6078e5cd9c8b4c0034e8a5cf28cae42c" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>setFlag</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1af88b1edf59395b60ca44b5184137464e" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>shutdown</name></member>
-      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a43f17fdd86952c87efdfd331f1895dc2" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>time</name></member>
-      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a48a88f6f1c77c4be3503ee4412397a24" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>time_precision</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1a00eb6ed5b9ac7a66f7e1686f497a0526" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>time</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1a1e199155407bffbbb4842c449651ccb3" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>time_precision</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1ac631254d3f94d6eadc7b4531535e473c" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>update_comm_mode</name></member>
-      <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a5c358d080d29282827c15ac10c825397" prot="public" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>wait_rsp</name></member>
       <member refid="classtblink__rpc__core_1_1IEndpoint_1a3d27060e425e258df64b81572a67cad5a0c5f2cdea81cc94c2fe94ffa7d929d77" prot="public" virt="non-virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>Waiting</name></member>
+      <member refid="classtblink__rpc__core_1_1EndpointBase_1a747698aa1a59dbae709b6c75971cf6bd" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>~EndpointBase</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a50d73f2aac3398982ab7a20fe54563ce" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>~EndpointMsgBase</name></member>
       <member refid="classtblink__rpc__core_1_1EndpointMsgTransport_1aa42971f57b32df3929d22e0f2dd5c240" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>~EndpointMsgTransport</name></member>
       <member refid="classtblink__rpc__core_1_1IEndpoint_1a344abd43daa988b2b5e654fbb3628815" prot="public" virt="virtual"><scope>tblink_rpc_core::EndpointMsgTransport</scope><name>~IEndpoint</name></member>

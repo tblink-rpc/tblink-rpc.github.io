@@ -21,7 +21,20 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5189" column="4" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5189" bodyend="-1"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5598" column="4" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5598" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtblink__rpc_1_1SVInterfaceImplVif_1a0b848c1513af8251a0d7dbf6925f2ef0" prot="public" static="no" mutable="no">
+        <type><ref refid="classtblink__rpc_1_1IInterfaceInst" kindref="compound">IInterfaceInst</ref></type>
+        <definition>IInterfaceInst tblink_rpc::SVInterfaceImplVif&lt; VIF &gt;::m_ifinst</definition>
+        <argsstring></argsstring>
+        <name>m_ifinst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5599" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5599" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -40,7 +53,25 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5192" column="2" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5192" bodyend="5194"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5602" column="2" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5602" bodyend="5604"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1SVInterfaceImplVif_1a5a890c7eb720ae22052b51445d6fc011" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void tblink_rpc::SVInterfaceImplVif&lt; VIF &gt;::init</definition>
+        <argsstring>(IInterfaceInst ifinst)</argsstring>
+        <name>init</name>
+        <reimplements refid="classtblink__rpc_1_1IInterfaceImpl_1ac620f3a6be7c94c8e335b31f01c1730c">init</reimplements>
+        <param>
+          <type><ref refid="classtblink__rpc_1_1IInterfaceInst" kindref="compound">IInterfaceInst</ref></type>
+          <declname>ifinst</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5606" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5606" bodyend="5608"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc_1_1SVInterfaceImplVif_1a8bfd7d29497501fd4cd54c5d8a05b0e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type><ref refid="classtblink__rpc_1_1IParamVal" kindref="compound">IParamVal</ref></type>
@@ -66,7 +97,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5197" column="20" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5197" bodyend="5202"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5611" column="20" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5611" bodyend="5616"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc_1_1SVInterfaceImplVif_1a43b509c02b1ae462395cf203a6be9490" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>task</type>
@@ -95,7 +126,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5205" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5205" bodyend="5211"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5619" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5619" bodyend="5625"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -121,22 +152,30 @@
         <label>tblink_rpc::IInterfaceImpl</label>
         <link refid="classtblink__rpc_1_1IInterfaceImpl"/>
       </node>
+      <node id="3">
+        <label>tblink_rpc::IInterfaceInst</label>
+        <link refid="classtblink__rpc_1_1IInterfaceInst"/>
+      </node>
       <node id="1">
         <label>tblink_rpc::SVInterfaceImplVif&lt; VIF &gt;</label>
         <link refid="classtblink__rpc_1_1SVInterfaceImplVif"/>
         <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>m_ifinst</edgelabel>
         </childnode>
         <childnode refid="2" relation="usage">
           <edgelabel>m_vif</edgelabel>
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5186" column="60" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5186" bodyend="5212"/>
+    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="5595" column="60" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="5595" bodyend="5626"/>
     <listofallmembers>
-      <member refid="classtblink__rpc_1_1IInterfaceImpl_1ac620f3a6be7c94c8e335b31f01c1730c" prot="public" virt="virtual"><scope>tblink_rpc::SVInterfaceImplVif</scope><name>init</name></member>
+      <member refid="classtblink__rpc_1_1SVInterfaceImplVif_1a5a890c7eb720ae22052b51445d6fc011" prot="public" virt="virtual"><scope>tblink_rpc::SVInterfaceImplVif</scope><name>init</name></member>
       <member refid="classtblink__rpc_1_1SVInterfaceImplVif_1a43b509c02b1ae462395cf203a6be9490" prot="public" virt="virtual"><scope>tblink_rpc::SVInterfaceImplVif</scope><name>invoke_b</name></member>
       <member refid="classtblink__rpc_1_1IInterfaceImpl_1a0d01513d8d12dba4db89845983e62a4e" prot="public" virt="virtual" ambiguityscope="tblink_rpc::IInterfaceImpl::"><scope>tblink_rpc::SVInterfaceImplVif</scope><name>invoke_b</name></member>
       <member refid="classtblink__rpc_1_1SVInterfaceImplVif_1a8bfd7d29497501fd4cd54c5d8a05b0e0" prot="public" virt="virtual"><scope>tblink_rpc::SVInterfaceImplVif</scope><name>invoke_nb</name></member>
+      <member refid="classtblink__rpc_1_1SVInterfaceImplVif_1a0b848c1513af8251a0d7dbf6925f2ef0" prot="public" virt="non-virtual"><scope>tblink_rpc::SVInterfaceImplVif</scope><name>m_ifinst</name></member>
       <member refid="classtblink__rpc_1_1SVInterfaceImplVif_1a600f05a8d05b34f34ab555a889224874" prot="public" virt="non-virtual"><scope>tblink_rpc::SVInterfaceImplVif</scope><name>m_vif</name></member>
       <member refid="classtblink__rpc_1_1SVInterfaceImplVif_1ae6401c9db9ed715b2ca032ecc0db4bc6" prot="public" virt="non-virtual"><scope>tblink_rpc::SVInterfaceImplVif</scope><name>new</name></member>
     </listofallmembers>

@@ -26,14 +26,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1694" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1694" bodyend="1697"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1906" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1906" bodyend="1909"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1691" column="22" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1691" bodyend="1696"/>
+    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1903" column="22" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1903" bodyend="1908"/>
     <listofallmembers>
       <member refid="classtblink__rpc_1_1TbLinkEventKind_1a4e3f9d5257ed4627da88c6bc60b12a8c" prot="public" virt="non-virtual"><scope>tblink_rpc::TbLinkEventKind</scope><name>_t</name></member>
       <member refid="classtblink__rpc_1_1TbLinkEventKind_1a4e3f9d5257ed4627da88c6bc60b12a8ca65bda9da6ac0388fddcf2a7eb35308a4" prot="public" virt="non-virtual"><scope>tblink_rpc::TbLinkEventKind</scope><name>AddEndpoint</name></member>

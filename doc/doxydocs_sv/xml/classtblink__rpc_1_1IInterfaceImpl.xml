@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
   <compounddef id="classtblink__rpc_1_1IInterfaceImpl" kind="class" language="C++" prot="public">
     <compoundname>tblink_rpc::IInterfaceImpl</compoundname>
-    <derivedcompoundref refid="classtblink__rpc_1_1DpiInterfaceImpl" prot="public" virt="non-virtual">tblink_rpc::DpiInterfaceImpl</derivedcompoundref>
+    <derivedcompoundref refid="classtblink__rpc_1_1DpiBfmInterfaceImpl" prot="public" virt="non-virtual">tblink_rpc::DpiBfmInterfaceImpl</derivedcompoundref>
     <derivedcompoundref refid="classtblink__rpc_1_1IInterfaceImplProxy" prot="public" virt="non-virtual">tblink_rpc::IInterfaceImplProxy</derivedcompoundref>
     <derivedcompoundref refid="classtblink__rpc_1_1SVInterfaceImplVif" prot="public" virt="non-virtual">tblink_rpc::SVInterfaceImplVif&lt; VIF &gt;</derivedcompoundref>
       <sectiondef kind="public-func">
@@ -12,6 +12,7 @@
         <argsstring>(IInterfaceInst ifinst)</argsstring>
         <name>init</name>
         <reimplementedby refid="classtblink__rpc_1_1IInterfaceImplProxy_1a832b9dac113df8e0fce8bcbc9fab75de">init</reimplementedby>
+        <reimplementedby refid="classtblink__rpc_1_1SVInterfaceImplVif_1a5a890c7eb720ae22052b51445d6fc011">init</reimplementedby>
         <param>
           <type><ref refid="classtblink__rpc_1_1IInterfaceInst" kindref="compound">IInterfaceInst</ref></type>
           <declname>ifinst</declname>
@@ -22,14 +23,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1057" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1057" bodyend="1058"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="953" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="953" bodyend="956"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc_1_1IInterfaceImpl_1afe026479015b350fe5bde6ac16c19244" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type><ref refid="classtblink__rpc_1_1IParamVal" kindref="compound">IParamVal</ref></type>
         <definition>virtual IParamVal tblink_rpc::IInterfaceImpl::invoke_nb</definition>
         <argsstring>(input IInterfaceInst ifinst, input IMethodType method, input IParamValVec params)</argsstring>
         <name>invoke_nb</name>
-        <reimplementedby refid="classtblink__rpc_1_1DpiInterfaceImpl_1aa8c5dae89bf1ebc93bddb37c4bc9955d">invoke_nb</reimplementedby>
+        <reimplementedby refid="classtblink__rpc_1_1DpiBfmInterfaceImpl_1ad07ffa92d179a97fc15138424355d436">invoke_nb</reimplementedby>
         <reimplementedby refid="classtblink__rpc_1_1SVInterfaceImplVif_1a8bfd7d29497501fd4cd54c5d8a05b0e0">invoke_nb</reimplementedby>
         <param>
           <type>input <ref refid="classtblink__rpc_1_1IInterfaceInst" kindref="compound">IInterfaceInst</ref></type>
@@ -49,14 +50,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1060" column="20" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1060" bodyend="1067"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="958" column="20" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="958" bodyend="965"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc_1_1IInterfaceImpl_1a0d01513d8d12dba4db89845983e62a4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>task</type>
         <definition>virtual task tblink_rpc::IInterfaceImpl::invoke_b</definition>
         <argsstring>(output IParamVal retval, input IInterfaceInst ifinst, input IMethodType method, IParamValVec params)</argsstring>
         <name>invoke_b</name>
-        <reimplementedby refid="classtblink__rpc_1_1DpiInterfaceImpl_1a5f8e1f63451b5b75c300c70369d65fa1">invoke_b</reimplementedby>
+        <reimplementedby refid="classtblink__rpc_1_1DpiBfmInterfaceImpl_1a5f9de39400704b7a20008b3a994f6432">invoke_b</reimplementedby>
         <param>
           <type>output <ref refid="classtblink__rpc_1_1IParamVal" kindref="compound">IParamVal</ref></type>
           <declname>retval</declname>
@@ -79,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1070" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1070" bodyend="1077"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="968" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="968" bodyend="975"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -106,13 +107,13 @@
         </childnode>
       </node>
       <node id="2">
-        <label>tblink_rpc::DpiInterfaceImpl</label>
-        <link refid="classtblink__rpc_1_1DpiInterfaceImpl"/>
+        <label>tblink_rpc::DpiBfmInterfaceImpl</label>
+        <link refid="classtblink__rpc_1_1DpiBfmInterfaceImpl"/>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1053" column="21" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1053" bodyend="1077"/>
+    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="949" column="21" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="949" bodyend="975"/>
     <listofallmembers>
       <member refid="classtblink__rpc_1_1IInterfaceImpl_1ac620f3a6be7c94c8e335b31f01c1730c" prot="public" virt="virtual"><scope>tblink_rpc::IInterfaceImpl</scope><name>init</name></member>
       <member refid="classtblink__rpc_1_1IInterfaceImpl_1a0d01513d8d12dba4db89845983e62a4e" prot="public" virt="virtual"><scope>tblink_rpc::IInterfaceImpl</scope><name>invoke_b</name></member>

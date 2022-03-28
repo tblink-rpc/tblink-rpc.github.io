@@ -10,8 +10,8 @@
     <innerfile refid="IEndpointServices_8h">IEndpointServices.h</innerfile>
     <innerfile refid="IEndpointServicesFactory_8h">IEndpointServicesFactory.h</innerfile>
     <innerfile refid="IInterfaceImpl_8h">IInterfaceImpl.h</innerfile>
+    <innerfile refid="IInterfaceImplFactory_8h">IInterfaceImplFactory.h</innerfile>
     <innerfile refid="IInterfaceInst_8h">IInterfaceInst.h</innerfile>
-    <innerfile refid="IInterfaceInstFactory_8h">IInterfaceInstFactory.h</innerfile>
     <innerfile refid="IInterfaceType_8h">IInterfaceType.h</innerfile>
     <innerfile refid="IInterfaceTypeBuilder_8h">IInterfaceTypeBuilder.h</innerfile>
     <innerfile refid="ILaunchParams_8h">ILaunchParams.h</innerfile>
@@ -33,6 +33,7 @@
     <innerfile refid="ITransport_8h">ITransport.h</innerfile>
     <innerfile refid="IType_8h">IType.h</innerfile>
     <innerfile refid="ITypeFactory_8h">ITypeFactory.h</innerfile>
+    <innerfile refid="ITypeIfc_8h">ITypeIfc.h</innerfile>
     <innerfile refid="ITypeInt_8h">ITypeInt.h</innerfile>
     <innerfile refid="ITypeMap_8h">ITypeMap.h</innerfile>
     <innerfile refid="ITypeVec_8h">ITypeVec.h</innerfile>

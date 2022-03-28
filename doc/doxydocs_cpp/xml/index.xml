@@ -28,21 +28,57 @@
     <member refid="classtblink__rpc__core_1_1DynSymFinder_1ac8b3abaaac09c36a1ad495d6023e5fc2" kind="function"><name>error</name></member>
   </compound>
   <compound refid="classtblink__rpc__core_1_1EndpointBase" kind="class"><name>tblink_rpc_core::EndpointBase</name>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1a6bb3ee4baee1d208684f3bcf6511bb59" kind="typedef"><name>iftype_m_t</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1ae0658e0f8b34050802792f67ea82dc31" kind="typedef"><name>iftype_l_t</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1aac4dd7f22da298783fe7a5c3ccf203f0" kind="typedef"><name>iftype_l_pt</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1ad6561f899fab7e25fbe001d1847c912e" kind="typedef"><name>ifinst_m_t</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1ad47f858d6ba5b1510a26c83a98955676" kind="typedef"><name>ifinst_l_pt</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1aba71726f97c4033418633e83a6a332ca" kind="typedef"><name>ifinst_l_t</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1a44cf571bae6d8a0acb3d2fee1dd7900f" kind="typedef"><name>ifobj_m_t</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1ac5ef49ebcae85f7fe49a17f5ccd3e6a9" kind="typedef"><name>id2ifinst_m_t</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointBase_1a40a00cc0c48d237083e62ee14ffba726" kind="variable"><name>m_flags</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointBase_1a2c4f7fab1705b0eaa02cdb9151cf6ff4" kind="variable"><name>m_services</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointBase_1a9e08270402002dadb5997b7701491d65" kind="variable"><name>m_listener</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointBase_1a823f6bd69a29a864b543e093c9a16e63" kind="variable"><name>m_iftypes</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointBase_1a92ed01db7d2c19e165bc3692d6a59e88" kind="variable"><name>m_iftype_m</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointBase_1a2236dd574e21826745d1825587e97d48" kind="variable"><name>m_ifinsts</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointBase_1add88f5642fecf6f21330e72223413cfc" kind="variable"><name>m_ifinst_m</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1a9a833dde2c6a3ae70a020ac0c41a0503" kind="variable"><name>m_services</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1af79e4d4850e393a5aeec213043941bb1" kind="variable"><name>m_comm_state</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1a1f4e12f29b9d3da002b017afc931593b" kind="variable"><name>m_comm_mode</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1a6956ff8242da4cf8764d0e00a195af4c" kind="variable"><name>m_init</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1abed1caf7f9a1a204edab002ee6021bb0" kind="variable"><name>m_peer_init</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1ad52292ea4a4b6243abb76b9d9d333b79" kind="variable"><name>m_build_complete</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1adc69cbf48b4ff56c468af491090c9327" kind="variable"><name>m_peer_build_complete</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1a261906bfdb7a67b4ef070f726dfb359c" kind="variable"><name>m_build_check_complete</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1ae50483a34710780c72ce36d26f8dc93f" kind="variable"><name>m_connect_complete</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1a45eb7d881d8c26c88207c914029820ff" kind="variable"><name>m_peer_connect_complete</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1a19cd3758b60cc11b89858c33348b8a93" kind="variable"><name>m_connect_check_complete</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1af9cfa2233c062b63cbf2fd814899e6a4" kind="variable"><name>m_time</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1acde9fb4310c6967ee4c796a64caa6e7d" kind="variable"><name>m_args</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1af0628972a172133778bf59853172c0f3" kind="variable"><name>m_time_precision</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointBase_1aa3fa762f57b42bdf4aee9a9d1fb952e8" kind="variable"><name>m_listeners</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointBase_1a20a6317b1f79d571debbe943a06c13bf" kind="variable"><name>m_listeners_p</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointBase_1afae7fcef020a1335296912636ae755e0" kind="variable"><name>m_last_error</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1a5e3572c26a62559c57d7beecb74d0d57" kind="variable"><name>m_ifinst_id</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1ad9d32d7ffe899b944189bff9f108c285" kind="variable"><name>m_peer_ifc_types</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1a69d911c25a8b02b32a2d141d593f4116" kind="variable"><name>m_peer_ifc_types_l</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1ae42ed3e0355194cf3579f9d40e18c2b1" kind="variable"><name>m_peer_ifc_types_pl</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1a2dac359ddcd0ac7dd1a2e73c895909cf" kind="variable"><name>m_local_ifc_types</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1a68c486524b084f92f65ff0c661a88e75" kind="variable"><name>m_local_ifc_type_pl</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1afb33c1f96cc8b06fffdb35fb994c57b2" kind="variable"><name>m_local_ifc_type_l</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1acfa0e3cbabe88698fae65121e703cd72" kind="variable"><name>m_peer_ifc_insts</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1a5294fd943ed2ea35b8b655b91a389d3c" kind="variable"><name>m_peer_ifc_insts_pl</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1a608b5f39d7ee052092e37275fcae83cc" kind="variable"><name>m_peer_ifc_insts_l</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1a8bfd6753ec68c99aa552ce88f32e1e62" kind="variable"><name>m_local_ifc_insts</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1af20e8289a8407372a3ed7f007f122554" kind="variable"><name>m_local_ifc_insts_pl</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1a90efc077835a9c4bd2a08bdacf90a431" kind="variable"><name>m_local_ifc_insts_l</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1a302a4767c7a27c25934b79dbba4640b0" kind="variable"><name>m_id2ifinst_m</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1ad2556907b3f19c85cef78f831ac937bb" kind="variable"><name>m_obj_m</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointBase_1a3cd35d5ba37233222e8f87bfc814d841" kind="function"><name>EndpointBase</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointBase_1a747698aa1a59dbae709b6c75971cf6bd" kind="function"><name>~EndpointBase</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointBase_1a8c9cb7685c7830e0b417e75f5971fbf9" kind="function"><name>getFlags</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointBase_1a6078e5cd9c8b4c0034e8a5cf28cae42c" kind="function"><name>setFlag</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointBase_1a60c59084cade3a90ecb62c5e008d0d84" kind="function"><name>init</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1ada9220674092556d0b2671c52d481a9e" kind="function"><name>is_init</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1a4f8802d7fa97940b92359b497304f978" kind="function"><name>build_complete</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1a9c51d97fb31c9540bf980162c4ea9bdc" kind="function"><name>is_build_complete</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1af30fe5312b79dd27bb8c4cadb64c33fa" kind="function"><name>connect_complete</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1a9da91a6964a0c7835948da502893f43e" kind="function"><name>is_connect_complete</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointBase_1a886c3777805a8ef09414f1e42ad1449b" kind="function"><name>comm_state</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointBase_1a767328eef97ab00d181f44f35f124a43" kind="function"><name>update_comm_mode</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointBase_1a71aa76dcce6343ef82039c8bca49ff94" kind="function"><name>addListener</name></member>
@@ -56,15 +92,23 @@
     <member refid="classtblink__rpc__core_1_1EndpointBase_1ab2a680749507b5cbd86bda3ac3b17f44" kind="function"><name>last_error</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointBase_1a764453b19f7f60e2764634705371037c" kind="function"><name>findInterfaceType</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointBase_1ab0b52381fdcc4e5cde5f25bdcc2f4df8" kind="function"><name>newInterfaceTypeBuilder</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointBase_1aa94799798c94bd3a2fe2c9ae969c66a0" kind="function"><name>defineInterfaceType</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointBase_1a1721c94b532703a6dc31a9aee01da6ff" kind="function"><name>getInterfaceTypes</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointBase_1a765ef1fd9a4a2c155509ac812cb2cd7d" kind="function"><name>getInterfaceInsts</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1a7ea907db948474f46a0def6889ee50bc" kind="function"><name>defineInterfaceType</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1ac96a32b471357e0796199e9e1e641eac" kind="function"><name>getInterfaceTypes</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1a51e779832de0ec28c5384475854f467a" kind="function"><name>getPeerInterfaceTypes</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1a60d884cd3ab106367d9ccce5e768acb2" kind="function"><name>getInterfaceInsts</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1a61af874e808791343f9c64ecc26b56c7" kind="function"><name>getPeerInterfaceInsts</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointBase_1a5509d2c4c6fcbdfb2dec202f3013d090" kind="function"><name>mkValBool</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointBase_1a4690f7d749dde72417af55605936e9d5" kind="function"><name>mkValIntU</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointBase_1a67e7e0f725778797414a536621701e79" kind="function"><name>mkValIntS</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointBase_1a304f411577df08042eb16e2106c08d8d" kind="function"><name>mkValMap</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointBase_1ae1be8b5e674f1ea89948ace49af4e9ba" kind="function"><name>mkValStr</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointBase_1a361c213e1cb0ccc47a5239551189ad1b" kind="function"><name>mkValVec</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1aa811de2f5a0958d649ef125bf35e234a" kind="function"><name>peer_init</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1ab9603e3e3fa21a3fbc1693b1981f5865" kind="function"><name>peer_build_complete</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1a99ccad50c160777963dbdac41912004b" kind="function"><name>build_complete_check</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1a8c8ca15e2b704fce8d31b617e1be6bce" kind="function"><name>peer_connect_complete</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1a155d5b6984b355b0aff89af1435a52d8" kind="function"><name>connect_complete_check</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointBase_1ae4989388b656102c98a1dab8a4aae75b" kind="function"><name>last_error</name></member>
   </compound>
   <compound refid="classtblink__rpc__core_1_1EndpointEventBase" kind="class"><name>tblink_rpc_core::EndpointEventBase</name>
     <member refid="classtblink__rpc__core_1_1EndpointEventBase_1a7960a21ebdffd1ee03b88f4beb3de316" kind="variable"><name>m_kind</name></member>
@@ -98,92 +142,35 @@
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a57bde1341558408b3a41cd5858c1e2c6" kind="typedef"><name>req_func_t</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1ab69cfdf5abd0b1a086915c046c17a3ad" kind="typedef"><name>rspq_elem_t</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1acbdb4a95cb18324b04940167a9cb4588" kind="friend"><name>InterfaceInstBase</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a789bd4d7c994a439e5f544a836b9cd10" kind="variable"><name>m_services</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1af9732c704375aa6a81b97e25ad340b8d" kind="variable"><name>m_flags</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1acd5b3f7431d342d17a9088765358a519" kind="variable"><name>m_id</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1ac5dd5bef9582c2df488ac0f98c24ca8f" kind="variable"><name>m_call_id</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a820625d8380a59f7f3534ce7ee1e5094" kind="variable"><name>m_outbound_invoke_m</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1aa06db42255d573828ebc4e05a403dacf" kind="variable"><name>m_last_error</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1ab461e3eb82cbfab7ec610189ce9d0384" kind="variable"><name>m_rsp_m</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1aedce1e705605eb9e2c89119c44edc417" kind="variable"><name>m_init</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1ac6d16a059dd831afb4f8627e6bb46c4e" kind="variable"><name>m_peer_init</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a979b6e765c2cbc883c39520de94a06e2" kind="variable"><name>m_build_complete</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a79579367994d4107c1fcc0848774b643" kind="variable"><name>m_peer_build_complete</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1ad08527b5dbf2d7c278380af855665ed1" kind="variable"><name>m_connect_complete</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1aee02e58846085d02c7ab8f87d9fe2b47" kind="variable"><name>m_peer_connect_complete</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a377d68cba800e442221cb121176bcb76" kind="variable"><name>m_peer_local_check_complete</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1ae2c2c66c17e099286262e905cde8d0ef" kind="variable"><name>m_callback_m</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a06534dfa2af9699556b288920e78d105" kind="variable"><name>m_pending_time_cb</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a74764966e7508f7828470340b47c3813" kind="variable"><name>m_callback_id</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a501cfdc91ac4435ac5710e5efe72d2b3" kind="variable"><name>m_req_m</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a31d9ab996f5dc01843a515a9a180a348" kind="variable"><name>m_iftype_m</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a2163c7cb293cc13630759024dce91ecf" kind="variable"><name>m_time</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a5677a5cb73fb80bf09a271dfcc95168c" kind="variable"><name>m_args</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a5c0258f2ed254049376a55a1b619e1f9" kind="variable"><name>m_time_precision</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a9eeabc6d6fbd364fe1615adfc3842fa4" kind="variable"><name>m_peer_ifc_types</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a2f7dd8dede86fc460ca70c2e13453014" kind="variable"><name>m_peer_ifc_types_pl</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a43a20f041c0eb29b64a8ed71b95abdd2" kind="variable"><name>m_local_ifc_types</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1ad4c81913dc5e0867582fedf19a6c164c" kind="variable"><name>m_local_ifc_type_pl</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a18e35f2c349c0572627b0a05918be8cb" kind="variable"><name>m_peer_ifc_insts</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a6c46951b9322d47b3aafdb3c397489dc" kind="variable"><name>m_peer_ifc_insts_pl</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a548a874bbb88a9e347da85f33dac3fe3" kind="variable"><name>m_local_ifc_insts</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a3a4318c6e8e40251720302360805adb2" kind="variable"><name>m_local_ifc_insts_pl</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1ab8d49b364189835d747256d3a3176432" kind="variable"><name>m_run_until_event</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1afc7e0f1a1e207005b5c63aebf71b6e60" kind="variable"><name>m_event_received</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a9c448efac68458a9e02c7bf5aaccf1d8" kind="variable"><name>m_listeners</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a176ca5437f106d7551fc85156e204f0a" kind="variable"><name>m_listeners_p</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a039129554fb70ee63073aab2402ff967" kind="variable"><name>m_comm_state</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1ade413c3e6305f7e98905ad83fc0b3a14" kind="variable"><name>m_comm_mode</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a604dd2602253d89b8ad0a0faa06a848c" kind="variable"><name>m_pending_blocking_calls</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1adf71ac945de128dbba7701022f5882d7" kind="variable"><name>m_release_reqs</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1ae0e0e24e6c8ae8352600f677de1693f3" kind="variable"><name>m_wait_reqs</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a85c9769367c10fdfc46df3a297dc7a51" kind="function"><name>EndpointMsgBase</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a50d73f2aac3398982ab7a20fe54563ce" kind="function"><name>~EndpointMsgBase</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1adb5e5d23a485c81c3caef402d25d736a" kind="function"><name>getFlags</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a0a1bcb3046dea9891fd4eb1a50289811" kind="function"><name>setFlag</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a941ac2466061e437b853ab06acf15eb0" kind="function"><name>init</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a551ce5971900c6d18a51519f08f88f2a" kind="function"><name>is_init</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1afef8ee3fa6315f6012d85b67e871e429" kind="function"><name>build_complete</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1af8e96920282860b7f3a5b07753a9b29f" kind="function"><name>is_build_complete</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a7cd083aeaef756210e2a475902536525" kind="function"><name>connect_complete</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a6b84209159d8a5d581dee972c3cf4755" kind="function"><name>is_connect_complete</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1af88b1edf59395b60ca44b5184137464e" kind="function"><name>shutdown</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a291dcf940e11e4b7ef3bf0cc8d1caa3f" kind="function"><name>comm_state</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1ac631254d3f94d6eadc7b4531535e473c" kind="function"><name>update_comm_mode</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1ae2fd55dbeae85845683069f5a860833e" kind="function"><name>addListener</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a9bf7cd8d31ac818c52098a0fea47cbcb" kind="function"><name>addListener</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a9ba73f709ba905685ce9d78c00c4f537" kind="function"><name>removeListener</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a21dc1674d0c5cda4ef286074322b06e6" kind="function"><name>sendEvent</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1ad9d8de815bf85d4ca44f14075c524c62" kind="function"><name>sendEvent</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1af8d680e5a389bac85377df5b9986b215" kind="function"><name>add_time_callback</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1aa365235a3dae3f196de17f7c2cadce19" kind="function"><name>cancel_callback</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1adc46841ff700a7089e6c93eec6d8bf83" kind="function"><name>args</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a43f17fdd86952c87efdfd331f1895dc2" kind="function"><name>time</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a48a88f6f1c77c4be3503ee4412397a24" kind="function"><name>time_precision</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a1219f5e8c61e1c270daefdac9a7bb142" kind="function"><name>notify_callback</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a408017aae55a43c94efa29fc06edcbd3" kind="function"><name>last_error</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a67f8ed2f158fae63a96fc51cdb0b2e84" kind="function"><name>last_error</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1af1baf685ca4caaaca6704265ef20d782" kind="function"><name>findInterfaceType</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a4e39f3e437822daeb8cec5b9669705a5" kind="function"><name>newInterfaceTypeBuilder</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a1baf11ee17576cccf10ff586b36db5f3" kind="function"><name>defineInterfaceType</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1aeb8cdfb71bbe742c26de5149528f6815" kind="function"><name>createInterfaceObj</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a87ed0e6065459e33d4b216bf7ac1a01d" kind="function"><name>destroyInterfaceObj</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a6fbee0bece2d962142c31aac6563dfa1" kind="function"><name>defineInterfaceInst</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a307734b5444b11b4e2c4060c3ede973b" kind="function"><name>getInterfaceTypes</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a46f66dccfce09b9c20d08b2fb8022e8e" kind="function"><name>getPeerInterfaceTypes</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1ad9be307d5322566d5f606d8ab213ec42" kind="function"><name>getInterfaceInsts</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a221586b6d647a52e48dd940eddbda8d6" kind="function"><name>getPeerInterfaceInsts</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1ae31c8938bc4855c4899dfa3e62101f4c" kind="function"><name>send_req</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1ac4dae09016cc3e4d5dfdb83c81d56393" kind="function"><name>send_req</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1ad4abcac75c446362272609820100f951" kind="function"><name>mkValBool</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a68e3dad1519e7ce5577b1af75989d42c" kind="function"><name>mkValIntU</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a4125301118fecebd83f37f60763b3868" kind="function"><name>mkValIntS</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a6f1833785c7a19594f3aaf220faa4434" kind="function"><name>mkValMap</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a38189594eda93ffc428282916cdf5e6f" kind="function"><name>mkValStr</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a85d08894d6164fe927d0303de9602de6" kind="function"><name>mkValVec</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a2a60fc02bf014de0147ab14da7fdbacb" kind="function"><name>recv_req</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a3ce8bba081a4bab2a6dad0cc39fff531" kind="function"><name>recv_rsp</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a75a7a8779814e561328fe32cd7214948" kind="function"><name>send_req</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a1f1aadc4701dff5039f4cb2a27927380" kind="function"><name>send_rsp</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a5c358d080d29282827c15ac10c825397" kind="function"><name>wait_rsp</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a3956b1266baee2c17bc4545575155e41" kind="function"><name>invoke</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a0961b0bd2ffc5679dfcd83a3f5735afb" kind="function"><name>invoke_nb_rsp</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a82fbd0488961ac799ac3ed11484fc1ca" kind="function"><name>req_init</name></member>
@@ -191,7 +178,9 @@
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1ad5313c2fde5e02bdc2c6c699ad29afb6" kind="function"><name>req_connect_complete</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a9b5222bc51468001d2865db1f235a8ff" kind="function"><name>req_get_interface_types</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a293a067c5a4ab7b62d57aa0726a01e1f" kind="function"><name>req_add_time_callback</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a63dc74a22494e1f7aa88acbe6f3b9481" kind="function"><name>req_cancel_callback</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a8291076cf2614d5885d03399da68a072" kind="function"><name>req_notify_callback</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1ab36cd3f4ec365f52e86f0dbb7be8437c" kind="function"><name>req_create_ifc_obj</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a6a7e73e1009698138832c99ff9484e2c" kind="function"><name>req_shutdown</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1ae11d20e9048c215744dea4e9ead4805c" kind="function"><name>req_invoke_nb</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a1b8971a1d8883f6d859e57ecafd30614" kind="function"><name>req_invoke_b</name></member>
@@ -202,11 +191,11 @@
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1ae580a9ecdad075c4524e5ebfc77819a9" kind="function"><name>call_completion_nb</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a6b2bc5b0e27f87cb8b2a771687c9d7f6" kind="function"><name>call_completion_b</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a3caf3edfa09ab2c7923bbd17d1fac50e" kind="function"><name>rsp_call_completion_b</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1ab0dafac584cda3fd1ddc5854704025eb" kind="function"><name>pack_iftypes</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1ac492a6c3e60db4153c76810987084bea" kind="function"><name>pack_ifinsts</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a3bdd95f254375c724f66e801b71acaa6" kind="function"><name>pack_iftypes</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a615e5181d8e8bc9d03a1af57a655253c" kind="function"><name>pack_ifinsts</name></member>
     <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a2231927eee767ccb61f3e03feb7bc5f0" kind="function"><name>pack_type</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a4adbda82d1a4248b445c3bef4923033c" kind="function"><name>unpack_iftypes</name></member>
-    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a8ffa5b459b536643fc734b7ce420bca4" kind="function"><name>unpack_ifinsts</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a13e935054a6dae7bdee93f6085087af9" kind="function"><name>unpack_iftypes</name></member>
+    <member refid="classtblink__rpc__core_1_1EndpointMsgBase_1a37984ee852a543279300699ec5d0c732" kind="function"><name>unpack_ifinsts</name></member>
   </compound>
   <compound refid="classtblink__rpc__core_1_1EndpointMsgTransport" kind="class"><name>tblink_rpc_core::EndpointMsgTransport</name>
     <member refid="classtblink__rpc__core_1_1EndpointMsgTransport_1a3a4949b9ed8b3a77de24b2659570505f" kind="variable"><name>m_transport</name></member>
@@ -269,7 +258,9 @@
     <member refid="classtblink__rpc__core_1_1IEndpoint_1a893891db940adddc7f0499d822f8b2f5" kind="function"><name>last_error</name></member>
     <member refid="classtblink__rpc__core_1_1IEndpoint_1ab13cadb8538d84ecd312be841db11cff" kind="function"><name>findInterfaceType</name></member>
     <member refid="classtblink__rpc__core_1_1IEndpoint_1a4184789c27c46f36bff33493961366c4" kind="function"><name>newInterfaceTypeBuilder</name></member>
-    <member refid="classtblink__rpc__core_1_1IEndpoint_1a4ac295da75151394c1edb87c25b5a09b" kind="function"><name>defineInterfaceType</name></member>
+    <member refid="classtblink__rpc__core_1_1IEndpoint_1abd303d8608c5e35a88a7d971ca138351" kind="function"><name>defineInterfaceType</name></member>
+    <member refid="classtblink__rpc__core_1_1IEndpoint_1a9ab773b1d00ac88988ca4bc3658fb76e" kind="function"><name>createInterfaceObj</name></member>
+    <member refid="classtblink__rpc__core_1_1IEndpoint_1a82f4010447490c5b69cb1cd77da2f8c0" kind="function"><name>destroyInterfaceObj</name></member>
     <member refid="classtblink__rpc__core_1_1IEndpoint_1a224d59ab18319dba8d655a3bd3e8a970" kind="function"><name>defineInterfaceInst</name></member>
     <member refid="classtblink__rpc__core_1_1IEndpoint_1a719ba9218d5b663e6b7cfb04c07e3ede" kind="function"><name>process_one_message</name></member>
     <member refid="classtblink__rpc__core_1_1IEndpoint_1ae8862a009c75df8e92c2bf784ce6c578" kind="function"><name>getInterfaceTypes</name></member>
@@ -321,7 +312,12 @@
   </compound>
   <compound refid="classtblink__rpc__core_1_1IInterfaceImpl" kind="class"><name>tblink_rpc_core::IInterfaceImpl</name>
     <member refid="classtblink__rpc__core_1_1IInterfaceImpl_1a982b330dbb912ed2a7cda7a67c69d4f7" kind="function"><name>~IInterfaceImpl</name></member>
+    <member refid="classtblink__rpc__core_1_1IInterfaceImpl_1a48edffb0688183184299824f8def5fa0" kind="function"><name>init</name></member>
     <member refid="classtblink__rpc__core_1_1IInterfaceImpl_1a402694fa0fd2c4566f358ebd70964a16" kind="function"><name>invoke</name></member>
+  </compound>
+  <compound refid="classtblink__rpc__core_1_1IInterfaceImplFactory" kind="class"><name>tblink_rpc_core::IInterfaceImplFactory</name>
+    <member refid="classtblink__rpc__core_1_1IInterfaceImplFactory_1ad024f2f240780138d661e717f440fd72" kind="function"><name>~IInterfaceImplFactory</name></member>
+    <member refid="classtblink__rpc__core_1_1IInterfaceImplFactory_1a78efa0360e678c545ee0de8324792825" kind="function"><name>createImpl</name></member>
   </compound>
   <compound refid="classtblink__rpc__core_1_1IInterfaceInst" kind="class"><name>tblink_rpc_core::IInterfaceInst</name>
     <member refid="classtblink__rpc__core_1_1IInterfaceInst_1a960254ebe9cab0edd36ba8c44e22f08d" kind="function"><name>~IInterfaceInst</name></member>
@@ -332,11 +328,6 @@
     <member refid="classtblink__rpc__core_1_1IInterfaceInst_1a4ec865c63bc29f9aeadb440859521e35" kind="function"><name>setImpl</name></member>
     <member refid="classtblink__rpc__core_1_1IInterfaceInst_1a54460e93361ae9e231bf6b42c79fbf77" kind="function"><name>invoke</name></member>
     <member refid="classtblink__rpc__core_1_1IInterfaceInst_1a13f79b030a20baac79214b1ec7b8189a" kind="function"><name>invoke_rsp</name></member>
-  </compound>
-  <compound refid="classtblink__rpc__core_1_1IInterfaceInstFactory" kind="class"><name>tblink_rpc_core::IInterfaceInstFactory</name>
-    <member refid="classtblink__rpc__core_1_1IInterfaceInstFactory_1accddfa1ae751abb771e97102ee2861bf" kind="function"><name>~IInterfaceInstFactory</name></member>
-    <member refid="classtblink__rpc__core_1_1IInterfaceInstFactory_1ab94512590c89918932814ebf2372b388" kind="function"><name>createInterfaceInst</name></member>
-    <member refid="classtblink__rpc__core_1_1IInterfaceInstFactory_1aa1699768d351984ecd110a126bce39b6" kind="function"><name>clone</name></member>
   </compound>
   <compound refid="classtblink__rpc__core_1_1IInterfaceType" kind="class"><name>tblink_rpc_core::IInterfaceType</name>
     <member refid="classtblink__rpc__core_1_1IInterfaceType_1a0eb7d068ab80780d9319be05a8429310" kind="function"><name>~IInterfaceType</name></member>
@@ -388,6 +379,8 @@
     <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1a5f1e0f79fee51637ed3eace662d99a9b" kind="variable"><name>m_endpoint</name></member>
     <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1abc267381784ca5816c9384f9541a4429" kind="variable"><name>m_type</name></member>
     <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1a859bd924acabd540464475de0cd7306e" kind="variable"><name>m_inst_name</name></member>
+    <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1aecfa326243b4e3c2eb792cbdffd8fe9f" kind="variable"><name>m_local_id</name></member>
+    <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1ac4a0e5a7151732539e5eb53e46a5b833" kind="variable"><name>m_remote_id</name></member>
     <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1a13e96a50eb4b111f5d5e62a67a3a7dd2" kind="variable"><name>m_is_mirror</name></member>
     <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1a66ac082c95b9b76d957e69558a0d5897" kind="variable"><name>m_impl</name></member>
     <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1aaa41e3db00b8bae5dad9210c145db568" kind="variable"><name>m_call_id</name></member>
@@ -401,6 +394,10 @@
     <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1afff37fbfff094965695f8d95db7fd45b" kind="function"><name>is_mirror</name></member>
     <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1aa7440fd581c6e8b75b0b2371993983d0" kind="function"><name>setImpl</name></member>
     <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1a2826a2a5cd71d5fef1ee122e4f298e65" kind="function"><name>name</name></member>
+    <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1a3a420f838e223eae3849e0ab77566b5f" kind="function"><name>getLocalId</name></member>
+    <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1a79b01a120e4d7887b9bde5af73f11f9c" kind="function"><name>setLocalId</name></member>
+    <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1aa3eb49b895317de538a4ab150e6c31a1" kind="function"><name>getRemoteId</name></member>
+    <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1a7f022f8bc6720fa851bacec342a03ecc" kind="function"><name>setRemoteId</name></member>
     <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1abf43474a99c7dae3bc2bfb373f8c0f5b" kind="function"><name>invoke_req</name></member>
     <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1acc9359a38783bcd993a37bae1fd266c1" kind="function"><name>invoke_rsp</name></member>
     <member refid="classtblink__rpc__core_1_1InterfaceInstBase_1a153a5cdced414aa681696da2e7ac28de" kind="function"><name>invoke_nb_rsp</name></member>
@@ -437,12 +434,18 @@
     <member refid="classtblink__rpc__core_1_1InterfaceType_1ada48135b20e694afd5a3dcb2b92ca66b" kind="variable"><name>m_methods</name></member>
     <member refid="classtblink__rpc__core_1_1InterfaceType_1ac968ef12aaa7113a6f11a610542618e7" kind="variable"><name>m_methods_p</name></member>
     <member refid="classtblink__rpc__core_1_1InterfaceType_1a5a20a895a03e251abce2d01c33ac4b2d" kind="variable"><name>m_methods_m</name></member>
+    <member refid="classtblink__rpc__core_1_1InterfaceType_1a95e4769cede8d69f661a20f16fbed56e" kind="variable"><name>m_impl_f</name></member>
+    <member refid="classtblink__rpc__core_1_1InterfaceType_1a11f7aa9629c7b4d0583aeed76951b77c" kind="variable"><name>m_impl_mirror_f</name></member>
     <member refid="classtblink__rpc__core_1_1InterfaceType_1ae3188c8ce6c1b41237a4d2088dc0dfa6" kind="function"><name>InterfaceType</name></member>
     <member refid="classtblink__rpc__core_1_1InterfaceType_1adf8dcc157c32fb0cda550e9d245f162d" kind="function"><name>~InterfaceType</name></member>
     <member refid="classtblink__rpc__core_1_1InterfaceType_1aae24018de5bde2e6e2206c86dc70ce3e" kind="function"><name>name</name></member>
     <member refid="classtblink__rpc__core_1_1InterfaceType_1ace3283e2055e2e7225391a7f949b61f3" kind="function"><name>methods</name></member>
     <member refid="classtblink__rpc__core_1_1InterfaceType_1a9cf25a9a4b743e360a02b7fa93cfe236" kind="function"><name>addMethod</name></member>
     <member refid="classtblink__rpc__core_1_1InterfaceType_1a2fb0ee2b4715610d934ce2c9e9c0c448" kind="function"><name>findMethod</name></member>
+    <member refid="classtblink__rpc__core_1_1InterfaceType_1a953c84d74e0634363f4ffb6f17421b82" kind="function"><name>impl_f</name></member>
+    <member refid="classtblink__rpc__core_1_1InterfaceType_1acda7d6fbabddca9d5382d822dfee7662" kind="function"><name>impl_f</name></member>
+    <member refid="classtblink__rpc__core_1_1InterfaceType_1a0d3efbfe8fa158d2a969dfd3951b4a64" kind="function"><name>impl_mirror_f</name></member>
+    <member refid="classtblink__rpc__core_1_1InterfaceType_1adc16c0a1c3137436af9e58fe801c9d82" kind="function"><name>impl_mirror_f</name></member>
   </compound>
   <compound refid="classtblink__rpc__core_1_1InterfaceTypeBuilder" kind="class"><name>tblink_rpc_core::InterfaceTypeBuilder</name>
     <member refid="classtblink__rpc__core_1_1InterfaceTypeBuilder_1a8eafa7cb13d282fa8d1cb93dbde9a596" kind="variable"><name>m_type</name></member>
@@ -452,6 +455,7 @@
     <member refid="classtblink__rpc__core_1_1InterfaceTypeBuilder_1af14ced0f865c554591c3f49e35801238" kind="function"><name>newMethodTypeBuilder</name></member>
     <member refid="classtblink__rpc__core_1_1InterfaceTypeBuilder_1ac26e3e1566c28e94bc679e039b77807f" kind="function"><name>add_method</name></member>
     <member refid="classtblink__rpc__core_1_1InterfaceTypeBuilder_1ac150071385a249d95ee9ccb272500a35" kind="function"><name>mkTypeBool</name></member>
+    <member refid="classtblink__rpc__core_1_1InterfaceTypeBuilder_1a227011dc11473dedcee2491f092c0db9" kind="function"><name>mkTypeIfc</name></member>
     <member refid="classtblink__rpc__core_1_1InterfaceTypeBuilder_1a0d29e2e184fd32244917c23ffc3364b2" kind="function"><name>mkTypeInt</name></member>
     <member refid="classtblink__rpc__core_1_1InterfaceTypeBuilder_1ab53b8d6b2e5daf3950ec0144f3ac1883" kind="function"><name>mkTypeMap</name></member>
     <member refid="classtblink__rpc__core_1_1InterfaceTypeBuilder_1ac6bdad7d61e312757b3364df5fb04a32" kind="function"><name>mkTypeStr</name></member>
@@ -588,10 +592,16 @@
   <compound refid="classtblink__rpc__core_1_1ITypeFactory" kind="class"><name>tblink_rpc_core::ITypeFactory</name>
     <member refid="classtblink__rpc__core_1_1ITypeFactory_1a1e066cf0c268ed5e4229eae446c34b94" kind="function"><name>~ITypeFactory</name></member>
     <member refid="classtblink__rpc__core_1_1ITypeFactory_1a53f04cf0d1d60e95e7c70c67309443e2" kind="function"><name>mkTypeBool</name></member>
+    <member refid="classtblink__rpc__core_1_1ITypeFactory_1a27f015fccb921444c0079301cf065609" kind="function"><name>mkTypeIfc</name></member>
     <member refid="classtblink__rpc__core_1_1ITypeFactory_1a16baea2159e1d0eb25789fe8c1d1b460" kind="function"><name>mkTypeInt</name></member>
     <member refid="classtblink__rpc__core_1_1ITypeFactory_1acafb769fa99360b64b81e05c10b39551" kind="function"><name>mkTypeMap</name></member>
     <member refid="classtblink__rpc__core_1_1ITypeFactory_1a9d45df9ca2d323613f279909d3440126" kind="function"><name>mkTypeStr</name></member>
     <member refid="classtblink__rpc__core_1_1ITypeFactory_1a361da98a4ab0f94b1f7b337d429fbeee" kind="function"><name>mkTypeVec</name></member>
+  </compound>
+  <compound refid="classtblink__rpc__core_1_1ITypeIfc" kind="class"><name>tblink_rpc_core::ITypeIfc</name>
+    <member refid="classtblink__rpc__core_1_1ITypeIfc_1ac7ce0a2747de81cbaa54e1ff2d2848a5" kind="function"><name>~ITypeIfc</name></member>
+    <member refid="classtblink__rpc__core_1_1ITypeIfc_1a1ce8be9709886bd3a55f56cbd0eee1e8" kind="function"><name>name</name></member>
+    <member refid="classtblink__rpc__core_1_1ITypeIfc_1a19c8004651bc2a14d45ff8aacc9844de" kind="function"><name>is_mirror</name></member>
   </compound>
   <compound refid="classtblink__rpc__core_1_1ITypeInt" kind="class"><name>tblink_rpc_core::ITypeInt</name>
     <member refid="classtblink__rpc__core_1_1ITypeInt_1aa7ae1e7ecbadfcc10766354dc43cf708" kind="function"><name>~ITypeInt</name></member>
@@ -771,6 +781,13 @@
   </compound>
   <compound refid="classtblink__rpc__core_1_1PythonApi" kind="class"><name>tblink_rpc_core::PythonApi</name>
     <member refid="classtblink__rpc__core_1_1PythonApi_1a1f5408bfa625ad97172e062b446558ac" kind="variable"><name>Py_Initialize_f</name></member>
+    <member refid="classtblink__rpc__core_1_1PythonApi_1add57a85e2dd01d58eae8e20acc31cf2e" kind="variable"><name>Py_EndInterpreter_f</name></member>
+    <member refid="classtblink__rpc__core_1_1PythonApi_1a8821de729a1e31f824b487b5818a8a97" kind="variable"><name>Py_NewInterpreter_f</name></member>
+    <member refid="classtblink__rpc__core_1_1PythonApi_1ab04d2bde82bee3f01a8da50a08782679" kind="variable"><name>PyEval_AcquireLock_f</name></member>
+    <member refid="classtblink__rpc__core_1_1PythonApi_1a27d2b18fc7121f976184a9ba5e7045a5" kind="variable"><name>PyEval_AcquireThread_f</name></member>
+    <member refid="classtblink__rpc__core_1_1PythonApi_1a552d6d5040ea47ea20c602f8f756e2ba" kind="variable"><name>PyEval_ReleaseThread_f</name></member>
+    <member refid="classtblink__rpc__core_1_1PythonApi_1ad12d5b5386b6a971173cf9ae11abc381" kind="variable"><name>PyEval_ReleaseLock_f</name></member>
+    <member refid="classtblink__rpc__core_1_1PythonApi_1a95c20a544b9d391bcb37a75a05ff13be" kind="variable"><name>PyErr_Print_f</name></member>
     <member refid="classtblink__rpc__core_1_1PythonApi_1ab0d25db434fdb5ca10fe053ce116ddaa" kind="variable"><name>PyImport_ImportModule_f</name></member>
     <member refid="classtblink__rpc__core_1_1PythonApi_1a5b947377c98eb0cd4aeba9013da93bb4" kind="variable"><name>PyList_New_f</name></member>
     <member refid="classtblink__rpc__core_1_1PythonApi_1a5e4a47dd82de2e145ee36fcc0c05ebef" kind="variable"><name>PyList_Append_f</name></member>
@@ -783,6 +800,13 @@
     <member refid="classtblink__rpc__core_1_1PythonApi_1a4408001b0e36e219adb356c13eaf1e2b" kind="function"><name>~PythonApi</name></member>
     <member refid="classtblink__rpc__core_1_1PythonApi_1a4beb9e0c2e19bbceeee97366453beac8" kind="function"><name>init</name></member>
     <member refid="classtblink__rpc__core_1_1PythonApi_1aa914c6b4d592949f485a79f044afc701" kind="function"><name>Py_Initialize</name></member>
+    <member refid="classtblink__rpc__core_1_1PythonApi_1a70f7705397aafc74a98dd3a0312a3f39" kind="function"><name>Py_EndInterpreter</name></member>
+    <member refid="classtblink__rpc__core_1_1PythonApi_1a3e3fe9576a25f56f8322d6fde3e11560" kind="function"><name>Py_NewInterpreter</name></member>
+    <member refid="classtblink__rpc__core_1_1PythonApi_1ad6d62ab529879d754c76fb82f75f8cb5" kind="function"><name>PyEval_AcquireLock</name></member>
+    <member refid="classtblink__rpc__core_1_1PythonApi_1aa0bbd2cc5800e1ac5abd34a6ed7555f8" kind="function"><name>PyEval_AcquireThread</name></member>
+    <member refid="classtblink__rpc__core_1_1PythonApi_1a6f993d73041a7d1db577d148a9c9ede3" kind="function"><name>PyEval_ReleaseThread</name></member>
+    <member refid="classtblink__rpc__core_1_1PythonApi_1a7877a69aab7462724e931832b6bb556f" kind="function"><name>PyEval_ReleaseLock</name></member>
+    <member refid="classtblink__rpc__core_1_1PythonApi_1a0d3a7ab2ed9a560400711befa3099cdd" kind="function"><name>PyErr_Print</name></member>
     <member refid="classtblink__rpc__core_1_1PythonApi_1a560c285802bcccdc23773a601238e7ec" kind="function"><name>PyImport_ImportModule</name></member>
     <member refid="classtblink__rpc__core_1_1PythonApi_1a3b7d928bddce74f7ec26f73613a69b53" kind="function"><name>PyList_New</name></member>
     <member refid="classtblink__rpc__core_1_1PythonApi_1ad5578738e82b5282723c0a0ac2a52f86" kind="function"><name>PyObject_GetAttrString</name></member>
@@ -931,6 +955,15 @@
     <member refid="classtblink__rpc__core_1_1Type_1a7ffc319a74be82acb5c0189cb73ad361" kind="function"><name>~Type</name></member>
     <member refid="classtblink__rpc__core_1_1Type_1ab737f123a5e0cde964f2e145a65b8534" kind="function"><name>kind</name></member>
   </compound>
+  <compound refid="classtblink__rpc__core_1_1TypeIfc" kind="class"><name>tblink_rpc_core::TypeIfc</name>
+    <member refid="classtblink__rpc__core_1_1TypeIfc_1ab867a098d68d32e5408612088c76d9a0" kind="variable"><name>m_name</name></member>
+    <member refid="classtblink__rpc__core_1_1TypeIfc_1ae46d9efae7c8ab380d066d04f667be25" kind="variable"><name>m_is_mirror</name></member>
+    <member refid="classtblink__rpc__core_1_1TypeIfc_1a04a50d3c40a3dd2f29edbe34f23a7180" kind="function"><name>TypeIfc</name></member>
+    <member refid="classtblink__rpc__core_1_1TypeIfc_1a317d8fd513cd1d91569e514d1fae1538" kind="function"><name>~TypeIfc</name></member>
+    <member refid="classtblink__rpc__core_1_1TypeIfc_1aba9a212abc3eb5e0617e657fe8cb178a" kind="function"><name>kind</name></member>
+    <member refid="classtblink__rpc__core_1_1TypeIfc_1ae332bca6ad315d82450de4717b2b20e2" kind="function"><name>name</name></member>
+    <member refid="classtblink__rpc__core_1_1TypeIfc_1a43d3c2ab0782b1eccbfbedb4b11af6d0" kind="function"><name>is_mirror</name></member>
+  </compound>
   <compound refid="classtblink__rpc__core_1_1TypeInt" kind="class"><name>tblink_rpc_core::TypeInt</name>
     <member refid="classtblink__rpc__core_1_1TypeInt_1af4a5a2ad6e9f7621815027409a7dfaeb" kind="variable"><name>m_is_signed</name></member>
     <member refid="classtblink__rpc__core_1_1TypeInt_1abfa3aaef6bb5544395c02009fb63a249" kind="variable"><name>m_width</name></member>
@@ -969,6 +1002,7 @@
     <member refid="ITbLinkEvent_8h_1a4db4b547565a6f9e8fa4072fbc948936ad0a1109d76d41726bcef176c2358fb4e" kind="enumvalue"><name>RemEndpoint</name></member>
     <member refid="IType_8h_1a64f4416835c3fe884e74973d6d3e0cc0" kind="enum"><name>TypeE</name></member>
     <member refid="IType_8h_1a64f4416835c3fe884e74973d6d3e0cc0ac26f15e86e3de4c398a8273272aba034" kind="enumvalue"><name>Bool</name></member>
+    <member refid="IType_8h_1a64f4416835c3fe884e74973d6d3e0cc0ad13ab1a56685630922953fafbe82c2f8" kind="enumvalue"><name>Ifc</name></member>
     <member refid="IType_8h_1a64f4416835c3fe884e74973d6d3e0cc0a1686a6c336b71b36d77354cea19a8b52" kind="enumvalue"><name>Int</name></member>
     <member refid="IType_8h_1a64f4416835c3fe884e74973d6d3e0cc0a46f3ea056caa3126b91f3f70beea068c" kind="enumvalue"><name>Map</name></member>
     <member refid="IType_8h_1a64f4416835c3fe884e74973d6d3e0cc0aebccbbd337efb2ddb5979c57125bad1b" kind="enumvalue"><name>Str</name></member>
@@ -995,6 +1029,7 @@
     <member refid="IEndpointServices_8h_1a564365753c3357fd533bb6504369826e" kind="typedef"><name>IEndpointServicesUP</name></member>
     <member refid="IEndpointServicesFactory_8h_1a6f9067984285948afbbc214799c40b0c" kind="typedef"><name>IEndpointServicesFactoryUP</name></member>
     <member refid="IInterfaceImpl_8h_1ac0808793040599a038457d57ba8d1479" kind="typedef"><name>IInterfaceImplUP</name></member>
+    <member refid="IInterfaceImplFactory_8h_1aee933262f33abcb5f462f2cdecccad4f" kind="typedef"><name>IInterfaceImplFactoryUP</name></member>
     <member refid="IInterfaceInst_8h_1a1d593e697f54d0165e6c22daf5c4469b" kind="typedef"><name>IInterfaceInstUP</name></member>
     <member refid="IInterfaceInst_8h_1ad064814104624b88e155e45c15169c55" kind="typedef"><name>invoke_req_f</name></member>
     <member refid="IInterfaceInst_8h_1a1a4e173c4bf147a9405245cf3d6188a8" kind="typedef"><name>invoke_rsp_f</name></member>
@@ -1104,9 +1139,9 @@
   </compound>
   <compound refid="IInterfaceImpl_8h" kind="file"><name>IInterfaceImpl.h</name>
   </compound>
-  <compound refid="IInterfaceInst_8h" kind="file"><name>IInterfaceInst.h</name>
+  <compound refid="IInterfaceImplFactory_8h" kind="file"><name>IInterfaceImplFactory.h</name>
   </compound>
-  <compound refid="IInterfaceInstFactory_8h" kind="file"><name>IInterfaceInstFactory.h</name>
+  <compound refid="IInterfaceInst_8h" kind="file"><name>IInterfaceInst.h</name>
   </compound>
   <compound refid="IInterfaceType_8h" kind="file"><name>IInterfaceType.h</name>
   </compound>
@@ -1149,6 +1184,8 @@
   <compound refid="IType_8h" kind="file"><name>IType.h</name>
   </compound>
   <compound refid="ITypeFactory_8h" kind="file"><name>ITypeFactory.h</name>
+  </compound>
+  <compound refid="ITypeIfc_8h" kind="file"><name>ITypeIfc.h</name>
   </compound>
   <compound refid="ITypeInt_8h" kind="file"><name>ITypeInt.h</name>
   </compound>
@@ -1312,6 +1349,10 @@
   <compound refid="Type_8cpp" kind="file"><name>Type.cpp</name>
   </compound>
   <compound refid="Type_8h" kind="file"><name>Type.h</name>
+  </compound>
+  <compound refid="TypeIfc_8cpp" kind="file"><name>TypeIfc.cpp</name>
+  </compound>
+  <compound refid="TypeIfc_8h" kind="file"><name>TypeIfc.h</name>
   </compound>
   <compound refid="TypeInt_8cpp" kind="file"><name>TypeInt.cpp</name>
   </compound>

@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtblink__rpc_1_1InterfaceTypeRgy" kind="class" language="C++" prot="public">
+    <compoundname>tblink_rpc::InterfaceTypeRgy</compoundname>
+    <basecompoundref refid="classtblink__rpc_1_1InterfaceTypeRgyBase" prot="public" virt="non-virtual">tblink_rpc::InterfaceTypeRgyBase&lt; T &gt;</basecompoundref>
+    <innerclass refid="classtblink__rpc_1_1InterfaceTypeRgy_1_1ImplFactoryProxy" prot="public">tblink_rpc::InterfaceTypeRgy::ImplFactoryProxy</innerclass>
+    <innerclass refid="classtblink__rpc_1_1InterfaceTypeRgy_1_1ImplMirrorFactoryProxy" prot="public">tblink_rpc::InterfaceTypeRgy::ImplMirrorFactoryProxy</innerclass>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+      <param>
+        <type>string</type>
+        <declname>Tn</declname>
+        <defname>Tn</defname>
+      </param>
+      <param>
+        <type>typename Tf</type>
+      </param>
+      <param>
+        <type>typename Tfm</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classtblink__rpc_1_1InterfaceTypeRgy_1ad627ea8264456424825acd14d1f8922b" prot="public" static="no">
+        <type><ref refid="classtblink__rpc_1_1InterfaceTypeRgy" kindref="compound">InterfaceTypeRgy</ref>&lt; T, Tn, Tf, Tfm &gt;</type>
+        <definition>typedef InterfaceTypeRgy&lt;T, Tn, Tf, Tfm&gt; tblink_rpc::InterfaceTypeRgy&lt; T, Tn, Tf, Tfm &gt;::this_t</definition>
+        <argsstring></argsstring>
+        <name>this_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1279" column="28" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1279" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classtblink__rpc_1_1InterfaceTypeRgy_1adc6ebeee4d3af8176432e906e84f6db5" prot="public" static="no" mutable="no">
+        <type><ref refid="classtblink__rpc_1_1IInterfaceImplFactory" kindref="compound">IInterfaceImplFactory</ref></type>
+        <definition>IInterfaceImplFactory tblink_rpc::InterfaceTypeRgy&lt; T, Tn, Tf, Tfm &gt;::m_impl_factory</definition>
+        <argsstring></argsstring>
+        <name>m_impl_factory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1284" column="22" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1282" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtblink__rpc_1_1InterfaceTypeRgy_1a378f2b9d58d7e919786795e3847870e6" prot="public" static="no" mutable="no">
+        <type><ref refid="classtblink__rpc_1_1IInterfaceImplFactory" kindref="compound">IInterfaceImplFactory</ref></type>
+        <definition>IInterfaceImplFactory tblink_rpc::InterfaceTypeRgy&lt; T, Tn, Tf, Tfm &gt;::m_impl_mirror_factory</definition>
+        <argsstring></argsstring>
+        <name>m_impl_mirror_factory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1285" column="22" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1285" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtblink__rpc_1_1InterfaceTypeRgy_1a8f5b86aed69040c14890018da4d228ea" prot="public" static="no" mutable="no">
+        <type><ref refid="classtblink__rpc_1_1InterfaceTypeRgy_1_1ImplFactoryProxy" kindref="compound">ImplFactoryProxy</ref></type>
+        <definition>ImplFactoryProxy tblink_rpc::InterfaceTypeRgy&lt; T, Tn, Tf, Tfm &gt;::m_impl_factory_proxy</definition>
+        <argsstring></argsstring>
+        <name>m_impl_factory_proxy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1286" column="17" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1286" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtblink__rpc_1_1InterfaceTypeRgy_1a919db9e1e5ae4c0b793952cb3b648b5d" prot="public" static="no" mutable="no">
+        <type><ref refid="classtblink__rpc_1_1InterfaceTypeRgy_1_1ImplMirrorFactoryProxy" kindref="compound">ImplMirrorFactoryProxy</ref></type>
+        <definition>ImplMirrorFactoryProxy tblink_rpc::InterfaceTypeRgy&lt; T, Tn, Tf, Tfm &gt;::m_impl_mirror_factory_proxy</definition>
+        <argsstring></argsstring>
+        <name>m_impl_mirror_factory_proxy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1287" column="23" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1287" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtblink__rpc_1_1InterfaceTypeRgy_1ae07aa88a86c4dbb2ca0a1dfe7dfa5b95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>tblink_rpc::InterfaceTypeRgy&lt; T, Tn, Tf, Tfm &gt;::new</definition>
+        <argsstring>()</argsstring>
+        <name>new</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1289" column="2" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1289" bodyend="1298"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1InterfaceTypeRgy_1a1a70541b3576b9b48de73dbd7dfa0c83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>string</type>
+        <definition>virtual string tblink_rpc::InterfaceTypeRgy&lt; T, Tn, Tf, Tfm &gt;::name</definition>
+        <argsstring>()</argsstring>
+        <name>name</name>
+        <reimplements refid="classtblink__rpc_1_1IInterfaceTypeRgy_1a2067cb1f10281a25e3f5f340415bf4fe">name</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1300" column="17" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1300" bodyend="1302"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1InterfaceTypeRgy_1aaa50157bc6be13f5d4ba6a038e0a7c47" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classtblink__rpc_1_1IInterfaceImplFactory" kindref="compound">tblink_rpc::IInterfaceImplFactory</ref></type>
+        <definition>virtual tblink_rpc::IInterfaceImplFactory tblink_rpc::InterfaceTypeRgy&lt; T, Tn, Tf, Tfm &gt;::getImplFactory</definition>
+        <argsstring>()</argsstring>
+        <name>getImplFactory</name>
+        <reimplements refid="classtblink__rpc_1_1IInterfaceTypeRgy_1a1ed76122d76c627c9c8aa7fa1dc78c09">getImplFactory</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1304" column="44" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1304" bodyend="1306"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1InterfaceTypeRgy_1aea3474c931b39a463032db37bd89d7c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void tblink_rpc::InterfaceTypeRgy&lt; T, Tn, Tf, Tfm &gt;::setImplFactory</definition>
+        <argsstring>(tblink_rpc::IInterfaceImplFactory f)</argsstring>
+        <name>setImplFactory</name>
+        <reimplements refid="classtblink__rpc_1_1IInterfaceTypeRgy_1ad10923cfd674e773ecb5d1df3adfb11c">setImplFactory</reimplements>
+        <param>
+          <type><ref refid="classtblink__rpc_1_1IInterfaceImplFactory" kindref="compound">tblink_rpc::IInterfaceImplFactory</ref></type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1308" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1308" bodyend="1310"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1InterfaceTypeRgy_1ae56072a8c18b6119bd6e188962854830" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classtblink__rpc_1_1IInterfaceImplFactory" kindref="compound">tblink_rpc::IInterfaceImplFactory</ref></type>
+        <definition>virtual tblink_rpc::IInterfaceImplFactory tblink_rpc::InterfaceTypeRgy&lt; T, Tn, Tf, Tfm &gt;::getMirrorImplFactory</definition>
+        <argsstring>()</argsstring>
+        <name>getMirrorImplFactory</name>
+        <reimplements refid="classtblink__rpc_1_1IInterfaceTypeRgy_1a149b1a84199b392ffdae58016cf099ef">getMirrorImplFactory</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1312" column="44" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1312" bodyend="1314"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1InterfaceTypeRgy_1a91ec22bbe0c393628d28dda498396670" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void tblink_rpc::InterfaceTypeRgy&lt; T, Tn, Tf, Tfm &gt;::setMirrorImplFactory</definition>
+        <argsstring>(tblink_rpc::IInterfaceImplFactory f)</argsstring>
+        <name>setMirrorImplFactory</name>
+        <reimplements refid="classtblink__rpc_1_1IInterfaceTypeRgy_1aca858c941d1a1edbd3acfc51cfbac778">setMirrorImplFactory</reimplements>
+        <param>
+          <type><ref refid="classtblink__rpc_1_1IInterfaceImplFactory" kindref="compound">tblink_rpc::IInterfaceImplFactory</ref></type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1316" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1316" bodyend="1318"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="classtblink__rpc_1_1InterfaceTypeRgy" kindref="compound">InterfaceTypeRgy</ref></para>
+<para>TODO: Add class documentation </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>tblink_rpc::InterfaceTypeRgy&lt; T, Tn, Tf, Tfm &gt;</label>
+        <link refid="classtblink__rpc_1_1InterfaceTypeRgy"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tblink_rpc::InterfaceTypeRgyBase&lt; T &gt;</label>
+        <link refid="classtblink__rpc_1_1InterfaceTypeRgyBase"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tblink_rpc::IInterfaceTypeRgy</label>
+        <link refid="classtblink__rpc_1_1IInterfaceTypeRgy"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>tblink_rpc::IInterfaceImplFactory</label>
+        <link refid="classtblink__rpc_1_1IInterfaceImplFactory"/>
+      </node>
+      <node id="6">
+        <label>tblink_rpc::InterfaceTypeRgy&lt; T, Tn, Tf, Tfm &gt;::ImplFactoryProxy</label>
+        <link refid="classtblink__rpc_1_1InterfaceTypeRgy_1_1ImplFactoryProxy"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>tblink_rpc::InterfaceTypeRgy&lt; T, Tn, Tf, Tfm &gt;</label>
+        <link refid="classtblink__rpc_1_1InterfaceTypeRgy"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>m_impl_mirror_factory</edgelabel>
+          <edgelabel>m_impl_factory</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>m_impl_mirror_factory_proxy</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>m_impl_factory_proxy</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>tblink_rpc::InterfaceTypeRgy&lt; T, Tn, Tf, Tfm &gt;::ImplMirrorFactoryProxy</label>
+        <link refid="classtblink__rpc_1_1InterfaceTypeRgy_1_1ImplMirrorFactoryProxy"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tblink_rpc::InterfaceTypeRgyBase&lt; T &gt;</label>
+        <link refid="classtblink__rpc_1_1InterfaceTypeRgyBase"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>tblink_rpc::IInterfaceTypeRgy</label>
+        <link refid="classtblink__rpc_1_1IInterfaceTypeRgy"/>
+      </node>
+    </collaborationgraph>
+    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1278" column="55" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1278" bodyend="1344"/>
+    <listofallmembers>
+      <member refid="classtblink__rpc_1_1IInterfaceTypeRgy_1ac664b5ab10836048cc5c5a681b2ba584" prot="public" virt="virtual"><scope>tblink_rpc::InterfaceTypeRgy</scope><name>defineType</name></member>
+      <member refid="classtblink__rpc_1_1InterfaceTypeRgy_1aaa50157bc6be13f5d4ba6a038e0a7c47" prot="public" virt="virtual"><scope>tblink_rpc::InterfaceTypeRgy</scope><name>getImplFactory</name></member>
+      <member refid="classtblink__rpc_1_1InterfaceTypeRgy_1ae56072a8c18b6119bd6e188962854830" prot="public" virt="virtual"><scope>tblink_rpc::InterfaceTypeRgy</scope><name>getMirrorImplFactory</name></member>
+      <member refid="classtblink__rpc_1_1InterfaceTypeRgyBase_1a7ef951400a8f04c2d96eecfee0c54d00" prot="public" virt="non-virtual"><scope>tblink_rpc::InterfaceTypeRgy</scope><name>inst</name></member>
+      <member refid="classtblink__rpc_1_1InterfaceTypeRgy_1adc6ebeee4d3af8176432e906e84f6db5" prot="public" virt="non-virtual"><scope>tblink_rpc::InterfaceTypeRgy</scope><name>m_impl_factory</name></member>
+      <member refid="classtblink__rpc_1_1InterfaceTypeRgy_1a8f5b86aed69040c14890018da4d228ea" prot="public" virt="non-virtual"><scope>tblink_rpc::InterfaceTypeRgy</scope><name>m_impl_factory_proxy</name></member>
+      <member refid="classtblink__rpc_1_1InterfaceTypeRgy_1a378f2b9d58d7e919786795e3847870e6" prot="public" virt="non-virtual"><scope>tblink_rpc::InterfaceTypeRgy</scope><name>m_impl_mirror_factory</name></member>
+      <member refid="classtblink__rpc_1_1InterfaceTypeRgy_1a919db9e1e5ae4c0b793952cb3b648b5d" prot="public" virt="non-virtual"><scope>tblink_rpc::InterfaceTypeRgy</scope><name>m_impl_mirror_factory_proxy</name></member>
+      <member refid="classtblink__rpc_1_1InterfaceTypeRgyBase_1a2d29045b50de7f77bec57a6ec2475b2d" prot="public" virt="non-virtual"><scope>tblink_rpc::InterfaceTypeRgy</scope><name>m_inst</name></member>
+      <member refid="classtblink__rpc_1_1InterfaceTypeRgy_1a1a70541b3576b9b48de73dbd7dfa0c83" prot="public" virt="virtual"><scope>tblink_rpc::InterfaceTypeRgy</scope><name>name</name></member>
+      <member refid="classtblink__rpc_1_1InterfaceTypeRgy_1ae07aa88a86c4dbb2ca0a1dfe7dfa5b95" prot="public" virt="non-virtual"><scope>tblink_rpc::InterfaceTypeRgy</scope><name>new</name></member>
+      <member refid="classtblink__rpc_1_1InterfaceTypeRgy_1aea3474c931b39a463032db37bd89d7c6" prot="public" virt="virtual"><scope>tblink_rpc::InterfaceTypeRgy</scope><name>setImplFactory</name></member>
+      <member refid="classtblink__rpc_1_1InterfaceTypeRgy_1a91ec22bbe0c393628d28dda498396670" prot="public" virt="virtual"><scope>tblink_rpc::InterfaceTypeRgy</scope><name>setMirrorImplFactory</name></member>
+      <member refid="classtblink__rpc_1_1InterfaceTypeRgy_1ad627ea8264456424825acd14d1f8922b" prot="public" virt="non-virtual"><scope>tblink_rpc::InterfaceTypeRgy</scope><name>this_t</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

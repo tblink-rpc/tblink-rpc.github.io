@@ -89,6 +89,8 @@
     <innerfile refid="TransportMessageFifoThreadedEP_8h">TransportMessageFifoThreadedEP.h</innerfile>
     <innerfile refid="Type_8cpp">Type.cpp</innerfile>
     <innerfile refid="Type_8h">Type.h</innerfile>
+    <innerfile refid="TypeIfc_8cpp">TypeIfc.cpp</innerfile>
+    <innerfile refid="TypeIfc_8h">TypeIfc.h</innerfile>
     <innerfile refid="TypeInt_8cpp">TypeInt.cpp</innerfile>
     <innerfile refid="TypeInt_8h">TypeInt.h</innerfile>
     <innerfile refid="TypeMap_8cpp">TypeMap.cpp</innerfile>

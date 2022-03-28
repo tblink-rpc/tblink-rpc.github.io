@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1767" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1767" bodyend="1770"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1979" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1979" bodyend="1982"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -41,7 +41,7 @@
         <link refid="classtblink__rpc_1_1ITbLinkListener"/>
       </node>
     </inheritancegraph>
-    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1762" column="22" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1762" bodyend="1772"/>
+    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="1974" column="22" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="1974" bodyend="1984"/>
     <listofallmembers>
       <member refid="classtblink__rpc_1_1ITbLinkListener_1a685af5c481e50d2873fb8e8b4321913d" prot="public" virt="virtual"><scope>tblink_rpc::ITbLinkListener</scope><name>notify</name></member>
     </listofallmembers>

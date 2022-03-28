@@ -10,10 +10,11 @@
     <includedby refid="Type_8h" local="yes">/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/Type.h</includedby>
     <includedby refid="IMethodType_8h" local="yes">/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IMethodType.h</includedby>
     <includedby refid="IMethodTypeBuilder_8h" local="yes">/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IMethodTypeBuilder.h</includedby>
+    <includedby refid="IParamDecl_8h" local="yes">/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IParamDecl.h</includedby>
+    <includedby refid="ITypeIfc_8h" local="yes">/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ITypeIfc.h</includedby>
     <includedby refid="ITypeInt_8h" local="yes">/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ITypeInt.h</includedby>
     <includedby refid="ITypeMap_8h" local="yes">/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ITypeMap.h</includedby>
     <includedby refid="ITypeVec_8h" local="yes">/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ITypeVec.h</includedby>
-    <includedby refid="IParamDecl_8h" local="yes">/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IParamDecl.h</includedby>
     <incdepgraph>
       <node id="2">
         <label>functional</label>
@@ -39,7 +40,7 @@
       <node id="32">
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IInterfaceInst.h</label>
         <link refid="IInterfaceInst_8h_source"/>
-        <childnode refid="14" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="17" relation="include">
         </childnode>
@@ -53,6 +54,8 @@
       <node id="17">
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceInstBase.h</label>
         <link refid="InterfaceInstBase_8h_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
         <childnode refid="18" relation="include">
         </childnode>
         <childnode refid="15" relation="include">
@@ -61,6 +64,10 @@
       <node id="33">
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl/src/InvokeInfoDpi.h</label>
         <link refid="InvokeInfoDpi_8h_source"/>
+      </node>
+      <node id="39">
+        <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TypeIfc.h</label>
+        <link refid="TypeIfc_8h_source"/>
       </node>
       <node id="23">
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeConnectSocket.h</label>
@@ -93,7 +100,7 @@
         </childnode>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="32" relation="include">
         </childnode>
@@ -102,12 +109,12 @@
         <childnode refid="33" relation="include">
         </childnode>
       </node>
-      <node id="39">
+      <node id="43">
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ITypeVec.h</label>
         <link refid="ITypeVec_8h_source"/>
-        <childnode refid="40" relation="include">
+        <childnode refid="44" relation="include">
         </childnode>
-        <childnode refid="37" relation="include">
+        <childnode refid="40" relation="include">
         </childnode>
       </node>
       <node id="25">
@@ -120,7 +127,7 @@
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeRegistration.h</label>
         <link refid="LaunchTypeRegistration_8h_source"/>
       </node>
-      <node id="40">
+      <node id="44">
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TypeVec.h</label>
         <link refid="TypeVec_8h_source"/>
       </node>
@@ -128,6 +135,8 @@
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h</label>
         <link refid="InterfaceType_8h_source"/>
         <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
@@ -171,9 +180,11 @@
         </childnode>
         <childnode refid="38" relation="include">
         </childnode>
-        <childnode refid="39" relation="include">
-        </childnode>
         <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
         </childnode>
       </node>
       <node id="10">
@@ -191,7 +202,7 @@
       <node id="16">
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IEndpoint.h</label>
         <link refid="IEndpoint_8h_source"/>
-        <childnode refid="14" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="17" relation="include">
         </childnode>
@@ -209,12 +220,12 @@
       <node id="34">
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IInterfaceTypeBuilder.h</label>
         <link refid="IInterfaceTypeBuilder_8h_source"/>
-        <childnode refid="9" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
       </node>
-      <node id="9">
+      <node id="13">
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceTypeBuilder.h</label>
         <link refid="InterfaceTypeBuilder_8h_source"/>
       </node>
@@ -234,9 +245,11 @@
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeNativeLoopback.h</label>
         <link refid="LaunchTypeNativeLoopback_8h_source"/>
       </node>
-      <node id="14">
+      <node id="9">
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointBase.h</label>
         <link refid="EndpointBase_8h_source"/>
+        <childnode refid="10" relation="include">
+        </childnode>
       </node>
       <node id="18">
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceInstMsgTransport.h</label>
@@ -250,13 +263,21 @@
         <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="42">
+      <node id="37">
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/ParamDecl.h</label>
         <link refid="ParamDecl_8h_source"/>
       </node>
       <node id="26">
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypePythonSocket.h</label>
         <link refid="LaunchTypePythonSocket_8h_source"/>
+      </node>
+      <node id="38">
+        <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ITypeIfc.h</label>
+        <link refid="ITypeIfc_8h_source"/>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
       </node>
       <node id="5">
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/TypeInt.h</label>
@@ -284,18 +305,18 @@
         <childnode refid="22" relation="include">
         </childnode>
       </node>
-      <node id="37">
+      <node id="40">
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ITypeFactory.h</label>
         <link refid="ITypeFactory_8h_source"/>
         <childnode refid="34" relation="include">
         </childnode>
       </node>
-      <node id="41">
+      <node id="36">
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IParamDecl.h</label>
         <link refid="IParamDecl_8h_source"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="42" relation="include">
+        <childnode refid="37" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
@@ -303,17 +324,17 @@
       <node id="35">
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IMethodTypeBuilder.h</label>
         <link refid="IMethodTypeBuilder_8h_source"/>
-        <childnode refid="9" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="34" relation="include">
         </childnode>
       </node>
-      <node id="13">
+      <node id="14">
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IInterfaceType.h</label>
         <link refid="IInterfaceType_8h_source"/>
-        <childnode refid="14" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
@@ -324,20 +345,20 @@
         <childnode refid="32" relation="include">
         </childnode>
       </node>
-      <node id="36">
+      <node id="41">
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ITypeInt.h</label>
         <link refid="ITypeInt_8h_source"/>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="37" relation="include">
+        <childnode refid="40" relation="include">
         </childnode>
       </node>
-      <node id="38">
+      <node id="42">
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/ITypeMap.h</label>
         <link refid="ITypeMap_8h_source"/>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="37" relation="include">
+        <childnode refid="40" relation="include">
         </childnode>
       </node>
       <node id="31">
@@ -370,34 +391,35 @@
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/>TypeE<sp/>{</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>Bool,</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>Int,</highlight></codeline>
-<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>Map,</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>Str,</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>Vec</highlight></codeline>
-<codeline lineno="21"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>Ifc,</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>Int,</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>Map,</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>Str,</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>Vec</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">IType;</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::unique_ptr&lt;IType&gt;<sp/>ITypeUP;</highlight></codeline>
-<codeline lineno="26" refid="classtblink__rpc__core_1_1IType" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classtblink__rpc__core_1_1IType" kindref="compound">IType</ref><sp/>{</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~<ref refid="classtblink__rpc__core_1_1IType" kindref="compound">IType</ref>()<sp/>{<sp/>}</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>TypeE<sp/>kind()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">IType;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::unique_ptr&lt;IType&gt;<sp/>ITypeUP;</highlight></codeline>
+<codeline lineno="27" refid="classtblink__rpc__core_1_1IType" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classtblink__rpc__core_1_1IType" kindref="compound">IType</ref><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~<ref refid="classtblink__rpc__core_1_1IType" kindref="compound">IType</ref>()<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>TypeE<sp/>kind()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">std<sp/>{</highlight></codeline>
-<codeline lineno="39" refid="structstd_1_1hash_3_01tblink__rpc__core_1_1TypeE_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;<sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">hash&lt;tblink_rpc_core::TypeE&gt;<sp/>{</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>operator()(tblink_rpc_core::TypeE<sp/>x)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::hash&lt;int&gt;()(</highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(x));</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="43"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">std<sp/>{</highlight></codeline>
+<codeline lineno="40" refid="structstd_1_1hash_3_01tblink__rpc__core_1_1TypeE_01_4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;<sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">hash&lt;tblink_rpc_core::TypeE&gt;<sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>operator()(tblink_rpc_core::TypeE<sp/>x)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::hash&lt;int&gt;()(</highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(x));</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IType.h"/>
   </compounddef>

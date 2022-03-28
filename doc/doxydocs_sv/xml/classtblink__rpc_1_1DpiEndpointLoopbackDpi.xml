@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="4169" column="2" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="4169" bodyend="4171"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="4578" column="2" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="4578" bodyend="4580"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc_1_1DpiEndpointLoopbackDpi_1a7e94cbc0bdf204c83f3ec5a1127aa0ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>task</type>
@@ -37,7 +37,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="4174" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="4174" bodyend="4183"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="4583" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="4583" bodyend="4592"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="4185" column="32" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="4185" bodyend="4195"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="4594" column="32" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="4594" bodyend="4604"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -119,7 +119,7 @@
         <link refid="classtblink__rpc_1_1IEndpoint"/>
       </node>
     </collaborationgraph>
-    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="4166" column="48" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="4166" bodyend="4197"/>
+    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="4575" column="48" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="4575" bodyend="4606"/>
     <listofallmembers>
       <member refid="classtblink__rpc_1_1DpiEndpoint_1a21bfbeedec4aea9dd8d6b87606460295" prot="public" virt="virtual"><scope>tblink_rpc::DpiEndpointLoopbackDpi</scope><name>addListener</name></member>
       <member refid="classtblink__rpc_1_1IEndpoint_1a489fb8d28419c7dbcd27eb1f0a98fe8da09aec55b69ce9e1424487d8446a2f9dc" prot="public" virt="non-virtual"><scope>tblink_rpc::DpiEndpointLoopbackDpi</scope><name>Automatic</name></member>
@@ -130,7 +130,7 @@
       <member refid="classtblink__rpc_1_1IEndpoint_1a27a23baecfc154e89cb7e2cd2d7597cc" prot="public" virt="non-virtual"><scope>tblink_rpc::DpiEndpointLoopbackDpi</scope><name>comm_state_e</name></member>
       <member refid="classtblink__rpc_1_1DpiEndpoint_1af1eea43609bdf7877db962f105ed9222" prot="public" virt="virtual"><scope>tblink_rpc::DpiEndpointLoopbackDpi</scope><name>connect_complete</name></member>
       <member refid="classtblink__rpc_1_1DpiEndpoint_1a5de0a9338fab79367c785633616c0bd7" prot="public" virt="virtual"><scope>tblink_rpc::DpiEndpointLoopbackDpi</scope><name>defineInterfaceInst</name></member>
-      <member refid="classtblink__rpc_1_1DpiEndpoint_1a7c1b84a856c3ac101c797f6630fc0374" prot="public" virt="virtual"><scope>tblink_rpc::DpiEndpointLoopbackDpi</scope><name>defineInterfaceType</name></member>
+      <member refid="classtblink__rpc_1_1DpiEndpoint_1a57a4a4bfc61a0738b4a0969f3c6f6b76" prot="public" virt="virtual"><scope>tblink_rpc::DpiEndpointLoopbackDpi</scope><name>defineInterfaceType</name></member>
       <member refid="classtblink__rpc_1_1IEndpoint_1a489fb8d28419c7dbcd27eb1f0a98fe8daf6635b31a81ebbbbb8f3a992625bddf5" prot="public" virt="non-virtual"><scope>tblink_rpc::DpiEndpointLoopbackDpi</scope><name>Explicit</name></member>
       <member refid="classtblink__rpc_1_1DpiEndpoint_1ab4d9576effa616ad97fb6f5e40579033" prot="public" virt="virtual"><scope>tblink_rpc::DpiEndpointLoopbackDpi</scope><name>findInterfaceType</name></member>
       <member refid="classtblink__rpc_1_1DpiEndpoint_1a269176ce47932f217df6885f9dc3f7cd" prot="public" virt="virtual"><scope>tblink_rpc::DpiEndpointLoopbackDpi</scope><name>getFlags</name></member>

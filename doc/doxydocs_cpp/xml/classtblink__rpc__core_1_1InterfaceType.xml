@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" line="39" column="12" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" bodystart="39" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" line="54" column="12" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" bodystart="54" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc__core_1_1InterfaceType_1ada48135b20e694afd5a3dcb2b92ca66b" prot="private" static="no" mutable="no">
         <type>std::vector&lt; IMethodTypeUP &gt;</type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" line="40" column="12" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" bodystart="40" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" line="55" column="12" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" bodystart="55" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc__core_1_1InterfaceType_1ac968ef12aaa7113a6f11a610542618e7" prot="private" static="no" mutable="no">
         <type>std::vector&lt; <ref refid="classtblink__rpc__core_1_1IMethodType" kindref="compound">IMethodType</ref> * &gt;</type>
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" line="41" column="12" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" bodystart="41" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" line="56" column="12" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" bodystart="56" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classtblink__rpc__core_1_1InterfaceType_1a5a20a895a03e251abce2d01c33ac4b2d" prot="private" static="no" mutable="no">
         <type>std::map&lt; std::string, <ref refid="classtblink__rpc__core_1_1IMethodType" kindref="compound">IMethodType</ref> * &gt;</type>
@@ -54,7 +54,33 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" line="42" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" bodystart="42" bodyend="-1"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" line="57" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtblink__rpc__core_1_1InterfaceType_1a95e4769cede8d69f661a20f16fbed56e" prot="private" static="no" mutable="no">
+        <type>IInterfaceImplFactoryUP</type>
+        <definition>IInterfaceImplFactoryUP tblink_rpc_core::InterfaceType::m_impl_f</definition>
+        <argsstring></argsstring>
+        <name>m_impl_f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" line="58" column="24" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtblink__rpc__core_1_1InterfaceType_1a11f7aa9629c7b4d0583aeed76951b77c" prot="private" static="no" mutable="no">
+        <type>IInterfaceImplFactoryUP</type>
+        <definition>IInterfaceImplFactoryUP tblink_rpc_core::InterfaceType::m_impl_mirror_f</definition>
+        <argsstring></argsstring>
+        <name>m_impl_mirror_f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" line="59" column="24" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" bodystart="59" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -73,7 +99,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" line="20" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.cpp" bodystart="12" bodyend="15"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" line="21" column="1" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.cpp" bodystart="12" bodyend="15"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1InterfaceType_1adf8dcc157c32fb0cda550e9d245f162d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type></type>
@@ -86,7 +112,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" line="22" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.cpp" bodystart="17" bodyend="19"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" line="23" column="9" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.cpp" bodystart="17" bodyend="19"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1InterfaceType_1aae24018de5bde2e6e2206c86dc70ce3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>const std::string &amp;</type>
@@ -100,7 +126,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" line="24" column="27" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" bodystart="24" bodyend="26"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" line="25" column="27" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" bodystart="25" bodyend="27"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1InterfaceType_1ace3283e2055e2e7225391a7f949b61f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>const std::vector&lt; <ref refid="classtblink__rpc__core_1_1IMethodType" kindref="compound">IMethodType</ref> * &gt; &amp;</type>
@@ -114,7 +140,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" line="28" column="27" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" bodystart="28" bodyend="30"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" line="29" column="27" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" bodystart="29" bodyend="31"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1InterfaceType_1a9cf25a9a4b743e360a02b7fa93cfe236" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -131,7 +157,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" line="32" column="6" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.cpp" bodystart="21" bodyend="27"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" line="33" column="6" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.cpp" bodystart="21" bodyend="27"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc__core_1_1InterfaceType_1a2fb0ee2b4715610d934ce2c9e9c0c448" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type><ref refid="classtblink__rpc__core_1_1IMethodType" kindref="compound">IMethodType</ref> *</type>
@@ -149,7 +175,67 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" line="34" column="13" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.cpp" bodystart="29" bodyend="37"/>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" line="35" column="13" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.cpp" bodystart="29" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1InterfaceType_1a953c84d74e0634363f4ffb6f17421b82" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtblink__rpc__core_1_1IInterfaceImplFactory" kindref="compound">IInterfaceImplFactory</ref> *</type>
+        <definition>IInterfaceImplFactory* tblink_rpc_core::InterfaceType::impl_f</definition>
+        <argsstring>() const</argsstring>
+        <name>impl_f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" line="37" column="23" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1InterfaceType_1acda7d6fbabddca9d5382d822dfee7662" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void tblink_rpc_core::InterfaceType::impl_f</definition>
+        <argsstring>(IInterfaceImplFactory *i)</argsstring>
+        <name>impl_f</name>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1IInterfaceImplFactory" kindref="compound">IInterfaceImplFactory</ref> *</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" line="39" column="6" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" bodystart="39" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1InterfaceType_1a0d3efbfe8fa158d2a969dfd3951b4a64" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtblink__rpc__core_1_1IInterfaceImplFactory" kindref="compound">IInterfaceImplFactory</ref> *</type>
+        <definition>IInterfaceImplFactory* tblink_rpc_core::InterfaceType::impl_mirror_f</definition>
+        <argsstring>() const</argsstring>
+        <name>impl_mirror_f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" line="43" column="23" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" bodystart="43" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc__core_1_1InterfaceType_1adc16c0a1c3137436af9e58fe801c9d82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void tblink_rpc_core::InterfaceType::impl_mirror_f</definition>
+        <argsstring>(IInterfaceImplFactory *i)</argsstring>
+        <name>impl_mirror_f</name>
+        <param>
+          <type><ref refid="classtblink__rpc__core_1_1IInterfaceImplFactory" kindref="compound">IInterfaceImplFactory</ref> *</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" line="47" column="6" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" bodystart="47" bodyend="49"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -180,11 +266,17 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" line="18" column="42" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" bodystart="18" bodyend="44"/>
+    <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" line="19" column="42" bodyfile="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceType.h" bodystart="19" bodyend="61"/>
     <listofallmembers>
       <member refid="classtblink__rpc__core_1_1InterfaceType_1a9cf25a9a4b743e360a02b7fa93cfe236" prot="public" virt="non-virtual"><scope>tblink_rpc_core::InterfaceType</scope><name>addMethod</name></member>
       <member refid="classtblink__rpc__core_1_1InterfaceType_1a2fb0ee2b4715610d934ce2c9e9c0c448" prot="public" virt="virtual"><scope>tblink_rpc_core::InterfaceType</scope><name>findMethod</name></member>
+      <member refid="classtblink__rpc__core_1_1InterfaceType_1a953c84d74e0634363f4ffb6f17421b82" prot="public" virt="non-virtual"><scope>tblink_rpc_core::InterfaceType</scope><name>impl_f</name></member>
+      <member refid="classtblink__rpc__core_1_1InterfaceType_1acda7d6fbabddca9d5382d822dfee7662" prot="public" virt="non-virtual"><scope>tblink_rpc_core::InterfaceType</scope><name>impl_f</name></member>
+      <member refid="classtblink__rpc__core_1_1InterfaceType_1a0d3efbfe8fa158d2a969dfd3951b4a64" prot="public" virt="non-virtual"><scope>tblink_rpc_core::InterfaceType</scope><name>impl_mirror_f</name></member>
+      <member refid="classtblink__rpc__core_1_1InterfaceType_1adc16c0a1c3137436af9e58fe801c9d82" prot="public" virt="non-virtual"><scope>tblink_rpc_core::InterfaceType</scope><name>impl_mirror_f</name></member>
       <member refid="classtblink__rpc__core_1_1InterfaceType_1ae3188c8ce6c1b41237a4d2088dc0dfa6" prot="public" virt="non-virtual"><scope>tblink_rpc_core::InterfaceType</scope><name>InterfaceType</name></member>
+      <member refid="classtblink__rpc__core_1_1InterfaceType_1a95e4769cede8d69f661a20f16fbed56e" prot="private" virt="non-virtual"><scope>tblink_rpc_core::InterfaceType</scope><name>m_impl_f</name></member>
+      <member refid="classtblink__rpc__core_1_1InterfaceType_1a11f7aa9629c7b4d0583aeed76951b77c" prot="private" virt="non-virtual"><scope>tblink_rpc_core::InterfaceType</scope><name>m_impl_mirror_f</name></member>
       <member refid="classtblink__rpc__core_1_1InterfaceType_1ada48135b20e694afd5a3dcb2b92ca66b" prot="private" virt="non-virtual"><scope>tblink_rpc_core::InterfaceType</scope><name>m_methods</name></member>
       <member refid="classtblink__rpc__core_1_1InterfaceType_1a5a20a895a03e251abce2d01c33ac4b2d" prot="private" virt="non-virtual"><scope>tblink_rpc_core::InterfaceType</scope><name>m_methods_m</name></member>
       <member refid="classtblink__rpc__core_1_1InterfaceType_1ac968ef12aaa7113a6f11a610542618e7" prot="private" virt="non-virtual"><scope>tblink_rpc_core::InterfaceType</scope><name>m_methods_p</name></member>

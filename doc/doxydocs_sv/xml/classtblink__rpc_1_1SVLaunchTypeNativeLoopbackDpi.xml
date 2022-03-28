@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6793" column="17" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6793" bodyend="6795"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="7299" column="17" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="7299" bodyend="7301"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc_1_1SVLaunchTypeNativeLoopbackDpi_1a58179571fd1b1a64581b4acf2dae7c05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type><ref refid="classtblink__rpc_1_1IEndpoint" kindref="compound">IEndpoint</ref></type>
@@ -42,7 +42,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6797" column="20" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6797" bodyend="6834"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="7303" column="20" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="7303" bodyend="7340"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc_1_1SVLaunchTypeNativeLoopbackDpi_1ad6135f4f435fea28617f36c6e3362d48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type><ref refid="classtblink__rpc_1_1ILaunchParams" kindref="compound">ILaunchParams</ref></type>
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6837" column="24" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6837" bodyend="6840"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="7343" column="24" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="7343" bodyend="7346"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -89,7 +89,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="6788" column="55" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="6788" bodyend="6841"/>
+    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="7294" column="55" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="7294" bodyend="7347"/>
     <listofallmembers>
       <member refid="classtblink__rpc_1_1SVLaunchTypeNativeLoopbackDpi_1a58179571fd1b1a64581b4acf2dae7c05" prot="public" virt="virtual"><scope>tblink_rpc::SVLaunchTypeNativeLoopbackDpi</scope><name>launch</name></member>
       <member refid="classtblink__rpc_1_1SVLaunchTypeNativeLoopbackDpi_1a20b3d24cc7a8de89e97e5a88c751db3a" prot="public" virt="virtual"><scope>tblink_rpc::SVLaunchTypeNativeLoopbackDpi</scope><name>name</name></member>

@@ -110,6 +110,7 @@
     <listofallmembers>
       <member refid="classtblink__rpc__core_1_1IInterfaceTypeBuilder_1a01fa88256ef4cad056f21bf9dda6b5d0" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::IInterfaceTypeBuilder</scope><name>add_method</name></member>
       <member refid="classtblink__rpc__core_1_1ITypeFactory_1a53f04cf0d1d60e95e7c70c67309443e2" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::IInterfaceTypeBuilder</scope><name>mkTypeBool</name></member>
+      <member refid="classtblink__rpc__core_1_1ITypeFactory_1a27f015fccb921444c0079301cf065609" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::IInterfaceTypeBuilder</scope><name>mkTypeIfc</name></member>
       <member refid="classtblink__rpc__core_1_1ITypeFactory_1a16baea2159e1d0eb25789fe8c1d1b460" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::IInterfaceTypeBuilder</scope><name>mkTypeInt</name></member>
       <member refid="classtblink__rpc__core_1_1ITypeFactory_1acafb769fa99360b64b81e05c10b39551" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::IInterfaceTypeBuilder</scope><name>mkTypeMap</name></member>
       <member refid="classtblink__rpc__core_1_1ITypeFactory_1a9d45df9ca2d323613f279909d3440126" prot="public" virt="pure-virtual"><scope>tblink_rpc_core::IInterfaceTypeBuilder</scope><name>mkTypeStr</name></member>

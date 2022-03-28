@@ -7,8 +7,8 @@
     <includes refid="IEndpointListener_8h" local="yes">tblink_rpc/IEndpointListener.h</includes>
     <includes refid="IEndpointServices_8h" local="yes">tblink_rpc/IEndpointServices.h</includes>
     <includes refid="IInterfaceImpl_8h" local="yes">tblink_rpc/IInterfaceImpl.h</includes>
+    <includes refid="IInterfaceImplFactory_8h" local="yes">tblink_rpc/IInterfaceImplFactory.h</includes>
     <includes refid="IInterfaceInst_8h" local="yes">tblink_rpc/IInterfaceInst.h</includes>
-    <includes refid="IInterfaceInstFactory_8h" local="yes">tblink_rpc/IInterfaceInstFactory.h</includes>
     <includes refid="IInterfaceType_8h" local="yes">tblink_rpc/IInterfaceType.h</includes>
     <includes refid="IInterfaceTypeBuilder_8h" local="yes">tblink_rpc/IInterfaceTypeBuilder.h</includes>
     <includedby refid="EndpointBase_8h" local="yes">/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointBase.h</includedby>
@@ -19,7 +19,7 @@
     <includedby refid="tblink__rpc_8h" local="yes">/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/tblink_rpc.h</includedby>
     <includedby refid="ILaunch_8h" local="yes">/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-hdl/src/ILaunch.h</includedby>
     <incdepgraph>
-      <node id="11">
+      <node id="12">
         <label>tblink_rpc/IInterfaceInst.h</label>
         <link refid="IInterfaceInst_8h_source"/>
         <childnode refid="2" relation="include">
@@ -28,25 +28,33 @@
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
         <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="17" relation="include">
         </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
       </node>
-      <node id="19">
+      <node id="20">
         <label>tblink_rpc/IParamValBool.h</label>
         <link refid="IParamValBool_8h_source"/>
-        <childnode refid="18" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
       </node>
       <node id="2">
         <label>functional</label>
       </node>
-      <node id="18">
+      <node id="11">
+        <label>tblink_rpc/IInterfaceImplFactory.h</label>
+        <link refid="IInterfaceImplFactory_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
         <label>IParamVal.h</label>
         <link refid="IParamVal_8h_source"/>
         <childnode refid="5" relation="include">
@@ -55,16 +63,16 @@
       <node id="8">
         <label>stdint.h</label>
       </node>
-      <node id="13">
+      <node id="14">
         <label>IMethodType.h</label>
         <link refid="IMethodType_8h_source"/>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
         <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
         </childnode>
       </node>
       <node id="7">
@@ -77,10 +85,10 @@
         <childnode refid="9" relation="include">
         </childnode>
       </node>
-      <node id="30">
-        <label>ITypeVec.h</label>
+      <node id="31">
+        <label>tblink_rpc/ITypeVec.h</label>
         <link refid="ITypeVec_8h_source"/>
-        <childnode refid="15" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -94,21 +102,15 @@
         <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="21">
+      <node id="22">
         <label>tblink_rpc/IParamValMap.h</label>
         <link refid="IParamValMap_8h_source"/>
-        <childnode refid="22" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-      </node>
-      <node id="24">
-        <label>tblink_rpc/IInterfaceInstFactory.h</label>
-        <link refid="IInterfaceInstFactory_8h_source"/>
-        <childnode refid="3" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
       </node>
-      <node id="15">
+      <node id="16">
         <label>tblink_rpc/IType.h</label>
         <link refid="IType_8h_source"/>
         <childnode refid="2" relation="include">
@@ -118,10 +120,10 @@
         <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="20">
+      <node id="21">
         <label>tblink_rpc/IParamValInt.h</label>
         <link refid="IParamValInt_8h_source"/>
-        <childnode refid="18" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -139,9 +141,9 @@
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
-        </childnode>
         <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="25" relation="include">
         </childnode>
@@ -149,7 +151,7 @@
       <node id="25">
         <label>tblink_rpc/IInterfaceTypeBuilder.h</label>
         <link refid="IInterfaceTypeBuilder_8h_source"/>
-        <childnode refid="13" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="26" relation="include">
         </childnode>
@@ -160,33 +162,33 @@
         <label>tblink_rpc/IEndpointEvent.h</label>
         <link refid="IEndpointEvent_8h_source"/>
       </node>
-      <node id="17">
+      <node id="18">
         <label>IParamValVec.h</label>
         <link refid="IParamValVec_8h_source"/>
-        <childnode refid="18" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
       </node>
-      <node id="16">
+      <node id="17">
         <label>IParamValFactory.h</label>
         <link refid="IParamValFactory_8h_source"/>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
         <childnode refid="20" relation="include">
         </childnode>
         <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="23" relation="include">
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
         </childnode>
       </node>
       <node id="9">
         <label>vector</label>
       </node>
-      <node id="23">
+      <node id="24">
         <label>tblink_rpc/IParamValStr.h</label>
         <link refid="IParamValStr_8h_source"/>
-        <childnode refid="18" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
       </node>
       <node id="4">
@@ -199,7 +201,13 @@
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="22">
+      <node id="28">
+        <label>tblink_rpc/ITypeIfc.h</label>
+        <link refid="ITypeIfc_8h_source"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
         <label>set</label>
       </node>
       <node id="27">
@@ -211,13 +219,15 @@
         </childnode>
         <childnode refid="30" relation="include">
         </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
       </node>
-      <node id="14">
+      <node id="15">
         <label>tblink_rpc/IParamDecl.h</label>
         <link refid="IParamDecl_8h_source"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
       </node>
       <node id="26">
@@ -225,38 +235,40 @@
         <link refid="IMethodTypeBuilder_8h_source"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
       </node>
       <node id="5">
         <label>memory</label>
       </node>
-      <node id="12">
+      <node id="13">
         <label>IInterfaceType.h</label>
         <link refid="IInterfaceType_8h_source"/>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-      </node>
-      <node id="28">
-        <label>ITypeInt.h</label>
-        <link refid="ITypeInt_8h_source"/>
-        <childnode refid="15" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
       </node>
       <node id="29">
-        <label>ITypeMap.h</label>
+        <label>tblink_rpc/ITypeInt.h</label>
+        <link refid="ITypeInt_8h_source"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>tblink_rpc/ITypeMap.h</label>
         <link refid="ITypeMap_8h_source"/>
-        <childnode refid="15" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="3">
+      <node id="6">
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceInstBase.h</label>
         <link refid="InterfaceInstBase_8h_source"/>
-        <childnode refid="4" relation="include">
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
@@ -295,7 +307,7 @@
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeRegistration.h</label>
         <link refid="LaunchTypeRegistration_8h_source"/>
       </node>
-      <node id="6">
+      <node id="4">
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointLoopback.h</label>
         <link refid="EndpointLoopback_8h_source"/>
       </node>
@@ -317,12 +329,12 @@
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypeConnectNativeLoopback.h</label>
         <link refid="LaunchTypeConnectNativeLoopback_8h_source"/>
       </node>
-      <node id="5">
+      <node id="3">
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgBase.h</label>
         <link refid="EndpointMsgBase_8h_source"/>
-        <childnode refid="6" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="20">
@@ -334,9 +346,9 @@
         <link refid="IEndpoint_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
@@ -347,7 +359,7 @@
         <childnode refid="21" relation="include">
         </childnode>
       </node>
-      <node id="7">
+      <node id="5">
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointMsgTransport.h</label>
         <link refid="EndpointMsgTransport_8h_source"/>
       </node>
@@ -358,11 +370,13 @@
       <node id="2">
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/EndpointBase.h</label>
         <link refid="EndpointBase_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
       </node>
-      <node id="4">
+      <node id="7">
         <label>/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceInstMsgTransport.h</label>
         <link refid="InterfaceInstMsgTransport_8h_source"/>
-        <childnode refid="5" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
       </node>
       <node id="16">
@@ -405,138 +419,148 @@
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;functional&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//#include<sp/>&quot;IType.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//#include<sp/>&quot;ITypeBuilder.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;tblink_rpc/IEndpointListener.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;tblink_rpc/IEndpointServices.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;tblink_rpc/IInterfaceImpl.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;tblink_rpc/IInterfaceInst.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;tblink_rpc/IInterfaceInstFactory.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;tblink_rpc/IInterfaceType.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;tblink_rpc/IInterfaceTypeBuilder.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">tblink_rpc_core<sp/>{</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>time_cb_f=std::function&lt;void()&gt;;</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/>IEndpointFlags<sp/>{</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>Empty<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0,</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>Claimed<sp/><sp/><sp/><sp/><sp/>=<sp/>(1<sp/>&lt;&lt;<sp/>0),</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>LoopbackPri<sp/>=<sp/>(1<sp/>&lt;&lt;<sp/>1),</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>LoopbackSec<sp/>=<sp/>(1<sp/>&lt;&lt;<sp/>2)</highlight></codeline>
-<codeline lineno="30"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>IEndpointFlags<sp/>operator<sp/>|(IEndpointFlags<sp/>f1,<sp/>IEndpointFlags<sp/>f2)<sp/>{</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal">IEndpointFlags</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(</highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(f1)<sp/>|<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(f2));</highlight></codeline>
-<codeline lineno="34"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>IEndpointFlags<sp/>operator<sp/>|=(IEndpointFlags<sp/>&amp;f1,<sp/>IEndpointFlags<sp/>f2)<sp/>{</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>f1<sp/>=<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal">IEndpointFlags</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(</highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(f1)<sp/>|<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(f2));</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>f1;</highlight></codeline>
-<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>operator<sp/>&amp;(IEndpointFlags<sp/>f1,<sp/>IEndpointFlags<sp/>f2)<sp/>{</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(f1)<sp/>&amp;<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(f2));</highlight></codeline>
-<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">IEndpoint;</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::unique_ptr&lt;IEndpoint&gt;<sp/>IEndpointUP;</highlight></codeline>
-<codeline lineno="47" refid="classtblink__rpc__core_1_1IEndpoint" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classtblink__rpc__core_1_1IEndpoint" kindref="compound">IEndpoint</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classtblink__rpc__core_1_1IParamValFactory" kindref="compound">IParamValFactory</ref><sp/>{</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>comm_state_e<sp/>{</highlight></codeline>
-<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Waiting,</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Released</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>comm_mode_e<sp/>{</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Automatic,</highlight></codeline>
-<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Explicit</highlight></codeline>
-<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="59"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~<ref refid="classtblink__rpc__core_1_1IEndpoint" kindref="compound">IEndpoint</ref>()<sp/>{<sp/>}</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>IEndpointFlags<sp/>getFlags()<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="63"><highlight class="normal"></highlight></codeline>
-<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setFlag(IEndpointFlags<sp/>f)<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>int32_t<sp/>init(<ref refid="classtblink__rpc__core_1_1IEndpointServices" kindref="compound">IEndpointServices</ref><sp/><sp/>*services)<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"></highlight></codeline>
-<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>int32_t<sp/>is_init()<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="69"><highlight class="normal"></highlight></codeline>
-<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>int32_t<sp/>build_complete()<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="71"><highlight class="normal"></highlight></codeline>
-<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>int32_t<sp/>is_build_complete()<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="73"><highlight class="normal"></highlight></codeline>
-<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>int32_t<sp/>connect_complete()<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>int32_t<sp/>is_connect_complete()<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="77"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classtblink__rpc__core_1_1IEndpointListener" kindref="compound">IEndpointListener</ref><sp/>*addListener(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>endpoint_ev_f<sp/>&amp;)<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="79"><highlight class="normal"></highlight></codeline>
-<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addListener(<ref refid="classtblink__rpc__core_1_1IEndpointListener" kindref="compound">IEndpointListener</ref><sp/>*l)<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="81"><highlight class="normal"></highlight></codeline>
-<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>removeListener(<ref refid="classtblink__rpc__core_1_1IEndpointListener" kindref="compound">IEndpointListener</ref><sp/>*l)<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="83"><highlight class="normal"></highlight></codeline>
-<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>shutdown()<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="85"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>comm_state_e<sp/>comm_state()<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="87"><highlight class="normal"></highlight></codeline>
-<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>update_comm_mode(comm_mode_e<sp/>m,<sp/>comm_state_e<sp/>s)<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="89"><highlight class="normal"></highlight></codeline>
-<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>intptr_t<sp/>add_time_callback(</highlight></codeline>
-<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>time,</highlight></codeline>
-<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::function&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">()&gt;<sp/><sp/><sp/><sp/><sp/>&amp;cb_f)<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="93"><highlight class="normal"></highlight></codeline>
-<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>cancel_callback(intptr_t<sp/><sp/><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="95"><highlight class="normal"></highlight></codeline>
-<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::vector&lt;std::string&gt;<sp/>args()<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="97"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>uint64_t<sp/>time()<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="99"><highlight class="normal"></highlight></codeline>
-<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>int32_t<sp/>time_precision()<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="101"><highlight class="normal"></highlight></codeline>
-<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtblink__rpc__core_1_1IEndpoint_1ac4c0ac9c0c4e3ded1975dd2306d793ef" kindref="member">notify_callback</ref>(intptr_t<sp/><sp/><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="106"><highlight class="normal"></highlight></codeline>
-<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;last_error()<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="108"><highlight class="normal"></highlight></codeline>
-<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classtblink__rpc__core_1_1IInterfaceType" kindref="compound">IInterfaceType</ref><sp/>*findInterfaceType(</highlight></codeline>
-<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;name)<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="111"><highlight class="normal"></highlight></codeline>
-<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classtblink__rpc__core_1_1IInterfaceTypeBuilder" kindref="compound">IInterfaceTypeBuilder</ref><sp/>*newInterfaceTypeBuilder(</highlight></codeline>
-<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;name)<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="114"><highlight class="normal"></highlight></codeline>
-<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classtblink__rpc__core_1_1IInterfaceType" kindref="compound">IInterfaceType</ref><sp/>*defineInterfaceType(</highlight></codeline>
-<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtblink__rpc__core_1_1IInterfaceTypeBuilder" kindref="compound">IInterfaceTypeBuilder</ref><sp/><sp/><sp/>*type,</highlight></codeline>
-<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtblink__rpc__core_1_1IInterfaceInstFactory" kindref="compound">IInterfaceInstFactory</ref><sp/><sp/><sp/>*factory)<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="118"><highlight class="normal"></highlight></codeline>
-<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classtblink__rpc__core_1_1IInterfaceInst" kindref="compound">IInterfaceInst</ref><sp/>*defineInterfaceInst(</highlight></codeline>
-<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtblink__rpc__core_1_1IInterfaceType" kindref="compound">IInterfaceType</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*type,</highlight></codeline>
-<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;inst_name,</highlight></codeline>
-<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>is_mirror,</highlight></codeline>
-<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtblink__rpc__core_1_1IInterfaceImpl" kindref="compound">IInterfaceImpl</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*impl)<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="124"><highlight class="normal"></highlight></codeline>
-<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>int32_t<sp/><ref refid="classtblink__rpc__core_1_1IEndpoint_1a719ba9218d5b663e6b7cfb04c07e3ede" kindref="member">process_one_message</ref>()<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="130"><highlight class="normal"></highlight></codeline>
-<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;IInterfaceType<sp/>*&gt;<sp/>&amp;getInterfaceTypes()<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="132"><highlight class="normal"></highlight></codeline>
-<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;IInterfaceType<sp/>*&gt;<sp/>&amp;<ref refid="classtblink__rpc__core_1_1IEndpoint_1acdfbe6669482adefb330c0debaed396c" kindref="member">getPeerInterfaceTypes</ref>()<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="138"><highlight class="normal"></highlight></codeline>
-<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;IInterfaceInst<sp/>*&gt;<sp/>&amp;getInterfaceInsts()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//#include<sp/>&quot;IType.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//#include<sp/>&quot;ITypeBuilder.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;tblink_rpc/IEndpointListener.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;tblink_rpc/IEndpointServices.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;tblink_rpc/IInterfaceImpl.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;tblink_rpc/IInterfaceImplFactory.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;tblink_rpc/IInterfaceInst.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;tblink_rpc/IInterfaceType.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;tblink_rpc/IInterfaceTypeBuilder.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">tblink_rpc_core<sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>time_cb_f=std::function&lt;void()&gt;;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/>IEndpointFlags<sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>Empty<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>Claimed<sp/><sp/><sp/><sp/><sp/>=<sp/>(1<sp/>&lt;&lt;<sp/>0),</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>LoopbackPri<sp/>=<sp/>(1<sp/>&lt;&lt;<sp/>1),</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>LoopbackSec<sp/>=<sp/>(1<sp/>&lt;&lt;<sp/>2)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>IEndpointFlags<sp/>operator<sp/>|(IEndpointFlags<sp/>f1,<sp/>IEndpointFlags<sp/>f2)<sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal">IEndpointFlags</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(</highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(f1)<sp/>|<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(f2));</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>IEndpointFlags<sp/>operator<sp/>|=(IEndpointFlags<sp/>&amp;f1,<sp/>IEndpointFlags<sp/>f2)<sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>f1<sp/>=<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal">IEndpointFlags</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(</highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(f1)<sp/>|<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(f2));</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>f1;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>operator<sp/>&amp;(IEndpointFlags<sp/>f1,<sp/>IEndpointFlags<sp/>f2)<sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(f1)<sp/>&amp;<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(f2));</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">IEndpoint;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::unique_ptr&lt;IEndpoint&gt;<sp/>IEndpointUP;</highlight></codeline>
+<codeline lineno="48" refid="classtblink__rpc__core_1_1IEndpoint" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classtblink__rpc__core_1_1IEndpoint" kindref="compound">IEndpoint</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classtblink__rpc__core_1_1IParamValFactory" kindref="compound">IParamValFactory</ref><sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>comm_state_e<sp/>{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Waiting,</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Released</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>comm_mode_e<sp/>{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Automatic,</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Explicit</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~<ref refid="classtblink__rpc__core_1_1IEndpoint" kindref="compound">IEndpoint</ref>()<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>IEndpointFlags<sp/>getFlags()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setFlag(IEndpointFlags<sp/>f)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>int32_t<sp/>init(<ref refid="classtblink__rpc__core_1_1IEndpointServices" kindref="compound">IEndpointServices</ref><sp/><sp/>*services)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>int32_t<sp/>is_init()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>int32_t<sp/>build_complete()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>int32_t<sp/>is_build_complete()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>int32_t<sp/>connect_complete()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>int32_t<sp/>is_connect_complete()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classtblink__rpc__core_1_1IEndpointListener" kindref="compound">IEndpointListener</ref><sp/>*addListener(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>endpoint_ev_f<sp/>&amp;)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addListener(<ref refid="classtblink__rpc__core_1_1IEndpointListener" kindref="compound">IEndpointListener</ref><sp/>*l)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>removeListener(<ref refid="classtblink__rpc__core_1_1IEndpointListener" kindref="compound">IEndpointListener</ref><sp/>*l)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>shutdown()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>comm_state_e<sp/>comm_state()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>update_comm_mode(comm_mode_e<sp/>m,<sp/>comm_state_e<sp/>s)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>intptr_t<sp/>add_time_callback(</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>time,</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::function&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">()&gt;<sp/><sp/><sp/><sp/><sp/>&amp;cb_f)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>cancel_callback(intptr_t<sp/><sp/><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::vector&lt;std::string&gt;<sp/>args()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>uint64_t<sp/>time()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>int32_t<sp/>time_precision()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtblink__rpc__core_1_1IEndpoint_1ac4c0ac9c0c4e3ded1975dd2306d793ef" kindref="member">notify_callback</ref>(intptr_t<sp/><sp/><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;last_error()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classtblink__rpc__core_1_1IInterfaceType" kindref="compound">IInterfaceType</ref><sp/>*findInterfaceType(</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;name)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classtblink__rpc__core_1_1IInterfaceTypeBuilder" kindref="compound">IInterfaceTypeBuilder</ref><sp/>*newInterfaceTypeBuilder(</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;name)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classtblink__rpc__core_1_1IInterfaceType" kindref="compound">IInterfaceType</ref><sp/>*defineInterfaceType(</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtblink__rpc__core_1_1IInterfaceTypeBuilder" kindref="compound">IInterfaceTypeBuilder</ref><sp/><sp/><sp/>*type,</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtblink__rpc__core_1_1IInterfaceImplFactory" kindref="compound">IInterfaceImplFactory</ref><sp/><sp/><sp/>*impl_factory,</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtblink__rpc__core_1_1IInterfaceImplFactory" kindref="compound">IInterfaceImplFactory</ref><sp/><sp/><sp/>*impl_mirror_factory)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classtblink__rpc__core_1_1IInterfaceInst" kindref="compound">IInterfaceInst</ref><sp/>*createInterfaceObj(</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtblink__rpc__core_1_1IInterfaceType" kindref="compound">IInterfaceType</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*type,</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>is_mirror,</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtblink__rpc__core_1_1IInterfaceImpl" kindref="compound">IInterfaceImpl</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*impl)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>destroyInterfaceObj(</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtblink__rpc__core_1_1IInterfaceInst" kindref="compound">IInterfaceInst</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*ifinst)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classtblink__rpc__core_1_1IInterfaceInst" kindref="compound">IInterfaceInst</ref><sp/>*defineInterfaceInst(</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtblink__rpc__core_1_1IInterfaceType" kindref="compound">IInterfaceType</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*type,</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;inst_name,</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>is_mirror,</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtblink__rpc__core_1_1IInterfaceImpl" kindref="compound">IInterfaceImpl</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*impl)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>int32_t<sp/><ref refid="classtblink__rpc__core_1_1IEndpoint_1a719ba9218d5b663e6b7cfb04c07e3ede" kindref="member">process_one_message</ref>()<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="140"><highlight class="normal"></highlight></codeline>
-<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;IInterfaceInst<sp/>*&gt;<sp/>&amp;<ref refid="classtblink__rpc__core_1_1IEndpoint_1acfc7d04d6c6de44ad0e78903092cd5d8" kindref="member">getPeerInterfaceInsts</ref>()<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="146"><highlight class="normal"></highlight></codeline>
-<codeline lineno="147"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>virtual<sp/>IInterfaceInst<sp/>*findInterfaceInst(const<sp/>std::string<sp/>&amp;name)<sp/>=<sp/>0;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;IInterfaceType<sp/>*&gt;<sp/>&amp;getInterfaceTypes()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;IInterfaceType<sp/>*&gt;<sp/>&amp;<ref refid="classtblink__rpc__core_1_1IEndpoint_1acdfbe6669482adefb330c0debaed396c" kindref="member">getPeerInterfaceTypes</ref>()<sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="148"><highlight class="normal"></highlight></codeline>
-<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO:<sp/>register<sp/>type</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-<sp/>could<sp/>have<sp/>an<sp/>object-lifetime<sp/>manager<sp/>attached</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="151"><highlight class="normal"></highlight></codeline>
-<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO:<sp/>register<sp/>static<sp/>instance</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="153"><highlight class="normal"></highlight></codeline>
-<codeline lineno="154"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="155"><highlight class="normal"></highlight></codeline>
-<codeline lineno="156"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;IInterfaceInst<sp/>*&gt;<sp/>&amp;getInterfaceInsts()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;IInterfaceInst<sp/>*&gt;<sp/>&amp;<ref refid="classtblink__rpc__core_1_1IEndpoint_1acfc7d04d6c6de44ad0e78903092cd5d8" kindref="member">getPeerInterfaceInsts</ref>()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>virtual<sp/>IInterfaceInst<sp/>*findInterfaceInst(const<sp/>std::string<sp/>&amp;name)<sp/>=<sp/>0;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO:<sp/>register<sp/>type</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-<sp/>could<sp/>have<sp/>an<sp/>object-lifetime<sp/>manager<sp/>attached</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO:<sp/>register<sp/>static<sp/>instance</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/include/tblink_rpc/IEndpoint.h"/>
   </compounddef>

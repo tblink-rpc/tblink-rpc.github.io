@@ -52,7 +52,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="394" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="394" bodyend="400"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="396" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="396" bodyend="402"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -73,7 +73,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="403" column="22" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="403" bodyend="407"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="405" column="22" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="405" bodyend="409"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -154,7 +154,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="390" column="12" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="390" bodyend="408"/>
+    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="392" column="12" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="392" bodyend="410"/>
     <listofallmembers>
       <member refid="classtblink__rpc_1_1IType_1a4fe3f25502806ac297a4328a37e05266a2461dd5013f330d6e11296c6fe177a4b" prot="public" virt="non-virtual"><scope>tblink_rpc::IType</scope><name>Bool</name></member>
       <member refid="classtblink__rpc_1_1IType_1a4fe3f25502806ac297a4328a37e05266a8b7d94c448d76ebc247824c620c47871" prot="public" virt="non-virtual"><scope>tblink_rpc::IType</scope><name>Int</name></member>

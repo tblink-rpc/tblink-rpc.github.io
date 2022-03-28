@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2336" column="8" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2336" bodyend="-1"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2549" column="8" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2549" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2339" column="2" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2339" bodyend="2341"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2552" column="2" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2552" bodyend="2554"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc_1_1DpiInterfaceInst_1aae9ef408f26f85ee470d7f9520f17d12" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -52,7 +52,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2344" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2344" bodyend="2346"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2557" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2557" bodyend="2559"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc_1_1DpiInterfaceInst_1a979dfa507358cb05e9d24d3197272aa8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type><ref refid="classtblink__rpc_1_1IInterfaceImpl" kindref="compound">IInterfaceImpl</ref></type>
@@ -66,7 +66,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2348" column="25" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2348" bodyend="2350"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2561" column="25" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2561" bodyend="2563"/>
+      </memberdef>
+      <memberdef kind="function" id="classtblink__rpc_1_1DpiInterfaceInst_1a52bc63466d2a46e502d545124bb24f9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classtblink__rpc_1_1IInterfaceType" kindref="compound">IInterfaceType</ref></type>
+        <definition>virtual IInterfaceType tblink_rpc::DpiInterfaceInst::iftype</definition>
+        <argsstring>()</argsstring>
+        <name>iftype</name>
+        <reimplements refid="classtblink__rpc_1_1IInterfaceInst_1a5b2e40ba8a37e32c8390a5649e673dd6">iftype</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2565" column="25" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2565" bodyend="2570"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc_1_1DpiInterfaceInst_1a4e7c6860059a6ebf6194aa9376427161" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type><ref refid="classtblink__rpc_1_1IEndpoint" kindref="compound">IEndpoint</ref></type>
@@ -80,7 +94,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2352" column="20" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2352" bodyend="2356"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2572" column="20" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2572" bodyend="2576"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc_1_1DpiInterfaceInst_1ac0e7183199782be52a716ef13aba1fb3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type><ref refid="classtblink__rpc_1_1IParamVal" kindref="compound">IParamVal</ref></type>
@@ -102,7 +116,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2358" column="20" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2358" bodyend="2397"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2578" column="20" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2578" bodyend="2617"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc_1_1DpiInterfaceInst_1a4393b33bfd835e72184f84ff96f5c15a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>task</type>
@@ -128,7 +142,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2399" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2399" bodyend="2406"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2619" column="14" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2619" bodyend="2667"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc_1_1DpiInterfaceInst_1a2765c515602fe66d25c03b7c0d5d6a26" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -150,7 +164,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2408" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2408" bodyend="2416"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2669" column="15" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2669" bodyend="2677"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc_1_1DpiInterfaceInst_1abf8201ce3cb6bfeebd739b7e32146e5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type><ref refid="classtblink__rpc_1_1IParamValBool" kindref="compound">IParamValBool</ref></type>
@@ -168,7 +182,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2419" column="24" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2419" bodyend="2421"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2680" column="24" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2680" bodyend="2682"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc_1_1DpiInterfaceInst_1a982591aaf9d7706d686ac8f8b03fac54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type><ref refid="classtblink__rpc_1_1IParamValInt" kindref="compound">IParamValInt</ref></type>
@@ -190,7 +204,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2423" column="23" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2423" bodyend="2436"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2684" column="23" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2684" bodyend="2697"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc_1_1DpiInterfaceInst_1aa17be207a3cd38bdad48a11a8b08c125" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type><ref refid="classtblink__rpc_1_1IParamValInt" kindref="compound">IParamValInt</ref></type>
@@ -212,7 +226,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2438" column="23" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2438" bodyend="2451"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2699" column="23" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2699" bodyend="2712"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc_1_1DpiInterfaceInst_1a6f86b4efa6351838c890fbc377c92bac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type><ref refid="classtblink__rpc_1_1IParamValMap" kindref="compound">IParamValMap</ref></type>
@@ -226,7 +240,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2453" column="23" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2453" bodyend="2459"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2714" column="23" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2714" bodyend="2720"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc_1_1DpiInterfaceInst_1a66208b9fb404b41a7cc8eaf69d2a8ffe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type><ref refid="classtblink__rpc_1_1IParamValStr" kindref="compound">IParamValStr</ref></type>
@@ -244,7 +258,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2461" column="23" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2461" bodyend="2471"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2722" column="23" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2722" bodyend="2732"/>
       </memberdef>
       <memberdef kind="function" id="classtblink__rpc_1_1DpiInterfaceInst_1a294c89e7ae9b90f308a2bd44efca519c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type><ref refid="classtblink__rpc_1_1IParamValVec" kindref="compound">IParamValVec</ref></type>
@@ -258,7 +272,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2473" column="23" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2473" bodyend="2477"/>
+        <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2734" column="23" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2734" bodyend="2738"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -291,11 +305,11 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2335" column="45" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2335" bodyend="2480"/>
+    <location file="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" line="2548" column="45" bodyfile="tblink_rpc_sv_tmp/tblink_rpc_pkg.cpp" bodystart="2548" bodyend="2741"/>
     <listofallmembers>
       <member refid="classtblink__rpc_1_1DpiInterfaceInst_1a4e7c6860059a6ebf6194aa9376427161" prot="public" virt="virtual"><scope>tblink_rpc::DpiInterfaceInst</scope><name>endpoint</name></member>
       <member refid="classtblink__rpc_1_1DpiInterfaceInst_1a979dfa507358cb05e9d24d3197272aa8" prot="public" virt="virtual"><scope>tblink_rpc::DpiInterfaceInst</scope><name>get_impl</name></member>
-      <member refid="classtblink__rpc_1_1IInterfaceInst_1a5b2e40ba8a37e32c8390a5649e673dd6" prot="public" virt="virtual"><scope>tblink_rpc::DpiInterfaceInst</scope><name>iftype</name></member>
+      <member refid="classtblink__rpc_1_1DpiInterfaceInst_1a52bc63466d2a46e502d545124bb24f9c" prot="public" virt="virtual"><scope>tblink_rpc::DpiInterfaceInst</scope><name>iftype</name></member>
       <member refid="classtblink__rpc_1_1DpiInterfaceInst_1a4393b33bfd835e72184f84ff96f5c15a" prot="public" virt="virtual"><scope>tblink_rpc::DpiInterfaceInst</scope><name>invoke_b</name></member>
       <member refid="classtblink__rpc_1_1DpiInterfaceInst_1ac0e7183199782be52a716ef13aba1fb3" prot="public" virt="virtual"><scope>tblink_rpc::DpiInterfaceInst</scope><name>invoke_nb</name></member>
       <member refid="classtblink__rpc_1_1DpiInterfaceInst_1a2765c515602fe66d25c03b7c0d5d6a26" prot="public" virt="virtual"><scope>tblink_rpc::DpiInterfaceInst</scope><name>invoke_rsp</name></member>

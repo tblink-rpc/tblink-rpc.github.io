@@ -17,7 +17,7 @@
     <includes refid="PythonApi_8h" local="yes">PythonApi.h</includes>
     <includes refid="StringUtil_8h" local="yes">StringUtil.h</includes>
     <incdepgraph>
-      <node id="25">
+      <node id="26">
         <label>tblink_rpc/IInterfaceInst.h</label>
         <link refid="IInterfaceInst_8h_source"/>
         <childnode refid="18" relation="include">
@@ -26,35 +26,43 @@
         </childnode>
         <childnode refid="24" relation="include">
         </childnode>
-        <childnode refid="26" relation="include">
-        </childnode>
         <childnode refid="27" relation="include">
         </childnode>
-        <childnode refid="30" relation="include">
+        <childnode refid="28" relation="include">
         </childnode>
         <childnode refid="31" relation="include">
         </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
       </node>
-      <node id="33">
+      <node id="34">
         <label>tblink_rpc/IParamValBool.h</label>
         <link refid="IParamValBool_8h_source"/>
-        <childnode refid="32" relation="include">
+        <childnode refid="33" relation="include">
         </childnode>
       </node>
       <node id="18">
         <label>functional</label>
       </node>
-      <node id="57">
+      <node id="58">
         <label>InterfaceInstBase.h</label>
         <link refid="InterfaceInstBase_8h_source"/>
-        <childnode refid="55" relation="include">
+        <childnode refid="56" relation="include">
         </childnode>
         <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
       </node>
-      <node id="49">
+      <node id="25">
+        <label>tblink_rpc/IInterfaceImplFactory.h</label>
+        <link refid="IInterfaceImplFactory_8h_source"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="50">
         <label>tblink_rpc/ISymFinder.h</label>
         <link refid="ISymFinder_8h_source"/>
         <childnode refid="20" relation="include">
@@ -62,7 +70,7 @@
         <childnode refid="12" relation="include">
         </childnode>
       </node>
-      <node id="32">
+      <node id="33">
         <label>IParamVal.h</label>
         <link refid="IParamVal_8h_source"/>
         <childnode refid="20" relation="include">
@@ -90,16 +98,16 @@
       <node id="4">
         <label>stdlib.h</label>
       </node>
-      <node id="27">
+      <node id="28">
         <label>IMethodType.h</label>
         <link refid="IMethodType_8h_source"/>
         <childnode refid="20" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="28" relation="include">
-        </childnode>
         <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
         </childnode>
       </node>
       <node id="10">
@@ -114,7 +122,7 @@
         <childnode refid="14" relation="include">
         </childnode>
       </node>
-      <node id="48">
+      <node id="49">
         <label>tblink_rpc/IEndpointServicesFactory.h</label>
         <link refid="IEndpointServicesFactory_8h_source"/>
         <childnode refid="20" relation="include">
@@ -133,10 +141,10 @@
       <node id="6">
         <label>poll.h</label>
       </node>
-      <node id="44">
-        <label>ITypeVec.h</label>
+      <node id="45">
+        <label>tblink_rpc/ITypeVec.h</label>
         <link refid="ITypeVec_8h_source"/>
-        <childnode refid="29" relation="include">
+        <childnode refid="30" relation="include">
         </childnode>
       </node>
       <node id="12">
@@ -145,22 +153,24 @@
       <node id="11">
         <label>map</label>
       </node>
-      <node id="45">
+      <node id="46">
         <label>LaunchTypeRegistration.h</label>
         <link refid="LaunchTypeRegistration_8h_source"/>
-        <childnode refid="46" relation="include">
+        <childnode refid="47" relation="include">
         </childnode>
       </node>
-      <node id="58">
+      <node id="59">
         <label>InterfaceType.h</label>
         <link refid="InterfaceType_8h_source"/>
         <childnode refid="11" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="26" relation="include">
-        </childnode>
         <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
         </childnode>
       </node>
       <node id="24">
@@ -171,23 +181,23 @@
         <childnode refid="23" relation="include">
         </childnode>
       </node>
-      <node id="53">
+      <node id="54">
         <label>EndpointLoopback.h</label>
         <link refid="EndpointLoopback_8h_source"/>
-        <childnode refid="54" relation="include">
+        <childnode refid="55" relation="include">
         </childnode>
-        <childnode refid="60" relation="include">
+        <childnode refid="62" relation="include">
         </childnode>
       </node>
-      <node id="35">
+      <node id="36">
         <label>tblink_rpc/IParamValMap.h</label>
         <link refid="IParamValMap_8h_source"/>
-        <childnode refid="36" relation="include">
+        <childnode refid="37" relation="include">
         </childnode>
-        <childnode refid="32" relation="include">
+        <childnode refid="33" relation="include">
         </childnode>
       </node>
-      <node id="47">
+      <node id="48">
         <label>tblink_rpc/ITbLink.h</label>
         <link refid="ITbLink_8h_source"/>
         <childnode refid="13" relation="include">
@@ -196,24 +206,18 @@
         </childnode>
         <childnode refid="22" relation="include">
         </childnode>
-        <childnode refid="48" relation="include">
+        <childnode refid="49" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="49" relation="include">
-        </childnode>
         <childnode refid="50" relation="include">
         </childnode>
-      </node>
-      <node id="38">
-        <label>tblink_rpc/IInterfaceInstFactory.h</label>
-        <link refid="IInterfaceInstFactory_8h_source"/>
-        <childnode refid="12" relation="include">
+        <childnode refid="51" relation="include">
         </childnode>
       </node>
-      <node id="29">
+      <node id="30">
         <label>tblink_rpc/IType.h</label>
         <link refid="IType_8h_source"/>
         <childnode refid="18" relation="include">
@@ -223,24 +227,26 @@
         <childnode refid="23" relation="include">
         </childnode>
       </node>
-      <node id="54">
+      <node id="55">
         <label>EndpointMsgBase.h</label>
         <link refid="EndpointMsgBase_8h_source"/>
         <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="55" relation="include">
+        <childnode refid="56" relation="include">
         </childnode>
         <childnode refid="23" relation="include">
         </childnode>
-        <childnode refid="56" relation="include">
+        <childnode refid="57" relation="include">
         </childnode>
-        <childnode refid="58" relation="include">
+        <childnode refid="60" relation="include">
         </childnode>
-        <childnode refid="32" relation="include">
+        <childnode refid="59" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
         </childnode>
         <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="59" relation="include">
+        <childnode refid="61" relation="include">
         </childnode>
         <childnode refid="19" relation="include">
         </childnode>
@@ -270,32 +276,32 @@
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="45" relation="include">
+        <childnode refid="46" relation="include">
         </childnode>
-        <childnode refid="53" relation="include">
+        <childnode refid="54" relation="include">
         </childnode>
-        <childnode refid="61" relation="include">
+        <childnode refid="63" relation="include">
         </childnode>
-        <childnode refid="62" relation="include">
+        <childnode refid="64" relation="include">
         </childnode>
       </node>
-      <node id="52">
+      <node id="53">
         <label>DynSymFinder.h</label>
         <link refid="DynSymFinder_8h_source"/>
         <childnode refid="12" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="49" relation="include">
+        <childnode refid="50" relation="include">
         </childnode>
       </node>
       <node id="5">
         <label>string.h</label>
       </node>
-      <node id="34">
+      <node id="35">
         <label>tblink_rpc/IParamValInt.h</label>
         <link refid="IParamValInt_8h_source"/>
-        <childnode refid="32" relation="include">
+        <childnode refid="33" relation="include">
         </childnode>
       </node>
       <node id="17">
@@ -313,21 +319,21 @@
         </childnode>
         <childnode refid="25" relation="include">
         </childnode>
-        <childnode refid="38" relation="include">
-        </childnode>
         <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
         </childnode>
         <childnode refid="39" relation="include">
         </childnode>
       </node>
-      <node id="60">
+      <node id="62">
         <label>tblink_rpc/IEndpointLoopback.h</label>
         <link refid="IEndpointLoopback_8h_source"/>
       </node>
       <node id="39">
         <label>tblink_rpc/IInterfaceTypeBuilder.h</label>
         <link refid="IInterfaceTypeBuilder_8h_source"/>
-        <childnode refid="27" relation="include">
+        <childnode refid="28" relation="include">
         </childnode>
         <childnode refid="40" relation="include">
         </childnode>
@@ -338,36 +344,36 @@
         <label>tblink_rpc/IEndpointEvent.h</label>
         <link refid="IEndpointEvent_8h_source"/>
       </node>
-      <node id="31">
+      <node id="32">
         <label>IParamValVec.h</label>
         <link refid="IParamValVec_8h_source"/>
-        <childnode refid="32" relation="include">
+        <childnode refid="33" relation="include">
         </childnode>
       </node>
       <node id="7">
         <label>unistd.h</label>
       </node>
-      <node id="30">
+      <node id="31">
         <label>IParamValFactory.h</label>
         <link refid="IParamValFactory_8h_source"/>
-        <childnode refid="31" relation="include">
-        </childnode>
-        <childnode refid="33" relation="include">
+        <childnode refid="32" relation="include">
         </childnode>
         <childnode refid="34" relation="include">
         </childnode>
         <childnode refid="35" relation="include">
         </childnode>
-        <childnode refid="37" relation="include">
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
         </childnode>
       </node>
       <node id="13">
         <label>vector</label>
       </node>
-      <node id="37">
+      <node id="38">
         <label>tblink_rpc/IParamValStr.h</label>
         <link refid="IParamValStr_8h_source"/>
-        <childnode refid="32" relation="include">
+        <childnode refid="33" relation="include">
         </childnode>
       </node>
       <node id="9">
@@ -394,13 +400,33 @@
         <childnode refid="13" relation="include">
         </childnode>
       </node>
-      <node id="56">
-        <label>InterfaceInstMsgTransport.h</label>
-        <link refid="InterfaceInstMsgTransport_8h_source"/>
-        <childnode refid="57" relation="include">
+      <node id="57">
+        <label>EndpointBase.h</label>
+        <link refid="EndpointBase_8h_source"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
         </childnode>
       </node>
-      <node id="61">
+      <node id="60">
+        <label>InterfaceInstMsgTransport.h</label>
+        <link refid="InterfaceInstMsgTransport_8h_source"/>
+        <childnode refid="58" relation="include">
+        </childnode>
+      </node>
+      <node id="63">
         <label>PythonApi.h</label>
         <link refid="PythonApi_8h_source"/>
         <childnode refid="23" relation="include">
@@ -411,7 +437,7 @@
       <node id="8">
         <label>sys/wait.h</label>
       </node>
-      <node id="59">
+      <node id="61">
         <label>tblink_rpc/IEndpointMsg.h</label>
         <link refid="IEndpointMsg_8h_source"/>
         <childnode refid="18" relation="include">
@@ -420,24 +446,30 @@
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="35" relation="include">
+        <childnode refid="36" relation="include">
         </childnode>
       </node>
       <node id="2">
         <label>spawn.h</label>
       </node>
-      <node id="55">
+      <node id="56">
         <label>unordered_map</label>
       </node>
-      <node id="50">
+      <node id="51">
         <label>tblink_rpc/ITbLinkListener.h</label>
         <link refid="ITbLinkListener_8h_source"/>
         <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="51" relation="include">
+        <childnode refid="52" relation="include">
         </childnode>
       </node>
-      <node id="51">
+      <node id="42">
+        <label>tblink_rpc/ITypeIfc.h</label>
+        <link refid="ITypeIfc_8h_source"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="52">
         <label>tblink_rpc/ITbLinkEvent.h</label>
         <link refid="ITbLinkEvent_8h_source"/>
       </node>
@@ -447,19 +479,19 @@
         <childnode refid="16" relation="include">
         </childnode>
       </node>
-      <node id="36">
+      <node id="37">
         <label>set</label>
       </node>
-      <node id="46">
+      <node id="47">
         <label>TbLink.h</label>
         <link refid="TbLink_8h_source"/>
         <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="47" relation="include">
+        <childnode refid="48" relation="include">
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="52" relation="include">
+        <childnode refid="53" relation="include">
         </childnode>
       </node>
       <node id="41">
@@ -471,19 +503,21 @@
         </childnode>
         <childnode refid="44" relation="include">
         </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
       </node>
-      <node id="28">
+      <node id="29">
         <label>tblink_rpc/IParamDecl.h</label>
         <link refid="IParamDecl_8h_source"/>
         <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="29" relation="include">
+        <childnode refid="30" relation="include">
         </childnode>
       </node>
       <node id="3">
         <label>stdio.h</label>
       </node>
-      <node id="62">
+      <node id="64">
         <label>StringUtil.h</label>
         <link refid="StringUtil_8h_source"/>
         <childnode refid="12" relation="include">
@@ -496,30 +530,30 @@
         <link refid="IMethodTypeBuilder_8h_source"/>
         <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="29" relation="include">
+        <childnode refid="30" relation="include">
         </childnode>
       </node>
       <node id="20">
         <label>memory</label>
       </node>
-      <node id="26">
+      <node id="27">
         <label>IInterfaceType.h</label>
         <link refid="IInterfaceType_8h_source"/>
         <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="27" relation="include">
-        </childnode>
-      </node>
-      <node id="42">
-        <label>ITypeInt.h</label>
-        <link refid="ITypeInt_8h_source"/>
-        <childnode refid="29" relation="include">
+        <childnode refid="28" relation="include">
         </childnode>
       </node>
       <node id="43">
-        <label>ITypeMap.h</label>
+        <label>tblink_rpc/ITypeInt.h</label>
+        <link refid="ITypeInt_8h_source"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>tblink_rpc/ITypeMap.h</label>
         <link refid="ITypeMap_8h_source"/>
-        <childnode refid="29" relation="include">
+        <childnode refid="30" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -670,131 +704,142 @@
 <codeline lineno="88"><highlight class="normal"></highlight></codeline>
 <codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>pyapi.Py_Initialize();</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*runpy_p<sp/>=<sp/>pyapi.PyImport_ImportModule(</highlight><highlight class="stringliteral">&quot;runpy&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="91"><highlight class="normal"></highlight></codeline>
-<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*module_p<sp/>=<sp/>pyapi.PyImport_ImportModule(params-&gt;get_param(</highlight><highlight class="stringliteral">&quot;module&quot;</highlight><highlight class="normal">));</highlight></codeline>
-<codeline lineno="93"><highlight class="normal"></highlight></codeline>
-<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!module_p)<sp/>{</highlight></codeline>
-<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{0,<sp/></highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>load<sp/>entry<sp/>module&quot;</highlight><highlight class="normal">};</highlight></codeline>
-<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="97"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*run_module<sp/>=<sp/>pyapi.PyObject_GetAttrString(runpy_p,<sp/></highlight><highlight class="stringliteral">&quot;run_module&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="99"><highlight class="normal"></highlight></codeline>
-<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!run_module)<sp/>{</highlight></codeline>
-<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{0,<sp/></highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>find<sp/>run_module&quot;</highlight><highlight class="normal">};</highlight></codeline>
-<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="103"><highlight class="normal"></highlight></codeline>
-<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*args<sp/>=<sp/>pyapi.PyTuple_New(1);</highlight></codeline>
-<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>pyapi.PyTuple_SetItem(args,<sp/>0,<sp/>pyapi.PyUnicode_FromString(</highlight></codeline>
-<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params-&gt;get_param(</highlight><highlight class="stringliteral">&quot;module&quot;</highlight><highlight class="normal">)));</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="92"><highlight class="comment"><sp/><sp/><sp/><sp/>void<sp/>*sys_p<sp/>=<sp/>pyapi.PyImport_ImportModule(&quot;sys&quot;);</highlight></codeline>
+<codeline lineno="93"><highlight class="comment"></highlight></codeline>
+<codeline lineno="94"><highlight class="comment"><sp/><sp/><sp/><sp/>if<sp/>(!sys_p)<sp/>{</highlight></codeline>
+<codeline lineno="95"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>{0,<sp/>&quot;Failed<sp/>to<sp/>load<sp/>&apos;sys&apos;&quot;};</highlight></codeline>
+<codeline lineno="96"><highlight class="comment"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="97"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*module_p<sp/>=<sp/>pyapi.PyImport_ImportModule(params-&gt;get_param(</highlight><highlight class="stringliteral">&quot;module&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!module_p)<sp/>{</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>tmp[256];</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sprintf(tmp,<sp/></highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>load<sp/>entry<sp/>module<sp/>%s&quot;</highlight><highlight class="normal">,<sp/>params-&gt;get_param(</highlight><highlight class="stringliteral">&quot;module&quot;</highlight><highlight class="normal">).c_str());</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pyapi.PyErr_Print();</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{0,<sp/>tmp};</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="107"><highlight class="normal"></highlight></codeline>
-<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Setup<sp/>the<sp/>endpoint</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>EndpointLoopback<sp/>*ep<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>EndpointLoopback();</highlight></codeline>
-<codeline lineno="110"><highlight class="normal"></highlight></codeline>
-<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>tblink-&gt;addEndpoint(ep);</highlight></codeline>
-<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>tblink-&gt;addEndpoint(ep-&gt;peer());</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*run_module<sp/>=<sp/>pyapi.PyObject_GetAttrString(runpy_p,<sp/></highlight><highlight class="stringliteral">&quot;run_module&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!run_module)<sp/>{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{0,<sp/></highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>find<sp/>run_module&quot;</highlight><highlight class="normal">};</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="113"><highlight class="normal"></highlight></codeline>
-<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*call_ret<sp/>=<sp/>pyapi.PyObject_CallObject(run_module,<sp/>args);</highlight></codeline>
-<codeline lineno="115"><highlight class="normal"></highlight></codeline>
-<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!call_ret)<sp/>{</highlight></codeline>
-<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stdout,<sp/></highlight><highlight class="stringliteral">&quot;Error:<sp/>Call<sp/>failed\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="119"><highlight class="normal"></highlight></codeline>
-<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>DEBUG_LEAVE(</highlight><highlight class="stringliteral">&quot;launch&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{ep,<sp/></highlight><highlight class="stringliteral">&quot;Launch<sp/>failure&quot;</highlight><highlight class="normal">};</highlight></codeline>
-<codeline lineno="122"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*args<sp/>=<sp/>pyapi.PyTuple_New(1);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>pyapi.PyTuple_SetItem(args,<sp/>0,<sp/>pyapi.PyUnicode_FromString(</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>params-&gt;get_param(</highlight><highlight class="stringliteral">&quot;module&quot;</highlight><highlight class="normal">)));</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Setup<sp/>the<sp/>endpoint</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>EndpointLoopback<sp/>*ep<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>EndpointLoopback();</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>tblink-&gt;addEndpoint(ep);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>tblink-&gt;addEndpoint(ep-&gt;peer());</highlight></codeline>
 <codeline lineno="123"><highlight class="normal"></highlight></codeline>
-<codeline lineno="127"><highlight class="normal">ILaunchParams<sp/>*LaunchTypePythonLoopback::newLaunchParams()<sp/>{</highlight></codeline>
-<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>LaunchParams();</highlight></codeline>
-<codeline lineno="129"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*call_ret<sp/>=<sp/>pyapi.PyObject_CallObject(run_module,<sp/>args);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!call_ret)<sp/>{</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stdout,<sp/></highlight><highlight class="stringliteral">&quot;Error:<sp/>Call<sp/>failed\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{0,<sp/></highlight><highlight class="stringliteral">&quot;Failure<sp/>while<sp/>running<sp/>Python<sp/>code&quot;</highlight><highlight class="normal">};</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="130"><highlight class="normal"></highlight></codeline>
-<codeline lineno="131"><highlight class="normal">int32_t<sp/>LaunchTypePythonLoopback::get_python_info(</highlight></codeline>
-<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;python_path,</highlight></codeline>
-<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;python_dll,</highlight></codeline>
-<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;pythonpath)<sp/>{</highlight></codeline>
-<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Need<sp/>to<sp/>extract:</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>-<sp/>Python<sp/>native-library<sp/>path</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>-<sp/>Python<sp/>path<sp/>elements</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="138"><highlight class="normal"></highlight></codeline>
-<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::string&gt;<sp/>cmdline;</highlight></codeline>
-<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>pycmd;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>DEBUG_LEAVE(</highlight><highlight class="stringliteral">&quot;launch&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{ep,<sp/></highlight><highlight class="stringliteral">&quot;Launch<sp/>failure&quot;</highlight><highlight class="normal">};</highlight></codeline>
+<codeline lineno="133"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal">ILaunchParams<sp/>*LaunchTypePythonLoopback::newLaunchParams()<sp/>{</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>LaunchParams();</highlight></codeline>
+<codeline lineno="140"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="141"><highlight class="normal"></highlight></codeline>
-<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>pycmd<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;import<sp/>sysconfig,sys;<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>pycmd<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;print(&apos;LIBPATH:<sp/>%s&apos;<sp/>%<sp/>str(sysconfig.get_config_vars(&apos;LIBDIR&apos;,&apos;INSTSONAME&apos;)));<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>pycmd<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;print(&apos;PYTHONPATH:<sp/>%s&apos;<sp/>%<sp/>str(sys.path))&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="145"><highlight class="normal"></highlight></codeline>
-<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>cmdline.push_back(python_path);</highlight></codeline>
-<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>cmdline.push_back(</highlight><highlight class="stringliteral">&quot;-c&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>cmdline.push_back(pycmd);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal">int32_t<sp/>LaunchTypePythonLoopback::get_python_info(</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;python_path,</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;python_dll,</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;pythonpath)<sp/>{</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Need<sp/>to<sp/>extract:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>-<sp/>Python<sp/>native-library<sp/>path</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>-<sp/>Python<sp/>path<sp/>elements</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="149"><highlight class="normal"></highlight></codeline>
-<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>cout_pipe[2];</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;std::string&gt;<sp/>cmdline;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>pycmd;</highlight></codeline>
 <codeline lineno="152"><highlight class="normal"></highlight></codeline>
-<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pipe(cout_pipe);</highlight></codeline>
-<codeline lineno="154"><highlight class="normal"></highlight></codeline>
-<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>posix_spawn_file_actions_t<sp/>action;</highlight></codeline>
-<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>posix_spawn_file_actions_init(&amp;action);</highlight></codeline>
-<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>posix_spawn_file_actions_addclose(&amp;action,<sp/>cout_pipe[0]);</highlight></codeline>
-<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>posix_spawn_file_actions_adddup2(&amp;action,<sp/>cout_pipe[1],<sp/>1);</highlight></codeline>
-<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>posix_spawn_file_actions_addclose(&amp;action,<sp/>cout_pipe[1]);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/>pycmd<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;import<sp/>sysconfig,sys;<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/>pycmd<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;print(&apos;LIBPATH:<sp/>%s&apos;<sp/>%<sp/>str(sysconfig.get_config_vars(&apos;LIBDIR&apos;,&apos;INSTSONAME&apos;)));<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/>pycmd<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;print(&apos;PYTHONPATH:<sp/>%s&apos;<sp/>%<sp/>str(sys.path))&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/>cmdline.push_back(python_path);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/>cmdline.push_back(</highlight><highlight class="stringliteral">&quot;-c&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/>cmdline.push_back(pycmd);</highlight></codeline>
 <codeline lineno="160"><highlight class="normal"></highlight></codeline>
-<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>**args<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*[cmdline.size()+1];</highlight></codeline>
-<codeline lineno="162"><highlight class="normal"></highlight></codeline>
-<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(int32_t<sp/>i=0;<sp/>i&lt;cmdline.size();<sp/>i++)<sp/>{</highlight></codeline>
-<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>args[i]<sp/>=<sp/>strdup(cmdline.at(i).c_str());</highlight></codeline>
-<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>args[cmdline.size()]<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="167"><highlight class="normal"></highlight></codeline>
-<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pid_t<sp/>pid;</highlight></codeline>
-<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(posix_spawnp(&amp;pid,<sp/>args[0],<sp/>&amp;action,<sp/>0,<sp/>&amp;args[0],<sp/>0)<sp/>!=<sp/>0)<sp/>{</highlight></codeline>
-<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stdout,<sp/></highlight><highlight class="stringliteral">&quot;failed<sp/>to<sp/>start<sp/>python\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
-<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>cout_pipe[2];</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pipe(cout_pipe);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>posix_spawn_file_actions_t<sp/>action;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>posix_spawn_file_actions_init(&amp;action);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>posix_spawn_file_actions_addclose(&amp;action,<sp/>cout_pipe[0]);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>posix_spawn_file_actions_adddup2(&amp;action,<sp/>cout_pipe[1],<sp/>1);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>posix_spawn_file_actions_addclose(&amp;action,<sp/>cout_pipe[1]);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>**args<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*[cmdline.size()+1];</highlight></codeline>
 <codeline lineno="173"><highlight class="normal"></highlight></codeline>
-<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>close(cout_pipe[1]);</highlight></codeline>
-<codeline lineno="175"><highlight class="normal"></highlight></codeline>
-<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Now,<sp/>read<sp/>data<sp/>from<sp/>the<sp/>pipe</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/>out;</highlight></codeline>
-<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>buf[1024];</highlight></codeline>
-<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>sz;</highlight></codeline>
-<codeline lineno="180"><highlight class="normal"></highlight></codeline>
-<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>((sz=read(cout_pipe[0],<sp/>buf,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(buf)))<sp/>&gt;<sp/>0)<sp/>{</highlight></codeline>
-<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>buf[sz]<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>out<sp/>+=<sp/>buf;</highlight></codeline>
-<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="185"><highlight class="normal"></highlight></codeline>
-<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;std::string&gt;<sp/>lines<sp/>=<sp/>StringUtil::split_lines(out);</highlight></codeline>
-<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>it=lines.begin();<sp/>it!=lines.end();<sp/>it++)<sp/>{</highlight></codeline>
-<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(it-&gt;find(</highlight><highlight class="stringliteral">&quot;LIBPATH:&quot;</highlight><highlight class="normal">)<sp/>==<sp/>0)<sp/>{</highlight></codeline>
-<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int32_t<sp/>ci<sp/>=<sp/>it-&gt;find(</highlight><highlight class="charliteral">&apos;:&apos;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;std::string&gt;<sp/>elems<sp/>=<sp/>StringUtil::split_pylist(it-&gt;substr(ci+1));</highlight></codeline>
-<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>python_dll<sp/>=<sp/>elems[0]<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;/&quot;</highlight><highlight class="normal"><sp/>+<sp/>elems[1];</highlight></codeline>
-<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(it-&gt;find(</highlight><highlight class="stringliteral">&quot;PYTHONPATH:&quot;</highlight><highlight class="normal">)<sp/>==<sp/>0)<sp/>{</highlight></codeline>
-<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int32_t<sp/>ci<sp/>=<sp/>it-&gt;find(</highlight><highlight class="charliteral">&apos;:&apos;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;std::string&gt;<sp/>elems<sp/>=<sp/>StringUtil::split_pylist(it-&gt;substr(ci+1));</highlight></codeline>
-<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>eit=elems.begin();<sp/>eit!=elems.end();<sp/>eit++)<sp/>{</highlight></codeline>
-<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(*eit<sp/>!=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
-<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pythonpath.size()<sp/>&gt;<sp/>0<sp/>&amp;&amp;<sp/>pythonpath.at(pythonpath.size()-1)<sp/>!=<sp/></highlight><highlight class="charliteral">&apos;:&apos;</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
-<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pythonpath<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;:&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pythonpath<sp/>+=<sp/>*eit;</highlight></codeline>
-<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="205"><highlight class="normal"></highlight></codeline>
-<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stdout,<sp/></highlight><highlight class="stringliteral">&quot;python_dll:<sp/>%s\n&quot;</highlight><highlight class="normal">,<sp/>python_dll.c_str());</highlight></codeline>
-<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stdout,<sp/></highlight><highlight class="stringliteral">&quot;pythonpath:<sp/>%s\n&quot;</highlight><highlight class="normal">,<sp/>pythonpath.c_str());</highlight></codeline>
-<codeline lineno="208"><highlight class="normal"></highlight></codeline>
-<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int32_t<sp/>exit_code;</highlight></codeline>
-<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>waitpid(pid,<sp/>&amp;exit_code,<sp/>0);</highlight></codeline>
-<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="212"><highlight class="normal"></highlight></codeline>
-<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
-<codeline lineno="214"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="215"><highlight class="normal"></highlight></codeline>
-<codeline lineno="216"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>LaunchTypeRegistration&lt;LaunchTypePythonLoopback&gt;<sp/>m_registration;</highlight></codeline>
-<codeline lineno="217"><highlight class="normal"></highlight></codeline>
-<codeline lineno="218"><highlight class="normal">}<sp/></highlight><highlight class="comment">/*<sp/>namespace<sp/>tblink_rpc_core<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(int32_t<sp/>i=0;<sp/>i&lt;cmdline.size();<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>args[i]<sp/>=<sp/>strdup(cmdline.at(i).c_str());</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>args[cmdline.size()]<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pid_t<sp/>pid;</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(posix_spawnp(&amp;pid,<sp/>args[0],<sp/>&amp;action,<sp/>0,<sp/>&amp;args[0],<sp/>0)<sp/>!=<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stdout,<sp/></highlight><highlight class="stringliteral">&quot;failed<sp/>to<sp/>start<sp/>python\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>close(cout_pipe[1]);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Now,<sp/>read<sp/>data<sp/>from<sp/>the<sp/>pipe</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/>out;</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>buf[1024];</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>sz;</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>((sz=read(cout_pipe[0],<sp/>buf,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(buf)))<sp/>&gt;<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>buf[sz]<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>out<sp/>+=<sp/>buf;</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;std::string&gt;<sp/>lines<sp/>=<sp/>StringUtil::split_lines(out);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>it=lines.begin();<sp/>it!=lines.end();<sp/>it++)<sp/>{</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(it-&gt;find(</highlight><highlight class="stringliteral">&quot;LIBPATH:&quot;</highlight><highlight class="normal">)<sp/>==<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int32_t<sp/>ci<sp/>=<sp/>it-&gt;find(</highlight><highlight class="charliteral">&apos;:&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;std::string&gt;<sp/>elems<sp/>=<sp/>StringUtil::split_pylist(it-&gt;substr(ci+1));</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>python_dll<sp/>=<sp/>elems[0]<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;/&quot;</highlight><highlight class="normal"><sp/>+<sp/>elems[1];</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(it-&gt;find(</highlight><highlight class="stringliteral">&quot;PYTHONPATH:&quot;</highlight><highlight class="normal">)<sp/>==<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int32_t<sp/>ci<sp/>=<sp/>it-&gt;find(</highlight><highlight class="charliteral">&apos;:&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;std::string&gt;<sp/>elems<sp/>=<sp/>StringUtil::split_pylist(it-&gt;substr(ci+1));</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>eit=elems.begin();<sp/>eit!=elems.end();<sp/>eit++)<sp/>{</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(*eit<sp/>!=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pythonpath.size()<sp/>&gt;<sp/>0<sp/>&amp;&amp;<sp/>pythonpath.at(pythonpath.size()-1)<sp/>!=<sp/></highlight><highlight class="charliteral">&apos;:&apos;</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pythonpath<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;:&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pythonpath<sp/>+=<sp/>*eit;</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stdout,<sp/></highlight><highlight class="stringliteral">&quot;python_dll:<sp/>%s\n&quot;</highlight><highlight class="normal">,<sp/>python_dll.c_str());</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stdout,<sp/></highlight><highlight class="stringliteral">&quot;pythonpath:<sp/>%s\n&quot;</highlight><highlight class="normal">,<sp/>pythonpath.c_str());</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int32_t<sp/>exit_code;</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>waitpid(pid,<sp/>&amp;exit_code,<sp/>0);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="225"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>LaunchTypeRegistration&lt;LaunchTypePythonLoopback&gt;<sp/>m_registration;</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="normal">}<sp/></highlight><highlight class="comment">/*<sp/>namespace<sp/>tblink_rpc_core<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/LaunchTypePythonLoopback.cpp"/>
   </compounddef>

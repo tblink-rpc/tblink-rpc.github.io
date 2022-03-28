@@ -13,6 +13,14 @@
       <node id="12">
         <label>functional</label>
       </node>
+      <node id="14">
+        <label>tblink_rpc/IInterfaceImplFactory.h</label>
+        <link refid="IInterfaceImplFactory_8h_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
       <node id="13">
         <label>stdint.h</label>
       </node>
@@ -28,8 +36,8 @@
         <childnode refid="11" relation="include">
         </childnode>
       </node>
-      <node id="19">
-        <label>ITypeVec.h</label>
+      <node id="21">
+        <label>tblink_rpc/ITypeVec.h</label>
         <link refid="ITypeVec_8h_source"/>
         <childnode refid="11" relation="include">
         </childnode>
@@ -40,10 +48,10 @@
       <node id="4">
         <label>map</label>
       </node>
-      <node id="25">
+      <node id="27">
         <label>TypeVec.h</label>
         <link refid="TypeVec_8h_source"/>
-        <childnode refid="19" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -57,6 +65,8 @@
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
       </node>
       <node id="11">
         <label>tblink_rpc/IType.h</label>
@@ -68,14 +78,14 @@
         <childnode refid="13" relation="include">
         </childnode>
       </node>
-      <node id="14">
+      <node id="15">
         <label>tblink_rpc/IInterfaceTypeBuilder.h</label>
         <link refid="IInterfaceTypeBuilder_8h_source"/>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
         <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
         </childnode>
       </node>
       <node id="5">
@@ -86,12 +96,12 @@
         <link refid="InterfaceTypeBuilder_8h_source"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
         <childnode refid="15" relation="include">
         </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
       </node>
-      <node id="22">
+      <node id="24">
         <label>Type.h</label>
         <link refid="Type_8h_source"/>
         <childnode refid="11" relation="include">
@@ -102,10 +112,6 @@
         <link refid="InterfaceTypeBuilder_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
         <childnode refid="22" relation="include">
         </childnode>
         <childnode refid="23" relation="include">
@@ -114,8 +120,12 @@
         </childnode>
         <childnode refid="25" relation="include">
         </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
       </node>
-      <node id="20">
+      <node id="22">
         <label>MethodType.h</label>
         <link refid="MethodType_8h_source"/>
         <childnode refid="7" relation="include">
@@ -125,40 +135,48 @@
         <childnode refid="11" relation="include">
         </childnode>
       </node>
-      <node id="23">
+      <node id="18">
+        <label>tblink_rpc/ITypeIfc.h</label>
+        <link refid="ITypeIfc_8h_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
         <label>TypeInt.h</label>
         <link refid="TypeInt_8h_source"/>
-        <childnode refid="17" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
       </node>
-      <node id="24">
+      <node id="26">
         <label>TypeMap.h</label>
         <link refid="TypeMap_8h_source"/>
-        <childnode refid="18" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
       </node>
-      <node id="21">
+      <node id="23">
         <label>MethodTypeBuilder.h</label>
         <link refid="MethodTypeBuilder_8h_source"/>
-        <childnode refid="15" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
       </node>
-      <node id="16">
+      <node id="17">
         <label>ITypeFactory.h</label>
         <link refid="ITypeFactory_8h_source"/>
-        <childnode refid="17" relation="include">
-        </childnode>
         <childnode refid="18" relation="include">
         </childnode>
         <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
         </childnode>
       </node>
       <node id="9">
@@ -169,7 +187,7 @@
         <childnode refid="11" relation="include">
         </childnode>
       </node>
-      <node id="15">
+      <node id="16">
         <label>IMethodTypeBuilder.h</label>
         <link refid="IMethodTypeBuilder_8h_source"/>
         <childnode refid="10" relation="include">
@@ -188,14 +206,14 @@
         <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="17">
-        <label>ITypeInt.h</label>
+      <node id="19">
+        <label>tblink_rpc/ITypeInt.h</label>
         <link refid="ITypeInt_8h_source"/>
         <childnode refid="11" relation="include">
         </childnode>
       </node>
-      <node id="18">
-        <label>ITypeMap.h</label>
+      <node id="20">
+        <label>tblink_rpc/ITypeMap.h</label>
         <link refid="ITypeMap_8h_source"/>
         <childnode refid="11" relation="include">
         </childnode>
@@ -266,29 +284,36 @@
 <codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Type(TypeE::Bool);</highlight></codeline>
 <codeline lineno="58"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60"><highlight class="normal">ITypeInt<sp/>*InterfaceTypeBuilder::mkTypeInt(</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>is_signed,</highlight></codeline>
-<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int32_t<sp/><sp/><sp/><sp/><sp/>width)<sp/>{</highlight></codeline>
-<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>TypeInt(is_signed,<sp/>width);</highlight></codeline>
-<codeline lineno="64"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66"><highlight class="normal">ITypeMap<sp/>*InterfaceTypeBuilder::mkTypeMap(</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IType<sp/><sp/><sp/><sp/><sp/><sp/><sp/>*key_t,</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IType<sp/><sp/><sp/><sp/><sp/><sp/><sp/>*elem_t)<sp/>{</highlight></codeline>
-<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>TypeMap(key_t,<sp/>elem_t);</highlight></codeline>
-<codeline lineno="70"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="71"><highlight class="normal"></highlight></codeline>
-<codeline lineno="72"><highlight class="normal">IType<sp/>*InterfaceTypeBuilder::mkTypeStr()<sp/>{</highlight></codeline>
-<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Type(TypeE::Str);</highlight></codeline>
-<codeline lineno="74"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="76"><highlight class="normal">ITypeVec<sp/>*InterfaceTypeBuilder::mkTypeVec(</highlight></codeline>
-<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IType<sp/><sp/><sp/><sp/><sp/><sp/><sp/>*elem_t)<sp/>{</highlight></codeline>
-<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
-<codeline lineno="79"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="80"><highlight class="normal"></highlight></codeline>
-<codeline lineno="81"><highlight class="normal"></highlight></codeline>
-<codeline lineno="82"><highlight class="normal">}<sp/></highlight><highlight class="comment">/*<sp/>namespace<sp/>tblink_rpc_core<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal">ITypeIfc<sp/>*InterfaceTypeBuilder::mkTypeIfc(</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/><sp/><sp/>&amp;name,</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>is_mirror)<sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>fprintf(stdout,<sp/></highlight><highlight class="stringliteral">&quot;TODO:<sp/>InterfaceTypeBuilder::mkTypeIfc\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal">ITypeInt<sp/>*InterfaceTypeBuilder::mkTypeInt(</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>is_signed,</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int32_t<sp/><sp/><sp/><sp/><sp/>width)<sp/>{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>TypeInt(is_signed,<sp/>width);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal">ITypeMap<sp/>*InterfaceTypeBuilder::mkTypeMap(</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IType<sp/><sp/><sp/><sp/><sp/><sp/><sp/>*key_t,</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IType<sp/><sp/><sp/><sp/><sp/><sp/><sp/>*elem_t)<sp/>{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>TypeMap(key_t,<sp/>elem_t);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal">IType<sp/>*InterfaceTypeBuilder::mkTypeStr()<sp/>{</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Type(TypeE::Str);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal">ITypeVec<sp/>*InterfaceTypeBuilder::mkTypeVec(</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IType<sp/><sp/><sp/><sp/><sp/><sp/><sp/>*elem_t)<sp/>{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal">}<sp/></highlight><highlight class="comment">/*<sp/>namespace<sp/>tblink_rpc_core<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/tblink-rpc.github.io/tblink-rpc.github.io/packages/tblink-rpc-core/cpp/InterfaceTypeBuilder.cpp"/>
   </compounddef>
